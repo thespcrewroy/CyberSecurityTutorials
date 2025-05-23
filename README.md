@@ -1,2 +1,9 @@
-# CyberSecurityTutorials
-A comprehensive repository of all my notes and write ups pertaining to the complex field of cybersecurity.
+# CyberSecurity Tutorials
+
+## AI in CyberSecurity
+* 🧙 Deepfakes
+
+## Authenticaation
+* ✍️ 2FA/MFA (Multi-Factor Authentication)
+* 🫆 Biometrics
+* ✍️ CRA (Challenge-Response Authentication)
