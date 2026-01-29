@@ -1,4 +1,4 @@
-# CyberSecurity Tutorials
+# Cybersecurity Tutorials
 
 ## AI in CyberSecurity
 * 🧙 Deepfakes
