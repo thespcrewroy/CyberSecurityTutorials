@@ -9,4 +9,4 @@
 * ✍️ CRA (Challenge-Response Authentication)
 
 ## Networking
-* RTL-SDR (Realtek Software Defined Radio)
+* 📴 RTL-SDR (Realtek Software Defined Radio)
