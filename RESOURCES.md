@@ -1,4 +1,4 @@
-# Cybersecurity Tutorials
+# Cybersecurity Resources
 
 ## UGA Courses (Cybersecurity Theory)
 * Cyber Security (CSCI 4250)
