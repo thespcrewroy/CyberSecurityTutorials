@@ -46,6 +46,10 @@
         * MalDoc
 * Password Cracking
 * Scanning & Reconaissance
+* Schools of Hacking
+    * Black Hat
+    * Gray Hat
+    * White Hat
 * SIM Swapping
 * Spoofing
     * CDP (Cisco Discovery Protocl) Spoofing
