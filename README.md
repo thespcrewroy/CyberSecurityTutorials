@@ -37,4 +37,3 @@
     * Zero Knowledge Proof
 ## Specialized Tools
 ## Blockchain
-## Conferences
