@@ -55,7 +55,7 @@
     * CDP (Cisco Discovery Protocl) Spoofing
 * Web Exploitation
 ## Defensive Security (Blue Team)
-## DefOffSec (Purple Team)
+## Intersectional Security (Purple Team)
 ## Computer & Digital Forensics
 * Reverse Engineering
 ## Operational Security (OppSec)
