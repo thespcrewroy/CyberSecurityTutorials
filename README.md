@@ -12,7 +12,7 @@
 * Scanning & Reconaissance
 * Web Exploitation
 ## Defensive Security (Blue Team)
-## Operational Security
+## Operational Security (OppSec)
 * Authentication
     * Exploits
         * Evil Maid Attack
