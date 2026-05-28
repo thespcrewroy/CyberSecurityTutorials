@@ -41,6 +41,17 @@
 * ISAC Certified Information Security Manager (CISM)
 * ISAC Certified Infromation Systems Auditor (CISA)
 
-
-
+## Competitions
+* CSAW (NYU)
+* Defcon
+* Hack-A-Sat
+* HacktheBox
+* Meta Hackers Cup
+* NCAE Cybergames
+* NCL (National Cyber League) Cybergames
+* PatriotCTF (GMU)
+* picoCTF (CMU)
+* PlaidCTF
+* tkCTF (GT)
+* US Cybergames
 
