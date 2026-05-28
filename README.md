@@ -4,8 +4,6 @@
 ## Cryptography
 * Alice & Bob
 * Checksum
-## Computer & Digital Forensics
-* Reverse Engineering
 ## Log Analysis
 ## Networking
 * Network Traffic Analysis
@@ -27,6 +25,8 @@
     * CDP (Cisco Discovery Protocl) Spoofing
 * Web Exploitation
 ## Defensive Security (Blue Team)
+## Computer & Digital Forensics
+* Reverse Engineering
 ## Operational Security (OppSec)
 * Authentication
     * Exploits
