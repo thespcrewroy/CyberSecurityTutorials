@@ -2,14 +2,29 @@
 
 ## Open Source Intelligence (OSINT)
 ## Cryptography
+* Alice & Bob
+* Checksum
 ## Computer & Digital Forensics
 * Reverse Engineering
 ## Log Analysis
 ## Networking
 * Network Traffic Analysis
 ## Offensive Security (Red Team)
+* Card Skimming
+* Hardware Backdoor
+* Malware
+    * Botnet
+    * Computer Virus
+    * Computer Worm
+    * Phishing
+    * Rootkit
+    * Trojans
+        * MalDoc
 * Password Cracking
 * Scanning & Reconaissance
+* SIM Swapping
+* Spoofing
+    * CDP (Cisco Discovery Protocl) Spoofing
 * Web Exploitation
 ## Defensive Security (Blue Team)
 ## Operational Security (OppSec)
@@ -35,5 +50,8 @@
     * U2F (Universal 2nd Factor)
     * ZTA (Zero Trust Architecture)
     * Zero Knowledge Proof
-## Specialized Tools
 ## Blockchain
+## Cloud Security
+* CloudFlare
+* Grype
+
