@@ -55,3 +55,10 @@
 * tkCTF (GT)
 * US Cybergames
 
+## Conferences
+* Blackhat Con
+* Blue Team Con
+* BSides
+* Defcon
+* OSDF (Open Source Digital Forensics) Conference
+* WWHF (Wild West Hacking Fest)
