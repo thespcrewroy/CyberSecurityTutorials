@@ -5,9 +5,7 @@
 * Alice & Bob
 * Checksum
 * Ciphers
-    * 
     * Asymmetric Encryption
-        * 
         * Certificate Based Encryption
             * SSL/TLS Certificate
         * Diffie-Hellman
@@ -15,7 +13,23 @@
             * Trapdoor Function
         * RSA (Rivest-Shamir-Adleman)
         * Charcode Cipher
-        * 
+        * DTMF (Dual Tone Multi-Frequency
+        * Historical Ciphers
+            * Caesar (ROT) Cipher
+            * Jefferson Cipher
+            * Scytale
+            * Rail-Fence Cipher
+            * Transposition Cipher
+            * Vigenere Cipher
+        * Morse
+        * Sign Language
+        * Symmetric Encryption
+            * AES (Advanced Encryption Standard)
+            * DES (Data Encryption Standard)
+* Cryptanalysis
+    * Side Channel Attack
+    * Bullrun Decryption Program
+ * FDE (Full Disk Encryption)
 ## Log Analysis
 ## Networking
 * Network Traffic Analysis
