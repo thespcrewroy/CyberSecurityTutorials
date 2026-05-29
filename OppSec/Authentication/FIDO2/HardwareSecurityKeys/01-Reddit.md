@@ -20,10 +20,12 @@
 * Enable AAGUID Attestation
     * Setup for specific keys
     * Set that policy to a breakglass account so they cannot add another software's passkey to the account
+    * Keep breakglass accounts protected by security keys (no NFC)
 * Keys should be kept in *parity*
     * Ensure that multiple YubiKeys are configured identically for the same accounts or services
     * Allows users to have backup keys that can be used interchangeably without losing access if one key is lost or damaged
     * Setup reminders to ensure this consistency
+* Maintain a USB-C to USB-A adapter in-case you run into hardware compatibility issues
 
 
 ## Multi-Key Setup
@@ -41,19 +43,50 @@
 ### (7) YubiKeys
 * Entire orgs manage their FIDO2 via Yubikeys for their MFA
 * The standard best for multiple user accounts or single admin accounts
-* **(3) YubiKey Security Key 5C**
-    * Keep 2 for work
-* **(2) YubiKey 5 NFC**
-    * OTP feature
-    * PIV feature
-    * Smack them against a reader and type in a PIN
-    * Overkill for normal user-use
-* **YubiKey Security Key 5C Nano**
-    * Can be stored within the laptop
-* **YubiKey 5 USB A**
-    * Keep 2 keys for personal user accounts
-    * Best for its portability to be easily locked away
-* **YubiKey 5 USB C**
+* **YubiKey 5 Series**
+    * Strong Single Factor—Passwordless: passwordless tap-n-go secure login
+    * Strong Two Factor—Authenticator: tap-n-go second factor for 2FA
+    * Strong Multi-Factor Passwordless: combines tap-n-go authentication with a PIN
+    * **(4) YubiKey 5 NFC**
+        * OTP feature
+        * PIV feature
+        * Smack them against a reader and type in a PIN
+        * Overkill for normal user-use
+    * **YubiKey 5C NFC**
+    * **YubiKey 5Ci**
+    * **(2) YubiKey 5C**
+    * **(2) YubiKey 5 Nano**
+        * Keep 2 keys for personal user accounts
+        * Best for its portability to be easily locked away
+    * **(2) YubiKey 5C Nano**
+        * Can be stored within the laptop
+* **YubiKey FIPS Series**
+    * Validated FIDO2/WebAuthn multi-protocol authenticator lineup
+    * **YubiKey 5 NFC FIPS**
+    * **YubiKey 5C NFC FIPS**
+    * **YubiKey 5Ci FIPS**
+    * **YubiKey 5C FIPS**
+    * **YubiKey 5 Nano FIPS**
+    * **YubiKey 5C Nano FIPS**
+* **YubiKey Bio Series**
+    * **YubiKey Bio - FIDO Edition**
+    * **YubiKey C Bio - FIDO Edition**
+    * **YubiKey Bio - Multi-protocol Edition**
+    * **YubiKey C Bio - Multi-protocol Edition**
+* **YubiKey Security Key Series**
+    * Protocols
+        * FIDO2/WebAuthn
+        * FIDO U2F
+    * Supports
+        * Upto 100 Passkeys
+        * Passwordless login
+        * MFA
+        * PIN-protected FIDO2 authentication
+    * **Security Key NFC**
+        * Ideal for: Google, Microsoft, GitHub, Password Managers, Modern Websites
+    * **(1) Security Key C NFC**
+        * Ideal for: Modern laptops, Android Phones, and Macbooks
+    
 
 
 ## (2) Feitian
