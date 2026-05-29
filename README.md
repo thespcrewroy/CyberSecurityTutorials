@@ -69,6 +69,7 @@
 * SIM Swapping
 * Spoofing
     * CDP (Cisco Discovery Protocl) Spoofing
+    * Biometric Spoofing
 * Web Exploitation
 
 ## Defensive Security (Blue Team)
