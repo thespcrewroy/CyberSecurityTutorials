@@ -1,4 +1,4 @@
-# Reddit Research
+# (NF) Reddit Research
 * Should be more common in business, for it is easier to add keys to the keychain than having to remember passwords
 * Biometric keys are better for multiple accounts, for it is easier to fingerprint than type a PIN multiple times a day
 * Always have a backup hardware security key
@@ -86,16 +86,17 @@
         * Ideal for: Google, Microsoft, GitHub, Password Managers, Modern Websites
     * **(1) Security Key C NFC**
         * Ideal for: Modern laptops, Android Phones, and Macbooks
-    
-
-
-## (2) Feitian
+### (2) Feitian
 * Biometric hardware security key best for managing multiple admin accounts
 * Many different styles and interfaces for FIDO2 keys
 * OTP token feature
-
-## Google Titan
+### Google Titan
 * Best for admin accounts
 
 ## Sources
 * [Fido2 Hardware Key authentication](https://www.reddit.com/r/sysadmin/comments/1srbeyj/fido2_hardware_key_authentication/)
+* [Best FIDO/FIDO2 Key](https://www.reddit.com/r/privacy/comments/1ctefsl/best_fidofido2_security_key/)
+* [Which Hardware Security Key to Choose?](Which Hardware Security Key to Choose?)
+* [I'm Thinking About Buying Physical Security Key, Any Tips?](https://www.reddit.com/r/DigitalPrivacy/comments/1plvn0d/im_thinking_about_buying_physical_security_key/)
+
+ChatGPT Info: https://chatgpt.com/c/6a19bdcf-4f20-8331-96aa-490e4367bb19
