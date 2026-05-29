@@ -43,13 +43,13 @@
 * The standard best for multiple user accounts or single admin accounts
 * **(3) YubiKey Security Key 5C**
     * Keep 2 for work
-* **YubiKey Security Key 5C Nano**
-    * Can be stored within the laptop
 * **(2) YubiKey 5 NFC**
     * OTP feature
     * PIV feature
     * Smack them against a reader and type in a PIN
     * Overkill for normal user-use
+* **YubiKey Security Key 5C Nano**
+    * Can be stored within the laptop
 * **YubiKey 5 USB A**
     * Keep 2 keys for personal user accounts
     * Best for its portability to be easily locked away
