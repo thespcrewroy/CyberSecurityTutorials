@@ -152,7 +152,6 @@
             * Relying Party (RP) ID
     * OAuth (Open Authorization)
     * OpenPGP
-    * PassKeys
     * PIV (Personal Identity Verification)
     * TOTP (Time Based One-Time Password)
     * U2F (Universal 2nd Factor)
