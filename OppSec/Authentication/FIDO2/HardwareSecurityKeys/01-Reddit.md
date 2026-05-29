@@ -54,8 +54,8 @@
         * Overkill for normal user-use
     * **YubiKey 5C NFC**
     * **YubiKey 5Ci**
-    * **(2) YubiKey 5C**
-    * **(2) YubiKey 5 Nano**
+    * **(3) YubiKey 5C**
+    * **(1) YubiKey 5 Nano**
         * Keep 2 keys for personal user accounts
         * Best for its portability to be easily locked away
     * **(2) YubiKey 5C Nano**
