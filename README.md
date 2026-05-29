@@ -1,6 +1,21 @@
 # Cyber Security Tutorials
 
 ## Open Source Intelligence (OSINT)
+* Bar Codes
+    * JAB (Just Another Barcode) Code
+    * QR codes
+* Data Brokers
+* Geolocation
+    * EXIF (Exchangeable Image File Format)
+    * Universal Transverse Mercator (UTM)
+    * World Geodetic System (WSG84)
+* OSINT Framework
+* OWASP Top 10
+* Piracy
+    * Pirate Bay
+    * Torrents
+* Private Investigators
+* Querying
 
 ## Cryptography
 * Alice & Bob
@@ -35,19 +50,47 @@
 ## Log Analysis
 
 ## Network Security
+* Bluetooth
+* Encapsulation
+* Faraday's Cage
+* Firewalls
+* IPS (Intrusion Prevention System)
+* ISP (Internet Service Providers)
+    * Starlink
+* LAN (Local Area Network)
+* MAC (Multimedia Access Control)
+* Networking Commands
 * Network Traffic Analysis
+    * Network Miner
+    * tcpdump
+    * Wireshark
+* NFC (Near-Field Communication)
+* OSI (Open Systems Interconnection) Model
+* Ports & Protocols
+* TCP/IP Model
+* Wifi
+    * PSK (Pre-Shared Key)
+    * WPA (Wifi Protected Access)
 
 ## Hardware & Infrastructure
+* GPIO Boards
 * ICS (Industrial Control System)
 * IoT (Internet of Things)
     * CCTV (Closed-Circuit Television)
         * Cameradar
  * Firmware
      * FreshTomatoes
- * Physical Firewalls
- * Routers
-     * Routersploit
- * SCADA (Supervisory Control And Data Acquisition)
+* FlipperZero
+* Physical Firewalls
+* Routers
+    * Routersploit
+* SCADA (Supervisory Control And Data Acquisition)
+* SDR (Software-Defined Radio)
+    * Directional WiFi Antenna
+        * Yagi Antenna
+    * DragonOS
+    * HackRF (Hack Radio Frequency)
+    * RTL-SDR (Realtek Software Defined Radi)
 
 ## Offensive Security (Red Team)
 * Card Skimming
@@ -92,6 +135,11 @@
 * Reverse Engineering
 
 ## Operational Security (OppSec)
+* Antivirus/Antimalware
+    * Kapersky
+    * MalwareBytes
+    * McAfee
+    * Norton
 * Authentication
     * Exploits
         * Evil Maid Attack
@@ -100,23 +148,30 @@
     * FIDO/FIDO2 (Fast Identity Online)
         * Biometrics
         * CTAP (Client to Authentication Protocol)
-        * Hardware Security Key
-            * Securing SSH Keys
-                * Non-Resident Keys
-                * Resident Keys
-                * TOFU (Trust on First Use)
-            * YubiKey
-        * Passkeys 
         * WebAuthn (Web Authentication)
             * Relying Party (RP) ID
     * OAuth (Open Authorization)
+    * OpenPGP
     * PassKeys
     * PIV (Personal Identity Verification)
     * TOTP (Time Based One-Time Password)
     * U2F (Universal 2nd Factor)
     * ZTA (Zero Trust Architecture)
     * Zero Knowledge Proof
- * Pi-Holes
+* Burner Phones
+* Case Studies
+* Compartmentalization
+* Dark Web (Tor)
+* Pi-Holes
+* Hardware Security Key 
+    * Feitian
+    * Google Titan
+    * SSH Keys
+        * Non-Resident Keys
+        * Resident Keys
+        * TOFU (Trust on First Use)
+     * YubiKey
+* Passkeys 
 
 ## Blockchain
 
