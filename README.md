@@ -60,7 +60,7 @@
     * Rootkit
     * Trojans
         * MalDoc
-* Password Cracking
+* Password Cracki
 * Scanning & Reconaissance
 * Schools of Hacking
     * Black Hat
@@ -101,7 +101,7 @@
         * Biometrics
         * CTAP (Client to Authentication Protocol)
         * Hardware Security Key
-            * SSH Keys
+            * Securing SSH Keys
                 * Non-Resident Keys
                 * Resident Keys
                 * TOFU (Trust on First Use)
