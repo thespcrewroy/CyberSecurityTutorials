@@ -1,110 +1,110 @@
 # Cyber Security Tutorials
 
 ## Open Source Intelligence (OSINT)
-- **Bar Codes**: Machine-readable visual patterns used to store data.
-    - **JAB (Just Another Barcode) Code**: A compact barcode variant for short payloads.
-    - **QR codes**: Two-dimensional codes encoding URLs and small data blocks.
-- **Data Brokers**: Firms that collect and sell personal and business data.
-- **Geolocation**: Techniques to determine physical locations from data.
-    - **EXIF (Exchangeable Image File Format)**: Metadata in images that can reveal location.
-    - **Universal Transverse Mercator (UTM)**: A grid-based geographic coordinate system.
-    - **World Geodetic System (WSG84)**: Global datum used for GPS coordinates.
-- **OSINT Framework**: A catalog of tools and methods for open-source research.
-- **OWASP Top 10**: A prioritized list of common web application security risks.
-- **Piracy**: Unauthorized copying and distribution of copyrighted content.
-    - **Pirate Bay**: A popular torrent index site for sharing files.
-    - **Torrents**: Peer-to-peer file distribution using BitTorrent protocol.
-- **Private Investigators**: Professionals who gather information discreetly.
-- **Querying**: Crafting searches to efficiently find relevant information.
-- **Search Engines**: Tools that index and retrieve web-hosted information.
-    - **Censys**: Internet-wide search engine for hosts and certificates.
-    - **Google Reverse Image Search**: Find similar images and their sources.
-    - **IoT (Internet of Things)**: Networked devices that can expose searchable data.
-        - **BinaryEdge**: IoT and internet asset scanning platform.
-        - **Insecam**: Index of unsecured CCTV streams.
-        - **Shodan**: Search engine for internet-connected devices.
-        - **ZoomEye**: Chinese internet asset search engine.
-    - **Yandex**: Russian search engine with image and web search features.
+- **Bar Codes**: machine-readable visual patterns used to store data
+    - **JAB (Just Another Barcode) Code**: a compact barcode variant for short payloads
+    - **QR codes**: two-dimensional codes encoding URLs and small data blocks
+- **Data Brokers**: firms that collect and sell personal and business data
+- **Geolocation**: techniques to determine physical locations from data
+    - **EXIF (Exchangeable Image File Format)**: metadata in images that can reveal location
+    - **Universal Transverse Mercator (UTM)**: a grid-based geographic coordinate system
+    - **World Geodetic System (WSG84)**: global datum used for GPS coordinates
+- **OSINT Framework**: a catalog of tools and methods for open-source research
+- **OWASP Top 10**: a prioritized list of common web application security risks
+- **Piracy**: unauthorized copying and distribution of copyrighted content
+    - **Pirate Bay**: a popular torrent index site for sharing files
+    - **Torrents**: peer-to-peer file distribution using BitTorrent protocol
+ - **Private Investigators**: professionals who gather information discreetly
+- **Querying**: crafting searches to efficiently find relevant information
+- **Search Engines**: tools that index and retrieve web-hosted information
+    - **Censys**: internet-wide search engine for hosts and certificates
+    - **Google Reverse Image Search**: find similar images and their sources
+    - **IoT (Internet of Things)**: networked devices that can expose searchable data
+        - **BinaryEdge**: IoT and internet asset scanning platform
+        - **Insecam**: index of unsecured CCTV streams
+        - **Shodan**: search engine for internet-connected devices
+        - **ZoomEye**: Chinese internet asset search engine
+    - **Yandex**: Russian search engine with image and web search features
 
 ## Cryptography
-- **Alice & Bob**: Placeholder names used in cryptography examples.
-- **MFA (Multi-Factor Authentication)**: Authentication using multiple credential types.
-    - **Exploits**: Attacks that bypass or weaken authentication controls.
-        - **Evil Maid Attack**: Physical attack that alters a device while unattended.
-        - **MITM (Man in the Middle Attack)**: Intercepting communication between parties.
-        - **Biometric Spoofing**: Faking biometric traits to bypass sensors.
-    - **FIDO/FIDO2 (Fast Identity Online)**: Standards for passwordless authentication.
-        - **Biometrics**: Physiological traits used for user authentication.
-        - **CTAP (Client to Authentication Protocol)**: Protocol for external authenticators.
-        - **Passkeys**: Phishing-resistant credentials replacing passwords.
-        - **WebAuthn (Web Authentication)**: Browser API for strong authentication.
-            - **Relying Party (RP) ID**: Identifier for the service using WebAuthn.
-    - **OAuth (Open Authorization)**: Protocol for delegated access to resources.
-    - **PGP (Pretty Good Privacy)**: Email encryption and signing standard.
-        - **GPA (GNU Privacy Assistant)**: GUI tool for managing PGP keys.
-        - **OpenPGP**: Interoperable standard for PGP-compatible encryption.
-    - **PIV (Personal Identity Verification)**: Smartcard standard for identity tokens.
-    - **TOTP (Time Based One-Time Password)**: Time-limited codes for authentication.
-    - **U2F (Universal 2nd Factor)**: Hardware-backed second-factor authentication standard.
-    - **ZTA (Zero Trust Architecture)**: Security model that verifies every access.
-    - **Zero Knowledge Proof**: Prove knowledge without revealing the secret.
-- **Checksum**: A small value used to detect data corruption.
-- **Ciphers**: Algorithms for encrypting or transforming data.
-    - **Asymmetric Encryption**: Public/private key cryptography for secure exchange.
-        - **Certificate Based Encryption**: Uses certificates to bind identities to keys.
-            - **SSL/TLS Certificate**: Credential used to secure web connections.
-        - **Diffie-Hellman**: Key exchange method for establishing shared secrets.
-        - **(ECC) Elliptical Curve Cryptography**: Efficient public-key crypto using curves.
-            - **Trapdoor Function**: One-way function easy to compute, hard to invert.
-        - **RSA (Rivest-Shamir-Adleman)**: Widely used public-key encryption algorithm.
-        - **Charcode Cipher**: Character-based substitution or encoding methods.
-        - **DTMF (Dual Tone Multi-Frequency)**: Tones used for telephony signaling.
-        - **Historical Ciphers**: Classical encryption methods from history.
-            - **Caesar (ROT) Cipher**: Simple letter-shift substitution cipher.
-            - **Jefferson Cipher**: Wheel-based transposition cipher.
-            - **Scytale**: Ancient transposition using a wrapped strip.
-            - **Rail-Fence Cipher**: Zigzag transposition of plaintext.
-            - **Transposition Cipher**: Rearranges characters without substitution.
-            - **Vigenere Cipher**: Polyalphabetic substitution using a keyword.
-        - **Morse**: Encoding text as sequences of dots and dashes.
-        - **Sign Language**: Visual-gestural communication system for humans.
-        - **Symmetric Encryption**: Single-key encryption for confidentiality.
-            - **AES (Advanced Encryption Standard)**: Modern symmetric cipher standard.
-            - **DES (Data Encryption Standard)**: Older symmetric cipher, now deprecated.
-- **Cryptanalysis**: Techniques to break or analyze cryptographic systems.
-    - **Side Channel Attack**: Extract secrets from physical leakages.
-    - **Bullrun Decryption Program**: Speculated agency effort to weaken crypto.
-- **FDE (Full Disk Encryption)**: Encrypting an entire storage device at rest.
+- **Alice & Bob**: placeholder names used in cryptography examples
+- **MFA (Multi-Factor Authentication)**: authentication using multiple credential types
+    - **Exploits**: attacks that bypass or weaken authentication controls
+        - **Evil Maid Attack**: physical attack that alters a device while unattended
+        - **MITM (Man in the Middle Attack)**: intercepting communication between parties
+        - **Biometric Spoofing**: faking biometric traits to bypass sensors
+    - **FIDO/FIDO2 (Fast Identity Online)**: standards for passwordless authentication
+        - **Biometrics**: physiological traits used for user authentication
+        - **CTAP (Client to Authentication Protocol)**: protocol for external authenticators
+        - **Passkeys**: phishing-resistant credentials replacing passwords
+        - **WebAuthn (Web Authentication)**: browser API for strong authentication
+            - **Relying Party (RP) ID**: identifier for the service using WebAuthn
+    - **OAuth (Open Authorization)**: protocol for delegated access to resources
+    - **PGP (Pretty Good Privacy)**: email encryption and signing standard
+        - **GPA (GNU Privacy Assistant)**: GUI tool for managing PGP keys
+        - **OpenPGP**: interoperable standard for PGP-compatible encryption
+    - **PIV (Personal Identity Verification)**: smartcard standard for identity tokens
+    - **TOTP (Time Based One-Time Password)**: time-limited codes for authentication
+    - **U2F (Universal 2nd Factor)**: hardware-backed second-factor authentication standard
+    - **ZTA (Zero Trust Architecture)**: security model that verifies every access
+    - **Zero Knowledge Proof**: prove knowledge without revealing the secret
+- **Checksum**: a small value used to detect data corruption
+- **Ciphers**: algorithms for encrypting or transforming data
+    - **Asymmetric Encryption**: public/private key cryptography for secure exchange
+        - **Certificate Based Encryption**: uses certificates to bind identities to keys
+            - **SSL/TLS Certificate**: credential used to secure web connections
+        - **Diffie-Hellman**: key exchange method for establishing shared secrets
+        - **(ECC) Elliptical Curve Cryptography**: efficient public-key crypto using curves
+            - **Trapdoor Function**: one-way function easy to compute, hard to invert
+        - **RSA (Rivest-Shamir-Adleman)**: widely used public-key encryption algorithm
+        - **Charcode Cipher**: character-based substitution or encoding methods
+        - **DTMF (Dual Tone Multi-Frequency)**: tones used for telephony signaling
+        - **Historical Ciphers**: classical encryption methods from history
+            - **Caesar (ROT) Cipher**: simple letter-shift substitution cipher
+            - **Jefferson Cipher**: wheel-based transposition cipher
+            - **Scytale**: ancient transposition using a wrapped strip
+            - **Rail-Fence Cipher**: zigzag transposition of plaintext
+            - **Transposition Cipher**: rearranges characters without substitution
+            - **Vigenere Cipher**: polyalphabetic substitution using a keyword
+        - **Morse**: encoding text as sequences of dots and dashes
+        - **Sign Language**: visual-gestural communication system for humans
+        - **Symmetric Encryption**: single-key encryption for confidentiality
+            - **AES (Advanced Encryption Standard)**: modern symmetric cipher standard
+            - **DES (Data Encryption Standard)**: older symmetric cipher, now deprecated
+- **Cryptanalysis**: techniques to break or analyze cryptographic systems
+    - **Side Channel Attack**: extract secrets from physical leakages
+    - **Bullrun Decryption Program**: speculated agency effort to weaken crypto
+- **FDE (Full Disk Encryption)**: encrypting an entire storage device at rest
 
 ## Log Analysis
 
 ## Network Security
-- **Bluetooth**: Short-range wireless communication protocol.
-- **Encapsulation**: Wrapping data with protocol headers for transport.
-- **Faraday's Cage**: Shielding to block electromagnetic signals.
-- **Firewalls**: Devices that enforce network traffic filtering rules.
-- **IPS (Intrusion Prevention System)**: Detects and blocks malicious network activity.
-- **ISP (Internet Service Providers)**: Companies that provide internet connectivity.
-    - **Starlink**: Satellite internet service provider.
-- **LAN (Local Area Network)**: Network connecting nearby devices.
-- **MAC (Multimedia Access Control)**: Likely meant MAC (Media Access Control) address.
-- **Networking Commands**: CLI tools for inspecting and managing networks.
-- **Network Traffic Analysis**: Examining packets to understand network behavior.
-    - **Network Miner**: Packet analysis and forensic tool.
-    - **tcpdump**: Command-line packet capture utility.
-    - **Wireshark**: GUI packet analyzer for network troubleshooting.
-- **NFC (Near-Field Communication)**: Short-range wireless data exchange.
-- **OSI (Open Systems Interconnection) Model**: Seven-layer conceptual networking model.
-- **Pi-Holes**: DNS-level ad and tracker blocking appliance.
-- **Ports & Protocols**: Endpoint numbers and rules for network services.
-- **Proxies**: Intermediary servers that relay network requests.
-- **TCP/IP Model**: Practical networking model used on the internet.
-- **VPN (Virtual Private Network)**: Secure tunnel for network communications.
-    - **Mullvad**: Privacy-focused VPN provider.
-    - **Wiregaurd**: Modern, fast VPN protocol.
-- **Wifi**: Wireless local area networking technology.
-    - **PSK (Pre-Shared Key)**: Shared secret used to secure Wi‑Fi.
-    - **WPA (Wifi Protected Access)**: Security standards for wireless networks.
+- **Bluetooth**: short-range wireless communication protocol
+- **Encapsulation**: wrapping data with protocol headers for transport
+- **Faraday's Cage**: shielding to block electromagnetic signals
+- **Firewalls**: devices that enforce network traffic filtering rules
+- **IPS (Intrusion Prevention System)**: detects and blocks malicious network activity
+- **ISP (Internet Service Providers)**: companies that provide internet connectivity
+    - **Starlink**: satellite internet service provider
+- **LAN (Local Area Network)**: network connecting nearby devices
+- **MAC (Multimedia Access Control)**: likely meant MAC (Media Access Control) address
+- **Networking Commands**: CLI tools for inspecting and managing networks
+- **Network Traffic Analysis**: examining packets to understand network behavior
+    - **Network Miner**: packet analysis and forensic tool
+    - **tcpdump**: command-line packet capture utility
+    - **Wireshark**: GUI packet analyzer for network troubleshooting
+- **NFC (Near-Field Communication)**: short-range wireless data exchange
+- **OSI (Open Systems Interconnection) Model**: seven-layer conceptual networking model
+- **Pi-Holes**: DNS-level ad and tracker blocking appliance
+- **Ports & Protocols**: endpoint numbers and rules for network services
+- **Proxies**: intermediary servers that relay network requests
+- **TCP/IP Model**: practical networking model used on the internet
+- **VPN (Virtual Private Network)**: secure tunnel for network communications
+    - **Mullvad**: privacy-focused VPN provider
+    - **Wiregaurd**: modern, fast VPN protocol
+- **Wifi**: wireless local area networking technology
+    - **PSK (Pre-Shared Key)**: shared secret used to secure Wi‑Fi
+    - **WPA (Wifi Protected Access)**: security standards for wireless networks
 
 ## Operating Systems
 - **Unix**: Family of multitasking, multiuser operating systems.
