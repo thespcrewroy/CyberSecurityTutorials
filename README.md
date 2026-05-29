@@ -69,7 +69,6 @@
 * SIM Swapping
 * Spoofing
     * CDP (Cisco Discovery Protocl) Spoofing
-    * Biometric Spoofing
 * Web Exploitation
 
 ## Defensive Security (Blue Team)
@@ -97,6 +96,7 @@
     * Exploits
         * Evil Maid Attack
         * MITM (Man in the Middle Attack)
+        * Biometric Spoofing
     * FIDO/FIDO2 (Fast Identity Online)
         * Biometrics
         * CTAP (Client to Authentication Protocol)
