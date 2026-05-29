@@ -131,7 +131,7 @@
     * Rootkit
     * Trojans
         * MalDoc
-* Password Cracki
+* Password Cracking
 * Scanning & Reconaissance
 * Schools of Hacking
     * Black Hat
