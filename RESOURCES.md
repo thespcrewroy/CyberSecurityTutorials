@@ -42,23 +42,37 @@
 * ISAC Certified Infromation Systems Auditor (CISA)
 
 ## Competitions
-* CSAW (NYU)
-* Defcon
-* Hack-A-Sat
-* HacktheBox
-* Meta Hackers Cup
-* NCAE Cybergames
-* NCL (National Cyber League) Cybergames
-* PatriotCTF (GMU)
-* picoCTF (CMU)
-* PlaidCTF
-* tkCTF (GT)
-* US Cybergames
+* [ASISCTF](https://asisctf.com/)
+* [CCDC](https://www.nationalccdc.org/)
+* [CSAW (NYU)](https://www.csaw.io/ctf)
+* [CyberQuest](https://uscc.cyberquests.org/)
+* [FaustCTF](https://2024.faustctf.net/)
+* [GoogleCTF](https://capturetheflag.withgoogle.com/)
+* [Hack-A-Sat](https://hackasat.com/)
+* [HacktheBox](https://www.hackthebox.com/hacker/ctf)
+* [InsomniHack](https://insomnihack.ch/)
+* [Meta Hackers Cup](https://www.facebook.com/codingcompetitions/hacker-cup)
+* [NCAE Cybergames](https://www.ncaecybergames.org/)
+* [NCL Cybergames](https://nationalcyberleague.org/)
+* [NSA Codebreaker](https://nsa-codebreaker.org/home)
+* [PatriotCTF (GMU)](https://competitivecyber.club/patriotctf/)
+* [picoCTF (CMU)](https://picoctf.org/)
+* [PlaidCTF](https://www.geeksforgeeks.org/top-cyber-hacking-competitions-capture-the-flag-ctf/)
+* [tkCTF (GT)](https://tc.gts3.org/cs6265/2024-fall/ctf.html)
+* [UCONN CyberSEED](https://career.uconn.edu/resources/cyberseed/)
+* [US Cybergames](https://www.uscybergames.com/faq)
+* [0CTF](https://ctf.0ops.sjtu.cn/)
 
 ## Conferences
-* Blackhat Con
-* Blue Team Con
-* BSides
-* Defcon
-* OSDF (Open Source Digital Forensics) Conference
-* WWHF (Wild West Hacking Fest)
+* [Blackhat Con](https://www.blackhat.com/us-24/)
+* [Blue Team Con](https://blueteamcon.com/)
+* [BSides Atlanta](https://ti.to/bsidesatl/2023)
+* [DEF CON (Defense Condition)](https://defcon.org/)
+* [OSDF (Open Source Digital Forensics) Conference](https://www.osdfcon.org/)
+* [WWHF (Wild West Hacking Fest)](https://wildwesthackinfest.com/)
+
+## Communities
+* [OWASP Atlanta](https://owasp.org/www-chapter-atlanta/)
+* Society for Cyber Security @ UGA
+* Hack Pack @ UGA
+* GreyHat @ GATech
