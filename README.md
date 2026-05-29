@@ -16,6 +16,15 @@
     * Torrents
 * Private Investigators
 * Querying
+* Search Engines
+    * Censys
+    * Google Reverse Image Search
+    * IoT (Internet of Things)
+        * BinaryEdge
+        * Insecam
+        * Shodan
+        * ZoomEye
+    * Yandex
 
 ## Cryptography
 * Alice & Bob
@@ -31,7 +40,9 @@
         * WebAuthn (Web Authentication)
             * Relying Party (RP) ID
     * OAuth (Open Authorization)
-    * OpenPGP
+    * PGP (Pretty Good Privacy)
+        * GPA (GNU Privacy Assistant)
+        * OpenPGP
     * PIV (Personal Identity Verification)
     * TOTP (Time Based One-Time Password)
     * U2F (Universal 2nd Factor)
@@ -86,10 +97,45 @@
 * OSI (Open Systems Interconnection) Model
 * Pi-Holes
 * Ports & Protocols
+* Proxies
 * TCP/IP Model
+* VPN (Virtual Private Network)
+    * Mullvad
+    * Wiregaurd
 * Wifi
     * PSK (Pre-Shared Key)
     * WPA (Wifi Protected Access)
+
+## Operating Systems
+* Unix
+    * FreeBSD
+        * HardenedBSD
+    * Linux
+        * Terminal
+            * Commands
+            * Shell Operators
+            * Shortcuts
+        * Arch Family
+            * Arch Linux 
+            * Black Arch
+        * Debian Family
+            * Kali
+            * ParrotOS
+            * SubgraphOS
+            * TailsOS
+            * Ubuntu
+                * DragonOS
+            * Whonix
+        * Fedora Family
+            * QuebesOS
+     * TempleOS
+* Virtualization
+    * Hypervisors
+        * VirtualBox
+        * VMWare
+     * WSL (Windows Subsystem for Linux)
+* Whonix
+* Wine
 
 ## Hardware & Infrastructure
 * Burner Phones
@@ -101,6 +147,7 @@
  * Firmware
      * FreshTomatoes
 * FlipperZero
+* Hardware Keyloggers
 * Hardware Security Key 
     * Feitian
     * Google Titan
@@ -124,15 +171,24 @@
 * Card Skimming
 * Hardware Backdoor
 * Malware
+    * Adware
+    * Bloatware
     * Botnet
     * Computer Virus
     * Computer Worm
     * Phishing
     * Rootkit
+    * Spyware
+        * Pegasus
+        * Keyloggers
     * Trojans
         * MalDoc
 * Password Cracking
 * Scanning & Reconaissance
+    * GreyNoise
+    * Nikto
+    * Nmap
+    * Zmap
 * Schools of Hacking
     * Black Hat
     * Gray Hat
@@ -143,6 +199,9 @@
 * Web Exploitation
 
 ## Defensive Security (Blue Team)
+* Adblock
+    * Decentraleyes
+    * Ublock Origin
 * Antivirus/Antimalware
     * Kapersky
     * MalwareBytes
@@ -158,6 +217,7 @@
     * NIST (National Institutes of Standards and Technology)
     * PCI-DSS (Payment Card Industry Data Security Standard)
     * SOC2 (System and Organization Controls)
+* Honeypots
 * SOC (Security Operations Center)
 * SIEM (Security Information and Event Management)
     * Splunk
@@ -168,10 +228,54 @@
 * Reverse Engineering
 
 ## Operational Security (OpSec)
+* Browsers
+    * Brave
+    * Firefox
+    * GNU Icecap
 * Compartmentalization
 * Dark Web (Tor)
-
+* Email
+    * Permanent
+        * ProtonMail
+        * SecureMail
+        * Tutanota
+        * Anonady
+        * GudoMail
+        * MailFence
+        * PrivateMail
+     * Temporary Mail
+         * GorillaMail
+         * Temp Mailo
+         * TempMail
+* IRC (Internet Relay Chats)
+    * Briar
+    * Element
+    * Jabber
+    * Signal
+    * Yami
+* MAC Address Randomization
+* Passwords
+    * Passphrases
+    * Password Managers
+        * Local
+            * KeePassXC
+            * Syncthing
+            * Veracrypt
+            * Microsoft Word
+         * Browser-Based
+             * Google Password Manager
+         * Cloud-Based
+             * Bitwarden
+             * Cryptomater
+             * LastPass
+* Secure Search Engines
+    * DuckDuckGo
+    * Searx
+    * StartPage
+ 
 ## Blockchain
+* Atomic Swappers
+* 
 
 ## Cloud Security
 * CloudFlare
