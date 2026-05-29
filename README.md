@@ -1,309 +1,284 @@
 # Cyber Security Tutorials
 
 ## Open Source Intelligence (OSINT)
-* Bar Codes
-    * JAB (Just Another Barcode) Code
-    * QR codes
-* Data Brokers
-* Geolocation
-    * EXIF (Exchangeable Image File Format)
-    * Universal Transverse Mercator (UTM)
-    * World Geodetic System (WSG84)
-* OSINT Framework
-* OWASP Top 10
-* Piracy
-    * Pirate Bay
-    * Torrents
-* Private Investigators
-* Querying
-* Search Engines
-    * Censys
-    * Google Reverse Image Search
-    * IoT (Internet of Things)
-        * BinaryEdge
-        * Insecam
-        * Shodan
-        * ZoomEye
-    # Cyber Security Tutorials
+- **Bar Codes**: Machine-readable visual patterns used to store data.
+    - **JAB (Just Another Barcode) Code**: A compact barcode variant for short payloads.
+    - **QR codes**: Two-dimensional codes encoding URLs and small data blocks.
+- **Data Brokers**: Firms that collect and sell personal and business data.
+- **Geolocation**: Techniques to determine physical locations from data.
+    - **EXIF (Exchangeable Image File Format)**: Metadata in images that can reveal location.
+    - **Universal Transverse Mercator (UTM)**: A grid-based geographic coordinate system.
+    - **World Geodetic System (WSG84)**: Global datum used for GPS coordinates.
+- **OSINT Framework**: A catalog of tools and methods for open-source research.
+- **OWASP Top 10**: A prioritized list of common web application security risks.
+- **Piracy**: Unauthorized copying and distribution of copyrighted content.
+    - **Pirate Bay**: A popular torrent index site for sharing files.
+    - **Torrents**: Peer-to-peer file distribution using BitTorrent protocol.
+- **Private Investigators**: Professionals who gather information discreetly.
+- **Querying**: Crafting searches to efficiently find relevant information.
+- **Search Engines**: Tools that index and retrieve web-hosted information.
+    - **Censys**: Internet-wide search engine for hosts and certificates.
+    - **Google Reverse Image Search**: Find similar images and their sources.
+    - **IoT (Internet of Things)**: Networked devices that can expose searchable data.
+        - **BinaryEdge**: IoT and internet asset scanning platform.
+        - **Insecam**: Index of unsecured CCTV streams.
+        - **Shodan**: Search engine for internet-connected devices.
+        - **ZoomEye**: Chinese internet asset search engine.
+    - **Yandex**: Russian search engine with image and web search features.
 
-    ## Open Source Intelligence (OSINT)
-    - **Bar Codes**
-        - **JAB (Just Another Barcode) Code**
-        - **QR codes**
-    - **Data Brokers**
-    - **Geolocation**
-        - **EXIF (Exchangeable Image File Format)**
-        - **Universal Transverse Mercator (UTM)**
-        - **World Geodetic System (WSG84)**
-    - **OSINT Framework**
-    - **OWASP Top 10**
-    - **Piracy**
-        - **Pirate Bay**
-        - **Torrents**
-    - **Private Investigators**
-    - **Querying**
-    - **Search Engines**
-        - **Censys**
-        - **Google Reverse Image Search**
-        - **IoT (Internet of Things)**
-            - **BinaryEdge**
-            - **Insecam**
-            - **Shodan**
-            - **ZoomEye**
-        - **Yandex**
+## Cryptography
+- **Alice & Bob**: Placeholder names used in cryptography examples.
+- **MFA (Multi-Factor Authentication)**: Authentication using multiple credential types.
+    - **Exploits**: Attacks that bypass or weaken authentication controls.
+        - **Evil Maid Attack**: Physical attack that alters a device while unattended.
+        - **MITM (Man in the Middle Attack)**: Intercepting communication between parties.
+        - **Biometric Spoofing**: Faking biometric traits to bypass sensors.
+    - **FIDO/FIDO2 (Fast Identity Online)**: Standards for passwordless authentication.
+        - **Biometrics**: Physiological traits used for user authentication.
+        - **CTAP (Client to Authentication Protocol)**: Protocol for external authenticators.
+        - **Passkeys**: Phishing-resistant credentials replacing passwords.
+        - **WebAuthn (Web Authentication)**: Browser API for strong authentication.
+            - **Relying Party (RP) ID**: Identifier for the service using WebAuthn.
+    - **OAuth (Open Authorization)**: Protocol for delegated access to resources.
+    - **PGP (Pretty Good Privacy)**: Email encryption and signing standard.
+        - **GPA (GNU Privacy Assistant)**: GUI tool for managing PGP keys.
+        - **OpenPGP**: Interoperable standard for PGP-compatible encryption.
+    - **PIV (Personal Identity Verification)**: Smartcard standard for identity tokens.
+    - **TOTP (Time Based One-Time Password)**: Time-limited codes for authentication.
+    - **U2F (Universal 2nd Factor)**: Hardware-backed second-factor authentication standard.
+    - **ZTA (Zero Trust Architecture)**: Security model that verifies every access.
+    - **Zero Knowledge Proof**: Prove knowledge without revealing the secret.
+- **Checksum**: A small value used to detect data corruption.
+- **Ciphers**: Algorithms for encrypting or transforming data.
+    - **Asymmetric Encryption**: Public/private key cryptography for secure exchange.
+        - **Certificate Based Encryption**: Uses certificates to bind identities to keys.
+            - **SSL/TLS Certificate**: Credential used to secure web connections.
+        - **Diffie-Hellman**: Key exchange method for establishing shared secrets.
+        - **(ECC) Elliptical Curve Cryptography**: Efficient public-key crypto using curves.
+            - **Trapdoor Function**: One-way function easy to compute, hard to invert.
+        - **RSA (Rivest-Shamir-Adleman)**: Widely used public-key encryption algorithm.
+        - **Charcode Cipher**: Character-based substitution or encoding methods.
+        - **DTMF (Dual Tone Multi-Frequency)**: Tones used for telephony signaling.
+        - **Historical Ciphers**: Classical encryption methods from history.
+            - **Caesar (ROT) Cipher**: Simple letter-shift substitution cipher.
+            - **Jefferson Cipher**: Wheel-based transposition cipher.
+            - **Scytale**: Ancient transposition using a wrapped strip.
+            - **Rail-Fence Cipher**: Zigzag transposition of plaintext.
+            - **Transposition Cipher**: Rearranges characters without substitution.
+            - **Vigenere Cipher**: Polyalphabetic substitution using a keyword.
+        - **Morse**: Encoding text as sequences of dots and dashes.
+        - **Sign Language**: Visual-gestural communication system for humans.
+        - **Symmetric Encryption**: Single-key encryption for confidentiality.
+            - **AES (Advanced Encryption Standard)**: Modern symmetric cipher standard.
+            - **DES (Data Encryption Standard)**: Older symmetric cipher, now deprecated.
+- **Cryptanalysis**: Techniques to break or analyze cryptographic systems.
+    - **Side Channel Attack**: Extract secrets from physical leakages.
+    - **Bullrun Decryption Program**: Speculated agency effort to weaken crypto.
+- **FDE (Full Disk Encryption)**: Encrypting an entire storage device at rest.
 
-    ## Cryptography
-    - **Alice & Bob**
-    - **MFA (Multi-Factor Authentication)**
-        - **Exploits**
-            - **Evil Maid Attack**
-            - **MITM (Man in the Middle Attack)**
-            - **Biometric Spoofing**
-        - **FIDO/FIDO2 (Fast Identity Online)**
-            - **Biometrics**
-            - **CTAP (Client to Authentication Protocol)**
-            - **Passkeys**
-            - **WebAuthn (Web Authentication)**
-                - **Relying Party (RP) ID**
-        - **OAuth (Open Authorization)**
-        - **PGP (Pretty Good Privacy)**
-            - **GPA (GNU Privacy Assistant)**
-            - **OpenPGP**
-        - **PIV (Personal Identity Verification)**
-        - **TOTP (Time Based One-Time Password)**
-        - **U2F (Universal 2nd Factor)**
-        - **ZTA (Zero Trust Architecture)**
-        - **Zero Knowledge Proof**
-    - **Checksum**
-    - **Ciphers**
-        - **Asymmetric Encryption**
-            - **Certificate Based Encryption**
-                - **SSL/TLS Certificate**
-            - **Diffie-Hellman**
-            - **(ECC) Elliptical Curve Cryptography**
-                - **Trapdoor Function**
-            - **RSA (Rivest-Shamir-Adleman)**
-            - **Charcode Cipher**
-            - **DTMF (Dual Tone Multi-Frequency**
-            - **Historical Ciphers**
-                - **Caesar (ROT) Cipher**
-                - **Jefferson Cipher**
-                - **Scytale**
-                - **Rail-Fence Cipher**
-                - **Transposition Cipher**
-                - **Vigenere Cipher**
-            - **Morse**
-            - **Sign Language**
-            - **Symmetric Encryption**
-                - **AES (Advanced Encryption Standard)**
-                - **DES (Data Encryption Standard)**
-    - **Cryptanalysis**
-        - **Side Channel Attack**
-        - **Bullrun Decryption Program**
-    - **FDE (Full Disk Encryption)**
+## Log Analysis
 
-    ## Log Analysis
+## Network Security
+- **Bluetooth**: Short-range wireless communication protocol.
+- **Encapsulation**: Wrapping data with protocol headers for transport.
+- **Faraday's Cage**: Shielding to block electromagnetic signals.
+- **Firewalls**: Devices that enforce network traffic filtering rules.
+- **IPS (Intrusion Prevention System)**: Detects and blocks malicious network activity.
+- **ISP (Internet Service Providers)**: Companies that provide internet connectivity.
+    - **Starlink**: Satellite internet service provider.
+- **LAN (Local Area Network)**: Network connecting nearby devices.
+- **MAC (Multimedia Access Control)**: Likely meant MAC (Media Access Control) address.
+- **Networking Commands**: CLI tools for inspecting and managing networks.
+- **Network Traffic Analysis**: Examining packets to understand network behavior.
+    - **Network Miner**: Packet analysis and forensic tool.
+    - **tcpdump**: Command-line packet capture utility.
+    - **Wireshark**: GUI packet analyzer for network troubleshooting.
+- **NFC (Near-Field Communication)**: Short-range wireless data exchange.
+- **OSI (Open Systems Interconnection) Model**: Seven-layer conceptual networking model.
+- **Pi-Holes**: DNS-level ad and tracker blocking appliance.
+- **Ports & Protocols**: Endpoint numbers and rules for network services.
+- **Proxies**: Intermediary servers that relay network requests.
+- **TCP/IP Model**: Practical networking model used on the internet.
+- **VPN (Virtual Private Network)**: Secure tunnel for network communications.
+    - **Mullvad**: Privacy-focused VPN provider.
+    - **Wiregaurd**: Modern, fast VPN protocol.
+- **Wifi**: Wireless local area networking technology.
+    - **PSK (Pre-Shared Key)**: Shared secret used to secure Wi‑Fi.
+    - **WPA (Wifi Protected Access)**: Security standards for wireless networks.
 
-    ## Network Security
-    - **Bluetooth**
-    - **Encapsulation**
-    - **Faraday's Cage**
-    - **Firewalls**
-    - **IPS (Intrusion Prevention System)**
-    - **ISP (Internet Service Providers)**
-        - **Starlink**
-    - **LAN (Local Area Network)**
-    - **MAC (Multimedia Access Control)**
-    - **Networking Commands**
-    - **Network Traffic Analysis**
-        - **Network Miner**
-        - **tcpdump**
-        - **Wireshark**
-    - **NFC (Near-Field Communication)**
-    - **OSI (Open Systems Interconnection) Model**
-    - **Pi-Holes**
-    - **Ports & Protocols**
-    - **Proxies**
-    - **TCP/IP Model**
-    - **VPN (Virtual Private Network)**
-        - **Mullvad**
-        - **Wiregaurd**
-    - **Wifi**
-        - **PSK (Pre-Shared Key)**
-        - **WPA (Wifi Protected Access)**
+## Operating Systems
+- **Unix**: Family of multitasking, multiuser operating systems.
+    - **FreeBSD**: Unix-like OS known for performance and licensing.
+        - **HardenedBSD**: Security-focused FreeBSD hardening project.
+    - **Linux**: Open-source Unix-like kernel used in many distros.
+        - **Terminal**: Text-based shell interface for system interaction.
+            - **Commands**: Executable operations entered in a shell.
+            - **Shell Operators**: Symbols that control shell behavior.
+            - **Shortcuts**: Key combinations for quicker navigation.
+        - **Arch Family**: Rolling-release distributions focused on simplicity.
+            - **Arch Linux**: Lightweight, user-centric Linux distribution.
+            - **Black Arch**: Security-focused Arch-based distribution.
+        - **Debian Family**: Stable distributions derived from Debian.
+            - **Kali**: Penetration-testing focused Debian derivative.
+            - **ParrotOS**: Security-oriented Debian-based distro.
+            - **SubgraphOS**: Hardening-focused privacy distro.
+            - **TailsOS**: Live OS designed for anonymity.
+            - **Ubuntu**: Popular, user-friendly Debian derivative.
+                - **DragonOS**: SDR-focused Linux distribution.
+            - **Whonix**: Privacy OS using Tor isolation.
+        - **Fedora Family**
+            - **QuebesOS**
+     - **TempleOS**
+- **Virtualization**
+    - **Hypervisors**
+        - **VirtualBox**
+        - **VMWare**
+     - **WSL (Windows Subsystem for Linux)**
+- **Whonix**
+- **Wine**
 
-    ## Operating Systems
-    - **Unix**
-        - **FreeBSD**
-            - **HardenedBSD**
-        - **Linux**
-            - **Terminal**
-                - **Commands**
-                - **Shell Operators**
-                - **Shortcuts**
-            - **Arch Family**
-                - **Arch Linux** 
-                - **Black Arch**
-            - **Debian Family**
-                - **Kali**
-                - **ParrotOS**
-                - **SubgraphOS**
-                - **TailsOS**
-                - **Ubuntu**
-                    - **DragonOS**
-                - **Whonix**
-            - **Fedora Family**
-                - **QuebesOS**
-         - **TempleOS**
-    - **Virtualization**
-        - **Hypervisors**
-            - **VirtualBox**
-            - **VMWare**
-         - **WSL (Windows Subsystem for Linux)**
-    - **Whonix**
-    - **Wine**
+## Hardware & Infrastructure
+- **Burner Phones**
+- **GPIO Boards**
+- **ICS (Industrial Control System)**
+- **IoT (Internet of Things)**
+    - **CCTV (Closed-Circuit Television)**
+        - **Cameradar**
+ - **Firmware**
+     - **FreshTomatoes**
+- **FlipperZero**
+- **Hardware Backdoor**
+- **Hardware Keyloggers**
+- **Hardware Security Key** 
+    - **Feitian**
+    - **Google Titan**
+    - **SSH Keys**
+        - **Non-Resident Keys**
+        - **Resident Keys**
+        - **TOFU (Trust on First Use)**
+     - **YubiKey**
+- **Physical Firewalls**
+- **Routers**
+    - **Routersploit**
+- **SCADA (Supervisory Control And Data Acquisition)**
+- **SDR (Software-Defined Radio)**
+    - **Directional WiFi Antenna**
+        - **Yagi Antenna**
+    - **DragonOS**
+    - **HackRF (Hack Radio Frequency)**
+    - **RTL-SDR (Realtek Software Defined Radi)**
 
-    ## Hardware & Infrastructure
-    - **Burner Phones**
-    - **GPIO Boards**
-    - **ICS (Industrial Control System)**
-    - **IoT (Internet of Things)**
-        - **CCTV (Closed-Circuit Television)**
-            - **Cameradar**
-     - **Firmware**
-         - **FreshTomatoes**
-    - **FlipperZero**
-    - **Hardware Backdoor**
-    - **Hardware Keyloggers**
-    - **Hardware Security Key** 
-        - **Feitian**
-        - **Google Titan**
-        - **SSH Keys**
-            - **Non-Resident Keys**
-            - **Resident Keys**
-            - **TOFU (Trust on First Use)**
-         - **YubiKey**
-    - **Physical Firewalls**
-    - **Routers**
-        - **Routersploit**
-    - **SCADA (Supervisory Control And Data Acquisition)**
-    - **SDR (Software-Defined Radio)**
-        - **Directional WiFi Antenna**
-            - **Yagi Antenna**
-        - **DragonOS**
-        - **HackRF (Hack Radio Frequency)**
-        - **RTL-SDR (Realtek Software Defined Radi)**
+## Offensive Security (Red Team)
+- **Card Skimming**
+- **Hardware Backdoor**
+- **Malware**
+    - **Adware**
+    - **Bloatware**
+    - **Botnet**
+    - **Computer Virus**
+    - **Computer Worm**
+    - **Phishing**
+    - **Rootkit**
+    - **Spyware**
+        - **Pegasus**
+        - **Keyloggers**
+    - **Trojans**
+        - **MalDoc**
+- **Password Cracking**
+- **Scanning & Reconaissance**
+    - **GreyNoise**
+    - **Nikto**
+    - **Nmap**
+    - **Zmap**
+- **Schools of Hacking**
+    - **Black Hat**
+    - **Gray Hat**
+    - **White Hat**
+- **SIM Swapping**
+- **Spoofing**
+    - **CDP (Cisco Discovery Protocl) Spoofing**
+- **Web Exploitation**
 
-    ## Offensive Security (Red Team)
-    - **Card Skimming**
-    - **Hardware Backdoor**
-    - **Malware**
-        - **Adware**
-        - **Bloatware**
-        - **Botnet**
-        - **Computer Virus**
-        - **Computer Worm**
-        - **Phishing**
-        - **Rootkit**
-        - **Spyware**
-            - **Pegasus**
-            - **Keyloggers**
-        - **Trojans**
-            - **MalDoc**
-    - **Password Cracking**
-    - **Scanning & Reconaissance**
-        - **GreyNoise**
-        - **Nikto**
-        - **Nmap**
-        - **Zmap**
-    - **Schools of Hacking**
-        - **Black Hat**
-        - **Gray Hat**
-        - **White Hat**
-    - **SIM Swapping**
-    - **Spoofing**
-        - **CDP (Cisco Discovery Protocl) Spoofing**
-    - **Web Exploitation**
+## Defensive Security (Blue Team)
+-- **Adblock**: Browser extensions that block ads and trackers.
+    - **Decentraleyes**: Local resource polyfill to reduce third-party calls.
+    - **Ublock Origin**: Efficient, configurable ad-blocking extension.
+-- **Antivirus/Antimalware**: Software that detects and removes malware.
+    - **Kapersky**: Commercial antivirus and security product suite.
+    - **MalwareBytes**: Anti-malware product focusing on modern threats.
+    - **McAfee**: Longstanding commercial security vendor.
+    - **Norton**: Consumer-focused antivirus and security tools.
+-- **CSIRT (Computer Security Incident Response Team)**: Group that handles security incidents.
+-- **GRC (Governance, Risk Management, and Compliance)**: Practices aligning security with business requirements.
+    - **CCPA (California Consumer Privacy Act)**: Privacy law protecting California residents.
+    - **CIS (Center for Internet Security) Controls**: Best-practice security controls checklist.
+    - **GDPR (General Data Protection Regulation)**: EU regulation on personal data protection.
+    - **HIPAA (Health Insurance Portability and Accountability Act)**: US law protecting health information.
+    - **HITRUST CSF (Health Information Trust Alliance Common Security Framework)**: Compliance framework for health data security.
+    - **NIST (National Institutes of Standards and Technology)**: US agency publishing security standards.
+    - **PCI-DSS (Payment Card Industry Data Security Standard)**: Requirements for handling cardholder data.
+    - **SOC2 (System and Organization Controls)**: Audit standard for service organizations.
+-- **Honeypots**: Traps designed to detect and study attackers.
+-- **SOC (Security Operations Center)**: Centralized team monitoring security events.
+-- **SIEM (Security Information and Event Management)**: Aggregates logs for detection and analytics.
+    - **Splunk**: Commercial SIEM and log analysis platform.
 
-    ## Defensive Security (Blue Team)
-    - **Adblock**
-        - **Decentraleyes**
-        - **Ublock Origin**
-    - **Antivirus/Antimalware**
-        - **Kapersky**
-        - **MalwareBytes**
-        - **McAfee**
-        - **Norton**
-    - **CSIRT (Computer Security Incident Response Team)**
-    - **GRC (Governance, Risk Management, and Compliance)**
-        - **CCPA (California Consumer Privacy Act)**
-        - **CIS (Center for Internet Security) Controls** 
-        - **GDPR (General Data Protection Regulation)**
-        - **HIPAA (Health Insurance Portability and Accountability Act)**
-        - **HITRUST CSF (Health Information Trust Alliance Common Security Framework)**
-        - **NIST (National Institutes of Standards and Technology)**
-        - **PCI-DSS (Payment Card Industry Data Security Standard)**
-        - **SOC2 (System and Organization Controls)**
-    - **Honeypots**
-    - **SOC (Security Operations Center)**
-    - **SIEM (Security Information and Event Management)**
-        - **Splunk**
-  
-    ## Intersectional Security (Purple Team)
+## Intersectional Security (Purple Team)
+- **Purple Teaming**: Collaborative approach to align red and blue team activities.
 
-    ## Computer & Digital Forensics
-    - **Reverse Engineering**
+## Computer & Digital Forensics
+- **Reverse Engineering**: Analyzing binaries to understand behavior.
 
-    ## Operational Security (OpSec)
-    - **Browsers**
-        - **Brave**
-        - **Firefox**
-        - **GNU Icecap**
-    - **Compartmentalization**
-    - **Dark Web (Tor)**
-    - **Email**
-        - **Permanent**
-            - **ProtonMail**
-            - **SecureMail**
-            - **Tutanota**
-            - **Anonady**
-            - **GudoMail**
-            - **MailFence**
-            - **PrivateMail**
-         - **Temporary Mail**
-             - **GorillaMail**
-             - **Temp Mailo**
-             - **TempMail**
-    - **IRC (Internet Relay Chats)**
-        - **Briar**
-        - **Element**
-        - **Jabber**
-        - **Signal**
-        - **Yami**
-    - **MAC Address Randomization**
-    - **Passwords**
-        - **Passphrases**
-        - **Password Managers**
-            - **Local**
-                - **KeePassXC**
-                - **Syncthing**
-                - **Veracrypt**
-                - **Microsoft Word**
-             - **Browser-Based**
-                 - **Google Password Manager**
-             - **Cloud-Based**
-                 - **Bitwarden**
-                 - **Cryptomater**
-                 - **LastPass**
-    - **Secure Search Engines**
-        - **DuckDuckGo**
-        - **Searx**
-        - **StartPage**
+## Operational Security (OpSec)
+- **Browsers**: Software used to access web content securely when configured.
+    - **Brave**: Privacy-focused browser with built-in ad blocking.
+    - **Firefox**: Open-source browser with strong privacy controls.
+    - **GNU Icecap**: Privacy-oriented browser project.
+- **Compartmentalization**: Separating activities and data to limit exposure.
+- **Dark Web (Tor)**: Anonymity network and overlay services accessed via Tor.
+- **Email**: Communication medium with varying privacy properties.
+    - **Permanent**: Long-term secure email providers.
+        - **ProtonMail**: End-to-end encrypted email service.
+        - **SecureMail**: Privacy-focused email solutions.
+        - **Tutanota**: Encrypted email provider with zero-knowledge features.
+        - **Anonady**: Privacy-oriented mail service.
+        - **GudoMail**: Alternative secure email provider.
+        - **MailFence**: Encrypted email and collaboration suite.
+        - **PrivateMail**: Privacy-centric email offering.
+     - **Temporary Mail**: Disposable email services for short-term use.
+         - **GorillaMail**: Disposable email address provider.
+         - **Temp Mailo**: Temporary inbox service.
+         - **TempMail**: Disposable email provider.
+-- **IRC (Internet Relay Chats)**: Real-time chat protocol used in communities.
+    - **Briar**: Secure, decentralized messaging app.
+    - **Element**: Matrix-based chat client for secure communication.
+    - **Jabber**: XMPP instant messaging protocol.
+    - **Signal**: Encrypted messaging app for private communication.
+    - **Yami**: Lightweight chat client.
+-- **MAC Address Randomization**: Technique to prevent device tracking on networks.
+-- **Passwords**: Secrets used to authenticate users; best combined with MFA.
+    - **Passphrases**: Longer, memorable strings used as passwords.
+    - **Password Managers**: Tools to generate and store credentials securely.
+        - **Local**: Run on the user's device without cloud sync.
+            - **KeePassXC**: Open-source local password manager.
+            - **Syncthing**: Filesync tool sometimes used to sync vaults.
+            - **Veracrypt**: Encrypted container tool for storing data.
+            - **Microsoft Word**: Unconventional, not recommended for secrets.
+         - **Browser-Based**: Integrated password storage in browsers.
+             - **Google Password Manager**: Browser-integrated credential store.
+         - **Cloud-Based**: Hosted password services with sync.
+             - **Bitwarden**: Open-source cloud password manager.
+             - **Cryptomater**: Cloud-based credential storage.
+             - **LastPass**: Commercial cloud password manager.
+-- **Secure Search Engines**: Privacy-respecting web search alternatives.
+    - **DuckDuckGo**: Search engine that emphasizes privacy.
+    - **Searx**: Open-source metasearch engine that preserves privacy.
+    - **StartPage**: Privacy-oriented search proxy.
  
-    ## Blockchain
-    - **Atomic Swappers**
-    - ** **
-    ## Cloud Security
-    - **CloudFlare**
-    - **Grype**
+## Blockchain
+- **Atomic Swappers**: Protocols enabling trustless token exchanges.
+- **Empty Entry**: Placeholder for future blockchain topics.
 
+## Cloud Security
+- **CloudFlare**: CDN and security provider for web infrastructure.
+- **Grype**: Vulnerability scanner for container images and filesystems.
