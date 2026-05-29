@@ -19,6 +19,24 @@
 
 ## Cryptography
 * Alice & Bob
+* MFA (Multi-Factor Authentication)
+    * Exploits
+        * Evil Maid Attack
+        * MITM (Man in the Middle Attack)
+        * Biometric Spoofing
+    * FIDO/FIDO2 (Fast Identity Online)
+        * Biometrics
+        * CTAP (Client to Authentication Protocol)
+        * Passkeys
+        * WebAuthn (Web Authentication)
+            * Relying Party (RP) ID
+    * OAuth (Open Authorization)
+    * OpenPGP
+    * PIV (Personal Identity Verification)
+    * TOTP (Time Based One-Time Password)
+    * U2F (Universal 2nd Factor)
+    * ZTA (Zero Trust Architecture)
+    * Zero Knowledge Proof
 * Checksum
 * Ciphers
     * Asymmetric Encryption
@@ -66,6 +84,7 @@
     * Wireshark
 * NFC (Near-Field Communication)
 * OSI (Open Systems Interconnection) Model
+* Pi-Holes
 * Ports & Protocols
 * TCP/IP Model
 * Wifi
@@ -73,6 +92,7 @@
     * WPA (Wifi Protected Access)
 
 ## Hardware & Infrastructure
+* Burner Phones
 * GPIO Boards
 * ICS (Industrial Control System)
 * IoT (Internet of Things)
@@ -81,6 +101,14 @@
  * Firmware
      * FreshTomatoes
 * FlipperZero
+* Hardware Security Key 
+    * Feitian
+    * Google Titan
+    * SSH Keys
+        * Non-Resident Keys
+        * Resident Keys
+        * TOFU (Trust on First Use)
+     * YubiKey
 * Physical Firewalls
 * Routers
     * Routersploit
@@ -115,6 +143,11 @@
 * Web Exploitation
 
 ## Defensive Security (Blue Team)
+* Antivirus/Antimalware
+    * Kapersky
+    * MalwareBytes
+    * McAfee
+    * Norton
 * CSIRT (Computer Security Incident Response Team)
 * GRC (Governance, Risk Management, and Compliance)
     * CCPA (California Consumer Privacy Act)
@@ -134,45 +167,9 @@
 ## Computer & Digital Forensics
 * Reverse Engineering
 
-## Operational Security (OppSec)
-* Antivirus/Antimalware
-    * Kapersky
-    * MalwareBytes
-    * McAfee
-    * Norton
-* Authentication
-    * Exploits
-        * Evil Maid Attack
-        * MITM (Man in the Middle Attack)
-        * Biometric Spoofing
-    * FIDO/FIDO2 (Fast Identity Online)
-        * Biometrics
-        * CTAP (Client to Authentication Protocol)
-        * WebAuthn (Web Authentication)
-            * Relying Party (RP) ID
-    * OAuth (Open Authorization)
-    * OpenPGP
-    * PIV (Personal Identity Verification)
-    * TOTP (Time Based One-Time Password)
-    * U2F (Universal 2nd Factor)
-    * ZTA (Zero Trust Architecture)
-    * Zero Knowledge Proof
-* Burner Phones
-* Case Studies
+## Operational Security (OpSec)
 * Compartmentalization
 * Dark Web (Tor)
-* Directional WiFi Antenna
-    * Yagi Antenna
-* Pi-Holes
-* Hardware Security Key 
-    * Feitian
-    * Google Titan
-    * SSH Keys
-        * Non-Resident Keys
-        * Resident Keys
-        * TOFU (Trust on First Use)
-     * YubiKey
-* Passkeys 
 
 ## Blockchain
 
