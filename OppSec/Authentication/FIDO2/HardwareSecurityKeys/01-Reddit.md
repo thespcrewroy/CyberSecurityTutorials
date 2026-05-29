@@ -44,8 +44,8 @@
 * Entire orgs manage their FIDO2 via Yubikeys for their MFA
 * The standard best for multiple user accounts or single admin accounts
 * **YubiKey 5 Series**
-    * Strong Single Factor—Passwordless: passwordless tap-n-go secure login
-    * Strong Two Factor—Authenticator: tap-n-go second factor for 2FA
+    * Strong Single Factor-Passwordless: passwordless tap-n-go secure login
+    * Strong Two Factor-Authenticator: tap-n-go second factor for 2FA
     * Strong Multi-Factor Passwordless: combines tap-n-go authentication with a PIN
     * **(4) YubiKey 5 NFC**
         * OTP feature
