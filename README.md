@@ -33,6 +33,17 @@
 ## Log Analysis
 ## Networking
 * Network Traffic Analysis
+## Hardware & Infrastructure
+* ICS (Industrial Control System)
+* IoT (Internet of Things)
+    * CCTV (Closed-Circuit Television)
+        * Cameradar
+ * Firmware
+     * FreshTomatoes
+ * Physical Firewalls
+ * Routers
+     * Routersploit
+ * SCADA (Supervisory Control And Data Acquisition)
 ## Offensive Security (Red Team)
 * Card Skimming
 * Hardware Backdoor
@@ -81,6 +92,7 @@
     * U2F (Universal 2nd Factor)
     * ZTA (Zero Trust Architecture)
     * Zero Knowledge Proof
+ * Pi-Holes
 ## Blockchain
 ## Cloud Security
 * CloudFlare
