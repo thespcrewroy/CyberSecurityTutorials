@@ -106,6 +106,7 @@
                 * Resident Keys
                 * TOFU (Trust on First Use)
             * YubiKey
+        * Passkeys 
         * WebAuthn (Web Authentication)
             * Relying Party (RP) ID
     * OAuth (Open Authorization)
