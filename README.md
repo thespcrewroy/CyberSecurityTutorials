@@ -1,6 +1,7 @@
 # Cyber Security Tutorials
 
 ## Open Source Intelligence (OSINT)
+
 ## Cryptography
 * Alice & Bob
 * Checksum
@@ -29,10 +30,13 @@
 * Cryptanalysis
     * Side Channel Attack
     * Bullrun Decryption Program
- * FDE (Full Disk Encryption)
+* FDE (Full Disk Encryption)
+
 ## Log Analysis
-## Networking
+
+## Network Security
 * Network Traffic Analysis
+
 ## Hardware & Infrastructure
 * ICS (Industrial Control System)
 * IoT (Internet of Things)
@@ -44,6 +48,7 @@
  * Routers
      * Routersploit
  * SCADA (Supervisory Control And Data Acquisition)
+
 ## Offensive Security (Red Team)
 * Card Skimming
 * Hardware Backdoor
@@ -65,10 +70,27 @@
 * Spoofing
     * CDP (Cisco Discovery Protocl) Spoofing
 * Web Exploitation
+
 ## Defensive Security (Blue Team)
+* CSIRT (Computer Security Incident Response Team)
+* GRC (Governance, Risk Management, and Compliance)
+    * CCPA (California Consumer Privacy Act)
+    * CIS (Center for Internet Security) Controls 
+    * GDPR (General Data Protection Regulation)
+    * HIPAA (Health Insurance Portability and Accountability Act)
+    * HITRUST CSF (Health Information Trust Alliance Common Security Framework)
+    * NIST (National Institutes of Standards and Technology)
+    * PCI-DSS (Payment Card Industry Data Security Standard)
+    * SOC2 (System and Organization Controls)
+* SOC (Security Operations Center)
+* SIEM (Security Information and Event Management)
+    * Splunk
+  
 ## Intersectional Security (Purple Team)
+
 ## Computer & Digital Forensics
 * Reverse Engineering
+
 ## Operational Security (OppSec)
 * Authentication
     * Exploits
@@ -93,7 +115,9 @@
     * ZTA (Zero Trust Architecture)
     * Zero Knowledge Proof
  * Pi-Holes
+
 ## Blockchain
+
 ## Cloud Security
 * CloudFlare
 * Grype
