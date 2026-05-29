@@ -200,16 +200,16 @@
 - **Web Exploitation**
 
 ## Defensive Security (Blue Team)
--- **Adblock**: Browser extensions that block ads and trackers.
+- **Adblock**: Browser extensions that block ads and trackers.
     - **Decentraleyes**: Local resource polyfill to reduce third-party calls.
     - **Ublock Origin**: Efficient, configurable ad-blocking extension.
--- **Antivirus/Antimalware**: Software that detects and removes malware.
+- **Antivirus/Antimalware**: Software that detects and removes malware.
     - **Kapersky**: Commercial antivirus and security product suite.
     - **MalwareBytes**: Anti-malware product focusing on modern threats.
     - **McAfee**: Longstanding commercial security vendor.
     - **Norton**: Consumer-focused antivirus and security tools.
--- **CSIRT (Computer Security Incident Response Team)**: Group that handles security incidents.
--- **GRC (Governance, Risk Management, and Compliance)**: Practices aligning security with business requirements.
+- **CSIRT (Computer Security Incident Response Team)**: Group that handles security incidents.
+- **GRC (Governance, Risk Management, and Compliance)**: Practices aligning security with business requirements.
     - **CCPA (California Consumer Privacy Act)**: Privacy law protecting California residents.
     - **CIS (Center for Internet Security) Controls**: Best-practice security controls checklist.
     - **GDPR (General Data Protection Regulation)**: EU regulation on personal data protection.
@@ -218,9 +218,9 @@
     - **NIST (National Institutes of Standards and Technology)**: US agency publishing security standards.
     - **PCI-DSS (Payment Card Industry Data Security Standard)**: Requirements for handling cardholder data.
     - **SOC2 (System and Organization Controls)**: Audit standard for service organizations.
--- **Honeypots**: Traps designed to detect and study attackers.
--- **SOC (Security Operations Center)**: Centralized team monitoring security events.
--- **SIEM (Security Information and Event Management)**: Aggregates logs for detection and analytics.
+- **Honeypots**: Traps designed to detect and study attackers.
+- **SOC (Security Operations Center)**: Centralized team monitoring security events.
+- **SIEM (Security Information and Event Management)**: Aggregates logs for detection and analytics.
     - **Splunk**: Commercial SIEM and log analysis platform.
 
 ## Intersectional Security (Purple Team)
