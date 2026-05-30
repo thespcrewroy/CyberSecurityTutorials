@@ -45,8 +45,6 @@
 * The standard best for multiple user accounts or single admin accounts
 * **YubiKey 5 Series**
     * **(4) YubiKey 5 NFC**
-        * OTP feature
-        * PIV feature
         * Smack them against a reader and type in a PIN
         * Overkill for normal user-use
     * **YubiKey 5C NFC**
