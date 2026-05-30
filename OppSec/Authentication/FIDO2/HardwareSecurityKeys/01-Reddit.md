@@ -86,3 +86,4 @@
 * [Best FIDO/FIDO2 Key](https://www.reddit.com/r/privacy/comments/1ctefsl/best_fidofido2_security_key/)
 * [Which Hardware Security Key to Choose?](Which Hardware Security Key to Choose?)
 * [I'm Thinking About Buying Physical Security Key, Any Tips?](https://www.reddit.com/r/DigitalPrivacy/comments/1plvn0d/im_thinking_about_buying_physical_security_key/)
+* [Verify Any YubiKey from Amazon](https://www.reddit.com/r/yubikey/comments/112812v/yubikey_from_amazon/)
