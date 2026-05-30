@@ -44,9 +44,6 @@
 * Entire orgs manage their FIDO2 via Yubikeys for their MFA
 * The standard best for multiple user accounts or single admin accounts
 * **YubiKey 5 Series**
-    * Strong Single Factor-Passwordless: passwordless tap-n-go secure login
-    * Strong Two Factor-Authenticator: tap-n-go second factor for 2FA
-    * Strong Multi-Factor Passwordless: combines tap-n-go authentication with a PIN
     * **(4) YubiKey 5 NFC**
         * OTP feature
         * PIV feature
@@ -61,7 +58,6 @@
     * **(2) YubiKey 5C Nano**
         * Can be stored within the laptop
 * **YubiKey FIPS Series**
-    * Validated FIDO2/WebAuthn multi-protocol authenticator lineup
     * **YubiKey 5 NFC FIPS**
     * **YubiKey 5C NFC FIPS**
     * **YubiKey 5Ci FIPS**
@@ -74,14 +70,6 @@
     * **YubiKey Bio - Multi-protocol Edition**
     * **YubiKey C Bio - Multi-protocol Edition**
 * **YubiKey Security Key Series**
-    * Protocols
-        * FIDO2/WebAuthn
-        * FIDO U2F
-    * Supports
-        * Upto 100 Passkeys
-        * Passwordless login
-        * MFA
-        * PIN-protected FIDO2 authentication
     * **Security Key NFC**
         * Ideal for: Google, Microsoft, GitHub, Password Managers, Modern Websites
     * **(1) Security Key C NFC**
