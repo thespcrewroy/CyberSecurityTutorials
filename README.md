@@ -249,14 +249,14 @@
          - **GorillaMail**: Disposable email address provider.
          - **Temp Mailo**: Temporary inbox service.
          - **TempMail**: Disposable email provider.
--- **IRC (Internet Relay Chats)**: Real-time chat protocol used in communities.
+- **IRC (Internet Relay Chats)**: Real-time chat protocol used in communities.
     - **Briar**: Secure, decentralized messaging app.
     - **Element**: Matrix-based chat client for secure communication.
     - **Jabber**: XMPP instant messaging protocol.
     - **Signal**: Encrypted messaging app for private communication.
     - **Yami**: Lightweight chat client.
--- **MAC Address Randomization**: Technique to prevent device tracking on networks.
--- **Passwords**: Secrets used to authenticate users; best combined with MFA.
+- **MAC Address Randomization**: Technique to prevent device tracking on networks.
+- **Passwords**: Secrets used to authenticate users; best combined with MFA.
     - **Passphrases**: Longer, memorable strings used as passwords.
     - **Password Managers**: Tools to generate and store credentials securely.
         - **Local**: Run on the user's device without cloud sync.
@@ -270,7 +270,7 @@
              - **Bitwarden**: Open-source cloud password manager.
              - **Cryptomater**: Cloud-based credential storage.
              - **LastPass**: Commercial cloud password manager.
--- **Secure Search Engines**: Privacy-respecting web search alternatives.
+- **Secure Search Engines**: Privacy-respecting web search alternatives.
     - **DuckDuckGo**: Search engine that emphasizes privacy.
     - **Searx**: Open-source metasearch engine that preserves privacy.
     - **StartPage**: Privacy-oriented search proxy.
