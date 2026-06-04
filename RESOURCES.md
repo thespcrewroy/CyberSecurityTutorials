@@ -45,7 +45,7 @@
 * [ASISCTF](https://asisctf.com/)
 * [CCDC](https://www.nationalccdc.org/)
 * [CDCTF (UAlmbama)](https://uacrimsondefense.github.io/cdctf.html)
-* [CSAW (NYU)](https://www.csaw.io/ctf)
+* [CSAW (NYU)](https://github.com/thespcrewroy/CyberSecurityTutorials/blob/main/MediumBlogCTFWriteups/CSAW.md)
 * [CyberBay (UTampa)](https://cyberbay.org/)
 * [CyberQuest](https://uscc.cyberquests.org/)
 * [CyberSEED (UCONN)](https://career.uconn.edu/resources/cyberseed/)
