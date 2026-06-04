@@ -14,7 +14,6 @@
 * Cross-platform hardware security key from Yubico designed with dual connectors
 * Has a USB-C connector on one end and an Apple Lightning connector on the other
 
-
 ## YubiKey 5 Series
 * *YubiKey NFC, YubiKey C NFC, YubiKey Ci, YubiKey Nano, YubiKey C Nano*
 * Static Password
@@ -102,8 +101,12 @@
      * Fingerprint + PIV Smart Card
      * Desktop login
      * Enterprise credential management
+
 ## YubiKey Security Key Series
 * *Security Key NFC, Security Key C NFC*
 * FIDO2 USB Login: password, tap-n-go passwordless, or PIN
 * FIDO2/WebAuthn up to 100 passkeys
 * FIDO2 U2F for older versiosn of WebAuthn used by older applications
+
+## Sources
+* [Verify Any YubiKey from Amazon](https://www.reddit.com/r/yubikey/comments/112812v/yubikey_from_amazon/)
