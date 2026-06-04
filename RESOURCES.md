@@ -77,6 +77,8 @@
 
 ## Communities
 * [OWASP Atlanta](https://owasp.org/www-chapter-atlanta/)
-* Society for Cyber Security @ UGA
-* Hack Pack @ UGA
-* GreyHat @ GATech
+* Discord Groups
+    * Society for Cyber Security @ UGA
+    * Hack Pack @ UGA
+    * GreyHat @ GATech
+* Meetup Groups
