@@ -11,6 +11,8 @@
     * No NFC reader for phones/tablet authentication
  
 ## YubiKey Ci Model
+* Cross-platform hardware security key from Yubico designed with dual connectors
+* Has a USB-C connector on one end and an Apple Lightning connector on the other
 
 
 ## YubiKey 5 Series
