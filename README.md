@@ -134,7 +134,6 @@
         - **VirtualBox**
         - **VMWare**
      - **WSL (Windows Subsystem for Linux)**
-- **Whonix**
 - **Wine**
 
 ## Hardware & Infrastructure
