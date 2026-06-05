@@ -107,28 +107,33 @@
     - **WPA (Wifi Protected Access)**: security standards for wireless networks
 
 ## Operating Systems
-- **Unix**: Family of multitasking, multiuser operating systems.
-    - **FreeBSD**: Unix-like OS known for performance and licensing.
-        - **HardenedBSD**: Security-focused FreeBSD hardening project.
-    - **Linux**: Open-source Unix-like kernel used in many distros.
-        - **Terminal**: Text-based shell interface for system interaction.
-            - **Commands**: Executable operations entered in a shell.
-            - **Shell Operators**: Symbols that control shell behavior.
-            - **Shortcuts**: Key combinations for quicker navigation.
-        - **Arch Family**: Rolling-release distributions focused on simplicity.
-            - **Arch Linux**: Lightweight, user-centric Linux distribution.
-            - **Black Arch**: Security-focused Arch-based distribution.
-        - **Debian Family**: Stable distributions derived from Debian.
-            - **Kali**: Penetration-testing focused Debian derivative.
-            - **ParrotOS**: Security-oriented Debian-based distro.
-            - **SubgraphOS**: Hardening-focused privacy distro.
-            - **TailsOS**: Live OS designed for anonymity.
-            - **Ubuntu**: Popular, user-friendly Debian derivative.
-                - **DragonOS**: SDR-focused Linux distribution.
+- **Unix**: family of multitasking, multiuser operating systems.
+    - **BSD:** unix-like system with a focus on stability and networking.
+        - **FreeBSD**: unix-like OS known for performance and licensing.
+            - **HardenedBSD**: fork of FreeBSD that focuses more on hardening its security.
+        - **NetBSD:** provide a unified, multi-platform, production-quality operating system.
+            - **OpenBSD:** fork of NetBSD in 1995 focused heavily on hardening its security and networking.
+    - **Linux**: open-source Unix-like kernel used in many distros.
+        - **Arch Linux Family**: rolling-release distributions focused on simplicity.
+            - **Black Arch Linux**: security-focused Arch-based distribution.
+        - **Debian Linux Family**: stable distributions derived from Debian.
+            - **Kali**: penetration-testing focused Debian derivative.
+            - **ParrotOS**: security-oriented Debian-based distro.
+            - **SubgraphOS**: hardening-focused privacy distro.
+            - **TailsOS**: live OS designed for anonymity.
+            - **Ubuntu**: popular, user-friendly Debian derivative.
+                - **Linux Mint:** free, user-friendly, and highly stable desktop operating system
+                - **Lubuntu:** a lightweight official flavor of Ubuntu
+                    - **DragonOS**: SDR-focused Linux distribution.
             - **Whonix**: Privacy OS using Tor isolation.
-        - **Fedora Family**
+        - **Red Hat Family**
+            - **Fedora**
             - **QuebesOS**
      - **TempleOS**
+- **Terminal**: Text-based shell interface for system interaction.
+    - **Commands**: Executable operations entered in a shell.
+    - **Shell Operators**: Symbols that control shell behavior.
+    - **Shortcuts**: Key combinations for quicker navigation.
 - **Virtualization**
     - **Hypervisors**
         - **VirtualBox**
