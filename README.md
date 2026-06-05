@@ -126,9 +126,9 @@
                 - **Lubuntu:** a lightweight official flavor of Ubuntu
                     - **DragonOS**: SDR-focused Linux distribution.
             - **Whonix**: Privacy OS using Tor isolation.
+        - **QubesOS**
         - **Red Hat Family**
             - **Fedora**
-            - **QuebesOS**
      - **TempleOS**
 - **Terminal**: Text-based shell interface for system interaction.
     - **Commands**: Executable operations entered in a shell.
