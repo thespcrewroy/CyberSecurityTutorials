@@ -138,6 +138,7 @@
     - **Hypervisors**
         - **VirtualBox**
         - **VMWare**
+        - **Xen**
      - **WSL (Windows Subsystem for Linux)**
 - **Wine**
 
