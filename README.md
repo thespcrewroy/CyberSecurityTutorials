@@ -171,16 +171,15 @@
     - **RTL-SDR (Realtek Software Defined Radi)**
 
 ## Offensive Security (Red Team)
+- **Botnet**
 - **Card Skimming**
 - **Evil Maid**: physical attack that alters a device while unattended
 - **Hardware Backdoor**
 - **Malware**
     - **Adware**
     - **Bloatware**
-    - **Botnet**
     - **Computer Virus**
     - **Computer Worm**
-    - **Phishing**
     - **Rootkit**
     - **Spyware**
         - **Pegasus**
@@ -189,6 +188,7 @@
         - **MalDoc**
 - **MITM (Man in the Middle Attack)**: intercepting communication between parties
 - **Password Cracking**
+- **Phishing**
 - **Scanning & Reconaissance**
     - **GreyNoise**
     - **Nikto**
