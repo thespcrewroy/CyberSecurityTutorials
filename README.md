@@ -29,10 +29,6 @@
 ## Cryptography
 - **Alice & Bob**: placeholder names used in cryptography examples
 - **MFA (Multi-Factor Authentication)**: authentication using multiple credential types
-    - **Exploits**: attacks that bypass or weaken authentication controls
-        - **Evil Maid Attack**: physical attack that alters a device while unattended
-        - **MITM (Man in the Middle Attack)**: intercepting communication between parties
-        - **Biometric Spoofing**: faking biometric traits to bypass sensors
     - **FIDO/FIDO2 (Fast Identity Online)**: standards for passwordless authentication
         - **Biometrics**: physiological traits used for user authentication
         - **CTAP (Client to Authentication Protocol)**: protocol for external authenticators
@@ -176,6 +172,7 @@
 
 ## Offensive Security (Red Team)
 - **Card Skimming**
+- **Evil Maid**: physical attack that alters a device while unattended
 - **Hardware Backdoor**
 - **Malware**
     - **Adware**
@@ -190,6 +187,7 @@
         - **Keyloggers**
     - **Trojans**
         - **MalDoc**
+- **MITM (Man in the Middle Attack)**: intercepting communication between parties
 - **Password Cracking**
 - **Scanning & Reconaissance**
     - **GreyNoise**
@@ -202,8 +200,11 @@
     - **White Hat**
 - **SIM Swapping**
 - **Spoofing**
+    - **Biometric Spoofing**: faking biometric traits to bypass sensors
     - **CDP (Cisco Discovery Protocl) Spoofing**
 - **Web Exploitation**
+        
+        
 
 ## Defensive Security (Blue Team)
 - **Adblock**: Browser extensions that block ads and trackers.
