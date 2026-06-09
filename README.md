@@ -39,7 +39,7 @@
         - **Passkeys**: phishing-resistant credentials replacing passwords
         - **WebAuthn (Web Authentication)**: browser API for strong authentication
             - **Relying Party (RP) ID**: identifier for the service using WebAuthn
-    - Knowledge-Based Authentication (KBA):** challenge questions that ask for personal information (ex. mother's maiden name)
+    - **Knowledge-Based Authentication (KBA):** challenge questions that ask for personal information (ex. mother's maiden name)
     - **OAuth (Open Authorization)**: protocol for delegated access to resources
     - **PGP (Pretty Good Privacy)**: email encryption and signing standard
         - **GPA (GNU Privacy Assistant)**: GUI tool for managing PGP keys
