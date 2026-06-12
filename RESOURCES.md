@@ -38,6 +38,7 @@
 * GIAC Security Essentials (GSEC)
 * GIAC Certified Incident Handler (GCIH)
 * GIAC Penetration Tester (GPEN)
+* GIAC Certified Forensics Examiner (GCFE)
 * ISAC Certified Information Security Manager (CISM)
 * ISAC Certified Infromation Systems Auditor (CISA)
 
