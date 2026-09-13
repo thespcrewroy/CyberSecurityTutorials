@@ -278,17 +278,8 @@
     - **Biometric Spoofing**: faking biometric traits to bypass identity sensors
     - **CDP (Cisco Discovery Protocol) Spoofing**: sending forged CDP messages to impersonate network devices
 
-DNS Spoofing (Poisoning), DNS Amplification, DNS Hijacking, DNS Tunneling, VoIP, SIP, Fuzzing, Race Condition
-
 ## Defensive Security (Blue Team)
-- **Adblock**: Browser extensions that block ads and trackers.
-    - **Decentraleyes**: Local resource polyfill to reduce third-party calls.
-    - **Ublock Origin**: Efficient, configurable ad-blocking extension.
-- **Antivirus/Antimalware**: Software that detects and removes malware.
-    - **Kapersky**: Commercial antivirus and security product suite.
-    - **MalwareBytes**: Anti-malware product focusing on modern threats.
-    - **McAfee**: Longstanding commercial security vendor.
-    - **Norton**: Consumer-focused antivirus and security tools.
+
 - **CSIRT (Computer Security Incident Response Team)**: Group that handles security incidents.
 - **GRC (Governance, Risk Management, and Compliance)**: Practices aligning security with business requirements.
     - **CCPA (California Consumer Privacy Act)**: Privacy law protecting California residents.
@@ -310,51 +301,61 @@ DNS Spoofing (Poisoning), DNS Amplification, DNS Hijacking, DNS Tunneling, VoIP,
 ## Computer & Digital Forensics
 - **Reverse Engineering**: Analyzing binaries to understand behavior.
 
-## Operational Security (OpSec)
-- **Browsers**: Software used to access web content securely when configured.
-    - **Brave**: Privacy-focused browser with built-in ad blocking.
-    - **Firefox**: Open-source browser with strong privacy controls.
-    - **GNU Icecap**: Privacy-oriented browser project.
-- **Compartmentalization**: Separating activities and data to limit exposure.
-- **Dark Web (Tor)**: Anonymity network and overlay services accessed via Tor.
-- **Email**: Communication medium with varying privacy properties.
-    - **Permanent**: Long-term secure email providers.
-        - **ProtonMail**: End-to-end encrypted email service.
-        - **SecureMail**: Privacy-focused email solutions.
-        - **Tutanota**: Encrypted email provider with zero-knowledge features.
-        - **Anonady**: Privacy-oriented mail service.
-        - **GudoMail**: Alternative secure email provider.
-        - **MailFence**: Encrypted email and collaboration suite.
-        - **PrivateMail**: Privacy-centric email offering.
-     - **Temporary Mail**: Disposable email services for short-term use.
-         - **GorillaMail**: Disposable email address provider.
-         - **Temp Mailo**: Temporary inbox service.
-         - **TempMail**: Disposable email provider.
-- **IRC (Internet Relay Chats)**: Real-time chat protocol used in communities.
-    - **Briar**: Secure, decentralized messaging app.
-    - **Element**: Matrix-based chat client for secure communication.
-    - **Jabber**: XMPP instant messaging protocol.
-    - **Signal**: Encrypted messaging app for private communication.
-    - **Yami**: Lightweight chat client.
-- **MAC Address Randomization**: Technique to prevent device tracking on networks.
-- **Passwords**: Secrets used to authenticate users; best combined with MFA.
-    - **Passphrases**: Longer, memorable strings used as passwords.
-    - **Password Managers**: Tools to generate and store credentials securely.
-        - **Local**: Run on the user's device without cloud sync.
-            - **KeePassXC**: Open-source local password manager.
-            - **Syncthing**: Filesync tool sometimes used to sync vaults.
-            - **Veracrypt**: Encrypted container tool for storing data.
-            - **Microsoft Word**: Unconventional, not recommended for secrets.
-         - **Browser-Based**: Integrated password storage in browsers.
-             - **Google Password Manager**: Browser-integrated credential store.
-         - **Cloud-Based**: Hosted password services with sync.
-             - **Bitwarden**: Open-source cloud password manager.
-             - **Cryptomater**: Cloud-based credential storage.
-             - **LastPass**: Commercial cloud password manager.
-- **Secure Search Engines**: Privacy-respecting web search alternatives.
-    - **DuckDuckGo**: Search engine that emphasizes privacy.
-    - **Searx**: Open-source metasearch engine that preserves privacy.
-    - **StartPage**: Privacy-oriented search proxy.
+- **Operational Security (OpSec)**: protects sensitive info getting to an adversary
+  - **Adblock**: browser extensions that block ads and trackers
+    - **Decentraleyes**: local resource polyfill to reduce third-party calls
+    - **Ublock Origin**: efficient configurable ad-blocking extension
+- **Antivirus/Antimalware**: software that detects and removes malware
+    - **Kapersky**: commercial antivirus and security product suite
+    - **MalwareBytes**: anti-malware product focusing on modern threats
+    - **McAfee**: longstanding commercial security vendor
+    - **Norton**: consumer-focused antivirus and security tools
+    - **Windows Defender**: built-in tool that protects your PC from malware
+  - **Browsers**: software used to access web content securely when configured
+      - **Brave**: privacy-focused browser with built-in ad blocking
+      - **Firefox**: open-source browser with strong privacy controls
+      - **GNU Icecap**: privacy-oriented browser project
+  - **Compartmentalization**: separating activities and data to limit exposure
+  - **Dark Web (Tor)**: anonymity network and overlay services accessed via Tor
+  - **Email**: communication medium with varying privacy properties
+      - **Permanent**: Long-term secure email providers
+          - **ProtonMail**: end-to-end encrypted email service
+          - **SecureMail**: Privacy-focused email solutions.
+          - **Tutanota**: encrypted email provider with zero-knowledge features
+          - **Anonady**: privacy-oriented mail service
+          - **GudoMail**: alternative secure email provider
+          - **MailFence**: encrypted email and collaboration suite
+          - **PrivateMail**: privacy-centric email offering
+       - **Temporary Mail**: disposable email services for short-term use
+           - **GorillaMail**: disposable email address provider
+           - **Temp Mailo**: temporary inbox service
+           - **TempMail**: disposable email provider
+  - **IRC (Internet Relay Chats)**: real-time chat protocol used in communities
+      - **Briar**: secure decentralized messaging app
+      - **Element**: matrix-based chat client for secure communication
+      - **Jabber**: XMPP instant messaging protocol
+      - **Signal**: encrypted messaging app for private communication
+      - **Telegram:** cloud-based messaging app with a focus on security
+      - **Yami**: lightweight chat client
+  - **MAC Address Randomization**: technique to prevent device tracking on networks
+  - **Passwords**: secrets used to authenticate users; best combined with MFA
+      - **Passphrases**: longer memorable strings used as passwords
+      - **Password Managers**: tools to generate and store credentials securely
+          - **Local**: run on the user's device without cloud sync
+              - **KeePassXC**: open-source local password manager
+              - **Syncthing**: filesync tool sometimes used to sync vaults
+              - **Veracrypt**: encrypted container tool for storing data
+              - **Microsoft Word**: unconventional, not recommended for secrets
+           - **Browser-Based**: integrated password storage in browsers
+               - **Google Password Manager**: browser-integrated credential store
+           - **Cloud-Based**: hosted password services with sync
+               - **Bitwarden**: open-source cloud password manager
+               - **Cryptomater**: cloud-based credential storage
+               - **LastPass**: commercial cloud password manager
+  - **Secure Search Engines**: privacy-respecting web search alternatives
+      - **DuckDuckGo**: search engine that emphasizes privacy
+      - **Searx**: open-source metasearch engine that preserves privacy
+      - **StartPage**: pivacy-oriented search proxy
  
 ## Blockchain
 - **Atomic Swappers**: Protocols enabling trustless token exchanges.
