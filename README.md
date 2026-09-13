@@ -73,9 +73,13 @@
     - **Bullrun Decryption Program**: speculated agency effort to weaken crypto
 - **FDE (Full Disk Encryption)**: encrypting an entire storage device at rest
 
-## Log Analysis
+## Password Cracking
 
-## Network Security
+## Log Analysis
+- **SIEM (Security Information and Event Management)**: aggregates logs for detection and analytics
+    - **Splunk**: commercial SIEM and log analysis platform
+
+## Network Traffic Analysis Security
 - **Bluetooth**: short-range wireless communication protocol
 - **Encapsulation**: wrapping data with protocol headers for transport
 - **Faraday's Cage**: shielding to block electromagnetic signals
@@ -86,23 +90,189 @@
 - **LAN (Local Area Network)**: network connecting nearby devices
 - **MAC (Multimedia Access Control)**: likely meant MAC (Media Access Control) address
 - **Networking Commands**: CLI tools for inspecting and managing networks
-- **Network Traffic Analysis**: examining packets to understand network behavior
-    - **Network Miner**: packet analysis and forensic tool
-    - **tcpdump**: command-line packet capture utility
-    - **Wireshark**: GUI packet analyzer for network troubleshooting
+- **Network Miner**: packet analysis and forensic tool
 - **NFC (Near-Field Communication)**: short-range wireless data exchange
 - **OSI (Open Systems Interconnection) Model**: seven-layer conceptual networking model
-- **Pi-Holes**: DNS-level ad and tracker blocking appliance
+- **Pi-Hole**: DNS-level ad and tracker blocking appliance
 - **Ports & Protocols**: endpoint numbers and rules for network services
 - **Proxies**: intermediary servers that relay network requests
 - **TCP/IP Model**: practical networking model used on the internet
+- **`tcpdump`**: command-line packet capture utility
 - **VPN (Virtual Private Network)**: secure tunnel for network communications
     - **Mullvad**: privacy-focused VPN provider
     - **Wiregaurd**: modern, fast VPN protocol
 - **Wifi**: wireless local area networking technology
     - **PSK (Pre-Shared Key)**: shared secret used to secure Wi‑Fi
     - **WPA (Wifi Protected Access)**: security standards for wireless networks
+- **Wireshark**: GUI packet analyzer for network troubleshooting
 
+## Scanning and Reconaissance
+
+## Binary Exploitation
+
+## Reverse Engineering
+
+## Web Exploitation
+
+## Forensics
+
+## Operating Systems
+- **Unix**: family of multitasking, multiuser operating systems
+    - **BSD:** unix-like system with a focus on stability and networking
+        - **FreeBSD**: unix-like OS known for performance and licensing
+            - **DragonFly BSD**
+            - **HardenedBSD**: fork of FreeBSD that focuses more on hardening its security
+        - **NetBSD:** provide a unified, multi-platform, production-quality operating system
+            - **OpenBSD:** fork of NetBSD in 1995 focused heavily on hardening its security and networking
+    - **Illumos**
+    - **Linux**: open-source Unix-like kernel used in many distros
+        - **Arch Linux Family**: rolling-release distributions focused on simplicity
+            - **Black Arch Linux**: security-focused Arch-based distribution
+            - **EndeavourOS**
+            - **Garudo Linux**
+            - **Manjaro**
+        - **Debian Linux Family**: stable distributions derived from Debian
+            - **Kali**: penetration-testing focused Debian derivative
+            - **ParrotOS**: security-oriented Debian-based distro
+            - **SubgraphOS**: hardening-focused privacy distro
+            - **TailsOS**: live OS designed for anonymity
+            - **Ubuntu**: popular, user-friendly Debian derivative
+                - **Elementary OS**
+                - **Linux Mint:** free, user-friendly, and highly stable desktop operating system
+                - **Kubuntu**
+                - **Lubuntu:** a lightweight official flavor of Ubuntu
+                    - **DragonOS**: SDR-focused Linux distribution
+                - **PopOS**
+                - **Zorin OS**
+                - **Zubuntu**
+            - **Whonix**: privacy OS using Tor isolation
+        - **Gentoo Family**
+            - **Gentoo Linux**
+        - **QubesOS Family**
+        - **Red Hat Family**
+            - **Fedora**
+            - **RHEL**
+                - **AlmaLinux**
+                    - **CentOS**
+                - **Rocky Linux**
+        - **SUSE Family**
+            - **openSUSE**
+            - **SUSE Linux Enterprise**
+                - **SLES for SAP**
+        - **Slackware Family**
+            - **Slackware Linux**
+                - **Salix OS**
+        - **Void Family**
+            - **Void Linux**
+     - **Xenix**
+- **TempleOS**
+- **Terminal**: Text-based shell interface for system interaction.
+    - **Commands**: Executable operations entered in a shell.
+    - **Shell Operators**: Symbols that control shell behavior.
+    - **Shortcuts**: Key combinations for quicker navigation.
+- **Virtualization**
+    - **Hypervisors**
+        - **VirtualBox**
+        - **VMWare**
+        - **Xen**
+     - **WSL (Windows Subsystem for Linux)**
+- **Wine**
+
+## Hardware & Infrastructure
+- **Burner Phones**
+- **GPIO Boards**
+- **ICS (Industrial Control System)**
+- **IoT (Internet of Things)**
+    - **CCTV (Closed-Circuit Television)**
+        - **Cameradar**
+ - **Firmware**
+     - **FreshTomatoes**
+- **FlipperZero**
+- **Hardware Backdoor**
+- **Hardware Keyloggers**
+- **Hardware Security Key** 
+    - **Feitian**
+    - **Google Titan**
+    - **SSH Keys**
+        - **Non-Resident Keys**
+        - **Resident Keys**
+        - **TOFU (Trust on First Use)**
+     - **YubiKey**
+- **Physical Firewalls**
+- **Routers**
+    - **Routersploit**
+- **SCADA (Supervisory Control And Data Acquisition)**
+- **SDR (Software-Defined Radio)**
+    - **Directional WiFi Antenna**
+        - **Yagi Antenna**
+    - **DragonOS**
+    - **HackRF (Hack Radio Frequency)**
+    - **RTL-SDR (Realtek Software Defined Radi)**
+
+## Offensive Security (Red Team)
+- **Botnet**
+- **Card Skimming**
+- **Evil Maid**: physical attack that alters a device while unattended
+- **Hardware Backdoor**
+- **Malware**
+    - **Adware**
+    - **Bloatware**
+    - **Computer Virus**
+    - **Computer Worm**
+    - **Rootkit**
+    - **Spyware**
+        - **Pegasus**
+        - **Keyloggers**
+    - **Trojans**
+        - **MalDoc**
+- **MITM (Man in the Middle Attack)**: intercepting communication between parties
+- **Password Cracking**
+- **Phishing**
+- **Scanning & Reconaissance**
+    - **GreyNoise**
+    - **Nikto**
+    - **Nmap**
+    - **Zmap**
+- **Schools of Hacking**
+    - **Black Hat**
+    - **Gray Hat**
+    - **White Hat**
+- **SIM Swapping**
+- **Spoofing**
+    - **Biometric Spoofing**: faking biometric traits to bypass sensors
+    - **CDP (Cisco Discovery Protocl) Spoofing**
+- **Web Exploitation**
+        
+        
+
+## Defensive Security (Blue Team)
+- **Adblock**: Browser extensions that block ads and trackers.
+    - **Decentraleyes**: Local resource polyfill to reduce third-party calls.
+    - **Ublock Origin**: Efficient, configurable ad-blocking extension.
+- **Antivirus/Antimalware**: Software that detects and removes malware.
+    - **Kapersky**: Commercial antivirus and security product suite.
+    - **MalwareBytes**: Anti-malware product focusing on modern threats.
+    - **McAfee**: Longstanding commercial security vendor.
+    - **Norton**: Consumer-focused antivirus and security tools.
+- **CSIRT (Computer Security Incident Response Team)**: Group that handles security incidents.
+- **GRC (Governance, Risk Management, and Compliance)**: Practices aligning security with business requirements.
+    - **CCPA (California Consumer Privacy Act)**: Privacy law protecting California residents.
+    - **CIS (Center for Internet Security) Controls**: Best-practice security controls checklist.
+    - **GDPR (General Data Protection Regulation)**: EU regulation on personal data protection.
+    - **HIPAA (Health Insurance Portability and Accountability Act)**: US law protecting health information.
+    - **HITRUST CSF (Health Information Trust Alliance Common Security Framework)**: Compliance framework for health data security.
+    - **NIST (National Institutes of Standards and Technology)**: US agency publishing security standards.
+    - **PCI-DSS (Payment Card Industry Data Security Standard)**: Requirements for handling cardholder data.
+    - **SOC2 (System and Organization Controls)**: Audit standard for service organizations.
+- **Honeypots**: Traps designed to detect and study attackers.
+- **SOC (Security Operations Center)**: Centralized team monitoring security events.
+
+
+## Intersectional Security (Purple Team)
+- **Purple Teaming**: Collaborative approach to align red and blue team activities.
+
+## Computer & Digital Forensics
+- **Reverse Engineering**: Analyzing binaries to understand behavior.
 ## Operating Systems
 - **Unix**: family of multitasking, multiuser operating systems.
     - **BSD:** unix-like system with a focus on stability and networking.
