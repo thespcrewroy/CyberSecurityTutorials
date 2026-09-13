@@ -67,8 +67,9 @@
 - **FDE (Full Disk Encryption)**: encrypting an entire storage device at rest
 
 ## Password Cracking
-- **PDF2John:**
+- **Hashcat**
 - **JohnTheRipper**
+- **PDF2John:**
 
 ## Log Analysis
 - **SIEM (Security Information and Event Management)**: aggregates logs for detection and analytics
@@ -233,31 +234,51 @@
     - **Computer Virus**
     - **Computer Worm**
     - **Logic Bomb**
+    - **Ransomware**
     - **Rootkit**
     - **Spyware**
         - **Pegasus**
-        - **Keyloggers**
+        - **Keylogger**
     - **Time Bomb**
     - **Trojans**
         - **MalDoc**
+        - **Remote Access Trojan (RAT)**
 - **MITM (Man in the Middle Attack)**: intercepting communication between parties
 - **Social Engineering**
-- **Phishing**
-    - **Pretexting**
-    - **Smishing**
-    - **Typosquatting**
-    - **Whaling**
-    - **Vishing**
-    - *VoIP**
-- **Schools of Hacking**
+  - **Phishing**
+      - **Angler Phishing**
+      - **Baiting**
+      - **Business Email Compromise**
+      - **Pharming**: uses technical manipulation of DNS to misdirect you automatically without social engineering.
+      - **Pretexting**
+      - **Smishing (SMS Phishing)**
+      - **Social Media Phishing**
+      - **Spear Phishing**
+      - **Typosquatting (URL Hijacking)**
+      - **Watering Hole**
+      - **Whaling**
+      - **Vishing (Voice Phishing)**
+- **Threat Actors**
+    - **Advanced Persistant Threat (APT)**
+    - **Cybercriminal Organization**
+    - **Hacktivist**
+    - **Insider Threat**
+    - **Nation State**
+    - **Script Kiddie**
+    - **ShadowIT**
+- **Schools of Thought**
     - **Black Hat**
-    - **Gray Hat**
+    - **Blue Hat**
+    - **Green Hat**
+    - **Grey Hat**
+    - **Red Hat**
     - **White Hat**
 - **SIM Swapping**
 - **Spoofing**
     - **Biometric Spoofing**: faking biometric traits to bypass sensors
     - **CDP (Cisco Discovery Protocl) Spoofing**
-- **Web Exploitation**
+
+DNS Spoofing (Poisoning), DNS Amplification, DNS Hijacking, DNS Tunneling, VoIP, SIP, Fuzzing, Race Condition
 
 ## Defensive Security (Blue Team)
 - **Adblock**: Browser extensions that block ads and trackers.
