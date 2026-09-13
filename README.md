@@ -2,6 +2,9 @@
 
 ## Blockchain
 - **Atomic Swappers**: protocols enabling trustless token exchanges
+- **Bitcoin (BTC)**: a decentralized digital currency using a public blockchain
+- **Monero (XMR)**: a privacy-focused cryptocurrency that conceals transaction details
+- **NFT (Non-Fungible Token)**: a unique blockchain token representing ownership or authenticity of an asset
 
 ## Cloud Security
 - **CloudFlare**: CDN and security provider for web infrastructure
@@ -69,6 +72,12 @@
     - **PCI-DSS (Payment Card Industry Data Security Standard)**: requirements for handling cardholder data
     - **SOC (System and Organization Controls)**: audit standard for service organizations
 - **Honeypots**: traps designed to detect and study attackers
+- **IAM (Identity and Access Management)**: controls identities and access to organizational resources
+    - **Active Directory (AD)**: Microsoft’s on-premises directory and domain management service
+    - **Break-Glass Account**: highly privileged emergency account used when normal administrative access fails
+    - **LDAP (Lightweight Directory Access Protocol)**: a protocol for accessing and managing directory info
+    - **Microsoft Entra ID**: cloud identity and access management service
+    - **Microsoft Intune**: cloud service for managing devices, applications, and endpoint policies
 - **Operational Security (OpSec)**: protects sensitive info getting to an adversary
   - **Adblock**: browser extensions that block ads and trackers
     - **Decentraleyes**: local resource polyfill to reduce third-party calls
@@ -155,7 +164,7 @@
         - **TOFU (Trust on First Use)**: a model that trusts a key initially and warns about later changes
     - **YubiKey**: a hardware security key made by Yubico
 - **Physical Firewalls**: dedicated appliances that filter and control network traffic
-- **Routers**: devices that forward traffic between different networks
+- **Routers**: devices that forward traffic between different networks accross a WAN
     - **RouterSploit**: a framework for testing routers and embedded devices for vulnerabilities
 - **SCADA (Supervisory Control and Data Acquisition)**: remotely monitor and control industrial operations
 - **SDR (Software-Defined Radio)**: radio technology that processes signals primarily through software
@@ -163,6 +172,7 @@
         - **Yagi Antenna**: a directional antenna designed for focused signal transmission and reception
     - **HackRF**: a device for transmitting and receiving a broad range of radio frequencies
     - **RTL-SDR (Realtek Software-Defined Radio)**: an inexpensive receiver used to explore radio signals
+- **Switch:** hardware device that connects multiple devices together on a LAN
 
 ## Log Analysis
 - **Datadog**: a cloud platform for monitoring logs, applications, infrastructure, and security events
@@ -174,42 +184,65 @@
 
 ## Network Traffic Analysis
 - **Bluetooth**: short-range wireless communication protocol
+- **DNS (Domain Name System)**: translates domain names into IP addresses
 - **Encapsulation**: wrapping data with protocol headers for transport
+- **Ethernet:** traditional technology for connecting devices in a wired LAN or WAN
 - **Faraday's Cage**: shielding to block electromagnetic signals
 - **Firewalls**: devices that enforce network traffic filtering rules
 - **IPS (Intrusion Prevention System)**: detects and blocks malicious network activity
 - **ISP (Internet Service Providers)**: companies that provide internet connectivity
     - **Starlink**: satellite internet service provider
 - **LAN (Local Area Network)**: network connecting nearby devices
+- **Loopback:** virtual network interface that a computer uses to send network traffic to itself
+- **MAN (Metropolitan Area Network):** larger network that covers a town or an entire city
 - **MAC (Multimedia Access Control)**: likely meant MAC (Media Access Control) address
 - **Mirrors:** an exact copy of a file or website hosted on a traditional central server
 - **Networking Commands**: CLI tools for inspecting and managing networks
 - **Network Miner**: packet analysis and forensic tool
 - **NFC (Near-Field Communication)**: short-range wireless data exchange
 - **OSI (Open Systems Interconnection) Model**: seven-layer conceptual networking model
+    - **Application Layer:** direct interface between user app and network
+    - **Presentation Layer:** translates, encrypts, and compresses data so the receiving app can read it
+    - **Session Layer:** manages and maintains the comms channels between two active devices
+    - **Transport Layer:** handles end-to-end delivery by breaking data into segments with TCP or UDP
+    - **Network Layer:** handles logical addressing and routes packets accross differnet networks
+    - **Data Link Layer:** organizes bits into frames and uses MAC addresses for node-to-node transfer
+    - **Physical Layer:** trasmits raw unstructured bitstreams accross physical cables or media
 - **Pi-Hole**: DNS-level ad and tracker blocking appliance
 - **Ports & Protocols**: endpoint numbers and rules for network services
 - **Proxies**: intermediary servers that relay network requests
+- **Segmentation:** splitting a large computer network into smaller isolated sub-networks
 - **TCP/IP Model**: practical networking model used on the internet
+    - **Application Layer:** top layer where user apps interact with the network
+    - **Transport Layer:** end-to-end communication, data checking, and ordering with TCP or UDP
+    - **Internet Layer:** logical addressing and packet routing accross different networks using IP
+    - **Network Accesss Layer:** m*Manages the physical transmission of data bits over local hardware
 - **`tcpdump`**: command-line packet capture utility
+- **Subnet (Sub Network):** logical subdivision of an IP network
 - **Torrents**: peer-to-peer file distribution using BitTorrent protocol
+- **VoIP (Voice over Internet Protocol)**: transmits voice communications over IP networks
+    - **SIP (Session Initiation Protocol)**: establishes, manages, and terminates voice or video sessions
 - **VPN (Virtual Private Network)**: secure tunnel for network communications
     - **Mullvad**: privacy-focused VPN provider
     - **Wiregaurd**: modern, fast VPN protocol
+- **WAN (Wide Area Network):** telecommunications network that extends over a large distance
 - **Wifi**: wireless local area networking technology
     - **PSK (Pre-Shared Key)**: shared secret used to secure Wi‑Fi
     - **WPA (Wifi Protected Access)**: security standards for wireless networks
 - **Wireshark**: GUI packet analyzer for network troubleshooting
-
+- **VLAN (Virtual Local Area Network):** custom network created from LANs that allow for grouping
 
 ## Offensive Security (Red Team)
 - **Card Skimming**: stealing payment-card data using a hidden reader
+- **DoS (Denial of Service):** makes a service unavailible
+- - **DDoS (Distributed Denial-of-Service)**: overwhelming a service with traffic from multiple systems
+    - **Botnet**: a network of compromised devices controlled by an attacker
+    - **DNS Amplification**: abusing DNS servers to multiply denial-of-service traffic
 - **Evil Maid**: altering or compromising a device while it is unattended
 - **Hardware Backdoor**: using a hidden hardware mechanism to bypass normal security controls
 - **Malware**: software designed to damage, disrupt, spy on, or exploit systems
     - **Adware**: software that displays unwanted advertisements and may track user activity
     - **Bloatware**: unnecessary preinstalled software that consumes system resources
-    - **Botnet**: a network of compromised devices controlled by an attacker
     - **Computer Virus**: malware that attaches to files and spreads when executed
     - **Computer Worm**: malware that automatically spreads across systems and networks
     - **Logic Bomb**: malicious code activated when a specific condition is met
@@ -223,20 +256,26 @@
         - **MalDoc**: a malicious document designed to execute code or deliver malware
         - **Remote Access Trojan (RAT)**: malware that gives an attacker remote control of a system
 - **MITM (Man-in-the-Middle Attack)**: secretly intercepting and possibly altering communication between parties
+- **Pharming**: manipulating DNS or systems to redirect users to fraudulent websites
+    - **DNS Hijacking**: altering DNS settings or records to redirect network traffic
 - **Social Engineering**: manipulating people into revealing information or performing unsafe actions
+    - **Baiting**: offering something enticing to provoke an unsafe action
+    - **Dumpster Diving**: retrieving sensitive information from discarded materials
+    - **Impersonation**: pretending to be a trusted person or authority
     - **Phishing**: using deceptive messages or websites to steal information
         - **Angler Phishing**: impersonating customer support through social media
         - **Baiting**: offering something enticing to trick a victim into an unsafe action
         - **Business Email Compromise**: impersonating a trusted business contact to enable fraud
-        - **Pharming**: manipulating DNS or systems to redirect users to fraudulent websites
         - **Pretexting**: using a fabricated scenario to obtain information or access
         - **Smishing (SMS Phishing)**: delivering phishing messages through text messages
         - **Social Media Phishing**: using deceptive social media content to steal information
         - **Spear Phishing**: targeting a specific person or organization with customized messages
-        - **Typosquatting (URL Hijacking)**: registering look-alike domains to deceive users
-        - **Watering Hole**: compromising a website frequently visited by intended targets
         - **Whaling**: targeting executives or other high-profile individuals with phishing
         - **Vishing (Voice Phishing)**: using phone calls or voice messages to deceive victims
+    - **Quid Pro Quo**: promising a benefit in exchange for information or access
+    - **Scareware**: frightening users into installing software or taking unsafe actions
+    - **Shoulder Surfing**: observing someone to capture sensitive information
+    - **Tailgating (Piggybacking)**: following an authorized person into a restricted area
 - **Threat Actors**: individuals or groups that intentionally or unintentionally create cyber risk
     - **Advanced Persistent Threat (APT)**: a well-resourced group conducting prolonged targeted attacks
     - **Cybercriminal Organization**: an organized group conducting cyberattacks for financial gain
@@ -256,6 +295,9 @@
 - **Spoofing**: falsifying an identity or data source to appear trustworthy
     - **Biometric Spoofing**: faking biometric traits to bypass identity sensors
     - **CDP (Cisco Discovery Protocol) Spoofing**: sending forged CDP messages to impersonate network devices
+    - **DNS Spoofing (DNS Cache Poisoning)**: corrupting DNS data to redirect users to fraudulent destinations
+- **Typosquatting (URL Hijacking)**: registering look-alike domains to deceive users
+- **Watering Hole**: compromising a website frequently visited by intended targets
 
 ## Open Source Intelligence (OSINT)
 - **Bar Codes**: machine-readable visual patterns used to store data
@@ -344,6 +386,106 @@
 - **PDF2John:**
 
 ## PWN
+- **Computer Architecture**: foundational concepts governing how programs execute
+    - **Assembly**: low-level instructions executed by a processor
+    - **Endianness**: the byte order used to represent multibyte values
+    - **Registers**: small CPU storage locations used during execution
+        - **Instruction Pointer**: a register containing the address of the next instruction
+        - **Stack Pointer**: a register identifying the current top of the stack
+        - **Base Pointer**: a register commonly used to reference a stack frame
+    - **Syscall (System Call)**: a request from a program to the operating-system kernel
+- **Memory Layout**: organization of a process within virtual memory
+    - **Buffer**: a memory region used to temporarily store data
+    - **BSS Section**: uninitialized global and static variables
+    - **Data Section**: initialized global and static variables
+    - **Stack Section**: memory used for function calls, local variables, and return addresses
+    - **Stack (Activation) Frame**: stack memory allocated for a single function call
+    - **Heap Section**: dynamically allocated memory managed while a program runs
+    - **Text Section**: executable machine instructions within a program
+    - **Read-Only Data Section (.rodata)**: constants and other non-writable program data
+    - **Segmentation Fault**: an error caused by accessing memory outside of allocated segment
+- **Binary Formats and Linking**: structures used to package executable machine code
+    - **ELF (Executable and Linkable Format)**: the primary executable format on Linux and Unix-like systems
+    - **PE (Portable Executable)**: the executable format used by Windows
+    - **Relocatable File (.o)**: an object file whose addresses are resolved during linking
+    - **Shared Object (.so)**: a reusable library dynamically loaded by ELF programs
+    - **Static Linking**: incorporating library code directly into an executable
+    - **Dynamic Linking**: resolving external library code when loading or running a program
+    - **Symbol**: a named reference to a function, variable, or address
+    - **Stripped Binary**: an executable with debugging symbols removed
+    - **GOT (Global Offset Table)**: a table containing resolved addresses for global symbols
+    - **PLT (Procedure Linkage Table)**: code stubs used to call dynamically linked functions
+
+- **Vulnerability Discovery**: methods for finding weaknesses in programs
+    - **Fuzzing**: supplying unexpected inputs to discover crashes and vulnerabilities
+        - **Mutation-Based Fuzzing**: modifying existing inputs to generate test cases
+        - **Generation-Based Fuzzing**: creating inputs from a defined format or grammar
+        - **Coverage-Guided Fuzzing**: using execution coverage to guide input generation
+    - **Crash Triage**: determining the cause and exploitability of a program crash
+    - **Static Analysis**: examining a program without executing it
+    - **Dynamic Analysis**: examining a program while it executes
+
+- **Memory-Corruption Vulnerabilities**: flaws that permit unintended memory access or modification
+    - **Buffer Overflow**: writing more data than a buffer can hold
+        - **Stack-Based Buffer Overflow**: overwriting data beyond a stack buffer
+        - **Heap-Based Buffer Overflow**: overwriting data beyond a heap allocation
+    - **Stack Smashing**: corrupting stack data through an overflow
+    - **Out-of-Bounds Access**: reading or writing beyond an object’s valid boundaries
+    - **Use-After-Free (UAF)**: accessing memory after it has been released
+    - **Double Free**: releasing the same memory allocation more than once
+    - **Format-String Vulnerability**: allowing attacker-controlled format specifiers to access memory
+    - **Integer Overflow**: producing a value outside an integer type’s supported range
+    - **Null-Pointer Dereference**: accessing memory through an invalid null pointer
+    - **Uninitialized Memory**: using memory before it receives a defined value
+    - **Race Condition**: unsafe behavior caused by operations occurring in an unexpected order
+        - **TOCTOU (Time-of-Check to Time-of-Use)**: changing a resource between its validation and use
+
+- **Exploit Development**: techniques for turning vulnerabilities into controlled behavior
+    - **Exploit Primitive**: a basic capability gained from a vulnerability
+        - **Arbitrary Read**: reading data from an attacker-chosen memory address
+        - **Arbitrary Write**: writing data to an attacker-chosen memory address
+        - **Information Leak**: exposing memory or data needed to bypass protections
+    - **Instruction-Pointer Control**: controlling the address of the next executed instruction
+    - **Shellcode**: machine code delivered and executed as part of an exploit
+    - **NOP Sled**: a sequence of no-operation instructions leading execution toward shellcode
+    - **ret2win**: redirecting execution to an existing function that represents success
+    - **ret2libc**: calling existing library functions instead of injecting executable code
+    - **ROP (Return-Oriented Programming)**: chaining existing instruction sequences through return instructions
+        - **Gadget**: a short reusable instruction sequence ending in a control-transfer instruction
+        - **ROP Chain**: an ordered sequence of gadgets forming attacker-controlled behavior
+    - **JOP (Jump-Oriented Programming)**: chaining instruction sequences through indirect jumps
+    - **SROP (Sigreturn-Oriented Programming)**: controlling execution through forged signal frames
+    - **ret2dlresolve**: abusing the dynamic linker to resolve and invoke a desired function
+    - **Stack Pivot**: redirecting the stack pointer to attacker-controlled memory
+    - **Heap Exploitation**: manipulating dynamic-memory metadata and allocations
+        - **Heap Grooming**: arranging allocations to produce a useful heap layout
+        - **Tcache Poisoning**: corrupting the thread-local allocation cache
+        - **Fastbin Attack**: manipulating glibc fastbin freelists
+
+- **Exploit Mitigations**: protections that make memory corruption more difficult to exploit
+    - **Stack Canary**: a secret value used to detect stack-buffer corruption
+    - **NX (No-eXecute)**: prevents designated memory regions from executing code
+    - **DEP (Data Execution Prevention)**: Windows protection preventing data memory from executing
+    - **ASLR (Address Space Layout Randomization)**: randomizes memory locations between executions
+    - **PIE (Position-Independent Executable)**: allows an executable’s base address to be randomized
+    - **RELRO (Relocation Read-Only)**: protects relocation structures such as the GOT
+        - **Partial RELRO**: applies limited relocation protection while leaving the GOT writable
+        - **Full RELRO**: resolves symbols early and makes the GOT read-only
+    - **CFI (Control-Flow Integrity)**: restricts execution to approved control-flow paths
+    - **CET (Control-Flow Enforcement Technology)**: hardware-assisted protection against control-flow attacks
+
+- **Reverse Engineering**: analyzing software to understand its structure and behavior
+    - **Disassembler**: converts machine code into assembly instructions
+    - **Decompiler**: reconstructs higher-level pseudocode from machine code
+    - **Debugger**: pauses and inspects a program during execution
+        - **Breakpoint**: a location where execution pauses for inspection
+        - **Watchpoint**: a trigger that pauses execution when memory changes
+    - **Function Call Graph**: a diagram showing which functions call one another
+    - **Control-Flow Graph (CFG)**: a graph showing possible execution paths within a function
+    - **Basic Block**: a straight-line instruction sequence with one entry and exit
+    - **Cross-Reference (XREF)**: a reference showing where code or data is used
+    - **Pseudocode**: a high-level representation reconstructed from compiled code
+    - **Binary Patching**: modifying machine code or data inside a compiled program
 * **Binary Ninja**
 * **Ghidra**
 * **GNU Debugger (GDB)**
@@ -365,3 +507,5 @@
 * **PostMan**
   
 ## TODO
+* Orrin Adotavi ADP Stack
+* 
