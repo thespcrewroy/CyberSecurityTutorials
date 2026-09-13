@@ -64,36 +64,36 @@
 * [DC404 Atlanta Hacker Community](https://dc404.org/): an Atlanta community for hackers, security enthusiasts, and technology professionals.
 
 ## Competitions
-* [ASISCTF](https://asisctf.com/)
-* [CCDC](https://www.nationalccdc.org/)
-* [CDCTF (UA)](https://uacrimsondefense.github.io/cdctf.html)
-* [CPTC (RIT)](https://cp.tc/)
-* [CSAW (NYU)](https://github.com/thespcrewroy/CyberSecurityTutorials/blob/main/MediumBlogCTFWriteups/CSAW.md)
-* [CyberBay (UTampa)](https://cyberbay.org/)
-* [CyberQuest](https://uscc.cyberquests.org/)
-* [CyberSEED (UCONN)](https://career.uconn.edu/resources/cyberseed/)
-* [FaustCTF (FAU)](https://2024.faustctf.net/)
-* [GoogleCTF](https://capturetheflag.withgoogle.com/)
-* [Hack-A-Sat](https://hackasat.com/)
-* [HacktheBox](https://www.hackthebox.com/hacker/ctf)
-* [InfiniteCTF](https://ctftime.org/ctf/1405)
-* [InsomniHack](https://insomnihack.ch/)
-* [Meta Hackers Cup](https://www.facebook.com/codingcompetitions/hacker-cup)
-* [NCAE Cybergames](https://www.ncaecybergames.org/)
-* [NCL Cybergames](https://nationalcyberleague.org/)
-* [NSA Codebreaker](https://nsa-codebreaker.org/home)
-* [PatriotCTF (GMU)](https://competitivecyber.club/patriotctf/)
-* [picoCTF (CMU)](https://picoctf.org/)
-* [PlaidCTF](https://www.geeksforgeeks.org/top-cyber-hacking-competitions-capture-the-flag-ctf/)
-* [SnykCTF](https://snyk.io/events/ctf/)
-* [tkCTF (GT)](https://tc.gts3.org/cs6265/2024-fall/ctf.html)
-* [US Cybergames](https://www.uscybergames.com/faq)
-* [0CTF](https://ctf.0ops.sjtu.cn/)
+- [ASISCTF](https://asisctf.com/): an international jeopardy-style cybersecurity competition
+- [CCDC](https://www.nationalccdc.org/): a collegiate competition focused on defending enterprise networks
+- [CDCTF (UA)](https://uacrimsondefense.github.io/cdctf.html): the University of Alabama’s capture-the-flag competition
+- [CPTC (RIT)](https://cp.tc/): a collegiate competition centered on professional penetration testing
+- [CSAW (NYU)](https://github.com/thespcrewroy/CyberSecurityTutorials/blob/main/MediumBlogCTFWriteups/CSAW.md): global cyber competition featuring several challenge categories
+- [CyberBay (UTampa)](https://cyberbay.org/): a cybersecurity conference and competition hosted in Tampa
+- [CyberQuest](https://uscc.cyberquests.org/): online challenges used to identify and develop cybersecurity talent
+- [CyberSEED (UCONN)](https://career.uconn.edu/resources/cyberseed/): UConn’s cybersecurity competition and educational conference
+- [FaustCTF (FAU)](https://2024.faustctf.net/): a team-based attack-and-defense cybersecurity competition
+- [GoogleCTF](https://capturetheflag.withgoogle.com/): Google’s international capture-the-flag competition
+- [Hack-A-Sat](https://hackasat.com/): a competition focused on space-system and satellite security
+- [HacktheBox](https://www.hackthebox.com/hacker/ctf): a platform hosting practical cybersecurity labs and CTF competitions
+- [InfiniteCTF](https://ctftime.org/ctf/1405): a capture-the-flag competition featuring varied security challenges
+- [InsomniHack](https://insomnihack.ch/): a Swiss cybersecurity conference and international CTF competition
+- [Meta Hackers Cup](https://www.facebook.com/codingcompetitions/hacker-cup): Meta’s annual algorithmic programming competition
+- [NCAE Cybergames](https://www.ncaecybergames.org/): a beginner-friendly collegiate cybersecurity competition
+- [NCL Cybergames](https://nationalcyberleague.org/): a collegiate league featuring individual and team cybersecurity challenges
+- [NSA Codebreaker](https://nsa-codebreaker.org/home): an NSA challenge based on realistic cybersecurity missions
+- [PatriotCTF (GMU)](https://competitivecyber.club/patriotctf/): George Mason University’s beginner-friendly cybersecurity competition
+- [picoCTF (CMU)](https://picoctf.org/): a beginner-friendly cybersecurity competition and learning platform
+- [PlaidCTF](https://www.geeksforgeeks.org/top-cyber-hacking-competitions-capture-the-flag-ctf/): an advanced international CTF organized by Carnegie Mellon’s PPP
+- [SnykCTF](https://snyk.io/events/ctf/): a competition focused on identifying and exploiting software vulnerabilities
+- [tkCTF (GT)](https://tc.gts3.org/cs6265/2024-fall/ctf.html): a Georgia Tech competition focused on binary exploitation and system security
+- [US Cybergames](https://www.uscybergames.com/faq): a national program that selects and trains the U.S. Cyber Team
+- [0CTF](https://ctf.0ops.sjtu.cn/): an advanced international CTF organized by Shanghai Jiao Tong University’s 0ops
 
 ## Conferences & Events
-* [Blackhat Con](https://www.blackhat.com/us-24/)
-* [Blue Team Con](https://blueteamcon.com/)
-* [BSides Atlanta](https://ti.to/bsidesatl/2023)
-* [DEF CON (Defense Condition)](https://defcon.org/)
-* [OSDF (Open Source Digital Forensics) Conference](https://www.osdfcon.org/)
-* [WWHF (Wild West Hacking Fest)](https://wildwesthackinfest.com/)
+* [Black Hat Conference](https://www.blackhat.com/us-24/): a major cybersecurity conference featuring research, training, and security briefings
+* [Blue Team Con](https://blueteamcon.com/): a conference dedicated to cybersecurity defense and blue-team professionals
+* [BSides Atlanta](https://ti.to/bsidesatl/2023): Atlanta’s community-driven conference for cybersecurity education and networking
+* [DEF CON](https://defcon.org/): one of the world’s largest hacker and cybersecurity conventions
+* [OSDF Conference](https://www.osdfcon.org/): a conference focused on open-source digital forensics
+* [WWHF (Wild West Hackin’ Fest)](https://wildwesthackinfest.com/): a cybersecurity conference emphasizing practical training and hands-on learning
