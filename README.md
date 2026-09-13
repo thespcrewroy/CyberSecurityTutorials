@@ -1,5 +1,5 @@
 # Cyber Security Tutorials
-
+s
 ## Open Source Intelligence (OSINT)
 - **Bar Codes**: machine-readable visual patterns used to store data
     - **JAB (Just Another Barcode) Code**: a compact barcode variant for short payloads
