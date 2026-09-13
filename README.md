@@ -273,6 +273,7 @@
 
 ## Computer & Digital Forensics
 - **Reverse Engineering**: Analyzing binaries to understand behavior.
+
 ## Operating Systems
 - **Unix**: family of multitasking, multiuser operating systems
     - **BSD:** unix-like system with a focus on stability and networking
