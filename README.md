@@ -13,17 +13,11 @@
 - **OWASP Top 10**: a prioritized list of common web application security risks
 - **Piracy**: unauthorized copying and distribution of copyrighted content
     - **Pirate Bay**: a popular torrent index site for sharing files
-    - **Torrents**: peer-to-peer file distribution using BitTorrent protocol
  - **Private Investigators**: professionals who gather information discreetly
 - **Querying**: crafting searches to efficiently find relevant information
 - **Search Engines**: tools that index and retrieve web-hosted information
     - **Censys**: internet-wide search engine for hosts and certificates
     - **Google Reverse Image Search**: find similar images and their sources
-    - **IoT (Internet of Things)**: networked devices that can expose searchable data
-        - **BinaryEdge**: IoT and internet asset scanning platform
-        - **Insecam**: index of unsecured CCTV streams
-        - **Shodan**: search engine for internet-connected devices
-        - **ZoomEye**: Chinese internet asset search engine
     - **Yandex**: Russian search engine with image and web search features
 
 ## Cryptography
@@ -79,7 +73,7 @@
 - **SIEM (Security Information and Event Management)**: aggregates logs for detection and analytics
     - **Splunk**: commercial SIEM and log analysis platform
 
-## Network Traffic Analysis Security
+## Network Traffic Analysis
 - **Bluetooth**: short-range wireless communication protocol
 - **Encapsulation**: wrapping data with protocol headers for transport
 - **Faraday's Cage**: shielding to block electromagnetic signals
@@ -89,6 +83,7 @@
     - **Starlink**: satellite internet service provider
 - **LAN (Local Area Network)**: network connecting nearby devices
 - **MAC (Multimedia Access Control)**: likely meant MAC (Media Access Control) address
+- **Mirrors:** an exact copy of a file or website hosted on a traditional central server
 - **Networking Commands**: CLI tools for inspecting and managing networks
 - **Network Miner**: packet analysis and forensic tool
 - **NFC (Near-Field Communication)**: short-range wireless data exchange
@@ -98,6 +93,7 @@
 - **Proxies**: intermediary servers that relay network requests
 - **TCP/IP Model**: practical networking model used on the internet
 - **`tcpdump`**: command-line packet capture utility
+- **Torrents**: peer-to-peer file distribution using BitTorrent protocol
 - **VPN (Virtual Private Network)**: secure tunnel for network communications
     - **Mullvad**: privacy-focused VPN provider
     - **Wiregaurd**: modern, fast VPN protocol
@@ -107,10 +103,12 @@
 - **Wireshark**: GUI packet analyzer for network troubleshooting
 
 ## Scanning and Reconaissance
+- **BinaryEdge**: IoT and internet asset scanning platform
+- **Insecam**: index of unsecured CCTV streams
+- **Shodan**: search engine for internet-connected devices
+- **ZoomEye**: Chinese internet asset search engine
 
-## Binary Exploitation
-
-## Reverse Engineering
+## PWN
 
 ## Web Exploitation
 
