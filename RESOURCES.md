@@ -44,24 +44,24 @@
 
 ## Communities
 * Discord Groups
-    * [Advanced Research in Exploitation and Security (ARES)](https://discord.gg/PUE97EffRU)
-    * BSides Atlanta
-    * [Atlanta Cyber Security Engineers](https://discord.gg/BPEyDucFcS)
-    * CBC Community of Practice @ NSF
-    * CDCTF @ UAB
-    * [CSCI 4250: Cybersecurity](https://discord.gg/VCs8pW87Vy)
-    * NCAE Cyber Games
-    * [NCL Community](https://discord.gg/ECYBjyucVF)
-    * [PatriotCTF](https://discord.gg/JhynxaTDDh)
-    * [GreyHat @ GATech](https://discord.gg/TKaZN3Ydaj)
-    * [Hack Pack @ UGA](https://discord.gg/PUE97EffRU)
-    * [Pwn.College @ ASU](https://discord.gg/dY5MEdthfz)
-    * [Society for Cyber Security @ UGA](https://discord.gg/KrUR46NY6R)
-    * [TryHackMe](https://discord.gg/bsxn5cAymu)
-    * [Wild West Hackin' Fest](https://discord.gg/wwhf)
+   - [Advanced Research in Exploitation and Security (ARES)](https://discord.gg/PUE97EffRU): a UGA research group focused on cybersecurity and system exploitation
+   - BSides Atlanta: a community-driven conference for cybersecurity professionals and enthusiasts
+   - [Atlanta Cyber Security Engineers](https://discord.gg/BPEyDucFcS): an Atlanta community for cybersecurity collaboration and networking
+   - CBC Community of Practice @ NSF: an NSF-supported community for cybersecurity education and collaboration
+   - CDCTF @ UAB: UAB’s capture-the-flag competition for practicing cybersecurity skills
+   - [CSCI 4250: Cybersecurity](https://discord.gg/VCs8pW87Vy): a community for students enrolled in UGA’s cybersecurity course
+   - NCAE Cyber Games: a collegiate competition featuring practical cybersecurity challenges
+   - [NCL Community](https://discord.gg/ECYBjyucVF): a community for National Cyber League competitors and coaches
+   - [PatriotCTF](https://discord.gg/JhynxaTDDh): George Mason University’s beginner-friendly cybersecurity competition
+   - [GreyHat @ GATech](https://discord.gg/TKaZN3Ydaj): Georgia Tech’s student cybersecurity club and CTF community
+   - [Hack Pack @ UGA](https://discord.gg/PUE97EffRU): UGA’s competitive cybersecurity and capture-the-flag team
+   - [Pwn.College @ ASU](https://discord.gg/dY5MEdthfz): a hands-on platform for learning system security and exploitation
+   - [Society for Cyber Security @ UGA](https://discord.gg/KrUR46NY6R): UGA’s student organization for cybersecurity education and networking
+   - [TryHackMe](https://discord.gg/bsxn5cAymu): a community for learning cybersecurity through interactive labs
+   - [Wild West Hackin' Fest](https://discord.gg/wwhf): a cybersecurity conference community focused on practical training
 * Meetup Groups
-    * [OWASP Atlanta Chapter](https://owasp.org/www-chapter-atlanta/)
-* [DC404 Atlanta Hacker Community](https://dc404.org/)
+    * [OWASP Atlanta Chapter](https://owasp.org/www-chapter-atlanta/): a local community focused on application security education and networking
+* [DC404 Atlanta Hacker Community](https://dc404.org/): an Atlanta community for hackers, security enthusiasts, and technology professionals.
 
 ## Competitions
 * [ASISCTF](https://asisctf.com/)
