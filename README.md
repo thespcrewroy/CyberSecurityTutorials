@@ -224,59 +224,59 @@
     - **RTL-SDR (Realtek Software-Defined Radio)**: an inexpensive receiver used to explore radio signals
 
 ## Offensive Security (Red Team)
-- **Card Skimming**
-- **Evil Maid**: physical attack that alters a device while unattended
-- **Hardware Backdoor**
-- **Malware**
-    - **Adware**
-    - **Bloatware**
-    - **Botnet**
-    - **Computer Virus**
-    - **Computer Worm**
-    - **Logic Bomb**
-    - **Ransomware**
-    - **Rootkit**
-    - **Spyware**
-        - **Pegasus**
-        - **Keylogger**
-    - **Time Bomb**
-    - **Trojans**
-        - **MalDoc**
-        - **Remote Access Trojan (RAT)**
-- **MITM (Man in the Middle Attack)**: intercepting communication between parties
-- **Social Engineering**
-  - **Phishing**
-      - **Angler Phishing**
-      - **Baiting**
-      - **Business Email Compromise**
-      - **Pharming**: uses technical manipulation of DNS to misdirect you automatically without social engineering.
-      - **Pretexting**
-      - **Smishing (SMS Phishing)**
-      - **Social Media Phishing**
-      - **Spear Phishing**
-      - **Typosquatting (URL Hijacking)**
-      - **Watering Hole**
-      - **Whaling**
-      - **Vishing (Voice Phishing)**
-- **Threat Actors**
-    - **Advanced Persistant Threat (APT)**
-    - **Cybercriminal Organization**
-    - **Hacktivist**
-    - **Insider Threat**
-    - **Nation State**
-    - **Script Kiddie**
-    - **ShadowIT**
-- **Schools of Thought**
-    - **Black Hat**
-    - **Blue Hat**
-    - **Green Hat**
-    - **Grey Hat**
-    - **Red Hat**
-    - **White Hat**
-- **SIM Swapping**
-- **Spoofing**
-    - **Biometric Spoofing**: faking biometric traits to bypass sensors
-    - **CDP (Cisco Discovery Protocl) Spoofing**
+- **Card Skimming**: stealing payment-card data using a hidden reader
+- **Evil Maid**: altering or compromising a device while it is unattended
+- **Hardware Backdoor**: using a hidden hardware mechanism to bypass normal security controls
+- **Malware**: software designed to damage, disrupt, spy on, or exploit systems
+    - **Adware**: software that displays unwanted advertisements and may track user activity
+    - **Bloatware**: unnecessary preinstalled software that consumes system resources
+    - **Botnet**: a network of compromised devices controlled by an attacker
+    - **Computer Virus**: malware that attaches to files and spreads when executed
+    - **Computer Worm**: malware that automatically spreads across systems and networks
+    - **Logic Bomb**: malicious code activated when a specific condition is met
+    - **Ransomware**: malware that encrypts or blocks data and demands payment
+    - **Rootkit**: malware that hides itself while maintaining privileged system access
+    - **Spyware**: software that secretly monitors and collects user information
+        - **Pegasus**: advanced spyware used to compromise and monitor mobile devices
+        - **Keylogger**: software or hardware that secretly records keyboard input
+    - **Time Bomb**: malicious code triggered at a predetermined time or date
+    - **Trojans**: malware disguised as legitimate or desirable software
+        - **MalDoc**: a malicious document designed to execute code or deliver malware
+        - **Remote Access Trojan (RAT)**: malware that gives an attacker remote control of a system
+- **MITM (Man-in-the-Middle Attack)**: secretly intercepting and possibly altering communication between parties
+- **Social Engineering**: manipulating people into revealing information or performing unsafe actions
+    - **Phishing**: using deceptive messages or websites to steal information
+        - **Angler Phishing**: impersonating customer support through social media
+        - **Baiting**: offering something enticing to trick a victim into an unsafe action
+        - **Business Email Compromise**: impersonating a trusted business contact to enable fraud
+        - **Pharming**: manipulating DNS or systems to redirect users to fraudulent websites
+        - **Pretexting**: using a fabricated scenario to obtain information or access
+        - **Smishing (SMS Phishing)**: delivering phishing messages through text messages
+        - **Social Media Phishing**: using deceptive social media content to steal information
+        - **Spear Phishing**: targeting a specific person or organization with customized messages
+        - **Typosquatting (URL Hijacking)**: registering look-alike domains to deceive users
+        - **Watering Hole**: compromising a website frequently visited by intended targets
+        - **Whaling**: targeting executives or other high-profile individuals with phishing
+        - **Vishing (Voice Phishing)**: using phone calls or voice messages to deceive victims
+- **Threat Actors**: individuals or groups that intentionally or unintentionally create cyber risk
+    - **Advanced Persistent Threat (APT)**: a skilled, well-resourced group conducting prolonged targeted attacks
+    - **Cybercriminal Organization**: an organized group conducting cyberattacks for financial gain
+    - **Hacktivist**: an attacker motivated by political or social causes
+    - **Insider Threat**: a trusted individual who intentionally or accidentally causes harm
+    - **Nation-State**: a government-sponsored actor conducting cyber operations
+    - **Script Kiddie**: an inexperienced attacker who relies on existing tools and exploits
+    - **Shadow IT**: technology used without an organization’s approval or oversight
+- **Schools of Thought**: informal labels describing hackers by experience, authorization, or motivation
+    - **Black Hat**: a hacker who acts maliciously and without authorization
+    - **Blue Hat**: an external tester invited to find vulnerabilities before release
+    - **Green Hat**: a beginner who is actively learning hacking techniques
+    - **Grey Hat**: a hacker who may act without permission but lacks clear malicious intent
+    - **Red Hat**: a vigilante who aggressively targets malicious hackers
+    - **White Hat**: an ethical hacker who tests systems with authorization
+- **SIM Swapping**: hijacking a phone number by transferring it to an attacker-controlled SIM
+- **Spoofing**: falsifying an identity or data source to appear trustworthy
+    - **Biometric Spoofing**: faking biometric traits to bypass identity sensors
+    - **CDP (Cisco Discovery Protocol) Spoofing**: sending forged CDP messages to impersonate network devices
 
 DNS Spoofing (Poisoning), DNS Amplification, DNS Hijacking, DNS Tunneling, VoIP, SIP, Fuzzing, Race Condition
 
