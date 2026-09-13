@@ -21,6 +21,10 @@
         - **GPA (GNU Privacy Assistant)**: GUI tool for managing PGP keys
         - **OpenPGP**: interoperable standard for PGP-compatible encryption
     - **PIV (Personal Identity Verification)**: smartcard standard for identity tokens
+    - **SSH Keys**: cryptographic credentials used to authenticate SSH connections
+         - **Non-Resident Keys**: security-key credentials requiring the private key handle from the client
+         - **Resident Keys**: discoverable credentials stored directly on a security key
+         - **TOFU (Trust on First Use)**: a model that trusts a key initially and warns about later changes  
     - **TOTP (Time Based One-Time Password)**: time-limited codes for authentication
     - **U2F (Universal 2nd Factor)**: hardware-backed second-factor authentication standard
     - **ZTA (Zero Trust Architecture)**: security model that verifies every access
@@ -53,8 +57,8 @@
     - **Bullrun Decryption Program**: speculated agency effort to weaken crypto
 - **FDE (Full Disk Encryption)**: encrypting an entire storage device at rest
 
-
 ## Defensive Security (Blue Team)
+- **Case Study:** clear lessons on how attacks happen and how to stop them
 - **CSIRT (Computer Security Incident Response Team)**: group that handles security incidents
 - **GRC (Governance, Risk Management, and Compliance)**: aligns security with business requirements
     - **CCPA (California Consumer Privacy Act)**: privacy law protecting California residents
@@ -75,65 +79,19 @@
 - **Operational Security (OpSec)**: protects sensitive info getting to an adversary
   - **Adblock**: browser extensions that block ads and trackers
   - **Antivirus/Antimalware**: software that detects and removes malware
-      - **Kapersky**: commercial antivirus and security product suite
-      - **MalwareBytes**: anti-malware product focusing on modern threats
-      - **McAfee**: longstanding commercial security vendor
-      - **Norton**: consumer-focused antivirus and security tools
-      - **Windows Defender**: built-in tool that protects your PC from malware
   - **Browsers**: software used to access web content securely when configured
-      - **Brave**: privacy-focused browser with built-in ad blocking
-      - **Firefox**: open-source browser with strong privacy controls
-      - **GNU Icecap**: privacy-oriented browser project
   - **Compartmentalization**: separating activities and data to limit exposure
-  - **Dark Web (Tor)**: anonymity network and overlay services accessed via Tor
-  - **Email**: communication medium with varying privacy properties
-      - **Permanent**: Long-term secure email providers
-          - **ProtonMail**: end-to-end encrypted email service
-          - **SecureMail**: Privacy-focused email solutions.
-          - **Tutanota**: encrypted email provider with zero-knowledge features
-          - **Anonady**: privacy-oriented mail service
-          - **GudoMail**: alternative secure email provider
-          - **MailFence**: encrypted email and collaboration suite
-          - **PrivateMail**: privacy-centric email offering
-       - **Temporary Mail**: disposable email services for short-term use
-           - **GorillaMail**: disposable email address provider
-           - **Temp Mailo**: temporary inbox service
-           - **TempMail**: disposable email provider
+  - **Secure Email**: communication medium with varying privacy properties
   - **IRC (Internet Relay Chats)**: real-time chat protocol used in communities
-      - **Briar**: secure decentralized messaging app
-      - **Element**: matrix-based chat client for secure communication
-      - **Jabber**: XMPP instant messaging protocol
-      - **Signal**: encrypted messaging app for private communication
-      - **Telegram:** cloud-based messaging app with a focus on security
-      - **Yami**: lightweight chat client
   - **MAC Address Randomization**: technique to prevent device tracking on networks
   - **Passwords**: secrets used to authenticate users; best combined with MFA
       - **Passphrases**: longer memorable strings used as passwords
       - **Password Managers**: tools to generate and store credentials securely
-          - **Local**: run on the user's device without cloud sync
-              - **KeePassXC**: open-source local password manager
-              - **Syncthing**: filesync tool sometimes used to sync vaults
-              - **Veracrypt**: encrypted container tool for storing data
-              - **Microsoft Word**: unconventional, not recommended for secrets
-           - **Browser-Based**: integrated password storage in browsers
-               - **Google Password Manager**: browser-integrated credential store
-           - **Cloud-Based**: hosted password services with sync
-               - **Bitwarden**: open-source cloud password manager
-               - **Cryptomater**: cloud-based credential storage
-               - **LastPass**: commercial cloud password manager
   - **Secure Search Engines**: privacy-respecting web search alternatives
-      - **DuckDuckGo**: search engine that emphasizes privacy
-      - **Searx**: open-source metasearch engine that preserves privacy
-      - **StartPage**: pivacy-oriented search proxy
+- **Purple Team**: collaborative approach to align red and blue team activities
 - **SOAR (Security Orchestration, Automation, and Response):** helps teams manage threats using automated workflows
 - **SOC (Security Operations Center)**: centralized team monitoring security events
-- **Purple Teaming**: collaborative approach to align red and blue team activities
-
-## Forensics
-* **Autopsy**
-* **Sleuth-Kit (TSK)**
-* **Volatility2**
-* **Volatility3**
+- **Tabletop Exercise:** discussion-based meeting where a team talks through a simulated emergency or crisi
 
 ## Hardware Security
 - **Burner Phones**: low-cost phones used temporarily to limit identity exposure
@@ -141,41 +99,19 @@
 - **ICS (Industrial Control System)**: systems that monitor and control industrial processes
 - **IoT (Internet of Things)**: physical devices that communicate and exchange data over networks
     - **CCTV (Closed-Circuit Television)**: private video systems used for monitoring and surveillance
-        - **Cameradar**: a tool for discovering and testing RTSP surveillance cameras
 - **Firmware**: low-level software embedded within hardware devices
-    - **FreshTomato**: open-source replacement firmware for supported wireless routers
-- **Flipper Zero**: a portable tool for exploring radio, access-control, and hardware systems
 - **Hardware Backdoor**: a hidden hardware mechanism that bypasses normal security controls
 - **Hardware Keyloggers**: physical devices that secretly record keyboard input
 - **Hardware Security Key**: a physical device used for secure authentication
-    - **Feitian**: a manufacturer of security keys and authentication devices
-    - **Google Titan**: Google’s line of hardware security keys
-    - **SSH Keys**: cryptographic credentials used to authenticate SSH connections
-        - **Non-Resident Keys**: security-key credentials requiring the private key handle from the client
-        - **Resident Keys**: discoverable credentials stored directly on a security key
-        - **TOFU (Trust on First Use)**: a model that trusts a key initially and warns about later changes
-    - **YubiKey**: a hardware security key made by Yubico
 - **Physical Firewalls**: dedicated appliances that filter and control network traffic
 - **Routers**: devices that forward traffic between different networks accross a WAN
-    - **ASUS**: a manufacturer of consumer and business networking equipment
-    - **Netgear**: a manufacturer of routers, switches, and other networking equipment
-    - **TP-Link**: a manufacturer of consumer and business networking equipment
-    - **RouterSploit**: a framework for testing routers and embedded devices for vulnerabilities
 - **SCADA (Supervisory Control and Data Acquisition)**: remotely monitor and control industrial operations
 - **SDR (Software-Defined Radio)**: radio technology that processes signals primarily through software
-    - **Directional Wi-Fi Antenna**: an antenna that concentrates wireless signals in one direction
-        - **Yagi Antenna**: a directional antenna designed for focused signal transmission and reception
-    - **HackRF**: a device for transmitting and receiving a broad range of radio frequencies
-    - **RTL-SDR (Realtek Software-Defined Radio)**: an inexpensive receiver used to explore radio signals
+    - **Directional Wi-Fi Antenna**: an antenna that concentrates wireless signals in one directionignals
 - **Switch:** hardware device that connects multiple devices together on a LAN
 
 ## Log Analysis
-- **Datadog**: a cloud platform for monitoring logs, applications, infrastructure, and security events
-- **Microsoft Excel**: a spreadsheet tool for filtering, organizing, and analyzing exported log data
 - **SIEM (Security Information and Event Management)**: aggregates and analyzes logs to detect security threats
-    - **Elastic Security**: an Elastic Stack solution for security analytics and investigation
-    - **Microsoft Sentinel**: Microsoft’s cloud-native SIEM and security orchestration platform
-    - **Splunk**: a commercial platform for searching, monitoring, and analyzing machine-generated data
 
 ## Network Traffic Analysis
 - **Bluetooth**: short-range wireless communication protocol
