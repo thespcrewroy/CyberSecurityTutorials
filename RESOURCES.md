@@ -1,6 +1,6 @@
 # Cybersecurity Resources
 
-## UGA Courses (Cybersecurity Theory)
+## College Courses
 * Cyber Security (CSCI 4250)
 * Cryptology and Computational Number Theory (MATH 4450)
 * Data Security and Privacy (CSCI 4260)
