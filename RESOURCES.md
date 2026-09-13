@@ -78,10 +78,12 @@
 
 ## Communities
 * Discord Groups
-    * Society for Cyber Security @ UGA
-    * Hack Pack @ UGA
-    * GreyHat @ GATech
+    * [Society for Cyber Security @ UGA](https://discord.gg/KrUR46NY6R)
+    * [Advanced Research in Exploitation and Security](https://discord.gg/PUE97EffRU)
+    * [Hack Pack @ UGA](https://discord.gg/PUE97EffRU)
+    * [GreyHat @ GATech](https://discord.gg/TKaZN3Ydaj)
     * [Pwn.College @ ASU](https://discord.gg/dY5MEdthfz)
+    * [CSCI 4250: Cybersecurity](https://discord.gg/VCs8pW87Vy)
     * CBC Community of Practice @ NSF
     * CDCTF @ UAB
     * [Atlanta Cyber Security Engineers](https://discord.gg/BPEyDucFcS)
