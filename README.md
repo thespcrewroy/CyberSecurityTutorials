@@ -16,7 +16,6 @@
  - **Private Investigators**: professionals who gather information discreetly
 - **Querying**: crafting searches to efficiently find relevant information
 - **Search Engines**: tools that index and retrieve web-hosted information
-    - **Censys**: internet-wide search engine for hosts and certificates
     - **Google Reverse Image Search**: find similar images and their sources
     - **Yandex**: Russian search engine with image and web search features
 
@@ -68,6 +67,8 @@
 - **FDE (Full Disk Encryption)**: encrypting an entire storage device at rest
 
 ## Password Cracking
+- **PDF2John:**
+- **JohnTheRipper**
 
 ## Log Analysis
 - **SIEM (Security Information and Event Management)**: aggregates logs for detection and analytics
@@ -104,15 +105,30 @@
 
 ## Scanning and Reconaissance
 - **BinaryEdge**: IoT and internet asset scanning platform
+- **Censys**: internet-wide search engine for hosts and certificates
+- **GreyNoise**
 - **Insecam**: index of unsecured CCTV streams
+- **Nikto**
+- **Nmap**
 - **Shodan**: search engine for internet-connected devices
 - **ZoomEye**: Chinese internet asset search engine
+- **Zmap**
 
 ## PWN
+* **Binary Ninja**
+* **Ghidra**
+* **GNU Debugger (GDB)**
+* **IDA Pro**
 
 ## Web Exploitation
+* **BurpSuite**
+* **PostMan**
 
 ## Forensics
+* **Autopsy**
+* **Sleuth-Kit (TSK)**
+* **Volatility2**
+* **Volatility3**
 
 ## Operating Systems
 - **Unix**: family of multitasking, multiuser operating systems
@@ -207,29 +223,32 @@
     - **RTL-SDR (Realtek Software-Defined Radio)**: an inexpensive receiver used to explore radio signals
 
 ## Offensive Security (Red Team)
-- **Botnet**
 - **Card Skimming**
 - **Evil Maid**: physical attack that alters a device while unattended
 - **Hardware Backdoor**
 - **Malware**
     - **Adware**
     - **Bloatware**
+    - **Botnet**
     - **Computer Virus**
     - **Computer Worm**
+    - **Logic Bomb**
     - **Rootkit**
     - **Spyware**
         - **Pegasus**
         - **Keyloggers**
+    - **Time Bomb**
     - **Trojans**
         - **MalDoc**
 - **MITM (Man in the Middle Attack)**: intercepting communication between parties
-- **Password Cracking**
+- **Social Engineering**
 - **Phishing**
-- **Scanning & Reconaissance**
-    - **GreyNoise**
-    - **Nikto**
-    - **Nmap**
-    - **Zmap**
+    - **Pretexting**
+    - **Smishing**
+    - **Typosquatting**
+    - **Whaling**
+    - **Vishing**
+    - *VoIP**
 - **Schools of Hacking**
     - **Black Hat**
     - **Gray Hat**
