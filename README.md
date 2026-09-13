@@ -1,444 +1,97 @@
-# Cyber Security Tutorials
+### Cloud Security
+- **CloudFlare**: CDN and security provider for web infrastructure
+- **Grype**: vulnerability scanner for container images and filesystems
 
-## Blockchain
-- **Atomic Swappers**: protocols enabling trustless token exchanges
-- **Bitcoin (BTC)**: a decentralized digital currency using a public blockchain
-- **Monero (XMR)**: a privacy-focused cryptocurrency that conceals transaction details
-- **NFT (Non-Fungible Token)**: a unique blockchain token representing ownership or authenticity of an asset
-
-## Cryptography
-- **Alice & Bob**: placeholder names used in cryptography examples
-- **MFA (Multi-Factor Authentication)**: authentication using multiple credential types
-    - **FIDO/FIDO2 (Fast Identity Online)**: standards for passwordless authentication
-        - **Biometrics**: physiological traits used for user authentication
-        - **CTAP (Client to Authentication Protocol)**: protocol for external authenticators
-        - **Passkeys**: phishing-resistant credentials replacing passwords
-        - **WebAuthn (Web Authentication)**: browser API for strong authentication
-            - **Relying Party (RP) ID**: identifier for the service using WebAuthn
-    - **Knowledge-Based Authentication (KBA):** challenge questions that ask for personal information (ex. mother's maiden name)
-    - **OAuth (Open Authorization)**: protocol for delegated access to resources
-    - **PGP (Pretty Good Privacy)**: email encryption and signing standard
-        - **GPA (GNU Privacy Assistant)**: GUI tool for managing PGP keys
-        - **OpenPGP**: interoperable standard for PGP-compatible encryption
-    - **PIV (Personal Identity Verification)**: smartcard standard for identity tokens
-    - **SSH Keys**: cryptographic credentials used to authenticate SSH connections
-         - **Non-Resident Keys**: security-key credentials requiring the private key handle from the client
-         - **Resident Keys**: discoverable credentials stored directly on a security key
-         - **TOFU (Trust on First Use)**: a model that trusts a key initially and warns about later changes  
-    - **TOTP (Time Based One-Time Password)**: time-limited codes for authentication
-    - **U2F (Universal 2nd Factor)**: hardware-backed second-factor authentication standard
-    - **ZTA (Zero Trust Architecture)**: security model that verifies every access
-    - **Zero Knowledge Proof**: prove knowledge without revealing the secret
-- **Checksum**: a small value used to detect data corruption
-- **Ciphers**: algorithms for encrypting or transforming data
-    - **Asymmetric Encryption**: public/private key cryptography for secure exchange
-        - **Certificate Based Encryption**: uses certificates to bind identities to keys
-            - **SSL/TLS Certificate**: credential used to secure web connections
-        - **Diffie-Hellman**: key exchange method for establishing shared secrets
-        - **(ECC) Elliptical Curve Cryptography**: efficient public-key crypto using curves
-            - **Trapdoor Function**: one-way function easy to compute, hard to invert
-        - **RSA (Rivest-Shamir-Adleman)**: widely used public-key encryption algorithm
-        - **Charcode Cipher**: character-based substitution or encoding methods
-        - **DTMF (Dual Tone Multi-Frequency)**: tones used for telephony signaling
-        - **Historical Ciphers**: classical encryption methods from history
-            - **Caesar (ROT) Cipher**: simple letter-shift substitution cipher
-            - **Jefferson Cipher**: wheel-based transposition cipher
-            - **Scytale**: ancient transposition using a wrapped strip
-            - **Rail-Fence Cipher**: zigzag transposition of plaintext
-            - **Transposition Cipher**: rearranges characters without substitution
-            - **Vigenere Cipher**: polyalphabetic substitution using a keyword
-        - **Morse**: encoding text as sequences of dots and dashes
-        - **Sign Language**: visual-gestural communication system for humans
-        - **Symmetric Encryption**: single-key encryption for confidentiality
-            - **AES (Advanced Encryption Standard)**: modern symmetric cipher standard
-            - **DES (Data Encryption Standard)**: older symmetric cipher, now deprecated
-- **Cryptanalysis**: techniques to break or analyze cryptographic systems
-    - **Side Channel Attack**: extract secrets from physical leakages
-    - **Bullrun Decryption Program**: speculated agency effort to weaken crypto
-- **FDE (Full Disk Encryption)**: encrypting an entire storage device at rest
 
 ## Defensive Security (Blue Team)
-- **Case Study:** clear lessons on how attacks happen and how to stop them
-- **CSIRT (Computer Security Incident Response Team)**: group that handles security incidents
-- **GRC (Governance, Risk Management, and Compliance)**: aligns security with business requirements
-    - **CCPA (California Consumer Privacy Act)**: privacy law protecting California residents
-    - **CIS Controls**: best-practice security controls checklist
-    - **CMMC (Cybersecurity Maturity Model Certification):** ensure defense contractors protect unclassified info
-    - **GDPR (General Data Protection Regulation)**: EU regulation on personal data protection
-    - **HIPAA (Health Insurance Portability and Accountability Act)**: US law protecting health information
-    - **HITRUST CSF (Common Security Framework)**: health data security
-    - **ISO/IEC 27001**: world's leading international standard for managing information security
-    - **NIST**: US agency publishing security standards
-    - **PCI-DSS (Payment Card Industry Data Security Standard)**: requirements for handling cardholder data
-    - **SOC (System and Organization Controls)**: audit standard for service organizations
-- **Honeypots**: traps designed to detect and study attackers
-- **IAM (Identity and Access Management)**: controls identities and access to organizational resources
-    - **Active Directory (AD)**: Microsoft’s on-premises directory and domain management service
-    - **Break-Glass Account**: highly privileged emergency account used when normal administrative access fails
-    - **LDAP (Lightweight Directory Access Protocol)**: a protocol for accessing and managing directory info
-- **Operational Security (OpSec)**: protects sensitive info getting to an adversary
-  - **Adblock**: browser extensions that block ads and trackers
-  - **Antivirus/Antimalware**: software that detects and removes malware
-  - **Browsers**: software used to access web content securely when configured
-  - **Compartmentalization**: separating activities and data to limit exposure
-  - **Secure Email**: communication medium with varying privacy properties
-  - **IRC (Internet Relay Chats)**: real-time chat protocol used in communities
-  - **MAC Address Randomization**: technique to prevent device tracking on networks
-  - **Passwords**: secrets used to authenticate users; best combined with MFA
-      - **Passphrases**: longer memorable strings used as passwords
-      - **Password Managers**: tools to generate and store credentials securely
-  - **Secure Search Engines**: privacy-respecting web search alternatives
-- **Purple Team**: collaborative approach to align red and blue team activities
-- **SOAR (Security Orchestration, Automation, and Response):** helps teams manage threats using automated workflows
-- **SOC (Security Operations Center)**: centralized team monitoring security events
-- **Tabletop Exercise:** discussion-based meeting where a team talks through a simulated emergency or crisi
+- **IAM (Identity and Access Management)**
+    - **Microsoft Entra ID**: cloud identity and access management service
+    - **Microsoft Intune**: cloud service for managing devices, applications, and endpoint policies
+- **Operational Security (OpSec)**
+    - **Adblock**
+        - **Decentraleyes**: local resource polyfill to reduce third-party calls
+        - **Ublock Origin**: efficient configurable ad-blocking extension
+    - **Antivirus/Antimalware**
+        - **Kapersky**: commercial antivirus and security product suite
+        - **MalwareBytes**: anti-malware product focusing on modern threats
+        - **McAfee**: longstanding commercial security vendor
+        - **Norton**: consumer-focused antivirus and security tools
+        - **Windows Defender**: built-in tool that protects your PC from malware
+    - **Browsers**
+        - **Brave**: privacy-focused browser with built-in ad blocking
+        - **Firefox**: open-source browser with strong privacy controls
+        - **GNU Icecap**: privacy-oriented browser project
+        - **Dark Web (Tor)**: anonymity network and overlay services accessed via Tor
+    - **Secure Email**
+        - **Permanent**
+            - **ProtonMail**: end-to-end encrypted email service
+            - **SecureMail**: Privacy-focused email solutions.
+            - **Tutanota**: encrypted email provider with zero-knowledge features
+            - **Anonady**: privacy-oriented mail service
+            - **GudoMail**: alternative secure email provider
+            - **MailFence**: encrypted email and collaboration suite
+            - **PrivateMail**: privacy-centric email offering
+        - **Temporary Mail**
+            - **GorillaMail**: disposable email address provider
+            - **Temp Mailo**: temporary inbox service
+            - **TempMail**: disposable email provider
+    - **IRC (Internet Relay Chats)**
+        - **Briar**: secure decentralized messaging app
+        - **Element**: matrix-based chat client for secure communication
+        - **Jabber**: XMPP instant messaging protocol
+        - **Signal**: encrypted messaging app for private communication
+        - **Telegram:** cloud-based messaging app with a focus on security
+        - **Yami**: lightweight chat client
+    - **Passwords**: secrets used to authenticate users; best combined with MFA
+        - **Password Managers**
+            - **Local**
+                - **KeePassXC**: open-source local password manager
+                - **Syncthing**: filesync tool sometimes used to sync vaults
+                - **Veracrypt**: encrypted container tool for storing data
+                - **Microsoft Word**: unconventional, not recommended for secrets
+             - **Browser-Based**
+                - **Google Password Manager**: browser-integrated credential store
+             - **Cloud-Based**
+                - **Bitwarden**: open-source cloud password manager
+                - **Cryptomater**: cloud-based credential storage
+                - **LastPass**: commercial cloud password manager
+    - **Secure Search Engines**
+        - **DuckDuckGo**: search engine that emphasizes privacy
+        - **Searx**: open-source metasearch engine that preserves privacy
+        - **StartPage**: pivacy-oriented search proxy
+
+## Forensics
+- **Autopsy**: a graphical digital-forensics platform built on The Sleuth Kit
+- **The Sleuth Kit (TSK)**: command-line tools and libraries for analyzing disks and file systems
+- **Volatility 2**: a legacy Python framework for analyzing memory captures
+- **Volatility 3**: the modern successor to Volatility 2 for memory forensics
 
 ## Hardware Security
-- **Burner Phones**: low-cost phones used temporarily to limit identity exposure
-- **GPIO Boards**: development boards with pins for controlling electronic components
-- **ICS (Industrial Control System)**: systems that monitor and control industrial processes
-- **IoT (Internet of Things)**: physical devices that communicate and exchange data over networks
-    - **CCTV (Closed-Circuit Television)**: private video systems used for monitoring and surveillance
-- **Firmware**: low-level software embedded within hardware devices
-- **Hardware Backdoor**: a hidden hardware mechanism that bypasses normal security controls
-- **Hardware Keyloggers**: physical devices that secretly record keyboard input
-- **Hardware Security Key**: a physical device used for secure authentication
-- **Physical Firewalls**: dedicated appliances that filter and control network traffic
-- **Routers**: devices that forward traffic between different networks accross a WAN
-- **SCADA (Supervisory Control and Data Acquisition)**: remotely monitor and control industrial operations
-- **SDR (Software-Defined Radio)**: radio technology that processes signals primarily through software
-    - **Directional Wi-Fi Antenna**: an antenna that concentrates wireless signals in one directionignals
-- **Switch:** hardware device that connects multiple devices together on a LAN
+- **IoT (Internet of Things)**
+    - **CCTV (Closed-Circuit Television)**
+        - **Cameradar**: a tool for discovering and testing RTSP surveillance cameras
+- **Firmware**
+    - **FreshTomato**: open-source replacement firmware for supported wireless routers
+- **Hardware Security Key**
+    - **Feitian**: a manufacturer of security keys and authentication devices
+    - **Google Titan**: Google’s line of hardware security keys
+    - **YubiKey**: a hardware security key made by Yubico
+- **Routers**
+    - **ASUS**: a manufacturer of consumer and business networking equipment
+    - **Netgear**: a manufacturer of routers, switches, and other networking equipment
+    - **TP-Link**: a manufacturer of consumer and business networking equipment
+    - **RouterSploit**: a framework for testing routers and embedded devices for vulnerabilities
+- **SDR (Software-Defined Radio)**
+    - **Directional Wi-Fi Antenna**
+            - **Yagi Antenna**: a directional antenna designed for focused signal transmission and reception
+    - **Flipper Zero**: a portable tool for exploring radio, access-control, and hardware systems
+    - **HackRF**: a device for transmitting and receiving a broad range of radio frequencies
+    - **RTL-SDR (Realtek Software-Defined Radio)**: an inexpensive receiver used to explore radio signals
 
 ## Log Analysis
+- **Datadog**: a cloud platform for monitoring logs, applications, infrastructure, and security events
+- **Microsoft Excel**: a spreadsheet tool for filtering, organizing, and analyzing exported log data
 - **SIEM (Security Information and Event Management)**: aggregates and analyzes logs to detect security threats
-
-## Network Traffic Analysis
-- **Bluetooth**: short-range wireless communication protocol
-- **DNS (Domain Name System)**: translates domain names into IP addresses
-- **Encapsulation**: wrapping data with protocol headers for transport
-- **Ethernet:** traditional technology for connecting devices in a wired LAN or WAN
-- **Faraday's Cage**: shielding to block electromagnetic signals
-- **Firewalls**: devices that enforce network traffic filtering rules
-- **IPS (Intrusion Prevention System)**: detects and blocks malicious network activity
-- **ISP (Internet Service Providers)**: companies that provide internet connectivity
-    - **Starlink**: satellite internet service provider
-- **LAN (Local Area Network)**: network connecting nearby devices
-- **Loopback:** virtual network interface that a computer uses to send network traffic to itself
-- **MAN (Metropolitan Area Network):** larger network that covers a town or an entire city
-- **MAC (Multimedia Access Control)**: likely meant MAC (Media Access Control) address
-- **Mirrors:** an exact copy of a file or website hosted on a traditional central server
-- **Networking Commands**: CLI tools for inspecting and managing networks
-- **Network Miner**: packet analysis and forensic tool
-- **NFC (Near-Field Communication)**: short-range wireless data exchange
-- **OSI (Open Systems Interconnection) Model**: seven-layer conceptual networking model
-    - **Application Layer:** direct interface between user app and network
-    - **Presentation Layer:** translates, encrypts, and compresses data so the receiving app can read it
-    - **Session Layer:** manages and maintains the comms channels between two active devices
-    - **Transport Layer:** handles end-to-end delivery by breaking data into segments with TCP or UDP
-    - **Network Layer:** handles logical addressing and routes packets accross differnet networks
-    - **Data Link Layer:** organizes bits into frames and uses MAC addresses for node-to-node transfer
-    - **Physical Layer:** trasmits raw unstructured bitstreams accross physical cables or media
-- **Pi-Hole**: DNS-level ad and tracker blocking appliance
-- **Ports & Protocols**: endpoint numbers and rules for network services
-- **Proxies**: intermediary servers that relay network requests
-- **Segmentation:** splitting a large computer network into smaller isolated sub-networks
-- **TCP/IP Model**: practical networking model used on the internet
-    - **Application Layer:** top layer where user apps interact with the network
-    - **Transport Layer:** end-to-end communication, data checking, and ordering with TCP or UDP
-    - **Internet Layer:** logical addressing and packet routing accross different networks using IP
-    - **Network Accesss Layer:** m*Manages the physical transmission of data bits over local hardware
-- **`tcpdump`**: command-line packet capture utility
-- **Subnet (Sub Network):** logical subdivision of an IP network
-- **Torrents**: peer-to-peer file distribution using BitTorrent protocol
-- **`tshark`**: command-line port of the Wireshark packet analyzer tool
-- **VoIP (Voice over Internet Protocol)**: transmits voice communications over IP networks
-    - **SIP (Session Initiation Protocol)**: establishes, manages, and terminates voice or video sessions
-- **VPN (Virtual Private Network)**: secure tunnel for network communications
-    - **Mullvad**: privacy-focused VPN provider
-    - **Wiregaurd**: modern, fast VPN protocol
-- **WAN (Wide Area Network):** telecommunications network that extends over a large distance
-- **Wifi**: wireless local area networking technology
-    - **PSK (Pre-Shared Key)**: shared secret used to secure Wi‑Fi
-    - **WPA (Wifi Protected Access)**: security standards for wireless networks
-- **Wireshark**: GUI packet analyzer for network troubleshooting
-- **VLAN (Virtual Local Area Network):** custom network created from LANs that allow for grouping
-
-## Offensive Security (Red Team)
-- **Card Skimming**: stealing payment-card data using a hidden reader
-- **DoS (Denial of Service):** makes a service unavailible
-- - **DDoS (Distributed Denial-of-Service)**: overwhelming a service with traffic from multiple systems
-    - **Botnet**: a network of compromised devices controlled by an attacker
-    - **DNS Amplification**: abusing DNS servers to multiply denial-of-service traffic
-- **Evil Maid**: altering or compromising a device while it is unattended
-- **Hardware Backdoor**: using a hidden hardware mechanism to bypass normal security controls
-- **Malware**: software designed to damage, disrupt, spy on, or exploit systems
-    - **Adware**: software that displays unwanted advertisements and may track user activity
-    - **Bloatware**: unnecessary preinstalled software that consumes system resources
-    - **Computer Virus**: malware that attaches to files and spreads when executed
-    - **Computer Worm**: malware that automatically spreads across systems and networks
-    - **Logic Bomb**: malicious code activated when a specific condition is met
-    - **Ransomware**: malware that encrypts or blocks data and demands payment
-    - **Rootkit**: malware that hides itself while maintaining privileged system access
-    - **Spyware**: software that secretly monitors and collects user information
-        - **Pegasus**: advanced spyware used to compromise and monitor mobile devices
-        - **Keylogger**: software or hardware that secretly records keyboard input
-    - **Time Bomb**: malicious code triggered at a predetermined time or date
-    - **Trojans**: malware disguised as legitimate or desirable software
-        - **MalDoc**: a malicious document designed to execute code or deliver malware
-        - **Remote Access Trojan (RAT)**: malware that gives an attacker remote control of a system
-- **MITM (Man-in-the-Middle Attack)**: secretly intercepting and possibly altering communication between parties
-- **Pharming**: manipulating DNS or systems to redirect users to fraudulent websites
-    - **DNS Hijacking**: altering DNS settings or records to redirect network traffic
-- **Social Engineering**: manipulating people into revealing information or performing unsafe actions
-    - **Baiting**: offering something enticing to provoke an unsafe action
-    - **Dumpster Diving**: retrieving sensitive information from discarded materials
-    - **Impersonation**: pretending to be a trusted person or authority
-    - **Phishing**: using deceptive messages or websites to steal information
-        - **Angler Phishing**: impersonating customer support through social media
-        - **Baiting**: offering something enticing to trick a victim into an unsafe action
-        - **Business Email Compromise**: impersonating a trusted business contact to enable fraud
-        - **Pretexting**: using a fabricated scenario to obtain information or access
-        - **Smishing (SMS Phishing)**: delivering phishing messages through text messages
-        - **Social Media Phishing**: using deceptive social media content to steal information
-        - **Spear Phishing**: targeting a specific person or organization with customized messages
-        - **Whaling**: targeting executives or other high-profile individuals with phishing
-        - **Vishing (Voice Phishing)**: using phone calls or voice messages to deceive victims
-    - **Quid Pro Quo**: promising a benefit in exchange for information or access
-    - **Scareware**: frightening users into installing software or taking unsafe actions
-    - **Shoulder Surfing**: observing someone to capture sensitive information
-    - **Tailgating (Piggybacking)**: following an authorized person into a restricted area
-- **Threat Actors**: individuals or groups that intentionally or unintentionally create cyber risk
-    - **Advanced Persistent Threat (APT)**: a well-resourced group conducting prolonged targeted attacks
-    - **Cybercriminal Organization**: an organized group conducting cyberattacks for financial gain
-    - **Hacktivist**: an attacker motivated by political or social causes
-    - **Insider Threat**: a trusted individual who intentionally or accidentally causes harm
-    - **Nation-State**: a government-sponsored actor conducting cyber operations
-    - **Script Kiddie**: an inexperienced attacker who relies on existing tools and exploits
-    - **Shadow IT**: technology used without an organization’s approval or oversight
-- **Schools of Thought**: informal labels describing hackers by experience, authorization, or motivation
-    - **Black Hat**: a hacker who acts maliciously and without authorization
-    - **Blue Hat**: an external tester invited to find vulnerabilities before release
-    - **Green Hat**: a beginner who is actively learning hacking techniques
-    - **Grey Hat**: a hacker who may act without permission but lacks clear malicious intent
-    - **Red Hat**: a vigilante who aggressively targets malicious hackers
-    - **White Hat**: an ethical hacker who tests systems with authorization
-- **SIM Swapping**: hijacking a phone number by transferring it to an attacker-controlled SIM
-- **Spoofing**: falsifying an identity or data source to appear trustworthy
-    - **Biometric Spoofing**: faking biometric traits to bypass identity sensors
-    - **CDP (Cisco Discovery Protocol) Spoofing**: sending forged CDP messages to impersonate network devices
-    - **DNS Spoofing (DNS Cache Poisoning)**: corrupting DNS data to redirect users to fraudulent destinations
-- **Typosquatting (URL Hijacking)**: registering look-alike domains to deceive users
-- **Watering Hole**: compromising a website frequently visited by intended targets
-
-## Open Source Intelligence (OSINT)
-- **Bar Codes**: machine-readable visual patterns used to store data
-    - **JAB (Just Another Barcode) Code**: a compact barcode variant for short payloads
-    - **QR codes**: two-dimensional codes encoding URLs and small data blocks
-- **Data Brokers**: firms that collect and sell personal and business data
-- **Geolocation**: techniques to determine physical locations from data
-    - **EXIF (Exchangeable Image File Format)**: metadata in images that can reveal location
-    - **Universal Transverse Mercator (UTM)**: a grid-based geographic coordinate system
-    - **World Geodetic System (WSG84)**: global datum used for GPS coordinates
-- **OSINT Framework**: a catalog of tools and methods for open-source research
-- **OWASP Top 10**: a prioritized list of common web application security risks
-- **Piracy**: unauthorized copying and distribution of copyrighted content
-    - **Pirate Bay**: a popular torrent index site for sharing files
- - **Private Investigators**: professionals who gather information discreetly
-- **Querying**: crafting searches to efficiently find relevant information
-- **Search Engines**: tools that index and retrieve web-hosted information
-    - **Google Reverse Image Search**: find similar images and their sources
-    - **Yandex**: Russian search engine with image and web search features
-
-## Operating Systems
-- **Unix**: family of multitasking, multiuser operating systems
-    - **BSD:** unix-like system with a focus on stability and networking
-        - **FreeBSD**: unix-like OS known for performance and licensing
-            - **DragonFly BSD**: a Unix-like operating system focused on performance and scalable file systems
-            - **HardenedBSD**: fork of FreeBSD that focuses more on hardening its security
-        - **NetBSD:** provide a unified, multi-platform, production-quality operating system
-            - **OpenBSD:** fork of NetBSD in 1995 focused heavily on hardening its security and networking
-    - **illumos**: an open-source Unix operating system derived from OpenSolaris
-    - **Linux**: open-source Unix-like kernel used in many distros
-        - **Arch Linux Family**: rolling-release distributions focused on simplicity
-            - **Black Arch Linux**: security-focused Arch-based distribution
-            - **EndeavourOS**: a lightweight, terminal-focused Arch Linux distribution
-            - **Garuda Linux**: a performance-focused Arch Linux distribution with graphical tools
-            - **Manjaro**: a user-friendly Arch-based distribution with curated software updates
-        - **Debian Linux Family**: stable distributions derived from Debian
-            - **Kali**: penetration-testing focused Debian derivative
-            - **ParrotOS**: security-oriented Debian-based distro
-            - **SubgraphOS**: hardening-focused privacy distro
-            - **TailsOS**: live OS designed for anonymity
-            - **Ubuntu**: popular user-friendly Debian derivative
-                - **Elementary OS**: a polished Ubuntu-based Linux distribution with a macOS like interface
-                - **Linux Mint:** free, user-friendly, and highly stable desktop operating system
-                - **Kubuntu**: an Ubuntu-based Linux distribution featuring the customizable KDE Plasma desktop
-                - **Lubuntu:** a lightweight official flavor of Ubuntu
-                    - **DragonOS**: SDR-focused Linux distribution
-                - **Pop!_OS**: an Ubuntu-based distribution designed for productivity, gaming, and development
-                - **Zorin OS**: a beginner-friendly Ubuntu-based distribution with a Windows-like interface
-                - **Xubuntu**: a lightweight Ubuntu flavor featuring the Xfce desktop
-            - **Whonix**: privacy OS using Tor isolation
-        - **Gentoo Family**: a family of highly customizable, source-based Linux distributions
-            - **Gentoo Linux**: a source-based distribution offering extensive control and optimization
-        - **Qubes OS Family**: security-focused systems that isolate activities within virtual machines
-        - **Red Hat Family**: Linux distributions built around Red Hat technologies and RPM packages
-            - **Fedora**: a cutting-edge community distribution sponsored by Red Hat
-            - **RHEL**: Red Hat’s enterprise Linux distribution with commercial support
-                - **AlmaLinux**: a community-maintained, RHEL-compatible enterprise distribution
-                - **CentOS**: a community project centered on the development stream leading to RHEL
-                - **Rocky Linux**: a community-maintained, RHEL-compatible enterprise distribution
-        - **SUSE Family**: Linux distributions using SUSE technologies and YaST administration tools
-            - **openSUSE**: a community distribution available in rolling and stable editions
-            - **SUSE Linux Enterprise**: a commercially supported enterprise Linux platform
-                - **SLES for SAP**: a SUSE Enterprise edition optimized for SAP workloads
-        - **Slackware Family**: traditional Linux distributions emphasizing simplicity and Unix-like design
-            - **Slackware Linux**: one of the oldest actively maintained Linux distributions
-                - **Salix OS**: a user-friendly, Slackware-compatible Linux distribution
-        - **Void Family**: independent distributions based on Void Linux and its XBPS package system
-            - **Void Linux**: an independent rolling-release distribution using the runit init system
-        - **Xenix**: a discontinued Microsoft-licensed version of Unix for microcomputers
-- **TempleOS**: a lightweight biblical-themed operating system created entirely by Terry A. Davis.
-- **Terminal**: Text-based shell interface for system interaction
-    - **Commands**: Executable operations entered in a shell
-    - **Shell Operators**: Symbols that control shell behavior
-    - **Shortcuts**: Key combinations for quicker navigation
-- **Virtualization**: technology that creates simulated computing environments on physical hardware
-    - **Hypervisors**: xoftware that creates and manages virtual machines
-        - **VirtualBox**: Oracle’s free, cross-platform desktop hypervisor
-        - **VMware**: a family of commercial virtualization and cloud-computing products
-        - **Xen**: an open-source, type-1 hypervisor for running isolated virtual machines
-    - **WSL (Windows Subsystem for Linux)**: a Windows feature for running Linux environments without a VM
-- **Wine**: a compatibility layer for running Windows applications on Unix-like systems
-
-## Password Cracking
-- **Hashcat**
-- **JohnTheRipper**
-- **PDF2John:**
-
-## PWN
-- **Computer Architecture**: foundational concepts governing how programs execute
-    - **Assembly**: low-level instructions executed by a processor
-    - **Endianness**: the byte order used to represent multibyte values
-        - **Little-Endian**: stores the least significant byte at the lowest memory address
-        - **Big-Endian**: stores the most significant byte at the lowest memory address
-    - **Registers**: small CPU storage locations used during execution
-        - **Instruction Pointer**: a register containing the address of the next instruction
-        - **Stack Pointer**: a register identifying the current top of the stack
-        - **Base Pointer**: a register commonly used to reference a stack frame
-    - **Syscall (System Call)**: a request from a program to the operating-system kernel
-- **Memory Layout**: organization of a process within virtual memory
-    - **Buffer**: a memory region used to temporarily store data
-    - **BSS Section**: uninitialized global and static variables
-    - **Data Section**: initialized global and static variables
-    - **Heap Section**: dynamically allocated memory managed while a program runs
-    - **Read-Only Data Section (.rodata)**: constants and other non-writable program data
-    - **Segmentation Fault**: an error caused by accessing memory outside of allocated segment
-    - **Stack (Activation) Frame**: stack memory allocated for a single function call
-    - **Stack Section**: memory used for function calls, local variables, and return addresses
-    - **Text Section**: executable machine instructions within a program
-- **Binary Formats and Linking**: structures used to package executable machine code
-    - **Dynamic Linking**: resolving external library code when loading or running a program
-    - **ELF (Executable and Linkable Format)**: the primary executable format on Linux and Unix-like systems
-    - **GOT (Global Offset Table)**: a table containing resolved addresses for global symbols
-    - **PE (Portable Executable)**: the executable format used by Windows
-    - **PLT (Procedure Linkage Table)**: code stubs used to call dynamically linked functions
-    - **Relocatable File (.o)**: an object file whose addresses are resolved during linking
-    - **Shared Object (.so)**: a reusable library dynamically loaded by ELF programs
-    - **Static Linking**: incorporating library code directly into an executable
-    - **Stripped Binary**: an executable with debugging symbols removed
-    - **Symbol**: a named reference to a function, variable, or address
-- **Vulnerability Discovery**: methods for finding weaknesses in programs
-    - **Fuzzing**: supplying unexpected inputs to discover crashes and vulnerabilities
-        - **Mutation-Based Fuzzing**: modifying existing inputs to generate test cases
-        - **Generation-Based Fuzzing**: creating inputs from a defined format or grammar
-        - **Coverage-Guided Fuzzing**: using execution coverage to guide input generation
-    - **Crash Triage**: determining the cause and exploitability of a program crash
-    - **Symbolic Execution**: analyzes programs using symbolic inputs to explore possible execution paths
-    - **Concolic Execution**: combines concrete execution with symbolic analysis to discover new execution paths
-    - **Static Analysis**: examining a program without executing it
-    - **Dynamic Analysis**: examining a program while it executes
-- **Memory-Corruption Vulnerabilities**: flaws that permit unintended memory access or modification
-    - **Buffer Overflow**: writing more data than a buffer can hold
-        - **Stack-Based Buffer Overflow**: overwriting data beyond a stack buffer
-        - **Heap-Based Buffer Overflow**: overwriting data beyond a heap allocation
-    - **Stack Smashing**: corrupting stack data through an overflow
-    - **Out-of-Bounds Access**: reading or writing beyond an object’s valid boundaries
-    - **Use-After-Free (UAF)**: accessing memory after it has been released
-    - **Double Free**: releasing the same memory allocation more than once
-    - **Format-String Vulnerability**: allowing attacker-controlled format specifiers to access memory
-    - **Integer Overflow**: producing a value outside an integer type’s supported range
-    - **Null-Pointer Dereference**: accessing memory through an invalid null pointer
-    - **Uninitialized Memory**: using memory before it receives a defined value
-    - **Race Condition**: unsafe behavior caused by operations occurring in an unexpected order
-        - **TOCTOU (Time-of-Check to Time-of-Use)**: changing a resource between its validation and use
-- **Exploit Development**: techniques for turning vulnerabilities into controlled behavior
-    - **Exploit Primitive**: a basic capability gained from a vulnerability
-        - **Arbitrary Read**: reading data from an attacker-chosen memory address
-        - **Arbitrary Write**: writing data to an attacker-chosen memory address
-        - **Information Leak**: exposing memory or data needed to bypass protections
-    - **Instruction-Pointer Control**: controlling the address of the next executed instruction
-    - **Shellcode**: machine code delivered and executed as part of an exploit
-    - **NOP Sled**: a sequence of no-operation instructions leading execution toward shellcode
-    - **ret2win**: redirecting execution to an existing function that represents success
-    - **ret2libc**: calling existing library functions instead of injecting executable code
-    - **ROP (Return-Oriented Programming)**: chaining existing instruction sequences through return instructions
-        - **Gadget**: a short reusable instruction sequence ending in a control-transfer instruction
-        - **ROP Chain**: an ordered sequence of gadgets forming attacker-controlled behavior
-    - **JOP (Jump-Oriented Programming)**: chaining instruction sequences through indirect jumps
-    - **SROP (Sigreturn-Oriented Programming)**: controlling execution through forged signal frames
-    - **ret2dlresolve**: abusing the dynamic linker to resolve and invoke a desired function
-    - **Stack Pivot**: redirecting the stack pointer to attacker-controlled memory
-    - **Heap Exploitation**: manipulating dynamic-memory metadata and allocations
-        - **Heap Grooming**: arranging allocations to produce a useful heap layout
-        - **Tcache Poisoning**: corrupting the thread-local allocation cache
-        - **Fastbin Attack**: manipulating glibc fastbin freelists
-- **Exploit Mitigations**: protections that make memory corruption more difficult to exploit
-    - **Stack Canary**: a secret value used to detect stack-buffer corruption
-    - **NX (No-eXecute)**: prevents designated memory regions from executing code
-    - **DEP (Data Execution Prevention)**: Windows protection preventing data memory from executing
-    - **ASLR (Address Space Layout Randomization)**: randomizes memory locations between executions
-    - **PIE (Position-Independent Executable)**: allows an executable’s base address to be randomized
-    - **RELRO (Relocation Read-Only)**: protects relocation structures such as the GOT
-        - **Partial RELRO**: applies limited relocation protection while leaving the GOT writable
-        - **Full RELRO**: resolves symbols early and makes the GOT read-only
-    - **CFI (Control-Flow Integrity)**: restricts execution to approved control-flow paths
-    - **CET (Control-Flow Enforcement Technology)**: hardware-assisted protection against control-flow attacks
-- **Reverse Engineering**: analyzing software to understand its structure and behavior
-    - **angr**: a Python framework for binary analysis and symbolic execution
-    - **Disassembler**: converts machine code into assembly instructions
-    - **Decompiler**: reconstructs higher-level pseudocode from machine code
-    - **Debugger**: pauses and inspects a program during execution
-        - **Breakpoint**: a location where execution pauses for inspection
-        - **Watchpoint**: a trigger that pauses execution when memory changes
-    - **Function Call Graph**: a diagram showing which functions call one another
-    - **Control-Flow Graph (CFG)**: a graph showing possible execution paths within a function
-    - **Basic Block**: a straight-line instruction sequence with one entry and exit
-    - **Cross-Reference (XREF)**: a reference showing where code or data is used
-    - **Pseudocode**: a high-level representation reconstructed from compiled code
-    - **Binary Patching**: modifying machine code or data inside a compiled program
-* **Binary Ninja**
-* **Ghidra**
-* **GNU Debugger (GDB)**
-* **IDA Pro**
-- **pwntools**: a Python framework for developing exploits and interacting with binaries
-
-## Scanning and Reconaissance
-- **BinaryEdge**: IoT and internet asset scanning platform
-- **Censys**: internet-wide search engine for hosts and certificates
-- **GreyNoise**
-- **Insecam**: index of unsecured CCTV streams
-- **Nikto**
-- **Nmap**
-- **Shodan**: search engine for internet-connected devices
-- **ZoomEye**: Chinese internet asset search engine
-- **Zmap**
-
-## Web Exploitation
-* **BurpSuite**
-* **PostMan**
-  
-## TODO
-* Orrin Adotavi ADP Stack
-* 
+    - **Elastic Security**: an Elastic Stack solution for security analytics and investigation
+    - **Microsoft Sentinel**: Microsoft’s cloud-native SIEM and security orchestration platform
+    - **Splunk**: a commercial platform for searching, monitoring, and analyzing machine-generated data
