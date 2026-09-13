@@ -1,14 +1,5 @@
 # Cybersecurity Resources
 
-## College Courses
-* Cyber Security (CSCI 4250)
-* Cryptology and Computational Number Theory (MATH 4450)
-* Data Security and Privacy (CSCI 4260)
-* Introduction to Computer Forensics (CSCI 4270)
-* Operating Systems (CSCI 4370)
-* Computer Networks (CSCI 4760)
-* Distributed Computing Systems (CSCI 4780)
-
 ## Certifications
 * MITx Cybersecurity for Critical Urban Infrastructure
 * TEEX Using the CCSMM to Develop a Cybersecurity Program
@@ -41,6 +32,36 @@
 * GIAC Certified Forensics Examiner (GCFE)
 * ISAC Certified Information Security Manager (CISM)
 * ISAC Certified Infromation Systems Auditor (CISA)
+
+## College Courses
+* Cyber Security (CSCI 4250)
+* Cryptology and Computational Number Theory (MATH 4450)
+* Data Security and Privacy (CSCI 4260)
+* Introduction to Computer Forensics (CSCI 4270)
+* Operating Systems (CSCI 4370)
+* Computer Networks (CSCI 4760)
+* Distributed Computing Systems (CSCI 4780)
+
+## Communities
+* Discord Groups
+    * [Society for Cyber Security @ UGA](https://discord.gg/KrUR46NY6R)
+    * [Advanced Research in Exploitation and Security](https://discord.gg/PUE97EffRU)
+    * [Hack Pack @ UGA](https://discord.gg/PUE97EffRU)
+    * [GreyHat @ GATech](https://discord.gg/TKaZN3Ydaj)
+    * [Pwn.College @ ASU](https://discord.gg/dY5MEdthfz)
+    * [CSCI 4250: Cybersecurity](https://discord.gg/VCs8pW87Vy)
+    * CBC Community of Practice @ NSF
+    * CDCTF @ UAB
+    * [Atlanta Cyber Security Engineers](https://discord.gg/BPEyDucFcS)
+    * BSides Atlanta
+    * NCAE Cyber Games
+    * [NCL Community](https://discord.gg/ECYBjyucVF)
+    * [Wild West Hackin' Fest](https://discord.gg/wwhf)
+    * [TryHackMe](https://discord.gg/bsxn5cAymu)
+    * [PatriotCTF](https://discord.gg/JhynxaTDDh)
+* Meetup Groups
+    * [OWASP Atlanta Chapter](https://owasp.org/www-chapter-atlanta/)
+* [DC404 Atlanta Hacker Community](https://dc404.org/)
 
 ## Competitions
 * [ASISCTF](https://asisctf.com/)
@@ -76,24 +97,3 @@
 * [DEF CON (Defense Condition)](https://defcon.org/)
 * [OSDF (Open Source Digital Forensics) Conference](https://www.osdfcon.org/)
 * [WWHF (Wild West Hacking Fest)](https://wildwesthackinfest.com/)
-
-## Communities
-* Discord Groups
-    * [Society for Cyber Security @ UGA](https://discord.gg/KrUR46NY6R)
-    * [Advanced Research in Exploitation and Security](https://discord.gg/PUE97EffRU)
-    * [Hack Pack @ UGA](https://discord.gg/PUE97EffRU)
-    * [GreyHat @ GATech](https://discord.gg/TKaZN3Ydaj)
-    * [Pwn.College @ ASU](https://discord.gg/dY5MEdthfz)
-    * [CSCI 4250: Cybersecurity](https://discord.gg/VCs8pW87Vy)
-    * CBC Community of Practice @ NSF
-    * CDCTF @ UAB
-    * [Atlanta Cyber Security Engineers](https://discord.gg/BPEyDucFcS)
-    * BSides Atlanta
-    * NCAE Cyber Games
-    * [NCL Community](https://discord.gg/ECYBjyucVF)
-    * [Wild West Hackin' Fest](https://discord.gg/wwhf)
-    * [TryHackMe](https://discord.gg/bsxn5cAymu)
-    * [PatriotCTF](https://discord.gg/JhynxaTDDh)
-* Meetup Groups
-    * [OWASP Atlanta Chapter](https://owasp.org/www-chapter-atlanta/)
-* [DC404 Atlanta Hacker Community](https://dc404.org/)
