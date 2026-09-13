@@ -85,7 +85,7 @@
 - [PatriotCTF (GMU)](https://competitivecyber.club/patriotctf/): George Mason University’s beginner-friendly cybersecurity competition
 - [picoCTF (CMU)](https://picoctf.org/): a beginner-friendly cybersecurity competition and learning platform
 - [PlaidCTF](https://www.geeksforgeeks.org/top-cyber-hacking-competitions-capture-the-flag-ctf/): an advanced international CTF organized by Carnegie Mellon’s PPP
-- [PwnSec](https://pwnsec.ctf.ae/): humans vs. cy-borg jeopardy-style hacking challenges across web, crypto, reverse engineering, and binary exploitation.
+- [PwnSec](https://pwnsec.ctf.ae/): humans vs. cy-borg jeopardy-style hacking challenges across web, crypto, and PWN.
 - [SnykCTF](https://snyk.io/events/ctf/): a competition focused on identifying and exploiting software vulnerabilities
 - [tkCTF (GT)](https://tc.gts3.org/cs6265/2024-fall/ctf.html): a Georgia Tech competition focused on binary exploitation and system security
 - [US Cybergames](https://www.uscybergames.com/faq): a national program that selects and trains the U.S. Cyber Team
