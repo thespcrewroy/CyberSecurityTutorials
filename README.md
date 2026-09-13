@@ -6,10 +6,6 @@
 - **Monero (XMR)**: a privacy-focused cryptocurrency that conceals transaction details
 - **NFT (Non-Fungible Token)**: a unique blockchain token representing ownership or authenticity of an asset
 
-## Cloud Security
-- **CloudFlare**: CDN and security provider for web infrastructure
-- **Grype**: vulnerability scanner for container images and filesystems
-
 ## Cryptography
 - **Alice & Bob**: placeholder names used in cryptography examples
 - **MFA (Multi-Factor Authentication)**: authentication using multiple credential types
@@ -76,18 +72,14 @@
     - **Active Directory (AD)**: Microsoft’s on-premises directory and domain management service
     - **Break-Glass Account**: highly privileged emergency account used when normal administrative access fails
     - **LDAP (Lightweight Directory Access Protocol)**: a protocol for accessing and managing directory info
-    - **Microsoft Entra ID**: cloud identity and access management service
-    - **Microsoft Intune**: cloud service for managing devices, applications, and endpoint policies
 - **Operational Security (OpSec)**: protects sensitive info getting to an adversary
   - **Adblock**: browser extensions that block ads and trackers
-    - **Decentraleyes**: local resource polyfill to reduce third-party calls
-    - **Ublock Origin**: efficient configurable ad-blocking extension
-- **Antivirus/Antimalware**: software that detects and removes malware
-    - **Kapersky**: commercial antivirus and security product suite
-    - **MalwareBytes**: anti-malware product focusing on modern threats
-    - **McAfee**: longstanding commercial security vendor
-    - **Norton**: consumer-focused antivirus and security tools
-    - **Windows Defender**: built-in tool that protects your PC from malware
+  - **Antivirus/Antimalware**: software that detects and removes malware
+      - **Kapersky**: commercial antivirus and security product suite
+      - **MalwareBytes**: anti-malware product focusing on modern threats
+      - **McAfee**: longstanding commercial security vendor
+      - **Norton**: consumer-focused antivirus and security tools
+      - **Windows Defender**: built-in tool that protects your PC from malware
   - **Browsers**: software used to access web content securely when configured
       - **Brave**: privacy-focused browser with built-in ad blocking
       - **Firefox**: open-source browser with strong privacy controls
@@ -165,6 +157,9 @@
     - **YubiKey**: a hardware security key made by Yubico
 - **Physical Firewalls**: dedicated appliances that filter and control network traffic
 - **Routers**: devices that forward traffic between different networks accross a WAN
+    - **ASUS**: a manufacturer of consumer and business networking equipment
+    - **Netgear**: a manufacturer of routers, switches, and other networking equipment
+    - **TP-Link**: a manufacturer of consumer and business networking equipment
     - **RouterSploit**: a framework for testing routers and embedded devices for vulnerabilities
 - **SCADA (Supervisory Control and Data Acquisition)**: remotely monitor and control industrial operations
 - **SDR (Software-Defined Radio)**: radio technology that processes signals primarily through software
@@ -220,6 +215,7 @@
 - **`tcpdump`**: command-line packet capture utility
 - **Subnet (Sub Network):** logical subdivision of an IP network
 - **Torrents**: peer-to-peer file distribution using BitTorrent protocol
+- **`tshark`**: command-line port of the Wireshark packet analyzer tool
 - **VoIP (Voice over Internet Protocol)**: transmits voice communications over IP networks
     - **SIP (Session Initiation Protocol)**: establishes, manages, and terminates voice or video sessions
 - **VPN (Virtual Private Network)**: secure tunnel for network communications
@@ -389,6 +385,8 @@
 - **Computer Architecture**: foundational concepts governing how programs execute
     - **Assembly**: low-level instructions executed by a processor
     - **Endianness**: the byte order used to represent multibyte values
+        - **Little-Endian**: stores the least significant byte at the lowest memory address
+        - **Big-Endian**: stores the most significant byte at the lowest memory address
     - **Registers**: small CPU storage locations used during execution
         - **Instruction Pointer**: a register containing the address of the next instruction
         - **Stack Pointer**: a register identifying the current top of the stack
@@ -398,33 +396,33 @@
     - **Buffer**: a memory region used to temporarily store data
     - **BSS Section**: uninitialized global and static variables
     - **Data Section**: initialized global and static variables
-    - **Stack Section**: memory used for function calls, local variables, and return addresses
-    - **Stack (Activation) Frame**: stack memory allocated for a single function call
     - **Heap Section**: dynamically allocated memory managed while a program runs
-    - **Text Section**: executable machine instructions within a program
     - **Read-Only Data Section (.rodata)**: constants and other non-writable program data
     - **Segmentation Fault**: an error caused by accessing memory outside of allocated segment
+    - **Stack (Activation) Frame**: stack memory allocated for a single function call
+    - **Stack Section**: memory used for function calls, local variables, and return addresses
+    - **Text Section**: executable machine instructions within a program
 - **Binary Formats and Linking**: structures used to package executable machine code
+    - **Dynamic Linking**: resolving external library code when loading or running a program
     - **ELF (Executable and Linkable Format)**: the primary executable format on Linux and Unix-like systems
+    - **GOT (Global Offset Table)**: a table containing resolved addresses for global symbols
     - **PE (Portable Executable)**: the executable format used by Windows
+    - **PLT (Procedure Linkage Table)**: code stubs used to call dynamically linked functions
     - **Relocatable File (.o)**: an object file whose addresses are resolved during linking
     - **Shared Object (.so)**: a reusable library dynamically loaded by ELF programs
     - **Static Linking**: incorporating library code directly into an executable
-    - **Dynamic Linking**: resolving external library code when loading or running a program
-    - **Symbol**: a named reference to a function, variable, or address
     - **Stripped Binary**: an executable with debugging symbols removed
-    - **GOT (Global Offset Table)**: a table containing resolved addresses for global symbols
-    - **PLT (Procedure Linkage Table)**: code stubs used to call dynamically linked functions
-
+    - **Symbol**: a named reference to a function, variable, or address
 - **Vulnerability Discovery**: methods for finding weaknesses in programs
     - **Fuzzing**: supplying unexpected inputs to discover crashes and vulnerabilities
         - **Mutation-Based Fuzzing**: modifying existing inputs to generate test cases
         - **Generation-Based Fuzzing**: creating inputs from a defined format or grammar
         - **Coverage-Guided Fuzzing**: using execution coverage to guide input generation
     - **Crash Triage**: determining the cause and exploitability of a program crash
+    - **Symbolic Execution**: analyzes programs using symbolic inputs to explore possible execution paths
+    - **Concolic Execution**: combines concrete execution with symbolic analysis to discover new execution paths
     - **Static Analysis**: examining a program without executing it
     - **Dynamic Analysis**: examining a program while it executes
-
 - **Memory-Corruption Vulnerabilities**: flaws that permit unintended memory access or modification
     - **Buffer Overflow**: writing more data than a buffer can hold
         - **Stack-Based Buffer Overflow**: overwriting data beyond a stack buffer
@@ -439,7 +437,6 @@
     - **Uninitialized Memory**: using memory before it receives a defined value
     - **Race Condition**: unsafe behavior caused by operations occurring in an unexpected order
         - **TOCTOU (Time-of-Check to Time-of-Use)**: changing a resource between its validation and use
-
 - **Exploit Development**: techniques for turning vulnerabilities into controlled behavior
     - **Exploit Primitive**: a basic capability gained from a vulnerability
         - **Arbitrary Read**: reading data from an attacker-chosen memory address
@@ -461,7 +458,6 @@
         - **Heap Grooming**: arranging allocations to produce a useful heap layout
         - **Tcache Poisoning**: corrupting the thread-local allocation cache
         - **Fastbin Attack**: manipulating glibc fastbin freelists
-
 - **Exploit Mitigations**: protections that make memory corruption more difficult to exploit
     - **Stack Canary**: a secret value used to detect stack-buffer corruption
     - **NX (No-eXecute)**: prevents designated memory regions from executing code
@@ -473,8 +469,8 @@
         - **Full RELRO**: resolves symbols early and makes the GOT read-only
     - **CFI (Control-Flow Integrity)**: restricts execution to approved control-flow paths
     - **CET (Control-Flow Enforcement Technology)**: hardware-assisted protection against control-flow attacks
-
 - **Reverse Engineering**: analyzing software to understand its structure and behavior
+    - **angr**: a Python framework for binary analysis and symbolic execution
     - **Disassembler**: converts machine code into assembly instructions
     - **Decompiler**: reconstructs higher-level pseudocode from machine code
     - **Debugger**: pauses and inspects a program during execution
@@ -490,6 +486,7 @@
 * **Ghidra**
 * **GNU Debugger (GDB)**
 * **IDA Pro**
+- **pwntools**: a Python framework for developing exploits and interacting with binaries
 
 ## Scanning and Reconaissance
 - **BinaryEdge**: IoT and internet asset scanning platform
