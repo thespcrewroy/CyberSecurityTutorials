@@ -310,35 +310,34 @@
 - **Wine**
 
 ## Hardware & Infrastructure
-- **Burner Phones**
-- **GPIO Boards**
-- **ICS (Industrial Control System)**
-- **IoT (Internet of Things)**
-    - **CCTV (Closed-Circuit Television)**
-        - **Cameradar**
- - **Firmware**
-     - **FreshTomatoes**
-- **FlipperZero**
-- **Hardware Backdoor**
-- **Hardware Keyloggers**
-- **Hardware Security Key** 
-    - **Feitian**
-    - **Google Titan**
-    - **SSH Keys**
-        - **Non-Resident Keys**
-        - **Resident Keys**
-        - **TOFU (Trust on First Use)**
-     - **YubiKey**
-- **Physical Firewalls**
-- **Routers**
-    - **Routersploit**
-- **SCADA (Supervisory Control And Data Acquisition)**
-- **SDR (Software-Defined Radio)**
-    - **Directional WiFi Antenna**
-        - **Yagi Antenna**
-    - **DragonOS**
-    - **HackRF (Hack Radio Frequency)**
-    - **RTL-SDR (Realtek Software Defined Radi)**
+- **Burner Phones**: low-cost phones used temporarily to limit identity exposure
+- **GPIO Boards**: development boards with pins for controlling electronic components
+- **ICS (Industrial Control System)**: systems that monitor and control industrial processes
+- **IoT (Internet of Things)**: physical devices that communicate and exchange data over networks
+    - **CCTV (Closed-Circuit Television)**: private video systems used for monitoring and surveillance
+        - **Cameradar**: a tool for discovering and testing RTSP surveillance cameras
+- **Firmware**: low-level software embedded within hardware devices
+    - **FreshTomato**: open-source replacement firmware for supported wireless routers
+- **Flipper Zero**: a portable tool for exploring radio, access-control, and hardware systems
+- **Hardware Backdoor**: a hidden hardware mechanism that bypasses normal security controls
+- **Hardware Keyloggers**: physical devices that secretly record keyboard input
+- **Hardware Security Key**: a physical device used for secure authentication
+    - **Feitian**: a manufacturer of security keys and authentication devices
+    - **Google Titan**: Google’s line of hardware security keys
+    - **SSH Keys**: cryptographic credentials used to authenticate SSH connections
+        - **Non-Resident Keys**: security-key credentials requiring the private key handle from the client
+        - **Resident Keys**: discoverable credentials stored directly on a security key
+        - **TOFU (Trust on First Use)**: a model that trusts a key initially and warns about later changes
+    - **YubiKey**: a hardware security key made by Yubico
+- **Physical Firewalls**: dedicated appliances that filter and control network traffic
+- **Routers**: devices that forward traffic between different networks
+    - **RouterSploit**: a framework for testing routers and embedded devices for vulnerabilities
+- **SCADA (Supervisory Control and Data Acquisition)**: systems that remotely monitor and control industrial operations
+- **SDR (Software-Defined Radio)**: radio technology that processes signals primarily through software
+    - **Directional Wi-Fi Antenna**: an antenna that concentrates wireless signals in one direction
+        - **Yagi Antenna**: a directional antenna designed for focused signal transmission and reception
+    - **HackRF**: a device for transmitting and receiving a broad range of radio frequencies
+    - **RTL-SDR (Realtek Software-Defined Radio)**: an inexpensive receiver used to explore radio signals
 
 ## Offensive Security (Red Team)
 - **Botnet**
