@@ -44,21 +44,21 @@
 
 ## Communities
 * Discord Groups
-    * [Society for Cyber Security @ UGA](https://discord.gg/KrUR46NY6R)
-    * [Advanced Research in Exploitation and Security](https://discord.gg/PUE97EffRU)
-    * [Hack Pack @ UGA](https://discord.gg/PUE97EffRU)
-    * [GreyHat @ GATech](https://discord.gg/TKaZN3Ydaj)
-    * [Pwn.College @ ASU](https://discord.gg/dY5MEdthfz)
-    * [CSCI 4250: Cybersecurity](https://discord.gg/VCs8pW87Vy)
+    * [Advanced Research in Exploitation and Security (ARES)](https://discord.gg/PUE97EffRU)
+    * BSides Atlanta
+    * [Atlanta Cyber Security Engineers](https://discord.gg/BPEyDucFcS)
     * CBC Community of Practice @ NSF
     * CDCTF @ UAB
-    * [Atlanta Cyber Security Engineers](https://discord.gg/BPEyDucFcS)
-    * BSides Atlanta
+    * [CSCI 4250: Cybersecurity](https://discord.gg/VCs8pW87Vy)
     * NCAE Cyber Games
     * [NCL Community](https://discord.gg/ECYBjyucVF)
-    * [Wild West Hackin' Fest](https://discord.gg/wwhf)
-    * [TryHackMe](https://discord.gg/bsxn5cAymu)
     * [PatriotCTF](https://discord.gg/JhynxaTDDh)
+    * [GreyHat @ GATech](https://discord.gg/TKaZN3Ydaj)
+    * [Hack Pack @ UGA](https://discord.gg/PUE97EffRU)
+    * [Pwn.College @ ASU](https://discord.gg/dY5MEdthfz)
+    * [Society for Cyber Security @ UGA](https://discord.gg/KrUR46NY6R)
+    * [TryHackMe](https://discord.gg/bsxn5cAymu)
+    * [Wild West Hackin' Fest](https://discord.gg/wwhf)
 * Meetup Groups
     * [OWASP Atlanta Chapter](https://owasp.org/www-chapter-atlanta/)
 * [DC404 Atlanta Hacker Community](https://dc404.org/)
