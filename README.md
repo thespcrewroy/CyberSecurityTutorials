@@ -274,40 +274,66 @@
 ## Computer & Digital Forensics
 - **Reverse Engineering**: Analyzing binaries to understand behavior.
 ## Operating Systems
-- **Unix**: family of multitasking, multiuser operating systems.
-    - **BSD:** unix-like system with a focus on stability and networking.
-        - **FreeBSD**: unix-like OS known for performance and licensing.
-            - **HardenedBSD**: fork of FreeBSD that focuses more on hardening its security.
-        - **NetBSD:** provide a unified, multi-platform, production-quality operating system.
-            - **OpenBSD:** fork of NetBSD in 1995 focused heavily on hardening its security and networking.
-    - **Linux**: open-source Unix-like kernel used in many distros.
-        - **Arch Linux Family**: rolling-release distributions focused on simplicity.
-            - **Black Arch Linux**: security-focused Arch-based distribution.
-        - **Debian Linux Family**: stable distributions derived from Debian.
-            - **Kali**: penetration-testing focused Debian derivative.
-            - **ParrotOS**: security-oriented Debian-based distro.
-            - **SubgraphOS**: hardening-focused privacy distro.
-            - **TailsOS**: live OS designed for anonymity.
-            - **Ubuntu**: popular, user-friendly Debian derivative.
+- **Unix**: family of multitasking, multiuser operating systems
+    - **BSD:** unix-like system with a focus on stability and networking
+        - **FreeBSD**: unix-like OS known for performance and licensing
+            - **DragonFly BSD**: a Unix-like operating system focused on performance, scalability, and advanced file systems
+            - **HardenedBSD**: fork of FreeBSD that focuses more on hardening its security
+        - **NetBSD:** provide a unified, multi-platform, production-quality operating system
+            - **OpenBSD:** fork of NetBSD in 1995 focused heavily on hardening its security and networking
+    - **illumos**: an open-source Unix operating system derived from OpenSolaris
+    - **Linux**: open-source Unix-like kernel used in many distros
+        - **Arch Linux Family**: rolling-release distributions focused on simplicity
+            - **Black Arch Linux**: security-focused Arch-based distribution
+            - **EndeavourOS**: a lightweight, terminal-focused Arch Linux distribution
+            - **Garuda Linux**: a performance-focused Arch Linux distribution with graphical tools
+            - **Manjaro**: a user-friendly Arch-based distribution with curated software updates
+        - **Debian Linux Family**: stable distributions derived from Debian
+            - **Kali**: penetration-testing focused Debian derivative
+            - **ParrotOS**: security-oriented Debian-based distro
+            - **SubgraphOS**: hardening-focused privacy distro
+            - **TailsOS**: live OS designed for anonymity
+            - **Ubuntu**: popular user-friendly Debian derivative
+                - **Elementary OS**: a polished Ubuntu-based Linux distribution with a simple, macOS-inspired interface
                 - **Linux Mint:** free, user-friendly, and highly stable desktop operating system
+                - **Kubuntu**: an Ubuntu-based Linux distribution featuring the customizable KDE Plasma desktop
                 - **Lubuntu:** a lightweight official flavor of Ubuntu
-                    - **DragonOS**: SDR-focused Linux distribution.
-            - **Whonix**: Privacy OS using Tor isolation.
-        - **QubesOS**
-        - **Red Hat Family**
-            - **Fedora**
-     - **TempleOS**
-- **Terminal**: Text-based shell interface for system interaction.
-    - **Commands**: Executable operations entered in a shell.
-    - **Shell Operators**: Symbols that control shell behavior.
-    - **Shortcuts**: Key combinations for quicker navigation.
-- **Virtualization**
-    - **Hypervisors**
-        - **VirtualBox**
-        - **VMWare**
-        - **Xen**
-     - **WSL (Windows Subsystem for Linux)**
-- **Wine**
+                    - **DragonOS**: SDR-focused Linux distribution
+                - **Pop!_OS**: an Ubuntu-based distribution designed for productivity, gaming, and development
+                - **Zorin OS**: a beginner-friendly Ubuntu-based distribution with a Windows-like interface
+                - **Xubuntu**: a lightweight Ubuntu flavor featuring the Xfce desktop
+            - **Whonix**: privacy OS using Tor isolation
+        - **Gentoo Family**: a family of highly customizable, source-based Linux distributions
+            - **Gentoo Linux**: a source-based distribution offering extensive control and optimization
+        - **Qubes OS Family**: security-focused systems that isolate activities within virtual machines
+        - **Red Hat Family**: Linux distributions built around Red Hat technologies and RPM packages
+            - **Fedora**: a cutting-edge community distribution sponsored by Red Hat
+            - **RHEL**: Red Hat’s enterprise Linux distribution with commercial support
+                - **AlmaLinux**: a community-maintained, RHEL-compatible enterprise distribution
+                - **CentOS**: a community project centered on the development stream leading to RHEL
+                - **Rocky Linux**: a community-maintained, RHEL-compatible enterprise distribution
+        - **SUSE Family**: Linux distributions using SUSE technologies and YaST administration tools
+            - **openSUSE**: a community distribution available in rolling and stable editions
+            - **SUSE Linux Enterprise**: a commercially supported enterprise Linux platform
+                - **SLES for SAP**: a SUSE Enterprise edition optimized for SAP workloads
+        - **Slackware Family**: traditional Linux distributions emphasizing simplicity and Unix-like design
+            - **Slackware Linux**: one of the oldest actively maintained Linux distributions
+                - **Salix OS**: a user-friendly, Slackware-compatible Linux distribution
+        - **Void Family**: independent distributions based on Void Linux and its XBPS package system
+            - **Void Linux**: an independent rolling-release distribution using the runit init system
+        - **Xenix**: a discontinued Microsoft-licensed version of Unix for microcomputers
+- **TempleOS**: a lightweight biblical-themed operating system created entirely by Terry A. Davis.
+- **Terminal**: Text-based shell interface for system interaction
+    - **Commands**: Executable operations entered in a shell
+    - **Shell Operators**: Symbols that control shell behavior
+    - **Shortcuts**: Key combinations for quicker navigation
+- **Virtualization**: technology that creates simulated computing environments on physical hardware
+    - **Hypervisors**: xoftware that creates and manages virtual machines
+        - **VirtualBox**: Oracle’s free, cross-platform desktop hypervisor
+        - **VMware**: a family of commercial virtualization and cloud-computing products
+        - **Xen**: an open-source, type-1 hypervisor for running isolated virtual machines
+    - **WSL (Windows Subsystem for Linux)**: a Windows feature for running Linux environments without a traditional virtual machine
+- **Wine**: a compatibility layer for running Windows applications on Unix-like systems
 
 ## Hardware & Infrastructure
 - **Burner Phones**: low-cost phones used temporarily to limit identity exposure
