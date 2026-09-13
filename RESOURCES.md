@@ -68,7 +68,7 @@
 * [US Cybergames](https://www.uscybergames.com/faq)
 * [0CTF](https://ctf.0ops.sjtu.cn/)
 
-## Conferences
+## Conferences & Events
 * [Blackhat Con](https://www.blackhat.com/us-24/)
 * [Blue Team Con](https://blueteamcon.com/)
 * [BSides Atlanta](https://ti.to/bsidesatl/2023)
@@ -77,9 +77,20 @@
 * [WWHF (Wild West Hacking Fest)](https://wildwesthackinfest.com/)
 
 ## Communities
-* [OWASP Atlanta](https://owasp.org/www-chapter-atlanta/)
 * Discord Groups
     * Society for Cyber Security @ UGA
     * Hack Pack @ UGA
     * GreyHat @ GATech
+    * [Pwn.College @ ASU](https://discord.gg/dY5MEdthfz)
+    * CBC Community of Practice @ NSF
+    * CDCTF @ UAB
+    * [Atlanta Cyber Security Engineers](https://discord.gg/BPEyDucFcS)
+    * BSides Atlanta
+    * NCAE Cyber Games
+    * [NCL Community](https://discord.gg/ECYBjyucVF)
+    * [Wild West Hackin' Fest](https://discord.gg/wwhf)
+    * [TryHackMe](https://discord.gg/bsxn5cAymu)
+    * [PatriotCTF](https://discord.gg/JhynxaTDDh)
 * Meetup Groups
+    * [OWASP Atlanta Chapter](https://owasp.org/www-chapter-atlanta/)
+* [DC404 Atlanta Hacker Community](https://dc404.org/)
