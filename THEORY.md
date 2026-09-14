@@ -14,7 +14,8 @@
 - **Containerization**: packages applications with their dependencies in isolated environments
 
 ## Cryptography
-- **Alice & Bob**: placeholder names used in cryptography examples- **Binary Patching**: modifying machine code or data inside a compiled program
+- **Alice & Bob**: placeholder names used in cryptography examples
+- **Binary Patching**: modifying machine code or data inside a compiled program
 - **MFA (Multi-Factor Authentication)**: authentication using multiple credential types
     - **FIDO/FIDO2 (Fast Identity Online)**: standards for passwordless authentication
         - **Biometrics**: physiological traits used for user authentication
