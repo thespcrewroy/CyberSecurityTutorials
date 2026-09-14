@@ -386,7 +386,7 @@
 
 ## TODO
 * Orrin Adotavi ADP Stack
-* **[OSINT Framework (Beyond Username)](https://osintframework.com/)**: a web-based directory that organizes free OSINT tools and resources by investigation type
+* [OSINT Framework (Beyond Username)](https://osintframework.com/): a web-based directory that organizes free OSINT tools and resources by investigation type
 * [OSINT Tools](https://outlookuga.sharepoint.com/sites/InfoSec_KB/SitePages/OSINT-Tools.aspx?e=4%3a22b65a4624904fcb9f87841894226051&web=1&sharingv2=true&fromShare=true&at=9&CT=1781544543014&OR=OWA-NT-Mail&CID=28f0a04c-959b-d2df-24fe-5bce3bdfaea2&SI=NonSentItems)
 * CIS Controls Tools
 * Security+ Terms and Definitions
