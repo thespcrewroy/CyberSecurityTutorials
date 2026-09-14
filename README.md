@@ -223,7 +223,7 @@
 - **Palo Alto Application-Layer Firewalls**: next-generation firewalls that identify and control traffic
     - **AWS Network Firewall**: a managed network firewall for filtering and inspecting traffic within Amazon Virtual Private Clouds
     - **Azure Firewall**: Microsoft Azure’s managed cloud firewall for controlling and inspecting traffic across Azure networks
-    - **Palo Alto Application-Layer Firewalls**: next-generation firewalls that identify and control traffic based on applications, users, and threats
+    - **Palo Alto Application-Layer Firewalls**: next-generation firewalls that identify and control traffic
     - **Windows Firewall**: a host-based firewall built into Windows that filters incoming and outgoing network traffic
 - **Panorama**: Palo Alto Networks’ centralized platform for managing multiple firewalls and their security policies
 - **Pi-Hole**: DNS-level ad and tracker blocking appliance
