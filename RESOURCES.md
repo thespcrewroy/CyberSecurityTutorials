@@ -83,11 +83,11 @@
 - [NCL Cybergames](https://nationalcyberleague.org/): a collegiate league featuring individual and team cybersecurity challenges
 - [NSA Codebreaker](https://nsa-codebreaker.org/home): an NSA challenge based on realistic cybersecurity missions
 - [PatriotCTF (GMU)](https://competitivecyber.club/patriotctf/): George Mason University’s beginner-friendly cybersecurity competition
-- [picoCTF (CMU)](https://picoctf.org/): a beginner-friendly cybersecurity competition and learning platform
 - [PlaidCTF](https://www.geeksforgeeks.org/top-cyber-hacking-competitions-capture-the-flag-ctf/): an advanced international CTF organized by Carnegie Mellon’s PPP
 - [PwnSec](https://pwnsec.ctf.ae/): humans vs. cy-borg jeopardy-style hacking challenges across web, crypto, and PWN.
 - [SnykCTF](https://snyk.io/events/ctf/): a competition focused on identifying and exploiting software vulnerabilities
 - [tkCTF (GT)](https://tc.gts3.org/cs6265/2024-fall/ctf.html): a Georgia Tech competition focused on binary exploitation and system security
+- [TheHackPack](https://thehackpack.org/compete): University of Georgia's premiere CTF platform
 - [US Cybergames](https://www.uscybergames.com/faq): a national program that selects and trains the U.S. Cyber Team
 - [0CTF](https://ctf.0ops.sjtu.cn/): an advanced international CTF organized by Shanghai Jiao Tong University’s 0ops
 
@@ -101,4 +101,7 @@
 
 ## Resources
 - [Boss of the SOC](https://bots.splunk.com/): a Splunk-based blue-team challenge for investigating realistic security incidents
+- [CyLab (CMU)](https://learn.cylabacademy.org/dashboard): a beginner-friendly cybersecurity competition and learning platform
 - [CyberSeek](https://www.cyberseek.org/pathway.html): a resource for exploring cybersecurity career pathways, roles, and required skills
+- [Open Bug Bounty](https://www.openbugbounty.org/): a platform for reporting web vulnerabilities through coordinated disclosure
+- [SPL (Search Processing Language)](https://ahwd1.github.io/Splunk-SPL-Cheatsheet/splunk_cheetsheet.html): Splunk’s query language resource

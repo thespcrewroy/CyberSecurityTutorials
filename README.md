@@ -1,4 +1,12 @@
 ## Blockchain
+- **Atomic Swappers**
+    - **Trocador**: a cryptocurrency exchange aggregator
+    - **UnstoppableSwap** platform for atomic swaps between Bitcoin and Monero
+- **Cryptocurrencies**
+    - **Bitcoin (BTC)**: a decentralized digital currency using a public blockchain
+    - **Monero (XMR)**: a privacy-focused cryptocurrency that conceals transaction details
+- **Feather Wallet**: a lightweight, privacy-focused desktop wallet for Monero
+- **OrangeFren**: a privacy-oriented directory and rate aggregator
 - **[Keybase](https://keybase.io/)**: lookup social accounts, PGP keys, and crypto wallets tied to a username
 
 ## Cloud Security
@@ -8,12 +16,18 @@
 - **Grype**: vulnerability scanner for container images and filesystems
 
 ## Cryptography
-- **[M]IT PGP Key Server](https://pgp.mit.edu/)**: a public server for finding PGP keys by name, email, key ID, or fingerprint
+- **[MIT PGP Key Server](https://pgp.mit.edu/)**: a public server for finding PGP keys by name, email, key ID, or fingerprint
+- **sha256sum**: a command-line utility that calculates and verifies SHA-256 file hashes
 
 ## Defensive Security (Blue Team)
+- **[ANY.RUN](https://app.any.run/)**: an interactive sandbox for observing malware behavior in a controlled environment
+- **CSIRT (Computer Security Incident Response Team)**
+    - **MITRE ATT&CK Framework**: a knowledge base that organizes adversary behavior into tactics and techniques
 - **IAM (Identity and Access Management)**
     - **Microsoft Entra ID**: cloud identity and access management service
     - **Microsoft Intune**: cloud service for managing devices, applications, and endpoint policies
+- **Mandiant**: a Google-owned cybersecurity company specializing in threat intelligence, incident response, and managed defense
+- **Microsoft 365 Quarantine**: a protected location that holds suspected spam, phishing, malware, and other unwanted messages
 - **Operational Security (OpSec)**
     - **Adblock**
         - **Decentraleyes**: local resource polyfill to reduce third-party calls
@@ -26,18 +40,20 @@
         - **Windows Defender**: built-in tool that protects your PC from malware
     - **Browsers**
         - **Brave**: privacy-focused browser with built-in ad blocking
+        - **Dark Web (Tor)**: anonymity network and overlay services accessed via Tor
         - **Firefox**: open-source browser with strong privacy controls
         - **GNU Icecap**: privacy-oriented browser project
-        - **Dark Web (Tor)**: anonymity network and overlay services accessed via Tor
+        - **Incognito Mode (Private Browsing)**: a browser session that avoids retaining local history, cookies, and form data after it closes
     - **Secure Email**
         - **Permanent**
-            - **ProtonMail**: end-to-end encrypted email service
-            - **SecureMail**: Privacy-focused email solutions.
-            - **Tutanota**: encrypted email provider with zero-knowledge features
             - **Anonady**: privacy-oriented mail service
+            - **Elude:** privacy email service accessible through the Tor network
             - **GudoMail**: alternative secure email provider
             - **MailFence**: encrypted email and collaboration suite
             - **PrivateMail**: privacy-centric email offering
+            - **ProtonMail**: end-to-end encrypted email service
+            - **SecureMail**: Privacy-focused email solutions.
+            - **Tutanota**: encrypted email provider with zero-knowledge features
         - **Temporary Mail**
             - **GorillaMail**: disposable email address provider
             - **Temp Mailo**: temporary inbox service
@@ -66,14 +82,26 @@
         - **DuckDuckGo**: search engine that emphasizes privacy
         - **Searx**: open-source metasearch engine that preserves privacy
         - **StartPage**: pivacy-oriented search proxy
+- **[ReversingLabs Spectra Analyze](https://a1000-un10fg41.reversinglabs.com/accounts/login/?next=/)**: a malware-analysis platform
+- **Suricata**: an open-source intrusion detection, intrusion prevention, and network-monitoring engine
+- **[VirusTotal](https://www.virustotal.com/gui/home/upload)**: a service that analyzes files, URLs, domains, and IP addresses
 
 ## Forensics
+- **Aperi'Solve**: an online platform that runs multiple steganography analyses against images
+- **Audacity**: an audio editor used to inspect waveforms and spectrograms for hidden or altered information
 - **Autopsy**: a graphical digital-forensics platform built on The Sleuth Kit
 - **Binwalk**: a tool for identifying and extracting embedded files from firmware images
+- **ExifTool by Phil Harvey**: a command-line utility for reading, writing, and inspecting file metadata
 - **Foremost**: a file-carving tool that recovers files using headers and data structures
-- **The Sleuth Kit (TSK)**: command-line tools and libraries for analyzing disks and file systems
+- **FTK Imager**: a forensic tool for creating disk images and previewing digital evidence without altering the source
+- **Sleuth Kit (TSK)**: command-line tools and libraries for analyzing disks and file systems
+- **Steghide**: a tool for hiding and extracting data within image and audio files
+- **StegSeek**: a discontinued tool for brute-forcing passwords used with Steghide
+- **StegSolve**: a Java tool for examining image color channels and bit planes
+- **`strings`**: a command-line utility that extracts readable text from binary files
 - **Volatility 2**: a legacy Python framework for analyzing memory captures
 - **Volatility 3**: the modern successor to Volatility 2 for memory forensics
+- **`xxd`**: a command-line utility that creates hexadecimal dumps and converts them back into binary data
 - **YARA**: a pattern-matching tool for identifying malware and suspicious files
 
 ## Hardware Security
@@ -97,24 +125,30 @@
     - **Flipper Zero**: a portable tool for exploring radio, access-control, and hardware systems
     - **HackRF**: a device for transmitting and receiving a broad range of radio frequencies
     - **RTL-SDR (Realtek Software-Defined Radio)**: an inexpensive receiver used to explore radio signals
+- **USB Rubber Ducky**: a programmable USB device that impersonates a keyboard to execute scripted keystrokes
 
 ## Log Analysis
 - **Datadog**: a cloud platform for monitoring logs, applications, infrastructure, and security events
+- **`grep` (Global Regular Expression Print)**: a command-line utility that searches text for matching patterns
 - **Microsoft Excel**: a spreadsheet tool for filtering, organizing, and analyzing exported log data
 - **SIEM (Security Information and Event Management)**: aggregates and analyzes logs to detect security threats
-    - **Elastic Security**: an Elastic Stack solution for security analytics and investigation
+    - **ELK Stack**: an Elastic Stack solution for security analytics and investigation
     - **Microsoft Sentinel**: Microsoft’s cloud-native SIEM and security orchestration platform
     - **Splunk**: a commercial platform for searching, monitoring, and analyzing machine-generated data
 
 ## Network Traffick Analysis
 - **Aircrack-ng**: a suite for assessing and monitoring wireless-network security
 - **Bettercap**: a framework for network reconnaissance and traffic manipulation
+- **Darktrace**: an AI-driven security platform that detects anomalous behavior across networks and other environments
 - **Ettercap**: a tool for analyzing and testing network communications
+- **HPE Aruba Networking**: a vendor of wireless access points, switches, gateways, and network-management products
 - **Impacket**: a Python collection for interacting with Windows network protocols
 - **ISP (Internet Service Providers)**
     - **Starlink**: satellite internet service provider
 - **Kismet**: a wireless-network detector, sniffer, and monitoring system
 - **Network Miner**: packet analysis and forensic tool
+- **Palo Alto Application-Layer Firewalls**: next-generation firewalls that identify and control traffic
+- **Panorama**: Palo Alto Networks’ centralized platform for managing multiple firewalls and their security policies
 - **Pi-Hole**: DNS-level ad and tracker blocking appliance
 - **Snort**: an intrusion detection and prevention system for analyzing network traffic
 - **Tailscale**: a mesh VPN service that connects devices using WireGuard
@@ -124,6 +158,7 @@
     - **Mullvad**: privacy-focused VPN provider
     - **Wiregaurd**: modern, fast VPN protocol
 - **Wireshark**: GUI packet analyzer for network troubleshooting
+- **Zeek**: an open-source network security monitor that produces detailed traffic logs
 
 ## Offensive Security (Red Teaming)
 - **BloodHound**: a tool for mapping attack paths in Active Directory environments
@@ -230,12 +265,12 @@
     - **HD-Fuzz**: a firmware fuzzing approach designed to account for hardware-dependent behavior
 - **Static Analysis (Reverse Engineering)**
     - **Binary Ninja**: a commercial reverse-engineering platform for analyzing compiled binaries
+    - **FIE on Firmware**: a symbolic-execution platform for finding vulnerabilities in MSP430 firmware
     - **Ghidra**: an open-source reverse-engineering suite developed by the NSA 
     - **IDA Pro**: a commercial disassembler and debugger for reverse engineering bin
     - **Operation Mango**: a static-analysis system for finding taint-style vulnerabilities in Linux-based firmware
     - **radare2**: an open-source framework for reverse engineering and binary analysis
     - **SDRacer**: a system for detecting, validating, and repairing race conditions in interrupt-driven embedded software
-    - **FIE on Firmware**: a symbolic-execution platform for finding vulnerabilities in MSP430 firmware
         
 ## Scanning and Reconaissance
 - **Amass**: a tool for discovering subdomains and mapping external attack surfaces
@@ -249,6 +284,7 @@
 - **Nmap**: a network scanner for discovering hosts, ports, services, and operating systems\
 - **Nuclei**: a template-based scanner for detecting known vulnerabilities and expo
 - **Shodan**: a search engine for internet-connected devices and services
+- **Tenable Nessus**: a vulnerability scanner that identifies software flaws, exposed services, and misconfigurations
 - **ZMap**: a high-speed scanner designed for internet-wide network surveys
 - **ZoomEye**: an internet asset search engine developed in China
 

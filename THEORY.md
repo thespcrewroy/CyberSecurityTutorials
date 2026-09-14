@@ -1,9 +1,13 @@
 # Cyber Security Tutorials
 
+## Artificial Intelligence
+- **Prompt Injection**: manipulating an AI system through crafted instructions that override or alter its intended behavior
+- **Jailbreak**: a prompt-injection technique designed to bypass an AI system’s safety restrictions
+
 ## Blockchain
 - **Atomic Swappers**: protocols enabling trustless token exchanges
-- **Bitcoin (BTC)**: a decentralized digital currency using a public blockchain
-- **Monero (XMR)**: a privacy-focused cryptocurrency that conceals transaction details
+- **CoinJoin**: a Bitcoin privacy technique that combines multiple users’ inputs and outputs into one transaction
+- **Lightning Swap**: an atomic swap between on-chain Bitcoin and funds on the Lightning Network
 - **NFT (Non-Fungible Token)**: a unique blockchain token representing ownership or authenticity of an asset
 
 ## Cloud Security
@@ -63,6 +67,15 @@
 ## Defensive Security (Blue Team)
 - **Case Study:** clear lessons on how attacks happen and how to stop them
 - **CSIRT (Computer Security Incident Response Team)**: group that handles security incidents
+    - **Cyber Threat Intelligence (CTI)**: analyzed information about cyber threats, adversaries, capabilities, and indicators
+    - **Attack Chain**: a sequence of stages an attacker follows to compromise a target
+         - **Reconnaissance**: researching potential targets, systems, employees, and vulnerabilities
+         - **Weaponization**: combining an exploit with a malicious payload for use against the target
+         - **Delivery**: transmitting the weaponized payload through email, websites, removable media, or other channels
+         - **Exploitation**: abusing a vulnerability to execute malicious code or gain access
+         - **Installation**: installing malware or another persistence mechanism on the compromised system
+         - **Command and Control (C2)**: establishing communication between the compromised system and attacker
+         - **Actions on Objectives**: completing goals such as stealing data, escalating privileges, or disrupting systems 
 - **GRC (Governance, Risk Management, and Compliance)**: aligns security with business requirements
     - **CCPA (California Consumer Privacy Act)**: privacy law protecting California residents
     - **CIS Controls**: best-practice security controls checklist
@@ -95,6 +108,11 @@
 - **SOAR (Security Orchestration, Automation, and Response):** helps teams manage threats using automated workflows
 - **SOC (Security Operations Center)**: centralized team monitoring security events
 - **Tabletop Exercise:** discussion-based meeting where a team talks through a simulated emergency or crisi
+
+## Forensics
+- **Magic Bytes (File Signatures)**: distinctive byte sequences used to identify a file’s actual format
+- **Spectrography**: analyzing a signal’s frequency spectrum to reveal patterns or hidden information
+- **Steganography**: concealing information inside another file or medium
 
 ## Hardware Security
 - **Burner Phones**: low-cost phones used temporarily to limit identity exposure
@@ -180,8 +198,9 @@
 
 ## Offensive Security (Red Team)
 - **Card Skimming**: stealing payment-card data using a hidden reader
+- **DNS Tunneling**: hiding command traffic or transferred data inside DNS queries
 - **DoS (Denial of Service):** makes a service unavailible
-- - **DDoS (Distributed Denial-of-Service)**: overwhelming a service with traffic from multiple systems
+- **DDoS (Distributed Denial-of-Service)**: overwhelming a service with traffic from multiple systems
     - **Botnet**: a network of compromised devices controlled by an attacker
     - **DNS Amplification**: abusing DNS servers to multiply denial-of-service traffic
 - **Evil Maid**: altering or compromising a device while it is unattended
