@@ -1,7 +1,8 @@
 ### Cloud Security
 - **CloudFlare**: CDN and security provider for web infrastructure
+- **Containerization**
+     - **Docker**: a platform for building and running applications inside containers
 - **Grype**: vulnerability scanner for container images and filesystems
-
 
 ## Defensive Security (Blue Team)
 - **IAM (Identity and Access Management)**
@@ -101,6 +102,7 @@
     - **Starlink**: satellite internet service provider
 - **Network Miner**: packet analysis and forensic tool
 - **Pi-Hole**: DNS-level ad and tracker blocking appliance
+- **Tailscale**: a mesh VPN service that connects devices using WireGuard
 - **`tcpdump`**: command-line packet capture utility
 - **`tshark`**: command-line port of the Wireshark packet analyzer tool
 - **VPN (Virtual Private Network)**
@@ -119,7 +121,18 @@
 - **Piracy**
     - **Pirate Bay**: a popular torrent index site for sharing files
 - **Search Engines**
+    - **[FootprintIQ](https://footprintiq.app/)**: a platform for locating usernames and analyzing digital footprints
+    - **[GitFive](https://github.com/mxrch/GitFive)**: a tool for gathering public intelligence about GitHub users
     - **Google Reverse Image Search**: find similar images and their sources
+    - **[Lullar](https://com.lullar.com/)r**: a search tool for finding online accounts associated with usernames or email addresses
+    - **[NameCheckup](https://namecheckup.com/)**: a web tool for checking usernames across websites and domain extensions
+    - **[Namechk](https://namechk.com/)**: a web tool for checking username and domain availability
+    - **[Names Directory](https://namesdir.com/)**: a people-search directory for finding public identity information
+    - **[Sherlock](https://github.com/sherlock-project/sherlock)**: a command-line tool for finding accounts with a username across social networks
+    - **[Sylva Identity Discovery](https://sylva.pfeister.dev/)**: a tool for connecting online identities with possible real-world identities
+    - **[ThatsThem](https://thatsthem.com/)**: a people-search service that can associate usernames with public records
+    - **[WhatsMyName](https://github.com/WebBreacher/WhatsMyName)**: a community-maintained dataset for checking usernames across hundreds of websites
+    - **[WhatsMyName Web](https://whatsmyname.app/)**: a browser-based interface for finding accounts associated with a username
     - **Yandex**: Russian search engine with image and web search features
 
 ## Operating Systems
@@ -190,11 +203,23 @@
     - **angr**: a Python framework for binary analysis and symbolic execution
     - **GNU Debugger (GDB)**: a debugger for inspecting and controlling programs during execution 
     - **pwntools**: a Python framework for developing exploits and interacting with binaries
+    - **CO3**: a concolic execution system combining real microcontroller execution with workstation-based constraint solving
+- **Emulation**
+    - **AIM (Automatic Interrupt Modeling)**: a system that automatically models interrupts for dynamic firmware analysis 
+- **Fuzzing**
+    - **AidFuzzer**: an adaptive firmware fuzzer that models runtime states to trigger interrupts correctly
+    - **Fuzzware**: a hardware-free platform for emulating and fuzzing embedded firmware
+    - **HD-Fuzz**: a firmware fuzzing approach designed to account for hardware-dependent behavior
 - **Static Analysis (Reverse Engineering)**
     - **Binary Ninja**: a commercial reverse-engineering platform for analyzing compiled binaries
     - **Ghidra**: an open-source reverse-engineering suite developed by the NSA 
     - **IDA Pro**: a commercial disassembler and debugger for reverse engineering bin
-
+    - **Operation Mango**: a static-analysis system for finding taint-style vulnerabilities in Linux-based firmware
+    - **SDRacer**: a system for detecting, validating, and repairing race conditions in interrupt-driven embedded software
+    - **FIE on Firmware**: a symbolic-execution platform for finding vulnerabilities in MSP430 firmware
+            
+     
+  
 ## Scanning and Reconaissance
 - **BinaryEdge**: an internet asset intelligence and scanning platform
 - **Censys**: an internet-wide search engine for hosts, services, and certificates

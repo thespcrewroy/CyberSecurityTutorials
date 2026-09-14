@@ -6,6 +6,9 @@
 - **Monero (XMR)**: a privacy-focused cryptocurrency that conceals transaction details
 - **NFT (Non-Fungible Token)**: a unique blockchain token representing ownership or authenticity of an asset
 
+## Cloud Security
+- **Containerization**: packages applications with their dependencies in isolated environments
+
 ## Cryptography
 - **Alice & Bob**: placeholder names used in cryptography examples- **Binary Patching**: modifying machine code or data inside a compiled program
 - **MFA (Multi-Factor Authentication)**: authentication using multiple credential types
@@ -368,10 +371,6 @@
 - **Symbolic Execution**: analyzes programs using symbolic inputs to explore possible execution paths
 - **Text Section**: executable machine instructions within a program
 - **Syscall (System Call)**: a request from a program to the operating-system kernel
-
-## Web Exploitation
-- **Burp Suite**: a web-security testing platform for intercepting and modifying HTTP traffic
-- **Postman**: an API platform for creating, sending, and testing HTTP requests
   
 ## TODO
 * Orrin Adotavi ADP Stack
