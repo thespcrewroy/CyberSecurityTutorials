@@ -65,6 +65,12 @@
 - **FDE (Full Disk Encryption)**: encrypting an entire storage device at rest
 
 ## Defensive Security (Blue Team)
+- **ACL (Access Control Lists)**: controls identities and access to organizational resources
+    - **Active Directory (AD)**: Microsoft’s on-premises directory and domain management service
+    - **Break-Glass Account**: highly privileged emergency account used when normal administrative access fails
+    - **Group Policy Objects (GPOs)**: collections of Windows settings used to centrally configure users and computers in Active Directory
+    - **LDAP (Lightweight Directory Access Protocol)**: a protocol for accessing and managing directory info
+    - **Role-Based Access Control (RBAC)**: grants permissions according to a user’s assigned organizational role
 - **Case Study:** clear lessons on how attacks happen and how to stop them
 - **CSIRT (Computer Security Incident Response Team)**: group that handles security incidents
     - **Cyber Threat Intelligence (CTI)**: analyzed information about cyber threats, adversaries, capabilities, and indicators
@@ -76,6 +82,9 @@
          - **Installation**: installing malware or another persistence mechanism on the compromised system
          - **Command and Control (C2)**: establishing communication between the compromised system and attacker
          - **Actions on Objectives**: completing goals such as stealing data, escalating privileges, or disrupting systems 
+- **Endpoint Management**: an IT process used to monitor and configure all devices connected to a corporate network
+    - **Mobile Device Management (MDM)**: centrally manages and secures mobile devices such as smartphones and tablets
+    - **Unified Endpoint Management (UEM)**: centrally manages and secures endpoint devices and mobile devices
 - **GRC (Governance, Risk Management, and Compliance)**: aligns security with business requirements
     - **CCPA (California Consumer Privacy Act)**: privacy law protecting California residents
     - **CIS Controls**: best-practice security controls checklist
@@ -88,10 +97,11 @@
     - **PCI-DSS (Payment Card Industry Data Security Standard)**: requirements for handling cardholder data
     - **SOC (System and Organization Controls)**: audit standard for service organizations
 - **Honeypots**: traps designed to detect and study attackers
-- **IAM (Identity and Access Management)**: controls identities and access to organizational resources
-    - **Active Directory (AD)**: Microsoft’s on-premises directory and domain management service
-    - **Break-Glass Account**: highly privileged emergency account used when normal administrative access fails
-    - **LDAP (Lightweight Directory Access Protocol)**: a protocol for accessing and managing directory info
+- **Information Security (InfoSec)**: protects information and information systems from unauthorized access
+    - **CIA Triad**: a foundational model in information security based
+        - **Confidentiality**: ensures information is accessible only to authorized people and systems
+        - **Integrity**: ensures info remains accurate, complete, and protected from unauthorized mods
+        - **Availability**: ensures authorized users can access information and systems when needed 
 - **Operational Security (OpSec)**: protects sensitive info getting to an adversary
   - **Adblock**: browser extensions that block ads and trackers
   - **Antivirus/Antimalware**: software that detects and removes malware
@@ -105,6 +115,7 @@
       - **Password Managers**: tools to generate and store credentials securely
   - **Secure Search Engines**: privacy-respecting web search alternatives
 - **Purple Team**: collaborative approach to align red and blue team activities
+- **Server Patching**: applying updates to servers to fix vulnerabilities, bugs, and compatibility issues
 - **SOAR (Security Orchestration, Automation, and Response):** helps teams manage threats using automated workflows
 - **SOC (Security Operations Center)**: centralized team monitoring security events
 - **Tabletop Exercise:** discussion-based meeting where a team talks through a simulated emergency or crisi
@@ -114,20 +125,23 @@
 - **Spectrography**: analyzing a signal’s frequency spectrum to reveal patterns or hidden information
 - **Steganography**: concealing information inside another file or medium
 
-## Hardware Security & Internet of Things (IoT)
+## Physical Security & Internet of Things (IoT)
 - **Burner Phones**: low-cost phones used temporarily to limit identity exposure
 - **CCTV (Closed-Circuit Television)**: private video systems used for monitoring and surveillance
-- **GPIO Boards**: development boards with pins for controlling electronic components
-- **ICS (Industrial Control System)**: systems that monitor and control industrial processes
+- **Fake Masks**: disguises used to conceal a person’s identity or impersonate someone
 - **Firmware**: low-level software embedded within hardware devices
+- **GPIO Boards**: development boards with pins for controlling electronic components
 - **Hardware Backdoor**: a hidden hardware mechanism that bypasses normal security controls
 - **Hardware Keyloggers**: physical devices that secretly record keyboard input
 - **Hardware Security Key**: a physical device used for secure authentication
+- **ICS (Industrial Control System)**: systems that monitor and control industrial processes
+ - **Lock Picking**: manipulates a lock’s internal components to open it without the original key
 - **Physical Firewalls**: dedicated appliances that filter and control network traffic
 - **Routers**: devices that forward traffic between different networks accross a WAN
 - **SCADA (Supervisory Control and Data Acquisition)**: remotely monitor and control industrial operations
 - **SDR (Software-Defined Radio)**: radio technology that processes signals primarily through software
     - **Directional Wi-Fi Antenna**: an antenna that concentrates wireless signals in one directionignals
+- **Smoke Bomb**: produces smoke that can obscure visibility
 - **Switch:** hardware device that connects multiple devices together on a LAN
 
 ## Log Analysis
@@ -167,6 +181,7 @@
 - **MAN (Metropolitan Area Network):** larger network that covers a town or an entire city
 - **MAC (Multimedia Access Control)**: likely meant MAC (Media Access Control) address
 - **Mirrors:** an exact copy of a file or website hosted on a traditional central server
+- **Network Security Groups (NSGs)**: virtual firewall rule sets that control inbound and outbound traffic for cloud resources
 - **NFC (Near-Field Communication)**: short-range wireless data exchange
 - **OSI (Open Systems Interconnection) Model**: seven-layer conceptual networking model
     - **Application Layer:** direct interface between user app and network
@@ -192,6 +207,7 @@
 - **WAN (Wide Area Network):** telecommunications network that extends over a large distance
 - **Wifi**: wireless local area networking technology
     - **PSK (Pre-Shared Key)**: shared secret used to secure Wi‑Fi
+    - **WAF (Web Application Firewall)**: protects HTTP and HTTPS traffic from SQL injects and XSS
     - **WPA (Wifi Protected Access)**: security standards for wireless networks
 - **VLAN (Virtual Local Area Network):** custom network created from LANs that allow for grouping
 
@@ -272,6 +288,7 @@
     - **EXIF (Exchangeable Image File Format)**: metadata in images that can reveal location
     - **Universal Transverse Mercator (UTM)**: a grid-based geographic coordinate system
     - **World Geodetic System (WSG84)**: global datum used for GPS coordinates
+- **Lipreading**: interpreting speech by visually observing a speaker’s lip and facial movements
 - **OSINT Framework**: a catalog of tools and methods for open-source research
 - **OWASP Top 10**: a prioritized list of common web application security risks
 - **Piracy**: unauthorized copying and distribution of copyrighted content
@@ -300,6 +317,19 @@
 - **Virtualization**: technology that creates simulated computing environments on physical hardware
     - **Hypervisors**: software that creates and manages virtual machines
 
+## Password Cracking
+- **Brute-Force Attack**: systematically tries every possible character combination until the correct password is found
+- **Credential Stuffing**: uses username-and-password pairs exposed in previous breaches to attempt unauthorized access
+- **Dictionary Attack**: attempts passwords from a predefined list of words and commonly used passwords
+- **Hashing**: turns input data of any size into a fixed-size string of characters with math
+    - **MD5 (Message Digest Algorithm 5)**: a legacy cryptographic hash function that produces a 128-bit digest
+    - **SHA-256 (Secure Hash Algorithm 256-bit)**: a SHA-2-family cryptographic hash function that produces a 256-bit digest 
+- **Hybrid Attack**: combines dictionary words with modifications such as added numbers, symbols, or capitalization
+- **Mask Attack**: tests passwords using a defined character pattern when part of the password’s structure is known
+- **MFA Fatigue Attack**: repeatedly sends authentication prompts in an attempt to trick a user into approving one
+- **Rainbow Table Attack**: uses precomputed tables of password hashes to identify matching plaintext passwords
+- **Rule-Based Attack**: transforms wordlist entries according to defined rules such as substitutions, capitalization, prefixes, and suffixes
+
 ## PWN
 - **ASLR (Address Space Layout Randomization)**: randomizes memory locations between executions
 - **Assembly**: low-level instructions executed by a processor
@@ -321,14 +351,16 @@
     - **Little-Endian**: stores the least significant byte at the lowest memory address
     - **Big-Endian**: stores the most significant byte at the lowest memory address
 - **Exploit**: flaws that permit unintended memory access or modification
-    - **Buffer Overflow**: writing more data than a buffer can hold
-        - **Heap-Based Buffer Overflow**: overwriting data beyond a heap allocation
-        - **Stack-Based Buffer Overflow**: overwriting data beyond a stack buffer
+    - **Overflow Attacks**: exploit a program by supplying more data than an allocated memory region can safely contain
+        - **Buffer Overflow**: writing more data than a buffer can hold
+            - **Heap-Based Buffer Overflow**: overwriting data beyond a heap allocation
+            - **Stack-Based Buffer Overflow**: overwriting data beyond a stack buffer
+        - **Integer Overflow**: producing a value outside an integer type’s supported range
+        - **Stack Overflow**: exhausts or corrupts stack memory through excessive recursion or unsafe memory operations
     - **Double Free**: releasing the same memory allocation more than once
     - **Fastbin Attack**: manipulating glibc fastbin freelists
     - **Format-String Vulnerability**: allowing attacker-controlled format specifiers to access memory
     - **Heap Grooming**: arranging allocations to produce a useful heap layout
-    - **Integer Overflow**: producing a value outside an integer type’s supported range
     - **Null-Pointer Dereference**: accessing memory through an invalid null pointer
     - **Out-of-Bounds Access**: reading or writing beyond an object’s valid boundaries
     - **Stack Smashing**: corrupting stack data through an overflow
@@ -391,3 +423,12 @@
 - **Symbolic Execution**: analyzes programs using symbolic inputs to explore possible execution paths
 - **Text Section**: executable machine instructions within a program
 - **Syscall (System Call)**: a request from a program to the operating-system kernel
+
+## Web Exploitation
+- **BeEF (Browser Exploitation Framework)**: a framework for testing security weaknesses through web browsers
+- **Broken Access Control**: improperly enforced permissions that allow users to access unauthorized data or perform unauthorized actions
+- **Cross-Site Scripting (XSS)**: injects malicious client-side scripts that execute in another user’s browser
+- **Middleware**: software that connects applications, services, and underlying systems
+- **Obfuscation**: disguises code, payloads, or requests to make them harder for users and security controls to understand or detect
+- **Server-Side Request Forgery (SSRF)**: tricks a server into making requests to internal or external resources chosen by an attacker
+- **SQL Injection (SQLi)**: injects malicious SQL through application inputs to manipulate queries or access a database

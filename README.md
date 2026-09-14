@@ -11,21 +11,38 @@
 
 ## Cloud Security
 - **CloudFlare**: CDN and security provider for web infrastructure
+- **Cyera**: a data security posture management platform that discovers, classifies, and protects data
 - **Containerization**
      - **Docker**: a platform for building and running applications inside containers
+     - **Kubernetes:** automates the deployment, scaling, and management of containerized apps
+     - **Red Hat OpenShift**: an enterprise Kubernetes platform for managing containerized applications
+- **Google Security Command Center**: Google Cloud’s platform for identifying vulnerabilities
 - **Grype**: vulnerability scanner for container images and filesystems
 
 ## Cryptography
 - **[MIT PGP Key Server](https://pgp.mit.edu/)**: a public server for finding PGP keys by name, email, key ID, or fingerprint
-- **sha256sum**: a command-line utility that calculates and verifies SHA-256 file hashes
+- **Hashing**
+    - **sha256sum**: a command-line utility that calculates and verifies SHA-256 file hashes
+- **FDE (Full Disk Encryption)**
+    - **BitLocker**: Microsoft’s full-disk encryption feature for Windows
+    - **Cryptomator**: open-source software for encrypting files before storing them locally or in the cloud
+    - **FileVault**: Apple’s full-disk encryption feature for macOS  
 
 ## Defensive Security (Blue Team)
+- **ACL (Access Control List)**
+    - **CyberArk**: an identity-security platform specializing in privileged access management and securing high-risk accounts
+    - **JumpCloud**: a cloud-based directory platform for managing identities, devices, authentication, and access to org data
+    - **Microsoft Entra ID**: cloud identity and access management service
+    - **SailPoint**: an identity-security and governance platform for managing user access, permissions, and identity lifecycles
 - **[ANY.RUN](https://app.any.run/)**: an interactive sandbox for observing malware behavior in a controlled environment
+- **AppLocker**: a Windows application-control feature that restricts which applications, scripts, installers, and other files users can run
 - **CSIRT (Computer Security Incident Response Team)**
     - **MITRE ATT&CK Framework**: a knowledge base that organizes adversary behavior into tactics and techniques
-- **IAM (Identity and Access Management)**
-    - **Microsoft Entra ID**: cloud identity and access management service
+- **CrowdStrike Falcon**: a cloud-native endpoint security platform providing endpoint detection and response
+- **Endpoint Management**
+    - **Microsoft Configuration Manager (formerly SCCM)**: an enterprise platform for orchestration, monitoring, and configuration
     - **Microsoft Intune**: cloud service for managing devices, applications, and endpoint policies
+- **Google Threat Intelligence**: a threat-intelligence platform combining insights from Mandiant, VirusTotal, and Google
 - **Mandiant**: a Google-owned cybersecurity company specializing in threat intelligence, incident response, and managed defense
 - **Microsoft 365 Quarantine**: a protected location that holds suspected spam, phishing, malware, and other unwanted messages
 - **Operational Security (OpSec)**
@@ -33,6 +50,7 @@
         - **Decentraleyes**: local resource polyfill to reduce third-party calls
         - **Ublock Origin**: efficient configurable ad-blocking extension
     - **Antivirus/Antimalware**
+        - **Bitdefender**: a cybersecurity platform providing malware protection and endpoint security
         - **Kapersky**: commercial antivirus and security product suite
         - **MalwareBytes**: anti-malware product focusing on modern threats
         - **McAfee**: longstanding commercial security vendor
@@ -83,8 +101,10 @@
         - **Searx**: open-source metasearch engine that preserves privacy
         - **StartPage**: pivacy-oriented search proxy
 - **[ReversingLabs Spectra Analyze](https://a1000-un10fg41.reversinglabs.com/accounts/login/?next=/)**: a malware-analysis platform
+* **Snyk**: a platform for identifying vulnerabilities in code, dependencies, containers, and infrastructure
 - **Suricata**: an open-source intrusion detection, intrusion prevention, and network-monitoring engine
 - **[VirusTotal](https://www.virustotal.com/gui/home/upload)**: a service that analyzes files, URLs, domains, and IP addresses
+
 
 ## Forensics
 - **Aperi'Solve**: an online platform that runs multiple steganography analyses against images
@@ -104,7 +124,7 @@
 - **`xxd`**: a command-line utility that creates hexadecimal dumps and converts them back into binary data
 - **YARA**: a pattern-matching tool for identifying malware and suspicious files
 
-## Hardware Security & Internet of Things (IoT)
+## Physical Security & Internet of Things (IoT)
 - **14-Piece Lock Pick Set**: a collection of tools used for authorized physical lock testing
 - **ALFA Wi-Fi Adapter**: an external wireless adapter commonly used for Wi-Fi monitoring and security testing
 - **Bus Pirate Kit**: a hardware interface for communicating with and debugging electronic buses and chips
@@ -184,12 +204,14 @@
 - **Microsoft Excel**: a spreadsheet tool for filtering, organizing, and analyzing exported log data
 - **SIEM (Security Information and Event Management)**: aggregates and analyzes logs to detect security threats
     - **ELK Stack**: an Elastic Stack solution for security analytics and investigation
+    - **Google SecOps (formerly Chronicle))**: Google’s cloud-native SIEM and SOAR platform
     - **Microsoft Sentinel**: Microsoft’s cloud-native SIEM and security orchestration platform
     - **Splunk**: a commercial platform for searching, monitoring, and analyzing machine-generated data
 
 ## Network Traffick Analysis
 - **Aircrack-ng**: a suite for assessing and monitoring wireless-network security
 - **Bettercap**: a framework for network reconnaissance and traffic manipulation
+- **BlueCat Networks Proteus**: a centralized IP management platform for administering DNS, DHCP, and IP addresses
 - **Darktrace**: an AI-driven security platform that detects anomalous behavior across networks and other environments
 - **Ettercap**: a tool for analyzing and testing network communications
 - **HPE Aruba Networking**: a vendor of wireless access points, switches, gateways, and network-management products
@@ -199,6 +221,10 @@
 - **Kismet**: a wireless-network detector, sniffer, and monitoring system
 - **Network Miner**: packet analysis and forensic tool
 - **Palo Alto Application-Layer Firewalls**: next-generation firewalls that identify and control traffic
+    - **AWS Network Firewall**: a managed network firewall for filtering and inspecting traffic within Amazon Virtual Private Clouds
+    - **Azure Firewall**: Microsoft Azure’s managed cloud firewall for controlling and inspecting traffic across Azure networks
+    - **Palo Alto Application-Layer Firewalls**: next-generation firewalls that identify and control traffic based on applications, users, and threats
+    - **Windows Firewall**: a host-based firewall built into Windows that filters incoming and outgoing network traffic
 - **Panorama**: Palo Alto Networks’ centralized platform for managing multiple firewalls and their security policies
 - **Pi-Hole**: DNS-level ad and tracker blocking appliance
 - **Snort**: an intrusion detection and prevention system for analyzing network traffic
@@ -222,7 +248,6 @@
         - **Pegasus**: advanced spyware used to compromise and monitor mobile devices
 
 ## Open Source Intelligence (OSINT)
-- **[OSINT Framework](https://osintframework.com/)**: a web-based directory that organizes free OSINT tools and resources by investigation type
 - **Maltego**: a graphical platform for mapping relationships between public information
 - **Piracy**
     - **Pirate Bay**: a popular torrent index site for sharing files
@@ -251,6 +276,12 @@
 - **theHarvester**: a tool for gathering public emails, subdomains, hosts, and employee names 
 
 ## Operating Systems
+- **Command-Line Shells**
+    - **Bash (Bourne Again Shell)**: a Unix shell and scripting language commonly used on Linux
+    - **MobaXterm**: a Windows terminal and remote-access suite supporting SSH, SFTP, X11, and Unix commands
+    - **PowerShell**: a cross-platform command shell and scripting language built around structured objects
+    - **Windows Command Prompt (cmd.exe)**: the traditional Windows command-line interpreter for executing commands and batch scripts
+    - **Zsh (Z Shell)**: a Unix shell with advanced customization, completion, and interactive features
 - **Unix**
     - **BSD**
         - **FreeBSD**: unix-like OS known for performance and licensing
@@ -302,6 +333,7 @@
 - **Hydra**: a tool for testing credentials against network authentication services
 - **John the Ripper**: a password-recovery tool that detects and cracks numerous hash formats
     - **PDF2John**: a utility that extracts password hashes from encrypted PDF files for use with John the Ripper
+- **Ophcrack**: a password-recovery tool that uses rainbow tables to crack Windows LM and NTLM password hashes
 - **rockyou.txt**: a famous password wordlist included with Kali’s default wordlists package
 - **SecLists**: an installable Kali package containing password, username, discovery, and fuzzing lists 
 
@@ -343,7 +375,6 @@
 - **ZoomEye**: an internet asset search engine developed in China
 
 ## Web Exploitation
-- **BeEF (Browser Exploitation Framework)**: a framework for testing security weaknesses through web browsers
 - **Burp Suite**: a web-security testing platform for intercepting and modifying HTTP traffic
 - **ffuf**: a fast web fuzzer for discovering hidden files, directories, and parameters
 - **Gobuster**: a tool for discovering web paths, DNS names, and virtual hosts
@@ -355,4 +386,15 @@
 
 ## TODO
 * Orrin Adotavi ADP Stack
-* OSINT Framework (Beyong Username)
+- **[OSINT Framework (Beyond Username)](https://osintframework.com/)**: a web-based directory that organizes free OSINT tools and resources by investigation type
+* [OSINT Tools](https://outlookuga.sharepoint.com/sites/InfoSec_KB/SitePages/OSINT-Tools.aspx?e=4%3a22b65a4624904fcb9f87841894226051&web=1&sharingv2=true&fromShare=true&at=9&CT=1781544543014&OR=OWA-NT-Mail&CID=28f0a04c-959b-d2df-24fe-5bce3bdfaea2&SI=NonSentItems)
+* CIS Controls Tools
+* Security+ Terms and Definitions
+* Speaker Events
+* Club Events
+* Course Quizlets
+* Tutorial Repos
+* CTF Challenges
+* Student Discounts
+* Hemant Gautum Darkweb Links (prepare for PwnSec and OSINT hackpack presentation)
+* Take the finished list and add it to thehackpack website, and make it in the style of [OSINT Framework](https://github.com/lockfale/osint-framework)
