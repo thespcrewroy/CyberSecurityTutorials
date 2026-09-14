@@ -114,12 +114,11 @@
 - **Spectrography**: analyzing a signal’s frequency spectrum to reveal patterns or hidden information
 - **Steganography**: concealing information inside another file or medium
 
-## Hardware Security
+## Hardware Security & Internet of Things (IoT)
 - **Burner Phones**: low-cost phones used temporarily to limit identity exposure
 - **CCTV (Closed-Circuit Television)**: private video systems used for monitoring and surveillance
 - **GPIO Boards**: development boards with pins for controlling electronic components
 - **ICS (Industrial Control System)**: systems that monitor and control industrial processes
-- **IoT (Internet of Things)**: physical devices that communicate and exchange data over networks
 - **Firmware**: low-level software embedded within hardware devices
 - **Hardware Backdoor**: a hidden hardware mechanism that bypasses normal security controls
 - **Hardware Keyloggers**: physical devices that secretly record keyboard input
