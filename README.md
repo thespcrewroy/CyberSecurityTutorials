@@ -159,10 +159,10 @@
         - **NetBSD**: provide a unified, multi-platform, production-quality operating system
             - **OpenBSD:** fork of NetBSD in 1995 focused heavily on hardening its security and networking
     - **Linux**: open-source Unix-like kernel used in many distros
-        - **Arch Linux Family**
+        - **Arch Family**
             - **Black Arch Linux**: security-focused Arch-based distribution
             - **Manjaro**: a user-friendly Arch-based distribution with curated software updates
-        - **Debian Linux Family**
+        - **Debian Family**
             - **Kali**: penetration-testing focused Debian derivative
             - **ParrotOS**: security-oriented Debian-based distro
             - **TailsOS**: live OS designed for anonymity
