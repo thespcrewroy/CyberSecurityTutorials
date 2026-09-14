@@ -151,14 +151,14 @@
      
 
 ## Operating Systems
-- **Unix**: family of multitasking, multiuser operating systems
+- **Unix**
     - **BSD**
         - **FreeBSD**: unix-like OS known for performance and licensing
             - **DragonFly BSD**: a Unix-like operating system focused on performance and scalable file systems
             - **HardenedBSD**: fork of FreeBSD that focuses more on hardening its security
         - **NetBSD**: provide a unified, multi-platform, production-quality operating system
             - **OpenBSD:** fork of NetBSD in 1995 focused heavily on hardening its security and networking
-    - **Linux**: open-source Unix-like kernel used in many distros
+    - **Linux**
         - **Arch Family**
             - **Black Arch Linux**: security-focused Arch-based distribution
             - **Manjaro**: a user-friendly Arch-based distribution with curated software updates
