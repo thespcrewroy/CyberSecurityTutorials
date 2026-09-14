@@ -1,8 +1,14 @@
+## Blockchain
+- **[Keybase](https://keybase.io/)**: lookup social accounts, PGP keys, and crypto wallets tied to a username
+
 ## Cloud Security
 - **CloudFlare**: CDN and security provider for web infrastructure
 - **Containerization**
      - **Docker**: a platform for building and running applications inside containers
 - **Grype**: vulnerability scanner for container images and filesystems
+
+## Cryptography
+- **[M]IT PGP Key Server](https://pgp.mit.edu/)**: a public server for finding PGP keys by name, email, key ID, or fingerprint
 
 ## Defensive Security (Blue Team)
 - **IAM (Identity and Access Management)**
@@ -125,7 +131,7 @@
     - **[FootprintIQ](https://footprintiq.app/)**: a platform for locating usernames and analyzing digital footprints
     - **[GitFive](https://github.com/mxrch/GitFive)**: a tool for gathering public intelligence about GitHub users
     - **Google Reverse Image Search**: find similar images and their sources
-    - **[Lullar](https://com.lullar.com/)r**: a search tool for finding online accounts associated with usernames or email addresses
+    - **[Lullar](https://com.lullar.com/)**: a search tool for finding online accounts associated with usernames or email addresses
     - **[NameCheckup](https://namecheckup.com/)**: a web tool for checking usernames across websites and domain extensions
     - **[Namechk](https://namechk.com/)**: a web tool for checking username and domain availability
     - **[Names Directory](https://namesdir.com/)**: a people-search directory for finding public identity information
@@ -136,14 +142,13 @@
     - **[WhatsMyName Web](https://whatsmyname.app/)**: a browser-based interface for finding accounts associated with a username
     - **Yandex**: Russian search engine with image and web search features
 - **Search Engine Dorking**
+     - **[GitHub User](https://api.github.com/users/%3Cusername%3E/events/public)**: a manual search for a specific GitHub user profile
      - **Google Dorking (Google Hacking)**
-         - **Amazon Usernames**: a manual search for public profiles associated with an Amazon username
-         - **GitHub User**: a manual search for a specific GitHub user profile
-         - **Keybase**: a directory connecting online identities with cryptographic keys
-         - **MIT PGP Key Server**: a public directory for searching PGP keys and associated identities
-         - **Proton Mail Users**: a manual search for public references to a Proton Mail username
-         - **Proton Mail Domains**: a manual search for Proton Mail addresses using a particular domain 
-         - **Tinder Usernames**: a manual search for public Tinder profiles associated with a username
+         - **[Amazon Usernames](https://www.google.com/search?q=site:amazon.com+%3Cusername%3E)**: a manual search for public Amazon profiles
+         - **[Tinder Usernames](https://tinder.com/@%3Cusername%3E)**: a manual search for public Tinder profiles associated with a username
+     - **[Proton Mail Domains](https://api.protonmail.ch/pks/lookup?op=index&search=%3Cemail_address%3E)**: search for Proton Mail addresses using a domain
+     - **[Proton Mail Users](https://api.protonmail.ch/pks/lookup?op=index&search=%3Cusername%3E@protonmail.com)**: search for public Proton Mail username
+     
 
 ## Operating Systems
 - **Unix**: family of multitasking, multiuser operating systems
