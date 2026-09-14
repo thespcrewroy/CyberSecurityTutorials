@@ -98,3 +98,7 @@
 * [DEF CON](https://defcon.org/): one of the world’s largest hacker and cybersecurity conventions
 * [OSDF Conference](https://www.osdfcon.org/): a conference focused on open-source digital forensics
 * [WWHF (Wild West Hackin’ Fest)](https://wildwesthackinfest.com/): a cybersecurity conference emphasizing practical training and hands-on learning
+
+## Resources
+- [Boss of the SOC](https://bots.splunk.com/): a Splunk-based blue-team challenge for investigating realistic security incidents
+- [CyberSeek](https://www.cyberseek.org/pathway.html): a resource for exploring cybersecurity career pathways, roles, and required skills

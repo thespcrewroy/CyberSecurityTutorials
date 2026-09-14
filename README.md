@@ -69,9 +69,12 @@
 
 ## Forensics
 - **Autopsy**: a graphical digital-forensics platform built on The Sleuth Kit
+- **Binwalk**: a tool for identifying and extracting embedded files from firmware images
+- **Foremost**: a file-carving tool that recovers files using headers and data structures
 - **The Sleuth Kit (TSK)**: command-line tools and libraries for analyzing disks and file systems
 - **Volatility 2**: a legacy Python framework for analyzing memory captures
 - **Volatility 3**: the modern successor to Volatility 2 for memory forensics
+- **YARA**: a pattern-matching tool for identifying malware and suspicious files
 
 ## Hardware Security
 - **IoT (Internet of Things)**
@@ -104,10 +107,16 @@
     - **Splunk**: a commercial platform for searching, monitoring, and analyzing machine-generated data
 
 ## Network Traffick Analysis
+- **Aircrack-ng**: a suite for assessing and monitoring wireless-network security
+- **Bettercap**: a framework for network reconnaissance and traffic manipulation
+- **Ettercap**: a tool for analyzing and testing network communications
+- **Impacket**: a Python collection for interacting with Windows network protocols
 - **ISP (Internet Service Providers)**
     - **Starlink**: satellite internet service provider
+- **Kismet**: a wireless-network detector, sniffer, and monitoring system
 - **Network Miner**: packet analysis and forensic tool
 - **Pi-Hole**: DNS-level ad and tracker blocking appliance
+- **Snort**: an intrusion detection and prevention system for analyzing network traffic
 - **Tailscale**: a mesh VPN service that connects devices using WireGuard
 - **`tcpdump`**: command-line packet capture utility
 - **`tshark`**: command-line port of the Wireshark packet analyzer tool
@@ -117,6 +126,11 @@
 - **Wireshark**: GUI packet analyzer for network troubleshooting
 
 ## Offensive Security (Red Teaming)
+- **BloodHound**: a tool for mapping attack paths in Active Directory environments
+- **Metasploit Framework**: a platform for developing, testing, and executing exploits
+- **NetExec**: a tool for assessing and automating attacks against network services
+- **Responder**: a tool for capturing authentication attempts through poisoned name-resolution responses
+- **SearchSploit**: a command-line interface for searching the Exploit Database
 - **Malware**: software designed to damage, disrupt, spy on, or exploit systems
     - **Spyware**
         - **Pegasus**: advanced spyware used to compromise and monitor mobile devices
@@ -125,8 +139,10 @@
 
 ## Open Source Intelligence (OSINT)
 - **[OSINT Framework](https://osintframework.com/)**: a web-based directory that organizes free OSINT tools and resources by investigation type
+- **Maltego**: a graphical platform for mapping relationships between public information
 - **Piracy**
     - **Pirate Bay**: a popular torrent index site for sharing files
+- **Recon-ng**: a modular framework for conducting web-based reconnaissance
 - **Search Engine**
     - **[FootprintIQ](https://footprintiq.app/)**: a platform for locating usernames and analyzing digital footprints
     - **[GitFive](https://github.com/mxrch/GitFive)**: a tool for gathering public intelligence about GitHub users
@@ -148,7 +164,7 @@
          - **[Tinder Usernames](https://tinder.com/@%3Cusername%3E)**: a manual search for public Tinder profiles associated with a username
      - **[Proton Mail Domains](https://api.protonmail.ch/pks/lookup?op=index&search=%3Cemail_address%3E)**: search for Proton Mail addresses using a domain
      - **[Proton Mail Users](https://api.protonmail.ch/pks/lookup?op=index&search=%3Cusername%3E@protonmail.com)**: search for public Proton Mail username
-     
+- **theHarvester**: a tool for gathering public emails, subdomains, hosts, and employee names 
 
 ## Operating Systems
 - **Unix**
@@ -191,9 +207,14 @@
 - **Wine**: a compatibility layer for running Windows applications on Unix-like systems
 
 ## Password Cracking
+- **CeWL**: a tool that generates custom wordlists from website content
+- **Crunch**: a tool that generates wordlists from specified character patterns
 - **Hashcat**: a password-recovery tool that uses CPUs and GPUs to crack password hashes
+- **Hydra**: a tool for testing credentials against network authentication services
 - **John the Ripper**: a password-recovery tool that detects and cracks numerous hash formats
     - **PDF2John**: a utility that extracts password hashes from encrypted PDF files for use with John the Ripper
+- **rockyou.txt**: a famous password wordlist included with Kali’s default wordlists package
+- **SecLists**: an installable Kali package containing password, username, discovery, and fuzzing lists 
 
 ## PWN
 - **Dynamic Analysis (Binary Exploitation)**
@@ -212,25 +233,35 @@
     - **Ghidra**: an open-source reverse-engineering suite developed by the NSA 
     - **IDA Pro**: a commercial disassembler and debugger for reverse engineering bin
     - **Operation Mango**: a static-analysis system for finding taint-style vulnerabilities in Linux-based firmware
+    - **radare2**: an open-source framework for reverse engineering and binary analysis
     - **SDRacer**: a system for detecting, validating, and repairing race conditions in interrupt-driven embedded software
     - **FIE on Firmware**: a symbolic-execution platform for finding vulnerabilities in MSP430 firmware
-            
-     
-  
+        
 ## Scanning and Reconaissance
+- **Amass**: a tool for discovering subdomains and mapping external attack surfaces
 - **BinaryEdge**: an internet asset intelligence and scanning platform
 - **Censys**: an internet-wide search engine for hosts, services, and certificates
+- **DNSRecon**: a tool for enumerating DNS records and configurations
+- **Enum4linux-ng**: a tool for enumerating information from Windows and Samba systems
 - **GreyNoise**: a threat-intelligence platform that identifies internet-wide scanning activity
 - **Insecam**: an index of publicly accessible and unsecured CCTV streams
 - **Nikto**: an open-source scanner for identifying web-server vulnerabilities and misconfigurations
-- **Nmap**: a network scanner for discovering hosts, ports, services, and operating systems
+- **Nmap**: a network scanner for discovering hosts, ports, services, and operating systems\
+- **Nuclei**: a template-based scanner for detecting known vulnerabilities and expo
 - **Shodan**: a search engine for internet-connected devices and services
 - **ZMap**: a high-speed scanner designed for internet-wide network surveys
 - **ZoomEye**: an internet asset search engine developed in China
 
 ## Web Exploitation
+- **BeEF (Browser Exploitation Framework)**: a framework for testing security weaknesses through web browsers
 - **Burp Suite**: a web-security testing platform for intercepting and modifying HTTP traffic
+- **ffuf**: a fast web fuzzer for discovering hidden files, directories, and parameters
+- **Gobuster**: a tool for discovering web paths, DNS names, and virtual hosts
+- **OWASP ZAP**: an open-source platform for testing web-application security
 - **Postman**: an API platform for creating, sending, and testing HTTP requests
+- **SQLmap**: a tool for detecting and testing SQL-injection vulnerabilities
+- **WhatWeb**: a tool for identifying technologies used by websites
+- **WPScan**: a security scanner designed for WordPress websites
 
 ## TODO
 * Orrin Adotavi ADP Stack
