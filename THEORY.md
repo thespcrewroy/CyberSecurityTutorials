@@ -259,7 +259,9 @@
 - **Piracy**: unauthorized copying and distribution of copyrighted content
 - **Private Investigators**: professionals who gather information discreetly
 - **Querying**: crafting searches to efficiently find relevant information
-- **Search Engines**: tools that index and retrieve web-hosted information
+- **Search Engine**: tools that index and retrieve web-hosted information
+- **Search-Engine Dorking**: using advanced search operators to locate specific publicly indexed information
+    - **Google Dorking (Google Hacking)**: using Google search operators to uncover exposed files, pages, and configuration details
 
 ## Operating Systems
 - **Unix**: family of multitasking, multiuser operating systems
@@ -371,7 +373,3 @@
 - **Symbolic Execution**: analyzes programs using symbolic inputs to explore possible execution paths
 - **Text Section**: executable machine instructions within a program
 - **Syscall (System Call)**: a request from a program to the operating-system kernel
-  
-## TODO
-* Orrin Adotavi ADP Stack
-* 

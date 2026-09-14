@@ -118,9 +118,10 @@
             - **Pico BadUSB:** simple implementation of the BadUSB idea
 
 ## Open Source Intelligence (OSINT)
+- **[OSINT Framework](https://osintframework.com/)**: a web-based directory that organizes free OSINT tools and resources by investigation type
 - **Piracy**
     - **Pirate Bay**: a popular torrent index site for sharing files
-- **Search Engines**
+- **Search Engine**
     - **[FootprintIQ](https://footprintiq.app/)**: a platform for locating usernames and analyzing digital footprints
     - **[GitFive](https://github.com/mxrch/GitFive)**: a tool for gathering public intelligence about GitHub users
     - **Google Reverse Image Search**: find similar images and their sources
@@ -134,6 +135,15 @@
     - **[WhatsMyName](https://github.com/WebBreacher/WhatsMyName)**: a community-maintained dataset for checking usernames across hundreds of websites
     - **[WhatsMyName Web](https://whatsmyname.app/)**: a browser-based interface for finding accounts associated with a username
     - **Yandex**: Russian search engine with image and web search features
+- **Search Engine Dorking**
+     - **Google Dorking (Google Hacking)**
+         - **Amazon Usernames**: a manual search for public profiles associated with an Amazon username
+         - **GitHub User**: a manual search for a specific GitHub user profile
+         - **Keybase**: a directory connecting online identities with cryptographic keys
+         - **MIT PGP Key Server**: a public directory for searching PGP keys and associated identities
+         - **Proton Mail Users**: a manual search for public references to a Proton Mail username
+         - **Proton Mail Domains**: a manual search for Proton Mail addresses using a particular domain 
+         - **Tinder Usernames**: a manual search for public Tinder profiles associated with a username
 
 ## Operating Systems
 - **Unix**: family of multitasking, multiuser operating systems
@@ -234,3 +244,7 @@
 ## Web Exploitation
 - **Burp Suite**: a web-security testing platform for intercepting and modifying HTTP traffic
 - **Postman**: an API platform for creating, sending, and testing HTTP requests
+
+## TODO
+* Orrin Adotavi ADP Stack
+* OSINT Framework (Beyong Username)
