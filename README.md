@@ -62,7 +62,7 @@
         - **Dark Web (Tor)**: anonymity network and overlay services accessed via Tor
         - **Firefox**: open-source browser with strong privacy controls
         - **GNU Icecap**: privacy-oriented browser project
-        - **Incognito Mode (Private Browsing)**: a browser session that avoids retaining local history, cookies, and form data after it closes
+        - **Incognito**: a browser session that avoids retaining local history, cookies, and form data after it closes
     - **Secure Email**
         - **Permanent**
             - **Anonady**: privacy-oriented mail service
