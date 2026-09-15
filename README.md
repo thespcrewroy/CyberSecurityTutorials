@@ -19,6 +19,7 @@
 - **CloudFlare**: CDN and security provider for web infrastructure
 - **Cyera**: a data security posture management platform that discovers, classifies, and protects data
 - **Containerization**
+     - **[Dive](https://github.com/wagoodman/dive)**: tool for exploring Docker image layers and reducing image size
      - **Docker**: a platform for building and running applications inside containers
      - **Kubernetes:** automates the deployment, scaling, and management of containerized apps
      - **Red Hat OpenShift**: an enterprise Kubernetes platform for managing containerized applications
@@ -31,7 +32,8 @@
 - **FDE (Full Disk Encryption)**
     - **BitLocker**: Microsoft’s full-disk encryption feature for Windows
     - **Cryptomator**: open-source software for encrypting files before storing them locally or in the cloud
-    - **FileVault**: Apple’s full-disk encryption feature for macOS  
+    - **FileVault**: Apple’s full-disk encryption feature for macOS
+- **GPA (GNU Privacy Assistant)**: GUI tool for managing PGP keys
 - **[MIT PGP Key Server](https://pgp.mit.edu/)**: a public server for finding PGP keys by name, email, key ID, or fingerprint
 
 
@@ -212,7 +214,7 @@
     - **ELK Stack**: an Elastic Stack solution for security analytics and investigation
     - **Google SecOps (formerly Chronicle))**: Google’s cloud-native SIEM and SOAR platform
     - **Microsoft Sentinel**: Microsoft’s cloud-native SIEM and security orchestration platform
-    - **Splunk**: a commercial platform for searching, monitoring, and analyzing machine-generated data
+    - **[Splunk](https://docs.splunk.com/Documentation/Splunk/)**: a commercial platform for searching, monitoring, and analyzing machine-generated data
 
 ## Network Traffick Analysis
 - **Aircrack-ng**: a suite for assessing and monitoring wireless-network security
@@ -348,7 +350,7 @@
     - **PDF2John**: a utility that extracts password hashes from encrypted PDF files for use with John the Ripper
 - **Ophcrack**: a password-recovery tool that uses rainbow tables to crack Windows LM and NTLM password hashes
 - **rockyou.txt**: a famous password wordlist included with Kali’s default wordlists package
-- **SecLists**: an installable Kali package containing password, username, discovery, and fuzzing lists 
+- **[SecLists](https://github.com/danielmiessler/seclists)**: an installable Kali package containing password, username, discovery, and fuzzing lists 
 
 ## PWN
 - **Dynamic Analysis (Binary Exploitation)**
