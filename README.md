@@ -20,13 +20,14 @@
 - **Grype**: vulnerability scanner for container images and filesystems
 
 ## Cryptography
-- **[MIT PGP Key Server](https://pgp.mit.edu/)**: a public server for finding PGP keys by name, email, key ID, or fingerprint
-- **Hashing**
-    - **sha256sum**: a command-line utility that calculates and verifies SHA-256 file hashes
+- **CryptoAnalysis**
+    - **[Crypto Attacks](https://github.com/jvdsn/crypto-attacks)**: python implementations of cryptographic attacks and utilities
 - **FDE (Full Disk Encryption)**
     - **BitLocker**: Microsoft’s full-disk encryption feature for Windows
     - **Cryptomator**: open-source software for encrypting files before storing them locally or in the cloud
     - **FileVault**: Apple’s full-disk encryption feature for macOS  
+- **[MIT PGP Key Server](https://pgp.mit.edu/)**: a public server for finding PGP keys by name, email, key ID, or fingerprint
+
 
 ## Defensive Security (Blue Team)
 - **ACL (Access Control List)**
@@ -330,6 +331,8 @@
 - **CeWL**: a tool that generates custom wordlists from website content
 - **Crunch**: a tool that generates wordlists from specified character patterns
 - **Hashcat**: a password-recovery tool that uses CPUs and GPUs to crack password hashes
+- **Hashing**
+    - **sha256sum**: a command-line utility that calculates and verifies SHA-256 file hashes
 - **Hydra**: a tool for testing credentials against network authentication services
 - **John the Ripper**: a password-recovery tool that detects and cracks numerous hash formats
     - **PDF2John**: a utility that extracts password hashes from encrypted PDF files for use with John the Ripper
