@@ -386,6 +386,7 @@
 - **ZoomEye**: an internet asset search engine developed in China
 
 ## Web Exploitation
+- **BeEF (Browser Exploitation Framework)**: a framework for testing security weaknesses through web browsers
 - **Burp Suite**: a web-security testing platform for intercepting and modifying HTTP traffic
 - **ffuf**: a fast web fuzzer for discovering hidden files, directories, and parameters
 - **Gobuster**: a tool for discovering web paths, DNS names, and virtual hosts
