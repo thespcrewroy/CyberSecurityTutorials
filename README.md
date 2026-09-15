@@ -340,7 +340,7 @@
 - **Crunch**: a tool that generates wordlists from specified character patterns
 - **Hashcat**: a password-recovery tool that uses CPUs and GPUs to crack password hashes
 - **Hashing**
-    - **sha256sum**: a command-line utility that calculates and verifies SHA-256 file hashes
+    - **`sha256sum`**: a command-line utility that calculates and verifies SHA-256 file hashes
 - **Hydra**: a tool for testing credentials against network authentication services
 - **John the Ripper**: a password-recovery tool that detects and cracks numerous hash formats
     - **PDF2John**: a utility that extracts password hashes from encrypted PDF files for use with John the Ripper
