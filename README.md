@@ -106,7 +106,6 @@
 - **Suricata**: an open-source intrusion detection, intrusion prevention, and network-monitoring engine
 - **[VirusTotal](https://www.virustotal.com/gui/home/upload)**: a service that analyzes files, URLs, domains, and IP addresses
 
-
 ## Forensics
 - **Aperi'Solve**: an online platform that runs multiple steganography analyses against images
 - **Audacity**: an audio editor used to inspect waveforms and spectrograms for hidden or altered information
@@ -198,6 +197,10 @@
 - **USB Nugget**: a programmable USB security-testing device capable of emulating keyboards and other USB functions
 - **USB Rubber Ducky**: a programmable USB device that impersonates a keyboard to execute scripted keystrokes
 - **WiFi Nugget**: a portable device for learning about and testing Wi-Fi security
+
+## Prompt Injection
+* [LakeraAI](https://www.lakera.ai/): leading security platform to secure your AI future
+* [OWASP LLM Top 10](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/): most critical security vulnerabilities and risks when building AI systems
 
 ## Log Analysis
 - **Datadog**: a cloud platform for monitoring logs, applications, infrastructure, and security events
