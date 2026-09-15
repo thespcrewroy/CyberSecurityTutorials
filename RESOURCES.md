@@ -112,21 +112,42 @@
 
 ## Newsletter
 * [Brutalist Report](https://brutalist.report/): the day's headlines delivered to you without bullshit
+* [LakeraAI Blog](https://www.lakera.ai/blog): research blog goes into Indirect Prompt Injection with real attack scenarios
 
 ## Resources
 - [Attack and Defend CTFs](https://medium.com/@iabdullah_215/my-guide-to-attack-and-defense-ctfs-ecbe838d49cd): my guide to attack and defend CTFs
 - [Boss of the SOC](https://bots.splunk.com/): a Splunk-based blue-team challenge for investigating realistic security incidents
+- [Bug Bounty Hunter](https://www.bugbountyhunter.com/): training for web application hacking and bug-bounty hunting
+- [CryptoHack](https://cryptohack.org/): an interactive platform for learning modern cryptography
+- [CTF101](https://ctf101.org/): an introductory guide to common CTF categories and techniques
+- [CTF Field Guide](https://trailofbits.github.io/ctf/): a comprehensive guide to competing in CTF competitions
 - [CyLab (CMU)](https://learn.cylabacademy.org/dashboard): a beginner-friendly cybersecurity competition and learning platform
 - [CyberSeek](https://www.cyberseek.org/pathway.html): a resource for exploring cybersecurity career pathways, roles, and required skills
 - [Cyber Skyline Trove](https://trove.cyberskyline.com/): a collection of cybersecurity learning resources on NCL topics
 - [Die.NET](https://linux.die.net/): a Linux documentation engine resource
 - [Exploit Education](https://exploit.education): provides downloadable virtual machines for learning binary exploitation
+- [Gandalf](https://gandalf.lakera.ai/gandalf): a game for learning about prompt injection and adversarial AI attacks
 - [GreyHat](https://ctf.greyhatgt.org/): Georgia Tech's premiere cyber security learning platform
 - [Hacker101](https://www.hacker101.com/): a free web-security course offering video lessons, written resources, and hands-on CTF challenges
+- [HackerOne](https://www.hackerone.com/): a bug-bounty platform connecting ethical hackers with organizations
+- [Hack The Box](https://www.hackthebox.com/): hands-on cybersecurity labs and advanced training modules
+- [Hack the Kernel](https://ops-class.org/): resources for learning operating-system and kernel security
+- [HackTricks](https://book.hacktricks.xyz/welcome/readme): a reference guide covering penetration-testing techniques and tools
+- [Hackers-Arise](https://hackers-arise.com/): ethical-hacking tutorials and courses for beginners
+- [MetaCTF Challenges](https://forms.skillbit.com/t/bmtQTKB9jVus): beginner-to-advanced CTF challenges for learning cybersecurity
 - [Microcorruption](https://microcorruption.com/): an embedded-security CTF that teaches assembly language, debugging, RE, etc.
+- [National Cyber Scholarship Foundation](https://www.nationalcyberscholarship.org/): cybersecurity training and scholarship opportunities for students
 - [Open Bug Bounty](https://www.openbugbounty.org/): a platform for reporting web vulnerabilities through coordinated disclosure
 - [OpenSecurityTraining2](https://www.opensecuritytraining.info/): a collection of free, open-source, self-paced courses
+- [OverTheWire Wargames](https://overthewire.org/wargames/): hands-on games for learning Linux and security fundamentals
+- [PatriotCTF Courseware](https://github.com/MasonCompetitiveCyber/ctf-courses): cybersecurity courseware from George Mason University’s Competitive Cyber club
+- [PicoDucky](https://github.com/dbisu/pico-ducky): a tool for creating USB Rubber Ducky payloads with a Raspberry Pi Pico
+- [picoPrimer](https://primer.picoctf.org/): introductory cybersecurity lessons supporting picoCTF challenges
+- [pwn.college](https://pwn.college/): a structured platform for learning binary exploitation and CTF skills
 - [RootMe](https://www.root-me.org/?lang=en): online platform for learning hacking through CTF challenges
+- [Security Certification Roadmap](https://pauljerimy.com/security-certification-roadmap/): a guide for comparing cybersecurity certifications by domain and difficulty
 - [SPL (Search Processing Language)](https://ahwd1.github.io/Splunk-SPL-Cheatsheet/splunk_cheetsheet.html): Splunk’s query language resource
 - [Splunk Education](https://www.splunk.com/en_us/training/free-courses/overview.html): free training of Splunk for students
+- [TCM Security Academy](https://academy.tcm-sec.com/): practical and affordable ethical-hacking courses
 - [TheHackPack](https://thehackpack.org/practice): UGA's premiere cyber security learning platform
+- [WebGoat](https://owasp.org/www-project-webgoat/): an intentionally insecure web application for learning common vulnerabilities
