@@ -353,7 +353,8 @@
 ## PWN
 - **Dynamic Analysis (Binary Exploitation)**
     - **angr**: a Python framework for binary analysis and symbolic execution
-    - **GNU Debugger (GDB)**: a debugger for inspecting and controlling programs during execution 
+    - **GNU Debugger (GDB)**: a debugger for inspecting and controlling programs during execution
+    - **[pwndbg](https://github.com/pwndbg/pwndbg)**: a GDB and LLDB plug-in that makes debugging suck less
     - **pwntools**: a Python framework for developing exploits and interacting with binaries
     - **CO3**: a concolic execution system combining real microcontroller execution with workstation-based constraint solving
 - **Emulation**
