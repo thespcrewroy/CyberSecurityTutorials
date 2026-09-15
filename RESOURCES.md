@@ -103,6 +103,7 @@
 * [1 October] [BSides Atlanta](https://ti.to/bsidesatl/2023): Atlanta’s community-driven conference for cybersecurity education and networking
 * [2 October] [Crowe National Case Competition](https://www.crowe.com/careers/students/case-competition): solve real-world problems while showcasing their skills 
 * [1 Febraury] [Insomni'hack](https://insomnihack.ch/): the largest cybersecurity events in Switzerland and neighboring Europe
+* [2 February] [Salesforce Future Tech Launchpad](https://info.codepath.org/futureforce-tech-launchpad): learn cybersecurity with Salesforce Pre-Internship Program
 * [2 March] [CyberBay Summit](https://cyberbay.org/summit/): for cybersecurity practitioner, researcher, leader, educator, or innovator with insights
 * [3 March] [BSides Alabama](https://bsidesrocketcity.org/): bridging the Gap from Student to Rocket Scientist
 * [1 August] [Black Hat Conference](https://www.blackhat.com/us-24/): a major cybersecurity conference featuring research, training, and security briefings
@@ -113,7 +114,6 @@
 * [Brutalist Report](https://brutalist.report/): the day's headlines delivered to you without bullshit
 
 ## Resources
-- [2 February] [Salesforce Future Tech Launchpad](https://info.codepath.org/futureforce-tech-launchpad): learn cybersecurity with Salesforce Pre-Internship Program
 - [Attack and Defend CTFs](https://medium.com/@iabdullah_215/my-guide-to-attack-and-defense-ctfs-ecbe838d49cd): my guide to attack and defend CTFs
 - [Boss of the SOC](https://bots.splunk.com/): a Splunk-based blue-team challenge for investigating realistic security incidents
 - [CyLab (CMU)](https://learn.cylabacademy.org/dashboard): a beginner-friendly cybersecurity competition and learning platform
