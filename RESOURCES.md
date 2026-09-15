@@ -137,6 +137,7 @@
 - [MetaCTF Challenges](https://forms.skillbit.com/t/bmtQTKB9jVus): beginner-to-advanced CTF challenges for learning cybersecurity
 - [Microcorruption](https://microcorruption.com/): an embedded-security CTF that teaches assembly language, debugging, RE, etc.
 - [National Cyber Scholarship Foundation](https://www.nationalcyberscholarship.org/): cybersecurity training and scholarship opportunities for students
+- [./ ncl-tools](https://lydia-england.github.io/ncl-tools/): tools for National Cyber League Competition
 - [Open Bug Bounty](https://www.openbugbounty.org/): a platform for reporting web vulnerabilities through coordinated disclosure
 - [OpenSecurityTraining2](https://www.opensecuritytraining.info/): a collection of free, open-source, self-paced courses
 - [OverTheWire Wargames](https://overthewire.org/wargames/): hands-on games for learning Linux and security fundamentals
@@ -150,4 +151,16 @@
 - [Splunk Education](https://www.splunk.com/en_us/training/free-courses/overview.html): free training of Splunk for students
 - [TCM Security Academy](https://academy.tcm-sec.com/): practical and affordable ethical-hacking courses
 - [TheHackPack](https://thehackpack.org/practice): UGA's premiere cyber security learning platform
+- [TryHackMe](https://tryhackme.com/): beginner-friendly cybersecurity lessons and hands-on labs
+    - [ICMP Parameters](https://www.iana.org/assignments/icmp-parameters/icmp-parameters.xhtml): the official registry of ICMP message types, codes, and parameters
+    - [Docker Run Documentation](https://docs.docker.com/engine/containers/run/): official guidance for running and configuring Docker containers
+    - [Docker Registry HTTP API V2](https://docs.docker.com/registry/spec/api/): the API specification for interacting with Docker registries
+    - [Malicious Docker Hub Container Images](https://shorturl.at/8Hljb): an analysis of malicious container images used for cryptocurrency mining
+    - [Docker Seccomp Documentation](https://docs.docker.com/engine/security/seccomp/): official guidance for restricting container system calls with seccomp profiles
 - [WebGoat](https://owasp.org/www-project-webgoat/): an intentionally insecure web application for learning common vulnerabilities
+
+## YouTubers
+- [IppSec](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA): detailed Hack The Box walkthroughs and penetration-testing tutorials
+- [John Hammond](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw): CTF walkthroughs, malware analysis, and cybersecurity tutorials
+- [LiveOverflow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w): binary exploitation, reverse engineering, and security research tutorials
+- [Talking Sasquach](https://www.youtube.com/@TalkingSasquach/videos): hardware-hacking tutorials and security-device demonstrations
