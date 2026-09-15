@@ -289,7 +289,7 @@
     - **Bash (Bourne Again Shell)**: a Unix shell and scripting language commonly used on Linux
     - **MobaXterm**: a Windows terminal and remote-access suite supporting SSH, SFTP, X11, and Unix commands
     - **PowerShell**: a cross-platform command shell and scripting language built around structured objects
-    - **Windows Command Prompt (cmd.exe)**: the traditional Windows command-line interpreter for executing commands and batch scripts
+    - **Windows Command Prompt**: the traditional Windows command-line interpreter for executing commands and batch scripts
     - **Zsh (Z Shell)**: a Unix shell with advanced customization, completion, and interactive features
 - **Unix**
     - **BSD**
