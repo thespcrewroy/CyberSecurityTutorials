@@ -1,5 +1,3 @@
-# Cyber Security Tutorials
-
 ## Artificial Intelligence
 - **Prompt Injection**: manipulating an AI system through crafted instructions that override or alter its intended behavior
 - **Jailbreak**: a prompt-injection technique designed to bypass an AI system’s safety restrictions
@@ -174,6 +172,7 @@
 - **Ethernet:** traditional technology for connecting devices in a wired LAN or WAN
 - **Faraday's Cage**: shielding to block electromagnetic signals
 - **Firewalls**: devices that enforce network traffic filtering rules
+- **Internet Control Message Protocol (ICMP)**: a network-layer protocol used by devices to send error messages
 - **IPS (Intrusion Prevention System)**: detects and blocks malicious network activity
 - **ISP (Internet Service Providers)**: companies that provide internet connectivity
     - **Starlink**: satellite internet service provider
@@ -182,7 +181,7 @@
 - **MAN (Metropolitan Area Network):** larger network that covers a town or an entire city
 - **MAC (Multimedia Access Control)**: likely meant MAC (Media Access Control) address
 - **Mirrors:** an exact copy of a file or website hosted on a traditional central server
-- **Network Security Groups (NSGs)**: virtual firewall rule sets that control inbound and outbound traffic for cloud resources
+- **Network Security Groups (NSGs)**: virtual firewall rule sets that control inbound and outbound traffic
 - **NFC (Near-Field Communication)**: short-range wireless data exchange
 - **OSI (Open Systems Interconnection) Model**: seven-layer conceptual networking model
     - **Application Layer:** direct interface between user app and network
