@@ -428,7 +428,7 @@
 
 ## Web Exploitation
 - **BeEF (Browser Exploitation Framework)**: a framework for testing security weaknesses through web browsers
-- **Broken Access Control**: improperly enforced permissions that allow users to access unauthorized data or perform unauthorized actions
+- **Broken Access Control**: improperly enforced permissions that allow users to access unauthorized data
 - **Cross-Site Scripting (XSS)**: injects malicious client-side scripts that execute in another user’s browser
 - **Middleware**: software that connects applications, services, and underlying systems
 - **Obfuscation**: disguises code, payloads, or requests to make them harder for users and security controls to understand or detect
