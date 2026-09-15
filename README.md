@@ -244,7 +244,7 @@
 ## Offensive Security (Red Team)
 - **BloodHound**: a tool for mapping attack paths in Active Directory environments
 - **Bug Bounty Programs**
-    - **[HackerOne](https://www.hackerone.com/): bug bounty platform connecting ethical hackers with companies
+    - **[HackerOne](https://www.hackerone.com/)**: bug bounty platform connecting ethical hackers with companies
     - **[Open Bug Bounty](https://www.openbugbounty.org/):** a platform for reporting web vulnerabilities through coordinated disclosure
 - **Metasploit Framework**: a platform for developing, testing, and executing exploits
 - **NetExec**: a tool for assessing and automating attacks against network services
