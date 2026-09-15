@@ -142,6 +142,8 @@
 - [OpenSecurityTraining2](https://www.opensecuritytraining.info/): a collection of free, open-source, self-paced courses
 - [OverTheWire Wargames](https://overthewire.org/wargames/): hands-on games for learning Linux and security fundamentals
 - [PatriotCTF Courseware](https://github.com/MasonCompetitiveCyber/ctf-courses): cybersecurity courseware from George Mason University’s Competitive Cyber club
+- [PayloadsAllTheThings](https://swisskyrepo.github.io/PayloadsAllTheThings/): collection of payloads and bypasses for web application security testing
+- [PentestMonkey](https://pentestmonkey.net/): reverse shell cheat sheet reference for reverse shell one-liners in pentesting
 - [PicoDucky](https://github.com/dbisu/pico-ducky): a tool for creating USB Rubber Ducky payloads with a Raspberry Pi Pico
 - [picoPrimer](https://primer.picoctf.org/): introductory cybersecurity lessons supporting picoCTF challenges
 - [pwn.college](https://pwn.college/): a structured platform for learning binary exploitation and CTF skills
