@@ -405,7 +405,7 @@
 * Speaker Events
 * Club Events
 * Course Quizlets
-* Tutorial Repos
+* Tutorial Repos (for terms, but any links to other resources/tools especially)
 * [CTF Challenges](https://drive.google.com/drive/u/1/folders/11jv6QYFiSfn1BxVJy5EGRm5xSbBiKGui)
 * [Student Discounts](https://docs.google.com/document/d/1uKuvSKlZcADBmoY-O5sF5rBQE6kMSPbRxr7UpVni1f8/edit?tab=t.5lo6aln59n65)
 * Hemant Gautum Darkweb Links (prepare for PwnSec and OSINT hackpack presentation)
