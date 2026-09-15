@@ -6,62 +6,75 @@
 - **Atomic Swappers**: protocols enabling trustless token exchanges
 - **CoinJoin**: a Bitcoin privacy technique that combines multiple users’ inputs and outputs into one transaction
 - **Lightning Swap**: an atomic swap between on-chain Bitcoin and funds on the Lightning Network
-- **NFT (Non-Fungible Token)**: a unique blockchain token representing ownership or authenticity of an asset
+- **NFT (Non-Fungible Token)**: a unique blockchain token associated with a distinct digital or physical asset
 
 ## Cloud Security
 - **Containerization**: packages applications with their dependencies in isolated environments
 
 ## Cryptography
-- **Alice & Bob**: placeholder names used in cryptography examples
-- **Binary Patching**: modifying machine code or data inside a compiled program
-- **MFA (Multi-Factor Authentication)**: authentication using multiple credential types
-    - **FIDO/FIDO2 (Fast Identity Online)**: standards for passwordless authentication
-        - **Biometrics**: physiological traits used for user authentication
-        - **CTAP (Client to Authentication Protocol)**: protocol for external authenticators
-        - **Passkeys**: phishing-resistant credentials replacing passwords
-        - **WebAuthn (Web Authentication)**: browser API for strong authentication
-            - **Relying Party (RP) ID**: identifier for the service using WebAuthn
-    - **Knowledge-Based Authentication (KBA):** challenge questions that ask for personal information (ex. mother's maiden name)
-    - **OAuth (Open Authorization)**: protocol for delegated access to resources
-    - **PGP (Pretty Good Privacy)**: email encryption and signing standard
-        - **GPA (GNU Privacy Assistant)**: GUI tool for managing PGP keys
-        - **OpenPGP**: interoperable standard for PGP-compatible encryption
-    - **PIV (Personal Identity Verification)**: smartcard standard for identity tokens
-    - **SSH Keys**: cryptographic credentials used to authenticate SSH connections
-         - **Non-Resident Keys**: security-key credentials requiring the private key handle from the client
-         - **Resident Keys**: discoverable credentials stored directly on a security key
-         - **TOFU (Trust on First Use)**: a model that trusts a key initially and warns about later changes  
-    - **TOTP (Time Based One-Time Password)**: time-limited codes for authentication
-    - **U2F (Universal 2nd Factor)**: hardware-backed second-factor authentication standard
-    - **ZTA (Zero Trust Architecture)**: security model that verifies every access
-    - **Zero Knowledge Proof**: prove knowledge without revealing the secret
-- **Checksum**: a small value used to detect data corruption
-- **Ciphers**: algorithms for encrypting or transforming data
-    - **Asymmetric Encryption**: public/private key cryptography for secure exchange
-        - **Certificate Based Encryption**: uses certificates to bind identities to keys
-            - **SSL/TLS Certificate**: credential used to secure web connections
-        - **Diffie-Hellman**: key exchange method for establishing shared secrets
-        - **(ECC) Elliptical Curve Cryptography**: efficient public-key crypto using curves
-            - **Trapdoor Function**: one-way function easy to compute, hard to invert
-        - **RSA (Rivest-Shamir-Adleman)**: widely used public-key encryption algorithm
-        - **Charcode Cipher**: character-based substitution or encoding methods
-        - **DTMF (Dual Tone Multi-Frequency)**: tones used for telephony signaling
-        - **Historical Ciphers**: classical encryption methods from history
-            - **Caesar (ROT) Cipher**: simple letter-shift substitution cipher
-            - **Jefferson Cipher**: wheel-based transposition cipher
-            - **Scytale**: ancient transposition using a wrapped strip
-            - **Rail-Fence Cipher**: zigzag transposition of plaintext
-            - **Transposition Cipher**: rearranges characters without substitution
-            - **Vigenere Cipher**: polyalphabetic substitution using a keyword
-        - **Morse**: encoding text as sequences of dots and dashes
-        - **Sign Language**: visual-gestural communication system for humans
-        - **Symmetric Encryption**: single-key encryption for confidentiality
-            - **AES (Advanced Encryption Standard)**: modern symmetric cipher standard
-            - **DES (Data Encryption Standard)**: older symmetric cipher, now deprecated
-- **Cryptanalysis**: techniques to break or analyze cryptographic systems
-    - **Side Channel Attack**: extract secrets from physical leakages
-    - **Bullrun Decryption Program**: speculated agency effort to weaken crypto
-- **FDE (Full Disk Encryption)**: encrypting an entire storage device at rest
+- **Alice and Bob**: placeholder names representing participants in cryptographic protocols
+- **Cipher**: an algorithm that encrypts plaintext or decrypts ciphertext using a key
+    - **Classical Cipher**: a historical cipher generally performed manually using substitution or transposition
+        - **Substitution Cipher**: replaces plaintext elements with different symbols or characters
+            - **Caesar Cipher (ROT Cipher)**: shifts letters by a fixed number of positions
+            - **Jefferson Disk Cipher**: uses rotating alphabet disks to perform polyalphabetic substitution
+            - **Polyalphabetic Substitution Cipher**: uses multiple substitution alphabets to obscure letter-frequency patterns
+                - **Vigenère Cipher**: performs polyalphabetic substitution using a repeating keyword
+        - **Transposition Cipher**: encrypts text by rearranging characters without replacing them
+            - **Rail-Fence Cipher**: writes plaintext in a zigzag pattern and reads it by rows
+            - **Scytale**: transposes text using a strip wrapped around a cylinder
+    - **Modern Cipher**: a cipher designed for implementation by computers using mathematical operations
+        - **Asymmetric Cryptography**: uses mathematically related public and private keys
+            - **ECC (Elliptic-Curve Cryptography)**: public-key cryptography based on the mathematics of elliptic curves
+            - **RSA (Rivest–Shamir–Adleman)**: a public-key algorithm based on the difficulty of factoring large integers
+        - **Symmetric Encryption**: uses the same secret key for encryption and decryption
+            - **AES (Advanced Encryption Standard)**: a modern symmetric block cipher used to protect sensitive data
+            - **DES (Data Encryption Standard)**: a legacy symmetric block cipher that is no longer considered secure
+- **Cryptanalysis**: studies cryptographic systems to identify weaknesses or recover protected information
+    - **Side-Channel Attack**: extracts secrets from implementation leakage such as timing, power consumption, or electromagnetic emissions
+    - **BULLRUN**: a reported NSA program intended to defeat or undermine encryption technologies
+- **Cryptographic Primitive**: a fundamental algorithm used to construct cryptographic systems
+    - **One-Way Function**: a function that is easy to compute but computationally difficult to reverse
+        - **Trapdoor Function**: a one-way function that can be efficiently reversed using secret information
+    - **Zero-Knowledge Proof (ZKP)**: proves that a statement is true without revealing the underlying secret
+- **Data Integrity**: ensures that information has not been accidentally or improperly modified
+    - **Checksum**: a value calculated from data to detect accidental corruption
+- **Data-at-Rest Encryption**: protects stored information from unauthorized access
+    - **FDE (Full-Disk Encryption)**: encrypts an entire storage device to protect its contents
+- **Key Exchange**: allows parties to establish shared cryptographic key material over an untrusted network
+    - **Diffie–Hellman Key Exchange**: establishes a shared secret using modular arithmetic without transmitting the secret itself
+- **PKI (Public Key Infrastructure)**: manages public keys, digital certificates, certificate authorities, and trust relationships
+    - **Digital Certificate**: digitally binds an identity to a public key
+        - **TLS Certificate**: authenticates a network service and enables protected TLS communications
+- **PGP (Pretty Good Privacy)**: a system for encrypting and digitally signing data
+    - **OpenPGP**: the interoperable standard for PGP-compatible encryption and digital signatures
+- **Authentication**: verifies the identity of a user, device, or system
+    - **Authentication Factor**: a type of evidence presented to verify an identity
+        - **Knowledge Factor**: something the user knows
+            - **KBA (Knowledge-Based Authentication)**: verifies identity using answers to personal-information questions
+        - **Possession Factor**: something the user physically or digitally possesses
+            - **TOTP (Time-Based One-Time Password)**: generates time-limited authentication codes from a shared secret
+        - **Inherence Factor**: a physical or behavioral characteristic of the user
+            - **Biometrics**: physiological or behavioral characteristics used to verify identity
+    - **MFA (Multi-Factor Authentication)**: requires authentication factors from at least two different categories
+    - **FIDO (Fast Identity Online)**: open standards for phishing-resistant authentication using public-key cryptography
+        - **U2F (Universal 2nd Factor)**: an earlier FIDO standard for hardware-backed second-factor authentication
+        - **FIDO2**: a passwordless and phishing-resistant authentication framework combining WebAuthn and CTAP
+            - **CTAP (Client to Authenticator Protocol)**: allows a client to communicate with an external authenticator
+            - **WebAuthn (Web Authentication)**: a browser API for public-key authentication
+                - **RP ID (Relying Party Identifier)**: identifies the domain or service requesting WebAuthn authentication
+            - **FIDO Credential**: a public-key credential created by an authenticator for a relying party
+                - **Non-Discoverable (Non-Resident) Credential**: requires the relying party to provide a credential identifier to the authenticator
+                - **Discoverable (Resident) Credential**: can be located directly by an authenticator without a supplied credential identifier
+                    - **Passkey**: a discoverable FIDO credential designed for passwordless authentication
+    - **PIV (Personal Identity Verification)**: a federal smart-card standard for identity credentials and authentication
+    - **Public-Key Authentication**: verifies identity by proving possession of a corresponding private key
+        - **SSH Key Authentication**: authenticates SSH connections using a public-and-private key pair
+            - **TOFU (Trust on First Use)**: initially accepts an unknown host key and warns if that key later changes
+- **Authorization**: determines which resources or actions an identity is permitted to access
+    - **Delegated Authorization**: allows one application to access resources on behalf of a user
+        - **OAuth (Open Authorization)**: a framework for granting delegated access without sharing the user’s password
+- **ZTA (Zero Trust Architecture)**: a security architecture that grants no implicit trust and continually evaluates access decisions
 
 ## Defensive Security (Blue Team)
 - **ACL (Access Control Lists)**: controls identities and access to organizational resources
@@ -410,6 +423,7 @@
 - **Shared Object (.so)**: a reusable library dynamically loaded by ELF programs
 - **Static Analysis (Reverse Engineering)**: examining a program without executing it
     - **Basic Block**: a straight-line instruction sequence with one entry and exit
+    - **Binary Patching**: modifying machine code or data inside a compiled program
     - **Control-Flow Graph (CFG)**: a graph showing possible execution paths within a function
     - **Cross-Reference (XREF)**: a reference showing where code or data is used
     - **Disassembler**: converts machine code into assembly instructions
