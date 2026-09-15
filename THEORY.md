@@ -213,6 +213,7 @@
 - **VLAN (Virtual Local Area Network):** custom network created from LANs that allow for grouping
 
 ## Offensive Security (Red Team)
+- **Bug Bounty Programs** reward ethical hackers who identify and responsibly disclose vulnerabilities
 - **Card Skimming**: stealing payment-card data using a hidden reader
 - **DNS Tunneling**: hiding command traffic or transferred data inside DNS queries
 - **DoS (Denial of Service):** makes a service unavailible
