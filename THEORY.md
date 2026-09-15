@@ -427,7 +427,6 @@
 - **Syscall (System Call)**: a request from a program to the operating-system kernel
 
 ## Web Exploitation
-- **BeEF (Browser Exploitation Framework)**: a framework for testing security weaknesses through web browsers
 - **Broken Access Control**: improperly enforced permissions that allow users to access unauthorized data
 - **Cross-Site Scripting (XSS)**: injects malicious client-side scripts that execute in another user’s browser
 - **Middleware**: software that connects applications, services, and underlying systems
