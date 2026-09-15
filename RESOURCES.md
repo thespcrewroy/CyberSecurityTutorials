@@ -44,7 +44,7 @@
 
 ## Communities
 * Discord Groups
-   - [Advanced Research in Exploitation and Security (ARES)](https://discord.gg/PUE97EffRU): a UGA research group focused on cybersecurity and system exploitation
+   - [Advanced Research in Exploitation and Security (ARES)](https://discord.gg/PUE97EffRU): a UGA research group focused on cybersecurity
    - BSides Atlanta: a community-driven conference for cybersecurity professionals and enthusiasts
    - [Atlanta Cyber Security Engineers](https://discord.gg/BPEyDucFcS): an Atlanta community for cybersecurity collaboration and networking
    - CBC Community of Practice @ NSF: an NSF-supported community for cybersecurity education and collaboration
@@ -64,44 +64,67 @@
 * [DC404 Atlanta Hacker Community](https://dc404.org/): an Atlanta community for hackers, security enthusiasts, and technology professionals.
 
 ## Competitions
-- [ASISCTF](https://asisctf.com/): an international jeopardy-style cybersecurity competition
-- [CCDC](https://www.nationalccdc.org/): a collegiate competition focused on defending enterprise networks
-- [CDCTF (UA)](https://uacrimsondefense.github.io/cdctf.html): the University of Alabama’s capture-the-flag competition
-- [CPTC (RIT)](https://cp.tc/): a collegiate competition centered on professional penetration testing
-- [CSAW (NYU)](https://github.com/thespcrewroy/CyberSecurityTutorials/blob/main/MediumBlogCTFWriteups/CSAW.md): global cyber competition
-- [CyberBay (UTampa)](https://cyberbay.org/): a cybersecurity conference and competition hosted in Tampa
-- [CyberQuest](https://uscc.cyberquests.org/): online challenges used to identify and develop cybersecurity talent
-- [CyberSEED (UCONN)](https://career.uconn.edu/resources/cyberseed/): UConn’s cybersecurity competition and educational conference
-- [FaustCTF (FAU)](https://2024.faustctf.net/): a team-based attack-and-defense cybersecurity competition
-- [GoogleCTF](https://capturetheflag.withgoogle.com/): Google’s international capture-the-flag competition
-- [Hack-A-Sat](https://hackasat.com/): a competition focused on space-system and satellite security
-- [HacktheBox](https://www.hackthebox.com/hacker/ctf): a platform hosting practical cybersecurity labs and CTF competitions
-- [InfiniteCTF](https://ctftime.org/ctf/1405): a capture-the-flag competition featuring varied security challenges
-- [InsomniHack](https://insomnihack.ch/): a Swiss cybersecurity conference and international CTF competition
-- [Meta Hackers Cup](https://www.facebook.com/codingcompetitions/hacker-cup): Meta’s annual algorithmic programming competition
-- [NCAE Cybergames](https://www.ncaecybergames.org/): a beginner-friendly collegiate cybersecurity competition
-- [NCL Cybergames](https://nationalcyberleague.org/): a collegiate league featuring individual and team cybersecurity challenges
-- [NSA Codebreaker](https://nsa-codebreaker.org/home): an NSA challenge based on realistic cybersecurity missions
-- [PatriotCTF (GMU)](https://competitivecyber.club/patriotctf/): George Mason University’s beginner-friendly cybersecurity competition
-- [PlaidCTF](https://www.geeksforgeeks.org/top-cyber-hacking-competitions-capture-the-flag-ctf/): an advanced international CTF organized by Carnegie Mellon’s PPP
-- [PwnSec](https://pwnsec.ctf.ae/): humans vs. cy-borg jeopardy-style hacking challenges across web, crypto, and PWN.
-- [SnykCTF](https://snyk.io/events/ctf/): a competition focused on identifying and exploiting software vulnerabilities
-- [tkCTF (GT)](https://tc.gts3.org/cs6265/2024-fall/ctf.html): a Georgia Tech competition focused on binary exploitation and system security
-- [TheHackPack](https://thehackpack.org/compete): University of Georgia's premiere CTF platform
-- [US Cybergames](https://www.uscybergames.com/faq): a national program that selects and trains the U.S. Cyber Team
-- [0CTF](https://ctf.0ops.sjtu.cn/): an advanced international CTF organized by Shanghai Jiao Tong University’s 0ops
+- [1 September] [PwnSec](https://pwnsec.ctf.ae/): jeopardy-style CTF; ~registration remained available near the November 15 event
+- [2 September] [CSAW (NYU)](https://github.com/thespcrewroy/CyberSecurityTutorials/blob/main/MediumBlogCTFWriteups/CSAW.md): global cyber competition
+- [3 September] [Sunshine CTF (UCF)](https://sunshinectf.org/): welcomes both beginners and experienced players worldwide to solve security puzzles
+- [4 September] [CPTC (RIT)](https://cp.tc/): collegiate penetration-testing competition
+- [4 September] [FaustCTF (FAU)](https://2024.faustctf.net/): team-based attack-and-defense competition
+- [4 September] [CDCTF (UA)](https://uacrimsondefense.github.io/cdctf.html): University of Alabama CTF
+- [4 September] [InfiniteCTF](https://ctftime.org/ctf/1405): attack-and-defense CTF
+- [2 October] [NCL CyberGames](https://nationalcyberleague.org/): collegiate individual and team cybersecurity competition
+- [2 October] [Meta Hacker Cup](https://www.facebook.com/codingcompetitions/hacker-cup): algorithmic programming competition
+- [4 October] [US Cyber Challenge](https://www.uscyberchallenge.org/): cybersecurity workforce-development program connected to CyberQuest
+- [3 November] [PatriotCTF (GMU)](https://competitivecyber.club/patriotctf/): beginner-friendly online CTF
+- [4 November] [tkCTF (GT)](https://tc.gts3.org/cs6265/2024-fall/ctf.html): Georgia Tech binary-exploitation competition
+- [1 December] [0CTF](https://ctf.0ops.sjtu.cn/): advanced international CTF
+- [4 December] [ASISCTF](https://asisctf.com/): international jeopardy-style CTF
+- [2 January] [CCDC](https://www.nationalccdc.org/): collegiate network-defense competition
+- [2 January] [NSA Codebreaker Challenge](https://nsa-codebreaker.org/home): realistic NSA cybersecurity challenge
+- [3 January] [CyberQuest](https://uscc.cyberquests.org/): online cybersecurity challenge
+- [4 January] [NCAE CyberGames](https://www.ncaecybergames.org/): beginner-friendly collegiate competition
+- [1 February] [InsomniHack](https://insomnihack.ch/): Swiss on-site CTF
+- [2 February] [SnykCTF](https://snyk.io/events/ctf/): Snyk CTF appears to be event-specific rather than a reliably recurring annual competition
+- [1 March] [Road to CyberBay (UTampa)](https://cyberbay.org/): cybersecurity conference and on-site CTF
+- [1 March] [DiceCTF](https://ctf.dicega.ng/): annual jeopardy CTF hosted by the cybersecurity team DiceGang
+- [2 March] [CyberSEED (UConn)](https://career.uconn.edu/resources/cyberseed/): collegiate cybersecurity competition
+- [4 March] [NCL CyberGames](https://nationalcyberleague.org/): collegiate individual and team cybersecurity competition
+- [3 May] [Hack-A-Sat](https://hackasat.com/): the official site documents past Hack-A-Sat events but does not show a public 2025–26 registration cycle
+- [2 June] [US CyberGames](https://www.uscybergames.com/faq): selection operates by season and pathway
+- [4 June] [Google CTF](https://capturetheflag.withgoogle.com/): international jeopardy-style CTF
+- [No Fixed Deadline] [Hack The Box](https://www.hackthebox.com/hacker/ctf): a continuous platform hosting many independent CTFs, each with its own schedule
+- [No Fixed Deadline] [TheHackPack](https://thehackpack.org/compete): hosts separate competitions
 
 ## Conferences & Events
-* [Black Hat Conference](https://www.blackhat.com/us-24/): a major cybersecurity conference featuring research, training, and security briefings
-* [Blue Team Con](https://blueteamcon.com/): a conference dedicated to cybersecurity defense and blue-team professionals
-* [BSides Atlanta](https://ti.to/bsidesatl/2023): Atlanta’s community-driven conference for cybersecurity education and networking
-* [DEF CON](https://defcon.org/): one of the world’s largest hacker and cybersecurity conventions
-* [OSDF Conference](https://www.osdfcon.org/): a conference focused on open-source digital forensics
-* [WWHF (Wild West Hackin’ Fest)](https://wildwesthackinfest.com/): a cybersecurity conference emphasizing practical training and hands-on learning
+* [2 September] [Blue Team Con](https://blueteamcon.com/): a conference dedicated to cybersecurity defense and blue-team professionals
+* [3 September] [BSides Orlando](https://bsidesorlando.org/): join us for a day of learning, networking, and fun 
+* [3 September] [SecureWorld Atalnta](https://events.secureworld.io/details/atlanta-ga-2026/): attend the region's top cybersecurity conference
+* [4 September] [National Cyber and AI Virtual Career Fair](https://www.caecommunity.org/national-cyber-and-ai-career-fair): nearly 500 CAE institutions invited
+* [1 October] [WWHF (Wild West Hackin’ Fest)](https://wildwesthackinfest.com/): a cybersecurity conference emphasizing practical training and hands-on learning
+* [1 October] [BSides Atlanta](https://ti.to/bsidesatl/2023): Atlanta’s community-driven conference for cybersecurity education and networking
+* [1 Febraury] [Insomni'hack](https://insomnihack.ch/): the largest cybersecurity events in Switzerland and neighboring Europe
+* [2 March] [CyberBay Summit](https://cyberbay.org/summit/): for cybersecurity practitioner, researcher, leader, educator, or innovator with insights
+* [3 March] [BSides Alabama](https://bsidesrocketcity.org/): bridging the Gap from Student to Rocket Scientist
+* [1 August] [Black Hat Conference](https://www.blackhat.com/us-24/): a major cybersecurity conference featuring research, training, and security briefings
+* [1 August] [DEF CON](https://defcon.org/): one of the world’s largest hacker and cybersecurity conventions
+* [2 June] [OSDF Conference](https://www.osdfcon.org/): a conference focused on open-source digital forensics
+
+## Newsletter
+* [Brutalist Report](https://brutalist.report/): the day's headlines delivered to you without bullshit
 
 ## Resources
+- [Attack and Defend CTFs](https://medium.com/@iabdullah_215/my-guide-to-attack-and-defense-ctfs-ecbe838d49cd): my guide to attack and defend CTFs
 - [Boss of the SOC](https://bots.splunk.com/): a Splunk-based blue-team challenge for investigating realistic security incidents
 - [CyLab (CMU)](https://learn.cylabacademy.org/dashboard): a beginner-friendly cybersecurity competition and learning platform
 - [CyberSeek](https://www.cyberseek.org/pathway.html): a resource for exploring cybersecurity career pathways, roles, and required skills
+- [Cyber Skyline Trove](https://trove.cyberskyline.com/): a collection of cybersecurity learning resources on NCL topics
+- [Die.NET](https://linux.die.net/): a Linux documentation engine resource
+- [Exploit Education](https://exploit.education): provides downloadable virtual machines for learning binary exploitation
+- [GreyHat](https://ctf.greyhatgt.org/): Georgia Tech's premiere cyber security learning platform
+- [Hacker101](https://www.hacker101.com/): a free web-security course offering video lessons, written resources, and hands-on CTF challenges
+- [Microcorruption](https://microcorruption.com/): an embedded-security CTF that teaches assembly language, debugging, RE, etc.
 - [Open Bug Bounty](https://www.openbugbounty.org/): a platform for reporting web vulnerabilities through coordinated disclosure
+- [OpenSecurityTraining2](https://www.opensecuritytraining.info/): a collection of free, open-source, self-paced courses
+- [RootMe](https://www.root-me.org/?lang=en): online platform for learning hacking through CTF challenges
 - [SPL (Search Processing Language)](https://ahwd1.github.io/Splunk-SPL-Cheatsheet/splunk_cheetsheet.html): Splunk’s query language resource
+- [Splunk Education](https://www.splunk.com/en_us/training/free-courses/overview.html): free training of Splunk for students
+- [TheHackPack](https://thehackpack.org/practice): UGA's premiere cyber security learning platform

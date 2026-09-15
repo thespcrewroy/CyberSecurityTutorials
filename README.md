@@ -75,7 +75,7 @@
             - **Tutanota**: encrypted email provider with zero-knowledge features
         - **Temporary Mail**
             - **GorillaMail**: disposable email address provider
-            - **Temp Mailo**: temporary inbox service
+            - **[Temp Mail](https://temp-mail.org/en/ )**: temporary inbox service
             - **TempMail**: disposable email provider
     - **IRC (Internet Relay Chats)**
         - **Briar**: secure decentralized messaging app
@@ -133,7 +133,6 @@
 - **CatSniffer**: a wireless security tool for monitoring and analyzing IoT radio protocols
 - **CCTV (Closed-Circuit Television)**
     - **Cameradar**: a tool for discovering and testing RTSP surveillance cameras
-- **Crazyradio PA**: a long-range USB radio dongle for communicating with compatible 2.4 GHz devices
 - **Desktop Towers**
     - [**HP EliteDesk 800 G2 SFF**](https://www.ebay.com/itm/205930821580): a small-form-factor business desktop suitable for servers and labs
     - [**HP ProDesk 600 G2 SFF**](https://www.ebay.com/itm/205796392528): a small-form-factor business desktop suitable for servers and labs
@@ -187,6 +186,7 @@
     - **75–1000 MHz Antenna**: an antenna designed to receive frequencies between 75 MHz and 1 GHz
     - **700–5800 MHz Antenna**: a wideband antenna covering many cellular, Wi-Fi, and radio bands
     - **800–2200 MHz Antenna**: an antenna covering several cellular, satellite, and wireless bands
+    - **Crazyradio PA**: a long-range USB radio dongle for communicating with compatible 2.4 GHz devices
     - **Directional Wi-Fi Antenna**
         - **Yagi Antenna**: a directional antenna designed for focused signal transmission and reception
     - **Flipper Zero**: a portable tool for exploring radio, access-control, and hardware systems
@@ -261,6 +261,7 @@
     - **[NameCheckup](https://namecheckup.com/)**: a web tool for checking usernames across websites and domain extensions
     - **[Namechk](https://namechk.com/)**: a web tool for checking username and domain availability
     - **[Names Directory](https://namesdir.com/)**: a people-search directory for finding public identity information
+    - **[PullPush Reddit Search](https://search.pullpush.io/)**: searches archived reddit posts and comments
     - **[Sherlock](https://github.com/sherlock-project/sherlock)**: a command-line tool for finding accounts with a username across social networks
     - **[Sylva Identity Discovery](https://sylva.pfeister.dev/)**: a tool for connecting online identities with possible real-world identities
     - **[ThatsThem](https://thatsthem.com/)**: a people-search service that can associate usernames with public records
@@ -271,6 +272,7 @@
      - **[GitHub User](https://api.github.com/users/%3Cusername%3E/events/public)**: a manual search for a specific GitHub user profile
      - **Google Dorking (Google Hacking)**
          - **[Amazon Usernames](https://www.google.com/search?q=site:amazon.com+%3Cusername%3E)**: a manual search for public Amazon profiles
+         - **[Hidden Reddit Posts](https://www.google.com/search?q=site:reddit.com+%3Cusername%3E)**: a manual search for hidden Reddit posts
          - **[Tinder Usernames](https://tinder.com/@%3Cusername%3E)**: a manual search for public Tinder profiles associated with a username
      - **[Proton Mail Domains](https://api.protonmail.ch/pks/lookup?op=index&search=%3Cemail_address%3E)**: search for Proton Mail addresses using a domain
      - **[Proton Mail Users](https://api.protonmail.ch/pks/lookup?op=index&search=%3Cusername%3E@protonmail.com)**: search for public Proton Mail username
@@ -292,7 +294,7 @@
             - **OpenBSD:** fork of NetBSD in 1995 focused heavily on hardening its security and networking
     - **Darwin**: Apple’s open-source Unix-based operating-system foundation
         - **macOS**: Apple’s Unix-certified desktop operating system built on Darwin
-    - **Linux**
+    - **[Linux](https://linux.die.net/)**
         - **Arch Family**
             - **Black Arch Linux**: security-focused Arch-based distribution
             - **Manjaro**: a user-friendly Arch-based distribution with curated software updates
@@ -382,6 +384,7 @@
 - **ffuf**: a fast web fuzzer for discovering hidden files, directories, and parameters
 - **Gobuster**: a tool for discovering web paths, DNS names, and virtual hosts
 - **OWASP ZAP**: an open-source platform for testing web-application security
+- **[OWASP Top 10](https://owasp.github.io/www-project-top-ten/):** top 10 most critical web application security risks
 - **Postman**: an API platform for creating, sending, and testing HTTP requests
 - **SQLmap**: a tool for detecting and testing SQL-injection vulnerabilities
 - **WhatWeb**: a tool for identifying technologies used by websites
@@ -391,13 +394,16 @@
 * Orrin Adotavi ADP Stack
 * [OSINT Framework (Beyond Username)](https://osintframework.com/): a web-based directory that organizes free OSINT tools and resources by investigation type
 * [OSINT Tools](https://outlookuga.sharepoint.com/sites/InfoSec_KB/SitePages/OSINT-Tools.aspx?e=4%3a22b65a4624904fcb9f87841894226051&web=1&sharingv2=true&fromShare=true&at=9&CT=1781544543014&OR=OWA-NT-Mail&CID=28f0a04c-959b-d2df-24fe-5bce3bdfaea2&SI=NonSentItems)
+* [Shellphish Repositories](https://github.com/orgs/shellphish/repositories)
+* [The Hack Pack Resources](https://thehackpack.org/resources/intro/ )
+* [Awesome Security Newsletters](https://github.com/TalEliyahu/awesome-security-newsletters)
 * CIS Controls Tools
 * Security+ Terms and Definitions
 * Speaker Events
 * Club Events
 * Course Quizlets
 * Tutorial Repos
-* CTF Challenges
-* Student Discounts
+* [CTF Challenges](https://drive.google.com/drive/u/1/folders/11jv6QYFiSfn1BxVJy5EGRm5xSbBiKGui)
+* [Student Discounts](https://docs.google.com/document/d/1uKuvSKlZcADBmoY-O5sF5rBQE6kMSPbRxr7UpVni1f8/edit?tab=t.5lo6aln59n65)
 * Hemant Gautum Darkweb Links (prepare for PwnSec and OSINT hackpack presentation)
 * Take the finished list and add it to thehackpack website, and make it in the style of [OSINT Framework](https://github.com/lockfale/osint-framework)
