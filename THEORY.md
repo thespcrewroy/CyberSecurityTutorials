@@ -31,7 +31,7 @@
             - **AES (Advanced Encryption Standard)**: a modern symmetric block cipher used to protect sensitive data
             - **DES (Data Encryption Standard)**: a legacy symmetric block cipher that is no longer considered secure
 - **Cryptanalysis**: studies cryptographic systems to identify weaknesses or recover protected information
-    - **Side-Channel Attack**: extracts secrets from implementation leakage such as timing, power consumption, or electromagnetic emissions
+    - **Side-Channel Attack**: extracts secrets from implementation leakage such as timing or power consumption
     - **BULLRUN**: a reported NSA program intended to defeat or undermine encryption technologies
 - **Cryptographic Primitive**: a fundamental algorithm used to construct cryptographic systems
     - **One-Way Function**: a function that is easy to compute but computationally difficult to reverse
@@ -64,8 +64,8 @@
             - **WebAuthn (Web Authentication)**: a browser API for public-key authentication
                 - **RP ID (Relying Party Identifier)**: identifies the domain or service requesting WebAuthn authentication
             - **FIDO Credential**: a public-key credential created by an authenticator for a relying party
-                - **Non-Discoverable (Non-Resident) Credential**: requires the relying party to provide a credential identifier to the authenticator
-                - **Discoverable (Resident) Credential**: can be located directly by an authenticator without a supplied credential identifier
+                - **Non-Discoverable (Non-Resident) Credential**: relying party to provide a credential identifier to the authenticator
+                - **Discoverable (Resident) Credential**: can be located by an authenticator without a supplied credential identifier
                     - **Passkey**: a discoverable FIDO credential designed for passwordless authentication
     - **PIV (Personal Identity Verification)**: a federal smart-card standard for identity credentials and authentication
     - **Public-Key Authentication**: verifies identity by proving possession of a corresponding private key
