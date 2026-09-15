@@ -132,7 +132,6 @@
 - [HackerOne](https://www.hackerone.com/): a bug-bounty platform connecting ethical hackers with organizations
 - [Hack The Box](https://www.hackthebox.com/): hands-on cybersecurity labs and advanced training modules
 - [Hack the Kernel](https://ops-class.org/): resources for learning operating-system and kernel security
-- [HackTricks](https://book.hacktricks.xyz/welcome/readme): a reference guide covering penetration-testing techniques and tools
 - [Hackers-Arise](https://hackers-arise.com/): ethical-hacking tutorials and courses for beginners
 - [MetaCTF Challenges](https://forms.skillbit.com/t/bmtQTKB9jVus): beginner-to-advanced CTF challenges for learning cybersecurity
 - [Microcorruption](https://microcorruption.com/): an embedded-security CTF that teaches assembly language, debugging, RE, etc.
