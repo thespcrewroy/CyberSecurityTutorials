@@ -1,3 +1,8 @@
+## Artificial Intelligence
+* [OWASP LLM Top 10](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/): most critical security vulnerabilities and risks when building AI systems 
+* **Prompt Injection**
+    * [LakeraAI](https://www.lakera.ai/): leading security platform to secure your AI future
+
 ## Blockchain
 - **Atomic Swappers**
     - **Trocador**: a cryptocurrency exchange aggregator
@@ -197,10 +202,6 @@
 - **USB Nugget**: a programmable USB security-testing device capable of emulating keyboards and other USB functions
 - **USB Rubber Ducky**: a programmable USB device that impersonates a keyboard to execute scripted keystrokes
 - **WiFi Nugget**: a portable device for learning about and testing Wi-Fi security
-
-## Prompt Injection
-* [LakeraAI](https://www.lakera.ai/): leading security platform to secure your AI future
-* [OWASP LLM Top 10](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/): most critical security vulnerabilities and risks when building AI systems
 
 ## Log Analysis
 - **Datadog**: a cloud platform for monitoring logs, applications, infrastructure, and security events
