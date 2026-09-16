@@ -3,14 +3,23 @@
 - **Jailbreak**: a prompt-injection technique designed to bypass an AI system’s safety restrictions
 
 ## Blockchain
-- **Atomic Swappers**: protocols enabling trustless token exchanges
+- **Atomic Swap**: exchanges cryptocurrencies between parties without relying on a centralized intermediary
+    - **Lightning Swap**: an atomic swap between on-chain Bitcoin and funds on the Lightning Network
 - **CoinJoin**: a Bitcoin privacy technique that combines multiple users’ inputs and outputs into one transaction
-- **Lightning Swap**: an atomic swap between on-chain Bitcoin and funds on the Lightning Network
+- **Cryptocurrency**: a digital asset that uses cryptography and a distributed ledger to record transactions
+    - **Bitcoin (BTC)**: a decentralized cryptocurrency operating on the Bitcoin blockchain
+    - **Privacy Coin**: a cryptocurrency designed to conceal transaction or participant information
+        - **Monero (XMR)**: a privacy coin that obscures senders, recipients, and transaction amounts
+- **Cryptocurrency Exchange Aggregator**: compares or routes trades through multiple cryptocurrency exchange services
+- **Cryptocurrency Wallet**: manages the cryptographic keys required to access and transact with cryptocurrency
 - **NFT (Non-Fungible Token)**: a unique blockchain token associated with a distinct digital or physical asset
 
 ## Cloud Security
-- **Containerization**: packages applications with their dependencies in isolated environments
-
+- **Containerization**: packages applications and their dependencies into isolated, portable environments
+    - **Container Image**: an immutable package containing an application, its dependencies, and its runtime configuration
+    - **Container Orchestration**: automates the deployment, scaling, networking, and management of containers
+    - **Container Security**: protects container images, runtimes, registries, and orchestration environments from threats
+ 
 ## Cryptography
 - **Alice and Bob**: placeholder names representing participants in cryptographic protocols
 - **Authentication**: verifies the identity of a user, device, or system
@@ -137,7 +146,9 @@
         - **Server Patching**: applies updates to servers to remediate vulnerabilities, defects, and compatibility problems
 
 ## Forensics
+- **File-System Forensics**: acquires and analyzes storage media, file systems, deleted files, and related artifacts
 - **Magic Bytes (File Signatures)**: distinctive byte sequences used to identify a file’s actual format
+- **Memory Forensics**: analyzes captured volatile memory to recover processes, connections, and related artifacts
 - **Spectrography**: analyzing a signal’s frequency spectrum to reveal patterns or hidden information
 - **Steganography**: concealing information inside another file or medium
 
@@ -182,7 +193,7 @@
     - **VPN Log**: records VPN connections, authentication attempts, sessions, and disconnections
 - **Server Log**: records the activity, health, and errors of a server or server-hosted service
     - **Web-Server Log**: records HTTP requests, responses, errors, and client information
-- **SIEM (Security Information and Event Management)**: centralizes and analyzes security data to support threat detection and investigation
+- **SIEM (Security Information and Event Management)**: centralizes and analyzes security data to support investigation
 - **Syslog**: a protocol and message format for transmitting event records across a network
 
 ## Network Traffic Analysis
