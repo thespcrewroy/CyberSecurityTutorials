@@ -295,8 +295,8 @@
     - **[FEITIAN Security Key](https://fido.ftsafe.com/guide-2/)**: a hardware authenticator manufactured by FEITIAN
     - **[Google Titan Security Key](https://support.google.com/titansecuritykey/)**: Google’s hardware security-key product line
     - **[Yubico YubiKey](https://docs.yubico.com/)**: Yubico’s hardware security-key product line
-- **[HP EliteDesk 800 G2 SFF](https://support.hp.com/us-en/product/setup-user-guides/hp-elitedesk-800-g2-small-form-factor-pc/7633266)**: a small-form-factor business desktop
-- **[HP ProDesk 600 G2 SFF](https://support.hp.com/us-en/product/setup-user-guides/hp-prodesk-600-g2-small-form-factor-pc/7633345)**: a small-form-factor business desktop
+- **[HP EliteDesk 800 G2 SFF](https://shorturl.at/mWctg)**:  i5-6500 @ 3.2GHz 8GB RAM 240GB SSD Linux Mint 22
+- **[HP ProDesk 600 G2 SFF](https://shorturl.at/Lb6w3)**:  i5-6500 @ 3.2GHz 8GB RAM 240GB SSD Linux Mint 22
 - **[LAN Turtle](https://documentation.hak5.org/lan-turtle/)**: a covert USB network adapter used for authorized remote access and network assessments
 - **Network Hardware**
     - **Network TAP (Test Access Point)**
