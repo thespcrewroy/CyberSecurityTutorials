@@ -324,6 +324,7 @@
     - **[Crazyradio PA](https://www.bitcraze.io/documentation/repository/crazyradio-firmware/master/)**: a long-range USB radio dongle for compatible 2.4 GHz devices
     - **[Flipper Zero](https://docs.flipper.net/zero)**: a portable device for exploring radio, access-control, infrared, and hardware systems
     - **SDR (Software-Defined Radio)**
+        - **[GNU Radio](https://www.ettus.com/sdr-software/gnu-radio/)**: free software development framework that provides signal processing functions for SDR
         - **[HackRF One](https://hackrf.readthedocs.io/en/stable/hackrf_one.html)**: a half-duplex SDR capable of transmitting and receiving a broad range of frequencies
             - **[PortaPack H2 Kit](https://github.com/portapack-mayhem/mayhem-firmware/wiki)**: gives the HackRF One a display and portable controls
         - **[KrakenSDR Kit](https://github.com/krakenrf/krakensdr_docs/wiki)**: a five-channel SDR receiver used for radio direction finding and beamforming
@@ -395,7 +396,6 @@
 - [de4js](https://lelinhtinh.github.io/de4js/): an online JavaScript deobfuscation and unpacking tool
 - [VulnHub](https://www.vulnhub.com/): downloadable vulnerable virtual machines for cybersecurity practice
 - [Claude Mythos Preview](https://www.anthropic.com/research/mythos-preview): Anthropic’s research model for evaluating advanced cybersecurity capabilities
-* Orrin Adotavi ADP Stack
 * [Friendly Hacker Resources](https://docs.google.com/spreadsheets/d/1SVm4Bu-L6eiyXlN8Kf_fszWeP1VSLNuVOJ-SguS9qtI/edit?gid=16563866#gid=16563866)
 * [Google Dorking](https://en.wikipedia.org/wiki/Google_hacking)
 * [Hak5 Documentation (Ask AI for Best Tools)](https://documentation.hak5.org/hak5-docs)
@@ -407,6 +407,7 @@
 * [Awesome Security Newsletters](https://github.com/TalEliyahu/awesome-security-newsletters)
 * [Randar2](https://github.com/spawnmason/randar-explanation)
 * [GitHub Repo Watchlist](https://github.com/stars/thespcrewroy/lists/my-repo-watchlist)
+* Orrin Adotavi ADP Stack
 * CIS Controls Tools
 * Security+ Terms and Definitions
 * Speaker Events
