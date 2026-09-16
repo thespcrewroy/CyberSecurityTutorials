@@ -5,26 +5,27 @@
 * **[LakeraAI](https://www.lakera.ai/)**: leading security platform to secure your AI future
 
 ## Blockchain
-- **Atomic Swappers**
-    - **Trocador**: a cryptocurrency exchange aggregator
-    - **UnstoppableSwap** platform for atomic swaps between Bitcoin and Monero
-- **Cryptocurrencies**
-    - **Bitcoin (BTC)**: a decentralized digital currency using a public blockchain
-    - **Monero (XMR)**: a privacy-focused cryptocurrency that conceals transaction details
-- **Feather Wallet**: a lightweight, privacy-focused desktop wallet for Monero
-- **OrangeFren**: a privacy-oriented directory and rate aggregator
-- **[Keybase](https://keybase.io/)**: lookup social accounts, PGP keys, and crypto wallets tied to a username
+- **Atomic Swaps**
+    - **[UnstoppableSwap](https://unstoppableswap.net/)**: a platform for atomic swaps between Bitcoin and Monero
+- **Cryptocurrency Exchange Aggregators**
+    - **[OrangeFren](https://orangefren.com/)**: a directory and rate aggregator for cryptocurrency exchange services
+    - **[Trocador](https://trocador.app/)**: a cryptocurrency exchange aggregator that compares and routes swaps through third-party providers
+- **Cryptocurrency Wallets**
+    - **[Feather Wallet](https://docs.featherwallet.org/)**: a lightweight, privacy-focused desktop wallet for Monerome
 
 ## Cloud Security
-- **CloudFlare**: CDN and security provider for web infrastructure
-- **Cyera**: a data security posture management platform that discovers, classifies, and protects data
+- **[Cloudflare](https://developers.cloudflare.com/fundamentals/security/)**: a cloud platform providing CDN, DNS, DDoS protection, and web security services
+- **[Cyera](https://www.cyera.com/platform)**: a data security posture management platform that discovers, classifies, and protects sensitive data
 - **Containerization**
-     - **[Dive](https://github.com/wagoodman/dive)**: tool for exploring Docker image layers and reducing image size
-     - **Docker**: a platform for building and running applications inside containers
-     - **Kubernetes:** automates the deployment, scaling, and management of containerized apps
-     - **Red Hat OpenShift**: an enterprise Kubernetes platform for managing containerized applications
-- **Google Security Command Center**: Google Cloud’s platform for identifying vulnerabilities
-- **Grype**: vulnerability scanner for container images and filesystems
+    - **[Docker](https://docs.docker.com/get-started/)**: a platform for building and running applications inside containers
+    - **Container Images**
+        - **[Dive](https://github.com/wagoodman/dive)**: a tool for inspecting container-image layers and identifying wasted space
+    - **Container Orchestration**
+        - **[Kubernetes](https://kubernetes.io/docs/concepts/overview/)**: a platform that automates the deployment, scaling, and management of containerized applications
+        - **[Red Hat OpenShift](https://docs.redhat.com/en/documentation/openshift_container_platform/4.20/html/overview/ocp-overview)**: an enterprise Kubernetes platform
+    - **Container Security**
+        - **[Grype](https://oss.anchore.com/docs/guides/vulnerability/getting-started/)**: a vulnerability scanner for container images, filesystems, and software bills
+- **[Google Security Command Center](https://cloud.google.com/security-command-center/docs/overview)**: Google Cloud’s platform for identifying vulnerabilities
 
 ## Cryptography
 - **CryptoAnalysis**
