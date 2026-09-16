@@ -64,10 +64,12 @@
 * [DC404 Atlanta Hacker Community](https://dc404.org/): an Atlanta community for hackers, security enthusiasts, and technology professionals.
 
 ## Competitions
+- [1 August] [DefCon CTF - Travel Required!](https://defcon.org/): the world's largest and most premier hacking conference in the world
+- [4 August] [CSAW Embdedded Security Challenge (NYU - Travel Required!)](https://github.com/trustworthycomputing/csaw_esc_2026): global cyber competition
 - [1 September] [PwnSec](https://pwnsec.ctf.ae/): jeopardy-style CTF; ~registration remained available near the November 15 event
-- [2 September] [CSAW (NYU)](https://github.com/thespcrewroy/CyberSecurityTutorials/blob/main/MediumBlogCTFWriteups/CSAW.md): global cyber competition
+- [2 September] [CSAW (NYU) - Travel Required!!](https://csaw.io/): global cyber competition
 - [3 September] [Sunshine CTF (UCF)](https://sunshinectf.org/): welcomes both beginners and experienced players worldwide to solve security puzzles
-- [4 September] [CPTC (RIT)](https://cp.tc/): collegiate penetration-testing competition
+- [4 September] [CPTC (RIT) - Travel Required!!](https://cp.tc/): collegiate penetration-testing competition
 - [4 September] [FaustCTF (FAU)](https://2024.faustctf.net/): team-based attack-and-defense competition
 - [4 September] [CDCTF (UA)](https://uacrimsondefense.github.io/cdctf.html): University of Alabama CTF
 - [4 September] [InfiniteCTF](https://ctftime.org/ctf/1405): attack-and-defense CTF
@@ -75,16 +77,16 @@
 - [2 October] [Meta Hacker Cup](https://www.facebook.com/codingcompetitions/hacker-cup): algorithmic programming competition
 - [4 October] [US Cyber Challenge](https://www.uscyberchallenge.org/): cybersecurity workforce-development program connected to CyberQuest
 - [3 November] [PatriotCTF (GMU)](https://competitivecyber.club/patriotctf/): beginner-friendly online CTF
-- [4 November] [tkCTF (GT)](https://tc.gts3.org/cs6265/2024-fall/ctf.html): Georgia Tech binary-exploitation competition
+- [4 November] [tkCTF (GT) - Travel Required!](https://tc.gts3.org/cs6265/2024-fall/ctf.html): Georgia Tech binary-exploitation competition
 - [1 December] [0CTF](https://ctf.0ops.sjtu.cn/): advanced international CTF
 - [4 December] [ASISCTF](https://asisctf.com/): international jeopardy-style CTF
-- [2 January] [CCDC](https://www.nationalccdc.org/): collegiate network-defense competition
+- [2 January] [CCDC 0 - Travel Required!](https://www.nationalccdc.org/): collegiate network-defense competition
 - [2 January] [NSA Codebreaker Challenge](https://nsa-codebreaker.org/home): realistic NSA cybersecurity challenge
 - [3 January] [CyberQuest](https://uscc.cyberquests.org/): online cybersecurity challenge
 - [4 January] [NCAE CyberGames](https://www.ncaecybergames.org/): beginner-friendly collegiate competition
 - [1 February] [InsomniHack](https://insomnihack.ch/): Swiss on-site CTF
 - [2 February] [SnykCTF](https://snyk.io/events/ctf/): Snyk CTF appears to be event-specific rather than a reliably recurring annual competition
-- [1 March] [Road to CyberBay (UTampa)](https://cyberbay.org/): cybersecurity conference and on-site CTF
+- [1 March] [Road to CyberBay (UTampa) - Travel Required!](https://cyberbay.org/): cybersecurity conference and on-site CTF
 - [1 March] [DiceCTF](https://ctf.dicega.ng/): annual jeopardy CTF hosted by the cybersecurity team DiceGang
 - [2 March] [CyberSEED (UConn)](https://career.uconn.edu/resources/cyberseed/): collegiate cybersecurity competition
 - [4 March] [NCL CyberGames](https://nationalcyberleague.org/): collegiate individual and team cybersecurity competition
