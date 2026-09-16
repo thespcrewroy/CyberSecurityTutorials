@@ -207,15 +207,17 @@
 - **WiFi Nugget**: a portable device for learning about and testing Wi-Fi security
 
 ## Log Analysis
-- **Datadog**: a cloud platform for monitoring logs, applications, infrastructure, and security events
-- **`grep` (Global Regular Expression Print)**: a command-line utility that searches text for matching patterns
-- **Microsoft Excel**: a spreadsheet tool for filtering, organizing, and analyzing exported log data
-- **SIEM (Security Information and Event Management)**: aggregates and analyzes logs to detect security threats
-    - **ELK Stack**: an Elastic Stack solution for security analytics and investigation
-    - **Google SecOps (formerly Chronicle))**: Google’s cloud-native SIEM and SOAR platform
-    - **Microsoft Sentinel**: Microsoft’s cloud-native SIEM and security orchestration platform
-    - **[Splunk](https://docs.splunk.com/Documentation/Splunk/)**: a commercial platform for searching, monitoring, and analyzing machine-generated data
-
+- **[Datadog](https://docs.datadoghq.com/logs/)**: a cloud platform for monitoring logs, applications, infrastructure, and security events
+- **[`grep` (Global Regular Expression Print)](https://www.gnu.org/software/grep/manual/grep.html)**: a command-line utility that searches text for matching patterns
+- **[Microsoft Excel](https://support.microsoft.com/en-us/excel/)**: a spreadsheet tool for filtering, organizing, and analyzing exported log data
+- **[ELK Stack](https://www.elastic.co/docs/get-started/the-stack)**: a collection of Elastic tools for ingesting, storing, searching, and visualizing log data
+- **SIEM (Security Information and Event Management)**
+    - **[Datadog Cloud SIEM](https://docs.datadoghq.com/security/cloud_siem/)**: a cloud-native platform for detecting and investigating threats using security telemetry
+    - **[Elastic Security](https://www.elastic.co/docs/solutions/security)**: Elastic’s SIEM, threat-detection, and security-investigation platform
+    - **[Google SecOps (formerly Chronicle)](https://docs.cloud.google.com/chronicle/docs/overview)**: Google’s cloud-native SIEM and SOAR platform
+    - **[Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/overview)**: Microsoft’s cloud-native SIEM and security orchestration platform
+    - **[Splunk](https://docs.splunk.com/Documentation/Splunk/)**: a platform for searching, monitoring, and analyzing machine-generated data
+  
 ## Network Traffick Analysis
 - **Aircrack-ng**: a suite for assessing and monitoring wireless-network security
 - **Bettercap**: a framework for network reconnaissance and traffic manipulation
