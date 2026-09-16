@@ -357,7 +357,7 @@
     - **Keylogger Pico**: a compact device for capturing keyboard input during authorized testing
 - **Hardware Security Key**: a physical device used for secure authentication
 - **ICS (Industrial Control System)**: a system that monitors and controls industrial processes
-    - **SCADA (Supervisory Control and Data Acquisition)**: an ICS architecture used to remotely monitor and control industrial operations
+    - **SCADA (Supervisory Control and Data Acquisition)**: an ICS architecture used to remotely control industrial operations
 - **Mouse Jiggler**: a USB device that simulates mouse activity to prevent a computer from becoming idle
 - **Multi-Boot USB**: a USB drive configured to boot multiple operating systems or recovery environments
 - **Network Hardware**: physical equipment used to connect, route, inspect, or control network traffic
