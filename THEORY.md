@@ -15,11 +15,11 @@
 - **Alice and Bob**: placeholder names representing participants in cryptographic protocols
 - **Authentication**: verifies the identity of a user, device, or system
     - **Authentication Factor**: a type of evidence presented to verify an identity
-        - **Knowledge Factor**: something the user knows
+        - **Something You Know**: something the user knows
             - **KBA (Knowledge-Based Authentication)**: verifies identity using answers to personal-information questions
-        - **Possession Factor**: something the user physically or digitally possesses
+        - **Something You Have**: something the user physically or digitally possesses
             - **TOTP (Time-Based One-Time Password)**: generates time-limited authentication codes from a shared secret
-        - **Inherence Factor**: a physical or behavioral characteristic of the user
+        - **Something You Are**: a physical or behavioral characteristic of the user
             - **Biometrics**: physiological or behavioral characteristics used to verify identity
     - **MFA (Multi-Factor Authentication)**: requires authentication factors from at least two different categories
     - **FIDO (Fast Identity Online)**: open standards for phishing-resistant authentication using public-key cryptography
@@ -33,9 +33,8 @@
                 - **Discoverable (Resident) Credential**: can be located by an authenticator without a supplied credential identifier
                     - **Passkey**: a discoverable FIDO credential designed for passwordless authentication
     - **PIV (Personal Identity Verification)**: a federal smart-card standard for identity credentials and authentication
-    - **Public-Key Authentication**: verifies identity by proving possession of a corresponding private key
-        - **SSH Key Authentication**: authenticates SSH connections using a public-and-private key pair
-            - **TOFU (Trust on First Use)**: initially accepts an unknown host key and warns if that key later changes
+    - **SSH Key Authentication**: authenticates SSH connections using a public-and-private key pair
+            - **TOFU (Trust on First Use)**: initially accepts an unknown host key and warns if that key later changes        
 - **Authorization**: determines which resources or actions an identity is permitted to access
     - **Delegated Authorization**: allows one application to access resources on behalf of a user
         - **OAuth (Open Authorization)**: a framework for granting delegated access without sharing the user’s password
@@ -55,6 +54,7 @@
             - **RSA (Rivest–Shamir–Adleman)**: a public-key algorithm based on the difficulty of factoring large integers
         - **Symmetric Encryption**: uses the same secret key for encryption and decryption
             - **AES (Advanced Encryption Standard)**: a modern symmetric block cipher used to protect sensitive data
+            - **Diffie–Hellman Key Exchange**: establishes a shared secret using modular arithmetic without transmitting the secret itself
             - **DES (Data Encryption Standard)**: a legacy symmetric block cipher that is no longer considered secure
 - **Cryptanalysis**: studies cryptographic systems to identify weaknesses or recover protected information
     - **Side-Channel Attack**: extracts secrets from implementation leakage such as timing or power consumption
@@ -67,8 +67,6 @@
     - **Checksum**: a value calculated from data to detect accidental corruption
 - **Data-at-Rest Encryption**: protects stored information from unauthorized access
     - **FDE (Full-Disk Encryption)**: encrypts an entire storage device to protect its contents
-- **Key Exchange**: allows parties to establish shared cryptographic key material over an untrusted network
-    - **Diffie–Hellman Key Exchange**: establishes a shared secret using modular arithmetic without transmitting the secret itself
 - **PKI (Public Key Infrastructure)**: manages public keys, digital certificates, certificate authorities, and trust relationships
     - **Digital Certificate**: digitally binds an identity to a public key
         - **TLS Certificate**: authenticates a network service and enables protected TLS communications
@@ -78,17 +76,14 @@
 
 ## Defensive Security (Blue Team)
 - **Access Control**: restricts access to resources according to defined policies
-    - **ACL (Access Control List)**: associates a resource with entries specifying which identities may perform particular actions
-    - **RBAC (Role-Based Access Control)**: assigns permissions to roles that are then assigned to users
-- **Centralized Policy Management**: centrally defines and distributes configuration policies across organizational systems environment
-    - **GPO (Group Policy Object)**: a collection of Windows settings applied to users and computers in an Active Directory
-- **Directory Service**: stores and organizes information about identities, devices, groups, and network resources
     - **Active Directory (AD)**: Microsoft’s directory service for centrally managing Windows domains
+    - **ACL (Access Control List)**: associates a resource with entries specifying which identities may perform particular actions
+    - **Break-Glass Account**: a highly privileged account reserved for emergency access
     - **Directory Access Protocol**: defines how applications query and modify directory information
         - **LDAP (Lightweight Directory Access Protocol)**: an open protocol for accessing and managing directory information
-- **Emergency Access**: provides controlled administrative access when normal authentication or administration is unavailable
-    - **Break-Glass Account**: a highly privileged account reserved for emergency access
-- **Endpoint Management**: monitors, configures, maintains, and secures organizational endpoint devices
+    - **GPO (Group Policy Object)**: a collection of Windows settings applied to users and computers in an Active Directory
+    - **RBAC (Role-Based Access Control)**: assigns permissions to roles that are then assigned to users    
+- **Endpoint Management**: monitors, configures, maintains, and secures configuration of organizational endpoint devices
     - **MDM (Mobile Device Management)**: centrally manages mobile devices such as smartphones and tablets
     - **UEM (Unified Endpoint Management)**: centrally manages multiple endpoint classes through a unified platform
 - **GRC (Governance, Risk, and Compliance)**: coordinates organizational governance, risk management, and compliance activities
@@ -141,7 +136,6 @@
     - **Patch Management**: acquires, tests, deploys, and verifies software updates
         - **Server Patching**: applies updates to servers to remediate vulnerabilities, defects, and compatibility problems
 
-
 ## Forensics
 - **Magic Bytes (File Signatures)**: distinctive byte sequences used to identify a file’s actual format
 - **Spectrography**: analyzing a signal’s frequency spectrum to reveal patterns or hidden information
@@ -157,7 +151,7 @@
 - **Hardware Keyloggers**: physical devices that secretly record keyboard input
 - **Hardware Security Key**: a physical device used for secure authentication
 - **ICS (Industrial Control System)**: systems that monitor and control industrial processes
- - **Lock Picking**: manipulates a lock’s internal components to open it without the original key
+- **Lock Picking**: manipulates a lock’s internal components to open it without the original key
 - **Physical Firewalls**: dedicated appliances that filter and control network traffic
 - **Routers**: devices that forward traffic between different networks accross a WAN
 - **SCADA (Supervisory Control and Data Acquisition)**: remotely monitor and control industrial operations
@@ -167,26 +161,29 @@
 - **Switch:** hardware device that connects multiple devices together on a LAN
 
 ## Log Analysis
-- **Application Logs**: events generated by software applications and services
-- **Authentication Logs**: records of successful and failed identity-verification attempts
-- **Audit Logs**: records of user and administrator actions within a system
-- **Cloud Logs**: activity and security events generated by cloud services
-- **Database Logs**: records of database queries, changes, errors, and connections
-- **DHCP Logs**: records linking dynamically assigned IP addresses to devices
-- **DNS Logs**: records of domain-name queries and responses
-- **EDR Logs**: endpoint activity recorded for threat detection and investigation
-- **Email Logs**: records of message delivery, authentication, filtering, and access
-- **Firewall Logs**: records of network traffic allowed or blocked by firewall rules
-- **IDS/IPS Logs**: alerts generated from detected or prevented suspicious network activity
-- **Operating-System Logs**: events generated by the operating system and its services
-    - **Linux Logs**: system, authentication, kernel, and service events from Linux systems
-    - **Windows Event Logs**: application, security, setup, and system events from Windows
-- **Proxy Logs**: records of web requests passing through an intermediary server
-- **Server Logs**: events describing the activity and health of a server
-- **SIEM (Security Information and Event Management)**: aggregates and analyzes logs to detect security threats
-- **Syslog**: a standard format and protocol for transmitting system event messages
-- **VPN Logs**: records of remote-access connections and authentication activity
-- **Web Server Logs**: records of HTTP requests, responses, errors, and client information
+- **Application Log**: records events generated by software applications and services
+- **Audit Log**: records security-relevant actions performed by users, administrators, and systems
+    - **Authentication Log**: records successful and failed attempts to verify an identity
+- **Cloud Log**: records activity and security events generated by cloud infrastructure and services
+- **Database Log**: records database connections, queries, changes, transactions, and errors
+- **Endpoint Log**: records activity occurring on an endpoint device
+    - **EDR Telemetry**: detailed endpoint activity collected for threat detection and investigation
+    - **Operating-System Log**: records events generated by an operating system and its services
+        - **Linux Log**: records system, authentication, kernel, and service events from Linux
+        - **Windows Event Log**: records application, security, setup, system, and forwarded events from Windows
+- **Messaging Log**: records events generated by electronic communication systems
+    - **Email Log**: records message delivery, authentication, filtering, and access activity
+- **Network Log**: records events generated by network devices, protocols, and security controls
+    - **DHCP Log**: records the assignment of dynamic IP addresses to network devices
+    - **DNS Log**: records domain-name queries, responses, and resolution activity
+    - **Firewall Log**: records network traffic permitted or blocked by firewall rules
+    - **IDS/IPS Log**: records suspicious network activity detected or prevented by an IDS or IPS
+    - **Proxy Log**: records requests passing through an intermediary network service
+    - **VPN Log**: records VPN connections, authentication attempts, sessions, and disconnections
+- **Server Log**: records the activity, health, and errors of a server or server-hosted service
+    - **Web-Server Log**: records HTTP requests, responses, errors, and client information
+- **SIEM (Security Information and Event Management)**: centralizes and analyzes security data to support threat detection and investigation
+- **Syslog**: a protocol and message format for transmitting event records across a network
 
 ## Network Traffic Analysis
 - **Bluetooth**: short-range wireless communication protocol
