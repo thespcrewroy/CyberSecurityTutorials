@@ -13,6 +13,32 @@
 
 ## Cryptography
 - **Alice and Bob**: placeholder names representing participants in cryptographic protocols
+- **Authentication**: verifies the identity of a user, device, or system
+    - **Authentication Factor**: a type of evidence presented to verify an identity
+        - **Knowledge Factor**: something the user knows
+            - **KBA (Knowledge-Based Authentication)**: verifies identity using answers to personal-information questions
+        - **Possession Factor**: something the user physically or digitally possesses
+            - **TOTP (Time-Based One-Time Password)**: generates time-limited authentication codes from a shared secret
+        - **Inherence Factor**: a physical or behavioral characteristic of the user
+            - **Biometrics**: physiological or behavioral characteristics used to verify identity
+    - **MFA (Multi-Factor Authentication)**: requires authentication factors from at least two different categories
+    - **FIDO (Fast Identity Online)**: open standards for phishing-resistant authentication using public-key cryptography
+        - **U2F (Universal 2nd Factor)**: an earlier FIDO standard for hardware-backed second-factor authentication
+        - **FIDO2**: a passwordless and phishing-resistant authentication framework combining WebAuthn and CTAP
+            - **CTAP (Client to Authenticator Protocol)**: allows a client to communicate with an external authenticator
+            - **WebAuthn (Web Authentication)**: a browser API for public-key authentication
+                - **RP ID (Relying Party Identifier)**: identifies the domain or service requesting WebAuthn authentication
+            - **FIDO Credential**: a public-key credential created by an authenticator for a relying party
+                - **Non-Discoverable (Non-Resident) Credential**: relying party to provide a credential identifier to the authenticator
+                - **Discoverable (Resident) Credential**: can be located by an authenticator without a supplied credential identifier
+                    - **Passkey**: a discoverable FIDO credential designed for passwordless authentication
+    - **PIV (Personal Identity Verification)**: a federal smart-card standard for identity credentials and authentication
+    - **Public-Key Authentication**: verifies identity by proving possession of a corresponding private key
+        - **SSH Key Authentication**: authenticates SSH connections using a public-and-private key pair
+            - **TOFU (Trust on First Use)**: initially accepts an unknown host key and warns if that key later changes
+- **Authorization**: determines which resources or actions an identity is permitted to access
+    - **Delegated Authorization**: allows one application to access resources on behalf of a user
+        - **OAuth (Open Authorization)**: a framework for granting delegated access without sharing the user’s password
 - **Cipher**: an algorithm that encrypts plaintext or decrypts ciphertext using a key
     - **Classical Cipher**: a historical cipher generally performed manually using substitution or transposition
         - **Substitution Cipher**: replaces plaintext elements with different symbols or characters
@@ -48,56 +74,24 @@
         - **TLS Certificate**: authenticates a network service and enables protected TLS communications
 - **PGP (Pretty Good Privacy)**: a system for encrypting and digitally signing data
     - **OpenPGP**: the interoperable standard for PGP-compatible encryption and digital signatures
-- **Authentication**: verifies the identity of a user, device, or system
-    - **Authentication Factor**: a type of evidence presented to verify an identity
-        - **Knowledge Factor**: something the user knows
-            - **KBA (Knowledge-Based Authentication)**: verifies identity using answers to personal-information questions
-        - **Possession Factor**: something the user physically or digitally possesses
-            - **TOTP (Time-Based One-Time Password)**: generates time-limited authentication codes from a shared secret
-        - **Inherence Factor**: a physical or behavioral characteristic of the user
-            - **Biometrics**: physiological or behavioral characteristics used to verify identity
-    - **MFA (Multi-Factor Authentication)**: requires authentication factors from at least two different categories
-    - **FIDO (Fast Identity Online)**: open standards for phishing-resistant authentication using public-key cryptography
-        - **U2F (Universal 2nd Factor)**: an earlier FIDO standard for hardware-backed second-factor authentication
-        - **FIDO2**: a passwordless and phishing-resistant authentication framework combining WebAuthn and CTAP
-            - **CTAP (Client to Authenticator Protocol)**: allows a client to communicate with an external authenticator
-            - **WebAuthn (Web Authentication)**: a browser API for public-key authentication
-                - **RP ID (Relying Party Identifier)**: identifies the domain or service requesting WebAuthn authentication
-            - **FIDO Credential**: a public-key credential created by an authenticator for a relying party
-                - **Non-Discoverable (Non-Resident) Credential**: relying party to provide a credential identifier to the authenticator
-                - **Discoverable (Resident) Credential**: can be located by an authenticator without a supplied credential identifier
-                    - **Passkey**: a discoverable FIDO credential designed for passwordless authentication
-    - **PIV (Personal Identity Verification)**: a federal smart-card standard for identity credentials and authentication
-    - **Public-Key Authentication**: verifies identity by proving possession of a corresponding private key
-        - **SSH Key Authentication**: authenticates SSH connections using a public-and-private key pair
-            - **TOFU (Trust on First Use)**: initially accepts an unknown host key and warns if that key later changes
-- **Authorization**: determines which resources or actions an identity is permitted to access
-    - **Delegated Authorization**: allows one application to access resources on behalf of a user
-        - **OAuth (Open Authorization)**: a framework for granting delegated access without sharing the user’s password
 - **ZTA (Zero Trust Architecture)**: a security architecture that grants no implicit trust and continually evaluates access decisions
 
 ## Defensive Security (Blue Team)
-- **ACL (Access Control Lists)**: controls identities and access to organizational resources
-    - **Active Directory (AD)**: Microsoft’s on-premises directory and domain management service
-    - **Break-Glass Account**: highly privileged emergency account used when normal administrative access fails
-    - **Group Policy Objects (GPOs)**: collections of Windows settings used to centrally configure users and computers in Active Directory
-    - **LDAP (Lightweight Directory Access Protocol)**: a protocol for accessing and managing directory info
-    - **Role-Based Access Control (RBAC)**: grants permissions according to a user’s assigned organizational role
-- **Case Study:** clear lessons on how attacks happen and how to stop them
-- **CSIRT (Computer Security Incident Response Team)**: group that handles security incidents
-    - **Cyber Threat Intelligence (CTI)**: analyzed information about cyber threats, adversaries, capabilities, and indicators
-    - **Attack Chain**: a sequence of stages an attacker follows to compromise a target
-         - **Reconnaissance**: researching potential targets, systems, employees, and vulnerabilities
-         - **Weaponization**: combining an exploit with a malicious payload for use against the target
-         - **Delivery**: transmitting the weaponized payload through email, websites, removable media, or other channels
-         - **Exploitation**: abusing a vulnerability to execute malicious code or gain access
-         - **Installation**: installing malware or another persistence mechanism on the compromised system
-         - **Command and Control (C2)**: establishing communication between the compromised system and attacker
-         - **Actions on Objectives**: completing goals such as stealing data, escalating privileges, or disrupting systems 
-- **Endpoint Management**: an IT process used to monitor and configure all devices connected to a corporate network
-    - **Mobile Device Management (MDM)**: centrally manages and secures mobile devices such as smartphones and tablets
-    - **Unified Endpoint Management (UEM)**: centrally manages and secures endpoint devices and mobile devices
-- **GRC (Governance, Risk Management, and Compliance)**: aligns security with business requirements
+- **Access Control**: restricts access to resources according to defined policies
+    - **ACL (Access Control List)**: associates a resource with entries specifying which identities may perform particular actions
+    - **RBAC (Role-Based Access Control)**: assigns permissions to roles that are then assigned to users
+- **Centralized Policy Management**: centrally defines and distributes configuration policies across organizational systems environment
+    - **GPO (Group Policy Object)**: a collection of Windows settings applied to users and computers in an Active Directory
+- **Directory Service**: stores and organizes information about identities, devices, groups, and network resources
+    - **Active Directory (AD)**: Microsoft’s directory service for centrally managing Windows domains
+    - **Directory Access Protocol**: defines how applications query and modify directory information
+        - **LDAP (Lightweight Directory Access Protocol)**: an open protocol for accessing and managing directory information
+- **Emergency Access**: provides controlled administrative access when normal authentication or administration is unavailable
+    - **Break-Glass Account**: a highly privileged account reserved for emergency access
+- **Endpoint Management**: monitors, configures, maintains, and secures organizational endpoint devices
+    - **MDM (Mobile Device Management)**: centrally manages mobile devices such as smartphones and tablets
+    - **UEM (Unified Endpoint Management)**: centrally manages multiple endpoint classes through a unified platform
+- **GRC (Governance, Risk, and Compliance)**: coordinates organizational governance, risk management, and compliance activities
     - **CCPA (California Consumer Privacy Act)**: privacy law protecting California residents
     - **CIS Controls**: best-practice security controls checklist
     - **CMMC (Cybersecurity Maturity Model Certification):** ensure defense contractors protect unclassified info
@@ -105,15 +99,18 @@
     - **HIPAA (Health Insurance Portability and Accountability Act)**: US law protecting health information
     - **HITRUST CSF (Common Security Framework)**: health data security
     - **ISO/IEC 27001**: world's leading international standard for managing information security
-    - **NIST**: US agency publishing security standards
+    - **NIST Cybersecurity Framework (CSF)**: a framework for understanding and managing cybersecurity risk
     - **PCI-DSS (Payment Card Industry Data Security Standard)**: requirements for handling cardholder data
-    - **SOC (System and Organization Controls)**: audit standard for service organizations
-- **Honeypots**: traps designed to detect and study attackers
-- **Information Security (InfoSec)**: protects information and information systems from unauthorized access
-    - **CIA Triad**: a foundational model in information security based
-        - **Confidentiality**: ensures information is accessible only to authorized people and systems
-        - **Integrity**: ensures info remains accurate, complete, and protected from unauthorized mods
-        - **Availability**: ensures authorized users can access information and systems when needed 
+    - **SOC (System and Organization Controls)**: audit standard for service organizations 
+- **Incident Response**: prepares for, detects, contains, eradicates, and recovers from security incidents
+    - **CSIRT (Computer Security Incident Response Team)**: a team responsible for coordinating and performing incident-response activities
+    - **Security Case Study**: examines a real-world cyber attack, data breach, or defense implementation
+    - **Tabletop Exercise**: a discussion-based exercise in which participants work through a simulated incident
+- **Information Security (InfoSec)**: protects information and information systems from unauthorized access, disclosure, modification, disruption, or destruction
+    - **CIA Triad**: a foundational information-security model based on confidentiality, integrity, and availability
+        - **Confidentiality**: ensures information is accessible only to authorized entities
+        - **Integrity**: ensures information remains accurate, complete, and protected from unauthorized modification
+        - **Availability**: ensures authorized entities can access information and systems when needed
 - **Operational Security (OpSec)**: protects sensitive info getting to an adversary
   - **Adblock**: browser extensions that block ads and trackers
   - **Antivirus/Antimalware**: software that detects and removes malware
@@ -126,11 +123,24 @@
       - **Passphrases**: longer memorable strings used as passwords
       - **Password Managers**: tools to generate and store credentials securely
   - **Secure Search Engines**: privacy-respecting web search alternatives
-- **Purple Team**: collaborative approach to align red and blue team activities
-- **Server Patching**: applying updates to servers to fix vulnerabilities, bugs, and compatibility issues
-- **SOAR (Security Orchestration, Automation, and Response):** helps teams manage threats using automated workflows
-- **SOC (Security Operations Center)**: centralized team monitoring security events
-- **Tabletop Exercise:** discussion-based meeting where a team talks through a simulated emergency or crisi
+- **Purple Teaming**: coordinates offensive and defensive security activities to improve prevention, detection, and response capabilities
+- **Security Operations**: continuously monitors and protects systems from security threats
+    - **SOC (Security Operations Center)**: a centralized team or function that monitors, detects, investigates, and responds to security events
+    - **CTI (Cyber Threat Intelligence)**: analyzed information about threats, adversaries, capabilities, intentions, and indicators
+        - **Cyber Kill Chain**: a model describing the stages of a cyberattack from preparation through completion
+            - **Reconnaissance**: gathers information about potential targets, systems, employees, and vulnerabilities
+            - **Weaponization**: combines an exploit with a malicious payload
+            - **Delivery**: transmits a malicious payload to the target
+            - **Exploitation**: abuses a vulnerability to execute code or gain access
+            - **Installation**: installs malware or another persistence mechanism
+            - **Command and Control (C2)**: establishes communication between a compromised system and an attacker
+            - **Actions on Objectives**: performs the attacker’s intended goals after compromise
+    - **SOAR (Security Orchestration, Automation, and Response)**: coordinates security tools and automates investigation and response workflows
+    - **Honeypot**: a decoy system or service designed to attract and observe attackers
+- **Vulnerability Management**: identifies, evaluates, prioritizes, and remediates security weaknesses
+    - **Patch Management**: acquires, tests, deploys, and verifies software updates
+        - **Server Patching**: applies updates to servers to remediate vulnerabilities, defects, and compatibility problems
+
 
 ## Forensics
 - **Magic Bytes (File Signatures)**: distinctive byte sequences used to identify a file’s actual format
