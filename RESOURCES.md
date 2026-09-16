@@ -65,11 +65,11 @@
 
 ## Competitions
 - [1 August] [DefCon CTF - Travel Required!](https://defcon.org/): the world's largest and most premier hacking conference in the world
-- [4 August] [CSAW Embdedded Security Challenge (NYU - Travel Required!)](https://github.com/trustworthycomputing/csaw_esc_2026): global cyber competition
+- [4 August] [CSAW Embdedded Security Challenge (NYU) - Travel Required!](https://github.com/trustworthycomputing/csaw_esc_2026): global cyber competition
 - [1 September] [PwnSec](https://pwnsec.ctf.ae/): jeopardy-style CTF; ~registration remained available near the November 15 event
-- [2 September] [CSAW (NYU) - Travel Required!!](https://csaw.io/): global cyber competition
+- [2 September] [CSAW (NYU) - Travel Required!](https://csaw.io/): global cyber competition
 - [3 September] [Sunshine CTF (UCF)](https://sunshinectf.org/): welcomes both beginners and experienced players worldwide to solve security puzzles
-- [4 September] [CPTC (RIT) - Travel Required!!](https://cp.tc/): collegiate penetration-testing competition
+- [4 September] [CPTC (RIT) - Travel Required!](https://cp.tc/): collegiate penetration-testing competition
 - [4 September] [FaustCTF (FAU)](https://2024.faustctf.net/): team-based attack-and-defense competition
 - [4 September] [CDCTF (UA)](https://uacrimsondefense.github.io/cdctf.html): University of Alabama CTF
 - [4 September] [InfiniteCTF](https://ctftime.org/ctf/1405): attack-and-defense CTF
