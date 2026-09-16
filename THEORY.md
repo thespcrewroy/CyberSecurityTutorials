@@ -103,10 +103,10 @@
     - **PCI-DSS (Payment Card Industry Data Security Standard)**: requirements for handling cardholder data
     - **SOC (System and Organization Controls)**: audit standard for service organizations 
 - **Incident Response**: prepares for, detects, contains, eradicates, and recovers from security incidents
-    - **CSIRT (Computer Security Incident Response Team)**: a team responsible for coordinating and performing incident-response activities
+    - **CSIRT (Computer Security Incident Response Team)**: a team responsible for coordinating and performing IR activities
     - **Security Case Study**: examines a real-world cyber attack, data breach, or defense implementation
     - **Tabletop Exercise**: a discussion-based exercise in which participants work through a simulated incident
-- **Information Security (InfoSec)**: protects information and information systems from unauthorized access, disclosure, modification, disruption, or destruction
+- **Information Security (InfoSec)**: protects information and information systems from unauthorized access
     - **CIA Triad**: a foundational information-security model based on confidentiality, integrity, and availability
         - **Confidentiality**: ensures information is accessible only to authorized entities
         - **Integrity**: ensures information remains accurate, complete, and protected from unauthorized modification
@@ -123,9 +123,9 @@
       - **Passphrases**: longer memorable strings used as passwords
       - **Password Managers**: tools to generate and store credentials securely
   - **Secure Search Engines**: privacy-respecting web search alternatives
-- **Purple Teaming**: coordinates offensive and defensive security activities to improve prevention, detection, and response capabilities
+- **Purple Teaming**: coordinates offensive and defensive security activities to improve prevention
 - **Security Operations**: continuously monitors and protects systems from security threats
-    - **SOC (Security Operations Center)**: a centralized team or function that monitors, detects, investigates, and responds to security events
+    - **SOC (Security Operations Center)**: a centralized team or function that monitors, detects, and investigates,
     - **CTI (Cyber Threat Intelligence)**: analyzed information about threats, adversaries, capabilities, intentions, and indicators
         - **Cyber Kill Chain**: a model describing the stages of a cyberattack from preparation through completion
             - **Reconnaissance**: gathers information about potential targets, systems, employees, and vulnerabilities
@@ -135,7 +135,7 @@
             - **Installation**: installs malware or another persistence mechanism
             - **Command and Control (C2)**: establishes communication between a compromised system and an attacker
             - **Actions on Objectives**: performs the attacker’s intended goals after compromise
-    - **SOAR (Security Orchestration, Automation, and Response)**: coordinates security tools and automates investigation and response workflows
+    - **SOAR (Security Orchestration, Automation, and Response)**: coordinates security tools and automates investigation
     - **Honeypot**: a decoy system or service designed to attract and observe attackers
 - **Vulnerability Management**: identifies, evaluates, prioritizes, and remediates security weaknesses
     - **Patch Management**: acquires, tests, deploys, and verifies software updates
