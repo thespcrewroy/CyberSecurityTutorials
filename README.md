@@ -49,7 +49,7 @@
     - **[Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/)**: Microsoft’s cloud identity and access-management platform
     - **[SailPoint](https://documentation.sailpoint.com/)**: an identity-governance platform for managing access, permissions, and identity lifecycles
 - **Endpoint Management**
-    - **[Microsoft Configuration Manager (formerly SCCM)](https://learn.microsoft.com/en-us/intune/configmgr/)**: an enterprise platform for deploying, configuring, and monitoring endpoint devices
+    - **[Microsoft Configuration Manager (formerly SCCM)](https://learn.microsoft.com/en-us/intune/configmgr/)**: an enterprise platform for monitoring endpoint devices
     - **[Microsoft Intune](https://learn.microsoft.com/en-us/intune/intune-service/)**: a cloud platform for managing devices, applications, and endpoint policies
 - **Operational Security (OpSec)**
     - **Adblock**
