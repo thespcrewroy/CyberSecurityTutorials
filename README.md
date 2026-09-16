@@ -126,80 +126,6 @@
 - **[`xxd`](https://github.com/vim/vim/tree/master/src/xxd)**: creates hexadecimal dumps and converts hexadecimal data back into binary
 - **[YARA](https://yara.readthedocs.io/en/stable/)**: identifies malware and other files using pattern-matching rules
 
-## Physical Security & Internet of Things (IoT)
-- **14-Piece Lock Pick Set**: a collection of tools used for authorized physical lock testing
-- **ALFA Wi-Fi Adapter**: an external wireless adapter commonly used for Wi-Fi monitoring and security testing
-- **Bus Pirate Kit**: a hardware interface for communicating with and debugging electronic buses and chips
-- **CAN Bus Cable**: a cable used to connect diagnostic or security-testing hardware to a Controller Area Network
-- **CatSniffer**: a wireless security tool for monitoring and analyzing IoT radio protocols
-- **CCTV (Closed-Circuit Television)**
-    - **Cameradar**: a tool for discovering and testing RTSP surveillance cameras
-- **Desktop Towers**
-    - [**HP EliteDesk 800 G2 SFF**](https://www.ebay.com/itm/205930821580): a small-form-factor business desktop suitable for servers and labs
-    - [**HP ProDesk 600 G2 SFF**](https://www.ebay.com/itm/205796392528): a small-form-factor business desktop suitable for servers and labs
-- **Dual-Band Wi-Fi Adapter**: an external wireless adapter supporting 2.4 GHz and 5 GHz networks
-- **FaceDancer21**: a development board for emulating USB devices and testing USB hosts
-- **Firmware**
-    - **FreshTomato**: open-source replacement firmware for supported wireless routers
-- **Gigabit Ethernet Tap**: a passive device that copies Ethernet traffic for network monitoring
-- **GPIO Boards**
-    - **Raspberry Pi**: a small single-board computer used for hardware, networking, and security projects
-    - [**Wi-Fi Devboard for Flipper Zero**](https://www.amazon.com/Wi-Fi-Devboard-Flipper-Accessories-Device/dp/B0DFMK75SH/): adds Wi-Fi capabilities for flipper
-        - [**ESP32 Marauder**](https://github.com/justcallmekoko/ESP32Marauder): Wi-Fi and Bluetooth security-testing firmware for compatible ESP32 boards
-    - **Raspberry Pi**: a small single-board computer used for hardware, networking, and security projects
-    - **D1 Mini ESP8266**: a compact Wi-Fi microcontroller board used for embedded and IoT projects
-- **Hardware Keyloggers**
-    - **Keelog KeyGrabber USB Keylogger**: a USB hardware keylogger placed between a keyboard and computer
-    - **Keylogger Pico**: a compact hardware device for capturing keyboard input during authorized testing
-    - **Rasberry Pi Pico BadUSB**: a simple implementation of the BadUSB concept
-- **Hardware Security Key**
-    - **Feitian**: a manufacturer of security keys and authentication devices
-    - **Google Titan**: Google’s line of hardware security keys
-    - **Yubico YubiKey**: the hardware security key line made by Yubico
-- **LAN Tap Kit**: a kit for building a passive Ethernet traffic-monitoring device
-- **LAN Tap Pro**: a portable network tap for passively capturing Ethernet traffic
-- **LAN Turtle**: a covert USB network adapter used for authorized remote access and network assessments
-- **Microcontroller**: a self-contained computer on a single integrated circuit
-    - [**M5Stack Cardputer Adv Version (ESP32-S3)**](https://shop.m5stack.com/products/m5stack-cardputer-adv-version-esp32-s3): a portable development device
-    - **Raspberry Pi Pico**: a low-cost high-performance microcontroller
-- **Mouse Jiggler**: a USB device that simulates mouse activity to prevent a computer from becoming idle
-- **Multi-Boot USB**: a USB drive configured to boot multiple operating systems or recovery environments
-- **Pen Lock Pick Set**: a compact lock-picking set stored inside a pen-shaped enclosure
-- [**Profitap ProfiShark 1G**](https://www.profitap.com/profishark-1g/): a portable Gigabit Ethernet network tap used to capture traffic
-- **RFID (Radio-Frequency Identification)**: technology that uses radio waves to identify and communicate with tagged objects
-    - **Chameleon Ultra**: an RFID and NFC research device for reading, emulating, and analyzing supported cards
-    - **ESP RFID Tool**: an ESP-based device for experimenting with RFID systems during authorized testing
-    - **iCopy-XS**: a portable RFID reader and writer used for analyzing compatible access cards
-    - **Proxmark3 RDV4**: an advanced tool for researching low-frequency and high-frequency RFID systems
-        - **PM3 BLE Module**: a Bluetooth Low Energy expansion module for the Proxmark3 RDV4
-        - **PM3 HF Antenna Set**: a set of high-frequency antennas for Proxmark3 RFID testing
-        - **PM3 LF Antenna Set**: a set of low-frequency antennas for Proxmark3 RFID testing
-    - **RFID Detector**: a device for detecting nearby RFID signals or reader activity
-    - **RFID Expert Cards**: a collection of cards containing different RFID technologies for testing
-    - **RFID T5577 Cards**: rewritable low-frequency RFID cards used for authorized access-control testing
-- **Routers**
-    - **ASUS**: a manufacturer of consumer and business networking equipment
-    - **Netgear**: a manufacturer of routers, switches, and other networking equipment
-    - **TP-Link**: a manufacturer of consumer and business networking equipment
-    - **RouterSploit**: a framework for testing routers and embedded devices for vulnerabilities
-- **SDR (Software-Defined Radio)**
-    - **20–6000 MHz Antenna**: a wideband antenna covering frequencies from 20 MHz through 6 GHz
-    - **75–1000 MHz Antenna**: an antenna designed to receive frequencies between 75 MHz and 1 GHz
-    - **700–5800 MHz Antenna**: a wideband antenna covering many cellular, Wi-Fi, and radio bands
-    - **800–2200 MHz Antenna**: an antenna covering several cellular, satellite, and wireless bands
-    - **Crazyradio PA**: a long-range USB radio dongle for communicating with compatible 2.4 GHz devices
-    - **Directional Wi-Fi Antenna**
-        - **Yagi Antenna**: a directional antenna designed for focused signal transmission and reception
-    - **Flipper Zero**: a portable tool for exploring radio, access-control, and hardware systems
-    - **HackRF One**: a device for transmitting and receiving a broad range of radio frequencies
-        - **PortaPack H2 Kit**: an add-on that gives the HackRF One a display and portable controls
-    - **KrakenSDR Kit**: a five-channel SDR receiver used for radio direction finding and beamforming
-    - **RTL-SDR (Realtek Software-Defined Radio)**: an inexpensive receiver used to explore radio signals
-- **USB Armory Mk II**: a compact Linux computer designed for security, networking, and embedded applications
-- **USB Nugget**: a programmable USB security-testing device capable of emulating keyboards and other USB functions
-- **USB Rubber Ducky**: a programmable USB device that impersonates a keyboard to execute scripted keystrokes
-- **WiFi Nugget**: a portable device for learning about and testing Wi-Fi security
-
 ## Log Analysis
 - **[Datadog](https://docs.datadoghq.com/logs/)**: a cloud platform for monitoring logs, applications, infrastructure, and security events
 - **[`grep` (Global Regular Expression Print)](https://www.gnu.org/software/grep/manual/grep.html)**: a command-line utility that searches text for matching patterns
@@ -348,6 +274,66 @@
 - **rockyou.txt**: a famous password wordlist included with Kali’s default wordlists package
 - **[SecLists](https://github.com/danielmiessler/seclists)**: an installable Kali package containing password, username, discovery, and fuzzing lists 
 
+## Physical Security & Internet of Things (IoT)
+- **[ALFA Wi-Fi Adapter](https://docs.alfa.com.tw/)**: an external wireless adapter commonly used for Wi-Fi monitoring and security testing
+- **[Bus Pirate Kit](https://docs.buspirate.com/)**: a hardware interface for communicating with and debugging electronic buses and chips
+- **[CatSniffer](https://github.com/ElectronicCats/CatSniffer)**: a wireless security tool for monitoring and analyzing IoT radio protocols
+- **Embedded Systems**
+    - **Firmware**
+        - **[ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder/wiki)**: Wi-Fi and Bluetooth security-testing firmware for compatible ESP32 boards
+        - **[FreshTomato](https://wiki.freshtomato.org/)**: open-source replacement firmware for supported wireless routers
+    - **GPIO Board**
+        - **[Raspberry Pi](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html)**: a single-board computer with GPIO support for hardware and networking projects
+    - **Microcontroller**
+        - **[D1 Mini ESP8266](https://www.wemos.cc/en/latest/d1/d1_mini.html)**: a compact Wi-Fi microcontroller development board
+        - **[M5Stack Cardputer Adv Version](https://docs.m5stack.com/en/core/Cardputer-Adv)**: a portable ESP32-S3 development device
+        - **[Raspberry Pi Pico](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html)**: a low-cost microcontroller development board
+        - **[Wi-Fi Devboard for Flipper Zero](https://developer.flipper.net/flipperzero/doxygen/dev_board.html)**: an ESP32-S2 development board that adds Wi-Fi and debugging
+- **Hardware Keylogger**
+    - **[Keelog KeyGrabber USB Keylogger](https://keelog.com/docs/keygrabber-usb-users-guide/)**: a USB hardware keylogger placed between a keyboard and computer
+- **Hardware Security Key**
+    - **[FEITIAN Security Key](https://fido.ftsafe.com/guide-2/)**: a hardware authenticator manufactured by FEITIAN
+    - **[Google Titan Security Key](https://support.google.com/titansecuritykey/)**: Google’s hardware security-key product line
+    - **[Yubico YubiKey](https://docs.yubico.com/)**: Yubico’s hardware security-key product line
+- **[HP EliteDesk 800 G2 SFF](https://support.hp.com/us-en/product/setup-user-guides/hp-elitedesk-800-g2-small-form-factor-pc/7633266)**: a small-form-factor business desktop
+- **[HP ProDesk 600 G2 SFF](https://support.hp.com/us-en/product/setup-user-guides/hp-prodesk-600-g2-small-form-factor-pc/7633345)**: a small-form-factor business desktop
+- **[LAN Turtle](https://documentation.hak5.org/lan-turtle/)**: a covert USB network adapter used for authorized remote access and network assessments
+- **Network Hardware**
+    - **Network TAP (Test Access Point)**
+        - **[Profitap ProfiShark 1G](https://www.profitap.com/wp-content/uploads/ProfiShark-1G-Manual.pdf)**: a portable Gigabit Ethernet network TAP used to capture traffic
+    - **Router**
+        - **[ASUS](https://www.asus.com/support/)**: a manufacturer of consumer and business networking equipment
+        - **[Netgear](https://www.netgear.com/support/)**: a manufacturer of routers, switches, and other networking equipment
+        - **[RouterSploit](https://github.com/threat9/routersploit)**: a framework for testing routers and embedded devices for vulnerabilities
+        - **[TP-Link](https://www.tp-link.com/us/support/)**: a manufacturer of consumer and business networking equipment
+- **Physical Access Control**
+    - **RFID (Radio-Frequency Identification)**
+        - **[Chameleon Ultra](https://github.com/RfidResearchGroup/ChameleonUltra/wiki)**: an RFID and NFC research device for reading, emulating, and analyzing supported cards
+        - **[ESP RFID Tool](https://github.com/rfidtool/ESP-RFID-Tool)**: an ESP-based tool for testing RFID systems that use Wiegand interfaces
+        - **[iCopy-XS](https://www.icopyx.co.uk/Instructions.pdf)**: a portable RFID reader and writer used for analyzing compatible access cards
+        - **[Proxmark3 RDV4](https://github.com/RfidResearchGroup/proxmark3/)**: an advanced device for researching low- and high-frequency RFID systems
+            - **[PM3 BLE Module](https://proxmark.com/proxmark-3-hardware/proxmark-3-rdv4)**: a Bluetooth Low Energy expansion module for the Proxmark3 RDV4
+            - **[PM3 HF Antenna Set](https://proxmark.com/proxmark-3-hardware/proxmark-3-rdv4)**: high-frequency antennas for Proxmark3 RFID testing
+            - **[PM3 LF Antenna Set](https://proxmark.com/proxmark-3-hardware/proxmark-3-rdv4)**: low-frequency antennas for Proxmark3 RFID testing
+- **Programmable USB Device**
+    - **[FaceDancer21](https://facedancer.readthedocs.io/)**: a development board for emulating USB devices and testing USB hosts
+    - **[Raspberry Pi Pico BadUSB](https://github.com/dbisu/pico-ducky)**: a Raspberry Pi Pico configured to emulate a USB keyboard
+    - **[USB Nugget](https://github.com/RetiaLLC/USB-Nugget)**: a programmable security-testing device capable of emulating USB peripherals
+    - **[USB Rubber Ducky](https://documentation.hak5.org/hak5-usb-rubber-ducky/)**: a programmable USB device that impersonates a keyboard to execute scripted keystrokes
+- **Radio Hardware**
+    - **[Crazyradio PA](https://www.bitcraze.io/documentation/repository/crazyradio-firmware/master/)**: a long-range USB radio dongle for compatible 2.4 GHz devices
+    - **[Flipper Zero](https://docs.flipper.net/zero)**: a portable device for exploring radio, access-control, infrared, and hardware systems
+    - **SDR (Software-Defined Radio)**
+        - **[HackRF One](https://hackrf.readthedocs.io/en/stable/hackrf_one.html)**: a half-duplex SDR capable of transmitting and receiving a broad range of frequencies
+            - **[PortaPack H2 Kit](https://github.com/portapack-mayhem/mayhem-firmware/wiki)**: gives the HackRF One a display and portable controls
+        - **[KrakenSDR Kit](https://github.com/krakenrf/krakensdr_docs/wiki)**: a five-channel SDR receiver used for radio direction finding and beamforming
+        - **[RTL-SDR](https://www.rtl-sdr.com/rtl-sdr-quick-start-guide/)**: an inexpensive SDR receiver used to explore radio signals
+- **Surveillance System**
+    - **CCTV (Closed-Circuit Television)**
+        - **[Cameradar](https://github.com/Ullaakut/cameradar)**: a tool for discovering and assessing RTSP surveillance-camera systems
+- **[USB Armory Mk II](https://github.com/usbarmory/usbarmory/wiki/Mk-II-Introduction)**: a compact Linux computer designed for security, networking, and embedded applications
+- **[WiFi Nugget](https://github.com/tom4ta/WiFi-Nugget)**: a portable device for learning about and testing Wi-Fi security
+
 ## PWN
 - **Dynamic Analysis (Binary Exploitation)**
     - **angr**: a Python framework for binary analysis and symbolic execution
@@ -409,6 +395,8 @@
 * [Shellphish Repositories](https://github.com/orgs/shellphish/repositories)
 * [The Hack Pack Resources](https://thehackpack.org/resources/intro/ )
 * [Awesome Security Newsletters](https://github.com/TalEliyahu/awesome-security-newsletters)
+* [Randar2](https://github.com/spawnmason/randar-explanation)
+* [GitHub Repo Watchlist](https://github.com/stars/thespcrewroy/lists/my-repo-watchlist)
 * CIS Controls Tools
 * Security+ Terms and Definitions
 * Speaker Events
