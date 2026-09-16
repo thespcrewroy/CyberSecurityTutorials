@@ -28,110 +28,103 @@
 - **[Google Security Command Center](https://cloud.google.com/security-command-center/docs/overview)**: Google Cloud’s platform for identifying vulnerabilities
 
 ## Cryptography
-- **CryptoAnalysis**
-    - **[Crypto Attacks](https://github.com/jvdsn/crypto-attacks)**: python implementations of cryptographic attacks and utilities
-- **FDE (Full Disk Encryption)**
-    - **BitLocker**: Microsoft’s full-disk encryption feature for Windows
-    - **Cryptomator**: open-source software for encrypting files before storing them locally or in the cloud
-    - **FileVault**: Apple’s full-disk encryption feature for macOS
-- **GPA (GNU Privacy Assistant)**: GUI tool for managing PGP keys
-- **[MIT PGP Key Server](https://pgp.mit.edu/)**: a public server for finding PGP keys by name, email, key ID, or fingerprint
+- **Cryptanalysis**
+    - **[Crypto Attacks](https://github.com/jvdsn/crypto-attacks)**: Python implementations of cryptographic attacks and utilities
+- **Data-at-Rest Encryption**
+    - **[Cryptomator](https://docs.cryptomator.org/)**: encrypts files inside vaults before local or cloud storage
+    - **FDE (Full-Disk Encryption)**
+        - **[BitLocker](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/)**: Microsoft’s full-disk encryption feature
+        - **[FileVault](https://support.apple.com/guide/deployment/intro-to-filevault-dep82064ec40/web)**: Apple’s full-disk encryption feature for macOS
+- **PGP (Pretty Good Privacy)**
+    - **OpenPGP**
+        - **[GPA (GNU Privacy Assistant)](https://www.gnupg.org/software/gpa/)**: a graphical interface for managing OpenPGP keys
+        - **[MIT PGP Key Server](https://pgp.mit.edu/)**: a public server for finding and submitting OpenPGP keys
 
 
 ## Defensive Security (Blue Team)
-- **ACL (Access Control List)**
-    - **CyberArk**: an identity-security platform specializing in privileged access management and securing high-risk accounts
-    - **JumpCloud**: a cloud-based directory platform for managing identities, devices, authentication, and access to org data
-    - **Microsoft Entra ID**: cloud identity and access management service
-    - **SailPoint**: an identity-security and governance platform for managing user access, permissions, and identity lifecycles
-- **[ANY.RUN](https://app.any.run/)**: an interactive sandbox for observing malware behavior in a controlled environment
-- **AppLocker**: a Windows application-control feature that restricts which applications, scripts, installers, and other files users can run
-- **CSIRT (Computer Security Incident Response Team)**
-    - **MITRE ATT&CK Framework**: a knowledge base that organizes adversary behavior into tactics and techniques
-- **CrowdStrike Falcon**: a cloud-native endpoint security platform providing endpoint detection and response
+- **Access Control**
+    - **[AppLocker](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/applocker)**: restricts what users run
+    - **[CyberArk](https://docs.cyberark.com/)**: an identity-security platform specializing in privileged-access management
+    - **[JumpCloud](https://support.jumpcloud.com/)**: a cloud platform for managing identities, devices, authentication, and access
+    - **[Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/)**: Microsoft’s cloud identity and access-management platform
+    - **[SailPoint](https://documentation.sailpoint.com/)**: an identity-governance platform for managing access, permissions, and identity lifecycles
 - **Endpoint Management**
-    - **Microsoft Configuration Manager (formerly SCCM)**: an enterprise platform for orchestration, monitoring, and configuration
-    - **Microsoft Intune**: cloud service for managing devices, applications, and endpoint policies
-- **Google Threat Intelligence**: a threat-intelligence platform combining insights from Mandiant, VirusTotal, and Google
-- **Mandiant**: a Google-owned cybersecurity company specializing in threat intelligence, incident response, and managed defense
-- **Microsoft 365 Quarantine**: a protected location that holds suspected spam, phishing, malware, and other unwanted messages
+    - **[Microsoft Configuration Manager (formerly SCCM)](https://learn.microsoft.com/en-us/intune/configmgr/)**: an enterprise platform for deploying, configuring, and monitoring endpoint devices
+    - **[Microsoft Intune](https://learn.microsoft.com/en-us/intune/intune-service/)**: a cloud platform for managing devices, applications, and endpoint policies
 - **Operational Security (OpSec)**
     - **Adblock**
-        - **Decentraleyes**: local resource polyfill to reduce third-party calls
-        - **Ublock Origin**: efficient configurable ad-blocking extension
+        - **[Decentraleyes](https://git.synz.io/Synzvato/decentraleyes)**: locally provides common web resources to reduce third-party requests
+        - **[uBlock Origin](https://github.com/gorhill/uBlock)**: an efficient and configurable content-blocking browser extension
     - **Antivirus/Antimalware**
-        - **Bitdefender**: a cybersecurity platform providing malware protection and endpoint security
-        - **Kapersky**: commercial antivirus and security product suite
-        - **MalwareBytes**: anti-malware product focusing on modern threats
-        - **McAfee**: longstanding commercial security vendor
-        - **Norton**: consumer-focused antivirus and security tools
-        - **Windows Defender**: built-in tool that protects your PC from malware
+        - **[Bitdefender](https://www.bitdefender.com/consumer/support/)**: provides malware protection and endpoint-security products
+        - **[Kaspersky](https://support.kaspersky.com/)**: a commercial antivirus and security-product suite
+        - **[Malwarebytes](https://www.malwarebytes.com/)**: anti-malware software focused on modern threats
+        - **[McAfee](https://www.mcafee.com/)**: a provider of consumer antivirus and online-protection products
+        - **[Norton](https://support.norton.com/)**: a provider of consumer antivirus and online-security products
+        - **[Microsoft Defender](https://learn.microsoft.com/en-us/defender-endpoint/)**: Microsoft’s endpoint-protection and threat-detection platform
     - **Browsers**
-        - **Brave**: privacy-focused browser with built-in ad blocking
-        - **Dark Web (Tor)**: anonymity network and overlay services accessed via Tor
-        - **Firefox**: open-source browser with strong privacy controls
-        - **GNU Icecap**: privacy-oriented browser project
-        - **Incognito**: a browser session that avoids retaining local history, cookies, and form data after it closes
+        - **[Brave](https://support.brave.com/)**: a privacy-focused browser with built-in content blocking
+        - **[Firefox](https://support.mozilla.org/)**: an open-source browser with configurable privacy controls
+        - **[GNU IceCat](https://www.gnu.org/software/icecat/)**: GNU’s privacy-oriented version of Firefox
+        - **[Tor Browser](https://tb-manual.torproject.org/)**: a browser that routes traffic through the Tor network
+    - **[Briar](https://briarproject.org/manual/)**: a decentralized encrypted messaging application
+    - **[Element](https://docs.element.io/)**: a messaging client built on the Matrix protocol
     - **Secure Email**
-        - **Permanent**
-            - **Anonady**: privacy-oriented mail service
-            - **Elude:** privacy email service accessible through the Tor network
-            - **GudoMail**: alternative secure email provider
-            - **MailFence**: encrypted email and collaboration suite
-            - **PrivateMail**: privacy-centric email offering
-            - **ProtonMail**: end-to-end encrypted email service
-            - **SecureMail**: Privacy-focused email solutions.
-            - **Tutanota**: encrypted email provider with zero-knowledge features
-        - **Temporary Mail**
-            - **GorillaMail**: disposable email address provider
-            - **[Temp Mail](https://temp-mail.org/en/ )**: temporary inbox service
-            - **TempMail**: disposable email provider
-    - **IRC (Internet Relay Chats)**
-        - **Briar**: secure decentralized messaging app
-        - **Element**: matrix-based chat client for secure communication
-        - **Jabber**: XMPP instant messaging protocol
-        - **Signal**: encrypted messaging app for private communication
-        - **Telegram:** cloud-based messaging app with a focus on security
-        - **Yami**: lightweight chat client
-    - **Passwords**: secrets used to authenticate users; best combined with MFA
+        - **[Addy.io](https://addy.io/help/)**: an email-alias service formerly known as AnonAddy
+        - **[Guerrilla Mail](https://www.guerrillamail.com/)**: a disposable email-address service
+        - **[Mailfence](https://kb.mailfence.com/)**: an encrypted email and collaboration service
+        - **[Microsoft 365 Quarantine](https://learn.microsoft.com/en-us/defender-office-365/quarantine-about)**: isolates suspected spam, phishing, malware, etc.
+        - **[Private-Mail](https://privatemail.com/)**: a privacy-focused encrypted email service
+        - **[Proton Mail](https://proton.me/support/mail)**: an encrypted email service with end-to-end and zero-access encryption
+        - **[Temp Mail](https://temp-mail.org/)**: a temporary inbox and disposable email service
+        - **[Tuta](https://tuta.com/support)**: an encrypted email service formerly known as Tutanota
+    - **[Signal](https://support.signal.org/)**: an end-to-end encrypted messaging application
+    - **[Syncthing](https://docs.syncthing.net/)**: a decentralized continuous file-synchronization tool
+    - **[Telegram](https://telegram.org/faq)**: a cloud-based messaging application with optional end-to-end encrypted chats
+    - **Passwords**
         - **Password Managers**
-            - **Local**
-                - **KeePassXC**: open-source local password manager
-                - **Syncthing**: filesync tool sometimes used to sync vaults
-                - **Veracrypt**: encrypted container tool for storing data
-                - **Microsoft Word**: unconventional, not recommended for secrets
-             - **Browser-Based**
-                - **Google Password Manager**: browser-integrated credential store
-             - **Cloud-Based**
-                - **Bitwarden**: open-source cloud password manager
-                - **Cryptomater**: cloud-based credential storage
-                - **LastPass**: commercial cloud password manager
+            - **[Bitwarden](https://bitwarden.com/help/)**: an open-source password manager supporting hosted and self-hosted vaults
+            - **[Google Password Manager](https://support.google.com/accounts/answer/6208650)**: Google’s browser- and account-integrated credential manager
+            - **[KeePassXC](https://keepassxc.org/docs/)**: an open-source password manager that stores credentials in a local encrypted database
+            - **[LastPass](https://support.lastpass.com/)**: a commercial cloud-based password manager
     - **Secure Search Engines**
-        - **DuckDuckGo**: search engine that emphasizes privacy
-        - **Searx**: open-source metasearch engine that preserves privacy
-        - **StartPage**: pivacy-oriented search proxy
-- **[ReversingLabs Spectra Analyze](https://a1000-un10fg41.reversinglabs.com/accounts/login/?next=/)**: a malware-analysis platform
-* **Snyk**: a platform for identifying vulnerabilities in code, dependencies, containers, and infrastructure
-- **Suricata**: an open-source intrusion detection, intrusion prevention, and network-monitoring engine
-- **[VirusTotal](https://www.virustotal.com/gui/home/upload)**: a service that analyzes files, URLs, domains, and IP addresses
+        - **[DuckDuckGo](https://duckduckgo.com/duckduckgo-help-pages/)**: a search engine designed to limit user tracking
+        - **[SearXNG](https://docs.searxng.org/)**: an open-source, privacy-respecting metasearch engine
+        - **[Startpage](https://support.startpage.com/)**: a privacy-oriented search engine and search proxy
+- **Security Operations**
+    - **[ANY.RUN](https://any.run/)**: an interactive sandbox for analyzing malware behavior
+    - **[CrowdStrike Falcon](https://www.crowdstrike.com/en-us/platform/)**: a cloud-native endpoint-protection and threat-detection platform
+    - **CTI (Cyber Threat Intelligence)**
+        - **[Google Threat Intelligence](https://cloud.google.com/security/products/threat-intelligence)**: combines threat intelligence from Google, Mandiant, and VirusTotal
+        - **[Mandiant](https://cloud.google.com/security/mandiant)**: provides threat intelligence, incident response, and managed defense services
+        - **[MITRE ATT&CK](https://attack.mitre.org/)**: a knowledge base describing adversary tactics and techniques
+    - **[ReversingLabs Spectra Analyze](https://docs.reversinglabs.com/SpectraAnalyze/)**: a malware-analysis and threat-intelligence platform
+    - **[Suricata](https://docs.suricata.io/)**: an open-source intrusion-detection, intrusion-prevention, and network-monitoring engine
+    - **[VirusTotal](https://docs.virustotal.com/)**: analyzes files, URLs, domains, and IP addresses for malicious activity
+- **Vulnerability Management**
+    - **[Snyk](https://docs.snyk.io/)**: identifies vulnerabilities in code, dependencies, containers, and infrastructure
 
 ## Forensics
-- **Aperi'Solve**: an online platform that runs multiple steganography analyses against images
-- **Audacity**: an audio editor used to inspect waveforms and spectrograms for hidden or altered information
-- **Autopsy**: a graphical digital-forensics platform built on The Sleuth Kit
-- **Binwalk**: a tool for identifying and extracting embedded files from firmware images
-- **ExifTool by Phil Harvey**: a command-line utility for reading, writing, and inspecting file metadata
-- **Foremost**: a file-carving tool that recovers files using headers and data structures
-- **FTK Imager**: a forensic tool for creating disk images and previewing digital evidence without altering the source
-- **Sleuth Kit (TSK)**: command-line tools and libraries for analyzing disks and file systems
-- **Steghide**: a tool for hiding and extracting data within image and audio files
-- **StegSeek**: a discontinued tool for brute-forcing passwords used with Steghide
-- **StegSolve**: a Java tool for examining image color channels and bit planes
-- **`strings`**: a command-line utility that extracts readable text from binary files
-- **Volatility 2**: a legacy Python framework for analyzing memory captures
-- **Volatility 3**: the modern successor to Volatility 2 for memory forensics
-- **`xxd`**: a command-line utility that creates hexadecimal dumps and converts them back into binary data
-- **YARA**: a pattern-matching tool for identifying malware and suspicious files
+- **[ExifTool by Phil Harvey](https://exiftool.org/)**: a command-line utility for reading, writing, and inspecting file metadata
+- **File-System Forensics**
+    - **[Autopsy](https://www.sleuthkit.org/autopsy/)**: a graphical digital-forensics platform built on The Sleuth Kit
+    - **[Binwalk](https://github.com/ReFirmLabs/binwalk)**: identifies and extracts files embedded inside firmware and other binary data 
+    - **[Foremost](https://foremost.sourceforge.net/)**: recovers files using headers, footers, and internal data structures
+    - **[FTK Imager](https://www.exterro.com/ftk-product-downloads/ftk-imager-version-4-7-1)**: a forensic tool for creating disk images
+    - **[The Sleuth Kit (TSK)](https://www.sleuthkit.org/sleuthkit/)**: command-line tools and libraries for analyzing disks and file systems
+- **Memory Forensics**
+    - **[Volatility 2](https://github.com/volatilityfoundation/volatility)**: a legacy Python framework for analyzing memory captures
+    - **[Volatility 3](https://volatility3.readthedocs.io/en/latest/)**: the modern Volatility framework for memory forensics
+- **Spectrography**
+    - **[Audacity](https://manual.audacityteam.org/man/spectrogram_view.html)**: an audio editor used to inspect waveforms and spectrograms
+- **Steganography**
+    - **[Aperi'Solve](https://www.aperisolve.fr/)**: an online platform that performs multiple steganographic analyses on images
+    - **[Steghide](https://steghide.sourceforge.net/)**: hides and extracts data within supported image and audio files
+    - **[StegSeek](https://github.com/RickdeJager/stegseek)**: performs high-speed password recovery and extraction against Steghide files
+    - **[StegSolve](https://github.com/zardus/ctf-tools/tree/master/stegsolve)**: a Java tool for examining image color channels and bit planes
+- **[`strings`](https://sourceware.org/binutils/docs/binutils/strings.html)**: a command-line utility that extracts readable character sequences from binary files
+- **[`xxd`](https://github.com/vim/vim/tree/master/src/xxd)**: creates hexadecimal dumps and converts hexadecimal data back into binary
+- **[YARA](https://yara.readthedocs.io/en/stable/)**: identifies malware and other files using pattern-matching rules
 
 ## Physical Security & Internet of Things (IoT)
 - **14-Piece Lock Pick Set**: a collection of tools used for authorized physical lock testing
