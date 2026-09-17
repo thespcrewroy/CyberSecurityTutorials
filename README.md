@@ -29,6 +29,7 @@
 
 ## Cryptography
 - **Cryptanalysis**
+    - **[Cash Sleuth](https://www.cachesleuth.com/multidecoder/)**: a free collection of online tools and cipher solvers designed specifically for geocachers
     - **[Crypto Attacks](https://github.com/jvdsn/crypto-attacks)**: Python implementations of cryptographic attacks and utilities
 - **Data-at-Rest Encryption**
     - **[Cryptomator](https://docs.cryptomator.org/)**: encrypts files inside vaults before local or cloud storage
