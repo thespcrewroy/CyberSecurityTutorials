@@ -124,6 +124,7 @@
 - [Attack and Defend CTFs](https://medium.com/@iabdullah_215/my-guide-to-attack-and-defense-ctfs-ecbe838d49cd): my guide to attack and defend CTFs
 - [Boss of the SOC](https://bots.splunk.com/): a Splunk-based blue-team challenge for investigating realistic security incidents
 - [Bug Bounty Hunter](https://www.bugbountyhunter.com/): training for web application hacking and bug-bounty hunting
+- [Burp Suite Web Security Academy](https://portswigger.net/web-security/getting-started): a free online training center for web application security
 - [CryptoHack](https://cryptohack.org/): an interactive platform for learning modern cryptography
 - [CTF101](https://ctf101.org/): an introductory guide to common CTF categories and techniques
 - [CTF Field Guide](https://trailofbits.github.io/ctf/): a comprehensive guide to competing in CTF competitions
