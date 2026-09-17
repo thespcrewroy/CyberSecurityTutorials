@@ -83,6 +83,7 @@
 - [2 January] [CCDC 0 - Travel Required!](https://www.nationalccdc.org/): collegiate network-defense competition
 - [2 January] [NSA Codebreaker Challenge](https://nsa-codebreaker.org/home): realistic NSA cybersecurity challenge
 - [3 January] [CyberQuest](https://uscc.cyberquests.org/): online cybersecurity challenge
+- [4 January] [Real World CTF](https://realworldctf.com/): all challenges are built on the top of real world applications
 - [4 January] [NCAE CyberGames](https://www.ncaecybergames.org/): beginner-friendly collegiate competition
 - [1 February] [InsomniHack](https://insomnihack.ch/): Swiss on-site CTF
 - [2 February] [SnykCTF](https://snyk.io/events/ctf/): Snyk CTF appears to be event-specific rather than a reliably recurring annual competition
