@@ -68,8 +68,11 @@
         - **[Firefox](https://support.mozilla.org/)**: an open-source browser with configurable privacy controls
         - **[GNU IceCat](https://www.gnu.org/software/icecat/)**: GNU’s privacy-oriented version of Firefox
         - **[Tor Browser](https://tb-manual.torproject.org/)**: a browser that routes traffic through the Tor network
-    - **[Briar](https://briarproject.org/manual/)**: a decentralized encrypted messaging application
-    - **[Element](https://docs.element.io/)**: a messaging client built on the Matrix protocol
+    - **Instant Messaging (IM)**
+        - **[Briar](https://briarproject.org/manual/)**: a decentralized encrypted messaging application
+        - **[Element](https://docs.element.io/)**: a messaging client built on the Matrix protocol
+        - **[Signal](https://support.signal.org/)**: an end-to-end encrypted messaging application
+        - **[Telegram](https://telegram.org/faq)**: a cloud-based messaging application with optional end-to-end encrypted chats
     - **Secure Email**
         - **[Addy.io](https://addy.io/help/)**: an email-alias service formerly known as AnonAddy
         - **[Guerrilla Mail](https://www.guerrillamail.com/)**: a disposable email-address service
@@ -79,14 +82,12 @@
         - **[Proton Mail](https://proton.me/support/mail)**: an encrypted email service with end-to-end and zero-access encryption
         - **[Temp Mail](https://temp-mail.org/)**: a temporary inbox and disposable email service
         - **[Tuta](https://tuta.com/support)**: an encrypted email service formerly known as Tutanota
-    - **[Signal](https://support.signal.org/)**: an end-to-end encrypted messaging application
-    - **[Syncthing](https://docs.syncthing.net/)**: a decentralized continuous file-synchronization tool
-    - **[Telegram](https://telegram.org/faq)**: a cloud-based messaging application with optional end-to-end encrypted chats
     - **Passwords**
         - **Password Managers**
             - **[Bitwarden](https://bitwarden.com/help/)**: an open-source password manager supporting hosted and self-hosted vaults
             - **[Google Password Manager](https://support.google.com/accounts/answer/6208650)**: Google’s browser- and account-integrated credential manager
             - **[KeePassXC](https://keepassxc.org/docs/)**: an open-source password manager that stores credentials in a local encrypted database
+            - **[Syncthing](https://docs.syncthing.net/)**: a decentralized continuous file-synchronization tool
             - **[LastPass](https://support.lastpass.com/)**: a commercial cloud-based password manager
     - **Secure Search Engines**
         - **[DuckDuckGo](https://duckduckgo.com/duckduckgo-help-pages/)**: a search engine designed to limit user tracking
