@@ -107,7 +107,8 @@
 * [4 September] [National Cyber and AI Virtual Career Fair](https://www.caecommunity.org/national-cyber-and-ai-career-fair): nearly 500 CAE institutions invited
 * [1 October] [WWHF (Wild West Hackin’ Fest)](https://wildwesthackinfest.com/): a cybersecurity conference emphasizing practical training and hands-on learning
 * [1 October] [BSides Atlanta](https://ti.to/bsidesatl/2023): Atlanta’s community-driven conference for cybersecurity education and networking
-* [2 October] [Crowe National Case Competition](https://www.crowe.com/careers/students/case-competition): solve real-world problems while showcasing their skills 
+* [2 October] [Crowe National Case Competition](https://www.crowe.com/careers/students/case-competition): solve real-world problems while showcasing their skills
+* [3 October] [BSides Augusta](https://bsidesaugusta.org/events/): community-driven framework for building events for infosec members
 * [1 Febraury] [Insomni'hack](https://insomnihack.ch/): the largest cybersecurity events in Switzerland and neighboring Europe
 * [2 February] [Salesforce Future Tech Launchpad](https://info.codepath.org/futureforce-tech-launchpad): learn cybersecurity with Salesforce Pre-Internship Program
 * [2 March] [CyberBay Summit](https://cyberbay.org/summit/): for cybersecurity practitioner, researcher, leader, educator, or innovator with insights
