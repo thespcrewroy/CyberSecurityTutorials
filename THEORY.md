@@ -92,6 +92,7 @@
         - **LDAP (Lightweight Directory Access Protocol)**: an open protocol for accessing and managing directory information
     - **GPO (Group Policy Object)**: a collection of Windows settings applied to users and computers in an Active Directory
     - **RBAC (Role-Based Access Control)**: assigns permissions to roles that are then assigned to users    
+- **Asset Management:** eal-time discovery, tracking, and protection of all hardware, software, and all asset classes in an organization
 - **Endpoint Management**: monitors, configures, maintains, and secures configuration of organizational endpoint devices
     - **MDM (Mobile Device Management)**: centrally manages mobile devices such as smartphones and tablets
     - **UEM (Unified Endpoint Management)**: centrally manages multiple endpoint classes through a unified platform
