@@ -130,7 +130,6 @@
   - **Secure Search Engines**: privacy-respecting web search alternatives
 - **Purple Teaming**: coordinates offensive and defensive security activities to improve prevention
 - **Security Operations**: continuously monitors and protects systems from security threats
-    - **SOC (Security Operations Center)**: a centralized team or function that monitors, detects, and investigates,
     - **CTI (Cyber Threat Intelligence)**: analyzed information about threats, adversaries, capabilities, intentions, and indicators
         - **Cyber Kill Chain**: a model describing the stages of a cyberattack from preparation through completion
             - **Reconnaissance**: gathers information about potential targets, systems, employees, and vulnerabilities
@@ -140,7 +139,9 @@
             - **Installation**: installs malware or another persistence mechanism
             - **Command and Control (C2)**: establishes communication between a compromised system and an attacker
             - **Actions on Objectives**: performs the attacker’s intended goals after compromise
+    - **IDS/IPS (Intrusion Detection & Intrusion Prevention System):** a passive tool that monitors network traffic and alerts you to suspicious activity
     - **SOAR (Security Orchestration, Automation, and Response)**: coordinates security tools and automates investigation
+    - **SOC (Security Operations Center)**: a centralized team or function that monitors, detects, and investigates,
     - **Honeypot**: a decoy system or service designed to attract and observe attackers
 - **Vulnerability Management**: identifies, evaluates, prioritizes, and remediates security weaknesses
     - **Patch Management**: acquires, tests, deploys, and verifies software updates
