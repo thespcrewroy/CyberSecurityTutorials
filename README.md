@@ -453,16 +453,16 @@
 - **WPScan**: a security scanner designed for WordPress websites
 
 ## TODO
-- [GeoSpy](https://geospy.ai/): an AI-powered tool for estimating the geographic location of photos
-- [dCode](https://www.dcode.fr/en): a collection of tools for solving ciphers, codes, puzzles, and mathematical problems
-- [AES Encryption/Decryption](https://www.devglan.com/online-tools/aes-encryption-decryption): an online tool for encrypting and decrypting data using AES
-- [CyberChef](https://gchq.github.io/CyberChef/): a web application for encoding, decoding, encryption, compression, and data analysis
-- [Omni Calculator – RSA Calculator](https://www.omnicalculator.com/math/rsa): an online calculator demonstrating RSA key generation, encryption, and decryption
-- [JAB Code](https://jabcode.org/): a color barcode format capable of storing large amounts of data
-- [JSFuck](https://jsfuck.com/): encodes JavaScript using only six different characters
-- [de4js](https://lelinhtinh.github.io/de4js/): an online JavaScript deobfuscation and unpacking tool
-- [VulnHub](https://www.vulnhub.com/): downloadable vulnerable virtual machines for cybersecurity practice
-- [Claude Mythos Preview](https://www.anthropic.com/research/mythos-preview): Anthropic’s research model for evaluating advanced cybersecurity capabilities
+* [GeoSpy](https://geospy.ai/): an AI-powered tool for estimating the geographic location of photos
+* [dCode](https://www.dcode.fr/en): a collection of tools for solving ciphers, codes, puzzles, and mathematical problems
+* [AES Encryption/Decryption](https://www.devglan.com/online-tools/aes-encryption-decryption): an online tool for encrypting and decrypting data using AES
+* [CyberChef](https://gchq.github.io/CyberChef/): a web application for encoding, decoding, encryption, compression, and data analysis
+* [Omni Calculator – RSA Calculator](https://www.omnicalculator.com/math/rsa): an online calculator demonstrating RSA key generation, encryption, and decryption
+* [JAB Code](https://jabcode.org/): a color barcode format capable of storing large amounts of data
+* [JSFuck](https://jsfuck.com/): encodes JavaScript using only six different characters
+* [de4js](https://lelinhtinh.github.io/de4js/): an online JavaScript deobfuscation and unpacking tool
+* [VulnHub](https://www.vulnhub.com/): downloadable vulnerable virtual machines for cybersecurity practice
+* [Claude Mythos Preview](https://www.anthropic.com/research/mythos-preview): Anthropic’s research model for evaluating advanced cybersecurity capabilities
 * [Friendly Hacker Resources](https://docs.google.com/spreadsheets/d/1SVm4Bu-L6eiyXlN8Kf_fszWeP1VSLNuVOJ-SguS9qtI/edit?gid=16563866#gid=16563866)
 * [Google Dorking](https://en.wikipedia.org/wiki/Google_hacking)
 * [Hak5 Documentation (Ask AI for Best Tools)](https://documentation.hak5.org/hak5-docs)
