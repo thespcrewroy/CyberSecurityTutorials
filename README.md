@@ -26,7 +26,7 @@
     - **Container Security**
         - **[Grype](https://oss.anchore.com/docs/guides/vulnerability/getting-started/)**: a vulnerability scanner for container images, filesystems, and software bills
 - **[Google Security Command Center](https://cloud.google.com/security-command-center/docs/overview)**: Google Cloud’s platform for identifying vulnerabilities
-- **Spirion**: a data-discovery and classification platform for locating sensitive information
+- **[Spirion](https://www.archtis.com/spirion-platform-overview/)**: a data-discovery and classification platform for locating sensitive information
 
 ## Cryptography
 - **Cryptanalysis**
@@ -37,39 +37,37 @@
     - **FDE (Full-Disk Encryption)**
         - **[BitLocker](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/)**: Microsoft’s full-disk encryption feature
         - **[FileVault](https://support.apple.com/guide/deployment/intro-to-filevault-dep82064ec40/web)**: Apple’s full-disk encryption feature for macOS
-    - **VeraCrypt**: an open-source encryption application for files, partitions, and storage devices
+    - **[VeraCrypt](https://veracrypt.io/en/Downloads.html)**: an open-source encryption application for files, partitions, and storage devices
 - **PGP (Pretty Good Privacy)**
     - **OpenPGP**
         - **[GPA (GNU Privacy Assistant)](https://www.gnupg.org/software/gpa/)**: a graphical interface for managing OpenPGP keys
         - **[MIT PGP Key Server](https://pgp.mit.edu/)**: a public server for finding and submitting OpenPGP keys
 
-
 ## Defensive Security (Blue Team)
 - **Access Control**
-    - **Active Directory**: Microsoft’s directory service for centrally managing identities, permissions, and access
+    - **[Active Directory](https://learn.microsoft.com/en-us/training/paths/active-directory-domain-services/)**: Microsoft’s directory service for centrally managing identities
     - **[AppLocker](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/applocker)**: restricts what users run
     - **[CyberArk](https://docs.cyberark.com/)**: an identity-security platform specializing in privileged-access management
-    - **GCA Cybersecurity Toolkit for Small Business**: cybersecurity guidance and tools for small businesses, including multifactor-authentication resources
-    - **Google Authenticator**: a mobile application that generates verification codes for two-factor authentication
+    - **[GCA Cybersecurity Toolkit for Small Business](https://gcatoolkit.org/smallbusiness/)**: cybersecurity guidance and tools for small businesses, including MFA resources
+    - **[Google Authenticator](https://shorturl.at/CdUos)**: a mobile application that generates verification codes for two-factor authentication
     - **[JumpCloud](https://support.jumpcloud.com/)**: a cloud platform for managing identities, devices, authentication, and access
-    - **Local Group Policy Editor**: a Microsoft utility for configuring local Group Policy settings
-    - **Microsoft Authenticator**: a mobile application supporting multifactor and passwordless authentication
+    - **[Local Group Policy Editor](https://shorturl.at/NjQIl)**: a Microsoft utility for configuring local Group Policy settings
+    - **[Microsoft Authenticator](https://shorturl.at/9NEvE)**: a mobile application supporting multifactor and passwordless authentication
     - **[Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/)**: Microsoft’s cloud identity and access-management platform
-    - **NIST SP 800-63**: NIST guidance covering digital identity, authentication, credentials, and federation
-    - **OpenLDAP**: an open-source implementation of the Lightweight Directory Access Protocol
-    - **OpenNAC**: an open-source network-access-control platform
+    - **[NIST SP 800-63](https://pages.nist.gov/800-63-3/)**: NIST guidance covering digital identity, authentication, credentials, and federation
+    - **[OpenLDAP](https://www.openldap.org/)**: an open-source implementation of the Lightweight Directory Access Protocol
+    - **[OpenNAC](https://doc-opennac.opencloudfactory.com/1.2.1/introduction/whatis/intro.html)**: an open-source network-access-control platform
     - **[SailPoint](https://documentation.sailpoint.com/)**: an identity-governance platform for managing access, permissions, and identity lifecycles
-    - **Two-Factor Authentication for Apple ID**: Apple guidance for enabling two-factor authentication on Apple accounts
+    - **[Two-Factor Authentication for Apple ID](https://support.apple.com/en-us/102660)**: Apple guidance for enabling two-factor authentication on Apple accounts
 - **Asset Management**
     - **[Axonius](https://www.axonius.com/)**: cybersecurity asset management and asset intelligence platform
-    - **CIS Asset Tracking Spreadsheet**: a spreadsheet for inventorying and tracking enterprise assets
-    - **Fing**: a network scanner for discovering and identifying connected devices
-    - **Lansweeper**: an IT asset-discovery and inventory platform
-    - **NIST SP 1800-5**: practical NIST guidance for improving IT asset management
-    - **Open-AudIT**: a network discovery and inventory-auditing platform
-    - **Snipe-IT**: an open-source IT asset-management platform
-    - **Spiceworks**: an IT inventory and asset-management platform
-    - **State of Oregon Data Inventory Template**: a template for documenting and managing an organization’s data inventory
+    - **[CIS Asset Tracking Spreadsheet](https://www.cisecurity.org/insights/white-papers/cis-controls-inventory-tracking-spreadsheets)**: a spreadsheet for inventorying assets
+    - **[Lansweeper](https://www.lansweeper.com/)**: an IT asset-discovery and inventory platform
+    - **[NIST SP 1800-5](https://www.nccoe.nist.gov/publication/1800-5/)**: practical NIST guidance for improving IT asset management
+    - **[Open-AudIT](https://www.open-audit.org/about.php)**: a network discovery and inventory-auditing platform
+    - **[Snipe-IT](https://snipeitapp.com/)**: an open-source IT asset-management platform
+    - **[Spiceworks](https://www.spiceworks.com/free-pc-network-inventory-software/)**: an IT inventory and asset-management platform
+    - **[State of Oregon Data Inventory Template](https://shorturl.at/MGJet)**: a template for documenting and managing an organization’s data inventory
 - **Endpoint Management**
     - **[Microsoft Configuration Manager (formerly SCCM)](https://learn.microsoft.com/en-us/intune/configmgr/)**: an enterprise platform for monitoring endpoint devices
     - **[Microsoft Intune](https://learn.microsoft.com/en-us/intune/intune-service/)**: a cloud platform for managing devices, applications, and endpoint policies
@@ -144,6 +142,7 @@
     - **Open Trust Alliance Cyber Incident and Breach Response Guide**: a checklist and guide for cyber incident planning
     - **[ReversingLabs Spectra Analyze](https://docs.reversinglabs.com/SpectraAnalyze/)**: a malware-analysis and threat-intelligence platform
     - **State of Oregon Incident Response Plan Template**: a customizable incident-response plan template
+    - **[Snort](https://www.snort.org/):** open-source network intrusion detection and prevention system
     - **[Suricata](https://docs.suricata.io/)**: an open-source intrusion-detection, intrusion-prevention, and network-monitoring engine
     - **[VirusTotal](https://docs.virustotal.com/)**: analyzes files, URLs, domains, and IP addresses for malicious activity
     - **Zabbix**: an open-source platform for monitoring infrastructure, networks, applications, and services
@@ -428,6 +427,7 @@
 - **Censys**: an internet-wide search engine for hosts, services, and certificates
 - **DNSRecon**: a tool for enumerating DNS records and configurations
 - **Enum4linux-ng**: a tool for enumerating information from Windows and Samba systems
+- **[Fing](https://www.fing.com/)**: a network scanner for discovering and identifying connected devices
 - **GreyNoise**: a threat-intelligence platform that identifies internet-wide scanning activity
 - **Insecam**: an index of publicly accessible and unsecured CCTV streams
 - **Nikto**: an open-source scanner for identifying web-server vulnerabilities and misconfigurations
