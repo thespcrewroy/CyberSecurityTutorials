@@ -142,8 +142,9 @@
     - **Open Trust Alliance Cyber Incident and Breach Response Guide**: a checklist and guide for cyber incident planning
     - **[ReversingLabs Spectra Analyze](https://docs.reversinglabs.com/SpectraAnalyze/)**: a malware-analysis and threat-intelligence platform
     - **State of Oregon Incident Response Plan Template**: a customizable incident-response plan template
-    - **[Snort](https://www.snort.org/):** open-source network intrusion detection and prevention system
-    - **[Suricata](https://docs.suricata.io/)**: an open-source intrusion-detection, intrusion-prevention, and network-monitoring engine
+    - **IDS/IPS (Intrusion Detection & Intrusion Prevention System):**
+        - **[Snort](https://www.snort.org/):** open-source network intrusion detection and prevention system
+        - **[Suricata](https://docs.suricata.io/)**: an open-source intrusion-detection, intrusion-prevention, and network-monitoring engine
     - **[VirusTotal](https://docs.virustotal.com/)**: analyzes files, URLs, domains, and IP addresses for malicious activity
     - **Zabbix**: an open-source platform for monitoring infrastructure, networks, applications, and services
 - **Vulnerability Management**
