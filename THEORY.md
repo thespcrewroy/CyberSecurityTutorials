@@ -139,7 +139,7 @@
             - **Installation**: installs malware or another persistence mechanism
             - **Command and Control (C2)**: establishes communication between a compromised system and an attacker
             - **Actions on Objectives**: performs the attacker’s intended goals after compromise
-    - **IDS/IPS (Intrusion Detection & Intrusion Prevention System):** a passive tool that monitors network traffic and alerts you to suspicious activity
+    - **IDS/IPS (Intrusion Detection & Intrusion Prevention System):** passively monitors network traffic and generates alerts
     - **SOAR (Security Orchestration, Automation, and Response)**: coordinates security tools and automates investigation
     - **SOC (Security Operations Center)**: a centralized team or function that monitors, detects, and investigates,
     - **Honeypot**: a decoy system or service designed to attract and observe attackers
