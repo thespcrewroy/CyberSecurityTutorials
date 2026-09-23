@@ -26,6 +26,7 @@
     - **Container Security**
         - **[Grype](https://oss.anchore.com/docs/guides/vulnerability/getting-started/)**: a vulnerability scanner for container images, filesystems, and software bills
 - **[Google Security Command Center](https://cloud.google.com/security-command-center/docs/overview)**: Google Cloud’s platform for identifying vulnerabilities
+- **Spirion**: a data-discovery and classification platform for locating sensitive information
 
 ## Cryptography
 - **Cryptanalysis**
@@ -36,6 +37,7 @@
     - **FDE (Full-Disk Encryption)**
         - **[BitLocker](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/)**: Microsoft’s full-disk encryption feature
         - **[FileVault](https://support.apple.com/guide/deployment/intro-to-filevault-dep82064ec40/web)**: Apple’s full-disk encryption feature for macOS
+    - **VeraCrypt**: an open-source encryption application for files, partitions, and storage devices
 - **PGP (Pretty Good Privacy)**
     - **OpenPGP**
         - **[GPA (GNU Privacy Assistant)](https://www.gnupg.org/software/gpa/)**: a graphical interface for managing OpenPGP keys
@@ -44,13 +46,30 @@
 
 ## Defensive Security (Blue Team)
 - **Access Control**
+    - **Active Directory**: Microsoft’s directory service for centrally managing identities, permissions, and access
     - **[AppLocker](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/applocker)**: restricts what users run
     - **[CyberArk](https://docs.cyberark.com/)**: an identity-security platform specializing in privileged-access management
+    - **GCA Cybersecurity Toolkit for Small Business**: cybersecurity guidance and tools for small businesses, including multifactor-authentication resources
+    - **Google Authenticator**: a mobile application that generates verification codes for two-factor authentication
     - **[JumpCloud](https://support.jumpcloud.com/)**: a cloud platform for managing identities, devices, authentication, and access
+    - **Local Group Policy Editor**: a Microsoft utility for configuring local Group Policy settings
+    - **Microsoft Authenticator**: a mobile application supporting multifactor and passwordless authentication
     - **[Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/)**: Microsoft’s cloud identity and access-management platform
+    - **NIST SP 800-63**: NIST guidance covering digital identity, authentication, credentials, and federation
+    - **OpenLDAP**: an open-source implementation of the Lightweight Directory Access Protocol
+    - **OpenNAC**: an open-source network-access-control platform
     - **[SailPoint](https://documentation.sailpoint.com/)**: an identity-governance platform for managing access, permissions, and identity lifecycles
+    - **Two-Factor Authentication for Apple ID**: Apple guidance for enabling two-factor authentication on Apple accounts
 - **Asset Management**
     - **[Axonius](https://www.axonius.com/)**: cybersecurity asset management and asset intelligence platform
+    - **CIS Asset Tracking Spreadsheet**: a spreadsheet for inventorying and tracking enterprise assets
+    - **Fing**: a network scanner for discovering and identifying connected devices
+    - **Lansweeper**: an IT asset-discovery and inventory platform
+    - **NIST SP 1800-5**: practical NIST guidance for improving IT asset management
+    - **Open-AudIT**: a network discovery and inventory-auditing platform
+    - **Snipe-IT**: an open-source IT asset-management platform
+    - **Spiceworks**: an IT inventory and asset-management platform
+    - **State of Oregon Data Inventory Template**: a template for documenting and managing an organization’s data inventory
 - **Endpoint Management**
     - **[Microsoft Configuration Manager (formerly SCCM)](https://learn.microsoft.com/en-us/intune/configmgr/)**: an enterprise platform for monitoring endpoint devices
     - **[Microsoft Intune](https://learn.microsoft.com/en-us/intune/intune-service/)**: a cloud platform for managing devices, applications, and endpoint policies
@@ -60,13 +79,17 @@
         - **[uBlock Origin](https://github.com/gorhill/uBlock)**: an efficient and configurable content-blocking browser extension
     - **Antivirus/Antimalware**
         - **[Bitdefender](https://www.bitdefender.com/consumer/support/)**: provides malware protection and endpoint-security products
+        - **ClamAV**: an open-source anti-malware toolkit commonly used on Unix-like systems
+        - **EICAR Anti-Malware Test File**: a harmless standardized file for testing anti-malware detection
         - **[Kaspersky](https://support.kaspersky.com/)**: a commercial antivirus and security-product suite
         - **[Malwarebytes](https://www.malwarebytes.com/)**: anti-malware software focused on modern threats
         - **[McAfee](https://www.mcafee.com/)**: a provider of consumer antivirus and online-protection products
         - **[Norton](https://support.norton.com/)**: a provider of consumer antivirus and online-security products
         - **[Microsoft Defender](https://learn.microsoft.com/en-us/defender-endpoint/)**: Microsoft’s endpoint-protection and threat-detection platform
+        - **MS-ISAC and EI-ISAC Malicious Code Analysis Platform**: a controlled, nonpublic sandbox for analyzing suspicious files
     - **Browsers**
         - **[Brave](https://support.brave.com/)**: a privacy-focused browser with built-in content blocking
+        - **Comodo Dragon**: a security-focused Chromium-based web browser
         - **[Firefox](https://support.mozilla.org/)**: an open-source browser with configurable privacy controls
         - **[GNU IceCat](https://www.gnu.org/software/icecat/)**: GNU’s privacy-oriented version of Firefox
         - **[Tor Browser](https://tb-manual.torproject.org/)**: a browser that routes traffic through the Tor network
@@ -80,35 +103,61 @@
         - **[Guerrilla Mail](https://www.guerrillamail.com/)**: a disposable email-address service
         - **[Mailfence](https://kb.mailfence.com/)**: an encrypted email and collaboration service
         - **[Microsoft 365 Quarantine](https://learn.microsoft.com/en-us/defender-office-365/quarantine-about)**: isolates suspected spam, phishing, malware, etc.
+        - **NIST SP 800-177 Revision 1**: NIST guidance for establishing trustworthy email systems
         - **[Private-Mail](https://privatemail.com/)**: a privacy-focused encrypted email service
         - **[Proton Mail](https://proton.me/support/mail)**: an encrypted email service with end-to-end and zero-access encryption
         - **[Temp Mail](https://temp-mail.org/)**: a temporary inbox and disposable email service
         - **[Tuta](https://tuta.com/support)**: an encrypted email service formerly known as Tutanota
     - **Passwords**
+        - **CIS Password Policy Guide**: CIS guidance for creating and managing secure enterprise password policies
+        - **Have I Been Pwned**: a service for checking whether email addresses or passwords appear in known breaches
         - **Password Managers**
             - **[Bitwarden](https://bitwarden.com/help/)**: an open-source password manager supporting hosted and self-hosted vaults
             - **[Google Password Manager](https://support.google.com/accounts/answer/6208650)**: Google’s browser- and account-integrated credential manager
+            - **KeePass**: an open-source password manager that stores credentials in an encrypted local database
             - **[KeePassXC](https://keepassxc.org/docs/)**: an open-source password manager that stores credentials in a local encrypted database
             - **[Syncthing](https://docs.syncthing.net/)**: a decentralized continuous file-synchronization tool
             - **[LastPass](https://support.lastpass.com/)**: a commercial cloud-based password manager
+            - **Password Safe**: an open-source password manager for storing credentials in an encrypted database
+        - **Specops Password Auditor**: an Active Directory auditing tool for identifying weak or compromised passwords
     - **Secure Search Engines**
         - **[DuckDuckGo](https://duckduckgo.com/duckduckgo-help-pages/)**: a search engine designed to limit user tracking
         - **[SearXNG](https://docs.searxng.org/)**: an open-source, privacy-respecting metasearch engine
         - **[Startpage](https://support.startpage.com/)**: a privacy-oriented search engine and search proxy
 - **Security Operations**
     - **[ANY.RUN](https://any.run/)**: an interactive sandbox for analyzing malware behavior
+    - **Carnegie Mellon Incident Response Plan**: an example university incident-response plan
     - **[CrowdStrike Falcon](https://www.crowdstrike.com/en-us/platform/)**: a cloud-native endpoint-protection and threat-detection platform
     - **CTI (Cyber Threat Intelligence)**
         - **[Google Threat Intelligence](https://cloud.google.com/security/products/threat-intelligence)**: combines threat intelligence from Google, Mandiant, and VirusTotal
         - **[Mandiant](https://cloud.google.com/security/mandiant)**: provides threat intelligence, incident response, and managed defense services
         - **[MITRE ATT&CK](https://attack.mitre.org/)**: a knowledge base describing adversary tactics and techniques
+        - **SANS Internet Storm Center**: a threat-monitoring and information-sharing service analyzing malicious internet activity
+    - **Data-Exfiltration Research**: research examining techniques used to transfer data outside an organization
+    - **Elections Infrastructure Information Sharing and Analysis Center**: cybersecurity support and threat sharing for election offices
+    - **European Union Agency for Cybersecurity Incident Response Plan**: incident-response and resilience guidance from ENISA
+    - **Forum of Incident Response and Security Teams**: an international organization supporting incident-response teams
+    - **Homeland Security Information Network**: a secure platform for information sharing and collaboration
+    - **MS-ISAC**: cybersecurity resources, threat intelligence, and incident-response support for SLTT governments
+    - **MS-ISAC Incident Reporting**: channels for reporting cybersecurity incidents to MS-ISAC
+    - **MS-ISAC Services**: cybersecurity services available through MS-ISAC
+    - **Open Trust Alliance Cyber Incident and Breach Response Guide**: a checklist and guide for cyber incident planning
     - **[ReversingLabs Spectra Analyze](https://docs.reversinglabs.com/SpectraAnalyze/)**: a malware-analysis and threat-intelligence platform
+    - **State of Oregon Incident Response Plan Template**: a customizable incident-response plan template
     - **[Suricata](https://docs.suricata.io/)**: an open-source intrusion-detection, intrusion-prevention, and network-monitoring engine
     - **[VirusTotal](https://docs.virustotal.com/)**: analyzes files, URLs, domains, and IP addresses for malicious activity
+    - **Zabbix**: an open-source platform for monitoring infrastructure, networks, applications, and services
 - **Vulnerability Management**
+    - **endoflife.date**: a community-maintained resource tracking product support and end-of-life dates
+    - **Lynis**: an open-source security-auditing and system-hardening tool
+    - **NIST SP 800-40 Revision 4**: NIST guidance for enterprise patch-management planning and preventive maintenance
+    - **OpenSCAP**: an open-source ecosystem for assessing and enforcing security baselines
+    - **OpenVAS**: an open-source vulnerability-scanning and management framework
     - **[Snyk](https://docs.snyk.io/)**: identifies vulnerabilities in code, dependencies, containers, and infrastructure
+    - **U.S. National Vulnerability Database**: a searchable repository of standardized information about publicly disclosed vulnerabilities
 
 ## Forensics
+- **Disk Wipe**: a portable Windows application for permanently erasing storage volumes
 - **[ExifTool by Phil Harvey](https://exiftool.org/)**: a command-line utility for reading, writing, and inspecting file metadata
 - **File-System Forensics**
     - **[Autopsy](https://www.sleuthkit.org/autopsy/)**: a graphical digital-forensics platform built on The Sleuth Kit
@@ -119,6 +168,7 @@
 - **Memory Forensics**
     - **[Volatility 2](https://github.com/volatilityfoundation/volatility)**: a legacy Python framework for analyzing memory captures
     - **[Volatility 3](https://volatility3.readthedocs.io/en/latest/)**: the modern Volatility framework for memory forensics
+- **NIST SP 800-88**: NIST guidance for sanitizing storage media
 - **Spectrography**
     - **[Audacity](https://manual.audacityteam.org/man/spectrogram_view.html)**: an audio editor used to inspect waveforms and spectrograms
 - **Steganography**
@@ -154,6 +204,7 @@
     - **Starlink**: satellite internet service provider
 - **Kismet**: a wireless-network detector, sniffer, and monitoring system
 - **Network Miner**: packet analysis and forensic tool
+- **OpenDNS**: a DNS service providing security filtering and customizable content controls
 - **Palo Alto Application-Layer Firewalls**: next-generation firewalls that identify and control traffic
     - **AWS Network Firewall**: a managed network firewall for filtering and inspecting traffic within Amazon Virtual Private Clouds
     - **Azure Firewall**: Microsoft Azure’s managed cloud firewall for controlling and inspecting traffic across Azure networks
@@ -161,6 +212,7 @@
     - **Windows Firewall**: a host-based firewall built into Windows that filters incoming and outgoing network traffic
 - **Panorama**: Palo Alto Networks’ centralized platform for managing multiple firewalls and their security policies
 - **Pi-Hole**: DNS-level ad and tracker blocking appliance
+- **Quad9**: a privacy-focused public DNS service that blocks known malicious domains
 - **Snort**: an intrusion detection and prevention system for analyzing network traffic
 - **Tailscale**: a mesh VPN service that connects devices using WireGuard
 - **`tcpdump`**: command-line packet capture utility
@@ -215,6 +267,8 @@
 - **theHarvester**: a tool for gathering public emails, subdomains, hosts, and employee names 
 
 ## Operating Systems
+- **Android Automatic Updates**: guidance for automatically updating Android devices
+- **Apple iOS Automatic Updates**: guidance for automatically updating iOS devices
 - **Command-Line Shells**
     - **Bash (Bourne Again Shell)**: a Unix shell and scripting language commonly used on Linux
     - **MobaXterm**: a Windows terminal and remote-access suite supporting SSH, SFTP, X11, and Unix commands
@@ -230,6 +284,9 @@
             - **OpenBSD:** fork of NetBSD in 1995 focused heavily on hardening its security and networking
     - **Darwin**: Apple’s open-source Unix-based operating-system foundation
         - **macOS**: Apple’s Unix-certified desktop operating system built on Darwin
+            - **Apple macOS Application-Removal Instructions**: Apple guidance for uninstalling applications from macOS
+            - **Apple macOS Automatic Updates**: guidance for automatically updating macOS
+            - **Microsoft Office Automatic Updates for macOS**: Microsoft guidance for automatically updating Office on macOS
     - **[Linux](https://linux.die.net/)**
         - **Arch Family**
             - **Black Arch Linux**: security-focused Arch-based distribution
@@ -255,6 +312,10 @@
             - **openSUSE**: a community distribution available in rolling and stable editions
 - **Windows NT Family**: Microsoft operating systems built on the Windows NT architecture
     - **Microsoft Windows**: Microsoft’s proprietary family of desktop operating systems
+        - **CIS Microsoft Windows Cyber Hygiene Guide**: CIS guidance for improving foundational Windows security
+        - **Microsoft Supported Windows Lifecycle Information**: Microsoft’s support and end-of-life information for Windows releases
+        - **Windows Application-Removal Instructions**: Microsoft guidance for uninstalling Windows applications
+        - **Windows Automatic Updates**: Microsoft guidance for automatically installing Windows updates
     - **Windows Server**: Microsoft’s operating-system family for servers and enterprise infrastructure
 - **TempleOS**: a lightweight biblical-themed operating system created entirely by Terry A. Davis
 - **Virtualization**
@@ -371,9 +432,11 @@
 - **Insecam**: an index of publicly accessible and unsecured CCTV streams
 - **Nikto**: an open-source scanner for identifying web-server vulnerabilities and misconfigurations
 - **Nmap**: a network scanner for discovering hosts, ports, services, and operating systems\
+- **Nmap Scripting Engine**: Nmap functionality that uses scripts for discovery, vulnerability detection, and network testing
 - **Nuclei**: a template-based scanner for detecting known vulnerabilities and expo
 - **Shodan**: a search engine for internet-connected devices and services
 - **Tenable Nessus**: a vulnerability scanner that identifies software flaws, exposed services, and misconfigurations
+- **Zenmap**: a graphical interface for configuring and reviewing Nmap scans
 - **ZMap**: a high-speed scanner designed for internet-wide network surveys
 - **ZoomEye**: an internet asset search engine developed in China
 
