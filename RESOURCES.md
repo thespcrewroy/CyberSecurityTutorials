@@ -69,6 +69,7 @@
 - [4 August] [CSAW Embdedded Security Challenge (NYU) - Travel Required!](https://github.com/trustworthycomputing/csaw_esc_2026): global cyber competition
 - [1 September] [PwnSec](https://pwnsec.ctf.ae/): jeopardy-style CTF; ~registration remained available near the November 15 event
 - [2 September] [CSAW (NYU) - Travel Required!](https://csaw.io/): global cyber competition
+- [3 September] [Meta Flash CTF](https://app.metactf.com/): helps companies protect their employee and customer data cyber competition
 - [3 September] [Sunshine CTF (UCF)](https://sunshinectf.org/): welcomes both beginners and experienced players worldwide to solve security puzzles
 - [4 September] [CPTC (RIT) - Travel Required!](https://cp.tc/): collegiate penetration-testing competition
 - [4 September] [FaustCTF (FAU)](https://2024.faustctf.net/): team-based attack-and-defense competition
