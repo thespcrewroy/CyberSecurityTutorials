@@ -71,6 +71,7 @@
 - [2 September] [CSAW (NYU) - Travel Required!](https://csaw.io/): global cyber competition
 - [3 September] [Meta Flash CTF](https://app.metactf.com/): helps companies protect their employee and customer data cyber competition
 - [3 September] [Sunshine CTF (UCF)](https://sunshinectf.org/): welcomes both beginners and experienced players worldwide to solve security puzzles
+- [3 September] [Flare-On CTF Challenge](https://flare-on.com/): industry ctf thats made for benchmarking industry pros
 - [4 September] [CPTC (RIT) - Travel Required!](https://cp.tc/): collegiate penetration-testing competition
 - [4 September] [FaustCTF (FAU)](https://2024.faustctf.net/): team-based attack-and-defense competition
 - [4 September] [CDCTF (UA)](https://uacrimsondefense.github.io/cdctf.html): University of Alabama CTF
@@ -137,6 +138,7 @@
 - [Cyber Skyline Trove](https://trove.cyberskyline.com/): a collection of cybersecurity learning resources on NCL topics
 - [Die.NET](https://linux.die.net/): a Linux documentation engine resource
 - [Exploit Education](https://exploit.education): provides downloadable virtual machines for learning binary exploitation
+- [Flare-On CTF Past CTF Challenges](https://flare-on.com/): industry ctf thats made for benchmarking industry pros
 - [Gandalf](https://gandalf.lakera.ai/gandalf): a game for learning about prompt injection and adversarial AI attacks
 - [GreyHat](https://ctf.greyhatgt.org/): Georgia Tech's premiere cyber security learning platform
 - [Hacker101](https://www.hacker101.com/): a free web-security course offering video lessons, written resources, and hands-on CTF challenges
