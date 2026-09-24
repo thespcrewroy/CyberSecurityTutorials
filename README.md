@@ -48,14 +48,16 @@
     - **[Active Directory](https://learn.microsoft.com/en-us/training/paths/active-directory-domain-services/)**: Microsoft’s directory service for centrally managing identities
     - **[AppLocker](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/applocker)**: restricts what users run
     - **[CyberArk](https://docs.cyberark.com/)**: an identity-security platform specializing in privileged-access management
-    - **[GCA Cybersecurity Toolkit for Small Business](https://gcatoolkit.org/smallbusiness/)**: cybersecurity guidance and tools for small businesses, including MFA resources
+    - **Directory Access Protocol**
+        - **LDAP (Lightweight Directory Access Protocol)**
+            - **[OpenLDAP](https://www.openldap.org/)**: an open-source implementation of the Lightweight Directory Access Protocol
     - **[Google Authenticator](https://shorturl.at/CdUos)**: a mobile application that generates verification codes for two-factor authentication
+    - **GPO (Group Policy Object)**
+        - **[Local Group Policy Editor](https://shorturl.at/NjQIl)**: a Microsoft utility for configuring local Group Policy settings
     - **[JumpCloud](https://support.jumpcloud.com/)**: a cloud platform for managing identities, devices, authentication, and access
-    - **[Local Group Policy Editor](https://shorturl.at/NjQIl)**: a Microsoft utility for configuring local Group Policy settings
     - **[Microsoft Authenticator](https://shorturl.at/9NEvE)**: a mobile application supporting multifactor and passwordless authentication
     - **[Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/)**: Microsoft’s cloud identity and access-management platform
     - **[NIST SP 800-63](https://pages.nist.gov/800-63-3/)**: NIST guidance covering digital identity, authentication, credentials, and federation
-    - **[OpenLDAP](https://www.openldap.org/)**: an open-source implementation of the Lightweight Directory Access Protocol
     - **[OpenNAC](https://doc-opennac.opencloudfactory.com/1.2.1/introduction/whatis/intro.html)**: an open-source network-access-control platform
     - **[SailPoint](https://documentation.sailpoint.com/)**: an identity-governance platform for managing access, permissions, and identity lifecycles
     - **[Two-Factor Authentication for Apple ID](https://support.apple.com/en-us/102660)**: Apple guidance for enabling two-factor authentication on Apple accounts
@@ -78,6 +80,7 @@
     - **[Microsoft Backup and Restore](https://support.microsoft.com/en-us/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup)**: built-in Windows
     - **[Microsoft Volume Shadow Copy Service](https://learn.microsoft.com/en-us/windows-server/storage/file-server/volume-shadow-copy-service)**: a Windows service
     - **[No More Ransom](https://www.nomoreransom.org/)**: ransomware-prevention guidance, IR resources, and free decryption tools for supported ransomware variants
+    - **[Syncthing](https://docs.syncthing.net/)**: a decentralized continuous file-synchronization tool
     - **[Redo Rescue](https://redorescue.com/)**: an open-source bootable backup and recovery environment used to create and restore complete system images
 - **Endpoint Management**
     - **[Microsoft Configuration Manager (formerly SCCM)](https://learn.microsoft.com/en-us/intune/configmgr/)**: an enterprise platform for monitoring endpoint devices
@@ -99,6 +102,13 @@
     - **[NIST Cybersecurity Framework (CSF)](https://www.nist.gov/cyberframework)**: a framework for understanding and managing cybersecurity risk
     - **[PCI-DSS (Payment Card Industry Data Security Standard)](https://www.pcisecuritystandards.org/standards/pci-dss/)**: requirements for handling cardholder data
     - **[SOC (System and Organization Controls)](https://www.aicpa-cima.com/resources/)**: audit standard for service organizations
+- **Incident Response**
+    - **[Carnegie Mellon Incident Response Plan](https://www.cmu.edu/iso/governance/procedures/IRPlan.html)**: an example university incident-response plan
+    - **CSIRT (Computer Security Incident Response Team)**
+        - **[Forum of Incident Response and Security Teams](https://www.first.org/)**: an international organization supporting incident-response teams     
+    - **[MS-ISAC Incident Reporting](https://www.cisecurity.org/isac/report-an-incident)**: channels for reporting cybersecurity incidents to MS-ISAC
+    - **[Open Trust Alliance Cyber Incident and Breach Response Guide](https://www.internetsociety.org/wp-content/uploads/2019/04/2017dpd.pptx.pdf)**: a checklist and guide
+    - **[State of Oregon IR Plan Template](https://www.oregon.gov/eis/cyber-security-services/pages/security-operations-center.aspx)**: a custoxmizable IR plan template
 - **Operational Security (OpSec)**
     - **Adblock**
         - **[Decentraleyes](https://git.synz.io/Synzvato/decentraleyes)**: locally provides common web resources to reduce third-party requests
@@ -112,18 +122,27 @@
         - **[McAfee](https://www.mcafee.com/)**: a provider of consumer antivirus and online-protection products
         - **[Norton](https://support.norton.com/)**: a provider of consumer antivirus and online-security products
         - **[Microsoft Defender](https://learn.microsoft.com/en-us/defender-endpoint/)**: Microsoft’s endpoint-protection and threat-detection platform
-        - **[MS/EI-ISAC Malicious Code Analysis Platform](https://www.cisecurity.org/services/malicious-code-analysis-platform)**: nonpublic sandbox for analyzing sus files
     - **Browsers**
         - **[Brave](https://support.brave.com/)**: a privacy-focused browser with built-in content blocking
         - **[Comodo Dragon](https://www.comodo.com/home/browsers-toolbars/browser.php)**: a security-focused Chromium-based web browser
         - **[Firefox](https://support.mozilla.org/)**: an open-source browser with configurable privacy controls
         - **[GNU IceCat](https://www.gnu.org/software/icecat/)**: GNU’s privacy-oriented version of Firefox
         - **[Tor Browser](https://tb-manual.torproject.org/)**: a browser that routes traffic through the Tor network
-    - **Instant Messaging (IM)**
+    - **End-to-End Encryption (E2EE) Services**
         - **[Briar](https://briarproject.org/manual/)**: a decentralized encrypted messaging application
         - **[Element](https://docs.element.io/)**: a messaging client built on the Matrix protocol
         - **[Signal](https://support.signal.org/)**: an end-to-end encrypted messaging application
         - **[Telegram](https://telegram.org/faq)**: a cloud-based messaging application with optional end-to-end encrypted chats
+    - **Passwords**
+        - **[CIS Password Policy Guide](https://www.cisecurity.org/insights/white-papers/cis-password-policy-guide)**: CIS guidance for managing enterprise password policies
+        - **[Have I Been Pwned](https://haveibeenpwned.com/)**: a service for checking whether email addresses or passwords appear in known breaches
+        - **Password Managers**
+            - **[Bitwarden](https://bitwarden.com/help/)**: an open-source password manager supporting hosted and self-hosted vaults
+            - **[Google Password Manager](https://support.google.com/accounts/answer/6208650)**: Google’s browser- and account-integrated credential manager
+            - **[KeePassXC](https://keepassxc.org/docs/)**: an open-source password manager that stores credentials in a local encrypted database
+            - **[LastPass](https://support.lastpass.com/)**: a commercial cloud-based password manager
+            - **[Password Safe](https://pwsafe.org/)**: an open-source password manager for storing credentials in an encrypted database
+        - **[Specops Password Auditor](https://specopssoft.com/product/specops-password-auditor/)**: an Active Directory auditing tool for identifying weak or compromised passwords
     - **Secure Email**
         - **[Addy.io](https://addy.io/help/)**: an email-alias service formerly known as AnonAddy
         - **[Guerrilla Mail](https://www.guerrillamail.com/)**: a disposable email-address service
@@ -134,23 +153,13 @@
         - **[Proton Mail](https://proton.me/support/mail)**: an encrypted email service with end-to-end and zero-access encryption
         - **[Temp Mail](https://temp-mail.org/)**: a temporary inbox and disposable email service
         - **[Tuta](https://tuta.com/support)**: an encrypted email service formerly known as Tutanota
-    - **Passwords**
-        - **[CIS Password Policy Guide](https://www.cisecurity.org/insights/white-papers/cis-password-policy-guide)**: CIS guidance for managing enterprise password policies
-        - **[Have I Been Pwned](https://haveibeenpwned.com/)**: a service for checking whether email addresses or passwords appear in known breaches
-        - **Password Managers**
-            - **[Bitwarden](https://bitwarden.com/help/)**: an open-source password manager supporting hosted and self-hosted vaults
-            - **[Google Password Manager](https://support.google.com/accounts/answer/6208650)**: Google’s browser- and account-integrated credential manager
-            - **[KeePassXC](https://keepassxc.org/docs/)**: an open-source password manager that stores credentials in a local encrypted database
-            - **[Syncthing](https://docs.syncthing.net/)**: a decentralized continuous file-synchronization tool
-            - **[LastPass](https://support.lastpass.com/)**: a commercial cloud-based password manager
-            - **[Password Safe](https://pwsafe.org/)**: an open-source password manager for storing credentials in an encrypted database
-        - **[Specops Password Auditor](https://specopssoft.com/product/specops-password-auditor/)**: an Active Directory auditing tool for identifying weak or compromised passwords
     - **Secure Search Engines**
         - **[DuckDuckGo](https://duckduckgo.com/duckduckgo-help-pages/)**: a search engine designed to limit user tracking
         - **[SearXNG](https://docs.searxng.org/)**: an open-source, privacy-respecting metasearch engine
         - **[Startpage](https://support.startpage.com/)**: a privacy-oriented search engine and search proxy
 - **Security Awareness and Training:**
     - **[Federal Virtual Training Environment Online Courses](https://niccs.cisa.gov/training/cisa-learning)**: former FedVTE program now provided through CISA Learning
+    - **[GCA Cybersecurity Toolkit for Small Business](https://gcatoolkit.org/smallbusiness/)**: cybersecurity and MFA guidance and tools for small businesses
     - **[MS-ISAC Cybersecurity Awareness Toolkit](https://www.cisecurity.org/ms-isac/ms-isac-toolkit)**: collection of no-cost cybersecurity awareness materials
     - **[MS-ISAC Newsletter](https://resources.cisecurity.org/ms-isac-subscription)**: provides advisories, vulnerability information, and security updates
     - **[National Cybersecurity Alliance](https://staysafeonline.org/)**: nonprofit organization that provides cybersecurity, privacy, and online-safety education
@@ -159,34 +168,31 @@
     - **[Stay Safe Online](https://www.staysafeonline.org/resources/online-safety-and-privacy/videos)**: collection of videos and educational resources about online behavior
 - **Security Operations**
     - **[ANY.RUN](https://any.run/)**: an interactive sandbox for analyzing malware behavior
-    - **[Carnegie Mellon Incident Response Plan](https://www.cmu.edu/iso/governance/procedures/IRPlan.html)**: an example university incident-response plan
     - **[CrowdStrike Falcon](https://www.crowdstrike.com/en-us/platform/)**: a cloud-native endpoint-protection and threat-detection platform
     - **CTI (Cyber Threat Intelligence)**
+        - **[Elections Infrastructure Information Sharing and Analysis Center](https://www.cisecurity.org/ei-isac)**: cybersecurity support and threat sharing for elections
         - **[Google Threat Intelligence](https://cloud.google.com/security/products/threat-intelligence)**: combines threat intelligence from Google, Mandiant, and VirusTotal
+        - **[Homeland Security Information Network](https://www.dhs.gov/homeland-security-information-network-hsin)**: a secure platform for info sharing and collaboration
         - **[Mandiant](https://cloud.google.com/security/mandiant)**: provides threat intelligence, incident response, and managed defense services
         - **[MITRE ATT&CK](https://attack.mitre.org/)**: a knowledge base describing adversary tactics and techniques
+        - **[ReversingLabs Spectra Analyze](https://docs.reversinglabs.com/SpectraAnalyze/)**: a malware-analysis and threat-intelligence platform
         - **[SANS Internet Storm Center](https://isc.sans.edu/)**: a threat-monitoring and information-sharing service analyzing malicious internet activity
-    - **[Elections Infrastructure Information Sharing and Analysis Center](https://www.cisecurity.org/ei-isac)**: cybersecurity support and threat sharing for election offices
-    - **[ENISA Incident Response Plan](https://www.enisa.europa.eu/topics/eu-incident-response-and-cyber-crisis-management)**: incident-response and resilience guidance from ENISA
-    - **[Forum of Incident Response and Security Teams](https://www.first.org/)**: an international organization supporting incident-response teams
-    - **[Homeland Security Information Network](https://www.dhs.gov/homeland-security-information-network-hsin)**: a secure platform for information sharing and collaboration
+        - **[VirusTotal](https://docs.virustotal.com/)**: analyzes files, URLs, domains, and IP addresses for malicious activity
+    - **[ENISA Incident Response Plan](https://www.enisa.europa.eu/topics/eu-incident-response-and-cyber-crisis-management)**: IR and resilience guidance from ENISA
     - **[MS-ISAC](https://www.cisecurity.org/ms-isac)**: cybersecurity resources, threat intelligence, and incident-response support for SLTT governments
-    - **[MS-ISAC Incident Reporting](https://www.cisecurity.org/isac/report-an-incident)**: channels for reporting cybersecurity incidents to MS-ISAC
+    - **[MS/EI-ISAC Malicious Code Analysis Platform](https://www.cisecurity.org/services/malicious-code-analysis-platform)**: nonpublic sandbox for analyzing sus files
     - **[MS-ISAC Service](https://www.cisecurity.org/ms-isac/services)s**: cybersecurity services available through MS-ISAC
-    - **[Open Trust Alliance Cyber Incident and Breach Response Guide](https://www.internetsociety.org/wp-content/uploads/2019/04/2017dpd.pptx.pdf)**: a checklist and guide
-    - **[ReversingLabs Spectra Analyze](https://docs.reversinglabs.com/SpectraAnalyze/)**: a malware-analysis and threat-intelligence platform
-    - **[State of Oregon IR Plan Template](https://www.oregon.gov/eis/cyber-security-services/pages/security-operations-center.aspx)**: a custoxmizable IR plan template
     - **IDS/IPS (Intrusion Detection & Intrusion Prevention System):**
         - **[Snort](https://www.snort.org/):** open-source network intrusion detection and prevention system
         - **[Suricata](https://docs.suricata.io/)**: an open-source intrusion-detection, intrusion-prevention, and network-monitoring engine
-    - **[VirusTotal](https://docs.virustotal.com/)**: analyzes files, URLs, domains, and IP addresses for malicious activity
     - **[Zabbix](https://www.zabbix.com/)**: an open-source platform for monitoring infrastructure, networks, applications, and services
 - **Vulnerability Management**
     - **[endoflife.date](https://endoflife.date/)**: a community-maintained resource tracking product support and end-of-life dates
     - **[Lynis](https://cisofy.com/lynis/)**: an open-source security-auditing and system-hardening tool
-    - **[NIST SP 800-40 Revision 4](https://csrc.nist.gov/pubs/sp/800/40/r4/final)**: NIST guidance for enterprise patch-management planning and preventive maintenance
     - **[OpenSCAP](https://www.open-scap.org/)**: an open-source ecosystem for assessing and enforcing security baselines
     - **[OpenVAS](https://openvas.org/)**: an open-source vulnerability-scanning and management framework
+    - **Patch Management**
+        - **[NIST SP 800-40 Revision 4](https://csrc.nist.gov/pubs/sp/800/40/r4/final)**: NIST guidance for enterprise patch-management planning and prevention
     - **[Snyk](https://docs.snyk.io/)**: identifies vulnerabilities in code, dependencies, containers, and infrastructure
     - **[U.S. National Vulnerability Database](https://nvd.nist.gov/)**: a searchable repository of standardized information about publicly disclosed vulnerabilities
 
