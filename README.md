@@ -126,7 +126,7 @@
             - **[Syncthing](https://docs.syncthing.net/)**: a decentralized continuous file-synchronization tool
             - **[LastPass](https://support.lastpass.com/)**: a commercial cloud-based password manager
             - **[Password Safe](https://pwsafe.org/)**: an open-source password manager for storing credentials in an encrypted database
-        - **Specops Password Auditor**: an Active Directory auditing tool for identifying weak or compromised passwords
+        - **[Specops Password Auditor](https://specopssoft.com/product/specops-password-auditor/)**: an Active Directory auditing tool for identifying weak or compromised passwords
     - **Secure Search Engines**
         - **[DuckDuckGo](https://duckduckgo.com/duckduckgo-help-pages/)**: a search engine designed to limit user tracking
         - **[SearXNG](https://docs.searxng.org/)**: an open-source, privacy-respecting metasearch engine
