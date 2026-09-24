@@ -87,7 +87,7 @@
         - **[MS/EI-ISAC Malicious Code Analysis Platform](https://www.cisecurity.org/services/malicious-code-analysis-platform)**: nonpublic sandbox for analyzing sus files
     - **Browsers**
         - **[Brave](https://support.brave.com/)**: a privacy-focused browser with built-in content blocking
-        - **Comodo Dragon**: a security-focused Chromium-based web browser
+        - **[Comodo Dragon](https://www.comodo.com/home/browsers-toolbars/browser.php)**: a security-focused Chromium-based web browser
         - **[Firefox](https://support.mozilla.org/)**: an open-source browser with configurable privacy controls
         - **[GNU IceCat](https://www.gnu.org/software/icecat/)**: GNU’s privacy-oriented version of Firefox
         - **[Tor Browser](https://tb-manual.torproject.org/)**: a browser that routes traffic through the Tor network
@@ -101,22 +101,21 @@
         - **[Guerrilla Mail](https://www.guerrillamail.com/)**: a disposable email-address service
         - **[Mailfence](https://kb.mailfence.com/)**: an encrypted email and collaboration service
         - **[Microsoft 365 Quarantine](https://learn.microsoft.com/en-us/defender-office-365/quarantine-about)**: isolates suspected spam, phishing, malware, etc.
-        - **NIST SP 800-177 Revision 1**: NIST guidance for establishing trustworthy email systems
+        - **[NIST SP 800-177 Revision 1](https://csrc.nist.gov/pubs/sp/800/177/r1/final)**: NIST guidance for establishing trustworthy email systems
         - **[Private-Mail](https://privatemail.com/)**: a privacy-focused encrypted email service
         - **[Proton Mail](https://proton.me/support/mail)**: an encrypted email service with end-to-end and zero-access encryption
         - **[Temp Mail](https://temp-mail.org/)**: a temporary inbox and disposable email service
         - **[Tuta](https://tuta.com/support)**: an encrypted email service formerly known as Tutanota
     - **Passwords**
-        - **CIS Password Policy Guide**: CIS guidance for creating and managing secure enterprise password policies
-        - **Have I Been Pwned**: a service for checking whether email addresses or passwords appear in known breaches
+        - **[CIS Password Policy Guide](https://www.cisecurity.org/insights/white-papers/cis-password-policy-guide)**: CIS guidance for managing enterprise password policies
+        - **[Have I Been Pwned](https://haveibeenpwned.com/)**: a service for checking whether email addresses or passwords appear in known breaches
         - **Password Managers**
             - **[Bitwarden](https://bitwarden.com/help/)**: an open-source password manager supporting hosted and self-hosted vaults
             - **[Google Password Manager](https://support.google.com/accounts/answer/6208650)**: Google’s browser- and account-integrated credential manager
-            - **KeePass**: an open-source password manager that stores credentials in an encrypted local database
             - **[KeePassXC](https://keepassxc.org/docs/)**: an open-source password manager that stores credentials in a local encrypted database
             - **[Syncthing](https://docs.syncthing.net/)**: a decentralized continuous file-synchronization tool
             - **[LastPass](https://support.lastpass.com/)**: a commercial cloud-based password manager
-            - **Password Safe**: an open-source password manager for storing credentials in an encrypted database
+            - **[Password Safe](https://pwsafe.org/)**: an open-source password manager for storing credentials in an encrypted database
         - **Specops Password Auditor**: an Active Directory auditing tool for identifying weak or compromised passwords
     - **Secure Search Engines**
         - **[DuckDuckGo](https://duckduckgo.com/duckduckgo-help-pages/)**: a search engine designed to limit user tracking
@@ -124,37 +123,36 @@
         - **[Startpage](https://support.startpage.com/)**: a privacy-oriented search engine and search proxy
 - **Security Operations**
     - **[ANY.RUN](https://any.run/)**: an interactive sandbox for analyzing malware behavior
-    - **Carnegie Mellon Incident Response Plan**: an example university incident-response plan
+    - **[Carnegie Mellon Incident Response Plan](https://www.cmu.edu/iso/governance/procedures/IRPlan.html)**: an example university incident-response plan
     - **[CrowdStrike Falcon](https://www.crowdstrike.com/en-us/platform/)**: a cloud-native endpoint-protection and threat-detection platform
     - **CTI (Cyber Threat Intelligence)**
         - **[Google Threat Intelligence](https://cloud.google.com/security/products/threat-intelligence)**: combines threat intelligence from Google, Mandiant, and VirusTotal
         - **[Mandiant](https://cloud.google.com/security/mandiant)**: provides threat intelligence, incident response, and managed defense services
         - **[MITRE ATT&CK](https://attack.mitre.org/)**: a knowledge base describing adversary tactics and techniques
-        - **SANS Internet Storm Center**: a threat-monitoring and information-sharing service analyzing malicious internet activity
-    - **Data-Exfiltration Research**: research examining techniques used to transfer data outside an organization
-    - **Elections Infrastructure Information Sharing and Analysis Center**: cybersecurity support and threat sharing for election offices
-    - **European Union Agency for Cybersecurity Incident Response Plan**: incident-response and resilience guidance from ENISA
-    - **Forum of Incident Response and Security Teams**: an international organization supporting incident-response teams
-    - **Homeland Security Information Network**: a secure platform for information sharing and collaboration
-    - **MS-ISAC**: cybersecurity resources, threat intelligence, and incident-response support for SLTT governments
-    - **MS-ISAC Incident Reporting**: channels for reporting cybersecurity incidents to MS-ISAC
-    - **MS-ISAC Services**: cybersecurity services available through MS-ISAC
-    - **Open Trust Alliance Cyber Incident and Breach Response Guide**: a checklist and guide for cyber incident planning
+        - **[SANS Internet Storm Center](https://isc.sans.edu/)**: a threat-monitoring and information-sharing service analyzing malicious internet activity
+    - **[Elections Infrastructure Information Sharing and Analysis Center](https://www.cisecurity.org/ei-isac)**: cybersecurity support and threat sharing for election offices
+    - **[ENISA Incident Response Plan](https://www.enisa.europa.eu/topics/eu-incident-response-and-cyber-crisis-management)**: incident-response and resilience guidance from ENISA
+    - **[Forum of Incident Response and Security Teams](https://www.first.org/)**: an international organization supporting incident-response teams
+    - **[Homeland Security Information Network](https://www.dhs.gov/homeland-security-information-network-hsin)**: a secure platform for information sharing and collaboration
+    - **[MS-ISAC](https://www.cisecurity.org/ms-isac)**: cybersecurity resources, threat intelligence, and incident-response support for SLTT governments
+    - **[MS-ISAC Incident Reporting](https://www.cisecurity.org/isac/report-an-incident)**: channels for reporting cybersecurity incidents to MS-ISAC
+    - **[MS-ISAC Service](https://www.cisecurity.org/ms-isac/services)s**: cybersecurity services available through MS-ISAC
+    - **[Open Trust Alliance Cyber Incident and Breach Response Guide](https://www.internetsociety.org/wp-content/uploads/2019/04/2017dpd.pptx.pdf)**: a checklist and guide
     - **[ReversingLabs Spectra Analyze](https://docs.reversinglabs.com/SpectraAnalyze/)**: a malware-analysis and threat-intelligence platform
-    - **State of Oregon Incident Response Plan Template**: a customizable incident-response plan template
+    - **[State of Oregon IR Plan Template](https://www.oregon.gov/eis/cyber-security-services/pages/security-operations-center.aspx)**: a custoxmizable IR plan template
     - **IDS/IPS (Intrusion Detection & Intrusion Prevention System):**
         - **[Snort](https://www.snort.org/):** open-source network intrusion detection and prevention system
         - **[Suricata](https://docs.suricata.io/)**: an open-source intrusion-detection, intrusion-prevention, and network-monitoring engine
     - **[VirusTotal](https://docs.virustotal.com/)**: analyzes files, URLs, domains, and IP addresses for malicious activity
-    - **Zabbix**: an open-source platform for monitoring infrastructure, networks, applications, and services
+    - **[Zabbix](https://www.zabbix.com/)**: an open-source platform for monitoring infrastructure, networks, applications, and services
 - **Vulnerability Management**
-    - **endoflife.date**: a community-maintained resource tracking product support and end-of-life dates
-    - **Lynis**: an open-source security-auditing and system-hardening tool
-    - **NIST SP 800-40 Revision 4**: NIST guidance for enterprise patch-management planning and preventive maintenance
-    - **OpenSCAP**: an open-source ecosystem for assessing and enforcing security baselines
-    - **OpenVAS**: an open-source vulnerability-scanning and management framework
+    - **[endoflife.date](https://endoflife.date/)**: a community-maintained resource tracking product support and end-of-life dates
+    - **[Lynis](https://cisofy.com/lynis/)**: an open-source security-auditing and system-hardening tool
+    - **[NIST SP 800-40 Revision 4](https://csrc.nist.gov/pubs/sp/800/40/r4/final)**: NIST guidance for enterprise patch-management planning and preventive maintenance
+    - **[OpenSCAP](https://www.open-scap.org/)**: an open-source ecosystem for assessing and enforcing security baselines
+    - **[OpenVAS](https://openvas.org/)**: an open-source vulnerability-scanning and management framework
     - **[Snyk](https://docs.snyk.io/)**: identifies vulnerabilities in code, dependencies, containers, and infrastructure
-    - **U.S. National Vulnerability Database**: a searchable repository of standardized information about publicly disclosed vulnerabilities
+    - **[U.S. National Vulnerability Database](https://nvd.nist.gov/)**: a searchable repository of standardized information about publicly disclosed vulnerabilities
 
 ## Forensics
 - **Disk Wipe**: a portable Windows application for permanently erasing storage volumes
@@ -228,13 +226,14 @@
 - **Bug Bounty Programs**
     - **[HackerOne](https://www.hackerone.com/)**: bug bounty platform connecting ethical hackers with companies
     - **[Open Bug Bounty](https://www.openbugbounty.org/):** a platform for reporting web vulnerabilities through coordinated disclosure
+- **Malware**: software designed to damage, disrupt, spy on, or exploit systems
+    - **Spyware**
+        - **Pegasus**: advanced spyware used to compromise and monitor mobile devices
 - **Metasploit Framework**: a platform for developing, testing, and executing exploits
 - **NetExec**: a tool for assessing and automating attacks against network services
 - **Responder**: a tool for capturing authentication attempts through poisoned name-resolution responses
 - **SearchSploit**: a command-line interface for searching the Exploit Database
-- **Malware**: software designed to damage, disrupt, spy on, or exploit systems
-    - **Spyware**
-        - **Pegasus**: advanced spyware used to compromise and monitor mobile devices
+
 
 ## Open Source Intelligence (OSINT)
 - **Maltego**: a graphical platform for mapping relationships between public information
@@ -432,7 +431,7 @@
 - **GreyNoise**: a threat-intelligence platform that identifies internet-wide scanning activity
 - **Insecam**: an index of publicly accessible and unsecured CCTV streams
 - **Nikto**: an open-source scanner for identifying web-server vulnerabilities and misconfigurations
-- **Nmap**: a network scanner for discovering hosts, ports, services, and operating systems\
+- **Nmap**: a network scanner for discovering hosts, ports, services, and operating systems
 - **Nmap Scripting Engine**: Nmap functionality that uses scripts for discovery, vulnerability detection, and network testing
 - **Nuclei**: a template-based scanner for detecting known vulnerabilities and expo
 - **Shodan**: a search engine for internet-connected devices and services
