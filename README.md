@@ -10,7 +10,7 @@
 - **Cryptocurrency Exchange Aggregators**
     - **[OrangeFren](https://orangefren.com/)**: a directory and rate aggregator for cryptocurrency exchange services
     - **[Trocador](https://trocador.app/)**: a cryptocurrency exchange aggregator that compares and routes swaps through third-party providers
-- **Cryptocurrency Wallets**
+- **Cryptocurrency Wallet**
     - **[Feather Wallet](https://docs.featherwallet.org/)**: a lightweight, privacy-focused desktop wallet for Monerome
 
 ## Cloud Security
