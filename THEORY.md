@@ -85,7 +85,6 @@
 
 ## Defensive Security (Blue Team)
 - **Access Control**: restricts access to resources according to defined policies
-    - **Active Directory (AD)**: Microsoft’s directory service for centrally managing Windows domains
     - **ACL (Access Control List)**: associates a resource with entries specifying which identities may perform particular actions
     - **Break-Glass Account**: a highly privileged account reserved for emergency access
     - **Directory Access Protocol**: defines how applications query and modify directory information
@@ -112,12 +111,13 @@
   - **Antivirus/Antimalware**: software that detects and removes malware
   - **Browsers**: software used to access web content securely when configured
   - **Compartmentalization**: separating activities and data to limit exposure
-  - **Secure Email**: communication medium with varying privacy properties
+  - **End-to-End Encryption (E2EE) Services**: scrambles data on the sender's device, keeping it hidden until it reaaches recipient
   - **IRC (Internet Relay Chats)**: real-time chat protocol used in communities
   - **MAC Address Randomization**: technique to prevent device tracking on networks
   - **Passwords**: secrets used to authenticate users; best combined with MFA
       - **Passphrases**: longer memorable strings used as passwords
       - **Password Managers**: tools to generate and store credentials securely
+- **Secure Email**: communication medium with varying privacy properties
   - **Secure Search Engines**: privacy-respecting web search alternatives
 - **Purple Teaming**: coordinates offensive and defensive security activities to improve prevention
 - **Security Awareness and Training:** teaches employees how to identify, prevent, and respond to cyber threats
