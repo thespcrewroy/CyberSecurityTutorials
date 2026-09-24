@@ -77,14 +77,14 @@
         - **[uBlock Origin](https://github.com/gorhill/uBlock)**: an efficient and configurable content-blocking browser extension
     - **Antivirus/Antimalware**
         - **[Bitdefender](https://www.bitdefender.com/consumer/support/)**: provides malware protection and endpoint-security products
-        - **ClamAV**: an open-source anti-malware toolkit commonly used on Unix-like systems
-        - **EICAR Anti-Malware Test File**: a harmless standardized file for testing anti-malware detection
+        - **[ClamAV](https://www.clamav.net/)**: an open-source anti-malware toolkit commonly used on Unix-like systems
+        - **[EICAR Anti-Malware Test File](https://www.eicar.org/download-anti-malware-testfile/)**: a harmless standardized file for testing anti-malware detection
         - **[Kaspersky](https://support.kaspersky.com/)**: a commercial antivirus and security-product suite
         - **[Malwarebytes](https://www.malwarebytes.com/)**: anti-malware software focused on modern threats
         - **[McAfee](https://www.mcafee.com/)**: a provider of consumer antivirus and online-protection products
         - **[Norton](https://support.norton.com/)**: a provider of consumer antivirus and online-security products
         - **[Microsoft Defender](https://learn.microsoft.com/en-us/defender-endpoint/)**: Microsoft’s endpoint-protection and threat-detection platform
-        - **MS-ISAC and EI-ISAC Malicious Code Analysis Platform**: a controlled, nonpublic sandbox for analyzing suspicious files
+        - **[MS/EI-ISAC Malicious Code Analysis Platform](https://www.cisecurity.org/services/malicious-code-analysis-platform)**: nonpublic sandbox for analyzing sus files
     - **Browsers**
         - **[Brave](https://support.brave.com/)**: a privacy-focused browser with built-in content blocking
         - **Comodo Dragon**: a security-focused Chromium-based web browser
