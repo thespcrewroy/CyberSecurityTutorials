@@ -26,7 +26,6 @@
     - **Container Security**
         - **[Grype](https://oss.anchore.com/docs/guides/vulnerability/getting-started/)**: a vulnerability scanner for container images, filesystems, and software bills
 - **[Google Security Command Center](https://cloud.google.com/security-command-center/docs/overview)**: Google Cloud’s platform for identifying vulnerabilities
-- **[Spirion](https://www.archtis.com/spirion-platform-overview/)**: a data-discovery and classification platform for locating sensitive information
 
 ## Cryptography
 - **Cryptanalysis**
@@ -70,6 +69,7 @@
     - **[Open-AudIT](https://www.open-audit.org/about.php)**: a network discovery and inventory-auditing platform
     - **[Snipe-IT](https://snipeitapp.com/)**: an open-source IT asset-management platform
     - **[Spiceworks](https://www.spiceworks.com/free-pc-network-inventory-software/)**: an IT inventory and asset-management platform
+    - **[Spirion](https://www.archtis.com/spirion-platform-overview/)**: a data-discovery and classification platform for locating sensitive information
     - **[State of Oregon Data Inventory Template](https://shorturl.at/MGJet)**: a template for documenting and managing an organization’s data inventory
 - **Business Continuity and Disaster Recovery (BCDR)**
     - **[Amanda Network Backup](https://www.amanda.org/)**: an open-source backup solution that uses a central server to back up multiple OS's to disks
