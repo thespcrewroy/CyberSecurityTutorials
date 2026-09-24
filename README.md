@@ -173,7 +173,7 @@
     - **[U.S. National Vulnerability Database](https://nvd.nist.gov/)**: a searchable repository of standardized information about publicly disclosed vulnerabilities
 
 ## Forensics
-- **Disk Wipe**: a portable Windows application for permanently erasing storage volumes
+- **[Disk Wipe](https://www.diskwipe.org/)**: a portable Windows application for permanently erasing storage volumes
 - **[ExifTool by Phil Harvey](https://exiftool.org/)**: a command-line utility for reading, writing, and inspecting file metadata
 - **File-System Forensics**
     - **[Autopsy](https://www.sleuthkit.org/autopsy/)**: a graphical digital-forensics platform built on The Sleuth Kit
@@ -184,7 +184,7 @@
 - **Memory Forensics**
     - **[Volatility 2](https://github.com/volatilityfoundation/volatility)**: a legacy Python framework for analyzing memory captures
     - **[Volatility 3](https://volatility3.readthedocs.io/en/latest/)**: the modern Volatility framework for memory forensics
-- **NIST SP 800-88**: NIST guidance for sanitizing storage media
+- **[NIST SP 800-88](https://csrc.nist.gov/pubs/sp/800/88/r2/final)**: NIST guidance for sanitizing storage media
 - **Spectrography**
     - **[Audacity](https://manual.audacityteam.org/man/spectrogram_view.html)**: an audio editor used to inspect waveforms and spectrograms
 - **Steganography**
