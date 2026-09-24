@@ -68,6 +68,16 @@
     - **[Snipe-IT](https://snipeitapp.com/)**: an open-source IT asset-management platform
     - **[Spiceworks](https://www.spiceworks.com/free-pc-network-inventory-software/)**: an IT inventory and asset-management platform
     - **[State of Oregon Data Inventory Template](https://shorturl.at/MGJet)**: a template for documenting and managing an organization’s data inventory
+- **Business Continuity and Disaster Recovery (BCDR)**
+    - **[Amanda Network Backup](https://www.amanda.org/)**: an open-source backup solution that uses a central server to back up multiple OS's to disks
+    - **[Apple Time Machine](https://support.apple.com/en-us/104984)**: a backup utility built into macOS that automatically creates versioned backups
+    - **[Bacula](https://www.bacula.org/)**: an open-source network backup, recovery, and data-verification platform designed to protect multiple systems across an enterprise
+    - **[CISA and MS-ISAC Joint Ransomware Guide](https://www.cisa.gov/sites/default/files/publications/CISA_MS-ISAC_Ransomware%20Guide_S508C.pdf)**: joint guidance in backups
+    - **[Clonezilla](https://clonezilla.org/clonezilla-live-doc.php)**: an open-source disk-imaging and cloning tool used to back up, restore, and deploy complete disks
+    - **[Microsoft Backup and Restore](https://support.microsoft.com/en-us/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup)**: built-in Windows
+    - **[Microsoft Volume Shadow Copy Service](https://learn.microsoft.com/en-us/windows-server/storage/file-server/volume-shadow-copy-service)**: a Windows service
+    - **[No More Ransom](https://www.nomoreransom.org/)**: ransomware-prevention guidance, IR resources, and free decryption tools for supported ransomware variants
+    - **[Redo Rescue](https://redorescue.com/)**: an open-source bootable backup and recovery environment used to create and restore complete system images
 - **Endpoint Management**
     - **[Microsoft Configuration Manager (formerly SCCM)](https://learn.microsoft.com/en-us/intune/configmgr/)**: an enterprise platform for monitoring endpoint devices
     - **[Microsoft Intune](https://learn.microsoft.com/en-us/intune/intune-service/)**: a cloud platform for managing devices, applications, and endpoint policies
