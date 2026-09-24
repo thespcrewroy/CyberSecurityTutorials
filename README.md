@@ -71,7 +71,7 @@
 - **Business Continuity and Disaster Recovery (BCDR)**
     - **[Amanda Network Backup](https://www.amanda.org/)**: an open-source backup solution that uses a central server to back up multiple OS's to disks
     - **[Apple Time Machine](https://support.apple.com/en-us/104984)**: a backup utility built into macOS that automatically creates versioned backups
-    - **[Bacula](https://www.bacula.org/)**: an open-source network backup, recovery, and data-verification platform designed to protect multiple systems across an enterprise
+    - **[Bacula](https://www.bacula.org/)**: an open-source network backup, recovery, and data-verification platform
     - **[CISA and MS-ISAC Joint Ransomware Guide](https://www.cisa.gov/sites/default/files/publications/CISA_MS-ISAC_Ransomware%20Guide_S508C.pdf)**: joint guidance in backups
     - **[Clonezilla](https://clonezilla.org/clonezilla-live-doc.php)**: an open-source disk-imaging and cloning tool used to back up, restore, and deploy complete disks
     - **[Microsoft Backup and Restore](https://support.microsoft.com/en-us/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup)**: built-in Windows
@@ -131,6 +131,14 @@
         - **[DuckDuckGo](https://duckduckgo.com/duckduckgo-help-pages/)**: a search engine designed to limit user tracking
         - **[SearXNG](https://docs.searxng.org/)**: an open-source, privacy-respecting metasearch engine
         - **[Startpage](https://support.startpage.com/)**: a privacy-oriented search engine and search proxy
+- **Security Awareness and Training:**
+    - **[Federal Virtual Training Environment Online Courses](https://niccs.cisa.gov/training/cisa-learning)**: former FedVTE program now provided through CISA Learning
+    - **[MS-ISAC Cybersecurity Awareness Toolkit](https://www.cisecurity.org/ms-isac/ms-isac-toolkit)**: collection of no-cost cybersecurity awareness materials
+    - **[MS-ISAC Newsletter](https://resources.cisecurity.org/ms-isac-subscription)**: provides advisories, vulnerability information, and security updates
+    - **[National Cybersecurity Alliance](https://staysafeonline.org/)**: nonprofit organization that provides cybersecurity, privacy, and online-safety education
+    - **[SANS OUCH Newsletters](https://www.sans.org/newsletters/ouch)**: free monthly security awareness newsletters explaining current cybersecurity topics in language
+    - **[Security Awareness Toolbox](https://www.sans.org/tools/security-awareness-planning-toolkit)**: collection of templates, planning guides, metrics, and other resources
+    - **[Stay Safe Online](https://www.staysafeonline.org/resources/online-safety-and-privacy/videos)**: collection of videos and educational resources about online behavior
 - **Security Operations**
     - **[ANY.RUN](https://any.run/)**: an interactive sandbox for analyzing malware behavior
     - **[Carnegie Mellon Incident Response Plan](https://www.cmu.edu/iso/governance/procedures/IRPlan.html)**: an example university incident-response plan
@@ -243,6 +251,11 @@
 - **NetExec**: a tool for assessing and automating attacks against network services
 - **Responder**: a tool for capturing authentication attempts through poisoned name-resolution responses
 - **SearchSploit**: a command-line interface for searching the Exploit Database
+- **Social Engineering**
+    - **Phishing**
+        - **[Berkeley Phish Tank](https://security.berkeley.edu/phish-tank)**: collection of real phishing examples and guidance from UC Berkeley
+        - **[NIST You’ve Been Phished](https://www.nist.gov/video/youve-been-phished)**: educational video explaining why users fall for phishing messages
+    - **[Professor Messer Social Engineering Videos](https://www.professormesser.com/network-plus/n10-009/n10-009-video/social-engineering-n10-009/)**: free educational videos
 
 
 ## Open Source Intelligence (OSINT)
