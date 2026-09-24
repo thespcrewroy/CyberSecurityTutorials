@@ -173,18 +173,18 @@
     - **[U.S. National Vulnerability Database](https://nvd.nist.gov/)**: a searchable repository of standardized information about publicly disclosed vulnerabilities
 
 ## Forensics
-- **[Disk Wipe](https://www.diskwipe.org/)**: a portable Windows application for permanently erasing storage volumes
 - **[ExifTool by Phil Harvey](https://exiftool.org/)**: a command-line utility for reading, writing, and inspecting file metadata
 - **File-System Forensics**
     - **[Autopsy](https://www.sleuthkit.org/autopsy/)**: a graphical digital-forensics platform built on The Sleuth Kit
     - **[Binwalk](https://github.com/ReFirmLabs/binwalk)**: identifies and extracts files embedded inside firmware and other binary data 
+    - **[Disk Wipe](https://www.diskwipe.org/)**: a portable Windows application for permanently erasing storage volumes
     - **[Foremost](https://foremost.sourceforge.net/)**: recovers files using headers, footers, and internal data structures
     - **[FTK Imager](https://www.exterro.com/ftk-product-downloads/ftk-imager-version-4-7-1)**: a forensic tool for creating disk images
+    - **[NIST SP 800-88](https://csrc.nist.gov/pubs/sp/800/88/r2/final)**: NIST guidance for sanitizing storage media
     - **[The Sleuth Kit (TSK)](https://www.sleuthkit.org/sleuthkit/)**: command-line tools and libraries for analyzing disks and file systems
 - **Memory Forensics**
     - **[Volatility 2](https://github.com/volatilityfoundation/volatility)**: a legacy Python framework for analyzing memory captures
     - **[Volatility 3](https://volatility3.readthedocs.io/en/latest/)**: the modern Volatility framework for memory forensics
-- **[NIST SP 800-88](https://csrc.nist.gov/pubs/sp/800/88/r2/final)**: NIST guidance for sanitizing storage media
 - **Spectrography**
     - **[Audacity](https://manual.audacityteam.org/man/spectrogram_view.html)**: an audio editor used to inspect waveforms and spectrograms
 - **Steganography**
