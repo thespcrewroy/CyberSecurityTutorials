@@ -15,7 +15,7 @@
 
 ## Cloud Security
 - **[Cloudflare](https://developers.cloudflare.com/fundamentals/security/)**: a cloud platform providing CDN, DNS, DDoS protection, and web security services
-- **[Cyera](https://www.cyera.com/platform)**: a data security posture management platform that discovers, classifies, and protects sensitive data
+- **[Cyera](https://www.cyera.com/platform)**: discovers, classifies, and protects sensitive data across cloud, SaaS, and hybrid environments
 - **Containerization**
     - **[Docker](https://docs.docker.com/get-started/)**: a platform for building and running applications inside containers
     - **Container Images**
