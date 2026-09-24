@@ -357,6 +357,7 @@
                 - **CentOS**: a community project centered on the development stream leading to RHEL
         - **SUSE Family**
             - **openSUSE**: a community distribution available in rolling and stable editions
+            - **SUSE Linux Enterprise Server (SLES):** enterprise-grade server operating system designed for mission-critical workloads
 - **Windows NT Family**: Microsoft operating systems built on the Windows NT architecture
     - **Microsoft Windows**: Microsoft’s proprietary family of desktop operating systems
         - **CIS Microsoft Windows Cyber Hygiene Guide**: CIS guidance for improving foundational Windows security
