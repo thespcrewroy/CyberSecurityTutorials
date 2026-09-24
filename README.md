@@ -62,6 +62,7 @@
 - **Asset Management**
     - **[Axonius](https://www.axonius.com/)**: cybersecurity asset management and asset intelligence platform
     - **[CIS Asset Tracking Spreadsheet](https://www.cisecurity.org/insights/white-papers/cis-controls-inventory-tracking-spreadsheets)**: a spreadsheet for inventorying assets
+    * **[Daniel Miessler’s Cybersecurity Resources](https://danielmiessler.com/blog/continuous-asset-management-security)**: tutorails for asset management security
     - **[Lansweeper](https://www.lansweeper.com/)**: an IT asset-discovery and inventory platform
     - **[NIST SP 1800-5](https://www.nccoe.nist.gov/publication/1800-5/)**: practical NIST guidance for improving IT asset management
     - **[Open-AudIT](https://www.open-audit.org/about.php)**: a network discovery and inventory-auditing platform
@@ -81,6 +82,23 @@
 - **Endpoint Management**
     - **[Microsoft Configuration Manager (formerly SCCM)](https://learn.microsoft.com/en-us/intune/configmgr/)**: an enterprise platform for monitoring endpoint devices
     - **[Microsoft Intune](https://learn.microsoft.com/en-us/intune/intune-service/)**: a cloud platform for managing devices, applications, and endpoint policies
+- **GRC (Governance, Risk, and Compliance)**
+    - **[CCPA (California Consumer Privacy Act)](https://oag.ca.gov/privacy/ccpa)**: privacy law protecting California residents
+    - **[CIS Controls](https://www.cisecurity.org/controls)**: best-practice security controls checklist
+        - **[CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks)**: consensus-developed secure configuration guidelines for OS, apps, cloud, and network devices
+        - **[CIS Build Kits](https://www.cisecurity.org/insights/blog/build-kits-speed-implementation-of-secure-configurations)**: automated config files, scripts, and GPOs
+        - **[CIS-CAT Pro](https://www.cisecurity.org/cybersecurity-tools/cis-cat-pro)**: automated assessment tool that scans systems and reports their compliance with CIS
+        - **[CIS InfoSec Policy Templates](https://www.cisecurity.org/controls/policy-templates)**: customizable policy templates that to help document security requirements
+        - **[CIS SecureSuite Membership](https://www.cisecurity.org/cis-securesuite)**: membership providing access to CIS security tools and resources
+    - **[CMMC (Cybersecurity Maturity Model Certification)](https://dodcio.defense.gov/CMMC/Resources-Documentation/):** ensure defense contractors protect unclassified info
+    - **[DISA STIGs](https://public.cyber.mil/stigs/downloads/)**: security configuration standards developed by the Defense Information Systems Agency DoD Sytems and tech
+    - **[GDPR (General Data Protection Regulation)](https://gdpr-info.eu/)**: EU regulation on personal data protection
+    - **[HIPAA (Health Insurance Portability and Accountability Act)](https://www.hhs.gov/hipaa/index.html)**: US law protecting health information
+    - **[HITRUST CSF (Common Security Framework)](https://hitrustalliance.net/hitrust-framework)**: health data security
+    - **[ISO/IEC 27001](https://www.iso.org/standard/27001)**: world's leading international standard for managing information security
+    - **[NIST Cybersecurity Framework (CSF)](https://www.nist.gov/cyberframework)**: a framework for understanding and managing cybersecurity risk
+    - **[PCI-DSS (Payment Card Industry Data Security Standard)](https://www.pcisecuritystandards.org/standards/pci-dss/)**: requirements for handling cardholder data
+    - **[SOC (System and Organization Controls)](https://www.aicpa-cima.com/resources/)**: audit standard for service organizations
 - **Operational Security (OpSec)**
     - **Adblock**
         - **[Decentraleyes](https://git.synz.io/Synzvato/decentraleyes)**: locally provides common web resources to reduce third-party requests
@@ -229,6 +247,7 @@
 - **Panorama**: Palo Alto Networks’ centralized platform for managing multiple firewalls and their security policies
 - **Pi-Hole**: DNS-level ad and tracker blocking appliance
 - **Quad9**: a privacy-focused public DNS service that blocks known malicious domains
+* **[RANCID](https://shrubbery.net/rancid/index.html)**: automatically collects, stores, and tracks changes to router and switch configurations
 - **Snort**: an intrusion detection and prevention system for analyzing network traffic
 - **Tailscale**: a mesh VPN service that connects devices using WireGuard
 - **`tcpdump`**: command-line packet capture utility
