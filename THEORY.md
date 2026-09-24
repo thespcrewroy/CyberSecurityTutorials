@@ -130,6 +130,7 @@
       - **Password Managers**: tools to generate and store credentials securely
   - **Secure Search Engines**: privacy-respecting web search alternatives
 - **Purple Teaming**: coordinates offensive and defensive security activities to improve prevention
+- **Security Awareness and Training:** teaches employees how to identify, prevent, and respond to cyber threats
 - **Security Operations**: continuously monitors and protects systems from security threats
     - **CTI (Cyber Threat Intelligence)**: analyzed information about threats, adversaries, capabilities, intentions, and indicators
         - **Cyber Kill Chain**: a model describing the stages of a cyberattack from preparation through completion
