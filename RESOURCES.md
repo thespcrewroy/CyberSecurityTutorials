@@ -79,6 +79,7 @@
 - [2 October] [NCL CyberGames](https://nationalcyberleague.org/): collegiate individual and team cybersecurity competition
 - [2 October] [Meta Hacker Cup](https://www.facebook.com/codingcompetitions/hacker-cup): algorithmic programming competition
 - [4 October] [US Cyber Challenge](https://www.uscyberchallenge.org/): cybersecurity workforce-development program connected to CyberQuest
+- [4 October] [Meta Flash CTF](https://app.metactf.com/): helps companies protect their employee and customer data cyber competition
 - [2 November] [CyberForce Competition](https://cyberforce.energy.gov/cyberforce-competition/2026-competition/)
 - [3 November] [PatriotCTF (GMU)](https://competitivecyber.club/patriotctf/): beginner-friendly online CTF
 - [4 November] [tkCTF (GT) - Travel Required!](https://tc.gts3.org/cs6265/2024-fall/ctf.html): Georgia Tech binary-exploitation competition
