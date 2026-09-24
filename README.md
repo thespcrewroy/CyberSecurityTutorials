@@ -502,6 +502,7 @@
 - **WPScan**: a security scanner designed for WordPress websites
 
 ## TODO
+* [CIS Benchmarks](https://learn.cisecurity.org/benchmarks): CIS best-practice security configuration guides for a bunch of resoures
 * [GeoSpy](https://geospy.ai/): an AI-powered tool for estimating the geographic location of photos
 * [dCode](https://www.dcode.fr/en): a collection of tools for solving ciphers, codes, puzzles, and mathematical problems
 * [AES Encryption/Decryption](https://www.devglan.com/online-tools/aes-encryption-decryption): an online tool for encrypting and decrypting data using AES
