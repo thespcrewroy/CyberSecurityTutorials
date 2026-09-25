@@ -253,7 +253,7 @@
 - **Panorama**: Palo Alto Networks’ centralized platform for managing multiple firewalls and their security policies
 - **Pi-Hole**: DNS-level ad and tracker blocking appliance
 - **Quad9**: a privacy-focused public DNS service that blocks known malicious domains
-* **[RANCID](https://shrubbery.net/rancid/index.html)**: automatically collects, stores, and tracks changes to router and switch configurations
+- **[RANCID](https://shrubbery.net/rancid/index.html)**: automatically collects, stores, and tracks changes to router and switch configurations
 - **Snort**: an intrusion detection and prevention system for analyzing network traffic
 - **Tailscale**: a mesh VPN service that connects devices using WireGuard
 - **`tcpdump`**: command-line packet capture utility
