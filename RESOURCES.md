@@ -108,6 +108,7 @@
 * [3 September] [BSides Orlando](https://bsidesorlando.org/): join us for a day of learning, networking, and fun 
 * [3 September] [SecureWorld Atalnta](https://events.secureworld.io/details/atlanta-ga-2026/): attend the region's top cybersecurity conference
 * [4 September] [National Cyber and AI Virtual Career Fair](https://www.caecommunity.org/national-cyber-and-ai-career-fair): nearly 500 CAE institutions invited
+* [4 September] [EDUCAUSE Cybersecurity and Privacy Professionals Conference](https://events.educause.edu/annual-conference)
 * [1 October] [WWHF (Wild West Hackin’ Fest)](https://wildwesthackinfest.com/): a cybersecurity conference emphasizing practical training and hands-on learning
 * [1 October] [BSides Atlanta](https://ti.to/bsidesatl/2023): Atlanta’s community-driven conference for cybersecurity education and networking
 * [2 October] [Crowe National Case Competition](https://www.crowe.com/careers/students/case-competition): solve real-world problems while showcasing their skills
