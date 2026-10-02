@@ -127,6 +127,7 @@
 
 ## Resources
 - [Attack and Defend CTFs](https://medium.com/@iabdullah_215/my-guide-to-attack-and-defense-ctfs-ecbe838d49cd): my guide to attack and defend CTFs
+- [ASM Tron](http://asmtron.zionbasque.com/): game for understanding assembly instructions in low level code
 - [Boss of the SOC](https://bots.splunk.com/): a Splunk-based blue-team challenge for investigating realistic security incidents
 - [Bug Bounty Hunter](https://www.bugbountyhunter.com/): training for web application hacking and bug-bounty hunting
 - [BugCrowd](https://www.bugcrowd.com/): connects organizations with a global community of vetted ethical hackers 
