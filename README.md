@@ -99,6 +99,7 @@
     - **[HIPAA (Health Insurance Portability and Accountability Act)](https://www.hhs.gov/hipaa/index.html)**: US law protecting health information
     - **[HITRUST CSF (Common Security Framework)](https://hitrustalliance.net/hitrust-framework)**: health data security
     - **[ISO/IEC 27001](https://www.iso.org/standard/27001)**: world's leading international standard for managing information security
+    - **[Microsoft Purview](https://www.microsoft.com/en-us/security/business/microsoft-purview):** unified data security, governance, and compliance platform
     - **[NIST Cybersecurity Framework (CSF)](https://www.nist.gov/cyberframework)**: a framework for understanding and managing cybersecurity risk
     - **[PCI-DSS (Payment Card Industry Data Security Standard)](https://www.pcisecuritystandards.org/standards/pci-dss/)**: requirements for handling cardholder data
     - **[SOC (System and Organization Controls)](https://www.aicpa-cima.com/resources/)**: audit standard for service organizations
