@@ -182,7 +182,7 @@
     - **[ENISA Incident Response Plan](https://www.enisa.europa.eu/topics/eu-incident-response-and-cyber-crisis-management)**: IR and resilience guidance from ENISA
     - **[MS-ISAC](https://www.cisecurity.org/ms-isac)**: cybersecurity resources, threat intelligence, and incident-response support for SLTT governments
     - **[MS/EI-ISAC Malicious Code Analysis Platform](https://www.cisecurity.org/services/malicious-code-analysis-platform)**: nonpublic sandbox for analyzing sus files
-    - **[MS-ISAC Service](https://www.cisecurity.org/ms-isac/services)s**: cybersecurity services available through MS-ISAC
+    - **[MS-ISAC Services](https://www.cisecurity.org/ms-isac/services)**: cybersecurity services available through MS-ISAC
     - **IDS/IPS (Intrusion Detection & Intrusion Prevention System):**
         - **[Snort](https://www.snort.org/):** open-source network intrusion detection and prevention system
         - **[Suricata](https://docs.suricata.io/)**: an open-source intrusion-detection, intrusion-prevention, and network-monitoring engine
