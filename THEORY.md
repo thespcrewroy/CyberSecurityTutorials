@@ -46,7 +46,7 @@
             - **TOFU (Trust on First Use)**: initially accepts an unknown host key and warns if that key later changes        
 - **Authorization**: determines which resources or actions an identity is permitted to access
     - **Delegated Authorization**: allows one application to access resources on behalf of a user
-        - **OAuth (Open Authorization)**: a framework for granting delegated access without sharing the user’s password
+        - **OAuth2 (Open Authorization 2.0)**: a framework for granting delegated access without sharing the user’s password
 - **Cipher**: an algorithm that encrypts plaintext or decrypts ciphertext using a key
     - **Classical Cipher**: a historical cipher generally performed manually using substitution or transposition
         - **Substitution Cipher**: replaces plaintext elements with different symbols or characters
