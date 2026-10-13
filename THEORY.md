@@ -481,6 +481,7 @@
 ## Web Exploitation
 - **Broken Access Control**: improperly enforced permissions that allow users to access unauthorized data
 - **Cross-Site Scripting (XSS)**: injects malicious client-side scripts that execute in another user’s browser
+- **JSON Web Token (JWT):**  defines a compact and self-contained way to securely transmit info between parties as a JSON object
 - **Middleware**: software that connects applications, services, and underlying systems
 - **Obfuscation**: disguises code, payloads, or requests to make them harder for users and security controls to understand or detect
 - **Server-Side Request Forgery (SSRF)**: tricks a server into making requests to internal or external resources chosen by an attacker
