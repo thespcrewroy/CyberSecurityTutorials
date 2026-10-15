@@ -247,6 +247,7 @@
     - **DNS Hijacking**: altering DNS settings or records to redirect network traffic
 - **Social Engineering**: manipulating people into revealing information or performing unsafe actions
     - **Baiting**: offering something enticing to provoke an unsafe action
+    - **ClickFix:** tricks users into executing malicious commands using fake CAPTCHAs, error messages, or troubleshooting alerts
     - **Dumpster Diving**: retrieving sensitive information from discarded materials
     - **Impersonation**: pretending to be a trusted person or authority
     - **Phishing**: using deceptive messages or websites to steal information
