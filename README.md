@@ -473,6 +473,7 @@
         
 ## Scanning and Reconaissance
 - **Amass**: a tool for discovering subdomains and mapping external attack surfaces
+- **[Armada](https://tinyurl.com/3xsy3mwd)**: risk3sixty's offensive security and attack surface management (ASM) platform
 - **BinaryEdge**: an internet asset intelligence and scanning platform
 - **Censys**: an internet-wide search engine for hosts, services, and certificates
 - **DNSRecon**: a tool for enumerating DNS records and configurations
