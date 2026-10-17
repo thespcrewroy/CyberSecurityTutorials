@@ -470,7 +470,7 @@
     - **Kuna:** Rust-based decompiler originally derived from Ghidra designed for fast binary decompilation and AI-assisted reverse engineering
     - **Operation Mango**: a static-analysis system for finding taint-style vulnerabilities in Linux-based firmware
     - **radare2**: an open-source framework for reverse engineering and binary analysis
-    - **REA (Reverse Engineer Anything):** an AI-agent-integrated toolkit using CLI and MCP to analyze binaries, apps, and runtime behavior
+    - **REA (Reverse Engineer Anything):** an AI-agent toolkit using CLI and MCP to analyze binaries, apps, and runtime behavior
     - **SDRacer**: a system for detecting, validating, and repairing race conditions in interrupt-driven embedded software
         
 ## Scanning and Reconaissance
