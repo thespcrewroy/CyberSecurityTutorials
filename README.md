@@ -467,7 +467,7 @@
     - **FIE on Firmware**: a symbolic-execution platform for finding vulnerabilities in MSP430 firmware
     - **Ghidra**: an open-source reverse-engineering suite developed by the NSA 
     - **IDA Pro**: a commercial disassembler and debugger for reverse engineering bin
-    - **Kuna:** Rust-based decompiler originally derived from Ghidra designed for fast binary decompilation and AI-assisted reverse engineering
+    - **Kuna:** Rust-based decompiler, derived from Ghidra, for fast binary decompilation and AI-assisted reverse engineering
     - **Operation Mango**: a static-analysis system for finding taint-style vulnerabilities in Linux-based firmware
     - **radare2**: an open-source framework for reverse engineering and binary analysis
     - **REA (Reverse Engineer Anything):** an AI-agent toolkit using CLI and MCP to analyze binaries, apps, and runtime behavior
