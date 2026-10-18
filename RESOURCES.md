@@ -176,7 +176,7 @@
     - [Malicious Docker Hub Container Images](https://shorturl.at/8Hljb): an analysis of malicious container images used for cryptocurrency mining
     - [Docker Seccomp Documentation](https://docs.docker.com/engine/security/seccomp/): official guidance for restricting container system calls with seccomp profiles
 - [WebGoat](https://owasp.org/www-project-webgoat/): an intentionally insecure web application for learning common vulnerabilities
-- [WebVulnerabilitiesDemos](https://tinyurl.com/rs8ea7sa): makes understanding common web vulnerabilities more accessible for laypeople like you
+- [WebVulnerabilitiesDemos](https://lnkd.in/eqh6huEA): makes understanding common web vulnerabilities more accessible for laypeople like you
 
 ## YouTubers
 - [IppSec](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA): detailed Hack The Box walkthroughs and penetration-testing tutorials
