@@ -450,6 +450,7 @@
 - **[WiFi Nugget](https://github.com/tom4ta/WiFi-Nugget)**: a portable device for learning about and testing Wi-Fi security
 
 ## PWN
+- **[DecBench](https://decbench.com/)**: open-source living benchmark for decompilers created by the Noelo Lab at UGA
 - **Dynamic Analysis (Binary Exploitation)**
     - **angr**: a Python framework for binary analysis and symbolic execution
     - **GNU Debugger (GDB)**: a debugger for inspecting and controlling programs during execution
