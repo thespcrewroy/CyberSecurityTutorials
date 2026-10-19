@@ -466,7 +466,8 @@
 - **Static Analysis (Reverse Engineering)**
     - **Binary Ninja**: a commercial reverse-engineering platform for analyzing compiled binaries
     - **FIE on Firmware**: a symbolic-execution platform for finding vulnerabilities in MSP430 firmware
-    - **Ghidra**: an open-source reverse-engineering suite developed by the NSA 
+    - **Ghidra**: an open-source reverse-engineering suite developed by the NSA
+    - **Hopper**: a commercial disassembler and decompiler primarily used for macOS, Linux, and iOS applications
     - **IDA Pro**: a commercial disassembler and debugger for reverse engineering bin
     - **Kuna:** Rust-based decompiler, derived from Ghidra, for fast binary decompilation and AI-assisted reverse engineering
     - **Operation Mango**: a static-analysis system for finding taint-style vulnerabilities in Linux-based firmware
