@@ -466,6 +466,7 @@
     - **HD-Fuzz**: a firmware fuzzing approach designed to account for hardware-dependent behavior
 - **Static Analysis (Reverse Engineering)**
     - **Binary Ninja**: a commercial reverse-engineering platform for analyzing compiled binaries
+    - **[BinSync](https://binsync.net/)**: open-source Git-based collaboration framework for synchronizing RE analysis across multiple decompilers
     - **FIE on Firmware**: a symbolic-execution platform for finding vulnerabilities in MSP430 firmware
     - **Ghidra**: an open-source reverse-engineering suite developed by the NSA
     - **Hopper**: a commercial disassembler and decompiler primarily used for macOS, Linux, and iOS applications
