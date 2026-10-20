@@ -6,7 +6,7 @@
 
 ## Blockchain
 - **Atomic Swaps**
-    - **[UnstoppableSwap](https://unstoppableswap.net/)**: a platform for atomic swaps between Bitcoin and Monero
+    - **[EigenWallet (formerly UnstoppableSwap)](https://unstoppableswap.net/)**: a platform for atomic swaps between Bitcoin and Monero
 - **Cryptocurrency Exchange Aggregators**
     - **[OrangeFren](https://orangefren.com/)**: a directory and rate aggregator for cryptocurrency exchange services
     - **[Trocador](https://trocador.app/)**: a cryptocurrency exchange aggregator that compares and routes swaps through third-party providers
@@ -145,7 +145,7 @@
             - **[Password Safe](https://pwsafe.org/)**: an open-source password manager for storing credentials in an encrypted database
         - **[Specops Password Auditor](https://specopssoft.com/product/specops-password-auditor/)**: an Active Directory auditing tool for identifying weak or compromised passwords
     - **Secure Email**
-        - **[Addy.io](https://addy.io/help/)**: an email-alias service formerly known as AnonAddy
+        - **[Addy.io (formerly AnonAddy)](https://addy.io/help/)**: an email-alias service
         - **[Guerrilla Mail](https://www.guerrillamail.com/)**: a disposable email-address service
         - **[Mailfence](https://kb.mailfence.com/)**: an encrypted email and collaboration service
         - **[Microsoft 365 Quarantine](https://learn.microsoft.com/en-us/defender-office-365/quarantine-about)**: isolates suspected spam, phishing, malware, etc.
@@ -153,7 +153,7 @@
         - **[Private-Mail](https://privatemail.com/)**: a privacy-focused encrypted email service
         - **[Proton Mail](https://proton.me/support/mail)**: an encrypted email service with end-to-end and zero-access encryption
         - **[Temp Mail](https://temp-mail.org/)**: a temporary inbox and disposable email service
-        - **[Tuta](https://tuta.com/support)**: an encrypted email service formerly known as Tutanota
+        - **[Tuta (formerly Tutanota)](https://tuta.com/support)**: an encrypted email service
     - **Secure Search Engines**
         - **[DuckDuckGo](https://duckduckgo.com/duckduckgo-help-pages/)**: a search engine designed to limit user tracking
         - **[SearXNG](https://docs.searxng.org/)**: an open-source, privacy-respecting metasearch engine
