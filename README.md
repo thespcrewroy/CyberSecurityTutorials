@@ -369,6 +369,7 @@
 - **TempleOS**: a lightweight biblical-themed operating system created entirely by Terry A. Davis
 - **Virtualization**
     - **Hypervisors**
+        - **Qemu:** FOSS software tool that performs machine emulation and virtualization
         - **VirtualBox**: Oracle’s free, cross-platform desktop hypervisor
         - **VMware**: a family of commercial virtualization and cloud-computing products
         - **Xen**: an open-source type-1 hypervisor for running isolated virtual machines
