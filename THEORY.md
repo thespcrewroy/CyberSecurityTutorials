@@ -27,6 +27,7 @@
         - **Something You Know**: something the user knows
             - **KBA (Knowledge-Based Authentication)**: verifies identity using answers to personal-information questions
         - **Something You Have**: something the user physically or digitally possesses
+            - **HOTP (HMAC-Based One-Time Password)**: generates one-time authentication codes from a shared secret and an incrementing counter
             - **TOTP (Time-Based One-Time Password)**: generates time-limited authentication codes from a shared secret
         - **Something You Are**: a physical or behavioral characteristic of the user
             - **Biometrics**: physiological or behavioral characteristics used to verify identity
