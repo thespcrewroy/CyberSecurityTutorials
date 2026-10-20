@@ -410,6 +410,7 @@
     - **[FEITIAN Security Key](https://fido.ftsafe.com/guide-2/)**: a hardware authenticator manufactured by FEITIAN
     - **[Google Titan Security Key](https://support.google.com/titansecuritykey/)**: Google’s hardware security-key product line
     - **[Yubico YubiKey](https://docs.yubico.com/)**: Yubico’s hardware security-key product line
+        - **[`ykman` (YubiKey Manager)](https://docs.yubico.com/software/yubikey/tools/ykman/)**: used to configure YubiKey apps such as OTP, FIDO, PIV, and OpenPGP
 - **[HP EliteDesk 800 G2 SFF](https://shorturl.at/mWctg)**:  i5-6500 @ 3.2GHz 8GB RAM 240GB SSD Linux Mint 22
 - **[HP ProDesk 600 G2 SFF](https://shorturl.at/Lb6w3)**:  i5-6500 @ 3.2GHz 8GB RAM 240GB SSD Linux Mint 22
 - **[LAN Turtle](https://documentation.hak5.org/lan-turtle/)**: a covert USB network adapter used for authorized remote access and network assessments
