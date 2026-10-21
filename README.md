@@ -293,6 +293,7 @@
         - **[Self-Destructing Cookies](https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/)**: Firefox extension that automatically deletes cookies when a tab is closed
         - **[Tor Browser](https://tb-manual.torproject.org/)**: a browser that routes traffic through the Tor network
         - **[Trace My IP](https://www.tracemyip.org/)**: IP address lookup and geolocation tool that reveals current IP, ISP, location
+        - **[TraceMyIP User Agent String Decoder](https://tools.tracemyip.org/user-agent-string-decoder/)**: decodes a user-agent string into browser
         - **[UserAgentString.com](https://www.useragentstring.com/pages/useragentstring.php)**: database of known user agent strings for browsers, bots, and devices
         - **[WebRTC Leak Test](https://www.perfect-privacy.com/webrtc-leaktest/)**: tests whether WebRTC is exposing your real IP address even
         - **[What browser am I using.co](https://www.whatbrowseramiusing.co/)**: simple browser detection page that identifies your current browser name, version
@@ -409,6 +410,7 @@
     - **[MS/EI-ISAC Malicious Code Analysis Platform](https://www.cisecurity.org/services/malicious-code-analysis-platform)**: nonpublic sandbox for analyzing sus files
     - **[Zabbix](https://www.zabbix.com/)**: an open-source platform for monitoring infrastructure, networks, applications, and services
 - **Vulnerability Management**
+    - **[CVE]([https://www.cve.org/](https://www.cve.org/))**: the official catalog of publicly disclosed vulnerabilities and their CVE IDs
     - **[endoflife.date](https://endoflife.date/)**: a community-maintained resource tracking product support and end-of-life dates
     - **[Lynis](https://cisofy.com/lynis/)**: an open-source security-auditing and system-hardening tool
     - **[OpenSCAP](https://www.open-scap.org/)**: an open-source ecosystem for assessing and enforcing security baselines
@@ -607,6 +609,10 @@ ncrypted file samples
 - **[Exploit Database](https://www.exploit-db.com/)**: an archive of public exploits and vulnerable software maintained by OffSec
     - **[SearchSploit](https://www.exploit-db.com/searchsploit)**: a command-line interface for searching the Exploit Database
 - **[fireELF](https://github.com/rek7/fireELF)**: a framework for executing fileless Linux payloads from memory
+- **Living off the Land (LOTL)**
+    - **[GTFOBins](https://gtfobins.org/)**: Unix binaries that can be abused to bypass local security restrictions
+    - **[LOLBAS](https://lolbas-project.github.io/)**: Windows binaries, scripts, and libraries that attackers can abuse
+    - **[LOLDrivers](https://www.loldrivers.io/)**: a catalog of vulnerable and malicious Windows drivers
 - **[Metasploit Framework](https://docs.metasploit.com/)**: a platform for developing, testing, and executing exploits
 - **[NetExec](https://www.netexec.wiki/)**: a tool for assessing and automating attacks against network services
 - **Privilege Escalation**
@@ -628,6 +634,7 @@ ncrypted file samples
     - **[Catphish](https://github.com/ring0lab/catphish)**: red team tool for generating phishing domains using homoglyphs, punycode
     - **[DNS Twist](https://github.com/elceef/dnstwist)**: domain name permutation engine for detecting homograph phishing attacks and typosquatting
     - **[dnstwister](https://dnstwister.report/)**: web-based domain permutation tool with free lookup and paid monitoring plans
+    - **[Have I Been Squatted?](https://haveibeensquatted.com/)**: checks whether look-alike domains of your domain have been registered
     - **[URLCrazy](https://www.morningstarsecurity.com/research/urlcrazy)**: Ruby-based typosquatting domain generator supporting 15 variation types
 
 ## Open Source Intelligence (OSINT)
@@ -687,6 +694,7 @@ ncrypted file samples
     - **[Reddit Onions](https://www.reddit.com/r/onions/)**: subreddit for .onion service discussion, availability reports, and tool recommendations
     - **[Tor Download](https://www.torproject.org/download/)**: official Tor Project distribution page for Tor Browser and related anonymity tooling
     - **[TorBot](https://github.com/DedSecInside/TorBot)**: Python-based crawler for discovering and indexing .onion links and related metadata
+    - **[WeboProxy](https://weboproxy.com/)**: a web-based gateway for viewing .onion sites without Tor
 - **Data Brokers**
     - **[Addresses.com](https://www.addresses.com/)**: free people search engine for name, phone, and address lookups
     - **[Ancestry.com](https://www.ancestry.com/search/)**: World's largest genealogy platform with over 40 billion historical records
@@ -704,6 +712,7 @@ ncrypted file samples
     - **[ThatsThem](https://thatsthem.com/)**: a people-search service that can associate usernames with public records
     - **[The Bump](https://registry.thebump.com/babyregistrysearch)**: baby registry finder from The Bump parenting platform
     - **[The Knot](https://www.theknot.com/registry/couplesearch)**: wedding registry search allowing lookup of couples' wedding registries by name
+    - **[TruePeopleSearch](https://www.truepeoplesearch.com/)**: a free people-search site for names, phone numbers, and addresses
     - **[usa-people-search.com](https://www.usa-people-search.com/)**: US people search and background check service accessing public records
     - **[Webmii](https://webmii.com/)**: free people search engine that calculates a web visibility score based on online presence
     - **[Yasni](https://www.yasni.com/)**: free people search engine allowing searches by name, location, profession, company, or skills
@@ -742,6 +751,7 @@ ncrypted file samples
     - **[SiteSleuth](https://www.sitesleuth.io/)**: OSINT domain analytics tool tracking Google Analytics, AdSense, and Stripe keys
     - **[SpyOnWeb](https://www.spyonweb.com/)**: correlation tool that links domains by shared tracking and advertising identifiers
     - **[StatsCrop](https://www.statscrop.com/)**: website statistics portal with traffic rank snapshots and related metadata
+    - **[unshorten.me](https://unshorten.me/)**: expands shortened URLs to reveal their real destination
     - **[URL Expander](https://urlex.org/)**: link resolver for unshortening and inspecting redirect destination chains
     - **[Visual Site Mapper](https://github.com/alentum/sitemapper-nodejs)**: site-crawling mapper used to visualize website structure and page relationships
     - **[VisualPing](https://visualping.io/)**: website monitoring platform that alerts on page content or visual changes
@@ -989,10 +999,12 @@ ncrypted file samples
     - **[Tinder Usernames](https://tinder.com/@%3Cusername%3E)**: a manual lookup for public Tinder profiles associated with a username
 - **[Recon-ng](https://github.com/lanmaster53/recon-ng)**: a modular framework for conducting web-based reconnaissance
 - **Reputation Lookup**
+    - **[AbuseIPDB](https://www.abuseipdb.com/)**: a community database of IP addresses reported for abuse
     - **[AlienVault Open Threat Exchange](https://otx.alienvault.com/browse/pulses/)**: community-driven threat intelligence platform enabling collaborative defense
     - **[Blackweb](https://github.com/maravento/blackweb)**: open-source project consolidating public malware domain blacklists optimized
     - **[Blocklist.de](https://www.blocklist.de/en/index.html)**: community-contributed blocklist of IP addresses involved in attacks and malicious activity
     - **[Cisco Talos](https://talosintelligence.com/)**: Cisco's comprehensive IP and domain reputation intelligence system
+    - **[CleanTalk Email Checker](https://cleantalk.org/email-checker)**: checks an email address’s spam and scam reputation
     - **[Critical Stack Intel](https://intel.criticalstack.com/)**: free threat intelligence feeds integrated with Bro/Zeek network security monitoring systems
     - **[Deepviz Domain Search](https://search.deepviz.com/)**: threat intelligence platform providing domain, IP, and malware sample search with daily threat feeds
     - **[DShield API](https://isc.sans.edu/api/)**: API and database of security events and IPs involved in attacks monitored by SANS
@@ -1009,9 +1021,11 @@ ncrypted file samples
     - **[Project Honey Pot](https://www.projecthoneypot.org/list_of_ips.php)**: global honeypot network collecting spam and attack data with IP reputation service
     - **[scumware.org](https://www.scumware.org/)**: free malware and spyware tracking domain blacklist maintained by security community for 18+ years
     - **[Shadowserver Foundation](https://www.shadowserver.org/)**: nonprofit providing comprehensive IP reputation intelligence
+    - **[SSLBL](https://sslbl.abuse.ch/blacklist/)**: abuse.ch’s blacklist of TLS certificates used by malware and botnets
     - **[Sucuri SiteCheck](https://sitecheck.sucuri.net/)**: free remote website scanner that checks for malware, security threats, blacklisting
     - **[ThreatMiner.org](https://www.threatminer.org/)**: non-profit threat intelligence portal providing IOC research
     - **[Trend Micro Site Safety Center](https://global.sitesafety.trendmicro.com/)**: checks website safety ratings from Trend Micro's sources
+    - **[URLhaus](https://urlhaus.abuse.ch/browse/)**: abuse.ch’s database of URLs used to distribute malware
     - **[URL Void](https://www.urlvoid.com/)**: free website reputation checker that scans URLs against 30+ blocklist engines
     - **[UrlQuery.net](https://urlquery.net/)**: free online URL scanner that analyzes webpages for malware, suspicious elements
     - **[vURL Online](https://vurldissect.co.uk/)**: URL and domain dissection tool providing detailed reputation analysis and security assessment
@@ -1069,6 +1083,7 @@ ncrypted file samples
 - **Search-Engine Dorking**
     - **Google Dorking (Google Hacking)**
         - **[Amazon Usernames](https://www.google.com/search?q=site:amazon.com+%3Cusername%3E)**: a manual search for public Amazon profiles
+        - **[Dork Generator](https://dorkgenerator.pages.dev/)**: builds Google dork queries from simple inputs
         - **[Dorksearch](https://www.dorksearch.com/)**: a faster interface for building and running Google dork queries
         - **[Hidden Reddit Posts](https://www.google.com/search?q=site:reddit.com+%3Cusername%3E)**: a manual search for hidden Reddit posts
     - **[Sitedorks](https://github.com/Zarcolio/sitedorks)**: a tool for running a search query across many sites at once using dorks
@@ -1180,22 +1195,23 @@ ncrypted file samples
     - **[WhatTheFont](https://www.myfonts.com/pages/whatthefont/)**: image-based font identification service that matches uploaded text images against a large
     - **[Word Reference](https://www.wordreference.com/)**: bilingual dictionary platform with conjugation tables, forum context, and language-pair references
 - **Transportation Tracking**
-    - **[ADS-B Exchange](https://www.adsbexchange.com/)**: large community-driven unfiltered ADS-B flight tracking network with broad global aircraft coverage
-    - **[ADS-B.NL](https://www.ads-b.nl/index.php?pageno=9999)**: netherlands-focused ADS-B tracking portal with emphasis on military and regional aviation movements
+    - **[ADS-B Exchange](https://www.adsbexchange.com/)**: large community-driven unfiltered ADS-B flight tracking network with broad global aircraft
+    - **[ADS-B.NL](https://www.ads-b.nl/index.php?pageno=9999)**: netherlands-focused ADS-B tracking portalon military and regional aviation movements
     - **[autoDNA VIN Lookup](https://www.autodna.com/)**: vehicle history lookup platform with records from European and North American markets
     - **[AutoRef (EU)](https://www.autoref.eu/en)**: European VIN and plate intelligence service with free and paid tiers
     - **[Carnet.ai](https://carnet.ai/)**: AI vehicle image recognition platform that identifies make/model/generation from submitted photos
     - **[carVertical VIN Decoder](https://www.carvertical.com/vin-decoder)**: international VIN and registration decoder with vehicle history reporting
-    - **[Deutsche Bahn (German)](https://data.deutschebahn.com/opendata)**: German rail open-data portal for station, network, timetable, and real-time transportation datasets
+    - **[Deutsche Bahn (German)](https://data.deutschebahn.com/opendata)**: German rail open-data portal for station, network, timetable in real-time
     - **[FindByPlate](https://findbyplate.com/)**: US license plate lookup service for basic vehicle identification
     - **[Finnik (NL)](https://finnik.nl/en)**: Dutch license plate intelligence service using official RDW-linked records for vehicle profile
     - **[Flightradar24.com](https://www.flightradar24.com/)**: global real-time flight tracking platform built on ADS-B and radar feeds with airport
     - **[Global Fishing Watch](https://globalfishingwatch.org)**: nonprofit maritime transparency platform that maps global fishing activity
-    - **[MyAccident - traffic accident map](https://myaccident.org/)**: free database of redacted US traffic accident reports with searchable crash records
+    - **[Have I Been Flocked?](https://haveibeenflocked.com/)**: checks Flock Safety audit logs to see if a license plate was searched
+    - **[MyAccident - traffic accident map](https://myaccident.org/)**: free database of redacted US traffic accident reports with craft records
     - **[NHTSA Vehicle API](https://vpic.nhtsa.dot.gov/api/)**: official US government VIN decoder API with vehicle specification and manufacturer data
-    - **[OpenAIP World Aeronautical Database](https://www.openaip.net/)**: open, community-maintained aeronautical dataset for airfields, airspace, navaids
+    - **[OpenAIP World Aeronautical Database](https://www.openaip.net/)**: community-maintained aeronautical dataset for airfields, airspace, navaids
     - **[OpenRailwayMap](https://www.openrailwaymap.org/)**: OpenStreetMap-based global railway map visualizing rail lines, infrastructure characteristics
-    - **[OpenSeaMap - The free nautical chart](https://www.openseamap.org)**: open nautical chart map built on collaborative maritime data for ports, aids to navigation
+    - **[OpenSeaMap - The free nautical chart](https://www.openseamap.org)**: nautical chart map built on maritime data for ports, aids to navigation
     - **[Satellite Tracking](https://www.n2yo.com/)**: satellite orbit tracking entry point for monitoring spacecraft position, trajectory
     - **[Ship AIS](https://shipais.uk/)**: UK-centered AIS ship tracker with live map views, movement details, and vessel identification data
     - **[Track-Trace](https://www.track-trace.com/)**: multi-carrier shipment tracking aggregator for parcel and freight status across global postal
@@ -1310,6 +1326,7 @@ ncrypted file samples
     - **[Weakpass](https://weakpass.com/)**: a collection of large password wordlists for cracking
     - **[Wikitable2CSV](https://wikitable2csv.ggor.de/)**: converts Wikipedia tables to CSV, useful for building topic-specific wordlists
     - **[Wordlister](https://github.com/4n4nk3/Wordlister)**: generates wordlists from permutations of supplied words
+- **[FortyPoundHead Default Passwords](https://fortypoundhead.com/tools_dpw.asp)**: a lookup of default passwords for routers, devices, and software
 - **[Hashcat](https://hashcat.net/wiki/)**: a password-recovery tool that uses CPUs and GPUs to crack password hashes
 - **Hashing**
     - **MD5 (Message Digest Algorithm 5)**
@@ -1466,6 +1483,7 @@ ncrypted file samples
         - **[Fierce Domain Scanner](https://github.com/davidpepper/fierce-domain-scanner)**: DNS reconnaissance tool focused on subdomain discovery and non-contiguous IP space mapping
         - **[FindSubDomains](https://findsubdomains.com/)**: free web-based automated subdomain discovery tool with filtering
         - **[gdns](https://github.com/hrbrmstr/gdns)**: Google DNS-focused command-line tool for DNS lookup and domain record exploration
+        - **[Google Admin Toolbox Dig](https://toolbox.googleapps.com/apps/dig/)**: Google’s browser-based dig for querying DNS records
         - **[Knockpy](https://github.com/guelfoweb/knock)**: a Python tool for enumerating subdomains
         - **[Netcraft Search DNS](https://searchdns.netcraft.com/)**: Netcraft’s search for sites and subdomains matching a domain
         - **[OWASP Maryam](https://github.com/saeeddhqan/Maryam)**: modular OWASP OSINT framework with footprinting and search modules for multi-source reconnaissance
@@ -1506,7 +1524,8 @@ ncrypted file samples
     - **[Nikto](https://github.com/sullo/nikto)**: an open-source scanner for identifying web-server vulnerabilities and misconfigurations
     - **[Nuclei](https://github.com/projectdiscovery/nuclei)**: a template-based scanner for detecting known vulnerabilities and exposures
     - **[RobotsDisallowed](https://github.com/danielmiessler/RobotsDisallowed)**: curated wordlist of top disallowed paths harvested from robots.txt files
-    - **[Tenable Nessus](https://docs.tenable.com/nessus/)**: a vulnerability scanner that identifies software flaws, exposed services, and misconfigurations
+    - **[SSL Labs Server Test](https://www.ssllabs.com/ssltest/)**: Qualys’ free test that grades a server’s TLS configuration
+    - **[Tenable Nessus](https://docs.tenable.com/nessus/)**: a vulnerability scanner that identifies software flaws, exposed services, and misconfigs
     - **[Web Data Exposure Scanner](https://github.com/eduardoit/web-data-exposure-scanner)**: open-source scanner for detecting exposed web application data
     - **[Zone-H.org](https://zone-h.org/archive)**: archive of reported website defacements and related incident metadata maintained
 
@@ -1552,7 +1571,7 @@ ncrypted file samples
 * [GitHub Repo Watchlist](https://github.com/stars/thespcrewroy/lists/my-repo-watchlist)
 * Orrin Adotavi ADP Stack
 * [Student Discounts](https://docs.google.com/document/d/1uKuvSKlZcADBmoY-O5sF5rBQE6kMSPbRxr7UpVni1f8/edit?tab=t.5lo6aln59n65)
-* Take the finished list and add it to thehackpack website (make it in the style of [OSINT Framework](https://github.com/lockfale/osint-framework) and/or [HackTricks](https://github.com/HackTricks-wiki/hacktricks) or like the NASA Space Apps Challenge Vector Database)
+* Take the finished list and add it to thehackpack website (make it in the style of [OSINT Framework](https://github.com/lockfale/osint-framework) and/or [HackTricks](https://github.com/HackTricks-wiki/hacktricks) or like the NASA Space Apps Challenge Vector Database). AI API will automatically find the correct tool you are looking for using the vector database
 * Friendly Hacker Resources aggregators still to mine: [Bellingcat Online Investigation Toolkit](https://bit.ly/bcattools), [Awesome OSINT](https://github.com/jivoi/awesome-osint), [Awesome Forensics](https://github.com/Cugu/awesome-forensics), [OSINT Dojo Resources](https://www.osintdojo.com/resources/), [Steganography Tool List](https://0xrick.github.io/lists/stego/), [Rumkin Cipher Tools](https://rumkin.com/tools/cipher/)
 
 <p align="right"><a href="#top">🔼 Back to top</a></p>
