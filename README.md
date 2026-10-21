@@ -380,18 +380,24 @@
         - **[Windows Automatic Updates](https://support.microsoft.com/help/311047)**: Microsoft guidance for automatically installing Windows updates
     - **[Windows Server](https://learn.microsoft.com/en-us/windows-server/)**: Microsoft’s operating-system family for servers and enterprise infrastructure
 - **[Wine](https://www.winehq.org/)**: a compatibility layer for running Windows applications on Unix-like systems
+
 ## Password Cracking
-- **CeWL**: a tool that generates custom wordlists from website content
-- **Crunch**: a tool that generates wordlists from specified character patterns
-- **Hashcat**: a password-recovery tool that uses CPUs and GPUs to crack password hashes
+- **Brute-Force Attack**
+    - **[Hydra](https://github.com/vanhauser-thc/thc-hydra)**: a tool for testing credentials against network authentication services
+- **Dictionary Attack**
+    - **[CeWL](https://github.com/digininja/CeWL)**: a tool that generates custom wordlists from website content
+    - **[rockyou.txt](https://www.kali.org/tools/wordlists/)**: a famous password wordlist included with Kali’s default wordlists package
+    - **[SecLists](https://github.com/danielmiessler/seclists)**: an installable Kali package containing password, username, discovery, and fuzzing lists
+- **[Hashcat](https://hashcat.net/wiki/)**: a password-recovery tool that uses CPUs and GPUs to crack password hashes
 - **Hashing**
-    - **`sha256sum`**: a command-line utility that calculates and verifies SHA-256 file hashes
-- **Hydra**: a tool for testing credentials against network authentication services
-- **John the Ripper**: a password-recovery tool that detects and cracks numerous hash formats
-    - **PDF2John**: a utility that extracts password hashes from encrypted PDF files for use with John the Ripper
-- **Ophcrack**: a password-recovery tool that uses rainbow tables to crack Windows LM and NTLM password hashes
-- **rockyou.txt**: a famous password wordlist included with Kali’s default wordlists package
-- **[SecLists](https://github.com/danielmiessler/seclists)**: an installable Kali package containing password, username, discovery, and fuzzing lists 
+    - **SHA-256 (Secure Hash Algorithm 256-bit)**
+        - **[`sha256sum`](https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html)**: a command-line utility that calculates and verifies SHA-256 file hashes
+- **[John the Ripper](https://www.openwall.com/john/doc/)**: a password-recovery tool that detects and cracks numerous hash formats
+    - **[PDF2John](https://github.com/openwall/john/tree/bleeding-jumbo/run)**: a utility that extracts password hashes from encrypted PDF files for use with John the Ripper
+- **Mask Attack**
+    - **[Crunch](https://sourceforge.net/projects/crunch-wordlist/)**: a tool that generates wordlists from specified character patterns
+- **Rainbow Table Attack**
+    - **[Ophcrack](https://ophcrack.sourceforge.io/)**: a password-recovery tool that uses rainbow tables to crack Windows LM and NTLM password hashes
 
 ## Physical Security & Internet of Things (IoT)
 - **[ALFA Wi-Fi Adapter](https://docs.alfa.com.tw/)**: an external wireless adapter commonly used for Wi-Fi monitoring and security testing
