@@ -379,7 +379,7 @@
         - **[Mandiant](https://cloud.google.com/security/mandiant)**: provides threat intelligence, incident response, and managed defense services
         - **[MITRE ATT&CK](https://attack.mitre.org/)**: a knowledge base describing adversary tactics and techniques
         - **[mlsecproject / combine](https://github.com/mlsecproject/combine)**: tool for gathering and normalizing threat intelligence feeds from public sources
-        - **[Mr.Looquer IOC Feed - 1st Dual Stack Threat Feed](https://iocfeed.mrlooquer.com/)**: threat intelligence feed providing IOC data with IPv4/IPv6 dual stack support
+        - **[Mr.Looquer IOC Feed](https://iocfeed.mrlooquer.com/)**: threat intelligence feed providing IOC data with IPv4/IPv6 dual stack support
         - **[Pulsedive](https://pulsedive.com/)**: free threat intelligence platform for enriching IPs, URLs, domains, and IOCs from OSINT feeds
         - **[RAND Terrorism Research](https://www.rand.org/topics/terrorism.html)**: RAND Corporation's collection of research and analysis on terrorism topics
         - **[REScure Cyber Threat Intelligence Project](https://rescure.me/)**: community-driven cyber threat intelligence project providing IOC feeds
