@@ -895,7 +895,7 @@
     - **[SciCheck](https://factcheck.org/scicheck/)**: FactCheck.org section dedicated to scientific and health misinformation analysis
     - **[Snopes](https://www.snopes.com/)**: long-running debunking site covering rumors, hoaxes, and viral misinformation claims
     - **[Stop Fake Tools](http://www.stopfake.org/)**: Ukrainian anti-disinformation initiative publishing fact-checks, analysis
-    - **[TruthScan Deepfake Detector](https://truthscan.com/)**: cloud-based deepfake detection platform offering forensic analysis for manipulated video and audio
+    - **[TruthScan Deepfake Detector](https://truthscan.com/)**: cloud-based deepfake detection platform offering forensic analysis
     - **[Verification Handbook](https://verificationhandbook.com/)**: reference handbook for journalists covering verification methodologies for digital investigations
 - **OSINT Automation**
     - **[Analyst Research Tools](https://analystresearchtools.com)**: comprehensive web-based OSINT platform with 40+ integrated tools
