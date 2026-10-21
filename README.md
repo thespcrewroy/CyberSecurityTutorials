@@ -699,8 +699,8 @@
     - **[BuiltWith](https://builtwith.com/)**: technology profiling platform that identifies web stacks, frameworks, analytics, and hosting signals
     - **Certificate Transparency**
         - **[certgraph](https://github.com/lanrat/certgraph)**: CLI tool that crawls SSL certificates via Certificate Transparency logs
-        - **[CertKit - Certificate Transparency Log Search](https://www.certkit.io/tools/ct-logs/)**: fast Certificate Transparency log search tool using Clickhouse for sub-second queries
-        - **[Google's Certificate Transparency](https://www.certificate-transparency.org/known-logs)**: directory of all known Certificate Transparency logs monitored by Chrome and other browsers
+        - **[CertKit Transparency Log Search](https://www.certkit.io/tools/ct-logs/)**: fast Certificate Transparency log search tool using Clickhouse
+        - **[Google's Certificate Transparency](https://www.certificate-transparency.org/known-logs)**: directory of all known Certificate Transparency logs monitored
         - **[Spyse](https://spyse.com/search/certificate)**: internet assets registry providing certificate search, domain intelligence
     - **[Change Detection](https://changedetection.io/)**: open-source change-monitoring system for tracking updates on websites over time
     - **[CheckShortURL](https://checkshorturl.com/)**: preview service for shortened URLs with destination and threat-check context
