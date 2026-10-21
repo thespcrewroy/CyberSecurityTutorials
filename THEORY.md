@@ -28,9 +28,11 @@
 ## Blockchain
 - **Atomic Swap**: exchanges cryptocurrencies between parties without relying on a centralized intermediary
     - **Lightning Swap**: an atomic swap between on-chain Bitcoin and funds on the Lightning Network
+- **Blockchain Analysis**: tracing transactions and attributing wallets across public ledgers
 - **CoinJoin**: a Bitcoin privacy technique that combines multiple users’ inputs and outputs into one transaction
 - **Cryptocurrency**: a digital asset that uses cryptography and a distributed ledger to record transactions
     - **Bitcoin (BTC)**: a decentralized cryptocurrency operating on the Bitcoin blockchain
+    - **Ethereum (ETH)**: a programmable blockchain platform and its native cryptocurrency
     - **Privacy Coin**: a cryptocurrency designed to conceal transaction or participant information
         - **Monero (XMR)**: a privacy coin that obscures senders, recipients, and transaction amounts
 - **Cryptocurrency Exchange Aggregator**: compares or routes trades through multiple cryptocurrency exchange services
@@ -38,6 +40,7 @@
 - **NFT (Non-Fungible Token)**: a unique blockchain token associated with a distinct digital or physical asset
 
 ## Cloud Security
+- **Cloud Enumeration**: discovering an organization’s cloud accounts, storage buckets, and SaaS services
 - **Containerization**: packages applications and their dependencies into isolated, portable environments
     - **Container Image**: an immutable package containing an application, its dependencies, and its runtime configuration
     - **Container Orchestration**: automates the deployment, scaling, networking, and management of containers
@@ -68,7 +71,7 @@
     - **Kerberos**: a ticket-based network authentication protocol that relies on a trusted third party
     - **PIV (Personal Identity Verification)**: a federal smart-card standard for identity credentials and authentication
     - **SSH Key Authentication**: authenticates SSH connections using a public-and-private key pair
-            - **TOFU (Trust on First Use)**: initially accepts an unknown host key and warns if that key later changes        
+        - **TOFU (Trust on First Use)**: initially accepts an unknown host key and warns if that key later changes        
 - **Authorization**: determines which resources or actions an identity is permitted to access
     - **Delegated Authorization**: allows one application to access resources on behalf of a user
         - **OAuth2 (Open Authorization 2.0)**: a framework for granting delegated access without sharing the user’s password
@@ -146,6 +149,7 @@
         - **Password Managers**: tools to generate and store credentials securely
     - **Secure Email**: communication medium with varying privacy properties
     - **Secure Search Engines**: privacy-respecting web search alternatives
+    - **Sock Puppet**: a fictitious online persona used to research without revealing one’s identity
 - **Purple Teaming**: coordinates offensive and defensive security activities to improve prevention
 - **Security Awareness and Training:** teaches employees how to identify, prevent, and respond to cyber threats
 - **Security Operations**: continuously monitors and protects systems from security threats
@@ -170,8 +174,10 @@
 - **File-System Forensics**: acquires and analyzes storage media, file systems, deleted files, and related artifacts
 - **Image Forensics**: detects manipulation or recovers hidden detail in digital images using techniques such as error level analysis
 - **Magic Bytes (File Signatures)**: distinctive byte sequences used to identify a file’s actual format
+- **Malware Analysis**: examining suspicious files to understand their behavior and indicators
 - **Memory Forensics**: analyzes captured volatile memory to recover processes, connections, and related artifacts
 - **Metadata Analysis**: extracts and examines embedded file data such as authors, timestamps, devices, and locations
+- **Mobile Forensics**: acquiring and analyzing data from phones, tablets, and their apps
 - **Spectrography**: analyzing a signal’s frequency spectrum to reveal patterns or hidden information
 - **Steganography**: concealing information inside another file or medium
 
@@ -322,23 +328,46 @@
 - **Watering Hole**: compromising a website frequently visited by intended targets
 
 ## Open Source Intelligence (OSINT)
+- **Archives**: collections that preserve past versions of web pages and public datasets
 - **Bar Codes**: machine-readable visual patterns used to store data
     - **JAB (Just Another Barcode) Code**: a compact barcode variant for short payloads
     - **QR codes**: two-dimensional codes encoding URLs and small data blocks
+- **Breach Data**: records and credentials exposed in data breaches and leaks
+- **Business Records**: filings, profiles, and reports describing companies and their employees
+- **Dark Web**: sites reachable only through anonymity networks such as Tor
 - **Data Brokers**: firms that collect and sell personal and business data
+- **Domain Intelligence**: researching a domain’s ownership, history, infrastructure, and reputation
+    - **Certificate Transparency**: public logs of issued TLS certificates that reveal domains and subdomains
+    - **Passive DNS**: historical records of DNS resolutions collected over time
+- **Due Diligence**: screening people and organizations against sanctions, ownership, and anti-money-laundering records
+- **Email Lookup**: finding, verifying, and investigating email addresses and their owners
+- **Evidence Capture**: preserving web pages, screenshots, and locations as investigation records
 - **Geolocation**: techniques to determine physical locations from data
     - **EXIF (Exchangeable Image File Format)**: metadata in images that can reveal location
     - **Universal Transverse Mercator (UTM)**: a grid-based geographic coordinate system
     - **World Geodetic System (WSG84)**: global datum used for GPS coordinates
+- **Image Analysis**: examining photos and videos to find their source, subjects, or location
+- **IP Intelligence**: researching an IP address’s owner, location, routing, and reputation
+    - **BGP (Border Gateway Protocol)**: the routing protocol that exchanges reachability information between internet networks
 - **Lipreading**: interpreting speech by visually observing a speaker’s lip and facial movements
+- **Media Verification**: checking whether images, videos, and claims are authentic
+- **OSINT Automation**: frameworks that run many OSINT queries and modules automatically
 - **OSINT Framework**: a catalog of tools and methods for open-source research
 - **OWASP Top 10**: a prioritized list of common web application security risks
+- **Phone Number Lookup**: identifying the carrier, owner, or location behind a phone number
 - **Piracy**: unauthorized copying and distribution of copyrighted content
 - **Private Investigators**: professionals who gather information discreetly
+- **Public Records**: government-held records such as court, property, birth, and death filings
 - **Querying**: crafting searches to efficiently find relevant information
+- **Reputation Lookup**: checking whether a domain, IP address, or email address is linked to malicious activity
 - **Search Engine**: tools that index and retrieve web-hosted information
 - **Search-Engine Dorking**: using advanced search operators to locate specific publicly indexed information
     - **Google Dorking (Google Hacking)**: using Google search operators to uncover exposed files, pages, and configuration details
+- **Social Media**: online platforms where users publish profiles and content
+    - **Dating Sites**: platforms for meeting romantic partners that expose public profiles
+    - **Instant Messaging**: real-time chat platforms such as Telegram, Discord, and WhatsApp
+- **Translation**: converting foreign-language text, speech, or images into a readable language
+- **Transportation Tracking**: following aircraft, ships, trains, and vehicles through public data
 - **WHOIS**: a protocol and set of databases for looking up domain and IP address registration records
 
 ## Operating Systems
