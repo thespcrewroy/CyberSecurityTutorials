@@ -1173,7 +1173,7 @@
     - **[AutoRef (EU)](https://www.autoref.eu/en)**: European VIN and plate intelligence service with free and paid tiers
     - **[Carnet.ai](https://carnet.ai/)**: AI vehicle image recognition platform that identifies make/model/generation from submitted photos
     - **[carVertical VIN Decoder](https://www.carvertical.com/vin-decoder)**: international VIN and registration decoder with vehicle history reporting
-    - **[Deutsche Bahn Open-Data-Portal (German)](https://data.deutschebahn.com/opendata)**: German rail open-data portal for station, network, timetable, and real-time transportation datasets
+    - **[Deutsche Bahn (German)](https://data.deutschebahn.com/opendata)**: German rail open-data portal for station, network, timetable, and real-time transportation datasets
     - **[FindByPlate](https://findbyplate.com/)**: US license plate lookup service for basic vehicle identification
     - **[Finnik (NL)](https://finnik.nl/en)**: Dutch license plate intelligence service using official RDW-linked records for vehicle profile
     - **[Flightradar24.com](https://www.flightradar24.com/)**: global real-time flight tracking platform built on ADS-B and radar feeds with airport
