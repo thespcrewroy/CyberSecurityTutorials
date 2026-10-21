@@ -968,7 +968,7 @@
     - **[US Federal Election Commission](https://fec.gov/data)**: official Federal Election Commission data portal
     - **[US Patent Office Search](https://www.uspto.gov/patents/search)**: official US Patent and Trademark Office searchable patent database
     - **[VAT Research](https://www.belastingdienst.nl/)**: netherlands tax authorities (Belastingdienst) database
-    - **[World Legal Information Institute](https://worldlii.org)**: international legal database aggregating laws, regulations, and court decisions from 140+ countries
+    - **[World Legal Information Institute](https://worldlii.org)**: legal database aggregating laws, regulations, and court decisions from 140+ countries
 - **Querying**
     - **[GitHub User](https://api.github.com/users/%3Cusername%3E/events/public)**: a manual query for a specific GitHub user’s public activity
     - **[Proton Mail Domains](https://api.protonmail.ch/pks/lookup?op=index&search=%3Cemail_address%3E)**: a manual query for Proton Mail addresses using a domain
