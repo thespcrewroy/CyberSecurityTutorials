@@ -945,7 +945,7 @@
     - **[Google Patent Search](https://patents.google.com/)**: Google's searchable patent database covering US, EU, WIPO and other international patents
     - **[Google Scholar Case Law](https://scholar.google.com/scholar_courts)**: Google's free legal research tool indexing millions of court opinions from US federal
     - **[Gov Data Canada](https://open.canada.ca/data/en/dataset)**: government of Canada Open Data Portal
-    - **[GOVDATA - Das Datenportal für Deutschland (German)](https://www.govdata.de/)**: official German government open data portal with 120K+ datasets
+    - **[GOVDATA](https://www.govdata.de/)**: official German government open data portal with 120K+ datasets
     - **[GraveInfo](https://billiongraves.com/)**: cemetery records database with GPS-marked grave locations and gravestone photos
     - **[Influence Explorer](https://influenceexplorer.com/)**: campaign finance, lobbying, and political data aggregator
     - **[judyrecords](https://www.judyrecords.com/)**: free nationwide court case search engine with 760M+ US court cases
