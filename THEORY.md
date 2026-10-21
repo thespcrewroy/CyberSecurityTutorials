@@ -264,6 +264,7 @@
     - **DNS Amplification**: abusing DNS servers to multiply denial-of-service traffic
 - **Evil Maid**: altering or compromising a device while it is unattended
 - **Hardware Backdoor**: using a hidden hardware mechanism to bypass normal security controls
+- **Living off the Land (LOTL)**: abusing legitimate built-in binaries, scripts, and drivers to carry out attacks
 - **Malware**: software designed to damage, disrupt, spy on, or exploit systems
     - **Adware**: software that displays unwanted advertisements and may track user activity
     - **Bloatware**: unnecessary preinstalled software that consumes system resources
