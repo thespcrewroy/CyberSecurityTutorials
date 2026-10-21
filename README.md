@@ -1040,7 +1040,7 @@
     - **[OpenDOAR](https://www.opendoar.org/search.php)**: global directory of open-access repositories with over 6,000 academic repositories
     - **[pagodo - Passive Google Dork](https://github.com/opsdisk/pagodo)**: Python CLI tool that automates passive Google dork searches
     - **[PublicWWW](https://publicwww.com/)**: source code search engine for HTML, JavaScript, CSS, and plaintext across 509+ million web pages
-    - **[PubMed - National Center for Biotechnology Information](https://pubmed.ncbi.nlm.nih.gov/)**: free biomedical and life sciences literature database maintained by the NCBI
+    - **[PubMed - Center for BioTech](https://pubmed.ncbi.nlm.nih.gov/)**: free biomedical and life sciences literature database maintained by the NCBI
     - **[PubPeer](https://pubpeer.com/)**: post-publication peer review platform where researchers comment on and flag issues
     - **[PullPush Reddit Search](https://search.pullpush.io/)**: searches archived Reddit posts and comments
     - **[Science Direct](https://www.sciencedirect.com/)**: Elsevier's platform for peer-reviewed scientific literature with access to over 2,900 journals
