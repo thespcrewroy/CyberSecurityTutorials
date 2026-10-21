@@ -24,6 +24,7 @@
 </details>
 
 ## Artificial Intelligence
+- **[Claude Mythos](https://www.anthropic.com/glasswing)**: Anthropic’s Mythos-tier frontier model offered to vetted organizations through Project Glasswing
 * **[OWASP LLM Top 10](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/)**: most critical security vulnerabilities and risks when building AI systems 
 * **[LakeraAI](https://www.lakera.ai/)**: leading security platform to secure your AI future
 
@@ -57,9 +58,28 @@
 - **Authentication**
     - **Kerberos**
         - **[MIT Kerberos](https://web.mit.edu/kerberos/)**: the reference open-source implementation of the Kerberos protocol
+- **Cipher**
+    - **Classical Cipher**
+        - **Substitution Cipher**
+            - **[dCode Caesar Cipher](https://www.dcode.fr/caesar-cipher)**: an online tool for encoding, decoding, and brute-forcing Caesar shifts
+            - **[dCode Jefferson Wheel Cipher](https://www.dcode.fr/jefferson-wheel-cipher)**: an online tool for encrypting and decrypting with Jefferson disks
+            - **Polyalphabetic Substitution Cipher**
+                - **[dCode Vigenère Cipher](https://www.dcode.fr/vigenere-cipher)**: an online tool for encrypting, decrypting, and breaking Vigenère ciphers
+        - **Transposition Cipher**
+            - **[dCode Rail Fence Cipher](https://www.dcode.fr/rail-fence-cipher)**: an online tool for encoding and decoding rail-fence ciphers
+            - **[dCode Scytale Cipher](https://www.dcode.fr/scytale-cipher)**: an online tool for encoding and decoding scytale ciphers
+    - **Modern Cipher**
+        - **Asymmetric Cryptography**
+            - **RSA (Rivest–Shamir–Adleman)**
+                - **[Omni Calculator RSA Calculator](https://www.omnicalculator.com/math/rsa)**: an online calculator demonstrating RSA key generation, encryption, and decryption
+        - **Symmetric Encryption**
+            - **AES (Advanced Encryption Standard)**
+                - **[Devglan AES Encryption/Decryption](https://www.devglan.com/online-tools/aes-encryption-decryption)**: an online tool for encrypting and decrypting data using AES
 - **Cryptanalysis**
     - **[Cash Sleuth](https://www.cachesleuth.com/multidecoder/)**: a free collection of online tools and cipher solvers designed specifically for geocachers
     - **[Crypto Attacks](https://github.com/jvdsn/crypto-attacks)**: Python implementations of cryptographic attacks and utilities
+    - **[dCode Cipher Identifier](https://www.dcode.fr/cipher-identifier)**: analyzes ciphertext to guess which cipher was used
+- **[CyberChef](https://gchq.github.io/CyberChef/)**: a web application for encoding, decoding, encryption, compression, and data analysis
 - **Data-at-Rest Encryption**
     - **[Cryptomator](https://docs.cryptomator.org/)**: encrypts files inside vaults before local or cloud storage
     - **FDE (Full-Disk Encryption)**
@@ -314,11 +334,18 @@
     - **[Professor Messer Social Engineering Videos](https://www.professormesser.com/network-plus/n10-009/n10-009-video/social-engineering-n10-009/)**: free educational videos on social-engineering attacks
 - **Spoofing**
     - **[Responder](https://github.com/lgandx/Responder)**: a tool for capturing authentication attempts through poisoned name-resolution responses
+- **Vulnerable Lab**
+    - **[VulnHub](https://www.vulnhub.com/)**: downloadable vulnerable virtual machines for cybersecurity practice
 
 ## Open Source Intelligence (OSINT)
+- **Bar Codes**
+    - **JAB (Just Another Barcode) Code**
+        - **[JAB Code](https://jabcode.org/)**: an online generator and scanner for high-capacity color JAB barcodes
 - **Data Brokers**
     - **[Names Directory](https://namesdir.com/)**: a people-search directory for finding public identity information
     - **[ThatsThem](https://thatsthem.com/)**: a people-search service that can associate usernames with public records
+- **Geolocation**
+    - **[GeoSpy](https://geospy.ai/)**: an AI-powered tool for estimating the geographic location of photos
 - **[Maltego](https://docs.maltego.com/)**: a graphical platform for mapping relationships between public information
 - **Piracy**
     - **[The Pirate Bay](https://en.wikipedia.org/wiki/The_Pirate_Bay)**: a popular torrent index site for sharing files
@@ -561,6 +588,9 @@
     - **[BeEF (Browser Exploitation Framework)](https://github.com/beefproject/beef)**: a framework for testing security weaknesses through web browsers
 - **[ffuf](https://github.com/ffuf/ffuf)**: a fast web fuzzer for discovering hidden files, directories, and parameters
 - **[Gobuster](https://github.com/OJ/gobuster)**: a tool for discovering web paths, DNS names, and virtual hosts
+- **Obfuscation**
+    - **[de4js](https://lelinhtinh.github.io/de4js/)**: an online JavaScript deobfuscation and unpacking tool
+    - **[JSFuck](https://jsfuck.com/)**: encodes JavaScript using only six different characters
 - **[OWASP Top 10](https://owasp.github.io/www-project-top-ten/)**: the ten most critical web application security risks
 - **[Postman](https://learning.postman.com/docs/)**: an API platform for creating, sending, and testing HTTP requests
 - **SQL Injection (SQLi)**
@@ -570,18 +600,7 @@
 - **[ZAP (Zed Attack Proxy)](https://www.zaproxy.org/docs/)**: an open-source platform for testing web-application security
 
 ## TODO
-* Add a Table of Contents
-* [CIS Benchmarks](https://learn.cisecurity.org/benchmarks): CIS best-practice security configuration guides for a bunch of resoures
-* [GeoSpy](https://geospy.ai/): an AI-powered tool for estimating the geographic location of photos
-* [dCode](https://www.dcode.fr/en): a collection of tools for solving ciphers, codes, puzzles, and mathematical problems
-* [AES Encryption/Decryption](https://www.devglan.com/online-tools/aes-encryption-decryption): an online tool for encrypting and decrypting data using AES
-* [CyberChef](https://gchq.github.io/CyberChef/): a web application for encoding, decoding, encryption, compression, and data analysis
-* [Omni Calculator – RSA Calculator](https://www.omnicalculator.com/math/rsa): an online calculator demonstrating RSA key generation, encryption, and decryption
-* [JAB Code](https://jabcode.org/): a color barcode format capable of storing large amounts of data
-* [JSFuck](https://jsfuck.com/): encodes JavaScript using only six different characters
-* [de4js](https://lelinhtinh.github.io/de4js/): an online JavaScript deobfuscation and unpacking tool
-* [VulnHub](https://www.vulnhub.com/): downloadable vulnerable virtual machines for cybersecurity practice
-* [Claude Mythos Preview](https://www.anthropic.com/research/mythos-preview): Anthropic’s research model for evaluating advanced cybersecurity capabilities
+
 * [Friendly Hacker Resources](https://docs.google.com/spreadsheets/d/1SVm4Bu-L6eiyXlN8Kf_fszWeP1VSLNuVOJ-SguS9qtI/edit?gid=16563866#gid=16563866)
 * [Google Dorking](https://en.wikipedia.org/wiki/Google_hacking)
 * [Hak5 Documentation (Ask AI for Best Tools)](https://documentation.hak5.org/hak5-docs)
@@ -596,15 +615,7 @@
 * [Randar2](https://github.com/spawnmason/randar-explanation)
 * [GitHub Repo Watchlist](https://github.com/stars/thespcrewroy/lists/my-repo-watchlist)
 * Orrin Adotavi ADP Stack
-* CIS Controls Tools
-* Security+ Terms and Definitions
-* Speaker Events
-* Club Events
-* Course Quizlets
-* Tutorial Repos (for terms, but any links to other resources/tools especially)
-* [CTF Challenges](https://drive.google.com/drive/u/1/folders/11jv6QYFiSfn1BxVJy5EGRm5xSbBiKGui)
 * [Student Discounts](https://docs.google.com/document/d/1uKuvSKlZcADBmoY-O5sF5rBQE6kMSPbRxr7UpVni1f8/edit?tab=t.5lo6aln59n65)
-* Hemant Gautum Darkweb Links (prepare for PwnSec and OSINT hackpack presentation)
 * Take the finished list and add it to thehackpack website (make it in the style of [OSINT Framework](https://github.com/lockfale/osint-framework) and/or [HackTricks](https://github.com/HackTricks-wiki/hacktricks))
 
 <p align="right"><a href="#top">🔼 Back to top</a></p>
