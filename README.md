@@ -681,7 +681,7 @@
     - **[FamilySearch.org](https://familysearch.org/search/)**: free genealogy platform operated by The Church of Jesus Christ of Latter-day Saints
     - **[findmypast.com](https://www.findmypast.com/discover)**: UK-focused genealogy and historical records platform
     - **[IDCrawl](https://www.idcrawl.com/)**: free people search aggregator that finds social media profiles, photos, and public records
-    - **[InfoFlow Public People Search In Chilean](https://infoflow.cloud/)**: chilean public records lookup service for vehicle registrations, personal ID numbers, company
+    - **[InfoFlow Public People Search In Chilean](https://infoflow.cloud/)**: Chilean public records for vehicle registrations, ID numbers, and companies
     - **[My Registry](https://www.myregistry.com/)**: universal gift registry platform allowing users to add gifts
     - **[Names Directory](https://namesdir.com/)**: a people-search directory for finding public identity information
     - **[PeekYou](https://www.peekyou.com/)**: free people search engine indexing over 300 million profiles
