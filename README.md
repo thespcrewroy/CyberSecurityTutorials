@@ -998,7 +998,7 @@
     - **[Shadowserver Foundation](https://www.shadowserver.org/)**: nonprofit providing comprehensive IP reputation intelligence
     - **[Sucuri SiteCheck](https://sitecheck.sucuri.net/)**: free remote website scanner that checks for malware, security threats, blacklisting
     - **[ThreatMiner.org](https://www.threatminer.org/)**: non-profit threat intelligence portal providing IOC research
-    - **[Trend Micro Site Safety Center](https://global.sitesafety.trendmicro.com/)**: free service that checks website safety ratings from Trend Micro's research and reputation sources
+    - **[Trend Micro Site Safety Center](https://global.sitesafety.trendmicro.com/)**: checks website safety ratings from Trend Micro's sources
     - **[URL Void](https://www.urlvoid.com/)**: free website reputation checker that scans URLs against 30+ blocklist engines
     - **[UrlQuery.net](https://urlquery.net/)**: free online URL scanner that analyzes webpages for malware, suspicious elements
     - **[vURL Online](https://vurldissect.co.uk/)**: URL and domain dissection tool providing detailed reputation analysis and security assessment
