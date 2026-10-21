@@ -260,7 +260,7 @@
     - **Adblock**
         - **[Decentraleyes](https://git.synz.io/Synzvato/decentraleyes)**: locally provides common web resources to reduce third-party requests
         - **[uBlock Origin](https://github.com/gorhill/uBlock)**: an efficient and configurable content-blocking browser extension
-    - **[Anonymouth - Document Anonymization](https://github.com/psal/anonymouth)**: Java-based authorship anonymization tool that analyzes and modifies writing style features
+    - **[Anonymouth](https://github.com/psal/anonymouth)**: Java-based authorship anonymization tool that analyzes and modifies writing style features
     - **Antivirus/Antimalware**
         - **[Bitdefender](https://www.bitdefender.com/consumer/support/)**: provides malware protection and endpoint-security products
         - **[ClamAV](https://www.clamav.net/)**: an open-source anti-malware toolkit commonly used on Unix-like systems
