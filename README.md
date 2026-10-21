@@ -269,116 +269,117 @@
 - **[Zeek](https://docs.zeek.org/en/master/)**: an open-source network security monitor that produces detailed traffic logs
 
 ## Offensive Security (Red Team)
-- **BloodHound**: a tool for mapping attack paths in Active Directory environments
+- **[BloodHound](https://github.com/SpecterOps/BloodHound)**: a tool for mapping attack paths in Active Directory environments
 - **Bug Bounty Programs**
-    - **[HackerOne](https://www.hackerone.com/)**: bug bounty platform connecting ethical hackers with companies
-    - **[Open Bug Bounty](https://www.openbugbounty.org/):** a platform for reporting web vulnerabilities through coordinated disclosure
-- **Malware**: software designed to damage, disrupt, spy on, or exploit systems
-    - **Spyware**
-        - **Pegasus**: advanced spyware used to compromise and monitor mobile devices
-- **Metasploit Framework**: a platform for developing, testing, and executing exploits
-- **NetExec**: a tool for assessing and automating attacks against network services
-- **Responder**: a tool for capturing authentication attempts through poisoned name-resolution responses
-- **SearchSploit**: a command-line interface for searching the Exploit Database
+    - **[HackerOne](https://www.hackerone.com/)**: a bug bounty platform connecting ethical hackers with companies
+    - **[Open Bug Bounty](https://www.openbugbounty.org/)**: a platform for reporting web vulnerabilities through coordinated disclosure
+- **[Metasploit Framework](https://docs.metasploit.com/)**: a platform for developing, testing, and executing exploits
+- **[NetExec](https://www.netexec.wiki/)**: a tool for assessing and automating attacks against network services
+- **[SearchSploit](https://www.exploit-db.com/searchsploit)**: a command-line interface for searching the Exploit Database
 - **Social Engineering**
     - **Phishing**
-        - **[Berkeley Phish Tank](https://security.berkeley.edu/phish-tank)**: collection of real phishing examples and guidance from UC Berkeley
-        - **[NIST You’ve Been Phished](https://www.nist.gov/video/youve-been-phished)**: educational video explaining why users fall for phishing messages
-    - **[Professor Messer Social Engineering Videos](https://www.professormesser.com/network-plus/n10-009/n10-009-video/social-engineering-n10-009/)**: free educational videos
-
+        - **[Berkeley Phish Tank](https://security.berkeley.edu/phish-tank)**: a collection of real phishing examples and guidance from UC Berkeley
+        - **[NIST You’ve Been Phished](https://www.nist.gov/video/youve-been-phished)**: an educational video explaining why users fall for phishing messages
+    - **[Professor Messer Social Engineering Videos](https://www.professormesser.com/network-plus/n10-009/n10-009-video/social-engineering-n10-009/)**: free educational videos on social-engineering attacks
+- **Spoofing**
+    - **[Responder](https://github.com/lgandx/Responder)**: a tool for capturing authentication attempts through poisoned name-resolution responses
 
 ## Open Source Intelligence (OSINT)
-- **Maltego**: a graphical platform for mapping relationships between public information
+- **Data Brokers**
+    - **[Names Directory](https://namesdir.com/)**: a people-search directory for finding public identity information
+    - **[ThatsThem](https://thatsthem.com/)**: a people-search service that can associate usernames with public records
+- **[Maltego](https://docs.maltego.com/)**: a graphical platform for mapping relationships between public information
 - **Piracy**
-    - **Pirate Bay**: a popular torrent index site for sharing files
-- **Recon-ng**: a modular framework for conducting web-based reconnaissance
+    - **[The Pirate Bay](https://en.wikipedia.org/wiki/The_Pirate_Bay)**: a popular torrent index site for sharing files
+- **Querying**
+    - **[GitHub User](https://api.github.com/users/%3Cusername%3E/events/public)**: a manual query for a specific GitHub user’s public activity
+    - **[Proton Mail Domains](https://api.protonmail.ch/pks/lookup?op=index&search=%3Cemail_address%3E)**: a manual query for Proton Mail addresses using a domain
+    - **[Proton Mail Users](https://api.protonmail.ch/pks/lookup?op=index&search=%3Cusername%3E@protonmail.com)**: a manual query for a public Proton Mail username
+    - **[Tinder Usernames](https://tinder.com/@%3Cusername%3E)**: a manual lookup for public Tinder profiles associated with a username
+- **[Recon-ng](https://github.com/lanmaster53/recon-ng)**: a modular framework for conducting web-based reconnaissance
 - **Search Engine**
     - **[FootprintIQ](https://footprintiq.app/)**: a platform for locating usernames and analyzing digital footprints
     - **[GitFive](https://github.com/mxrch/GitFive)**: a tool for gathering public intelligence about GitHub users
-    - **Google Reverse Image Search**: find similar images and their sources
+    - **[Google Reverse Image Search](https://lens.google/)**: finds similar images and their sources
     - **[Lullar](https://com.lullar.com/)**: a search tool for finding online accounts associated with usernames or email addresses
     - **[NameCheckup](https://namecheckup.com/)**: a web tool for checking usernames across websites and domain extensions
     - **[Namechk](https://namechk.com/)**: a web tool for checking username and domain availability
-    - **[Names Directory](https://namesdir.com/)**: a people-search directory for finding public identity information
-    - **[PullPush Reddit Search](https://search.pullpush.io/)**: searches archived reddit posts and comments
+    - **[PullPush Reddit Search](https://search.pullpush.io/)**: searches archived Reddit posts and comments
     - **[Sherlock](https://github.com/sherlock-project/sherlock)**: a command-line tool for finding accounts with a username across social networks
     - **[Sylva Identity Discovery](https://sylva.pfeister.dev/)**: a tool for connecting online identities with possible real-world identities
-    - **[ThatsThem](https://thatsthem.com/)**: a people-search service that can associate usernames with public records
     - **[WhatsMyName](https://github.com/WebBreacher/WhatsMyName)**: a community-maintained dataset for checking usernames across hundreds of websites
     - **[WhatsMyName Web](https://whatsmyname.app/)**: a browser-based interface for finding accounts associated with a username
-    - **Yandex**: Russian search engine with image and web search features
-- **Search Engine Dorking**
-     - **[GitHub User](https://api.github.com/users/%3Cusername%3E/events/public)**: a manual search for a specific GitHub user profile
-     - **Google Dorking (Google Hacking)**
-         - **[Amazon Usernames](https://www.google.com/search?q=site:amazon.com+%3Cusername%3E)**: a manual search for public Amazon profiles
-         - **[Hidden Reddit Posts](https://www.google.com/search?q=site:reddit.com+%3Cusername%3E)**: a manual search for hidden Reddit posts
-         - **[Tinder Usernames](https://tinder.com/@%3Cusername%3E)**: a manual search for public Tinder profiles associated with a username
-     - **[Proton Mail Domains](https://api.protonmail.ch/pks/lookup?op=index&search=%3Cemail_address%3E)**: search for Proton Mail addresses using a domain
-     - **[Proton Mail Users](https://api.protonmail.ch/pks/lookup?op=index&search=%3Cusername%3E@protonmail.com)**: search for public Proton Mail username
-- **theHarvester**: a tool for gathering public emails, subdomains, hosts, and employee names 
-
+    - **[Yandex](https://yandex.com/images/)**: a Russian search engine with image and web search features
+- **Search-Engine Dorking**
+    - **Google Dorking (Google Hacking)**
+        - **[Amazon Usernames](https://www.google.com/search?q=site:amazon.com+%3Cusername%3E)**: a manual search for public Amazon profiles
+        - **[Hidden Reddit Posts](https://www.google.com/search?q=site:reddit.com+%3Cusername%3E)**: a manual search for hidden Reddit posts
+- **[theHarvester](https://github.com/laramies/theHarvester)**: a tool for gathering public emails, subdomains, hosts, and employee names
+  
 ## Operating Systems
-- **Android Automatic Updates**: guidance for automatically updating Android devices
-- **Apple iOS Automatic Updates**: guidance for automatically updating iOS devices
-- **Command-Line Shells**
-    - **Bash (Bourne Again Shell)**: a Unix shell and scripting language commonly used on Linux
-    - **MobaXterm**: a Windows terminal and remote-access suite supporting SSH, SFTP, X11, and Unix commands
-    - **PowerShell**: a cross-platform command shell and scripting language built around structured objects
-    - **Windows Command Prompt**: the traditional Windows command-line interpreter for executing commands and batch scripts
-    - **Zsh (Z Shell)**: a Unix shell with advanced customization, completion, and interactive features
+- **[Android Automatic Updates](https://support.google.com/android/answer/7680439)**: guidance for automatically updating Android devices
+- **[Apple iOS Automatic Updates](https://support.apple.com/en-us/118575)**: guidance for automatically updating iOS devices
+- **[TempleOS](https://templeos.org/)**: a lightweight biblical-themed operating system created entirely by Terry A. Davis
+- **Terminal**
+    - **[MobaXterm](https://mobaxterm.mobatek.net/documentation.html)**: a Windows terminal and remote-access suite supporting SSH, SFTP, X11, and Unix commands
+    - **Shell**
+        - **[Bash (Bourne Again Shell)](https://www.gnu.org/software/bash/manual/)**: a Unix shell and scripting language commonly used on Linux
+        - **[PowerShell](https://learn.microsoft.com/en-us/powershell/)**: a cross-platform command shell and scripting language built around structured objects
+        - **[Windows Command Prompt](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)**: the traditional Windows command-line interpreter for executing commands and batch scripts
+        - **[Zsh (Z Shell)](https://zsh.sourceforge.io/Doc/)**: a Unix shell with advanced customization, completion, and interactive features
 - **Unix**
     - **BSD**
-        - **FreeBSD**: unix-like OS known for performance and licensing
-            - **DragonFly BSD**: a Unix-like operating system focused on performance and scalable file systems
-            - **HardenedBSD**: fork of FreeBSD that focuses more on hardening its security
-        - **NetBSD**: provide a unified, multi-platform, production-quality operating system
-            - **OpenBSD:** fork of NetBSD in 1995 focused heavily on hardening its security and networking
-    - **Darwin**: Apple’s open-source Unix-based operating-system foundation
-        - **macOS**: Apple’s Unix-certified desktop operating system built on Darwin
-            - **Apple macOS Application-Removal Instructions**: Apple guidance for uninstalling applications from macOS
-            - **Apple macOS Automatic Updates**: guidance for automatically updating macOS
-            - **Microsoft Office Automatic Updates for macOS**: Microsoft guidance for automatically updating Office on macOS
-    - **[Linux](https://linux.die.net/)**
+        - **[FreeBSD](https://docs.freebsd.org/en/books/handbook/)**: a Unix-like operating system known for performance and permissive licensing
+            - **[DragonFly BSD](https://www.dragonflybsd.org/docs/)**: a Unix-like operating system focused on performance and scalable file systems
+            - **[HardenedBSD](https://hardenedbsd.org/)**: a fork of FreeBSD focused on security hardening
+        - **[NetBSD](https://www.netbsd.org/docs/guide/en/)**: a unified, multi-platform, production-quality Unix-like operating system
+            - **[OpenBSD](https://www.openbsd.org/faq/)**: a 1995 fork of NetBSD focused heavily on security and networking
+    - **[Darwin](https://opensource.apple.com/)**: Apple’s open-source Unix-based operating-system foundation
+        - **[macOS](https://support.apple.com/guide/mac-help/welcome/mac)**: Apple’s Unix-certified desktop operating system built on Darwin
+            - **[Apple macOS Application-Removal Instructions](https://support.apple.com/en-us/102610)**: Apple guidance for uninstalling applications from macOS
+            - **[Apple macOS Automatic Updates](https://support.apple.com/HT201541)**: guidance for automatically updating macOS
+            - **[Microsoft Office Automatic Updates for macOS](https://support.microsoft.com/en-us/office/update-office-for-mac-automatically-bfd1e497-c24d-4754-92ab-910a4074d7c1)**: Microsoft guidance for automatically updating Office on macOS
+    - **Linux**
         - **Arch Family**
-            - **Black Arch Linux**: security-focused Arch-based distribution
-            - **Manjaro**: a user-friendly Arch-based distribution with curated software updates
+            - **[BlackArch Linux](https://blackarch.org/guide.html)**: a security-focused Arch-based distribution
+            - **[Manjaro](https://wiki.manjaro.org/)**: a user-friendly Arch-based distribution with curated software updates
         - **Debian Family**
-            - **Kali**: penetration-testing focused Debian derivative
-            - **ParrotOS**: security-oriented Debian-based distro
-            - **TailsOS**: live OS designed for anonymity
-            - **Ubuntu**: popular user-friendly Debian derivative
-                - **Linux Mint:** free, user-friendly, and highly stable desktop operating system
-                - **Lubuntu:** a lightweight official flavor of Ubuntu
-                    - **DragonOS**: SDR-focused Linux distribution
-                - **Pop!_OS**: an Ubuntu-based distribution designed for productivity, gaming, and development
-            - **Whonix**: privacy OS using Tor isolation
+            - **[Kali Linux](https://www.kali.org/docs/)**: a penetration-testing-focused Debian derivative
+            - **[Parrot OS](https://parrotsec.org/docs/)**: a security-oriented Debian-based distribution
+            - **[Tails](https://tails.net/doc/)**: a live operating system designed for anonymity
+            - **[Ubuntu](https://help.ubuntu.com/)**: a popular user-friendly Debian derivative
+                - **[Linux Mint](https://linuxmint.com/documentation.php)**: a free, user-friendly, and highly stable desktop operating system
+                - **[Lubuntu](https://manual.lubuntu.me/)**: a lightweight official flavor of Ubuntu
+                    - **[DragonOS](https://sourceforge.net/projects/dragonos-focal/)**: an SDR-focused Linux distribution
+                - **[Pop!_OS](https://support.system76.com/)**: an Ubuntu-based distribution designed for productivity, gaming, and development
+            - **[Whonix](https://www.whonix.org/wiki/Documentation)**: a privacy-focused operating system that isolates traffic through Tor
         - **Gentoo Family**
-            - **Gentoo Linux**: a source-based distribution offering extensive control and optimization
-        - **Qubes Family**
+            - **[Gentoo Linux](https://wiki.gentoo.org/wiki/Handbook:Main_Page)**: a source-based distribution offering extensive control and optimization
+        - **[Linux Man Pages](https://linux.die.net/)**: an online reference of Linux manual pages
+        - **Qubes OS Family**
+            - **[Qubes OS](https://www.qubes-os.org/doc/)**: a security-focused operating system that isolates activities within virtual machines
         - **Red Hat Family**
-            - **Fedora**: a cutting-edge community distribution sponsored by Red Hat
-            - **RHEL**: Red Hat’s enterprise Linux distribution with commercial support
-                - **CentOS**: a community project centered on the development stream leading to RHEL
+            - **[Fedora](https://docs.fedoraproject.org/)**: a cutting-edge community distribution sponsored by Red Hat
+            - **[RHEL (Red Hat Enterprise Linux)](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/)**: Red Hat’s enterprise Linux distribution with commercial support
+                - **[CentOS](https://docs.centos.org/)**: a community project centered on the development stream leading to RHEL
         - **SUSE Family**
-            - **openSUSE**: a community distribution available in rolling and stable editions
-            - **SUSE Linux Enterprise Server (SLES):** enterprise-grade server operating system designed for mission-critical workloads
-- **Windows NT Family**: Microsoft operating systems built on the Windows NT architecture
-    - **Microsoft Windows**: Microsoft’s proprietary family of desktop operating systems
-        - **CIS Microsoft Windows Cyber Hygiene Guide**: CIS guidance for improving foundational Windows security
-        - **Microsoft Supported Windows Lifecycle Information**: Microsoft’s support and end-of-life information for Windows releases
-        - **Windows Application-Removal Instructions**: Microsoft guidance for uninstalling Windows applications
-        - **Windows Automatic Updates**: Microsoft guidance for automatically installing Windows updates
-    - **Windows Server**: Microsoft’s operating-system family for servers and enterprise infrastructure
-- **TempleOS**: a lightweight biblical-themed operating system created entirely by Terry A. Davis
+            - **[openSUSE](https://doc.opensuse.org/)**: a community distribution available in rolling and stable editions
+            - **[SLES (SUSE Linux Enterprise Server)](https://documentation.suse.com/sles/)**: an enterprise-grade server operating system designed for mission-critical workloads
 - **Virtualization**
     - **Hypervisors**
-        - **Qemu:** FOSS software tool that performs machine emulation and virtualization
-        - **VirtualBox**: Oracle’s free, cross-platform desktop hypervisor
-        - **VMware**: a family of commercial virtualization and cloud-computing products
-        - **Xen**: an open-source type-1 hypervisor for running isolated virtual machines
-    - **WSL (Windows Subsystem for Linux)**: a Windows feature for running Linux environments without a VM
-- **Wine**: a compatibility layer for running Windows applications on Unix-like systems
-
+        - **[QEMU](https://www.qemu.org/docs/master/)**: an open-source tool for machine emulation and virtualization
+        - **[VirtualBox](https://www.virtualbox.org/manual/)**: Oracle’s free, cross-platform desktop hypervisor
+        - **[VMware](https://www.vmware.com/)**: a family of commercial virtualization and cloud-computing products
+        - **[Xen](https://xenproject.org/)**: an open-source type-1 hypervisor for running isolated virtual machines
+    - **[WSL (Windows Subsystem for Linux)](https://learn.microsoft.com/en-us/windows/wsl/)**: a Windows feature for running Linux environments without a VM
+- **Windows NT Family**
+    - **[Microsoft Windows](https://learn.microsoft.com/en-us/windows/)**: Microsoft’s proprietary family of desktop operating systems
+        - **[CIS Microsoft Windows Cyber Hygiene Guide](https://www.cisecurity.org/insights/white-papers/cis-controls-microsoft-windows-10-cyber-hygiene-guide)**: CIS guidance for improving foundational Windows security
+        - **[Microsoft Supported Windows Lifecycle Information](https://learn.microsoft.com/en-us/lifecycle/products/?products=windows)**: Microsoft’s support and end-of-life information for Windows releases
+        - **[Windows Application-Removal Instructions](https://support.microsoft.com/en-us/windows/uninstall-or-remove-apps-and-programs-in-windows-4b55f974-2cc6-2d2b-d092-5905080eaf98)**: Microsoft guidance for uninstalling Windows applications
+        - **[Windows Automatic Updates](https://support.microsoft.com/help/311047)**: Microsoft guidance for automatically installing Windows updates
+    - **[Windows Server](https://learn.microsoft.com/en-us/windows-server/)**: Microsoft’s operating-system family for servers and enterprise infrastructure
+- **[Wine](https://www.winehq.org/)**: a compatibility layer for running Windows applications on Unix-like systems
 ## Password Cracking
 - **CeWL**: a tool that generates custom wordlists from website content
 - **Crunch**: a tool that generates wordlists from specified character patterns
@@ -455,63 +456,78 @@
 - **[WiFi Nugget](https://github.com/tom4ta/WiFi-Nugget)**: a portable device for learning about and testing Wi-Fi security
 
 ## PWN
-- **[DecBench](https://decbench.com/)**: open-source living benchmark for decompilers created by the Noelo Lab at UGA
+- **Concolic Execution**
+    - **[CO3](https://www.usenix.org/conference/usenixsecurity24/presentation/liu-changming)**: a concolic execution system combining real microcontroller execution with workstation-based constraint solving
 - **Dynamic Analysis (Binary Exploitation)**
-    - **angr**: a Python framework for binary analysis and symbolic execution
-    - **GNU Debugger (GDB)**: a debugger for inspecting and controlling programs during execution
-    - **[pwndbg](https://github.com/pwndbg/pwndbg)**: a GDB and LLDB plug-in that makes debugging suck less
-    - **pwntools**: a Python framework for developing exploits and interacting with binaries
-    - **CO3**: a concolic execution system combining real microcontroller execution with workstation-based constraint solving
+    - **Debugger**
+        - **[GDB (GNU Debugger)](https://sourceware.org/gdb/documentation/)**: a debugger for inspecting and controlling programs during execution
+            - **[pwndbg](https://github.com/pwndbg/pwndbg)**: a GDB and LLDB plug-in that makes debugging suck less
 - **Emulation**
-    - **AIM (Automatic Interrupt Modeling)**: a system that automatically models interrupts for dynamic firmware analysis 
+    - **[AIM (Automatic Interrupt Modeling)](https://arxiv.org/abs/2312.01195)**: a system that automatically models interrupts for dynamic firmware analysis
+- **Exploit**
+    - **Race Condition**
+        - **[SDRacer](https://arxiv.org/abs/2305.17869)**: a system for detecting, validating, and repairing race conditions in interrupt-driven embedded software
+- **Exploit Development**
+    - **[pwntools](https://docs.pwntools.com/)**: a Python framework for developing exploits and interacting with binaries
 - **Fuzzing**
-    - **AidFuzzer**: an adaptive firmware fuzzer that models runtime states to trigger interrupts correctly
-    - **Fuzzware**: a hardware-free platform for emulating and fuzzing embedded firmware
-    - **HD-Fuzz**: a firmware fuzzing approach designed to account for hardware-dependent behavior
+    - **[AidFuzzer](https://www.usenix.org/conference/usenixsecurity25/presentation/wang-jianqiang)**: an adaptive firmware fuzzer that models runtime states to trigger interrupts correctly
+    - **[Fuzzware](https://github.com/fuzzware-fuzzer/fuzzware)**: a hardware-free platform for emulating and fuzzing embedded firmware
+    - **[HD-Fuzz](https://www.sciencedirect.com/science/article/abs/pii/S1084804524000122)**: a hardware-dependency-aware firmware fuzzer using hybrid MMIO modeling
 - **Static Analysis (Reverse Engineering)**
-    - **Binary Ninja**: a commercial reverse-engineering platform for analyzing compiled binaries
-    - **[BinSync](https://binsync.net/)**: open-source Git-based collaboration framework for synchronizing RE analysis across multiple decompilers
-    - **FIE on Firmware**: a symbolic-execution platform for finding vulnerabilities in MSP430 firmware
-    - **Ghidra**: an open-source reverse-engineering suite developed by the NSA
-    - **Hopper**: a commercial disassembler and decompiler primarily used for macOS, Linux, and iOS applications
-    - **IDA Pro**: a commercial disassembler and debugger for reverse engineering bin
-    - **[Kuna](https://kuna.noelo.org/):** Rust-based decompiler, derived from Ghidra, for fast binary decompilation and AI-assisted reverse engineering
-    - **Operation Mango**: a static-analysis system for finding taint-style vulnerabilities in Linux-based firmware
-    - **radare2**: an open-source framework for reverse engineering and binary analysis
-    - **REA (Reverse Engineer Anything):** an AI-agent toolkit using CLI and MCP to analyze binaries, apps, and runtime behavior
-    - **SDRacer**: a system for detecting, validating, and repairing race conditions in interrupt-driven embedded software
+    - **[Binary Ninja](https://docs.binary.ninja/)**: a commercial reverse-engineering platform for analyzing compiled binaries
+    - **[BinSync](https://binsync.net/)**: an open-source Git-based collaboration framework for synchronizing RE analysis across multiple decompilers
+    - **Decompiler**
+        - **[DecBench](https://decbench.com/)**: an open-source living benchmark for decompilers created by the Noelo Lab at UGA
+        - **[Kuna](https://kuna.noelo.org/)**: a Rust-based decompiler, derived from Ghidra, for fast binary decompilation and AI-assisted reverse engineering
+    - **[Ghidra](https://github.com/NationalSecurityAgency/ghidra)**: an open-source reverse-engineering suite developed by the NSA
+    - **[Hopper](https://www.hopperapp.com/)**: a commercial disassembler and decompiler primarily used for macOS, Linux, and iOS applications
+    - **[IDA Pro](https://docs.hex-rays.com/)**: a commercial disassembler and debugger for reverse engineering binaries
+    - **[Operation Mango](https://www.usenix.org/conference/usenixsecurity24/presentation/gibbs)**: a static-analysis system for finding taint-style vulnerabilities in Linux-based firmware
+    - **[radare2](https://book.rada.re/)**: an open-source framework for reverse engineering and binary analysis
+    - **[REA (Reverse Engineer Anything)](https://github.com/morluto/rea)**: an AI-agent toolkit using CLI and MCP to analyze binaries, apps, and runtime behavior
+- **Symbolic Execution**
+    - **[angr](https://docs.angr.io/)**: a Python framework for binary analysis and symbolic execution
+    - **[FIE on Firmware](https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/davidson)**: a symbolic-execution platform for finding vulnerabilities in MSP430 firmware
         
-## Scanning and Reconaissance
-- **Amass**: a tool for discovering subdomains and mapping external attack surfaces
-- **[Armada](https://tinyurl.com/3xsy3mwd)**: risk3sixty's offensive security and attack surface management (ASM) platform
-- **BinaryEdge**: an internet asset intelligence and scanning platform
-- **Censys**: an internet-wide search engine for hosts, services, and certificates
-- **DNSRecon**: a tool for enumerating DNS records and configurations
-- **Enum4linux-ng**: a tool for enumerating information from Windows and Samba systems
-- **[Fing](https://www.fing.com/)**: a network scanner for discovering and identifying connected devices
-- **GreyNoise**: a threat-intelligence platform that identifies internet-wide scanning activity
-- **Insecam**: an index of publicly accessible and unsecured CCTV streams
-- **Nikto**: an open-source scanner for identifying web-server vulnerabilities and misconfigurations
-- **Nmap**: a network scanner for discovering hosts, ports, services, and operating systems
-- **Nmap Scripting Engine**: Nmap functionality that uses scripts for discovery, vulnerability detection, and network testing
-- **Nuclei**: a template-based scanner for detecting known vulnerabilities and expo
-- **Shodan**: a search engine for internet-connected devices and services
-- **Tenable Nessus**: a vulnerability scanner that identifies software flaws, exposed services, and misconfigurations
-- **Zenmap**: a graphical interface for configuring and reviewing Nmap scans
-- **ZMap**: a high-speed scanner designed for internet-wide network surveys
-- **ZoomEye**: an internet asset search engine developed in China
+## Scanning and Reconnaissance
+- **ASM (Attack Surface Management)**
+    - **[Armada](https://risk3sixty.com/secure/attack-surface-management)**: risk3sixty’s offensive security and attack surface management platform
+- **Enumeration**
+    - **DNS Enumeration**
+        - **[Amass](https://github.com/owasp-amass/amass)**: a tool for discovering subdomains and mapping external attack surfaces
+        - **[DNSRecon](https://github.com/darkoperator/dnsrecon)**: a tool for enumerating DNS records and configurations
+    - **[Enum4linux-ng](https://github.com/cddmp/enum4linux-ng)**: a tool for enumerating information from Windows and Samba systems
+- **Internet-Wide Scanning**
+    - **[GreyNoise](https://docs.greynoise.io/)**: a threat-intelligence platform that identifies internet-wide scanning activity
+    - **Internet Asset Search Engine**
+        - **[Censys](https://censys.com/)**: an internet-wide search engine for hosts, services, and certificates
+        - **[Insecam](https://en.wikipedia.org/wiki/Insecam)**: an index of publicly accessible and unsecured CCTV streams
+        - **[Shodan](https://help.shodan.io/)**: a search engine for internet-connected devices and services
+        - **[ZoomEye](https://www.zoomeye.ai/)**: an internet asset search engine developed in China
+    - **[ZMap](https://github.com/zmap/zmap)**: a high-speed scanner designed for internet-wide network surveys
+- **Network Scanning**
+    - **[Fing](https://www.fing.com/)**: a network scanner for discovering and identifying connected devices
+    - **[Nmap](https://nmap.org/book/man.html)**: a network scanner for discovering hosts, ports, services, and operating systems
+        - **[Nmap Scripting Engine](https://nmap.org/book/nse.html)**: Nmap functionality that uses scripts for discovery, vulnerability detection, and network testing
+        - **[Zenmap](https://nmap.org/zenmap/)**: a graphical interface for configuring and reviewing Nmap scans
+- **Vulnerability Scanning**
+    - **[Nikto](https://github.com/sullo/nikto)**: an open-source scanner for identifying web-server vulnerabilities and misconfigurations
+    - **[Nuclei](https://github.com/projectdiscovery/nuclei)**: a template-based scanner for detecting known vulnerabilities and exposures
+    - **[Tenable Nessus](https://docs.tenable.com/nessus/)**: a vulnerability scanner that identifies software flaws, exposed services, and misconfigurations
 
 ## Web Exploitation
-- **BeEF (Browser Exploitation Framework)**: a framework for testing security weaknesses through web browsers
-- **Burp Suite**: a web-security testing platform for intercepting and modifying HTTP traffic
-- **ffuf**: a fast web fuzzer for discovering hidden files, directories, and parameters
-- **Gobuster**: a tool for discovering web paths, DNS names, and virtual hosts
-- **OWASP ZAP**: an open-source platform for testing web-application security
-- **[OWASP Top 10](https://owasp.github.io/www-project-top-ten/):** top 10 most critical web application security risks
-- **Postman**: an API platform for creating, sending, and testing HTTP requests
-- **SQLmap**: a tool for detecting and testing SQL-injection vulnerabilities
-- **WhatWeb**: a tool for identifying technologies used by websites
-- **WPScan**: a security scanner designed for WordPress websites
+- **[Burp Suite](https://portswigger.net/burp/documentation)**: a web-security testing platform for intercepting and modifying HTTP traffic
+- **Cross-Site Scripting (XSS)**
+    - **[BeEF (Browser Exploitation Framework)](https://github.com/beefproject/beef)**: a framework for testing security weaknesses through web browsers
+- **[ffuf](https://github.com/ffuf/ffuf)**: a fast web fuzzer for discovering hidden files, directories, and parameters
+- **[Gobuster](https://github.com/OJ/gobuster)**: a tool for discovering web paths, DNS names, and virtual hosts
+- **[OWASP Top 10](https://owasp.github.io/www-project-top-ten/)**: the ten most critical web application security risks
+- **[Postman](https://learning.postman.com/docs/)**: an API platform for creating, sending, and testing HTTP requests
+- **SQL Injection (SQLi)**
+    - **[sqlmap](https://sqlmap.org/)**: a tool for detecting and testing SQL-injection vulnerabilities
+- **[WhatWeb](https://github.com/urbanadventurer/WhatWeb)**: a tool for identifying technologies used by websites
+- **[WPScan](https://github.com/wpscanteam/wpscan)**: a security scanner designed for WordPress websites
+- **[ZAP (Zed Attack Proxy)](https://www.zaproxy.org/docs/)**: an open-source platform for testing web-application security
 
 ## TODO
 * Add a Table of Contents
