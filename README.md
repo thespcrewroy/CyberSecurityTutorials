@@ -624,7 +624,7 @@
     - **[Labeled Faces in the Wild DB](https://vis-www.cs.umass.edu/lfw/)**: academic benchmark dataset of labeled face photographs collected from the public web
     - **[Textfiles.com](https://textfiles.com/)**: historic repository preserving early internet text artifacts including BBS files, documents
     - **[Visual Genome](https://visualgenome.org/)**: structured image dataset linking objects, attributes, and scene graph relationships
-    - **[Wayback Machine Chrome Extension](https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak)**: browser extension that detects missing pages and loads historical versions from the Wayback Machine
+    - **[Wayback Machine Chrome Extension](https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak)**: detects missing pages and loads historical versions
     - **[Waybackpack](https://github.com/jsvine/waybackpack)**: command-line tool for bulk downloading archived captures from the Internet Archive Wayback Machine
 - **Bar Codes**
     - **JAB (Just Another Barcode) Code**
