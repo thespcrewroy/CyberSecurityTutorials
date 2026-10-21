@@ -523,3 +523,6 @@
 - **Obfuscation**: disguises code, payloads, or requests to make them harder for users and security controls to understand or detect
 - **Server-Side Request Forgery (SSRF)**: tricks a server into making requests to internal or external resources chosen by an attacker
 - **SQL Injection (SQLi)**: injects malicious SQL through application inputs to manipulate queries or access a database
+
+<p align="right"><a href="#top">🔼 Back to top</a></p>
+</small>
