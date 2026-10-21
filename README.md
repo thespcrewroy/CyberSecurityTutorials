@@ -233,37 +233,40 @@
     - **[Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/overview)**: Microsoft’s cloud-native SIEM and security orchestration platform
     - **[Splunk](https://docs.splunk.com/Documentation/Splunk/)**: a platform for searching, monitoring, and analyzing machine-generated data
   
-## Network Traffick Analysis
-- **Aircrack-ng**: a suite for assessing and monitoring wireless-network security
-- **Bettercap**: a framework for network reconnaissance and traffic manipulation
-- **BlueCat Networks Proteus**: a centralized IP management platform for administering DNS, DHCP, and IP addresses
-- **Darktrace**: an AI-driven security platform that detects anomalous behavior across networks and other environments
-- **Ettercap**: a tool for analyzing and testing network communications
-- **HPE Aruba Networking**: a vendor of wireless access points, switches, gateways, and network-management products
-- **Impacket**: a Python collection for interacting with Windows network protocols
+## Network Traffic Analysis
+- **[Bettercap](https://www.bettercap.org/project/introduction/)**: a framework for network reconnaissance and traffic manipulation
+- **[Darktrace](https://www.darktrace.com/)**: an AI-driven security platform that detects anomalous behavior across networks and other environments
+- **DNS (Domain Name System)**
+    - **[BlueCat Address Manager (formerly Proteus)](https://bluecatnetworks.com/)**: a centralized IP management platform for administering DNS, DHCP, and IP addresses
+    - **[OpenDNS](https://www.opendns.com/)**: a DNS service providing security filtering and customizable content controls
+    - **[Pi-hole](https://docs.pi-hole.net/)**: a DNS-level ad and tracker blocking appliance
+    - **[Quad9](https://quad9.net/)**: a privacy-focused public DNS service that blocks known malicious domains
+- **[Ettercap](https://www.ettercap-project.org/)**: a tool for analyzing and testing network communications
+- **Firewalls**
+    - **[AWS Network Firewall](https://docs.aws.amazon.com/network-firewall/latest/developerguide/what-is-aws-network-firewall.html)**: a managed network firewall for filtering and inspecting traffic within Amazon Virtual Private Clouds
+    - **[Azure Firewall](https://learn.microsoft.com/en-us/azure/firewall/overview)**: Microsoft Azure’s managed cloud firewall for controlling and inspecting traffic across Azure networks
+    - **[Palo Alto Networks Next-Generation Firewalls](https://docs.paloaltonetworks.com/pan-os)**: application-layer firewalls that identify and control traffic
+        - **[Panorama](https://docs.paloaltonetworks.com/panorama)**: Palo Alto Networks’ centralized platform for managing multiple firewalls and their security policies
+    - **[Windows Firewall](https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/windows-firewall/)**: a host-based firewall built into Windows that filters incoming and outgoing network traffic
+- **[Impacket](https://github.com/fortra/impacket)**: a Python collection for interacting with Windows network protocols
+- **IPS (Intrusion Prevention System)**
+    - **[Snort](https://www.snort.org/)**: an intrusion detection and prevention system for analyzing network traffic
 - **ISP (Internet Service Providers)**
-    - **Starlink**: satellite internet service provider
-- **Kismet**: a wireless-network detector, sniffer, and monitoring system
-- **Network Miner**: packet analysis and forensic tool
-- **OpenDNS**: a DNS service providing security filtering and customizable content controls
-- **Palo Alto Application-Layer Firewalls**: next-generation firewalls that identify and control traffic
-    - **AWS Network Firewall**: a managed network firewall for filtering and inspecting traffic within Amazon Virtual Private Clouds
-    - **Azure Firewall**: Microsoft Azure’s managed cloud firewall for controlling and inspecting traffic across Azure networks
-    - **Palo Alto Application-Layer Firewalls**: next-generation firewalls that identify and control traffic
-    - **Windows Firewall**: a host-based firewall built into Windows that filters incoming and outgoing network traffic
-- **Panorama**: Palo Alto Networks’ centralized platform for managing multiple firewalls and their security policies
-- **Pi-Hole**: DNS-level ad and tracker blocking appliance
-- **Quad9**: a privacy-focused public DNS service that blocks known malicious domains
+    - **[Starlink](https://www.starlink.com/support)**: a satellite internet service provider
+- **[NetworkMiner](https://www.netresec.com/?page=NetworkMiner)**: a packet analysis and network forensics tool
 - **[RANCID](https://shrubbery.net/rancid/index.html)**: automatically collects, stores, and tracks changes to router and switch configurations
-- **Snort**: an intrusion detection and prevention system for analyzing network traffic
-- **Tailscale**: a mesh VPN service that connects devices using WireGuard
-- **`tcpdump`**: command-line packet capture utility
-- **`tshark`**: command-line port of the Wireshark packet analyzer tool
+- **[`tcpdump`](https://www.tcpdump.org/manpages/tcpdump.1.html)**: a command-line packet capture utility
 - **VPN (Virtual Private Network)**
-    - **Mullvad**: privacy-focused VPN provider
-    - **Wiregaurd**: modern, fast VPN protocol
-- **Wireshark**: GUI packet analyzer for network troubleshooting
-- **Zeek**: an open-source network security monitor that produces detailed traffic logs
+    - **[Mullvad](https://mullvad.net/en/help)**: a privacy-focused VPN provider
+    - **[Tailscale](https://tailscale.com/kb)**: a mesh VPN service that connects devices using WireGuard
+    - **[WireGuard](https://www.wireguard.com/quickstart/)**: a modern, fast VPN protocol
+- **Wifi**
+    - **[Aircrack-ng](https://www.aircrack-ng.org/documentation.html)**: a suite for assessing and monitoring wireless-network security
+    - **[HPE Aruba Networking](https://arubanetworking.hpe.com/techdocs/ArubaDocPortal/content/docportal.htm)**: a vendor of wireless access points, switches, gateways, and network-management products
+    - **[Kismet](https://www.kismetwireless.net/docs/)**: a wireless-network detector, sniffer, and monitoring system
+- **[Wireshark](https://www.wireshark.org/docs/wsug_html_chunked/)**: a GUI packet analyzer for network troubleshooting
+    - **[`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html)**: the command-line version of Wireshark
+- **[Zeek](https://docs.zeek.org/en/master/)**: an open-source network security monitor that produces detailed traffic logs
 
 ## Offensive Security (Red Team)
 - **BloodHound**: a tool for mapping attack paths in Active Directory environments
