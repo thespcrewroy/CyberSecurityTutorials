@@ -1,5 +1,28 @@
 # Cyber Security Tutorials
 
+<details>
+<summary>📖 Table of Contents</summary>
+<br />
+
+- [Artificial Intelligence](#artificial-intelligence)
+- [Blockchain](#blockchain)
+- [Cloud Security](#cloud-security)
+- [Cryptography](#cryptography)
+- [Defensive Security (Blue Team)](#defensive-security-blue-team)
+- [Forensics](#forensics)
+- [Log Analysis](#log-analysis)
+- [Network Traffic Analysis](#network-traffic-analysis)
+- [Offensive Security (Red Team)](#offensive-security-red-team)
+- [Open Source Intelligence (OSINT)](#open-source-intelligence-osint)
+- [Operating Systems](#operating-systems)
+- [Password Cracking](#password-cracking)
+- [Physical Security & Internet of Things (IoT)](#physical-security--internet-of-things-iot)
+- [PWN](#pwn)
+- [Scanning and Reconnaissance](#scanning-and-reconnaissance)
+- [Web Exploitation](#web-exploitation)
+
+</details>
+
 ## Artificial Intelligence
 * **[OWASP LLM Top 10](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/)**: most critical security vulnerabilities and risks when building AI systems 
 * **[LakeraAI](https://www.lakera.ai/)**: leading security platform to secure your AI future
