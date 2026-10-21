@@ -24,35 +24,39 @@
 </details>
 
 ## Artificial Intelligence
-- **[Claude Mythos](https://www.anthropic.com/glasswing)**: Anthropic’s Mythos-tier frontier model offered to vetted organizations through Project Glasswing
-- **[OWASP LLM Top 10](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/)**: most critical security vulnerabilities and risks when building AI systems 
+- **[Claude Mythos](https://www.anthropic.com/glasswing)**: Anthropic’s Mythos-tier frontier model offered to vetted organizations
 - **[LakeraAI](https://www.lakera.ai/)**: leading security platform to secure your AI future
+- **[OWASP LLM Top 10](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/)**: most critical security vulnerabilities and risks when building AI systems
 
 ## Blockchain
-- **Atomic Swaps**
-    - **[EigenWallet (formerly UnstoppableSwap)](https://unstoppableswap.net/)**: a platform for atomic swaps between Bitcoin and Monero
-- **Cryptocurrency Exchange Aggregators**
+- **Atomic Swap**
+    - **[UnstoppableSwap](https://unstoppableswap.net/)**: a platform for atomic swaps between Bitcoin and Monero
+- **Cryptocurrency**
+    - **Bitcoin (BTC)**
+        - **[Blockchain.com Explorer](https://www.blockchain.com/explorer)**: a block explorer for looking up Bitcoin addresses, transactions, and blocks
+- **Cryptocurrency Exchange Aggregator**
     - **[OrangeFren](https://orangefren.com/)**: a directory and rate aggregator for cryptocurrency exchange services
     - **[Trocador](https://trocador.app/)**: a cryptocurrency exchange aggregator that compares and routes swaps through third-party providers
 - **Cryptocurrency Wallet**
-    - **[Feather Wallet](https://docs.featherwallet.org/)**: a lightweight, privacy-focused desktop wallet for Monerome
+    - **[Feather Wallet](https://docs.featherwallet.org/)**: a lightweight, privacy-focused desktop wallet for Monero
 
 ## Cloud Security
-- **[Bottlerocket](https://bottlerocket.dev/)**: a minimal, security-focused Linux operating system built by AWS for running containers
 - **[Cloudflare](https://developers.cloudflare.com/fundamentals/security/)**: a cloud platform providing CDN, DNS, DDoS protection, and web security services
-- **[Cyera](https://www.cyera.com/platform)**: discovers, classifies, and protects sensitive data across cloud, SaaS, and hybrid environments
 - **Containerization**
-    - **[Docker](https://docs.docker.com/get-started/)**: a platform for building and running applications inside containers
-    - **Container Images**
+    - **[Bottlerocket](https://bottlerocket.dev/)**: a minimal, security-focused Linux operating system built by AWS for running containers
+    - **Container Image**
         - **[Dive](https://github.com/wagoodman/dive)**: a tool for inspecting container-image layers and identifying wasted space
     - **Container Orchestration**
         - **[Kubernetes](https://kubernetes.io/docs/concepts/overview/)**: a platform that automates the deployment, scaling, and management of containerized applications
         - **[Red Hat OpenShift](https://docs.redhat.com/en/documentation/openshift_container_platform/4.20/html/overview/ocp-overview)**: an enterprise Kubernetes platform
     - **Container Security**
-         - **[Docker Bench for Security](https://github.com/docker/docker-bench-security)**: a script that checks Docker hosts and containers against the CIS Docker Benchmark
+        - **[Docker Bench for Security](https://github.com/docker/docker-bench-security)**: a script that checks Docker hosts and containers against the CIS Docker Benchmark
         - **[Grype](https://oss.anchore.com/docs/guides/vulnerability/getting-started/)**: a vulnerability scanner for container images, filesystems, and software bills
         - **[kube-bench](https://github.com/aquasecurity/kube-bench)**: checks whether a Kubernetes deployment meets the CIS Kubernetes Benchmark
+    - **[Docker](https://docs.docker.com/get-started/)**: a platform for building and running applications inside containers
+- **[Cyera](https://www.cyera.com/platform)**: discovers, classifies, and protects sensitive data across cloud, SaaS, and hybrid environments
 - **[Google Security Command Center](https://cloud.google.com/security-command-center/docs/overview)**: Google Cloud’s platform for identifying vulnerabilities
+- **[Pacu](https://github.com/RhinoSecurityLabs/pacu)**: an open-source AWS exploitation framework for testing cloud environments
 
 ## Cryptography
 - **Authentication**
@@ -61,31 +65,57 @@
 - **Cipher**
     - **Classical Cipher**
         - **Substitution Cipher**
-            - **[dCode Caesar Cipher](https://www.dcode.fr/caesar-cipher)**: an online tool for encoding, decoding, and brute-forcing Caesar shifts
-            - **[dCode Jefferson Wheel Cipher](https://www.dcode.fr/jefferson-wheel-cipher)**: an online tool for encrypting and decrypting with Jefferson disks
+            - **Caesar Cipher (ROT Cipher)**
+                - **[dCode Caesar Cipher](https://www.dcode.fr/caesar-cipher)**: an online tool for encoding, decoding, and brute-forcing Caesar shifts
+                - **[ROT Encryption](http://www.rot-n.com/)**: an online tool for applying any ROT-N shift
+                - **[rot13.com](https://rot13.com/)**: an online ROT13 and ROT-N encoder and decoder
+                - **[Xarg Caesar Cipher Decryption Tool](https://www.xarg.org/tools/caesar-cipher/)**: an online tool for decrypting Caesar ciphers
+            - **[dCode Pigpen Cipher](https://www.dcode.fr/pigpen-cipher)**: an online tool for encoding and decoding pigpen symbols
+            - **Jefferson Disk Cipher**
+                - **[dCode Jefferson Wheel Cipher](https://www.dcode.fr/jefferson-wheel-cipher)**: an online tool for encrypting and decrypting with Jefferson disks
             - **Polyalphabetic Substitution Cipher**
-                - **[dCode Vigenère Cipher](https://www.dcode.fr/vigenere-cipher)**: an online tool for encrypting, decrypting, and breaking Vigenère ciphers
+                - **Enigma Machine**
+                    - **[Enigma Emulator](https://www.codeproject.com/Articles/10111/Enigma-emulator-in-C)**: a C implementation of the Enigma rotor machine
+                - **Vigenère Cipher**
+                    - **[dCode Vigenère Cipher](https://www.dcode.fr/vigenere-cipher)**: an online tool for encrypting, decrypting, and breaking Vigenère ciphers
         - **Transposition Cipher**
-            - **[dCode Rail Fence Cipher](https://www.dcode.fr/rail-fence-cipher)**: an online tool for encoding and decoding rail-fence ciphers
-            - **[dCode Scytale Cipher](https://www.dcode.fr/scytale-cipher)**: an online tool for encoding and decoding scytale ciphers
+            - **Rail-Fence Cipher**
+                - **[dCode Rail Fence Cipher](https://www.dcode.fr/rail-fence-cipher)**: an online tool for encoding and decoding rail-fence ciphers
+            - **Scytale**
+                - **[dCode Scytale Cipher](https://www.dcode.fr/scytale-cipher)**: an online tool for encoding and decoding scytale ciphers
     - **Modern Cipher**
         - **Asymmetric Cryptography**
             - **RSA (Rivest–Shamir–Adleman)**
+                - **[Drexel RSA Express Encrypt/Decrypt](https://www.cs.drexel.edu/~jpopyack/Courses/CSP/Fa17/notes/10.1_Cryptography/RSA_Express_EncryptDecrypt_v2.html)**: an interactive page for stepping through RSA encryption and decryption
                 - **[Omni Calculator RSA Calculator](https://www.omnicalculator.com/math/rsa)**: an online calculator demonstrating RSA key generation, encryption, and decryption
         - **Symmetric Encryption**
             - **AES (Advanced Encryption Standard)**
                 - **[Devglan AES Encryption/Decryption](https://www.devglan.com/online-tools/aes-encryption-decryption)**: an online tool for encrypting and decrypting data using AES
 - **Cryptanalysis**
-    - **[Cash Sleuth](https://www.cachesleuth.com/multidecoder/)**: a free collection of online tools and cipher solvers designed specifically for geocachers
+    - **[Ares](https://github.com/bee-san/Ares)**: an automatic decoder that identifies and decodes encodings and ciphers, the successor to Ciphey
+    - **[Boxentriq Cipher Identifier](https://www.boxentriq.com/code-breaking/cipher-identifier)**: analyzes ciphertext to suggest which cipher was used
+    - **[Cache Sleuth](https://www.cachesleuth.com/multidecoder/)**: a free collection of online tools and cipher solvers designed specifically for geocachers
     - **[Crypto Attacks](https://github.com/jvdsn/crypto-attacks)**: Python implementations of cryptographic attacks and utilities
     - **[dCode Cipher Identifier](https://www.dcode.fr/cipher-identifier)**: analyzes ciphertext to guess which cipher was used
+    - **[Recover PEM Key](https://blog.cryptohack.org/twitter-secrets)**: a CryptoHack write-up on reconstructing an RSA private key from a partially redacted PEM file
+- **[Cryptii](https://cryptii.com/)**: a modular web app for encoding, decoding, and converting between formats and ciphers
 - **[CyberChef](https://gchq.github.io/CyberChef/)**: a web application for encoding, decoding, encryption, compression, and data analysis
+    - **[Understanding Binary and Data Representation with CyberChef](https://cybergibbons.com/reverse-engineering-2/understanding-binary-and-data-representation-with-cyberchef/)**: a tutorial on reading binary data formats using CyberChef
 - **Data-at-Rest Encryption**
     - **[Cryptomator](https://docs.cryptomator.org/)**: encrypts files inside vaults before local or cloud storage
     - **FDE (Full-Disk Encryption)**
         - **[BitLocker](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/)**: Microsoft’s full-disk encryption feature
         - **[FileVault](https://support.apple.com/guide/deployment/intro-to-filevault-dep82064ec40/web)**: Apple’s full-disk encryption feature for macOS
     - **[VeraCrypt](https://veracrypt.io/en/Downloads.html)**: an open-source encryption application for files, partitions, and storage devices
+- **Encoding**
+    - **[ASCII to Hex](https://www.asciitohex.com/)**: converts text between ASCII, hexadecimal, binary, decimal, and Base64
+    - **[Base64 Decode/Encode](https://www.base64decode.org/)**: an online Base64 encoder and decoder
+    - **[Emoji Sequences](https://unicode.org/Public/emoji/4.0/emoji-sequences.txt)**: the Unicode reference list of emoji code-point sequences
+    - **[Hieroglyphic Translator](https://discoveringegypt.com/hieroglyphic-typewriter/)**: converts Latin letters into Egyptian hieroglyphs
+    - **[Hieroglyphs Generator](https://www.mobilefish.com/services/hieroglyphs/hieroglyphs.php)**: generates images of text written in Egyptian hieroglyphs
+    - **[Morse Code Translator](https://morsecode.world/international/translator.html)**: translates text to and from Morse code, including audio
+    - **[RapidTables ASCII, Hex, Binary, Decimal, Base64 Converter](https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html)**: converts values between common text and number encodings
+    - **[RapidTables Number Conversion](https://www.rapidtables.com/convert/number/index.html)**: converts numbers between bases such as binary, octal, decimal, and hexadecimal
 - **PGP (Pretty Good Privacy)**
     - **OpenPGP**
         - **[GPA (GNU Privacy Assistant)](https://www.gnupg.org/software/gpa/)**: a graphical interface for managing OpenPGP keys
@@ -112,7 +142,7 @@
 - **Asset Management**
     - **[Axonius](https://www.axonius.com/)**: cybersecurity asset management and asset intelligence platform
     - **[CIS Asset Tracking Spreadsheet](https://www.cisecurity.org/insights/white-papers/cis-controls-inventory-tracking-spreadsheets)**: a spreadsheet for inventorying assets
-    * **[Daniel Miessler’s Cybersecurity Resources](https://danielmiessler.com/blog/continuous-asset-management-security)**: tutorails for asset management security
+    - **[Daniel Miessler’s Cybersecurity Resources](https://danielmiessler.com/blog/continuous-asset-management-security)**: tutorials for asset management security
     - **[Lansweeper](https://www.lansweeper.com/)**: an IT asset-discovery and inventory platform
     - **[NIST SP 1800-5](https://www.nccoe.nist.gov/publication/1800-5/)**: practical NIST guidance for improving IT asset management
     - **[Open-AudIT](https://www.open-audit.org/about.php)**: a network discovery and inventory-auditing platform
@@ -129,8 +159,8 @@
     - **[Microsoft Backup and Restore](https://support.microsoft.com/en-us/windows/experience/backup-recovery/back-up-and-restore-with-windows-backup)**: built-in Windows
     - **[Microsoft Volume Shadow Copy Service](https://learn.microsoft.com/en-us/windows-server/storage/file-server/volume-shadow-copy-service)**: a Windows service
     - **[No More Ransom](https://www.nomoreransom.org/)**: ransomware-prevention guidance, IR resources, and free decryption tools for supported ransomware variants
-    - **[Syncthing](https://docs.syncthing.net/)**: a decentralized continuous file-synchronization tool
     - **[Redo Rescue](https://redorescue.com/)**: an open-source bootable backup and recovery environment used to create and restore complete system images
+    - **[Syncthing](https://docs.syncthing.net/)**: a decentralized continuous file-synchronization tool
 - **Endpoint Management**
     - **[Microsoft Configuration Manager (formerly SCCM)](https://learn.microsoft.com/en-us/intune/configmgr/)**: an enterprise platform for monitoring endpoint devices
     - **[Microsoft Intune](https://learn.microsoft.com/en-us/intune/intune-service/)**: a cloud platform for managing devices, applications, and endpoint policies
@@ -139,26 +169,26 @@
     - **[CIS Controls](https://www.cisecurity.org/controls)**: best-practice security controls checklist
         - **[CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks)**: consensus-developed secure configuration guidelines for OS, apps, cloud, and network devices
         - **[CIS Build Kits](https://www.cisecurity.org/insights/blog/build-kits-speed-implementation-of-secure-configurations)**: automated config files, scripts, and GPOs
-        - **[CIS-CAT Pro](https://www.cisecurity.org/cybersecurity-tools/cis-cat-pro)**: automated assessment tool that scans systems and reports their compliance with CIS
         - **[CIS InfoSec Policy Templates](https://www.cisecurity.org/controls/policy-templates)**: customizable policy templates that to help document security requirements
         - **[CIS SecureSuite Membership](https://www.cisecurity.org/cis-securesuite)**: membership providing access to CIS security tools and resources
-    - **[CMMC (Cybersecurity Maturity Model Certification)](https://dodcio.defense.gov/CMMC/Resources-Documentation/):** ensure defense contractors protect unclassified info
+        - **[CIS-CAT Pro](https://www.cisecurity.org/cybersecurity-tools/cis-cat-pro)**: automated assessment tool that scans systems and reports their compliance with CIS
+    - **[CMMC (Cybersecurity Maturity Model Certification)](https://dodcio.defense.gov/CMMC/Resources-Documentation/)**: ensure defense contractors protect unclassified info
     - **[DISA STIGs](https://public.cyber.mil/stigs/downloads/)**: security configuration standards developed by the Defense Information Systems Agency DoD Sytems and tech
     - **[GDPR (General Data Protection Regulation)](https://gdpr-info.eu/)**: EU regulation on personal data protection
     - **[HIPAA (Health Insurance Portability and Accountability Act)](https://www.hhs.gov/hipaa/index.html)**: US law protecting health information
     - **[HITRUST CSF (Common Security Framework)](https://hitrustalliance.net/hitrust-framework)**: health data security
     - **[ISO/IEC 27001](https://www.iso.org/standard/27001)**: world's leading international standard for managing information security
-    - **[Microsoft Purview](https://www.microsoft.com/en-us/security/business/microsoft-purview):** unified data security, governance, and compliance platform
+    - **[Microsoft Purview](https://www.microsoft.com/en-us/security/business/microsoft-purview)**: unified data security, governance, and compliance platform
     - **[NIST Cybersecurity Framework (CSF)](https://www.nist.gov/cyberframework)**: a framework for understanding and managing cybersecurity risk
     - **[PCI-DSS (Payment Card Industry Data Security Standard)](https://www.pcisecuritystandards.org/standards/pci-dss/)**: requirements for handling cardholder data
     - **[SOC (System and Organization Controls)](https://www.aicpa-cima.com/resources/)**: audit standard for service organizations
 - **Incident Response**
     - **[Carnegie Mellon Incident Response Plan](https://www.cmu.edu/iso/governance/procedures/IRPlan.html)**: an example university incident-response plan
     - **CSIRT (Computer Security Incident Response Team)**
-        - **[Forum of Incident Response and Security Teams](https://www.first.org/)**: an international organization supporting incident-response teams     
+        - **[Forum of Incident Response and Security Teams](https://www.first.org/)**: an international organization supporting incident-response teams
     - **[MS-ISAC Incident Reporting](https://www.cisecurity.org/isac/report-an-incident)**: channels for reporting cybersecurity incidents to MS-ISAC
     - **[Open Trust Alliance Cyber Incident and Breach Response Guide](https://www.internetsociety.org/wp-content/uploads/2019/04/2017dpd.pptx.pdf)**: a checklist and guide
-    - **[State of Oregon IR Plan Template](https://www.oregon.gov/eis/cyber-security-services/pages/security-operations-center.aspx)**: a custoxmizable IR plan template
+    - **[State of Oregon IR Plan Template](https://www.oregon.gov/eis/cyber-security-services/pages/security-operations-center.aspx)**: a customizable IR plan template
 - **Operational Security (OpSec)**
     - **Adblock**
         - **[Decentraleyes](https://git.synz.io/Synzvato/decentraleyes)**: locally provides common web resources to reduce third-party requests
@@ -170,8 +200,8 @@
         - **[Kaspersky](https://support.kaspersky.com/)**: a commercial antivirus and security-product suite
         - **[Malwarebytes](https://www.malwarebytes.com/)**: anti-malware software focused on modern threats
         - **[McAfee](https://www.mcafee.com/)**: a provider of consumer antivirus and online-protection products
-        - **[Norton](https://support.norton.com/)**: a provider of consumer antivirus and online-security products
         - **[Microsoft Defender](https://learn.microsoft.com/en-us/defender-endpoint/)**: Microsoft’s endpoint-protection and threat-detection platform
+        - **[Norton](https://support.norton.com/)**: a provider of consumer antivirus and online-security products
     - **Browsers**
         - **[Brave](https://support.brave.com/)**: a privacy-focused browser with built-in content blocking
         - **[Comodo Dragon](https://www.comodo.com/home/browsers-toolbars/browser.php)**: a security-focused Chromium-based web browser
@@ -194,7 +224,7 @@
             - **[Password Safe](https://pwsafe.org/)**: an open-source password manager for storing credentials in an encrypted database
         - **[Specops Password Auditor](https://specopssoft.com/product/specops-password-auditor/)**: an Active Directory auditing tool for identifying weak or compromised passwords
     - **Secure Email**
-        - **[Addy.io (formerly AnonAddy)](https://addy.io/help/)**: an email-alias service
+        - **[Addy.io](https://addy.io/help/)**: an email-alias service formerly known as AnonAddy
         - **[Guerrilla Mail](https://www.guerrillamail.com/)**: a disposable email-address service
         - **[Mailfence](https://kb.mailfence.com/)**: an encrypted email and collaboration service
         - **[Microsoft 365 Quarantine](https://learn.microsoft.com/en-us/defender-office-365/quarantine-about)**: isolates suspected spam, phishing, malware, etc.
@@ -202,12 +232,12 @@
         - **[Private-Mail](https://privatemail.com/)**: a privacy-focused encrypted email service
         - **[Proton Mail](https://proton.me/support/mail)**: an encrypted email service with end-to-end and zero-access encryption
         - **[Temp Mail](https://temp-mail.org/)**: a temporary inbox and disposable email service
-        - **[Tuta (formerly Tutanota)](https://tuta.com/support)**: an encrypted email service
+        - **[Tuta](https://tuta.com/support)**: an encrypted email service formerly known as Tutanota
     - **Secure Search Engines**
         - **[DuckDuckGo](https://duckduckgo.com/duckduckgo-help-pages/)**: a search engine designed to limit user tracking
         - **[SearXNG](https://docs.searxng.org/)**: an open-source, privacy-respecting metasearch engine
         - **[Startpage](https://support.startpage.com/)**: a privacy-oriented search engine and search proxy
-- **Security Awareness and Training:**
+- **Security Awareness and Training**
     - **[Federal Virtual Training Environment Online Courses](https://niccs.cisa.gov/training/cisa-learning)**: former FedVTE program now provided through CISA Learning
     - **[GCA Cybersecurity Toolkit for Small Business](https://gcatoolkit.org/smallbusiness/)**: cybersecurity and MFA guidance and tools for small businesses
     - **[MS-ISAC Cybersecurity Awareness Toolkit](https://www.cisecurity.org/ms-isac/ms-isac-toolkit)**: collection of no-cost cybersecurity awareness materials
@@ -229,12 +259,12 @@
         - **[SANS Internet Storm Center](https://isc.sans.edu/)**: a threat-monitoring and information-sharing service analyzing malicious internet activity
         - **[VirusTotal](https://docs.virustotal.com/)**: analyzes files, URLs, domains, and IP addresses for malicious activity
     - **[ENISA Incident Response Plan](https://www.enisa.europa.eu/topics/eu-incident-response-and-cyber-crisis-management)**: IR and resilience guidance from ENISA
-    - **[MS-ISAC](https://www.cisecurity.org/ms-isac)**: cybersecurity resources, threat intelligence, and incident-response support for SLTT governments
-    - **[MS/EI-ISAC Malicious Code Analysis Platform](https://www.cisecurity.org/services/malicious-code-analysis-platform)**: nonpublic sandbox for analyzing sus files
-    - **[MS-ISAC Services](https://www.cisecurity.org/ms-isac/services)**: cybersecurity services available through MS-ISAC
-    - **IDS/IPS (Intrusion Detection & Intrusion Prevention System):**
-        - **[Snort](https://www.snort.org/):** open-source network intrusion detection and prevention system
+    - **IDS/IPS (Intrusion Detection & Intrusion Prevention System)**
+        - **[Snort](https://www.snort.org/)**: open-source network intrusion detection and prevention system
         - **[Suricata](https://docs.suricata.io/)**: an open-source intrusion-detection, intrusion-prevention, and network-monitoring engine
+    - **[MS-ISAC](https://www.cisecurity.org/ms-isac)**: cybersecurity resources, threat intelligence, and incident-response support for SLTT governments
+    - **[MS-ISAC Services](https://www.cisecurity.org/ms-isac/services)**: cybersecurity services available through MS-ISAC
+    - **[MS/EI-ISAC Malicious Code Analysis Platform](https://www.cisecurity.org/services/malicious-code-analysis-platform)**: nonpublic sandbox for analyzing sus files
     - **[Zabbix](https://www.zabbix.com/)**: an open-source platform for monitoring infrastructure, networks, applications, and services
 - **Vulnerability Management**
     - **[endoflife.date](https://endoflife.date/)**: a community-maintained resource tracking product support and end-of-life dates
@@ -247,50 +277,127 @@
     - **[U.S. National Vulnerability Database](https://nvd.nist.gov/)**: a searchable repository of standardized information about publicly disclosed vulnerabilities
 
 ## Forensics
-- **[ExifTool by Phil Harvey](https://exiftool.org/)**: a command-line utility for reading, writing, and inspecting file metadata
+- **[DFIR Cheatsheet](https://www.jaiminton.com/cheatsheet/DFIR/)**: a cheat sheet of Windows and Linux forensic artifacts and commands for incident responders
+- **[Dissect](https://github.com/fox-it/dissect)**: Fox-IT’s framework for collecting and parsing forensic artifacts at scale
 - **File-System Forensics**
     - **[Autopsy](https://www.sleuthkit.org/autopsy/)**: a graphical digital-forensics platform built on The Sleuth Kit
-    - **[Binwalk](https://github.com/ReFirmLabs/binwalk)**: identifies and extracts files embedded inside firmware and other binary data 
+    - **[Binwalk](https://github.com/ReFirmLabs/binwalk)**: identifies and extracts files embedded inside firmware and other binary data
+    - **[bulk_extractor](https://github.com/simsong/bulk_extractor)**: scans disk images and files for features such as emails, URLs, and credit-card numbers
     - **[Disk Wipe](https://www.diskwipe.org/)**: a portable Windows application for permanently erasing storage volumes
+    - **[Docker Explorer](https://github.com/google/docker-explorer)**: Google’s tool for forensically analyzing offline Docker file systems
+    - **[Docker Forensics Toolkit](https://github.com/docker-forensics-toolkit/toolkit)**: extracts and interprets forensic artifacts from disk images of Docker hosts
+    - **[DS_Store Parser](https://github.com/hanwenzhu/.DS_Store-parser)**: parses macOS .DS_Store files to reveal folder contents and metadata
     - **[Foremost](https://foremost.sourceforge.net/)**: recovers files using headers, footers, and internal data structures
     - **[FTK Imager](https://www.exterro.com/ftk-product-downloads/ftk-imager-version-4-7-1)**: a forensic tool for creating disk images
     - **[NIST SP 800-88](https://csrc.nist.gov/pubs/sp/800/88/r2/final)**: NIST guidance for sanitizing storage media
+    - **[PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec)**: a file-carving tool that recovers lost files from disks, memory cards, and images
+    - **[PowerForensics](https://github.com/Invoke-IR/PowerForensics)**: a PowerShell framework for live disk and NTFS file-system forensics
+    - **[Siftgrab](https://github.com/dfir-scripts/siftgrab)**: scripts for mounting disk images and extracting Windows forensic artifacts
     - **[The Sleuth Kit (TSK)](https://www.sleuthkit.org/sleuthkit/)**: command-line tools and libraries for analyzing disks and file systems
+    - **[Wombat Forensics](https://github.com/pjrinaldi/wombatforensics)**: a GUI forensic tool for examining disk images and file systems
+- **Image Forensics**
+    - **[Forensically](https://29a.ch/photo-forensics/)**: a browser-based suite for detecting image manipulation, including clone detection and error level analysis
+    - **[FotoForensics](https://fotoforensics.com/)**: an online error level analysis service for spotting edited regions in photos
+    - **[Unredactor](https://github.com/bishopfox/unredacter)**: Bishop Fox’s tool for recovering text hidden behind pixelation
+- **[Linux Expl0rer](https://github.com/intezer/linux-explorer)**: a web-based live-forensics toolbox for Linux endpoints
+- **Magic Bytes (File Signatures)**
+    - **[List of File Signatures](https://en.wikipedia.org/wiki/List_of_file_signatures)**: a reference table of magic bytes used to identify file types
 - **Memory Forensics**
     - **[Volatility 2](https://github.com/volatilityfoundation/volatility)**: a legacy Python framework for analyzing memory captures
     - **[Volatility 3](https://volatility3.readthedocs.io/en/latest/)**: the modern Volatility framework for memory forensics
+- **Metadata Analysis**
+    - **[DOCX Metadata](https://products.groupdocs.app/metadata/docx)**: an online viewer and editor for Word document metadata
+    - **[ExifTool by Phil Harvey](https://exiftool.org/)**: a command-line utility for reading, writing, and inspecting file metadata
+    - **[Jeffrey’s Image Metadata Viewer](http://exif.regex.info/)**: an online viewer for EXIF and other image metadata
+    - **[metadata2go](https://www.metadata2go.com/)**: an online tool for viewing metadata in images, documents, audio, and video
 - **Spectrography**
     - **[Audacity](https://manual.audacityteam.org/man/spectrogram_view.html)**: an audio editor used to inspect waveforms and spectrograms
+    - **[DTMF Decoder](https://github.com/ribt/dtmf-decoder)**: decodes dual-tone multi-frequency phone tones from audio files
+    - **[Sonic Visualiser](https://www.sonicvisualiser.org/)**: an application for viewing and analyzing the contents of audio files, including spectrograms
+    - **[Spectrology](https://github.com/solusipse/spectrology)**: converts images into audio whose spectrogram displays the image
 - **Steganography**
     - **[Aperi'Solve](https://www.aperisolve.fr/)**: an online platform that performs multiple steganographic analyses on images
+    - **[AudioStego](https://github.com/danielcardeenas/AudioStego)**: hides and extracts data inside audio files
+    - **[CTF Image Steganography Checklist](https://stegonline.georgeom.net/checklist)**: StegOnline’s step-by-step checklist for solving image steganography challenges
+    - **[Digital Invisible Ink Toolkit](http://diit.sourceforge.net/)**: a Java tool for hiding and detecting data in images
+    - **[Futureboy Decoder](https://futureboy.us/stegano/decinput.html)**: an online decoder for data hidden with Futureboy’s steganography encoder
+    - **[Steg0saurus](https://lukeslytalker.pythonanywhere.com/)**: an online tool for hiding and revealing text in images
+    - **[Steganography 101](https://pequalsnp-team.github.io/cheatsheet/steganography-101)**: a cheat sheet of common steganography techniques and tools for CTFs
     - **[Steghide](https://steghide.sourceforge.net/)**: hides and extracts data within supported image and audio files
     - **[StegSeek](https://github.com/RickdeJager/stegseek)**: performs high-speed password recovery and extraction against Steghide files
     - **[StegSolve](https://github.com/zardus/ctf-tools/tree/master/stegsolve)**: a Java tool for examining image color channels and bit planes
+    - **[WavSteg](https://github.com/samolds/wavsteg)**: hides and recovers data in the least significant bits of WAV audio files
+    - **[zsteg](https://github.com/zed-0xff/zsteg)**: detects data hidden in PNG and BMP images
 - **[`strings`](https://sourceware.org/binutils/docs/binutils/strings.html)**: a command-line utility that extracts readable character sequences from binary files
 - **[`xxd`](https://github.com/vim/vim/tree/master/src/xxd)**: creates hexadecimal dumps and converts hexadecimal data back into binary
 - **[YARA](https://yara.readthedocs.io/en/stable/)**: identifies malware and other files using pattern-matching rules
 
 ## Log Analysis
+- **Audit Log**
+    - **Authentication Log**
+        - **[Parsing SSH Logs – Basics](https://redgreenrepeat.com/2017/02/17/parsing-ssh-logs-basics/)**: a walkthrough of extracting useful information from SSH authentication logs
+- **[`awk`](https://www.gnu.org/software/gawk/manual/)**: a pattern-scanning and text-processing language for extracting fields from structured text
+    - **[AWK & Cut Linux Utilities](https://www.cyberciti.biz/faq/unix-linux-bsd-appleosx-skip-fields-command/)**: a guide to skipping and selecting fields with awk and cut
+    - **[awk Cheat Sheet](https://quickref.me/awk)**: a quick reference for awk syntax and common one-liners
+    - **[Guide to awk](https://www.baeldung.com/linux/awk-guide)**: Baeldung’s introduction to awk
+- **[Beginners Guide to Log Analysis](https://www.youtube.com/watch?v=9v5X3u3b5O0)**: an introductory video on log analysis
+- **[Command-Line Log Analysis FTW](https://cryptokait.com/2021/02/10/command-line-log-analysis-for-the-win-1-3-how-to-approach-a-wild-log/)**: CryptoKait’s series on approaching unfamiliar logs from the command line
+- **[`cut`](https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html)**: a command-line utility that extracts selected fields or characters from each line
+    - **[Cut Multiple Patterns from a File](https://www.unix.com/shell-programming-and-scripting/45640-how-cut-multiple-patterns-file.html)**: a forum walkthrough on cutting several patterns from one file
 - **[Datadog](https://docs.datadoghq.com/logs/)**: a cloud platform for monitoring logs, applications, infrastructure, and security events
-- **[`grep` (Global Regular Expression Print)](https://www.gnu.org/software/grep/manual/grep.html)**: a command-line utility that searches text for matching patterns
-- **[Microsoft Excel](https://support.microsoft.com/en-us/excel/)**: a spreadsheet tool for filtering, organizing, and analyzing exported log data
 - **[ELK Stack](https://www.elastic.co/docs/get-started/the-stack)**: a collection of Elastic tools for ingesting, storing, searching, and visualizing log data
+- **Endpoint Log**
+    - **Operating-System Log**
+        - **Linux Log**
+            - **[Ultimate Guide to Logging](https://www.loggly.com/ultimate-guide/analyzing-linux-logs/)**: Loggly’s guide to finding and analyzing Linux logs
+- **[EPOCH Converter](https://www.epochconverter.com/)**: converts Unix timestamps to and from human-readable dates
+- **[Extracting Information From Logs](https://bash-prompt.net/guides/using-logs-1/)**: a guide to pulling useful data out of logs with shell tools
+- **[`grep` (Global Regular Expression Print)](https://www.gnu.org/software/grep/manual/grep.html)**: a command-line utility that searches text for matching patterns
+    - **[Beginners Guide to grep](https://www.opensourceforu.com/2012/06/beginners-guide-gnu-grep-basics/)**: an introduction to GNU grep basics
+    - **[grep Cheat Sheet](https://quickref.me/grep.html)**: a quick reference for grep options and patterns
+    - **[Learn to GREP](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)**: GeeksforGeeks’ guide to the grep command
+- **[How to Cut and Carve Logs in the NCL](https://cryptokait.com/2020/02/17/sharpening-the-axe-how-to-cut-and-carve-logs-in-the-ncl/)**: CryptoKait’s guide to slicing logs for National Cyber League challenges
+- **[JSON to CSV](https://csvjson.com/json2csv)**: converts JSON data into CSV for spreadsheet analysis
+- **[Leaping into Log Analysis](https://cryptokait.com/2019/08/27/leaping-into-log-analysis/)**: CryptoKait’s introduction to log analysis
+- **[Log Analysis Tips for People Who Aren’t Ready for Command Line](https://cryptokait.com/2019/08/27/log-analysis-tips-for-people-who-arent-ready-for-command-line/)**: GUI-based log analysis tips from CryptoKait
+- **[Log Formats Guide](https://www.graylog.org/post/log-formats-a-complete-guide/)**: Graylog’s overview of common log formats
+- **[Microsoft Excel](https://support.microsoft.com/en-us/excel/)**: a spreadsheet tool for filtering, organizing, and analyzing exported log data
+- **[Online List Tools](https://onlinelisttools.com/)**: browser-based utilities for sorting, deduplicating, and transforming lists
+- **Regular Expression (Regex)**
+    - **[regex101](https://regex101.com/)**: an online regular-expression tester and debugger with explanations
+- **Server Log**
+    - **Web-Server Log**
+        - **[Deciphering Your Site’s Access Logs](https://techgirlkb.guru/2017/08/deciphering-your-sites-access-logs/)**: a guide to reading web-server access log entries
+        - **[Explaining the User-Agent String](https://towardsdatascience.com/the-user-agent-that-crazy-string-underpinning-a-bunch-of-analytics-86507ef632f0)**: an explanation of how user-agent strings are structured
+        - **[Parse a User Agent String](https://explore.whatismybrowser.com/useragents/parse/#parse-useragent)**: an online parser that identifies the browser, OS, and device in a user-agent string
+        - **[Understanding Log Analysis of Web Server](https://www.hackingarticles.in/understanding-log-analysis-web-server/)**: Hacking Articles’ guide to analyzing web-server logs
 - **SIEM (Security Information and Event Management)**
     - **[Datadog Cloud SIEM](https://docs.datadoghq.com/security/cloud_siem/)**: a cloud-native platform for detecting and investigating threats using security telemetry
     - **[Elastic Security](https://www.elastic.co/docs/solutions/security)**: Elastic’s SIEM, threat-detection, and security-investigation platform
     - **[Google SecOps (formerly Chronicle)](https://docs.cloud.google.com/chronicle/docs/overview)**: Google’s cloud-native SIEM and SOAR platform
     - **[Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/overview)**: Microsoft’s cloud-native SIEM and security orchestration platform
     - **[Splunk](https://docs.splunk.com/Documentation/Splunk/)**: a platform for searching, monitoring, and analyzing machine-generated data
-  
+- **SQL (Structured Query Language)**
+    - **[SQL Cheat Sheet](https://www.sqltutorial.org/sql-cheat-sheet/)**: a quick reference for common SQL statements
+    - **[SQL Tutorial](https://www.tutorialrepublic.com/sql-tutorial/)**: Tutorial Republic’s beginner SQL course
+    - **[SQLite Online](https://sqliteonline.com/)**: a browser-based SQL editor for running queries without installing a database
+    - **[SQLZoo](https://sqlzoo.net/wiki/SQL_Tutorial)**: interactive SQL tutorials and exercises
+
 ## Network Traffic Analysis
+- **[A-Packets](https://apackets.com/)**: an online PCAP analyzer that visualizes protocols, hosts, and credentials in captures
+- **[Basics of Network Traffic Analysis](https://www.youtube.com/watch?v=o-QNMSPbOGY)**: an introductory video on network traffic analysis
 - **[Bettercap](https://www.bettercap.org/project/introduction/)**: a framework for network reconnaissance and traffic manipulation
+- **[CapAnalysis](https://www.capanalysis.net/ca/)**: a web-based PCAP visualizer for exploring large captures
 - **[Darktrace](https://www.darktrace.com/)**: an AI-driven security platform that detects anomalous behavior across networks and other environments
 - **DNS (Domain Name System)**
+    - **[AWS: What Is DNS?](https://aws.amazon.com/route53/what-is-dns/)**: Amazon’s explanation of how DNS works
     - **[BIND](https://bind9.readthedocs.io/)**: the most widely deployed open-source DNS server software
     - **[BlueCat Address Manager (formerly Proteus)](https://bluecatnetworks.com/)**: a centralized IP management platform for administering DNS, DHCP, and IP addresses
+    - **[Cloudflare: What Is DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/)**: Cloudflare’s explanation of how DNS works
     - **[OpenDNS](https://www.opendns.com/)**: a DNS service providing security filtering and customizable content controls
     - **[Pi-hole](https://docs.pi-hole.net/)**: a DNS-level ad and tracker blocking appliance
     - **[Quad9](https://quad9.net/)**: a privacy-focused public DNS service that blocks known malicious domains
+- **[DynamiteLab](https://lab.dynamite.ai/)**: a free online environment for analyzing PCAPs with Zeek and Suricata
 - **[Ettercap](https://www.ettercap-project.org/)**: a tool for analyzing and testing network communications
 - **Firewalls**
     - **[AWS Network Firewall](https://docs.aws.amazon.com/network-firewall/latest/developerguide/what-is-aws-network-firewall.html)**: a managed network firewall for filtering and inspecting traffic within Amazon Virtual Private Clouds
@@ -300,23 +407,54 @@
     - **[pfSense](https://docs.netgate.com/pfsense/en/latest/)**: an open-source firewall and router platform based on FreeBSD
     - **[Windows Firewall](https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/windows-firewall/)**: a host-based firewall built into Windows that filters incoming and outgoing network traffic
 - **[Impacket](https://github.com/fortra/impacket)**: a Python collection for interacting with Windows network protocols
+- **Internet Control Message Protocol (ICMP)**
+    - **[Cyber Skyline: Pinging All Devices](https://trove.cyberskyline.com/8a788e8f624448f2913d66686f21525a)**: a Cyber Skyline Trove module on using ping to discover hosts
+- **[Intro to Network Traffic Analysis](https://academy.hackthebox.com/course/preview/intro-to-network-traffic-analysis)**: Hack The Box Academy’s introductory module on traffic analysis
 - **IPS (Intrusion Prevention System)**
     - **[Snort](https://www.snort.org/)**: an intrusion detection and prevention system for analyzing network traffic
 - **ISP (Internet Service Providers)**
     - **[Starlink](https://www.starlink.com/support)**: a satellite internet service provider
+- **[Methods and How to Analyze Network Traffic](https://www.parkplacetechnologies.com/blog/network-traffic-analysis-methods/)**: an overview of network traffic analysis methods
+- **[Nethor](https://nethor.com/)**: a desktop suite of network analysis and diagnostic utilities
+- **[Network Traffic Analysis Cheatsheet](https://github.com/MalwareBro/Network_Traffic_Analysis_CheatSheet/blob/main/Network_Traffic_Analysis_Cheatsheet.md)**: a cheat sheet of filters and techniques for analyzing captures
+- **[Network Traffic PCAPs to Analyze](https://www.malware-traffic-analysis.net/training-exercises.html)**: Malware-Traffic-Analysis.net’s collection of real malicious-traffic PCAP exercises
 - **[NetworkMiner](https://www.netresec.com/?page=NetworkMiner)**: a packet analysis and network forensics tool
+- **[Newbies Guide to Network Traffic Analysis](https://www.youtube.com/watch?v=UyI-CArr0bg)**: a beginner video walkthrough of network traffic analysis
+- **Ports & Protocols**
+    - **[Basics of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP)**: MDN’s introduction to how HTTP works
+    - **[IETF Datatracker](https://datatracker.ietf.org/)**: the IETF’s searchable archive of RFCs and protocol drafts
+    - **[pentestmonkey SSH Cheat Sheet](https://pentestmonkey.net/cheat-sheet/ssh-cheat-sheet)**: SSH tricks for pentesters, including port forwarding and tunneling
+- **Proxies**
+    - **[FoxyProxy](https://getfoxyproxy.org/)**: a browser extension for quickly switching between proxy servers
 - **[RANCID](https://shrubbery.net/rancid/index.html)**: automatically collects, stores, and tracks changes to router and switch configurations
+- **[Spotting Anomalies in PCAPs](https://cryptokait.com/2020/09/07/spotting-anomalies-in-pcaps/)**: CryptoKait’s guide to finding suspicious activity in packet captures
+- **Subnet (Sub Network)**
+    - **[IP Subnet Calculator](https://www.subnet-calculator.com/)**: calculates network ranges, masks, and host counts for IP subnets
 - **[`tcpdump`](https://www.tcpdump.org/manpages/tcpdump.1.html)**: a command-line packet capture utility
 - **VPN (Virtual Private Network)**
     - **[Mullvad](https://mullvad.net/en/help)**: a privacy-focused VPN provider
     - **[Tailscale](https://tailscale.com/kb)**: a mesh VPN service that connects devices using WireGuard
     - **[WireGuard](https://www.wireguard.com/quickstart/)**: a modern, fast VPN protocol
+- **[What Is Networking?](https://trove.cyberskyline.com/computer-fundamentals-for-cybersecurity/networking)**: Cyber Skyline’s introduction to networking fundamentals
 - **Wifi**
     - **[Aircrack-ng](https://www.aircrack-ng.org/documentation.html)**: a suite for assessing and monitoring wireless-network security
     - **[HPE Aruba Networking](https://arubanetworking.hpe.com/techdocs/ArubaDocPortal/content/docportal.htm)**: a vendor of wireless access points, switches, gateways, and network-management products
     - **[Kismet](https://www.kismetwireless.net/docs/)**: a wireless-network detector, sniffer, and monitoring system
 - **[Wireshark](https://www.wireshark.org/docs/wsug_html_chunked/)**: a GUI packet analyzer for network troubleshooting
+    - **[5 Killer Tricks for Wireshark](https://www.howtogeek.com/106191/5-killer-tricks-to-get-the-most-out-of-wireshark/)**: How-To Geek’s tips for getting more out of Wireshark
+    - **[Chris Greer’s Wireshark Tutorials](https://www.youtube.com/@ChrisGreer)**: a YouTube channel of in-depth packet-analysis tutorials
+    - **[HackerTarget Wireshark Tutorial & Cheat Sheet](https://hackertarget.com/wireshark-tutorial-and-cheat-sheet/)**: a tutorial and filter cheat sheet from HackerTarget
+    - **[How to Use Wireshark](https://www.comptia.org/content/articles/what-is-wireshark-and-how-to-use-it)**: CompTIA’s introduction to Wireshark
+    - **[OWASP Wireshark Book](https://owasp.org/www-pdf-archive//Owasp_wireshark.pdf)**: OWASP’s PDF guide to Wireshark
+    - **[SharkBytes Podcast](https://sharkbytes.transistor.fm/)**: a podcast about packet analysis and Wireshark
+    - **[TryHackMe Wireshark Module](https://tryhackme.com/module/wireshark)**: hands-on TryHackMe rooms for learning Wireshark
     - **[`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html)**: the command-line version of Wireshark
+        - **[tshark.dev](https://tshark.dev/)**: a guide to capturing and analyzing packets with tshark
+    - **[What Is Wireshark?](https://www.redhat.com/sysadmin/introduction-wireshark)**: Red Hat’s introduction to Wireshark
+    - **[Wireshark Cheat Sheet](https://www.comparitech.com/net-admin/wireshark-cheat-sheet/)**: Comparitech’s Wireshark filter and shortcut cheat sheet
+    - **[Wireshark in 10 Minutes](https://www.youtube.com/watch?v=lb1Dw0elw0Q)**: a short video introduction to Wireshark
+    - **[Wireshark Masterclass](https://www.youtube.com/watch?v=OU-A2EmVrKQ&list=PLW8bTPfXNGdC5Co0VnBK1yVzAwSSphzpJ)**: a YouTube playlist covering Wireshark in depth
+    - **[Wireshark Tricks](https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology/pcap-inspection/wireshark-tricks)**: HackTricks notes on inspecting PCAPs in Wireshark
 - **[Zeek](https://docs.zeek.org/en/master/)**: an open-source network security monitor that produces detailed traffic logs
 
 ## Offensive Security (Red Team)
@@ -324,9 +462,17 @@
 - **Bug Bounty Programs**
     - **[HackerOne](https://www.hackerone.com/)**: a bug bounty platform connecting ethical hackers with companies
     - **[Open Bug Bounty](https://www.openbugbounty.org/)**: a platform for reporting web vulnerabilities through coordinated disclosure
+- **[Exploit Database](https://www.exploit-db.com/)**: an archive of public exploits and vulnerable software maintained by OffSec
+    - **[SearchSploit](https://www.exploit-db.com/searchsploit)**: a command-line interface for searching the Exploit Database
+- **[fireELF](https://github.com/rek7/fireELF)**: a framework for executing fileless Linux payloads from memory
 - **[Metasploit Framework](https://docs.metasploit.com/)**: a platform for developing, testing, and executing exploits
 - **[NetExec](https://www.netexec.wiki/)**: a tool for assessing and automating attacks against network services
-- **[SearchSploit](https://www.exploit-db.com/searchsploit)**: a command-line interface for searching the Exploit Database
+- **Privilege Escalation**
+    - **[unix-privesc-check](https://pentestmonkey.net/tools/audit/unix-privesc-check)**: a shell script that finds misconfigurations letting local users escalate privileges on Unix systems
+    - **[windows-privesc-check](https://pentestmonkey.net/tools/windows-privesc-check)**: a tool for finding Windows privilege-escalation weaknesses such as weak file, directory, and service permissions
+- **Reverse Shell**
+    - **[pentestmonkey Reverse Shell Cheat Sheet](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)**: one-line reverse shells in Bash, Perl, Python, PHP, Ruby, Netcat, Java, and more
+    - **[php-reverse-shell](https://pentestmonkey.net/tools/web-shells/php-reverse-shell)**: a PHP script that opens an outbound shell connection from a web server to a listener
 - **Social Engineering**
     - **Phishing**
         - **[Berkeley Phish Tank](https://security.berkeley.edu/phish-tank)**: a collection of real phishing examples and guidance from UC Berkeley
@@ -335,17 +481,30 @@
 - **Spoofing**
     - **[Responder](https://github.com/lgandx/Responder)**: a tool for capturing authentication attempts through poisoned name-resolution responses
 - **Vulnerable Lab**
+    - **[OWASP Juice Shop](https://github.com/juice-shop/juice-shop)**: an intentionally insecure web application covering the OWASP Top 10 and more
+        - **[Pwning OWASP Juice Shop](https://pwning.owasp-juice.shop/)**: the official companion guide and walkthrough for Juice Shop
     - **[VulnHub](https://www.vulnhub.com/)**: downloadable vulnerable virtual machines for cybersecurity practice
 
 ## Open Source Intelligence (OSINT)
+- **[ACLED](https://www.acleddata.com/)**: a dataset tracking political violence and protest events worldwide
 - **Bar Codes**
     - **JAB (Just Another Barcode) Code**
         - **[JAB Code](https://jabcode.org/)**: an online generator and scanner for high-capacity color JAB barcodes
+    - **[Online Barcode Reader](https://online-barcode-reader.inliteresearch.com/)**: decodes barcodes and QR codes from uploaded images
 - **Data Brokers**
     - **[Names Directory](https://namesdir.com/)**: a people-search directory for finding public identity information
+    - **[Reverse Phone Check](https://www.reversephonecheck.com/)**: a reverse phone-number lookup service
+    - **[SpyDialer](https://spydialer.com/)**: a free reverse lookup for phone numbers, names, and addresses
     - **[ThatsThem](https://thatsthem.com/)**: a people-search service that can associate usernames with public records
+- **[DeepL](https://www.deepl.com/)**: a machine-translation service for reading foreign-language sources
 - **Geolocation**
     - **[GeoSpy](https://geospy.ai/)**: an AI-powered tool for estimating the geographic location of photos
+    - **[GPS Coordinates](https://www.gps-coordinates.net/)**: finds and converts GPS coordinates for addresses and map points
+    - **[MarineTraffic](https://www.marinetraffic.com/)**: a live map tracking ship positions worldwide
+    - **[What3Words](https://what3words.com/products/what3words-app)**: a geocoding system that identifies every 3-meter square with three words
+    - **[WiGLE](https://www.wigle.net/)**: a crowdsourced map of wireless networks and their locations
+- **[Google Trends](https://www.google.com/trends)**: shows how search interest in a topic changes over time and by region
+- **[HealthMap](https://www.healthmap.org/)**: a map aggregating disease-outbreak reports from public sources
 - **[Maltego](https://docs.maltego.com/)**: a graphical platform for mapping relationships between public information
 - **Piracy**
     - **[The Pirate Bay](https://en.wikipedia.org/wiki/The_Pirate_Bay)**: a popular torrent index site for sharing files
@@ -356,35 +515,56 @@
     - **[Tinder Usernames](https://tinder.com/@%3Cusername%3E)**: a manual lookup for public Tinder profiles associated with a username
 - **[Recon-ng](https://github.com/lanmaster53/recon-ng)**: a modular framework for conducting web-based reconnaissance
 - **Search Engine**
+    - **[Carrot²](https://carrot2.org/)**: a search-results clustering engine that groups results into topics
     - **[FootprintIQ](https://footprintiq.app/)**: a platform for locating usernames and analyzing digital footprints
     - **[GitFive](https://github.com/mxrch/GitFive)**: a tool for gathering public intelligence about GitHub users
     - **[Google Reverse Image Search](https://lens.google/)**: finds similar images and their sources
+    - **[Hashatit](https://www.hashatit.com/)**: a social search engine for hashtags across social networks
     - **[Lullar](https://com.lullar.com/)**: a search tool for finding online accounts associated with usernames or email addresses
     - **[NameCheckup](https://namecheckup.com/)**: a web tool for checking usernames across websites and domain extensions
     - **[Namechk](https://namechk.com/)**: a web tool for checking username and domain availability
+    - **[NewsLookup](http://www.newslookup.com/)**: a news search engine that indexes sources by region and topic
     - **[PullPush Reddit Search](https://search.pullpush.io/)**: searches archived Reddit posts and comments
+    - **[SearchCode](https://searchcode.com/)**: a search engine for source code across public repositories
     - **[Sherlock](https://github.com/sherlock-project/sherlock)**: a command-line tool for finding accounts with a username across social networks
     - **[Sylva Identity Discovery](https://sylva.pfeister.dev/)**: a tool for connecting online identities with possible real-world identities
+    - **[TinEye](https://www.tineye.com/)**: a reverse image search engine for finding where an image appears online
     - **[WhatsMyName](https://github.com/WebBreacher/WhatsMyName)**: a community-maintained dataset for checking usernames across hundreds of websites
     - **[WhatsMyName Web](https://whatsmyname.app/)**: a browser-based interface for finding accounts associated with a username
     - **[Yandex](https://yandex.com/images/)**: a Russian search engine with image and web search features
 - **Search-Engine Dorking**
     - **Google Dorking (Google Hacking)**
         - **[Amazon Usernames](https://www.google.com/search?q=site:amazon.com+%3Cusername%3E)**: a manual search for public Amazon profiles
+        - **[Dorksearch](https://www.dorksearch.com/)**: a faster interface for building and running Google dork queries
+        - **[GBHackers Latest Google Dorks List](https://gbhackers.com/latest-google-dorks-list/)**: a list of Google dorks for finding exposed information
+        - **[Google Dorking Strings (Top 21)](https://booleanstrings.com/2020/05/01/the-full-list-of-google-operators-2020/)**: Boolean Strings’ full list of Google search operators
+        - **[Hackers Guide to Google Dorks](https://cooltechzone.com/research/hackers-guide-to-google-dorks)**: a guide to Google dork operators and example queries
         - **[Hidden Reddit Posts](https://www.google.com/search?q=site:reddit.com+%3Cusername%3E)**: a manual search for hidden Reddit posts
+        - **[The Google Hacker’s Guide](http://pdf.textfiles.com/security/googlehackers.pdf)**: a classic PDF guide to Google hacking techniques
+    - **[Sitedorks](https://github.com/Zarcolio/sitedorks)**: a tool for running a search query across many sites at once using dorks
+- **[SpiderFoot](https://github.com/smicallef/spiderfoot)**: an automated OSINT framework that queries over 200 data sources
 - **[theHarvester](https://github.com/laramies/theHarvester)**: a tool for gathering public emails, subdomains, hosts, and employee names
-  
+- **[Wayback Machine](https://archive.org/web/)**: the Internet Archive’s searchable history of archived web pages
+- **WHOIS**
+    - **[DomainTools Whois](https://whois.domaintools.com/)**: a WHOIS lookup service for domain registration and hosting details
+    - **[ICANN Lookup](https://lookup.icann.org/)**: ICANN’s official registration-data lookup for domains
+
 ## Operating Systems
 - **[Android Automatic Updates](https://support.google.com/android/answer/7680439)**: guidance for automatically updating Android devices
 - **[Apple iOS Automatic Updates](https://support.apple.com/en-us/118575)**: guidance for automatically updating iOS devices
 - **[TempleOS](https://templeos.org/)**: a lightweight biblical-themed operating system created entirely by Terry A. Davis
 - **Terminal**
+    - **Commands**
+        - **[Crontab Cheatsheet](https://www.codementor.io/@akul08/the-ultimate-crontab-cheatsheet-5op0f7o4r)**: a reference for scheduling jobs with cron
+        - **[Linux Commands Cheatsheet](https://phoenixnap.com/kb/linux-commands-cheat-sheet)**: phoenixNAP’s reference of common Linux commands
+        - **[Linux Terminal Cheatsheet](https://cheatography.com/davechild/cheat-sheets/linux-command-line/)**: a one-page Linux command-line reference
     - **[MobaXterm](https://mobaxterm.mobatek.net/documentation.html)**: a Windows terminal and remote-access suite supporting SSH, SFTP, X11, and Unix commands
     - **Shell**
         - **[Bash (Bourne Again Shell)](https://www.gnu.org/software/bash/manual/)**: a Unix shell and scripting language commonly used on Linux
         - **[PowerShell](https://learn.microsoft.com/en-us/powershell/)**: a cross-platform command shell and scripting language built around structured objects
         - **[Windows Command Prompt](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)**: the traditional Windows command-line interpreter for executing commands and batch scripts
         - **[Zsh (Z Shell)](https://zsh.sourceforge.io/Doc/)**: a Unix shell with advanced customization, completion, and interactive features
+            - **[Zsh Scripting Guide](https://zsh.sourceforge.io/Guide/zshguide.html)**: the official user guide to the Z shell
 - **Unix**
     - **BSD**
         - **[FreeBSD](https://docs.freebsd.org/en/books/handbook/)**: a Unix-like operating system known for performance and permissive licensing
@@ -402,11 +582,15 @@
             - **[BlackArch Linux](https://blackarch.org/guide.html)**: a security-focused Arch-based distribution
             - **[Manjaro](https://wiki.manjaro.org/)**: a user-friendly Arch-based distribution with curated software updates
         - **Debian Family**
-            - **[Debian](https://www.debian.org/doc/)**: a community-developed distribution known for stability and the base of many derivatives 
+            - **[Debian](https://www.debian.org/doc/)**: a community-developed distribution known for stability and the base of many derivatives
             - **[Kali Linux](https://www.kali.org/docs/)**: a penetration-testing-focused Debian derivative
+                - **[A-Z Kali Commands](https://techlog360.com/a-z-kali-linux-commands/)**: an alphabetical reference of commands used in Kali Linux
+                - **[Kali Cheat Sheet](https://www.comparitech.com/net-admin/kali-linux-cheat-sheet/)**: Comparitech’s cheat sheet of Kali tools and commands
+                - **[Setting Up a Kali VM (NCL)](https://streamyard.com/watch/ryedygVVJxzF)**: a National Cyber League walkthrough of building a Kali virtual machine
             - **[Parrot OS](https://parrotsec.org/docs/)**: a security-oriented Debian-based distribution
             - **[Tails](https://tails.net/doc/)**: a live operating system designed for anonymity
             - **[Ubuntu](https://help.ubuntu.com/)**: a popular user-friendly Debian derivative
+                - **[BackBox Linux](https://linux.backbox.org/)**: an Ubuntu-based distribution for penetration testing and security assessment
                 - **[Linux Mint](https://linuxmint.com/documentation.php)**: a free, user-friendly, and highly stable desktop operating system
                 - **[Lubuntu](https://manual.lubuntu.me/)**: a lightweight official flavor of Ubuntu
                     - **[DragonOS](https://sourceforge.net/projects/dragonos-focal/)**: an SDR-focused Linux distribution
@@ -414,7 +598,9 @@
             - **[Whonix](https://www.whonix.org/wiki/Documentation)**: a privacy-focused operating system that isolates traffic through Tor
         - **Gentoo Family**
             - **[Gentoo Linux](https://wiki.gentoo.org/wiki/Handbook:Main_Page)**: a source-based distribution offering extensive control and optimization
+        - **[How to Pronounce Linux](https://www.youtube.com/watch?v=gAEsoKiZTvk)**: Linus Torvalds’ recording of how to pronounce Linux
         - **[Linux Man Pages](https://linux.die.net/)**: an online reference of Linux manual pages
+        - **[Nugget-Size Linux Tutorials](https://www.penguinnuggets.io/)**: short, focused Linux tutorials from Penguin Nuggets
         - **Qubes OS Family**
             - **[Qubes OS](https://www.qubes-os.org/doc/)**: a security-focused operating system that isolates activities within virtual machines
         - **Red Hat Family**
@@ -430,7 +616,9 @@
     - **Hypervisors**
         - **[QEMU](https://www.qemu.org/docs/master/)**: an open-source tool for machine emulation and virtualization
         - **[VirtualBox](https://www.virtualbox.org/manual/)**: Oracle’s free, cross-platform desktop hypervisor
+            - **[How to Use VirtualBox](https://www.nakivo.com/blog/use-virtualbox-quick-overview/)**: NAKIVO’s quick overview of VirtualBox
         - **[VMware](https://www.vmware.com/)**: a family of commercial virtualization and cloud-computing products
+            - **[VMware for Beginners](https://www.vminstall.com/vmware-for-beginners/)**: a beginner’s guide to VMware products
         - **[Xen](https://xenproject.org/)**: an open-source type-1 hypervisor for running isolated virtual machines
     - **[WSL (Windows Subsystem for Linux)](https://learn.microsoft.com/en-us/windows/wsl/)**: a Windows feature for running Linux environments without a VM
 - **Windows NT Family**
@@ -447,18 +635,39 @@
     - **[Hydra](https://github.com/vanhauser-thc/thc-hydra)**: a tool for testing credentials against network authentication services
 - **Dictionary Attack**
     - **[CeWL](https://github.com/digininja/CeWL)**: a tool that generates custom wordlists from website content
+        - **[A Detailed Guide on CeWL](https://www.hackingarticles.in/a-detailed-guide-on-cewl/)**: Hacking Articles’ walkthrough of CeWL options
+    - **[kkrypt0nn’s Wordlist Collection](https://github.com/kkrypt0nn/wordlists)**: a large collection of wordlists for passwords, usernames, and discovery
+    - **[Mentalist](https://github.com/sc0tfree/mentalist)**: a graphical tool for building custom wordlists from base words and rules
+        - **[Creating Wordlists Using Mentalist](https://null-byte.wonderhowto.com/how-to/create-custom-wordlists-for-password-cracking-using-mentalist-0183992/)**: a Null Byte tutorial on building wordlists with Mentalist
     - **[rockyou.txt](https://www.kali.org/tools/wordlists/)**: a famous password wordlist included with Kali’s default wordlists package
     - **[SecLists](https://github.com/danielmiessler/seclists)**: an installable Kali package containing password, username, discovery, and fuzzing lists
+    - **[Weakpass](https://weakpass.com/)**: a collection of large password wordlists for cracking
+    - **[Wikitable2CSV](https://wikitable2csv.ggor.de/)**: converts Wikipedia tables to CSV, useful for building topic-specific wordlists
+    - **[Wordlister](https://github.com/4n4nk3/Wordlister)**: generates wordlists from permutations of supplied words
 - **[Hashcat](https://hashcat.net/wiki/)**: a password-recovery tool that uses CPUs and GPUs to crack password hashes
+    - **[Hashcat Example Hashes](https://hashcat.net/wiki/doku.php?id=example_hashes)**: example hashes for every Hashcat hash mode, useful for identifying formats
+    - **[Hashcat Tutorial for Beginners](https://resources.infosecinstitute.com/topic/hashcat-tutorial-beginners/)**: Infosec Institute’s introduction to Hashcat
+    - **[Password Cracking with Hashcat](https://trove.cyberskyline.com/3097ac9828d94ce1bce2740b0b19895d)**: Cyber Skyline Trove’s Hashcat module
 - **Hashing**
+    - **MD5 (Message Digest Algorithm 5)**
+        - **[MD5 Coder](https://www.cellphonetrackers.org/tool/md5-coder.php)**: an online tool for generating MD5 hashes
     - **SHA-256 (Secure Hash Algorithm 256-bit)**
         - **[`sha256sum`](https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html)**: a command-line utility that calculates and verifies SHA-256 file hashes
+    - **[TunnelsUP Hash Analyzer](https://www.tunnelsup.com/hash-analyzer/)**: identifies the likely algorithm behind a hash
 - **[John the Ripper](https://www.openwall.com/john/doc/)**: a password-recovery tool that detects and cracks numerous hash formats
     - **[PDF2John](https://github.com/openwall/john/tree/bleeding-jumbo/run)**: a utility that extracts password hashes from encrypted PDF files for use with John the Ripper
+    - **[pentestmonkey John the Ripper Hash Formats](https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats)**: example hashes and the matching John format names
 - **Mask Attack**
     - **[Crunch](https://sourceforge.net/projects/crunch-wordlist/)**: a tool that generates wordlists from specified character patterns
 - **Rainbow Table Attack**
+    - **[CrackStation](https://crackstation.net/)**: an online lookup-table service for cracking unsalted hashes
+    - **[Hash Toolkit](https://hashtoolkit.com/)**: an online database for reversing common hashes
+    - **[Hashes.com](https://hashes.com/en/decrypt/hash)**: an online service for looking up plaintexts of known hashes
+    - **[MD5 Conversion & Reverse Lookup](https://md5.gromweb.com/)**: an online MD5 generator and reverse-lookup database
     - **[Ophcrack](https://ophcrack.sourceforge.io/)**: a password-recovery tool that uses rainbow tables to crack Windows LM and NTLM password hashes
+        - **[XP Rainbow Tables](http://ophcrack.sourceforge.net/tables.php)**: free rainbow tables for use with Ophcrack
+- **Rule-Based Attack**
+    - **[Hashcat Rules Collection](https://github.com/n0kovo/hashcat-rules-collection)**: a large collection of Hashcat rule files
 
 ## Physical Security & Internet of Things (IoT)
 - **[ALFA Wi-Fi Adapter](https://docs.alfa.com.tw/)**: an external wireless adapter commonly used for Wi-Fi monitoring and security testing
@@ -481,9 +690,9 @@
     - **[FEITIAN Security Key](https://fido.ftsafe.com/guide-2/)**: a hardware authenticator manufactured by FEITIAN
     - **[Google Titan Security Key](https://support.google.com/titansecuritykey/)**: Google’s hardware security-key product line
     - **[Yubico YubiKey](https://docs.yubico.com/)**: Yubico’s hardware security-key product line
-        - **[`ykman` (YubiKey Manager)](https://docs.yubico.com/software/yubikey/tools/ykman/)**: used to configure YubiKey apps such as OTP, FIDO, PIV, and OpenPGP
-- **[HP EliteDesk 800 G2 SFF](https://shorturl.at/mWctg)**:  i5-6500 @ 3.2GHz 8GB RAM 240GB SSD Linux Mint 22
-- **[HP ProDesk 600 G2 SFF](https://shorturl.at/Lb6w3)**:  i5-6500 @ 3.2GHz 8GB RAM 240GB SSD Linux Mint 22
+        - **[`ykman` (YubiKey Manager)](https://docs.yubico.com/software/yubikey/tools/ykman/)**: a command-line utility for configuring YubiKey applications such as OTP, FIDO, PIV, and OATH
+- **[HP EliteDesk 800 G2 SFF](https://shorturl.at/mWctg)**: i5-6500 @ 3.2GHz 8GB RAM 240GB SSD Linux Mint 22
+- **[HP ProDesk 600 G2 SFF](https://shorturl.at/Lb6w3)**: i5-6500 @ 3.2GHz 8GB RAM 240GB SSD Linux Mint 22
 - **[LAN Turtle](https://documentation.hak5.org/lan-turtle/)**: a covert USB network adapter used for authorized remote access and network assessments
 - **Network Hardware**
     - **Network TAP (Test Access Point)**
@@ -493,8 +702,7 @@
         - **[Netgear](https://www.netgear.com/support/)**: a manufacturer of routers, switches, and other networking equipment
         - **[RouterSploit](https://github.com/threat9/routersploit)**: a framework for testing routers and embedded devices for vulnerabilities
         - **[TP-Link](https://www.tp-link.com/us/support/)**: a manufacturer of consumer and business networking equipment
-- **[PicoDucky](https://github.com/dbisu/pico-ducky)**: a tool for creating USB Rubber Ducky payloads with a Raspberry Pi Pico
-- **Physical Access Control**
+- **Physical Control**
     - **RFID (Radio-Frequency Identification)**
         - **[Chameleon Ultra](https://github.com/RfidResearchGroup/ChameleonUltra/wiki)**: an RFID and NFC research device for reading, emulating, and analyzing supported cards
         - **[ESP RFID Tool](https://github.com/rfidtool/ESP-RFID-Tool)**: an ESP-based tool for testing RFID systems that use Wiegand interfaces
@@ -524,15 +732,22 @@
 - **[WiFi Nugget](https://github.com/tom4ta/WiFi-Nugget)**: a portable device for learning about and testing Wi-Fi security
 
 ## PWN
+- **Assembly**
+    - **[Faker’s Guide to Reading (x86) Assembly](https://www.timdbg.com/posts/fakers-guide-to-assembly/)**: a practical guide to reading x86 assembly without memorizing it
+    - **[Intro to Assembly](https://csbygb.gitbook.io/pentips/binary-exploitation/assembly)**: an introduction to assembly for binary exploitation
 - **Concolic Execution**
     - **[CO3](https://www.usenix.org/conference/usenixsecurity24/presentation/liu-changming)**: a concolic execution system combining real microcontroller execution with workstation-based constraint solving
 - **Dynamic Analysis (Binary Exploitation)**
     - **Debugger**
         - **[GDB (GNU Debugger)](https://sourceware.org/gdb/documentation/)**: a debugger for inspecting and controlling programs during execution
             - **[pwndbg](https://github.com/pwndbg/pwndbg)**: a GDB and LLDB plug-in that makes debugging suck less
+        - **[OnlineGDB](https://www.onlinegdb.com/)**: an online compiler and debugger for C and C++
 - **Emulation**
     - **[AIM (Automatic Interrupt Modeling)](https://arxiv.org/abs/2312.01195)**: a system that automatically models interrupts for dynamic firmware analysis
 - **Exploit**
+    - **Overflow Attacks**
+        - **Buffer Overflow**
+            - **[OWASP Buffer Overflow Attack](https://owasp.org/www-community/attacks/Buffer_overflow_attack)**: OWASP’s explanation of buffer overflow attacks
     - **Race Condition**
         - **[SDRacer](https://arxiv.org/abs/2305.17869)**: a system for detecting, validating, and repairing race conditions in interrupt-driven embedded software
 - **Exploit Development**
@@ -543,11 +758,18 @@
     - **[HD-Fuzz](https://www.sciencedirect.com/science/article/abs/pii/S1084804524000122)**: a hardware-dependency-aware firmware fuzzer using hybrid MMIO modeling
 - **Static Analysis (Reverse Engineering)**
     - **[Binary Ninja](https://docs.binary.ninja/)**: a commercial reverse-engineering platform for analyzing compiled binaries
+        - **[Binary Ninja Cloud](https://cloud.binary.ninja/)**: a free browser-based version of Binary Ninja
     - **[BinSync](https://binsync.net/)**: an open-source Git-based collaboration framework for synchronizing RE analysis across multiple decompilers
     - **Decompiler**
         - **[DecBench](https://decbench.com/)**: an open-source living benchmark for decompilers created by the Noelo Lab at UGA
+        - **[Dogbolt](https://dogbolt.org/)**: a decompiler explorer that shows the output of many decompilers side by side
         - **[Kuna](https://kuna.noelo.org/)**: a Rust-based decompiler, derived from Ghidra, for fast binary decompilation and AI-assisted reverse engineering
     - **[Ghidra](https://github.com/NationalSecurityAgency/ghidra)**: an open-source reverse-engineering suite developed by the NSA
+        - **[Cyber Skyline: Ghidra](https://trove.cyberskyline.com/a275071e7cab4a48a18b229cc44724e9)**: Cyber Skyline Trove’s Ghidra module
+        - **[Getting Started with Ghidra](https://www.youtube.com/watch?v=uS3Gd83eWJ4)**: a video introduction to Ghidra
+        - **[Ghidra Cheat Sheet](https://ghidra-sre.org/CheatSheet.html)**: the official Ghidra keyboard and feature cheat sheet
+        - **[How to Get Started with Ghidra](https://www.csoonline.com/article/567221/how-to-get-started-using-ghidra-the-free-reverse-engineering-tool.html)**: CSO Online’s beginner guide to Ghidra
+        - **[Introduction to Ghidra](https://static.grumpycoder.net/pixel/docs/GhidraClass/Beginner/Introduction_to_Ghidra_Student_Guide_withNotes.html)**: the NSA’s Ghidra beginner class student guide
     - **[Hopper](https://www.hopperapp.com/)**: a commercial disassembler and decompiler primarily used for macOS, Linux, and iOS applications
     - **[IDA Pro](https://docs.hex-rays.com/)**: a commercial disassembler and debugger for reverse engineering binaries
     - **[Operation Mango](https://www.usenix.org/conference/usenixsecurity24/presentation/gibbs)**: a static-analysis system for finding taint-style vulnerabilities in Linux-based firmware
@@ -556,15 +778,24 @@
 - **Symbolic Execution**
     - **[angr](https://docs.angr.io/)**: a Python framework for binary analysis and symbolic execution
     - **[FIE on Firmware](https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/davidson)**: a symbolic-execution platform for finding vulnerabilities in MSP430 firmware
-        
+
 ## Scanning and Reconnaissance
 - **ASM (Attack Surface Management)**
     - **[Armada](https://risk3sixty.com/secure/attack-surface-management)**: risk3sixty’s offensive security and attack surface management platform
+    - **[Sn1per](https://github.com/1N3/Sn1per)**: an automated reconnaissance and attack surface scanning framework
 - **Enumeration**
     - **DNS Enumeration**
         - **[Amass](https://github.com/owasp-amass/amass)**: a tool for discovering subdomains and mapping external attack surfaces
+        - **[DNS Checker](https://dnschecker.org/all-dns-records-of-domain.php)**: an online lookup of all DNS records for a domain
         - **[DNSRecon](https://github.com/darkoperator/dnsrecon)**: a tool for enumerating DNS records and configurations
+        - **[Knockpy](https://github.com/guelfoweb/knock)**: a Python tool for enumerating subdomains
+        - **[Netcraft Search DNS](https://searchdns.netcraft.com/)**: Netcraft’s search for sites and subdomains matching a domain
+        - **[Robtex DNS Lookup](https://www.robtex.com/dns-lookup/)**: a DNS lookup that maps related domains, IPs, and records
     - **[Enum4linux-ng](https://github.com/cddmp/enum4linux-ng)**: a tool for enumerating information from Windows and Samba systems
+    - **[ident-user-enum](https://pentestmonkey.net/tools/user-enumeration/ident-user-enum)**: queries the ident service to find which users own processes
+    - **[timing-attack-checker](https://pentestmonkey.net/tools/timing-attack-checker)**: checks whether a server responds more slowly to valid usernames
+    - **[What Is Enumeration?](https://resources.infosecinstitute.com/topic/what-is-enumeration/)**: Infosec Institute’s introduction to enumeration
+- **[Hacker Target](https://hackertarget.com/)**: hosted online vulnerability scanners and network reconnaissance tools
 - **Internet-Wide Scanning**
     - **[GreyNoise](https://docs.greynoise.io/)**: a threat-intelligence platform that identifies internet-wide scanning activity
     - **Internet Asset Search Engine**
@@ -575,35 +806,71 @@
     - **[ZMap](https://github.com/zmap/zmap)**: a high-speed scanner designed for internet-wide network surveys
 - **Network Scanning**
     - **[Fing](https://www.fing.com/)**: a network scanner for discovering and identifying connected devices
+    - **[gateway-finder](https://pentestmonkey.net/tools/gateway-finder)**: a Scapy script that finds LAN hosts that forward traffic to the internet
+    - **[hidemy.io Port Scanner](https://hidemy.io/en/port-scanner/)**: an online scanner for checking open ports on a host
     - **[Nmap](https://nmap.org/book/man.html)**: a network scanner for discovering hosts, ports, services, and operating systems
+        - **[Definitive Guide to Nmap](https://www.comparitech.com/net-admin/the-definitive-guide-to-nmap/)**: Comparitech’s comprehensive Nmap guide
+        - **[How to Use Nmap](https://www.varonis.com/blog/nmap-commands)**: Varonis’ guide to common Nmap commands
+        - **[Nmap Cheat Sheet](https://highon.coffee/blog/nmap-cheat-sheet/)**: HighOn.Coffee’s Nmap command cheat sheet
         - **[Nmap Scripting Engine](https://nmap.org/book/nse.html)**: Nmap functionality that uses scripts for discovery, vulnerability detection, and network testing
+            - **[Nmap Scripting Library](https://www.infosecmatter.com/nmap-nse-library/)**: a searchable index of NSE scripts and their usage
+        - **[Official Nmap Project Guide](https://nmap.org/book/toc.html)**: the full online edition of the official Nmap book
         - **[Zenmap](https://nmap.org/zenmap/)**: a graphical interface for configuring and reviewing Nmap scans
+    - **[Online Port Scanner](https://portscanner.standingtech.com/)**: a browser-based port scanner
 - **Vulnerability Scanning**
     - **[Nikto](https://github.com/sullo/nikto)**: an open-source scanner for identifying web-server vulnerabilities and misconfigurations
     - **[Nuclei](https://github.com/projectdiscovery/nuclei)**: a template-based scanner for detecting known vulnerabilities and exposures
     - **[Tenable Nessus](https://docs.tenable.com/nessus/)**: a vulnerability scanner that identifies software flaws, exposed services, and misconfigurations
 
 ## Web Exploitation
+- **[Advanced Tips on Web Application Hacking](https://cryptokait.com/2020/03/11/advanced-tips-on-web-application-hacking/)**: CryptoKait’s follow-up guide to web application hacking
+- **[Breaking Web Applications for Beginners](https://cryptokait.com/2020/03/09/breaking-web-applications-for-beginners/)**: CryptoKait’s introduction to web application hacking
 - **[Burp Suite](https://portswigger.net/burp/documentation)**: a web-security testing platform for intercepting and modifying HTTP traffic
 - **Cross-Site Scripting (XSS)**
     - **[BeEF (Browser Exploitation Framework)](https://github.com/beefproject/beef)**: a framework for testing security weaknesses through web browsers
+- **[`curl`](https://curl.se/docs/manual.html)**: a command-line tool for transferring data and crafting HTTP requests
+    - **[curl: Everything You Need to Know](https://cybersecnerds.com/curl-everything-you-need-to-know/)**: a security-focused guide to curl options
+    - **[Why & How to Start Using curl](https://www.freecodecamp.org/news/how-to-start-using-curl-and-why-a-hands-on-introduction-ea1c913caaaa/)**: freeCodeCamp’s hands-on introduction to curl
+- **[DirBuster](https://www.kali.org/tools/dirbuster/)**: OWASP’s Java GUI tool for brute-forcing web directories and files
+    - **[DirBuster for Beginners](https://techyrick.com/dirbuster-full-command-tutorial-for-beginners/)**: a beginner tutorial for DirBuster
+    - **[Explaining DirBuster](https://faun.pub/what-is-dirbuster-and-how-to-use-it-1db3c3d3113b)**: an explanation of what DirBuster does and how to use it
 - **[ffuf](https://github.com/ffuf/ffuf)**: a fast web fuzzer for discovering hidden files, directories, and parameters
 - **[Gobuster](https://github.com/OJ/gobuster)**: a tool for discovering web paths, DNS names, and virtual hosts
+    - **[Gobuster Cheat Sheet](https://3os.org/penetration-testing/cheatsheets/gobuster-cheatsheet/)**: a reference of Gobuster modes and flags
+    - **[Gobuster Tutorial](https://hackertarget.com/gobuster-tutorial/)**: HackerTarget’s Gobuster walkthrough
+- **[Netcraft Site Report](https://sitereport.netcraft.com/)**: reports a website’s hosting, technologies, and history
 - **Obfuscation**
     - **[de4js](https://lelinhtinh.github.io/de4js/)**: an online JavaScript deobfuscation and unpacking tool
+    - **[JS Unfuck](https://enkhee-osiris.github.io/Decoder-JSFuck/)**: decodes JSFuck-encoded JavaScript back into readable code
     - **[JSFuck](https://jsfuck.com/)**: encodes JavaScript using only six different characters
+- **[OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/IndexTopTen.html)**: concise OWASP guidance on securing applications against common risks
+- **[OWASP Hacking 101](https://owasp.org/www-pdf-archive/Hacking_101_-_OWASP.pdf)**: an introductory OWASP presentation on web application hacking
 - **[OWASP Top 10](https://owasp.github.io/www-project-top-ten/)**: the ten most critical web application security risks
-- **[PayloadsAllTheThings](https://swisskyrepo.github.io/PayloadsAllTheThings/)**: collection of payloads and bypasses for web application security testing
-- **[PentestMonkey](https://pentestmonkey.net/)**: reverse shell cheat sheet reference for reverse shell one-liners in pentesting
+- **[OWASP WSTG (Web Security Testing Guide)](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/)**: OWASP’s methodology for testing web application security
+- **[PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)**: a large collection of payloads and bypasses for web application testing
 - **[Postman](https://learning.postman.com/docs/)**: an API platform for creating, sending, and testing HTTP requests
+- **Session Hijacking**
+    - **[Ultimate Guide to Cookie Hijacking](https://www.thesslstore.com/blog/the-ultimate-guide-to-session-hijacking-aka-cookie-hijacking/)**: The SSL Store’s guide to how session and cookie hijacking work
 - **SQL Injection (SQLi)**
+        - **[pentestmonkey DB2 SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/db2-sql-injection-cheat-sheet)**: DB2 syntax for SQL injection, from version detection to file access
+    - **[pentestmonkey Informix SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/informix-sql-injection-cheat-sheet)**: Informix syntax for SQL injection, from version detection to file access
+    - **[pentestmonkey Ingres SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/ingres-sql-injection-cheat-sheet)**: Ingres syntax for SQL injection, from version detection to file access
+    - **[pentestmonkey MSSQL SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet)**: MSSQL syntax for SQL injection, from version detection to file access
+    - **[pentestmonkey MySQL SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/mysql-sql-injection-cheat-sheet)**: MySQL syntax for SQL injection, from version detection to file access
+    - **[pentestmonkey Oracle SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/oracle-sql-injection-cheat-sheet)**: Oracle syntax for SQL injection, from version detection to file access
+    - **[pentestmonkey Postgres SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/postgres-sql-injection-cheat-sheet)**: Postgres syntax for SQL injection, from version detection to file access
+    - **[PortSwigger SQL Injection Labs](https://portswigger.net/web-security/all-labs#sql-injection)**: free hands-on SQL injection labs from the Web Security Academy
     - **[sqlmap](https://sqlmap.org/)**: a tool for detecting and testing SQL-injection vulnerabilities
+- **[Web Exploitation CTF Tactics](https://www.hucerc.com/cerc-events/basic-hands-on-cybersecurity-skills/skill9-web-exploitation/basic-ctf-web-exploitation-tactics/)**: basic tactics for web exploitation CTF challenges
+- **Web Shell**
+    - **[php-findsock-shell](https://pentestmonkey.net/tools/web-shells/php-findsock-shell)**: a PHP shell that reuses the web server’s own connection when firewalls block bind and reverse shells
+    - **[Weevely](https://github.com/epinna/weevely3)**: a stealthy PHP web shell for post-exploitation on authorized targets
 - **[WhatWeb](https://github.com/urbanadventurer/WhatWeb)**: a tool for identifying technologies used by websites
 - **[WPScan](https://github.com/wpscanteam/wpscan)**: a security scanner designed for WordPress websites
 - **[ZAP (Zed Attack Proxy)](https://www.zaproxy.org/docs/)**: an open-source platform for testing web-application security
 
-## TODO
 
+## TODO
 * [Google Dorking](https://en.wikipedia.org/wiki/Google_hacking)
 * [Hak5 Documentation (Ask AI for Best Tools)](https://documentation.hak5.org/hak5-docs)
 * [National Cyber League Resource](https://github.com/jfisher009/NationalCyberLeagueResource)
@@ -619,6 +886,7 @@
 * Orrin Adotavi ADP Stack
 * [Student Discounts](https://docs.google.com/document/d/1uKuvSKlZcADBmoY-O5sF5rBQE6kMSPbRxr7UpVni1f8/edit?tab=t.5lo6aln59n65)
 * Take the finished list and add it to thehackpack website (make it in the style of [OSINT Framework](https://github.com/lockfale/osint-framework) and/or [HackTricks](https://github.com/HackTricks-wiki/hacktricks))
+* Friendly Hacker Resources aggregators still to mine: [Bellingcat Online Investigation Toolkit](https://bit.ly/bcattools), [Awesome OSINT](https://github.com/jivoi/awesome-osint), [Awesome Forensics](https://github.com/Cugu/awesome-forensics), [OSINT Dojo Resources](https://www.osintdojo.com/resources/), [Steganography Tool List](https://0xrick.github.io/lists/stego/), [Rumkin Cipher Tools](https://rumkin.com/tools/cipher/), [Ultimate List of SANS Cheat Sheets](https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/)
 
 <p align="right"><a href="#top">🔼 Back to top</a></p>
 </small>
