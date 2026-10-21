@@ -54,6 +54,7 @@
             - **TOTP (Time-Based One-Time Password)**: generates time-limited authentication codes from a shared secret
         - **Something You Are**: a physical or behavioral characteristic of the user
             - **Biometrics**: physiological or behavioral characteristics used to verify identity
+    - **Kerberos**: a ticket-based network authentication protocol that relies on a trusted third party
     - **MFA (Multi-Factor Authentication)**: requires authentication factors from at least two different categories
     - **FIDO (Fast Identity Online)**: open standards for phishing-resistant authentication using public-key cryptography
         - **U2F (Universal 2nd Factor)**: an earlier FIDO standard for hardware-backed second-factor authentication
