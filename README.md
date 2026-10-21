@@ -890,7 +890,7 @@
     - **[DeepSafe](https://github.com/siddharthksah/DeepSafe)**: containerized deepfake detection suite combining multiple models with both web
     - **[Duke Reporters' Lab](https://reporterslab.org/)**: duke University journalism lab tracking global fact-checking initiatives, tools
     - **[FaceForensics++](https://www.faceforensics.com/)**: academic deepfake forensics dataset with manipulated video samples, masks, and aligned benchmarks
-    - **[InVID-WeVerify Verification Plugin](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)**: journalist-focused browser plugin for media verification, reverse image search, metadata checks
+    - **[InVID-WeVerify Verification Plugin](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)**: plugin for media verification, reverse image search, metadata checks
     - **[PolitiFact](https://www.politifact.com/)**: fact-checking publication that rates political claims and documents supporting evidence
     - **[SciCheck](https://factcheck.org/scicheck/)**: FactCheck.org section dedicated to scientific and health misinformation analysis
     - **[Snopes](https://www.snopes.com/)**: long-running debunking site covering rumors, hoaxes, and viral misinformation claims
