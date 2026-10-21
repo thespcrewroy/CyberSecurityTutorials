@@ -50,11 +50,10 @@
         - **Something You Know**: something the user knows
             - **KBA (Knowledge-Based Authentication)**: verifies identity using answers to personal-information questions
         - **Something You Have**: something the user physically or digitally possesses
-            - **HOTP (HMAC-Based One-Time Password)**: one-time auth codes from a shared secret and an incrementing counter
+            - **HOTP (HMAC-Based One-Time Password)**: generates one-time authentication codes from a shared secret and an incrementing counter
             - **TOTP (Time-Based One-Time Password)**: generates time-limited authentication codes from a shared secret
         - **Something You Are**: a physical or behavioral characteristic of the user
             - **Biometrics**: physiological or behavioral characteristics used to verify identity
-    - **Kerberos**: a ticket-based network authentication protocol that relies on a trusted third party
     - **MFA (Multi-Factor Authentication)**: requires authentication factors from at least two different categories
     - **FIDO (Fast Identity Online)**: open standards for phishing-resistant authentication using public-key cryptography
         - **U2F (Universal 2nd Factor)**: an earlier FIDO standard for hardware-backed second-factor authentication
@@ -66,6 +65,7 @@
                 - **Non-Discoverable (Non-Resident) Credential**: relying party to provide a credential identifier to the authenticator
                 - **Discoverable (Resident) Credential**: can be located by an authenticator without a supplied credential identifier
                     - **Passkey**: a discoverable FIDO credential designed for passwordless authentication
+    - **Kerberos**: a ticket-based network authentication protocol that relies on a trusted third party
     - **PIV (Personal Identity Verification)**: a federal smart-card standard for identity credentials and authentication
     - **SSH Key Authentication**: authenticates SSH connections using a public-and-private key pair
             - **TOFU (Trust on First Use)**: initially accepts an unknown host key and warns if that key later changes        
@@ -78,6 +78,7 @@
             - **Caesar Cipher (ROT Cipher)**: shifts letters by a fixed number of positions
             - **Jefferson Disk Cipher**: uses rotating alphabet disks to perform polyalphabetic substitution
             - **Polyalphabetic Substitution Cipher**: uses multiple substitution alphabets to obscure letter-frequency patterns
+                - **Enigma Machine**: a rotor-based cipher machine that performed polyalphabetic substitution
                 - **Vigenère Cipher**: performs polyalphabetic substitution using a repeating keyword
         - **Transposition Cipher**: encrypts text by rearranging characters without replacing them
             - **Rail-Fence Cipher**: writes plaintext in a zigzag pattern and reads it by rows
@@ -101,6 +102,7 @@
     - **Checksum**: a value calculated from data to detect accidental corruption
 - **Data-at-Rest Encryption**: protects stored information from unauthorized access
     - **FDE (Full-Disk Encryption)**: encrypts an entire storage device to protect its contents
+- **Encoding**: converts data into another representation for storage or transmission without providing secrecy
 - **PKI (Public Key Infrastructure)**: manages public keys, digital certificates, certificate authorities, and trust relationships
     - **Digital Certificate**: digitally binds an identity to a public key
         - **TLS Certificate**: authenticates a network service and enables protected TLS communications
@@ -132,18 +134,18 @@
         - **Integrity**: ensures information remains accurate, complete, and protected from unauthorized modification
         - **Availability**: ensures authorized entities can access information and systems when needed
 - **Operational Security (OpSec)**: protects sensitive info getting to an adversary
-  - **Adblock**: browser extensions that block ads and trackers
-  - **Antivirus/Antimalware**: software that detects and removes malware
-  - **Browsers**: software used to access web content securely when configured
-  - **Compartmentalization**: separating activities and data to limit exposure
-  - **End-to-End Encryption (E2EE) Services**: scrambles data on the sender's device, keeping it hidden until it reaaches recipient
-  - **IRC (Internet Relay Chats)**: real-time chat protocol used in communities
-  - **MAC Address Randomization**: technique to prevent device tracking on networks
-  - **Passwords**: secrets used to authenticate users; best combined with MFA
-      - **Passphrases**: longer memorable strings used as passwords
-      - **Password Managers**: tools to generate and store credentials securely
-- **Secure Email**: communication medium with varying privacy properties
-  - **Secure Search Engines**: privacy-respecting web search alternatives
+    - **Adblock**: browser extensions that block ads and trackers
+    - **Antivirus/Antimalware**: software that detects and removes malware
+    - **Browsers**: software used to access web content securely when configured
+    - **Compartmentalization**: separating activities and data to limit exposure
+    - **End-to-End Encryption (E2EE) Services**: scrambles data on the sender's device, keeping it hidden until it reaaches recipient
+    - **IRC (Internet Relay Chats)**: real-time chat protocol used in communities
+    - **MAC Address Randomization**: technique to prevent device tracking on networks
+    - **Passwords**: secrets used to authenticate users; best combined with MFA
+        - **Passphrases**: longer memorable strings used as passwords
+        - **Password Managers**: tools to generate and store credentials securely
+    - **Secure Email**: communication medium with varying privacy properties
+    - **Secure Search Engines**: privacy-respecting web search alternatives
 - **Purple Teaming**: coordinates offensive and defensive security activities to improve prevention
 - **Security Awareness and Training:** teaches employees how to identify, prevent, and respond to cyber threats
 - **Security Operations**: continuously monitors and protects systems from security threats
@@ -166,8 +168,10 @@
 
 ## Forensics
 - **File-System Forensics**: acquires and analyzes storage media, file systems, deleted files, and related artifacts
+- **Image Forensics**: detects manipulation or recovers hidden detail in digital images using techniques such as error level analysis
 - **Magic Bytes (File Signatures)**: distinctive byte sequences used to identify a file’s actual format
 - **Memory Forensics**: analyzes captured volatile memory to recover processes, connections, and related artifacts
+- **Metadata Analysis**: extracts and examines embedded file data such as authors, timestamps, devices, and locations
 - **Spectrography**: analyzing a signal’s frequency spectrum to reveal patterns or hidden information
 - **Steganography**: concealing information inside another file or medium
 
@@ -191,9 +195,11 @@
     - **IDS/IPS Log**: records suspicious network activity detected or prevented by an IDS or IPS
     - **Proxy Log**: records requests passing through an intermediary network service
     - **VPN Log**: records VPN connections, authentication attempts, sessions, and disconnections
+- **Regular Expression (Regex)**: a pattern syntax for matching, searching, and extracting text
 - **Server Log**: records the activity, health, and errors of a server or server-hosted service
     - **Web-Server Log**: records HTTP requests, responses, errors, and client information
 - **SIEM (Security Information and Event Management)**: centralizes and analyzes security data to support investigation
+- **SQL (Structured Query Language)**: a language for querying and manipulating structured data such as logs stored in databases
 - **Syslog**: a protocol and message format for transmitting event records across a network
 
 ## Network Traffic Analysis
@@ -331,6 +337,7 @@
 - **Search Engine**: tools that index and retrieve web-hosted information
 - **Search-Engine Dorking**: using advanced search operators to locate specific publicly indexed information
     - **Google Dorking (Google Hacking)**: using Google search operators to uncover exposed files, pages, and configuration details
+- **WHOIS**: a protocol and set of databases for looking up domain and IP address registration records
 
 ## Operating Systems
 - **Unix**: family of multitasking, multiuser operating systems
@@ -399,6 +406,7 @@
         - **RFID Detector**: detects nearby RFID signals or reader activity
         - **RFID Expert Cards**: cards containing different RFID technologies for testing
         - **RFID T5577 Cards**: rewritable low-frequency cards used for authorized access-control testing 
+- **Programmable USB Device**: a USB device that can be scripted to emulate keyboards, network adapters, or other peripherals
 - **Radio Hardware**: equipment used to transmit, receive, or analyze radio-frequency signals
     - **20–6000 MHz Antenna**: a wideband antenna covering frequencies from 20 MHz through 6 GHz
     - **75–1000 MHz Antenna**: an antenna designed to receive frequencies between 75 MHz and 1 GHz
@@ -428,7 +436,7 @@
     - **Watchpoint**: a trigger that pauses execution when memory changes 
 - **Dynamic Linking**: resolving external library code when loading or running a program
 - **Data Section**: initialized global and static variables
-- **ELF (Executable and Linkable Format)**: the primary executable format on Linux and Unix-like systems
+- **ELF (Executable and Linkable Format)**: the primary executable format on Linux and Unix-like systems 
 - **Emulation**: running firmware or software on simulated hardware instead of the physical device
 - **Endianness**: the byte order used to represent multibyte values
     - **Little-Endian**: stores the least significant byte at the lowest memory address
@@ -524,6 +532,7 @@
 - **Middleware**: software that connects applications, services, and underlying systems
 - **Obfuscation**: disguises code, payloads, or requests to make them harder for users and security controls to understand or detect
 - **Server-Side Request Forgery (SSRF)**: tricks a server into making requests to internal or external resources chosen by an attacker
+- **Session Hijacking**: taking over a user’s authenticated session by stealing or forging its session token
 - **SQL Injection (SQLi)**: injects malicious SQL through application inputs to manipulate queries or access a database
 
 <p align="right"><a href="#top">🔼 Back to top</a></p>
