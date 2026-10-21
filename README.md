@@ -598,7 +598,7 @@
 - **[NetExec](https://www.netexec.wiki/)**: a tool for assessing and automating attacks against network services
 - **Privilege Escalation**
     - **[unix-privesc-check](https://pentestmonkey.net/tools/audit/unix-privesc-check)**: a shell script that finds misconfigurations letting local users escalate privileges on Unix systems
-    - **[windows-privesc-check](https://pentestmonkey.net/tools/windows-privesc-check)**: a tool for finding Windows privilege-escalation weaknesses such as weak file, directory, and service permissions
+    - **[windows-privesc-check](https://pentestmonkey.net/tools/windows-privesc-check)**: a tool for finding Windows privilege-escalation weaknesses
 - **Reverse Shell**
     - **[php-reverse-shell](https://pentestmonkey.net/tools/web-shells/php-reverse-shell)**: a PHP script that opens an outbound shell connection from a web server to a listener
 - **Social Engineering**
