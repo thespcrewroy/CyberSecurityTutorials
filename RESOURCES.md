@@ -187,14 +187,19 @@
 - [Extracting Information From Logs](https://bash-prompt.net/guides/using-logs-1/): a guide to pulling useful data out of logs with shell tools
 - [Faker’s Guide to Reading (x86) Assembly](https://www.timdbg.com/posts/fakers-guide-to-assembly/): a practical guide to reading x86 assembly without memorizing it
 - [Flare-On CTF Past CTF Challenges](https://flare-on.com/): industry ctf thats made for benchmarking industry pros
+- [Forensic OSINT KB Guides](https://www.forensicosint.com/osint-guide): knowledge base of digital forensics guides for evidence capture
 - [freeCodeCamp](https://www.freecodecamp.org/): free coding courses and certifications
 - [Gandalf](https://gandalf.lakera.ai/gandalf): a game for learning about prompt injection and adversarial AI attacks
 - [GBHackers Latest Google Dorks List](https://gbhackers.com/latest-google-dorks-list/): a list of Google dorks for finding exposed information
+- [GeoGuesser](https://www.geoguessr.com/): geography game for geolocation OSINT training
 - [Getting Started with Ghidra](https://www.youtube.com/watch?v=uS3Gd83eWJ4): a video introduction to Ghidra
 - [Ghidra Cheat Sheet](https://ghidra-sre.org/CheatSheet.html): the official Ghidra keyboard and feature cheat sheet
 - [Gobuster Cheat Sheet](https://3os.org/penetration-testing/cheatsheets/gobuster-cheatsheet/): a reference of Gobuster modes and flags
 - [Gobuster Tutorial](https://hackertarget.com/gobuster-tutorial/): HackerTarget’s Gobuster walkthrough
 - [Google Dorking Strings (Top 21)](https://booleanstrings.com/2020/05/01/the-full-list-of-google-operators-2020/): Boolean Strings’ full list of Google search operators
+- [Google Guide Cheat Sheet](https://www.googleguide.com/help/calculator.html): quick-reference cheat sheet for Google search operators and advanced search syntax from Google Guide
+- [Google Hacking Database](https://www.exploit-db.com/google-hacking-database): OffSec’s curated database of Google dork queries, organized by category, used
+- [Google Search Operators Guide](https://www.googleguide.com/advanced_operators_reference.html): official Google documentation covering all supported search operators, syntax
 - [grep Cheat Sheet](https://quickref.me/grep.html): a quick reference for grep options and patterns
 - [GreyHat](https://ctf.greyhatgt.org/): Georgia Tech's premiere cyber security learning platform
 - [Guide to awk](https://www.baeldung.com/linux/awk-guide): Baeldung’s introduction to awk
@@ -247,6 +252,7 @@
 - [Nugget-Size Linux Tutorials](https://www.penguinnuggets.io/): short, focused Linux tutorials from Penguin Nuggets
 - [Official Nmap Project Guide](https://nmap.org/book/toc.html): the full online edition of the official Nmap book
 - [Open Bug Bounty](https://www.openbugbounty.org/): a platform for reporting web vulnerabilities through coordinated disclosure
+- [Open Source Intelligence Techniques](https://inteltechniques.com/): professional OSINT training and certification by IntelTechniques
 - [OpenSecurityTraining2](https://www.opensecuritytraining.info/): a collection of free, open-source, self-paced courses
 - [OverTheWire Wargames](https://overthewire.org/wargames/): hands-on games for learning Linux and security fundamentals
 - [OWASP Buffer Overflow Attack](https://owasp.org/www-community/attacks/Buffer_overflow_attack): OWASP’s explanation of buffer overflow attacks
@@ -271,6 +277,7 @@
 - [pentestmonkey SSH Cheat Sheet](https://pentestmonkey.net/cheat-sheet/ssh-cheat-sheet): SSH tricks for pentesters, including port forwarding and tunneling
 - [picoCTF](https://picoctf.org/): Carnegie Mellon’s free CTF for beginners, with a year-round practice gym
 - [picoPrimer](https://primer.picoctf.org/): introductory cybersecurity lessons supporting picoCTF challenges
+- [Plessas](https://plessas.net/online-training): expert-led OSINT training courses by Plessas Experts Network, from fundamentals
 - [PortSwigger SQL Injection Labs](https://portswigger.net/web-security/all-labs#sql-injection): free hands-on SQL injection labs from the Web Security Academy
 - [pwn.college](https://pwn.college/): a structured platform for learning binary exploitation and CTF skills
 - [Pwning OWASP Juice Shop](https://pwning.owasp-juice.shop/): the official companion guide and walkthrough for Juice Shop
@@ -282,6 +289,7 @@
 - [Security Operations 101](https://academy.tcm-sec.com/p/security-operations-soc-101): TCM Security’s course on working as a SOC analyst
 - [Setting Up a Kali VM (NCL)](https://streamyard.com/watch/ryedygVVJxzF): a National Cyber League walkthrough of building a Kali virtual machine
 - [SharkBytes Podcast](https://sharkbytes.transistor.fm/): a podcast about packet analysis and Wireshark
+- [Smart Questions](https://www.catb.org/esr/faqs/smart-questions.html): Eric S. Raymond’s foundational guide to asking technical questions well
 - [SPL (Search Processing Language)](https://ahwd1.github.io/Splunk-SPL-Cheatsheet/splunk_cheetsheet.html): Splunk’s query language resource
 - [Splunk Education](https://www.splunk.com/en_us/training/free-courses/overview.html): free training of Splunk for students
 - [Spotting Anomalies in PCAPs](https://cryptokait.com/2020/09/07/spotting-anomalies-in-pcaps/): CryptoKait’s guide to finding suspicious activity in packet captures
@@ -291,6 +299,7 @@
 - [Steganography 101](https://pequalsnp-team.github.io/cheatsheet/steganography-101): a cheat sheet of common steganography techniques and tools for CTFs
 - [TCM Security Academy](https://academy.tcm-sec.com/): practical and affordable ethical-hacking courses
 - [The Google Hacker’s Guide](http://pdf.textfiles.com/security/googlehackers.pdf): a classic PDF guide to Google hacking techniques
+- [The OSINTion](https://www.theosintion.com/courses): affordable OSINT training courses by Joe Gray, including people OSINT, business investigations
 - [TheHackPack](https://thehackpack.org/practice): UGA's premiere cyber security learning platform
 - [TraceLabs Search Party](https://www.tracelabs.org/initiatives/search-party): OSINT CTFs that gather leads for real missing-persons cases
 - [TryHackMe](https://tryhackme.com/): beginner-friendly cybersecurity lessons and hands-on labs
@@ -301,6 +310,7 @@
 - [Ultimate List of SANS Cheat Sheets](https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/): SANS’ index of its free cybersecurity cheat sheets
 - [Understanding Binary and Data Representation with CyberChef](https://cybergibbons.com/reverse-engineering-2/understanding-binary-and-data-representation-with-cyberchef/): a tutorial on reading binary data formats using CyberChef
 - [Understanding Log Analysis of Web Server](https://www.hackingarticles.in/understanding-log-analysis-web-server/): Hacking Articles’ guide to analyzing web-server logs
+- [Verif!cation Quiz Bot](https://x.com/quiztime): daily OSINT verification challenges posted on X, using a community-driven quiz format
 - [VMware for Beginners](https://www.vminstall.com/vmware-for-beginners/): a beginner’s guide to VMware products
 - [VulnHub](https://www.vulnhub.com/): downloadable vulnerable virtual machines for cybersecurity practice
 - [Web Exploitation CTF Tactics](https://www.hucerc.com/cerc-events/basic-hands-on-cybersecurity-skills/skill9-web-exploitation/basic-ctf-web-exploitation-tactics/): basic tactics for web exploitation CTF challenges
