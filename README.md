@@ -354,6 +354,7 @@
     - **[Stay Safe Online](https://www.staysafeonline.org/resources/online-safety-and-privacy/videos)**: collection of videos and educational resources about online behavior
 - **Security Operations**
     - **[ANY.RUN](https://any.run/)**: an interactive sandbox for analyzing malware behavior
+        - **[ANY.RUN Threat Intelligence](https://intelligence.any.run/)**: ANY.RUN’s lookup and feeds built from its sandbox analyses
     - **[CrowdStrike Falcon](https://www.crowdstrike.com/en-us/platform/)**: a cloud-native endpoint-protection and threat-detection platform
     - **CTI (Cyber Threat Intelligence)**
         - **[AlienVault OTX](https://otx.alienvault.com/)**: crowd-sourced threat intelligence platform with 180K+ participants sharing 19M+ daily threats
@@ -361,10 +362,14 @@
         - **[Bot Scout](https://botscout.com/)**: service tracking bot signatures (names, IPs, emails) to prevent automated spam and abuse
         - **[Cacador](https://github.com/sroberts/cacador)**: Python tool for indicator extraction and deduplication from threat intelligence documents
         - **[CSIS Warfare, Irregular Threats, and Terrorism Program](https://www.csis.org/programs/warfare-irregular-threats-and-terrorism-program)**: research program analyzing terrorism and threats
+        - **Cyber Kill Chain**
+            - **[Lockheed Martin Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)**: Lockheed Martin’s original description of the Cyber Kill Chain model
         - **[Cymon Open Threat Intelligence](https://cymon.io/)**: largest open tracker of malware, phishing, botnets containing 6M+ malicious IPs
         - **[Elections Infrastructure Information Sharing and Analysis Center](https://www.cisecurity.org/ei-isac)**: cybersecurity support and threat sharing for elections
         - **[Global Terrorism Database](https://www.start.umd.edu/research-projects/global-terrorism-database-gtd)**: academic database of terrorist attacks maintained by START at University of Maryland
         - **[Google Threat Intelligence](https://cloud.google.com/security/products/threat-intelligence)**: combines threat intelligence from Google, Mandiant, and VirusTotal
+        - **[HGTech Hacker Chatter](https://thehgtech.com/hacker-chatter.html)**: a live feed of hacker-forum chatter about breaches and incidents
+        - **[HGTech Ransomware Tracker](https://thehgtech.com/ransomware-tracker.html)**: a searchable tracker of ransomware groups and their victims
         - **[Homeland Security Information Network](https://www.dhs.gov/homeland-security-information-network-hsin)**: a secure platform for info sharing and collaboration
         - **[HoneyDB](https://honeydb.io/)**: honeypot network providing real-time IoT and server threat intelligence via REST API
         - **[hostintel - keithjjones Github](https://github.com/keithjjones/hostintel)**: modular Python application to collect host and malicious IP intelligence
@@ -382,6 +387,7 @@
         - **[Mr.Looquer IOC Feed](https://iocfeed.mrlooquer.com/)**: threat intelligence feed providing IOC data with IPv4/IPv6 dual stack support
         - **[Pulsedive](https://pulsedive.com/)**: free threat intelligence platform for enriching IPs, URLs, domains, and IOCs from OSINT feeds
         - **[RAND Terrorism Research](https://www.rand.org/topics/terrorism.html)**: RAND Corporation's collection of research and analysis on terrorism topics
+        - **[ransomware.live](https://www.ransomware.live/)**: tracks ransomware groups, their victims, negotiations, and leak sites
         - **[REN-ISAC](https://www.ren-isac.net/)**: threat intelligence and incident response sharing for higher education and research institutions
         - **[REScure Cyber Threat Intelligence Project](https://rescure.me/)**: community-driven cyber threat intelligence project providing IOC feeds
         - **[ReversingLabs Spectra Analyze](https://docs.reversinglabs.com/SpectraAnalyze/)**: a malware-analysis and threat-intelligence platform
@@ -389,6 +395,7 @@
         - **[Scam Database](https://www.scamdb.net/)**: user-contributed database of scam reports searchable by phone, email, and website
         - **[START Consortium for the Study of Terrorism and Responses to Terrorism](https://www.start.umd.edu/)**: national Consortium on terrorism
         - **[Terrorist Finance Tracking Program](https://home.treasury.gov/policy-issues/terrorism-and-illicit-finance/terrorist-finance-tracking-program-tftp)**: the U.S. Treasury program that traces terrorist financing
+        - **[ThreatBook](https://i.threatbook.io/research)**: a threat intelligence platform for researching IPs, domains, and files
         - **[ThreatIngestor](https://github.com/InQuest/ThreatIngestor)**: modular IOC ingestion platform for automated threat indicator extraction from multiple sources
         - **[ThreatPinch Lookup](https://github.com/cloudtracer/ThreatPinchLookup)**: browser extension and Python tool for enriching IOCs with real-time threat intelligence
         - **[UN Security Council Consolidated List](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list)**: official UN Security Council list of designated individuals and entities
@@ -436,10 +443,15 @@
 - **[Linux Expl0rer](https://github.com/intezer/linux-explorer)**: a web-based live-forensics toolbox for Linux endpoints
 - **Malware Analysis**
     - **[Akana Android Malware](https://akana.mobiseclab.org/)**: online Android Interactive Analysis Environment with plugins
+    - **[Browserling](https://www.browserling.com/)**: a remote sandboxed browser for safely opening suspicious links, including .onion sites
     - **[detux Linux Sandbox](https://detux.org/)**: open-source multiplatform Linux sandbox for analyzing Linux malware
     - **[Ether](https://ether.gtisc.gatech.edu/web_unpack/)**: georgia Tech malware analysis framework using Intel VT hardware virtualization
     - **[Hybrid Analysis](https://hybrid-analysis.com/)**: free automated malware analysis service powered by CrowdStrike Falcon Sandbox
-    - **[ID Ransomware](https://id-ransomware.malwarehunterteam.com/)**: free ransomware identification tool that analyzes ransom notes and encrypted file samples
+    - **[ID Ransomware](https://id-ransomware.malwarehunterteam.com/)**: free ransomware identification tool that analyzes ransom notes and e
+    - **[MalwareBazaar](https://bazaar.abuse.ch/browse/)**: abuse.ch’s searchable repository of shared malware samples
+    - **[theZoo](https://github.com/ytisf/theZoo)**: a repository of live malware samples for research and analysis
+    - **[vx-underground](https://vx-underground.org/)**: a large public collection of malware samples, source code, and papers
+ncrypted file samples
     - **[Joe APK Analyzer](https://www.apk-analyzer.net/)**: part of Joe Sandbox suite; performs dynamic and static analysis of Android Application Packages
     - **[Joe File Analyzer](https://www.file-analyzer.net/)**: part of Joe Sandbox suite; performs hybrid code analysis of PE files on Windows
     - **[JoeSandbox Document Analyzer](https://www.joesandbox.com/)**: hosted automated malware analysis service that performs dynamic
@@ -1533,7 +1545,6 @@
 
 ## TODO
 * [HackTrix](https://hacktricks.wiki/en/network-services-pentesting/pentesting-web/web-api-pentesting.html)
-* [OSINT Tools](https://outlookuga.sharepoint.com/sites/InfoSec_KB/SitePages/OSINT-Tools.aspx?e=4%3a22b65a4624904fcb9f87841894226051&web=1&sharingv2=true&fromShare=true&at=9&CT=1781544543014&OR=OWA-NT-Mail&CID=28f0a04c-959b-d2df-24fe-5bce3bdfaea2&SI=NonSentItems)
 * [Shellphish Repositories](https://github.com/orgs/shellphish/repositories)
 * [The Hack Pack Resources](https://thehackpack.org/resources/intro/ )
 * [Awesome Security Newsletters](https://github.com/TalEliyahu/awesome-security-newsletters)
