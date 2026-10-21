@@ -493,6 +493,7 @@
         - **[Netgear](https://www.netgear.com/support/)**: a manufacturer of routers, switches, and other networking equipment
         - **[RouterSploit](https://github.com/threat9/routersploit)**: a framework for testing routers and embedded devices for vulnerabilities
         - **[TP-Link](https://www.tp-link.com/us/support/)**: a manufacturer of consumer and business networking equipment
+- **[PicoDucky](https://github.com/dbisu/pico-ducky)**: a tool for creating USB Rubber Ducky payloads with a Raspberry Pi Pico
 - **Physical Access Control**
     - **RFID (Radio-Frequency Identification)**
         - **[Chameleon Ultra](https://github.com/RfidResearchGroup/ChameleonUltra/wiki)**: an RFID and NFC research device for reading, emulating, and analyzing supported cards
@@ -592,6 +593,8 @@
     - **[de4js](https://lelinhtinh.github.io/de4js/)**: an online JavaScript deobfuscation and unpacking tool
     - **[JSFuck](https://jsfuck.com/)**: encodes JavaScript using only six different characters
 - **[OWASP Top 10](https://owasp.github.io/www-project-top-ten/)**: the ten most critical web application security risks
+- **[PayloadsAllTheThings](https://swisskyrepo.github.io/PayloadsAllTheThings/)**: collection of payloads and bypasses for web application security testing
+- **[PentestMonkey](https://pentestmonkey.net/)**: reverse shell cheat sheet reference for reverse shell one-liners in pentesting
 - **[Postman](https://learning.postman.com/docs/)**: an API platform for creating, sending, and testing HTTP requests
 - **SQL Injection (SQLi)**
     - **[sqlmap](https://sqlmap.org/)**: a tool for detecting and testing SQL-injection vulnerabilities
@@ -601,7 +604,6 @@
 
 ## TODO
 
-* [Friendly Hacker Resources](https://docs.google.com/spreadsheets/d/1SVm4Bu-L6eiyXlN8Kf_fszWeP1VSLNuVOJ-SguS9qtI/edit?gid=16563866#gid=16563866)
 * [Google Dorking](https://en.wikipedia.org/wiki/Google_hacking)
 * [Hak5 Documentation (Ask AI for Best Tools)](https://documentation.hak5.org/hak5-docs)
 * [National Cyber League Resource](https://github.com/jfisher009/NationalCyberLeagueResource)
