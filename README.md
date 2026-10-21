@@ -854,7 +854,7 @@
 - **IP Intelligence**
     - **BGP (Border Gateway Protocol)**
         - **[BGP Malicious Content Ranking](https://bgpranking.circl.lu/)**: platform ranking ASNs and BGP prefixes by malicious content and security threats
-        - **[Hurricane Electric BGP Toolkit](https://bgp.he.net/)**: BGP and network routing analysis tools including AS to prefix lookup and BGP prefix information
+        - **[Hurricane Electric BGP Toolkit](https://bgp.he.net/)**: BGP and network routing analysis tools including AS to prefix lookup and info
         - **[PeeringDB](https://www.peeringdb.com/advanced_search)**: database of internet exchange points, member networks, and AS relationships for network mapping
     - **[Bing IP Search](https://www.bing.com/search?q=ip%3A8.8.8.8)**: Bing search operator for finding domains and subdomains hosted on a specific IP address
     - **[checkip](https://github.com/jreisinger/checkip)**: command-line utility for checking local machine IP address and network connectivity
