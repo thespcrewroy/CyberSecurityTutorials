@@ -849,7 +849,7 @@
     - **[SauceNAO](https://saucenao.com/)**: reverse image source finder widely used to trace artwork, anime frames, and reposted media
     - **[Search by Exif](https://exif.osint-tool.com)**: web EXIF inspection tool focused on extracting metadata and GPS clues from supplied images
     - **[SmugMug Search](https://www.smugmug.com/)**: photo hosting and portfolio platform with searchable public galleries and photographer profiles
-    - **[Surfface Face & People Search Engine](https://surfface.com/)**: AI-based face and people search platform focused on open-source identity discovery and correlation
+    - **[Surfface Face People Search Engine](https://surfface.com/)**: AI-based face and people search platform focused on open-source identity discovery
     - **[xeuledoc - Fetch metadata about any public Google document](https://github.com/Malfrats/xeuledoc)**: Python tool that extracts metadata from public Google Docs, Sheets, and Slides links
 - **IP Intelligence**
     - **BGP (Border Gateway Protocol)**
