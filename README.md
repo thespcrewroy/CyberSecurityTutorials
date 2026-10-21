@@ -581,6 +581,7 @@
 - **[ALFA Wi-Fi Adapter](https://docs.alfa.com.tw/)**: an external wireless adapter commonly used for Wi-Fi monitoring and security testing
 - **[Bus Pirate Kit](https://docs.buspirate.com/)**: a hardware interface for communicating with and debugging electronic buses and chips
 - **[CatSniffer](https://github.com/ElectronicCats/CatSniffer)**: a wireless security tool for monitoring and analyzing IoT radio protocols
+- **[Cloud C²](https://documentation.hak5.org/cloud-c2/)**: a self-hosted server for remotely managing deployed Hak5 devices
 - **Embedded Systems**
     - **Firmware**
         - **[ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder/wiki)**: Wi-Fi and Bluetooth security-testing firmware for compatible ESP32 boards
@@ -594,6 +595,7 @@
         - **[Wi-Fi Devboard for Flipper Zero](https://developer.flipper.net/flipperzero/doxygen/dev_board.html)**: an ESP32-S2 development board that adds Wi-Fi and debugging
 - **Hardware Keylogger**
     - **[Keelog KeyGrabber USB Keylogger](https://keelog.com/docs/keygrabber-usb-users-guide/)**: a USB hardware keylogger placed between a keyboard and computer
+    - **[Key Croc](https://documentation.hak5.org/key-croc/)**: a keylogger that injects keystrokes and triggers payloads on typed phrases
 - **Hardware Security Key**
     - **[FEITIAN Security Key](https://fido.ftsafe.com/guide-2/)**: a hardware authenticator manufactured by FEITIAN
     - **[Google Titan Security Key](https://support.google.com/titansecuritykey/)**: Google’s hardware security-key product line
@@ -604,12 +606,15 @@
 - **[LAN Turtle](https://documentation.hak5.org/lan-turtle/)**: a covert USB network adapter used for authorized remote access and network assessments
 - **Network Hardware**
     - **Network TAP (Test Access Point)**
+        - **[Packet Squirrel Mark II](https://documentation.hak5.org/packet-squirrel-mark-ii/)**: an inline Ethernet device for capturing traffic and running network payloads
+        - **[Plunder Bug](https://documentation.hak5.org/plunder-bug/)**: a pocket-sized USB-C LAN tap for passively capturing Ethernet traffic
         - **[Profitap ProfiShark 1G](https://www.profitap.com/wp-content/uploads/ProfiShark-1G-Manual.pdf)**: a portable Gigabit Ethernet network TAP used to capture traffic
     - **Router**
         - **[ASUS](https://www.asus.com/support/)**: a manufacturer of consumer and business networking equipment
         - **[Netgear](https://www.netgear.com/support/)**: a manufacturer of routers, switches, and other networking equipment
         - **[RouterSploit](https://github.com/threat9/routersploit)**: a framework for testing routers and embedded devices for vulnerabilities
         - **[TP-Link](https://www.tp-link.com/us/support/)**: a manufacturer of consumer and business networking equipment
+- **[PayloadStudio](https://documentation.hak5.org/payload-studio/)**: a web IDE for writing and compiling Hak5 device payloads
 - **Physical Control**
     - **RFID (Radio-Frequency Identification)**
         - **[Chameleon Ultra](https://github.com/RfidResearchGroup/ChameleonUltra/wiki)**: an RFID and NFC research device for reading, emulating, and analyzing supported cards
@@ -620,6 +625,7 @@
             - **[PM3 HF Antenna Set](https://proxmark.com/proxmark-3-hardware/proxmark-3-rdv4)**: high-frequency antennas for Proxmark3 RFID testing
             - **[PM3 LF Antenna Set](https://proxmark.com/proxmark-3-hardware/proxmark-3-rdv4)**: low-frequency antennas for Proxmark3 RFID testing
 - **Programmable USB Device**
+    - **[Bash Bunny](https://documentation.hak5.org/bash-bunny/)**: a USB attack platform that emulates keyboards, storage, and network adapters
     - **[FaceDancer21](https://facedancer.readthedocs.io/)**: a development board for emulating USB devices and testing USB hosts
     - **[Raspberry Pi Pico BadUSB](https://github.com/dbisu/pico-ducky)**: a Raspberry Pi Pico configured to emulate a USB keyboard
     - **[USB Nugget](https://github.com/RetiaLLC/USB-Nugget)**: a programmable security-testing device capable of emulating USB peripherals
@@ -633,11 +639,18 @@
             - **[PortaPack H2 Kit](https://github.com/portapack-mayhem/mayhem-firmware/wiki)**: gives the HackRF One a display and portable controls
         - **[KrakenSDR Kit](https://github.com/krakenrf/krakensdr_docs/wiki)**: a five-channel SDR receiver used for radio direction finding and beamforming
         - **[RTL-SDR](https://www.rtl-sdr.com/rtl-sdr-quick-start-guide/)**: an inexpensive SDR receiver used to explore radio signals
+- **[Screen Crab](https://documentation.hak5.org/screen-crab/)**: an inline HDMI device that captures screenshots from a target display
+- **[Shark Jack](https://documentation.hak5.org/shark-jack/)**: a portable Ethernet attack tool for fast network reconnaissance
+    - **[Shark Jack Display](https://documentation.hak5.org/shark-jack-display/)**: a Shark Jack variant with a built-in screen for viewing results
 - **Surveillance System**
     - **CCTV (Closed-Circuit Television)**
         - **[Cameradar](https://github.com/Ullaakut/cameradar)**: a tool for discovering and assessing RTSP surveillance-camera systems
 - **[USB Armory Mk II](https://github.com/usbarmory/usbarmory/wiki/Mk-II-Introduction)**: a compact Linux computer designed for security, networking, and embedded applications
+- **[WiFi Coconut](https://documentation.hak5.org/wifi-coconut/)**: a USB Wi-Fi sniffer that monitors all 14 2.4 GHz channels at once
 - **[WiFi Nugget](https://github.com/tom4ta/WiFi-Nugget)**: a portable device for learning about and testing Wi-Fi security
+- **[WiFi Pineapple Enterprise](https://documentation.hak5.org/wifi-pineapple-enterprise/)**: a high-power WiFi Pineapple for large-scale wireless assessments
+- **[WiFi Pineapple Mark VII](https://documentation.hak5.org/wifi-pineapple/)**: a wireless auditing platform for rogue access point and MITM testing
+- **[WiFi Pineapple Pager](https://documentation.hak5.org/wifi-pineapple-pager/)**: a handheld WiFi Pineapple for portable wireless auditing
 
 ## PWN
 - **Concolic Execution**
@@ -739,8 +752,6 @@
 
 
 ## TODO
-* [Google Dorking](https://en.wikipedia.org/wiki/Google_hacking)
-* [Hak5 Documentation (Ask AI for Best Tools)](https://documentation.hak5.org/hak5-docs)
 * [National Cyber League Resource](https://github.com/jfisher009/NationalCyberLeagueResource)
 * [HackTrix](https://hacktricks.wiki/en/network-services-pentesting/pentesting-web/web-api-pentesting.html)
 * [OSINT Framework (Beyond Username)](https://osintframework.com/): a web-based directory that organizes free OSINT tools and resources by investigation type
