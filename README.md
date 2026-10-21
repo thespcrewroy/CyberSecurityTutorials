@@ -595,3 +595,6 @@
 * [Student Discounts](https://docs.google.com/document/d/1uKuvSKlZcADBmoY-O5sF5rBQE6kMSPbRxr7UpVni1f8/edit?tab=t.5lo6aln59n65)
 * Hemant Gautum Darkweb Links (prepare for PwnSec and OSINT hackpack presentation)
 * Take the finished list and add it to thehackpack website (make it in the style of [OSINT Framework](https://github.com/lockfale/osint-framework) and/or [HackTricks](https://github.com/HackTricks-wiki/hacktricks))
+
+<p align="right"><a href="#top">🔼 Back to top</a></p>
+</small>
