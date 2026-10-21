@@ -37,6 +37,7 @@
     - **[Feather Wallet](https://docs.featherwallet.org/)**: a lightweight, privacy-focused desktop wallet for Monerome
 
 ## Cloud Security
+- **[Bottlerocket](https://bottlerocket.dev/)**: a minimal, security-focused Linux operating system built by AWS for running containers
 - **[Cloudflare](https://developers.cloudflare.com/fundamentals/security/)**: a cloud platform providing CDN, DNS, DDoS protection, and web security services
 - **[Cyera](https://www.cyera.com/platform)**: discovers, classifies, and protects sensitive data across cloud, SaaS, and hybrid environments
 - **Containerization**
@@ -47,10 +48,15 @@
         - **[Kubernetes](https://kubernetes.io/docs/concepts/overview/)**: a platform that automates the deployment, scaling, and management of containerized applications
         - **[Red Hat OpenShift](https://docs.redhat.com/en/documentation/openshift_container_platform/4.20/html/overview/ocp-overview)**: an enterprise Kubernetes platform
     - **Container Security**
+         - **[Docker Bench for Security](https://github.com/docker/docker-bench-security)**: a script that checks Docker hosts and containers against the CIS Docker Benchmark
         - **[Grype](https://oss.anchore.com/docs/guides/vulnerability/getting-started/)**: a vulnerability scanner for container images, filesystems, and software bills
+        - **[kube-bench](https://github.com/aquasecurity/kube-bench)**: checks whether a Kubernetes deployment meets the CIS Kubernetes Benchmark
 - **[Google Security Command Center](https://cloud.google.com/security-command-center/docs/overview)**: Google Cloud’s platform for identifying vulnerabilities
 
 ## Cryptography
+- **Authentication**
+    - **Kerberos**
+        - **[MIT Kerberos](https://web.mit.edu/kerberos/)**: the reference open-source implementation of the Kerberos protocol
 - **Cryptanalysis**
     - **[Cash Sleuth](https://www.cachesleuth.com/multidecoder/)**: a free collection of online tools and cipher solvers designed specifically for geocachers
     - **[Crypto Attacks](https://github.com/jvdsn/crypto-attacks)**: Python implementations of cryptographic attacks and utilities
@@ -260,6 +266,7 @@
 - **[Bettercap](https://www.bettercap.org/project/introduction/)**: a framework for network reconnaissance and traffic manipulation
 - **[Darktrace](https://www.darktrace.com/)**: an AI-driven security platform that detects anomalous behavior across networks and other environments
 - **DNS (Domain Name System)**
+    - **[BIND](https://bind9.readthedocs.io/)**: the most widely deployed open-source DNS server software
     - **[BlueCat Address Manager (formerly Proteus)](https://bluecatnetworks.com/)**: a centralized IP management platform for administering DNS, DHCP, and IP addresses
     - **[OpenDNS](https://www.opendns.com/)**: a DNS service providing security filtering and customizable content controls
     - **[Pi-hole](https://docs.pi-hole.net/)**: a DNS-level ad and tracker blocking appliance
@@ -270,6 +277,7 @@
     - **[Azure Firewall](https://learn.microsoft.com/en-us/azure/firewall/overview)**: Microsoft Azure’s managed cloud firewall for controlling and inspecting traffic across Azure networks
     - **[Palo Alto Networks Next-Generation Firewalls](https://docs.paloaltonetworks.com/pan-os)**: application-layer firewalls that identify and control traffic
         - **[Panorama](https://docs.paloaltonetworks.com/panorama)**: Palo Alto Networks’ centralized platform for managing multiple firewalls and their security policies
+    - **[pfSense](https://docs.netgate.com/pfsense/en/latest/)**: an open-source firewall and router platform based on FreeBSD
     - **[Windows Firewall](https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/windows-firewall/)**: a host-based firewall built into Windows that filters incoming and outgoing network traffic
 - **[Impacket](https://github.com/fortra/impacket)**: a Python collection for interacting with Windows network protocols
 - **IPS (Intrusion Prevention System)**
@@ -367,6 +375,7 @@
             - **[BlackArch Linux](https://blackarch.org/guide.html)**: a security-focused Arch-based distribution
             - **[Manjaro](https://wiki.manjaro.org/)**: a user-friendly Arch-based distribution with curated software updates
         - **Debian Family**
+            - **[Debian](https://www.debian.org/doc/)**: a community-developed distribution known for stability and the base of many derivatives 
             - **[Kali Linux](https://www.kali.org/docs/)**: a penetration-testing-focused Debian derivative
             - **[Parrot OS](https://parrotsec.org/docs/)**: a security-oriented Debian-based distribution
             - **[Tails](https://tails.net/doc/)**: a live operating system designed for anonymity
@@ -384,7 +393,9 @@
         - **Red Hat Family**
             - **[Fedora](https://docs.fedoraproject.org/)**: a cutting-edge community distribution sponsored by Red Hat
             - **[RHEL (Red Hat Enterprise Linux)](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/)**: Red Hat’s enterprise Linux distribution with commercial support
+                - **[AlmaLinux](https://wiki.almalinux.org/)**: a community-owned, binary-compatible rebuild of RHEL
                 - **[CentOS](https://docs.centos.org/)**: a community project centered on the development stream leading to RHEL
+                - **[Rocky Linux](https://docs.rockylinux.org/)**: a community enterprise distribution designed to be bug-for-bug compatible with RHEL
         - **SUSE Family**
             - **[openSUSE](https://doc.opensuse.org/)**: a community distribution available in rolling and stable editions
             - **[SLES (SUSE Linux Enterprise Server)](https://documentation.suse.com/sles/)**: an enterprise-grade server operating system designed for mission-critical workloads
