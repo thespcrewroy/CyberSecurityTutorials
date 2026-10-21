@@ -392,7 +392,7 @@
 - **DNS (Domain Name System)**
     - **[AWS: What Is DNS?](https://aws.amazon.com/route53/what-is-dns/)**: Amazon’s explanation of how DNS works
     - **[BIND](https://bind9.readthedocs.io/)**: the most widely deployed open-source DNS server software
-    - **[BlueCat Address Manager (formerly Proteus)](https://bluecatnetworks.com/)**: a centralized IP management platform for administering DNS, DHCP, and IP addresses
+    - **[BlueCat Address Manager (formerly Proteus)](https://bluecatnetworks.com/)**: a centralized IP management platform for administering DNS, DHCP, and IP
     - **[Cloudflare: What Is DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/)**: Cloudflare’s explanation of how DNS works
     - **[OpenDNS](https://www.opendns.com/)**: a DNS service providing security filtering and customizable content controls
     - **[Pi-hole](https://docs.pi-hole.net/)**: a DNS-level ad and tracker blocking appliance
