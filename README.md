@@ -382,6 +382,7 @@
         - **[Mr.Looquer IOC Feed](https://iocfeed.mrlooquer.com/)**: threat intelligence feed providing IOC data with IPv4/IPv6 dual stack support
         - **[Pulsedive](https://pulsedive.com/)**: free threat intelligence platform for enriching IPs, URLs, domains, and IOCs from OSINT feeds
         - **[RAND Terrorism Research](https://www.rand.org/topics/terrorism.html)**: RAND Corporation's collection of research and analysis on terrorism topics
+        - **[REN-ISAC](https://www.ren-isac.net/)**: threat intelligence and incident response sharing for higher education and research institutions
         - **[REScure Cyber Threat Intelligence Project](https://rescure.me/)**: community-driven cyber threat intelligence project providing IOC feeds
         - **[ReversingLabs Spectra Analyze](https://docs.reversinglabs.com/SpectraAnalyze/)**: a malware-analysis and threat-intelligence platform
         - **[SANS Internet Storm Center](https://isc.sans.edu/)**: a threat-monitoring and information-sharing service analyzing malicious internet activity
