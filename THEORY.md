@@ -310,6 +310,7 @@
     - **CDP (Cisco Discovery Protocol) Spoofing**: sending forged CDP messages to impersonate network devices
     - **DNS Spoofing (DNS Cache Poisoning)**: corrupting DNS data to redirect users to fraudulent destinations
 - **Typosquatting (URL Hijacking)**: registering look-alike domains to deceive users
+- **Vulnerable Lab**: an intentionally vulnerable system or environment built for legally practicing attack techniques
 - **Watering Hole**: compromising a website frequently visited by intended targets
 
 ## Open Source Intelligence (OSINT)
