@@ -386,7 +386,7 @@
         - **[ReversingLabs Spectra Analyze](https://docs.reversinglabs.com/SpectraAnalyze/)**: a malware-analysis and threat-intelligence platform
         - **[SANS Internet Storm Center](https://isc.sans.edu/)**: a threat-monitoring and information-sharing service analyzing malicious internet activity
         - **[Scam Database](https://www.scamdb.net/)**: user-contributed database of scam reports searchable by phone, email, and website
-        - **[START Consortium for the Study of Terrorism and Responses to Terrorism](https://www.start.umd.edu/)**: national Consortium conducting research on terrorism causes, consequences, and responses
+        - **[START Consortium for the Study of Terrorism and Responses to Terrorism](https://www.start.umd.edu/)**: national Consortium on terrorism
         - **[Terrorist Finance Tracking Program](https://home.treasury.gov/policy-issues/terrorism-and-illicit-finance/terrorist-finance-tracking-program-tftp)**: the U.S. Treasury program that traces terrorist financing
         - **[ThreatIngestor](https://github.com/InQuest/ThreatIngestor)**: modular IOC ingestion platform for automated threat indicator extraction from multiple sources
         - **[ThreatPinch Lookup](https://github.com/cloudtracer/ThreatPinchLookup)**: browser extension and Python tool for enriching IOCs with real-time threat intelligence
