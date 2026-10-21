@@ -403,7 +403,8 @@
     - **Watchpoint**: a trigger that pauses execution when memory changes 
 - **Dynamic Linking**: resolving external library code when loading or running a program
 - **Data Section**: initialized global and static variables
-- **ELF (Executable and Linkable Format)**: the primary executable format on Linux and Unix-like systems 
+- **ELF (Executable and Linkable Format)**: the primary executable format on Linux and Unix-like systems
+- **Emulation**: running firmware or software on simulated hardware instead of the physical device
 - **Endianness**: the byte order used to represent multibyte values
     - **Little-Endian**: stores the least significant byte at the lowest memory address
     - **Big-Endian**: stores the most significant byte at the lowest memory address
