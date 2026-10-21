@@ -106,6 +106,7 @@
         - **[FileVault](https://support.apple.com/guide/deployment/intro-to-filevault-dep82064ec40/web)**: Apple’s full-disk encryption feature for macOS
     - **[VeraCrypt](https://veracrypt.io/en/Downloads.html)**: an open-source encryption application for files, partitions, and storage devices
 - **Encoding**
+    - **[ASCII Table](https://www.asciitable.com/)**: a reference table of ASCII codes in decimal, hex, octal, and binary 
     - **[ASCII to Hex](https://www.asciitohex.com/)**: converts text between ASCII, hexadecimal, binary, decimal, and Base64
     - **[Base64 Decode/Encode](https://www.base64decode.org/)**: an online Base64 encoder and decoder
     - **[Hieroglyphic Translator](https://discoveringegypt.com/hieroglyphic-typewriter/)**: converts Latin letters into Egyptian hieroglyphs
@@ -326,6 +327,7 @@
 
 ## Log Analysis
 - **[`awk`](https://www.gnu.org/software/gawk/manual/)**: a pattern-scanning and text-processing language for extracting fields from structured text
+- **[`cat`](https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html)**: a command-line utility that prints and concatenates files
 - **[`cut`](https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html)**: a command-line utility that extracts selected fields or characters from each line
 - **[Datadog](https://docs.datadoghq.com/logs/)**: a cloud platform for monitoring logs, applications, infrastructure, and security events
 - **[ELK Stack](https://www.elastic.co/docs/get-started/the-stack)**: a collection of Elastic tools for ingesting, storing, searching, and visualizing log data
@@ -334,6 +336,7 @@
 - **[JSON to CSV](https://csvjson.com/json2csv)**: converts JSON data into CSV for spreadsheet analysis
 - **[Microsoft Excel](https://support.microsoft.com/en-us/excel/)**: a spreadsheet tool for filtering, organizing, and analyzing exported log data
 - **[Online List Tools](https://onlinelisttools.com/)**: browser-based utilities for sorting, deduplicating, and transforming lists
+- **[Python](https://docs.python.org/3/)**: a scripting language for parsing and analyzing large or complex log files
 - **Regular Expression (Regex)**
     - **[regex101](https://regex101.com/)**: an online regular-expression tester and debugger with explanations
 - **Server Log**
@@ -345,8 +348,12 @@
     - **[Google SecOps (formerly Chronicle)](https://docs.cloud.google.com/chronicle/docs/overview)**: Google’s cloud-native SIEM and SOAR platform
     - **[Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/overview)**: Microsoft’s cloud-native SIEM and security orchestration platform
     - **[Splunk](https://docs.splunk.com/Documentation/Splunk/)**: a platform for searching, monitoring, and analyzing machine-generated data
+- **[`sort`](https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html)**: a command-line utility that sorts lines of text
 - **SQL (Structured Query Language)**
     - **[SQLite Online](https://sqliteonline.com/)**: a browser-based SQL editor for running queries without installing a database
+- **[`uniq`](https://www.gnu.org/software/coreutils/manual/html_node/uniq-invocation.html)**: a command-line utility that collapses or counts adjacent duplicate lines
+- **[VS Code](https://code.visualstudio.com/docs)**: a code editor for viewing and searching large log files
+- **[`wc`](https://www.gnu.org/software/coreutils/manual/html_node/wc-invocation.html)**: a command-line utility that counts lines, words, and characters
 
 ## Network Traffic Analysis
 - **[A-Packets](https://apackets.com/)**: an online PCAP analyzer that visualizes protocols, hosts, and credentials in captures
@@ -373,6 +380,7 @@
     - **[Snort](https://www.snort.org/)**: an intrusion detection and prevention system for analyzing network traffic
 - **ISP (Internet Service Providers)**
     - **[Starlink](https://www.starlink.com/support)**: a satellite internet service provider
+- **[Ncat](https://nmap.org/ncat/guide/)**: Nmap’s modern Netcat for reading and writing data across network connections
 - **[Nethor](https://nethor.com/)**: a desktop suite of network analysis and diagnostic utilities
 - **[NetworkMiner](https://www.netresec.com/?page=NetworkMiner)**: a packet analysis and network forensics tool
 - **Proxies**
@@ -575,7 +583,11 @@
     - **[Ophcrack](https://ophcrack.sourceforge.io/)**: a password-recovery tool that uses rainbow tables to crack Windows LM and NTLM password hashes
         - **[XP Rainbow Tables](http://ophcrack.sourceforge.net/tables.php)**: free rainbow tables for use with Ophcrack
 - **Rule-Based Attack**
+    - **[dive.rule](https://github.com/hashcat/hashcat/blob/master/rules/dive.rule)**: a large rule set that ships with Hashcat
     - **[Hashcat Rules Collection](https://github.com/n0kovo/hashcat-rules-collection)**: a large collection of Hashcat rule files
+    - **[Hob0Rules](https://github.com/praetorian-inc/Hob0Rules)**: Praetorian’s statistically derived Hashcat rule sets
+    - **[NSA Rules](https://github.com/NSAKEY/nsa-rules)**: Hashcat rule sets built from analysis of leaked passwords
+    - **[OneRuleToRuleThemAll](https://github.com/NotSoSecure/password_cracking_rules)**: NotSoSecure’s single rule file combining the best-performing rules
 
 ## Physical Security & Internet of Things (IoT)
 - **[ALFA Wi-Fi Adapter](https://docs.alfa.com.tw/)**: an external wireless adapter commonly used for Wi-Fi monitoring and security testing
@@ -677,8 +689,10 @@
     - **[BinSync](https://binsync.net/)**: an open-source Git-based collaboration framework for synchronizing RE analysis across multiple decompilers
     - **Decompiler**
         - **[DecBench](https://decbench.com/)**: an open-source living benchmark for decompilers created by the Noelo Lab at UGA
+        - **[Decompiler.com](https://www.decompiler.com/)**: an online decompiler for Java, Python, .NET, and other compiled code
         - **[Dogbolt](https://dogbolt.org/)**: a decompiler explorer that shows the output of many decompilers side by side
         - **[Kuna](https://kuna.noelo.org/)**: a Rust-based decompiler, derived from Ghidra, for fast binary decompilation and AI-assisted reverse engineering
+        - **[PyLingual](https://pylingual.io/)**: an online decompiler for Python bytecode (.pyc) files
     - **[Ghidra](https://github.com/NationalSecurityAgency/ghidra)**: an open-source reverse-engineering suite developed by the NSA
     - **[Hopper](https://www.hopperapp.com/)**: a commercial disassembler and decompiler primarily used for macOS, Linux, and iOS applications
     - **[IDA Pro](https://docs.hex-rays.com/)**: a commercial disassembler and debugger for reverse engineering binaries
@@ -728,11 +742,13 @@
 
 ## Web Exploitation
 - **[Burp Suite](https://portswigger.net/burp/documentation)**: a web-security testing platform for intercepting and modifying HTTP traffic
+- **[Chrome DevTools](https://developer.chrome.com/docs/devtools)**: built-in browser tools for inspecting HTML, network requests, and cookies
 - **Cross-Site Scripting (XSS)**
     - **[BeEF (Browser Exploitation Framework)](https://github.com/beefproject/beef)**: a framework for testing security weaknesses through web browsers
 - **[`curl`](https://curl.se/docs/manual.html)**: a command-line tool for transferring data and crafting HTTP requests
 - **[DirBuster](https://www.kali.org/tools/dirbuster/)**: OWASP’s Java GUI tool for brute-forcing web directories and files
 - **[ffuf](https://github.com/ffuf/ffuf)**: a fast web fuzzer for discovering hidden files, directories, and parameters
+- **[Firefox DevTools](https://firefox-source-docs.mozilla.org/devtools-user/)**: Firefox’s built-in tools for inspecting pages, requests, and storage
 - **[Gobuster](https://github.com/OJ/gobuster)**: a tool for discovering web paths, DNS names, and virtual hosts
 - **[Netcraft Site Report](https://sitereport.netcraft.com/)**: reports a website’s hosting, technologies, and history
 - **Obfuscation**
@@ -746,13 +762,13 @@
 - **Web Shell**
     - **[php-findsock-shell](https://pentestmonkey.net/tools/web-shells/php-findsock-shell)**: a PHP shell that reuses the web server’s own connection when firewalls block bind and reverse shells
     - **[Weevely](https://github.com/epinna/weevely3)**: a stealthy PHP web shell for post-exploitation on authorized targets
+- **[Wappalyzer](https://www.wappalyzer.com/)**: a browser extension that identifies the technologies a website uses
 - **[WhatWeb](https://github.com/urbanadventurer/WhatWeb)**: a tool for identifying technologies used by websites
 - **[WPScan](https://github.com/wpscanteam/wpscan)**: a security scanner designed for WordPress websites
 - **[ZAP (Zed Attack Proxy)](https://www.zaproxy.org/docs/)**: an open-source platform for testing web-application security
 
 
 ## TODO
-* [National Cyber League Resource](https://github.com/jfisher009/NationalCyberLeagueResource)
 * [HackTrix](https://hacktricks.wiki/en/network-services-pentesting/pentesting-web/web-api-pentesting.html)
 * [OSINT Framework (Beyond Username)](https://osintframework.com/): a web-based directory that organizes free OSINT tools and resources by investigation type
 * [OSINT Tools](https://outlookuga.sharepoint.com/sites/InfoSec_KB/SitePages/OSINT-Tools.aspx?e=4%3a22b65a4624904fcb9f87841894226051&web=1&sharingv2=true&fromShare=true&at=9&CT=1781544543014&OR=OWA-NT-Mail&CID=28f0a04c-959b-d2df-24fe-5bce3bdfaea2&SI=NonSentItems)
