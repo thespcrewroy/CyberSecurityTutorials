@@ -770,7 +770,7 @@
     - **[EZR OSINT Sidebar](https://chromewebstore.google.com/detail/ezr-osint-sidebar/joagbbgciboooipadijeaoidjjigdmof)**: Chrome extension providing integrated OSINT tools in a browser sidebar; extracts
     - **[Fiddler](https://www.telerik.com/download/fiddler)**: web debugging proxy that monitors, inspects
     - **[Forensic OSINT](https://www.forensicosint.com/)**: Chrome extension for full-page web capture with evidence preservation; timestamps
-    - **[Full Page Screen Capture Chrome Extension](https://github.com/mrcoles/full-page-screen-capture-chrome-extension)**: Chrome extension for one-click full-page screenshot capture of entire scrollable page content
+    - **[Full Page Screen Capture Chrome Extension](https://github.com/mrcoles/full-page-screen-capture-chrome-extension)**: Chrome extension for one-click full-page screenshot capture
     - **[Greenshot](https://getgreenshot.org/)**: free and open-source screenshot program for Windows and macOS with annotation, highlighting
     - **[ShareX](https://getsharex.com/)**: free and open-source screenshot and screen recording tool
     - **[Snapper](https://github.com/dxa4481/Snapper)**: open-source Linux-based tool for automated batch website screenshotting and file capture
