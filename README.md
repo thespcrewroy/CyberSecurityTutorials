@@ -1456,7 +1456,7 @@
         - **[Knockpy](https://github.com/guelfoweb/knock)**: a Python tool for enumerating subdomains
         - **[Netcraft Search DNS](https://searchdns.netcraft.com/)**: Netcraft’s search for sites and subdomains matching a domain
         - **[OWASP Maryam](https://github.com/saeeddhqan/Maryam)**: modular OWASP OSINT framework with footprinting and search modules for multi-source reconnaissance
-        - **[Pentest-tools.com Subdomains](https://pentest-tools.com/information-gathering/find-subdomains-of-domain)**: web-based subdomain finder that enumerates subdomains for a given domain through hosted scanning
+        - **[PentestTools Subdomains](https://pentest-tools.com/information-gathering/find-subdomains-of-domain)**: web-based subdomain finder that enumerates subdomains for a given domain
         - **[Robtex DNS Lookup](https://www.robtex.com/dns-lookup/)**: a DNS lookup that maps related domains, IPs, and records
         - **[SecLists DNS Subdomains](https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS)**: community-maintained DNS wordlist collection used to power subdomain brute-force workflows
         - **[Sublist3r](https://github.com/aboul3la/Sublist3r)**: Python tool for subdomain enumeration using search engines, passive sources
