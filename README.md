@@ -852,7 +852,7 @@
 - **Session Hijacking**
     - **[Ultimate Guide to Cookie Hijacking](https://www.thesslstore.com/blog/the-ultimate-guide-to-session-hijacking-aka-cookie-hijacking/)**: The SSL Store’s guide to how session and cookie hijacking work
 - **SQL Injection (SQLi)**
-        - **[pentestmonkey DB2 SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/db2-sql-injection-cheat-sheet)**: DB2 syntax for SQL injection, from version detection to file access
+    - **[pentestmonkey DB2 SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/db2-sql-injection-cheat-sheet)**: DB2 syntax for SQL injection, from version detection to file access
     - **[pentestmonkey Informix SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/informix-sql-injection-cheat-sheet)**: Informix syntax for SQL injection, from version detection to file access
     - **[pentestmonkey Ingres SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/ingres-sql-injection-cheat-sheet)**: Ingres syntax for SQL injection, from version detection to file access
     - **[pentestmonkey MSSQL SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet)**: MSSQL syntax for SQL injection, from version detection to file access
