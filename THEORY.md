@@ -276,6 +276,8 @@
 - **MITM (Man-in-the-Middle Attack)**: secretly intercepting and possibly altering communication between parties
 - **Pharming**: manipulating DNS or systems to redirect users to fraudulent websites
     - **DNS Hijacking**: altering DNS settings or records to redirect network traffic
+- **Privilege Escalation**: gaining higher permissions on a compromised system than were originally granted
+- **Reverse Shell**: a shell session in which the compromised target connects back to an attacker-controlled listener
 - **Social Engineering**: manipulating people into revealing information or performing unsafe actions
     - **Baiting**: offering something enticing to provoke an unsafe action
     - **ClickFix:** tricks users into executing malicious commands using fake CAPTCHAs, error messages, or troubleshooting alerts
@@ -534,6 +536,7 @@
 - **Server-Side Request Forgery (SSRF)**: tricks a server into making requests to internal or external resources chosen by an attacker
 - **Session Hijacking**: taking over a user’s authenticated session by stealing or forging its session token
 - **SQL Injection (SQLi)**: injects malicious SQL through application inputs to manipulate queries or access a database
+- **Web Shell**: a malicious script uploaded to a web server that lets an attacker run commands remotely
 
 <p align="right"><a href="#top">🔼 Back to top</a></p>
 </small>
