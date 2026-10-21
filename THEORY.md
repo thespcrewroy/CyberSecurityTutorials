@@ -321,10 +321,12 @@
         - **Void Family**: independent distributions based on Void Linux and its XBPS package system
 - **Terminal**: text-based shell interface for system interaction
     - **Commands**: Executable operations entered in a shell
+    - **Shell**: a command interpreter that reads and executes commands entered in a terminal
     - **Shell Operators**: Symbols that control shell behavior
     - **Shortcuts**: Key combinations for quicker navigation
 - **Virtualization**: technology that creates simulated computing environments on physical hardware
     - **Hypervisors**: software that creates and manages virtual machines
+- **Windows NT Family**: Microsoft operating systems built on the Windows NT architecture
 
 ## Password Cracking
 - **Brute-Force Attack**: systematically tries every possible character combination until the correct password is found
