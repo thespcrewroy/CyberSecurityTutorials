@@ -713,7 +713,7 @@
     - **[EyeWitness](https://github.com/ChrisTruncer/EyeWitness)**: open-source tool for automated website screenshotting, service header collection
     - **[Follow That Page](https://www.followthatpage.com/)**: website monitoring service that checks pages for changes
     - **[Hunting-New-Registered-Domains](https://github.com/gfek/Hunting-New-Registered-Domains)**: open-source tool for identifying newly registered domains matching patterns, useful
-    - **[International Domain Name Conversion Tool](https://mct.verisign-grs.com/)**: Verisign's IDN/Punycode bidirectional converter for translating international domain names
+    - **[International Domain Name Conversion Tool](https://mct.verisign-grs.com/)**: bidirectional converter for translating international domain names
     - **[Keyword Density](https://tools.seobook.com/general/keyword-density/)**: text and page analyzer that measures keyword frequency and relative density
     - **[Kraken](https://github.com/Sw4mpf0x/Kraken)**: open-source reconnaissance utility for domain and network intelligence gathering workflows
     - **[Link Expander](https://www.linkexpander.com/)**: short-link expansion tool that resolves redirects to destination URLs
