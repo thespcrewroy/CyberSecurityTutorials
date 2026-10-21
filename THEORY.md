@@ -483,6 +483,15 @@
 - **Text Section**: executable machine instructions within a program
 - **Syscall (System Call)**: a request from a program to the operating-system kernel
 
+## Scanning and Reconnaissance
+- **ASM (Attack Surface Management)**: continuously discovers, inventories, and monitors an organization’s internet-facing assets
+- **Enumeration**: extracts detailed information such as users, shares, services, and records from a target
+    - **DNS Enumeration**: discovers a domain’s records, subdomains, and name-server configuration
+- **Internet-Wide Scanning**: surveys the entire public IP address space for reachable hosts and services
+    - **Internet Asset Search Engine**: a searchable index of devices, services, and certificates found by internet-wide scans
+- **Network Scanning**: probes a network to discover live hosts, open ports, running services, and operating systems
+- **Vulnerability Scanning**: automatically checks systems for known vulnerabilities and misconfigurations
+
 ## Web Exploitation
 - **Broken Access Control**: improperly enforced permissions that allow users to access unauthorized data
 - **Cross-Site Scripting (XSS)**: injects malicious client-side scripts that execute in another user’s browser
