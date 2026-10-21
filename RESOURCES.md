@@ -148,6 +148,7 @@
 - [BugCrowd](https://www.bugcrowd.com/): connects organizations with a global community of vetted ethical hackers
 - [Burp Suite Web Security Academy](https://portswigger.net/web-security/getting-started): a free online training center for web application security
 - [Chris Greer’s Wireshark Tutorials](https://www.youtube.com/@ChrisGreer): a YouTube channel of in-depth packet-analysis tutorials
+- [CISA](https://www.cisa.gov/): the U.S. Cybersecurity and Infrastructure Security Agency’s advisories, guidance, and tools
 - [Clark Cybersecurity Library](https://clark.center/home): a library of free, peer-reviewed cybersecurity curriculum
 - [Cloudflare: What Is DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/): Cloudflare’s explanation of how DNS works
 - [Command-Line Log Analysis FTW](https://cryptokait.com/2021/02/10/command-line-log-analysis-for-the-win-1-3-how-to-approach-a-wild-log/): CryptoKait’s series on approaching unfamiliar logs from the command line
@@ -254,6 +255,7 @@
 - [Open Bug Bounty](https://www.openbugbounty.org/): a platform for reporting web vulnerabilities through coordinated disclosure
 - [Open Source Intelligence Techniques](https://inteltechniques.com/): professional OSINT training and certification by IntelTechniques
 - [OpenSecurityTraining2](https://www.opensecuritytraining.info/): a collection of free, open-source, self-paced courses
+- [OSINT Framework](https://osintframework.com/): a web-based directory of free OSINT tools organized by investigation type
 - [OverTheWire Wargames](https://overthewire.org/wargames/): hands-on games for learning Linux and security fundamentals
 - [OWASP Buffer Overflow Attack](https://owasp.org/www-community/attacks/Buffer_overflow_attack): OWASP’s explanation of buffer overflow attacks
 - [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/IndexTopTen.html): concise OWASP guidance on securing applications against common risks
