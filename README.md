@@ -25,8 +25,8 @@
 
 ## Artificial Intelligence
 - **[Claude Mythos](https://www.anthropic.com/glasswing)**: Anthropic’s Mythos-tier frontier model offered to vetted organizations through Project Glasswing
-* **[OWASP LLM Top 10](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/)**: most critical security vulnerabilities and risks when building AI systems 
-* **[LakeraAI](https://www.lakera.ai/)**: leading security platform to secure your AI future
+- **[OWASP LLM Top 10](https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/)**: most critical security vulnerabilities and risks when building AI systems 
+- **[LakeraAI](https://www.lakera.ai/)**: leading security platform to secure your AI future
 
 ## Blockchain
 - **Atomic Swaps**
