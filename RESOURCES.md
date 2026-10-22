@@ -138,7 +138,10 @@
 - [AWK & Cut Linux Utilities](https://www.cyberciti.biz/faq/unix-linux-bsd-appleosx-skip-fields-command/): a guide to skipping and selecting fields with awk and cut
 - [awk Cheat Sheet](https://quickref.me/awk): a quick reference for awk syntax and common one-liners
 - [AWS: What Is DNS?](https://aws.amazon.com/route53/what-is-dns/): Amazon’s explanation of how DNS works
+- [AWSGoat](https://github.com/ine-labs/AWSGoat): a vulnerable-by-design AWS infrastructure lab
+- [Azeria Labs](https://azeria-labs.com/): tutorials on ARM assembly and ARM exploitation
 - [Backdoors & Breaches](https://play.backdoorsandbreaches.com/): an incident-response card game for running tabletop exercises
+- [Bad Pods](https://github.com/BishopFox/badPods): a collection of risky Kubernetes pod specs that lead to privilege escalation
 - [Basics of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP): MDN’s introduction to how HTTP works
 - [Basics of Network Traffic Analysis](https://www.youtube.com/watch?v=o-QNMSPbOGY): an introductory video on network traffic analysis
 - [Beginners Guide to grep](https://www.opensourceforu.com/2012/06/beginners-guide-gnu-grep-basics/): an introduction to GNU grep basics
@@ -151,16 +154,22 @@
 - [BugCrowd](https://www.bugcrowd.com/): connects organizations with a global community of vetted ethical hackers
 - [Burp Suite Web Security Academy](https://portswigger.net/web-security/getting-started): a free online training center for web application security
 - [Chris Greer’s Wireshark Tutorials](https://www.youtube.com/@ChrisGreer): a YouTube channel of in-depth packet-analysis tutorials
+- [CI/CD Goat](https://github.com/cider-security-research/cicd-goat): a deliberately vulnerable CI/CD environment
 - [CISA](https://www.cisa.gov/): the U.S. Cybersecurity and Infrastructure Security Agency’s advisories, guidance, and tools
 - [Clark Cybersecurity Library](https://clark.center/home): a library of free, peer-reviewed cybersecurity curriculum
+- [Cloud Security Docs](https://cloudsecdocs.com/): notes on attacking and defending AWS, Azure, GCP, and Kubernetes
 - [Cloudflare: What Is DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/): Cloudflare’s explanation of how DNS works
+- [CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat): Rhino Security Labs’ vulnerable-by-design AWS lab
 - [Command-Line Log Analysis FTW](https://cryptokait.com/2021/02/10/command-line-log-analysis-for-the-win-1-3-how-to-approach-a-wild-log/): CryptoKait’s series on approaching unfamiliar logs from the command line
 - [Computer Fundamentals for Cybersecurity](https://trove.cyberskyline.com/computer-fundamentals-for-cybersecurity): Cyber Skyline’s primer on the computing basics behind cybersecurity
+- [Corelan Exploit Writing Tutorials](https://www.corelan.be/): Corelan’s long-running series on Windows exploit development
 - [Creating Wordlists Using Mentalist](https://null-byte.wonderhowto.com/how-to/create-custom-wordlists-for-password-cracking-using-mentalist-0183992/): a Null Byte tutorial on building wordlists with Mentalist
 - [Crontab Cheatsheet](https://www.codementor.io/@akul08/the-ultimate-crontab-cheatsheet-5op0f7o4r): a reference for scheduling jobs with cron
 - [CryptoHack](https://cryptohack.org/): an interactive platform for learning modern cryptography
 - [CTF Field Guide](https://trailofbits.github.io/ctf/): a comprehensive guide to competing in CTF competitions
 - [CTF Image Steganography Checklist](https://stegonline.georgeom.net/checklist): StegOnline’s step-by-step checklist for solving image steganography challenges
+- [CTF Recipes](https://ctfrecipes.com/): step-by-step techniques for common CTF challenge types
+- [CTF Wiki](https://ctf-wiki.mahaloz.re/): a wiki covering techniques across the main CTF categories
 - [CTF101](https://ctf101.org/): an introductory guide to common CTF categories and techniques
 - [CTFLearn](https://ctflearn.com/): a beginner-friendly platform of CTF practice problems
 - [CTFtime](https://ctftime.org/): a calendar and ranking site tracking CTF competitions and teams worldwide
@@ -184,6 +193,8 @@
 - [Docker Registry HTTP API V2](https://docs.docker.com/registry/spec/api/): the API specification for interacting with Docker registries
 - [Docker Run Documentation](https://docs.docker.com/engine/containers/run/): official guidance for running and configuring Docker containers
 - [Docker Seccomp Documentation](https://docs.docker.com/engine/security/seccomp/): official guidance for restricting container system calls with seccomp profiles
+- [DVIA-v2](https://github.com/prateek147/DVIA-v2): the Damn Vulnerable iOS App for practicing iOS security
+- [EFF Surveillance Self-Defense](https://ssd.eff.org/): the EFF’s guides to protecting yourself from surveillance
 - [Emoji Sequences](https://unicode.org/Public/emoji/4.0/emoji-sequences.txt): the Unicode reference list of emoji code-point sequences
 - [Explaining DirBuster](https://faun.pub/what-is-dirbuster-and-how-to-use-it-1db3c3d3113b): an explanation of what DirBuster does and how to use it
 - [Explaining the User-Agent String](https://towardsdatascience.com/the-user-agent-that-crazy-string-underpinning-a-bunch-of-analytics-86507ef632f0): an explanation of how user-agent strings are structured
@@ -193,6 +204,7 @@
 - [Flare-On CTF Past CTF Challenges](https://flare-on.com/): industry ctf thats made for benchmarking industry pros
 - [Forensic OSINT KB Guides](https://www.forensicosint.com/osint-guide): knowledge base of digital forensics guides for evidence capture
 - [freeCodeCamp](https://www.freecodecamp.org/): free coding courses and certifications
+- [Frida CodeShare](https://codeshare.frida.re/): community-shared Frida scripts for instrumenting apps
 - [Gandalf](https://gandalf.lakera.ai/gandalf): a game for learning about prompt injection and adversarial AI attacks
 - [GBHackers Latest Google Dorks List](https://gbhackers.com/latest-google-dorks-list/): a list of Google dorks for finding exposed information
 - [GeoGuesser](https://www.geoguessr.com/): geography game for geolocation OSINT training
@@ -205,6 +217,7 @@
 - [Google Guide Cheat Sheet](https://www.googleguide.com/help/calculator.html): quick-reference cheat sheet for Google search operators and advanced search syntax from Google Guide
 - [Google Hacking Database](https://www.exploit-db.com/google-hacking-database): OffSec’s curated database of Google dork queries, organized by category
 - [Google Search Operators Guide](https://www.googleguide.com/advanced_operators_reference.html): Google Guide’s reference covering supported search operators and syntax
+- [GraphQL Threat Matrix](https://github.com/nicholasaleks/graphql-threat-matrix): a comparison of GraphQL implementations’ security features
 - [grep Cheat Sheet](https://quickref.me/grep.html): a quick reference for grep options and patterns
 - [GreyHat](https://ctf.greyhatgt.org/): Georgia Tech's premiere cyber security learning platform
 - [Guide to awk](https://www.baeldung.com/linux/awk-guide): Baeldung’s introduction to awk
@@ -215,28 +228,37 @@
 - [Hackers Guide to Google Dorks](https://cooltechzone.com/research/hackers-guide-to-google-dorks): a guide to Google dork operators and example queries
 - [Hackers-Arise](https://hackers-arise.com/): ethical-hacking tutorials and courses for beginners
 - [HackerTarget Wireshark Tutorial & Cheat Sheet](https://hackertarget.com/wireshark-tutorial-and-cheat-sheet/): a tutorial and filter cheat sheet from HackerTarget
+- [Hacking Printers Wiki](http://hacking-printers.net/wiki/): a wiki on attacking network printers
 - [HackTricks](https://book.hacktricks.xyz/welcome/readme): a reference guide covering penetration-testing techniques and tools
 - [Hashcat Example Hashes](https://hashcat.net/wiki/doku.php?id=example_hashes): example hashes for every Hashcat hash mode, useful for identifying formats
 - [Hashcat Tutorial for Beginners](https://resources.infosecinstitute.com/topic/hashcat-tutorial-beginners/): Infosec Institute’s introduction to Hashcat
+- [Heap Exploitation](https://heap-exploitation.dhavalkapil.com/): Dhaval Kapil’s short book on glibc heap internals and attacks
 - [How to Cut and Carve Logs in the NCL](https://cryptokait.com/2020/02/17/sharpening-the-axe-how-to-cut-and-carve-logs-in-the-ncl/): CryptoKait’s guide to slicing logs for National Cyber League challenges
 - [How to Get Started with Ghidra](https://www.csoonline.com/article/567221/how-to-get-started-using-ghidra-the-free-reverse-engineering-tool.html): CSO Online’s beginner guide to Ghidra
 - [How to Pronounce Linux](https://www.youtube.com/watch?v=gAEsoKiZTvk): Linus Torvalds’ recording of how to pronounce Linux
 - [How to Use Nmap](https://www.varonis.com/blog/nmap-commands): Varonis’ guide to common Nmap commands
 - [How to Use VirtualBox](https://www.nakivo.com/blog/use-virtualbox-quick-overview/): NAKIVO’s quick overview of VirtualBox
 - [How to Use Wireshark](https://www.comptia.org/content/articles/what-is-wireshark-and-how-to-use-it): CompTIA’s introduction to Wireshark
+- [how2heap](https://github.com/shellphish/how2heap): Shellphish’s collection of heap exploitation techniques with examples
+- [HTTPLeaks](https://github.com/cure53/HTTPLeaks): a test page listing every way a web page can leak HTTP requests
+- [IAM Vulnerable](https://github.com/BishopFox/iam-vulnerable): a Terraform lab of AWS IAM privilege-escalation paths
 - [ICMP Parameters](https://www.iana.org/assignments/icmp-parameters/icmp-parameters.xhtml): the official registry of ICMP message types, codes, and parameters
 - [IETF Datatracker](https://datatracker.ietf.org/): the IETF’s searchable archive of RFCs and protocol drafts
+- [iGoat-Swift](https://github.com/OWASP/iGoat-Swift): OWASP’s deliberately insecure iOS app
 - [Intro to Assembly](https://csbygb.gitbook.io/pentips/binary-exploitation/assembly): an introduction to assembly for binary exploitation
 - [Intro to C](https://www.sans.org/webcasts/intro-c-windows-devs/): a SANS webcast introducing C programming
 - [Intro to KQL](https://academy.bluraven.io/intro-to-kql-for-security-analysis): a free Bluraven course on Kusto Query Language for security analysis
 - [Intro to Network Traffic Analysis](https://academy.hackthebox.com/course/preview/intro-to-network-traffic-analysis): Hack The Box Academy’s introductory module on traffic analysis
 - [Introduction to Ghidra](https://static.grumpycoder.net/pixel/docs/GhidraClass/Beginner/Introduction_to_Ghidra_Student_Guide_withNotes.html): the NSA’s Ghidra beginner class student guide
 - [IoTGoat](https://github.com/OWASP/IoTGoat): a deliberately insecure router firmware for practicing IoT exploitation
+- [ir0nstone Binary Exploitation Notes](https://ir0nstone.gitbook.io/notes): notes on stack, heap, and kernel exploitation
 - [Kali Cheat Sheet](https://www.comparitech.com/net-admin/kali-linux-cheat-sheet/): Comparitech’s cheat sheet of Kali tools and commands
 - [Khan Academy Computing](https://www.khanacademy.org/computing/): free lessons on computer science and programming
+- [Kubenomicon](https://kubenomicon.com/): an offensive security knowledge base for Kubernetes
 - [Leaping into Log Analysis](https://cryptokait.com/2019/08/27/leaping-into-log-analysis/): CryptoKait’s introduction to log analysis
 - [Learn to GREP](https://www.geeksforgeeks.org/grep-command-in-unixlinux/): GeeksforGeeks’ guide to the grep command
 - [Linux Commands Cheatsheet](https://phoenixnap.com/kb/linux-commands-cheat-sheet): phoenixNAP’s reference of common Linux commands
+- [Linux Privilege Escalation Checklist](https://github.com/frizb/Linux-Privilege-Escalation): a checklist of Linux privilege-escalation techniques
 - [Linux Terminal Cheatsheet](https://cheatography.com/davechild/cheat-sheets/linux-command-line/): a one-page Linux command-line reference
 - [List of File Signatures](https://en.wikipedia.org/wiki/List_of_file_signatures): a reference table of magic bytes used to identify file types
 - [LKWA (Linux Kernel Exploitation Lab)](https://github.com/weev3/LKWA): a deliberately vulnerable Linux kernel module for practicing kernel exploitation
@@ -248,6 +270,7 @@
 - [Methods and How to Analyze Network Traffic](https://www.parkplacetechnologies.com/blog/network-traffic-analysis-methods/): an overview of network traffic analysis methods
 - [Microcorruption](https://microcorruption.com/): an embedded-security CTF that teaches assembly language, debugging, RE, etc.
 - [Missing Semester of Your CS Education](https://missing.csail.mit.edu/): MIT’s course on the shell, editors, Git, and other practical tools
+- [MITM Cheat Sheet](https://github.com/frostbits-security/MITM-cheatsheet): man-in-the-middle attack techniques across network protocols
 - [Modern Security](https://www.modernsecurity.io/courses/ai-security-certification): hands-on AI security certification covering LLM, RAG, prompt-injection, and MCP attacks
 - [National Cyber League’s YouTube](https://www.youtube.com/@NationalCyberLeague): NCL’s channel of competition walkthroughs and skill tutorials
 - [National Cyber Scholarship Foundation](https://www.nationalcyberscholarship.org/): cybersecurity training and scholarship opportunities for students
@@ -255,6 +278,7 @@
 - [Network Traffic Analysis Cheatsheet](https://github.com/MalwareBro/Network_Traffic_Analysis_CheatSheet/blob/main/Network_Traffic_Analysis_Cheatsheet.md): a cheat sheet of filters and techniques for analyzing captures
 - [Network Traffic PCAPs to Analyze](https://www.malware-traffic-analysis.net/training-exercises.html): Malware-Traffic-Analysis.net’s collection of real malicious-traffic PCAP exercises
 - [Newbies Guide to Network Traffic Analysis](https://www.youtube.com/watch?v=UyI-CArr0bg): a beginner video walkthrough of network traffic analysis
+- [Nightmare](https://github.com/guyinatuxedo/nightmare): an intro-to-binary-exploitation course built on CTF challenges
 - [Nmap Cheat Sheet](https://highon.coffee/blog/nmap-cheat-sheet/): HighOn.Coffee’s Nmap command cheat sheet
 - [Nmap Scripting Library](https://www.infosecmatter.com/nmap-nse-library/): a searchable index of NSE scripts and their usage
 - [Nugget-Size Linux Tutorials](https://www.penguinnuggets.io/): short, focused Linux tutorials from Penguin Nuggets
@@ -263,12 +287,14 @@
 - [Open Source Intelligence Techniques](https://inteltechniques.com/): professional OSINT training and certification by IntelTechniques
 - [OpenSecurityTraining2](https://www.opensecuritytraining.info/): a collection of free, open-source, self-paced courses
 - [OSINT Framework](https://osintframework.com/): a web-based directory of free OSINT tools organized by investigation type
+- [OVAA](https://github.com/oversecured/ovaa): Oversecured’s vulnerable Android app for practice
 - [OverTheWire Wargames](https://overthewire.org/wargames/): hands-on games for learning Linux and security fundamentals
 - [OWASP Buffer Overflow Attack](https://owasp.org/www-community/attacks/Buffer_overflow_attack): OWASP’s explanation of buffer overflow attacks
 - [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/IndexTopTen.html): concise OWASP guidance on securing applications against common risks
 - [OWASP FSTM](https://github.com/scriptingxss/owasp-fstm): OWASP’s Firmware Security Testing Methodology
 - [OWASP Hacking 101](https://owasp.org/www-pdf-archive/Hacking_101_-_OWASP.pdf): an introductory OWASP presentation on web application hacking
 - [OWASP Juice Shop](https://github.com/juice-shop/juice-shop): an intentionally insecure web application covering the OWASP Top 10 and more
+- [OWASP MASTG](https://github.com/OWASP/owasp-mastg): OWASP’s Mobile Application Security Testing Guide
 - [OWASP Wireshark Book](https://owasp.org/www-pdf-archive//Owasp_wireshark.pdf): OWASP’s PDF guide to Wireshark
 - [OWASP WSTG (Web Security Testing Guide)](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/): OWASP’s methodology for testing web application security
 - [Parsing SSH Logs – Basics](https://redgreenrepeat.com/2017/02/17/parsing-ssh-logs-basics/): a walkthrough of extracting useful information from SSH authentication logs
@@ -292,10 +318,12 @@
 - [pwn.college](https://pwn.college/): a structured platform for learning binary exploitation and CTF skills
 - [Pwning OWASP Juice Shop](https://pwning.owasp-juice.shop/): the official companion guide and walkthrough for Juice Shop
 - [Recover PEM Key](https://blog.cryptohack.org/twitter-secrets): a CryptoHack write-up on reconstructing an RSA private key from a partially redacted PEM file
+- [Red Team Notes (ired.team)](https://www.ired.team/): notes on red-team techniques, mostly for Windows and Active Directory
 - [Resources for Beginner Bug Bounty Hunters](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters): NahamSec’s curated starting guide for bug bounty hunting
 - [RingZer0 CTF](https://ringzer0ctf.com/): a CTF platform with hundreds of challenges across many categories
 - [RootMe](https://www.root-me.org/?lang=en): online platform for learning hacking through CTF challenges
 - [Roppers Academy](https://www.roppers.org/): free self-paced courses in computing fundamentals, security, and CTFs
+- [sadcloud](https://github.com/nccgroup/sadcloud): Terraform for spinning up insecure AWS infrastructure to practice on
 - [Security Certification Roadmap](https://pauljerimy.com/security-certification-roadmap/): a guide for comparing cybersecurity certifications by domain and difficulty
 - [Security Operations 101](https://academy.tcm-sec.com/p/security-operations-soc-101): TCM Security’s course on working as a SOC analyst
 - [Setting Up a Kali VM (NCL)](https://streamyard.com/watch/ryedygVVJxzF): a National Cyber League walkthrough of building a Kali virtual machine
@@ -309,6 +337,7 @@
 - [SQLZoo](https://sqlzoo.net/wiki/SQL_Tutorial): interactive SQL tutorials and exercises
 - [Steganography 101](https://pequalsnp-team.github.io/cheatsheet/steganography-101): a cheat sheet of common steganography techniques and tools for CTFs
 - [TCM Security Academy](https://academy.tcm-sec.com/): practical and affordable ethical-hacking courses
+- [TerraGoat](https://github.com/bridgecrewio/terragoat): a vulnerable-by-design Terraform repository
 - [The Google Hacker’s Guide](http://pdf.textfiles.com/security/googlehackers.pdf): a classic PDF guide to Google hacking techniques
 - [The OSINTion](https://www.theosintion.com/courses): affordable OSINT training courses by Joe Gray, including people and business investigations
 - [TheHackPack](https://thehackpack.org/practice): UGA's premiere cyber security learning platform
@@ -323,7 +352,9 @@
 - [Understanding Log Analysis of Web Server](https://www.hackingarticles.in/understanding-log-analysis-web-server/): Hacking Articles’ guide to analyzing web-server logs
 - [Verif!cation Quiz Bot](https://x.com/quiztime): daily OSINT verification challenges posted on X, using a community-driven quiz format
 - [VMware for Beginners](https://www.vminstall.com/vmware-for-beginners/): a beginner’s guide to VMware products
+- [Vulhub](https://github.com/vulhub/vulhub): ready-to-run Docker environments for practicing known vulnerabilities
 - [VulnHub](https://www.vulnhub.com/): downloadable vulnerable virtual machines for cybersecurity practice
+- [WAF Bypass Cheat Sheet](https://github.com/Bo0oM/WAF-bypass-Cheat-Sheet): techniques for bypassing web application firewalls
 - [Web Exploitation CTF Tactics](https://www.hucerc.com/cerc-events/basic-hands-on-cybersecurity-skills/skill9-web-exploitation/basic-ctf-web-exploitation-tactics/): basic tactics for web exploitation CTF challenges
 - [WebGoat](https://owasp.org/www-project-webgoat/): an intentionally insecure web application for learning common vulnerabilities
 - [WebVulnerabilitiesDemos](https://lnkd.in/eqh6huEA): makes understanding common web vulnerabilities more accessible for laypeople like you
@@ -331,10 +362,14 @@
 - [What Is Networking?](https://trove.cyberskyline.com/computer-fundamentals-for-cybersecurity/networking): Cyber Skyline’s introduction to networking fundamentals
 - [What Is Wireshark?](https://www.redhat.com/sysadmin/introduction-wireshark): Red Hat’s introduction to Wireshark
 - [Why & How to Start Using curl](https://www.freecodecamp.org/news/how-to-start-using-curl-and-why-a-hands-on-introduction-ea1c913caaaa/): freeCodeCamp’s hands-on introduction to curl
+- [Windows Kernel Exploits](https://github.com/SecWiki/windows-kernel-exploits): a collection of Windows kernel exploits by CVE
+- [Windows Privilege Escalation Checklist](https://github.com/frizb/Windows-Privilege-Escalation): a checklist of Windows privilege-escalation techniques
+- [Windows/Linux Local Privilege Escalation Workshop](https://github.com/sagishahar/lpeworkshop): exercises and scripts for practicing local privilege escalation
 - [Wireshark Cheat Sheet](https://www.comparitech.com/net-admin/wireshark-cheat-sheet/): Comparitech’s Wireshark filter and shortcut cheat sheet
 - [Wireshark in 10 Minutes](https://www.youtube.com/watch?v=lb1Dw0elw0Q): a short video introduction to Wireshark
 - [Wireshark Masterclass](https://www.youtube.com/watch?v=OU-A2EmVrKQ&list=PLW8bTPfXNGdC5Co0VnBK1yVzAwSSphzpJ): a YouTube playlist covering Wireshark in depth
 - [Wireshark Tricks](https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology/pcap-inspection/wireshark-tricks): HackTricks notes on inspecting PCAPs in Wireshark
+- [XS-Leaks Wiki](https://github.com/xsleaks/xsleaks): a wiki of cross-site leak techniques and defenses
 - [Zsh Scripting Guide](https://zsh.sourceforge.io/Guide/zshguide.html): the official user guide to the Z shell
 
 ## YouTubers
