@@ -117,7 +117,7 @@ Tools without a free tier or free edition. Free and freemium tools live in TOOLS
 - **Unix**
     - **Linux**
         - **SUSE Family**
-            - **[SLES (SUSE Linux Enterprise Server)](https://documentation.suse.com/sles/)**: an enterprise-grade server operating system designed for mission-critical workloads
+            - **[SLES (SUSE Linux Enterprise Server)](https://documentation.suse.com/sles/)**: an enterprise-grade server OS designed for mission-critical workloads
 
 ## Physical Security & Internet of Things (IoT)
 - **[Cloud C²](https://documentation.hak5.org/cloud-c2/)**: a self-hosted server for remotely managing deployed Hak5 devices
