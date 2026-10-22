@@ -172,7 +172,6 @@
 - **[MSOLSpray](https://github.com/dafthack/MSOLSpray)**: password-sprays Microsoft Online and Entra ID accounts
 - **[o365spray](https://github.com/0xZDH/o365spray)**: enumerates users and sprays passwords against Microsoft 365
 - **[Pacu](https://github.com/RhinoSecurityLabs/pacu)**: an open-source AWS exploitation framework for testing cloud environments
-
 - **[PowerZure](https://github.com/hausec/PowerZure)**: a PowerShell framework for assessing and exploiting Azure
 - **Secrets Management**
     - **[Google Cloud Secret Manager](https://cloud.google.com/secret-manager/docs)**: GCP’s service for storing API keys, passwords, and certificates
