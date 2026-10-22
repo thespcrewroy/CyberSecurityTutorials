@@ -1,7 +1,3 @@
-# Paid Cyber Security Tools
-
-Tools without a free tier or free edition. Free and freemium tools live in TOOLS.md.
-
 <details>
 <summary>📖 Table of Contents</summary>
 <br />
