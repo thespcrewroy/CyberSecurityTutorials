@@ -190,6 +190,7 @@
         - **[targetedKerberoast](https://github.com/ShutdownRepo/targetedKerberoast)**: Kerberoasts accounts by temporarily setting their SPNs
 - **Cipher**
     - **Classical Cipher**
+        - **[dCode Symbols & Ciphers](https://www.dcode.fr/symbols-ciphers)**: an index of symbol-based and historical ciphers with decoders
         - **Substitution Cipher**
             - **Caesar Cipher (ROT Cipher)**
                 - **[dCode Caesar Cipher](https://www.dcode.fr/caesar-cipher)**: an online tool for encoding, decoding, and brute-forcing Caesar shifts
@@ -499,6 +500,7 @@
     - **[SRUM-Dump](https://github.com/MarkBaggett/srum-dump)**: extracts application and network usage from the Windows SRUM database
     - **[The Sleuth Kit (TSK)](https://www.sleuthkit.org/sleuthkit/)**: command-line tools and libraries for analyzing disks and file systems
     - **[Wombat Forensics](https://github.com/pjrinaldi/wombatforensics)**: a GUI forensic tool for examining disk images and file systems
+- **[Hexed.it](https://hexed.it/)**: a browser-based hex editor for inspecting file headers and signatures
 - **Image Forensics**
     - **[Forensically](https://29a.ch/photo-forensics/)**: a browser-based suite for detecting image manipulation, including clone detection and error level analysis
     - **[FotoForensics](https://fotoforensics.com/)**: an online error level analysis service for spotting edited regions in photos
@@ -1070,6 +1072,7 @@
     - **[Analyst Research Tools](https://analystresearchtools.com)**: comprehensive web-based OSINT platform with 40+ integrated tools
     - **[IFTTT](https://ifttt.com/)**: no-code automation platform connecting 900+ apps and services with trigger-action applets
     - **[IntelligenceX](https://intelx.io/)**: web-based intelligence search platform aggregating pastes, leaks, darknet content, stealer logs
+    - **[IntelTechniques Tools](https://inteltechniques.com/tools/index.html)**: Michael Bazzell’s search tools for social media, email, phone, and other OSINT lookups
     - **[IntRec-Pack](https://github.com/NullArray/IntRec-Pack)**: Bash script bundle for automated download, installation, and deployment of 14 OSINT and recon tools
     - **[Microsoft Flow](https://flow.microsoft.com/en-us/)**: Microsoft cloud workflow automation platform enabling complex multi-step processes
     - **[Omnibus](https://github.com/InQuest/omnibus)**: interactive CLI OSINT tool for investigating artifacts with over 25 integrated OSINT modules
@@ -1582,6 +1585,7 @@
 - **Dynamic Analysis (Binary Exploitation)**
     - **Debugger**
         - **[GDB (GNU Debugger)](https://sourceware.org/gdb/documentation/)**: a debugger for inspecting and controlling programs during execution
+            - **[GEF](https://github.com/hugsy/gef)**: a GDB extension with exploit-development and reverse-engineering features
             - **[pwndbg](https://github.com/pwndbg/pwndbg)**: a GDB and LLDB plug-in that makes debugging suck less
         - **[OnlineGDB](https://www.onlinegdb.com/)**: an online compiler and debugger for C and C++
 - **Emulation**
@@ -1767,6 +1771,7 @@
 
 
 ## TODO
+* [Shellphish Repositories](https://github.com/orgs/shellphish/repositories)
 * [The Hack Pack Resources](https://thehackpack.org/resources/intro/ )
 * [Awesome Security Newsletters](https://github.com/TalEliyahu/awesome-security-newsletters)
 * [Randar2](https://github.com/spawnmason/randar-explanation)
@@ -1774,7 +1779,7 @@
 * Orrin Adotavi ADP Stack
 * [Student Discounts](https://docs.google.com/document/d/1uKuvSKlZcADBmoY-O5sF5rBQE6kMSPbRxr7UpVni1f8/edit?tab=t.5lo6aln59n65)
 * Take the finished list and add it to thehackpack website (make it in the style of [OSINT Framework](https://github.com/lockfale/osint-framework) and/or [HackTricks](https://github.com/HackTricks-wiki/hacktricks) or like the NASA Space Apps Challenge Vector Database). AI API will automatically find the correct tool you are looking for using the vector database
-* Friendly Hacker Resources aggregators still to mine: [Bellingcat Online Investigation Toolkit](https://bit.ly/bcattools), [Awesome OSINT](https://github.com/jivoi/awesome-osint), [Awesome Forensics](https://github.com/Cugu/awesome-forensics), [OSINT Dojo Resources](https://www.osintdojo.com/resources/), [Steganography Tool List](https://0xrick.github.io/lists/stego/), [Rumkin Cipher Tools](https://rumkin.com/tools/cipher/), [WebHackersWeapons](https://github.com/hahwul/WebHackersWeapons), [My Arsenal of AWS Security Tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools), [Awesome Electron.js Hacking](https://github.com/doyensec/awesome-electronjs-hacking), [Awesome Industrial Protocols](https://github.com/Orange-Cyberdefense/awesome-industrial-protocols), [Awesome Cloud Security](https://github.com/RyanJarv/awesome-cloud-sec), [Awesome Flipper Zero](https://github.com/djsime1/awesome-flipperzero)
+* Friendly Hacker Resources aggregators still to mine: [Bellingcat Online Investigation Toolkit](https://bit.ly/bcattools), [Awesome OSINT](https://github.com/jivoi/awesome-osint), [Awesome Forensics](https://github.com/Cugu/awesome-forensics), [OSINT Dojo Resources](https://www.osintdojo.com/resources/), [Steganography Tool List](https://0xrick.github.io/lists/stego/), [Rumkin Cipher Tools](https://rumkin.com/tools/cipher/), [WebHackersWeapons](https://github.com/hahwul/WebHackersWeapons), [My Arsenal of AWS Security Tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools), [Awesome Electron.js Hacking](https://github.com/doyensec/awesome-electronjs-hacking), [Awesome Industrial Protocols](https://github.com/Orange-Cyberdefense/awesome-industrial-protocols), [Awesome Cloud Security](https://github.com/RyanJarv/awesome-cloud-sec), [Awesome Flipper Zero](https://github.com/djsime1/awesome-flipperzero), [Chateau Forge Toolbox](https://tools.chateauforge.com/dashboard)
 
 <p align="right"><a href="#top">🔼 Back to top</a></p>
 </small>
