@@ -90,6 +90,7 @@
     - **[Checkov](https://github.com/bridgecrewio/checkov)**: infrastructure-as-code security scanner that checks Terraform, CloudFormation, Kubernetes
     - **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)**: policy-as-code engine for cloud governance and security
     - **[cloud_enum](https://github.com/initstring/cloud_enum)**: multi-cloud enumeration tool that looks for exposed AWS, Azure, and GCP storage assets
+    - **[CloudPEASS](https://github.com/peass-ng/CloudPEASS)**: finds permissions and privilege-escalation paths in AWS, Azure, and GCP
     - **[GCPBucketBrute](https://github.com/RhinoSecurityLabs/GCPBucketBrute)**: Google Cloud Storage bucket enumeration utility
     - **[goblob](https://github.com/Macmod/goblob)**: Go-based Azure blob storage enumeration utility designed
     - **[lazys3](https://github.com/nahamsec/lazys3)**: S3 bucket brute-forcing utility that generates candidate names from permutations
@@ -583,6 +584,7 @@
 - **[Metasploit Framework](https://docs.metasploit.com/)**: a platform for developing, testing, and executing exploits
 - **[NetExec](https://www.netexec.wiki/)**: a tool for assessing and automating attacks against network services
 - **Privilege Escalation**
+    - **[PEASS-ng (LinPEAS/WinPEAS)](https://github.com/peass-ng/PEASS-ng)**: scripts that enumerate Linux, Windows, and macOS hosts for privilege-escalation paths
     - **[unix-privesc-check](https://pentestmonkey.net/tools/audit/unix-privesc-check)**: a shell script that finds misconfigurations letting local users escalate privileges on Unix systems
     - **[windows-privesc-check](https://pentestmonkey.net/tools/windows-privesc-check)**: a tool for finding Windows privilege-escalation weaknesses
 - **Reverse Shell**
