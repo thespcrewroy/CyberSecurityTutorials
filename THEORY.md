@@ -31,6 +31,7 @@
 - **IaC (Infrastructure as Code)**: defining and provisioning infrastructure through configuration files such as Terraform or Ansible
 - **IAM (Identity and Access Management)**: the cloud policies, roles, and permissions that control who can do what
 - **IMDS (Instance Metadata Service)**: a cloud endpoint that gives instances their configuration and temporary credentials
+- **Secrets Management**: storing and controlling access to credentials, API keys, and tokens
 - **Serverless Computing**: running code as on-demand functions without managing servers
  
 ## Cryptography
@@ -98,6 +99,7 @@
     - **FDE (Full-Disk Encryption)**: encrypts an entire storage device to protect its contents
 - **Encoding**: converts data into another representation for storage or transmission without providing secrecy
 - **HSM (Hardware Security Module)**: tamper-resistant hardware that generates, stores, and uses cryptographic keys
+- **Key Management**: generating, storing, rotating, and controlling access to cryptographic keys
 - **PKI (Public Key Infrastructure)**: manages public keys, digital certificates, certificate authorities, and trust relationships
     - **Digital Certificate**: digitally binds an identity to a public key
         - **TLS Certificate**: authenticates a network service and enables protected TLS communications
@@ -209,6 +211,7 @@
 - **Ethernet:** traditional technology for connecting devices in a wired LAN or WAN
 - **Faraday's Cage**: shielding to block electromagnetic signals
 - **Firewalls**: devices that enforce network traffic filtering rules
+    - **WAF (Web Application Firewall)**: filters HTTP and HTTPS traffic to block attacks such as SQL injection and XSS
 - **Internet Control Message Protocol (ICMP)**: a network-layer protocol used by devices to send error messages
 - **IPS (Intrusion Prevention System)**: detects and blocks malicious network activity
 - **ISP (Internet Service Providers)**: companies that provide internet connectivity
@@ -244,7 +247,6 @@
 - **WAN (Wide Area Network):** telecommunications network that extends over a large distance
 - **Wifi**: wireless local area networking technology
     - **PSK (Pre-Shared Key)**: shared secret used to secure Wi‑Fi
-    - **WAF (Web Application Firewall)**: protects HTTP and HTTPS traffic from SQL injects and XSS
     - **WPA (Wifi Protected Access)**: security standards for wireless networks
 - **VLAN (Virtual Local Area Network):** custom network created from LANs that allow for grouping
 
