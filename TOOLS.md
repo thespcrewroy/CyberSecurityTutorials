@@ -1575,8 +1575,10 @@
 - **[WiFi Pineapple Pager](https://documentation.hak5.org/wifi-pineapple-pager/)**: a handheld WiFi Pineapple for portable wireless auditing
 
 ## PWN
+- **[ARTIPHISHELL](https://github.com/shellphish/artiphishell)**: Shellphish’s autonomous system from DARPA’s AI Cyber Challenge that finds and patches vulnerabilities
 - **Concolic Execution**
     - **[CO3](https://www.usenix.org/conference/usenixsecurity24/presentation/liu-changming)**: a concolic execution system combining real microcontroller execution with workstation-based constraint solving
+    - **[Driller](https://github.com/shellphish/driller)**: augments AFL fuzzing with symbolic execution to reach deeper code paths
 - **Dynamic Analysis (Binary Exploitation)**
     - **Debugger**
         - **[GDB (GNU Debugger)](https://sourceware.org/gdb/documentation/)**: a debugger for inspecting and controlling programs during execution
@@ -1765,7 +1767,6 @@
 
 
 ## TODO
-* [Shellphish Repositories](https://github.com/orgs/shellphish/repositories)
 * [The Hack Pack Resources](https://thehackpack.org/resources/intro/ )
 * [Awesome Security Newsletters](https://github.com/TalEliyahu/awesome-security-newsletters)
 * [Randar2](https://github.com/spawnmason/randar-explanation)
