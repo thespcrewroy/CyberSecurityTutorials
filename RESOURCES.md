@@ -126,6 +126,7 @@
 * [LakeraAI Blog](https://www.lakera.ai/blog): research blog goes into Indirect Prompt Injection with real attack scenarios
 
 ## Resources
+- [8kSec Academy](https://academy.8ksec.io/courses): self-paced mobile and AI security courses covering app reversing with Ghidra, Frida, and LLDB
 - [247CTF](https://247ctf.com/): an always-online CTF platform with challenges across categories
 - [5 Killer Tricks for Wireshark](https://www.howtogeek.com/106191/5-killer-tricks-to-get-the-most-out-of-wireshark/): How-To Geek’s tips for getting more out of Wireshark
 - [A Detailed Guide on CeWL](https://www.hackingarticles.in/a-detailed-guide-on-cewl/): Hacking Articles’ walkthrough of CeWL options
@@ -242,10 +243,11 @@
 - [Methods and How to Analyze Network Traffic](https://www.parkplacetechnologies.com/blog/network-traffic-analysis-methods/): an overview of network traffic analysis methods
 - [Microcorruption](https://microcorruption.com/): an embedded-security CTF that teaches assembly language, debugging, RE, etc.
 - [Missing Semester of Your CS Education](https://missing.csail.mit.edu/): MIT’s course on the shell, editors, Git, and other practical tools
+- [Modern Security](https://www.modernsecurity.io/courses/ai-security-certification): hands-on AI security certification covering LLM, RAG, prompt-injection, and MCP attacks
 - [National Cyber League’s YouTube](https://www.youtube.com/@NationalCyberLeague): NCL’s channel of competition walkthroughs and skill tutorials
 - [National Cyber Scholarship Foundation](https://www.nationalcyberscholarship.org/): cybersecurity training and scholarship opportunities for students
 - [./ ncl-tools](https://lydia-england.github.io/ncl-tools/): tools for National Cyber League Competition
-- [Network Traffic Analysis Cheatsheet](https://github.com/MalwareBro/Network_Traffic_Analysis_CheatSheet/blob/main/Network_Traffic_Analysis_Cheatsheet.md): a cheat sheet of filters and techniques for analyzing captures
+- [Network Traffic Analysis Cheatsheet](https://github.com/MalwareBro/Network_Traffic_Analysis_CheatSheet/blob/main/Network_Traffic_Analysis_Cheatsheet.md): a cheat sheet of filters and techniques for captures
 - [Network Traffic PCAPs to Analyze](https://www.malware-traffic-analysis.net/training-exercises.html): Malware-Traffic-Analysis.net’s collection of real malicious-traffic PCAP exercises
 - [Newbies Guide to Network Traffic Analysis](https://www.youtube.com/watch?v=UyI-CArr0bg): a beginner video walkthrough of network traffic analysis
 - [Nmap Cheat Sheet](https://highon.coffee/blog/nmap-cheat-sheet/): HighOn.Coffee’s Nmap command cheat sheet
@@ -268,13 +270,13 @@
 - [PatriotCTF Courseware](https://github.com/MasonCompetitiveCyber/ctf-courses): cybersecurity courseware from George Mason University’s Competitive Cyber club
 - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings): a large collection of payloads and bypasses for web application testing
 - [pentestmonkey DB2 SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/db2-sql-injection-cheat-sheet): DB2 syntax for SQL injection, from version detection to file access
-- [pentestmonkey Informix SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/informix-sql-injection-cheat-sheet): Informix syntax for SQL injection, from version detection to file access
+- [pentestmonkey Informix SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/informix-sql-injection-cheat-sheet): Informix syntax for SQL injects from version detection to file access
 - [pentestmonkey Ingres SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/ingres-sql-injection-cheat-sheet): Ingres syntax for SQL injection, from version detection to file access
 - [pentestmonkey John the Ripper Hash Formats](https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats): example hashes and the matching John format names
 - [pentestmonkey MSSQL SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet): MSSQL syntax for SQL injection, from version detection to file access
 - [pentestmonkey MySQL SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/mysql-sql-injection-cheat-sheet): MySQL syntax for SQL injection, from version detection to file access
 - [pentestmonkey Oracle SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/oracle-sql-injection-cheat-sheet): Oracle syntax for SQL injection, from version detection to file access
-- [pentestmonkey Postgres SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/postgres-sql-injection-cheat-sheet): Postgres syntax for SQL injection, from version detection to file access
+- [pentestmonkey Postgres SQL Injection Cheat Sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/postgres-sql-injection-cheat-sheet): Postgres syntax for SQL injects from version detection to file access
 - [pentestmonkey Reverse Shell Cheat Sheet](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet): one-line reverse shells in Bash, Perl, Python, PHP, Ruby, Netcat, Java, and more
 - [pentestmonkey SSH Cheat Sheet](https://pentestmonkey.net/cheat-sheet/ssh-cheat-sheet): SSH tricks for pentesters, including port forwarding and tunneling
 - [picoCTF](https://picoctf.org/): Carnegie Mellon’s free CTF for beginners, with a year-round practice gym
@@ -310,12 +312,12 @@
 - [Ultimate Guide to Cookie Hijacking](https://www.thesslstore.com/blog/the-ultimate-guide-to-session-hijacking-aka-cookie-hijacking/): The SSL Store’s guide to how session and cookie hijacking work
 - [Ultimate Guide to Logging](https://www.loggly.com/ultimate-guide/analyzing-linux-logs/): Loggly’s guide to finding and analyzing Linux logs
 - [Ultimate List of SANS Cheat Sheets](https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/): SANS’ index of its free cybersecurity cheat sheets
-- [Understanding Binary and Data Representation with CyberChef](https://cybergibbons.com/reverse-engineering-2/understanding-binary-and-data-representation-with-cyberchef/): a tutorial on reading binary data formats using CyberChef
+- [Understanding Binary and Data Representation with CyberChef](https://cybergibbons.com/reverse-engineering-2/understanding-binary-and-data-representation-with-cyberchef/): reading binary data using CyberChef
 - [Understanding Log Analysis of Web Server](https://www.hackingarticles.in/understanding-log-analysis-web-server/): Hacking Articles’ guide to analyzing web-server logs
 - [Verif!cation Quiz Bot](https://x.com/quiztime): daily OSINT verification challenges posted on X, using a community-driven quiz format
 - [VMware for Beginners](https://www.vminstall.com/vmware-for-beginners/): a beginner’s guide to VMware products
 - [VulnHub](https://www.vulnhub.com/): downloadable vulnerable virtual machines for cybersecurity practice
-- [Web Exploitation CTF Tactics](https://www.hucerc.com/cerc-events/basic-hands-on-cybersecurity-skills/skill9-web-exploitation/basic-ctf-web-exploitation-tactics/): basic tactics for web exploitation CTF challenges
+- [Web Exploitation CTF Tactics](https://www.hucerc.com/cerc-events/basic-hands-on-cybersecurity-skills/skill9-web-exploitation/basic-ctf-web-exploitation-tactics/): basic tactics for web exploitation CTFs
 - [WebGoat](https://owasp.org/www-project-webgoat/): an intentionally insecure web application for learning common vulnerabilities
 - [WebVulnerabilitiesDemos](https://lnkd.in/eqh6huEA): makes understanding common web vulnerabilities more accessible for laypeople like you
 - [What Is Enumeration?](https://resources.infosecinstitute.com/topic/what-is-enumeration/): Infosec Institute’s introduction to enumeration
