@@ -243,6 +243,8 @@
 - [HTTPLeaks](https://github.com/cure53/HTTPLeaks): a test page listing every way a web page can leak HTTP requests
 - [IAM Vulnerable](https://github.com/BishopFox/iam-vulnerable): a Terraform lab of AWS IAM privilege-escalation paths
 - [ICMP Parameters](https://www.iana.org/assignments/icmp-parameters/icmp-parameters.xhtml): the official registry of ICMP message types, codes, and parameters
+- [iCTF 2024 Challenges](https://github.com/shellphish/ictf24-challenges-public): Shellphish’s public challenges from the 2024 International CTF
+- [iCTF Framework](https://github.com/shellphish/ictf-framework): Shellphish’s framework for hosting attack-defense CTF competitions
 - [IETF Datatracker](https://datatracker.ietf.org/): the IETF’s searchable archive of RFCs and protocol drafts
 - [iGoat-Swift](https://github.com/OWASP/iGoat-Swift): OWASP’s deliberately insecure iOS app
 - [Intro to Assembly](https://csbygb.gitbook.io/pentips/binary-exploitation/assembly): an introduction to assembly for binary exploitation
