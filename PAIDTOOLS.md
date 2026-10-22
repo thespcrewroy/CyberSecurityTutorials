@@ -7,10 +7,12 @@ Tools without a free tier or free edition. Free and freemium tools live in TOOLS
 <br />
 
 - [Cloud Security](#cloud-security)
+- [Cryptography](#cryptography)
 - [Defensive Security (Blue Team)](#defensive-security-blue-team)
 - [Forensics](#forensics)
 - [Log Analysis](#log-analysis)
 - [Network Traffic Analysis](#network-traffic-analysis)
+- [Offensive Security (Red Team)](#offensive-security-red-team)
 - [Open Source Intelligence (OSINT)](#open-source-intelligence-osint)
 - [Operating Systems](#operating-systems)
 - [Physical Security & Internet of Things (IoT)](#physical-security--internet-of-things-iot)
@@ -20,10 +22,19 @@ Tools without a free tier or free edition. Free and freemium tools live in TOOLS
 </details>
 
 ## Cloud Security
+- **[AWS Config](https://docs.aws.amazon.com/config/)**: records AWS resource configurations and checks them against rules
 - **Containerization**
     - **Container Orchestration**
         - **[Red Hat OpenShift](https://docs.redhat.com/en/documentation/openshift_container_platform/4.20/html/overview/ocp-overview)**: an enterprise Kubernetes platform
 - **[Cyera](https://www.cyera.com/platform)**: discovers, classifies, and protects sensitive data across cloud, SaaS, and hybrid environments
+- **Secrets Management**
+    - **[AWS Secrets Manager](https://docs.aws.amazon.com/secretsmanager/)**: stores and rotates AWS credentials and secrets
+    - **[Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/)**: Azure’s service for storing secrets, keys, and certificates
+
+## Cryptography
+- **Key Management**
+    - **[AWS KMS](https://docs.aws.amazon.com/kms/)**: AWS’s managed service for creating and controlling encryption keys
+    - **[Google Cloud KMS](https://cloud.google.com/kms/docs)**: GCP’s managed service for creating and controlling encryption keys
 
 ## Defensive Security (Blue Team)
 - **Access Control**
@@ -48,6 +59,7 @@ Tools without a free tier or free edition. Free and freemium tools live in TOOLS
         - **[Microsoft 365 Quarantine](https://learn.microsoft.com/en-us/defender-office-365/quarantine-about)**: isolates suspected spam, phishing, malware, etc.
         - **[Private-Mail](https://privatemail.com/)**: a privacy-focused encrypted email service
 - **Security Operations**
+    - **[Amazon GuardDuty](https://docs.aws.amazon.com/guardduty/)**: AWS’s threat detection service for accounts, workloads, and data
     - **[CrowdStrike Falcon](https://www.crowdstrike.com/en-us/platform/)**: a cloud-native endpoint-protection and threat-detection platform
     - **CTI (Cyber Threat Intelligence)**
         - **[Google Threat Intelligence](https://cloud.google.com/security/products/threat-intelligence)**: combines threat intelligence from Google, Mandiant, and VirusTotal
@@ -73,6 +85,9 @@ Tools without a free tier or free edition. Free and freemium tools live in TOOLS
     - **[Azure Firewall](https://learn.microsoft.com/en-us/azure/firewall/overview)**: Microsoft Azure’s managed cloud firewall for controlling and inspecting traffic across Azure networks
     - **[Palo Alto Networks Next-Generation Firewalls](https://docs.paloaltonetworks.com/pan-os)**: application-layer firewalls that identify and control traffic
         - **[Panorama](https://docs.paloaltonetworks.com/panorama)**: Palo Alto Networks’ centralized platform for managing multiple firewalls and their security policies
+    - **WAF (Web Application Firewall)**
+        - **[AWS WAF](https://docs.aws.amazon.com/waf/)**: AWS’s managed web application firewall
+        - **[Azure Web Application Firewall](https://learn.microsoft.com/en-us/azure/web-application-firewall/)**: Azure’s managed web application firewall
 - **ISP (Internet Service Providers)**
     - **[Starlink](https://www.starlink.com/support)**: a satellite internet service provider
 - **VPN (Virtual Private Network)**
