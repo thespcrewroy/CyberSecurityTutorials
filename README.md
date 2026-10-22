@@ -1,4 +1,4 @@
-# Cyber Security Tutorials
+# Cyber Security Tools
 
 <details>
 <summary>📖 Table of Contents</summary>
