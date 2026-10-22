@@ -1,5 +1,3 @@
-# Cybersecurity Resources
-
 ## Certifications
 * MITx Cybersecurity for Critical Urban Infrastructure
 * TEEX Using the CCSMM to Develop a Cybersecurity Program
