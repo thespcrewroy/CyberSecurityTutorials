@@ -85,6 +85,8 @@
 
 ## Cloud Security
 - **[AADInternals](https://aadinternals.com/aadinternals/)**: a PowerShell toolkit for administering and attacking Entra ID and Microsoft 365
+- **[AWS CLI](https://docs.aws.amazon.com/cli/)**: Amazon’s command-line tool for managing and enumerating AWS
+- **[Azure CLI](https://learn.microsoft.com/en-us/cli/azure/)**: Microsoft’s command-line tool for managing and enumerating Azure
 - **CI/CD Security**
     - **[act](https://github.com/nektos/act)**: runs GitHub Actions workflows locally
     - **[Chain-bench](https://github.com/aquasecurity/chain-bench)**: audits software supply chains against the CIS benchmark
@@ -150,6 +152,7 @@
         - **[Trivy](https://github.com/aquasecurity/trivy)**: scans containers, file systems, and IaC for vulnerabilities and misconfigurations
     - **[Docker](https://docs.docker.com/get-started/)**: a platform for building and running applications inside containers
 - **[FireProx](https://github.com/ustayready/fireprox)**: rotates source IPs through AWS API Gateway for each request
+- **[Google Cloud CLI (gcloud)](https://cloud.google.com/sdk/gcloud)**: Google’s command-line tool for managing and enumerating GCP
 - **[Google Security Command Center](https://cloud.google.com/security-command-center/docs/overview)**: Google Cloud’s platform for identifying vulnerabilities
 - **[GraphRunner](https://github.com/dafthack/GraphRunner)**: a post-exploitation toolset for Microsoft Graph and Entra ID
 - **IaC (Infrastructure as Code)**
@@ -157,6 +160,7 @@
     - **[Terrascan](https://github.com/tenable/terrascan)**: scans infrastructure-as-code for security and compliance issues
     - **[tfsec](https://github.com/aquasecurity/tfsec)**: a static analysis scanner for Terraform
 - **IAM (Identity and Access Management)**
+    - **[AWS IAM Access Analyzer](https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html)**: finds AWS resources shared outside your account and unused permissions
     - **[aws-vault](https://github.com/99designs/aws-vault)**: stores and uses AWS credentials securely from the command line
     - **[Cloudsplaining](https://github.com/salesforce/cloudsplaining)**: flags least-privilege violations in AWS IAM policies
     - **[enumerate-iam](https://github.com/andresriancho/enumerate-iam)**: brute-forces which AWS API calls a set of credentials can make
@@ -164,11 +168,14 @@
     - **[Principal Mapper (PMapper)](https://github.com/nccgroup/PMapper)**: graphs AWS IAM principals to find privilege-escalation paths
     - **[WeirdAAL](https://github.com/carnal0wnage/weirdAAL)**: the AWS Attack Library for enumerating and abusing AWS access
 - **[MFASweep](https://github.com/dafthack/MFASweep)**: checks which Microsoft services accept single-factor logins
+- **[Microsoft Defender for Cloud](https://learn.microsoft.com/en-us/azure/defender-for-cloud/)**: Azure’s security posture management, with a free foundational tier
 - **[MSOLSpray](https://github.com/dafthack/MSOLSpray)**: password-sprays Microsoft Online and Entra ID accounts
 - **[o365spray](https://github.com/0xZDH/o365spray)**: enumerates users and sprays passwords against Microsoft 365
 - **[Pacu](https://github.com/RhinoSecurityLabs/pacu)**: an open-source AWS exploitation framework for testing cloud environments
 
 - **[PowerZure](https://github.com/hausec/PowerZure)**: a PowerShell framework for assessing and exploiting Azure
+- **Secrets Management**
+    - **[Google Cloud Secret Manager](https://cloud.google.com/secret-manager/docs)**: GCP’s service for storing API keys, passwords, and certificates
 - **Serverless Computing**
     - **[LocalStack](https://github.com/localstack/localstack)**: emulates AWS services locally for testing
 - **[Stratus Red Team](https://github.com/Datadog/stratus-red-team)**: emulates cloud attack techniques for testing detections
@@ -599,6 +606,10 @@
 ## Log Analysis
 - **[`awk`](https://www.gnu.org/software/gawk/manual/)**: a pattern-scanning and text-processing language for extracting fields from structured text
 - **[`cat`](https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html)**: a command-line utility that prints and concatenates files
+- **Cloud Log**
+    - **[AWS CloudTrail](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html)**: records AWS API activity, with 90 days of event history free
+    - **[Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/)**: collects and analyzes logs and metrics from Azure resources
+    - **[Google Cloud Logging](https://cloud.google.com/logging/docs)**: stores and searches logs from GCP services and workloads
 - **[`cut`](https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html)**: a command-line utility that extracts selected fields or characters from each line
 - **[Datadog](https://docs.datadoghq.com/logs/)**: a cloud platform for monitoring logs, applications, infrastructure, and security events
 - **[ELK Stack](https://www.elastic.co/docs/get-started/the-stack)**: a collection of Elastic tools for ingesting, storing, searching, and visualizing log data
