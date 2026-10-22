@@ -169,6 +169,7 @@
 - [CTF Field Guide](https://trailofbits.github.io/ctf/): a comprehensive guide to competing in CTF competitions
 - [CTF Image Steganography Checklist](https://stegonline.georgeom.net/checklist): StegOnline’s step-by-step checklist for solving image steganography challenges
 - [CTF Recipes](https://ctfrecipes.com/): step-by-step techniques for common CTF challenge types
+- [CTF Search (Hackmap)](https://ctfsearch.hackmap.win/): a search engine for CTF challenges and write-ups
 - [CTF Wiki](https://ctf-wiki.mahaloz.re/): a wiki covering techniques across the main CTF categories
 - [CTF101](https://ctf101.org/): an introductory guide to common CTF categories and techniques
 - [CTFLearn](https://ctflearn.com/): a beginner-friendly platform of CTF practice problems
@@ -213,6 +214,7 @@
 - [Gobuster Cheat Sheet](https://3os.org/penetration-testing/cheatsheets/gobuster-cheatsheet/): a reference of Gobuster modes and flags
 - [Gobuster Tutorial](https://hackertarget.com/gobuster-tutorial/): HackerTarget’s Gobuster walkthrough
 - [Google Dork List](https://github.com/BullsEye0/google_dork_list): a large list of Google dorks for finding exposed pages and files
+- [Google Dorking Cheat Sheet](https://gist.github.com/sundowndev/283ef881fd83b2d55f16): a compact list of Google search operators for finding exposed information
 - [Google Dorking Strings (Top 21)](https://booleanstrings.com/2020/05/01/the-full-list-of-google-operators-2020/): Boolean Strings’ full list of Google search operators
 - [Google Guide Cheat Sheet](https://www.googleguide.com/help/calculator.html): quick-reference cheat sheet for Google search operators and advanced search syntax from Google Guide
 - [Google Hacking Database](https://www.exploit-db.com/google-hacking-database): OffSec’s curated database of Google dork queries, organized by category
@@ -240,7 +242,9 @@
 - [How to Use VirtualBox](https://www.nakivo.com/blog/use-virtualbox-quick-overview/): NAKIVO’s quick overview of VirtualBox
 - [How to Use Wireshark](https://www.comptia.org/content/articles/what-is-wireshark-and-how-to-use-it): CompTIA’s introduction to Wireshark
 - [how2heap](https://github.com/shellphish/how2heap): Shellphish’s collection of heap exploitation techniques with examples
+- [HTB Academy](https://academy.hackthebox.com/catalogue): Hack The Box’s guided course catalog, with a discounted student plan
 - [HTTPLeaks](https://github.com/cure53/HTTPLeaks): a test page listing every way a web page can leak HTTP requests
+- [Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1): a free course on how large language models work
 - [IAM Vulnerable](https://github.com/BishopFox/iam-vulnerable): a Terraform lab of AWS IAM privilege-escalation paths
 - [ICMP Parameters](https://www.iana.org/assignments/icmp-parameters/icmp-parameters.xhtml): the official registry of ICMP message types, codes, and parameters
 - [iCTF 2024 Challenges](https://github.com/shellphish/ictf24-challenges-public): Shellphish’s public challenges from the 2024 International CTF
@@ -260,6 +264,7 @@
 - [Leaping into Log Analysis](https://cryptokait.com/2019/08/27/leaping-into-log-analysis/): CryptoKait’s introduction to log analysis
 - [Learn to GREP](https://www.geeksforgeeks.org/grep-command-in-unixlinux/): GeeksforGeeks’ guide to the grep command
 - [Linux Commands Cheatsheet](https://phoenixnap.com/kb/linux-commands-cheat-sheet): phoenixNAP’s reference of common Linux commands
+- [Linux Luminarium](https://pwn.college/linux-luminarium/): pwn.college’s interactive introduction to the Linux command line
 - [Linux Privilege Escalation Checklist](https://github.com/frizb/Linux-Privilege-Escalation): a checklist of Linux privilege-escalation techniques
 - [Linux Terminal Cheatsheet](https://cheatography.com/davechild/cheat-sheets/linux-command-line/): a one-page Linux command-line reference
 - [List of File Signatures](https://en.wikipedia.org/wiki/List_of_file_signatures): a reference table of magic bytes used to identify file types
@@ -276,6 +281,8 @@
 - [Modern Security](https://www.modernsecurity.io/courses/ai-security-certification): hands-on AI security certification covering LLM, RAG, prompt-injection, and MCP attacks
 - [National Cyber League’s YouTube](https://www.youtube.com/@NationalCyberLeague): NCL’s channel of competition walkthroughs and skill tutorials
 - [National Cyber Scholarship Foundation](https://www.nationalcyberscholarship.org/): cybersecurity training and scholarship opportunities for students
+- [NCAE Cyber Games Sandbox](https://ui.sandbox.ncaecybergames.org/): a practice environment for defensive cyber-competition scenarios
+- [NCAE Cyber Games Tutorials](https://www.ncaecybergames.org/tutorials/): tutorials for preparing for the NCAE Cyber Games
 - [./ ncl-tools](https://lydia-england.github.io/ncl-tools/): tools for National Cyber League Competition
 - [Network Traffic Analysis Cheatsheet](https://github.com/MalwareBro/Network_Traffic_Analysis_CheatSheet/blob/main/Network_Traffic_Analysis_Cheatsheet.md): a cheat sheet of filters and techniques for analyzing captures
 - [Network Traffic PCAPs to Analyze](https://www.malware-traffic-analysis.net/training-exercises.html): Malware-Traffic-Analysis.net’s collection of real malicious-traffic PCAP exercises
@@ -289,6 +296,7 @@
 - [Open Source Intelligence Techniques](https://inteltechniques.com/): professional OSINT training and certification by IntelTechniques
 - [OpenSecurityTraining2](https://www.opensecuritytraining.info/): a collection of free, open-source, self-paced courses
 - [OSINT Framework](https://osintframework.com/): a web-based directory of free OSINT tools organized by investigation type
+- [OSINT Handbook](https://www.osinthandbook.com/): a guide to OSINT techniques and tools
 - [OVAA](https://github.com/oversecured/ovaa): Oversecured’s vulnerable Android app for practice
 - [OverTheWire Wargames](https://overthewire.org/wargames/): hands-on games for learning Linux and security fundamentals
 - [OWASP Buffer Overflow Attack](https://owasp.org/www-community/attacks/Buffer_overflow_attack): OWASP’s explanation of buffer overflow attacks
@@ -354,6 +362,7 @@
 - [Understanding Log Analysis of Web Server](https://www.hackingarticles.in/understanding-log-analysis-web-server/): Hacking Articles’ guide to analyzing web-server logs
 - [Verif!cation Quiz Bot](https://x.com/quiztime): daily OSINT verification challenges posted on X, using a community-driven quiz format
 - [VMware for Beginners](https://www.vminstall.com/vmware-for-beginners/): a beginner’s guide to VMware products
+- [Volatility Cheat Sheet](https://book.hacktricks.wiki/en/generic-methodologies-and-resources/basic-forensic-methodology/memory-dump-analysis/volatility-cheatsheet.html): HackTricks’ essential Volatility commands for analyzing memory dumps
 - [Vulhub](https://github.com/vulhub/vulhub): ready-to-run Docker environments for practicing known vulnerabilities
 - [VulnHub](https://www.vulnhub.com/): downloadable vulnerable virtual machines for cybersecurity practice
 - [WAF Bypass Cheat Sheet](https://github.com/Bo0oM/WAF-bypass-Cheat-Sheet): techniques for bypassing web application firewalls
