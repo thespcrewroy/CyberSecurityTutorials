@@ -189,6 +189,7 @@
 ## Defensive Security (Blue Team)
 - **Access Control**
     - **[Active Directory](https://learn.microsoft.com/en-us/training/paths/active-directory-domain-services/)**: Microsoft’s directory service for centrally managing identities
+    - **[Allthenticate](https://allthenticate.com/)**: phone-based passwordless authentication for both doors and computers, with a free Allthenticator app
     - **[AppLocker](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/applocker)**: restricts what users run
     - **Directory Access Protocol**
         - **LDAP (Lightweight Directory Access Protocol)**
