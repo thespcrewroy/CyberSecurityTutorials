@@ -136,6 +136,7 @@
 - [Advanced Tips on Web Application Hacking](https://cryptokait.com/2020/03/11/advanced-tips-on-web-application-hacking/): CryptoKait’s follow-up guide to web application hacking
 - [ASM Tron](http://asmtron.zionbasque.com/): game for understanding assembly instructions in low level code
 - [Attack and Defend CTFs](https://medium.com/@iabdullah_215/my-guide-to-attack-and-defense-ctfs-ecbe838d49cd): my guide to attack and defend CTFs
+- [Awesome Censys Queries](https://github.com/thehappydinoa/awesome-censys-queries): a collection of interesting Censys search queries for finding exposed devices and services
 - [AWK & Cut Linux Utilities](https://www.cyberciti.biz/faq/unix-linux-bsd-appleosx-skip-fields-command/): a guide to skipping and selecting fields with awk and cut
 - [awk Cheat Sheet](https://quickref.me/awk): a quick reference for awk syntax and common one-liners
 - [AWS: What Is DNS?](https://aws.amazon.com/route53/what-is-dns/): Amazon’s explanation of how DNS works
