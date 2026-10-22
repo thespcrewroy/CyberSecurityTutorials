@@ -172,6 +172,7 @@
 - **[MSOLSpray](https://github.com/dafthack/MSOLSpray)**: password-sprays Microsoft Online and Entra ID accounts
 - **[o365spray](https://github.com/0xZDH/o365spray)**: enumerates users and sprays passwords against Microsoft 365
 - **[Pacu](https://github.com/RhinoSecurityLabs/pacu)**: an open-source AWS exploitation framework for testing cloud environments
+
 - **[PowerZure](https://github.com/hausec/PowerZure)**: a PowerShell framework for assessing and exploiting Azure
 - **Secrets Management**
     - **[Google Cloud Secret Manager](https://cloud.google.com/secret-manager/docs)**: GCP’s service for storing API keys, passwords, and certificates
@@ -179,7 +180,6 @@
     - **[LocalStack](https://github.com/localstack/localstack)**: emulates AWS services locally for testing
 - **[Stratus Red Team](https://github.com/Datadog/stratus-red-team)**: emulates cloud attack techniques for testing detections
 - **[TokenTactics](https://github.com/rvrsh3ll/TokenTactics)**: abuses Azure and Entra ID access and refresh tokens
-  
 ## Cryptography
 - **Authentication**
     - **Kerberos**
@@ -215,6 +215,7 @@
             - **RSA (Rivest–Shamir–Adleman)**
                 - **[Drexel RSA Express Encrypt/Decrypt](https://www.cs.drexel.edu/~jpopyack/Courses/CSP/Fa17/notes/10.1_Cryptography/RSA_Express_EncryptDecrypt_v2.html)**: an interactive page for stepping through RSA encryption and decryption
                 - **[Omni Calculator RSA Calculator](https://www.omnicalculator.com/math/rsa)**: an online calculator demonstrating RSA key generation, encryption, and decryption
+                - **[RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)**: recovers RSA private keys from weak public keys and decrypts data, mainly for CTFs
         - **Symmetric Encryption**
             - **AES (Advanced Encryption Standard)**
                 - **[Devglan AES Encryption/Decryption](https://www.devglan.com/online-tools/aes-encryption-decryption)**: an online tool for encrypting and decrypting data using AES
@@ -737,6 +738,8 @@
         - **[Mimikatz](https://github.com/gentilkiwi/mimikatz)**: extracts passwords, hashes, and Kerberos tickets from Windows memory
         - **[SharpDPAPI](https://github.com/GhostPack/SharpDPAPI)**: decrypts DPAPI-protected secrets such as saved credentials
     - **[Empire](https://github.com/EmpireProject/Empire)**: a PowerShell and Python post-exploitation command-and-control framework
+    - **Exfiltration**
+        - **[updog](https://github.com/sc0tfree/updog)**: a simple HTTP/S file server for uploading and downloading files during engagements
     - **Lateral Movement**
         - **[Coercer](https://github.com/p0dalirius/Coercer)**: coerces Windows servers to authenticate to an attacker using many RPC methods
         - **[Evil-WinRM](https://github.com/Hackplayers/evil-winrm)**: a WinRM shell built for pentesting Windows hosts
@@ -1774,6 +1777,7 @@
 * [GitHub Repo Watchlist](https://github.com/stars/thespcrewroy/lists/my-repo-watchlist)
 * Orrin Adotavi ADP Stack
 * [Student Discounts](https://docs.google.com/document/d/1uKuvSKlZcADBmoY-O5sF5rBQE6kMSPbRxr7UpVni1f8/edit?tab=t.5lo6aln59n65)
+* Take the finished list and add it to thehackpack website (make it in the style of [OSINT Framework](https://github.com/lockfale/osint-framework) and/or [HackTricks](https://github.com/HackTricks-wiki/hacktricks) or like the NASA Space Apps Challenge Vector Database). AI API will automatically find the correct tool you are looking for using the vector database
 * Friendly Hacker Resources aggregators still to mine: [Bellingcat Online Investigation Toolkit](https://bit.ly/bcattools), [Awesome OSINT](https://github.com/jivoi/awesome-osint), [Awesome Forensics](https://github.com/Cugu/awesome-forensics), [OSINT Dojo Resources](https://www.osintdojo.com/resources/), [Steganography Tool List](https://0xrick.github.io/lists/stego/), [Rumkin Cipher Tools](https://rumkin.com/tools/cipher/), [WebHackersWeapons](https://github.com/hahwul/WebHackersWeapons), [My Arsenal of AWS Security Tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools), [Awesome Electron.js Hacking](https://github.com/doyensec/awesome-electronjs-hacking), [Awesome Industrial Protocols](https://github.com/Orange-Cyberdefense/awesome-industrial-protocols), [Awesome Cloud Security](https://github.com/RyanJarv/awesome-cloud-sec), [Awesome Flipper Zero](https://github.com/djsime1/awesome-flipperzero), [Chateau Forge Toolbox](https://tools.chateauforge.com/dashboard)
 
 <p align="right"><a href="#top">🔼 Back to top</a></p>
