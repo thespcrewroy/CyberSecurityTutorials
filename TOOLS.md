@@ -570,6 +570,7 @@
 - **[BloodHound](https://github.com/SpecterOps/BloodHound)**: a tool for mapping attack paths in Active Directory environments
 - **Bug Bounty Programs**
     - **[HackerOne](https://www.hackerone.com/)**: a bug bounty platform connecting ethical hackers with companies
+    - **[Intigriti](https://www.intigriti.com/)**: a European bug bounty and pentest-as-a-service platform with a global researcher community
     - **[Open Bug Bounty](https://www.openbugbounty.org/)**: a platform for reporting web vulnerabilities through coordinated disclosure
 - **[Exploit Database](https://www.exploit-db.com/)**: an archive of public exploits and vulnerable software maintained by OffSec
     - **[SearchSploit](https://www.exploit-db.com/searchsploit)**: a command-line interface for searching the Exploit Database
@@ -1022,6 +1023,7 @@
     - **[PullPush Reddit Search](https://search.pullpush.io/)**: searches archived Reddit posts and comments
     - **[Science Direct](https://www.sciencedirect.com/)**: Elsevier's platform for peer-reviewed scientific literature with access to over 2,900 journals
     - **[SearchCode](https://searchcode.com/)**: a search engine for source code across public repositories
+    - **[SerpApi](https://serpapi.com/)**: an API that returns structured results from Google and other search engines
     - **[Sherlock](https://github.com/sherlock-project/sherlock)**: a command-line tool for finding accounts with a username across social networks
     - **[Swisscows](https://swisscows.com/en)**: Swiss privacy-focused search engine using semantic AI
     - **[Sylva Identity Discovery](https://sylva.pfeister.dev/)**: a tool for connecting online identities with possible real-world identities
