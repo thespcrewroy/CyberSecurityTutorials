@@ -1,4 +1,4 @@
-# Cyber Security Tools
+# Cyber Security Tutorials
 
 <details>
 <summary>📖 Table of Contents</summary>
@@ -109,13 +109,11 @@
         - **[Dive](https://github.com/wagoodman/dive)**: a tool for inspecting container-image layers and identifying wasted space
     - **Container Orchestration**
         - **[Kubernetes](https://kubernetes.io/docs/concepts/overview/)**: a platform that automates the deployment, scaling, and management of containerized applications
-        - **[Red Hat OpenShift](https://docs.redhat.com/en/documentation/openshift_container_platform/4.20/html/overview/ocp-overview)**: an enterprise Kubernetes platform
     - **Container Security**
         - **[Docker Bench for Security](https://github.com/docker/docker-bench-security)**: a script that checks Docker hosts and containers against the CIS Docker Benchmark
         - **[Grype](https://oss.anchore.com/docs/guides/vulnerability/getting-started/)**: a vulnerability scanner for container images, filesystems, and software bills
         - **[kube-bench](https://github.com/aquasecurity/kube-bench)**: checks whether a Kubernetes deployment meets the CIS Kubernetes Benchmark
     - **[Docker](https://docs.docker.com/get-started/)**: a platform for building and running applications inside containers
-- **[Cyera](https://www.cyera.com/platform)**: discovers, classifies, and protects sensitive data across cloud, SaaS, and hybrid environments
 - **[Google Security Command Center](https://cloud.google.com/security-command-center/docs/overview)**: Google Cloud’s platform for identifying vulnerabilities
 - **[Pacu](https://github.com/RhinoSecurityLabs/pacu)**: an open-source AWS exploitation framework for testing cloud environments
 
@@ -192,7 +190,6 @@
 - **Access Control**
     - **[Active Directory](https://learn.microsoft.com/en-us/training/paths/active-directory-domain-services/)**: Microsoft’s directory service for centrally managing identities
     - **[AppLocker](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/applocker)**: restricts what users run
-    - **[CyberArk](https://docs.cyberark.com/)**: an identity-security platform specializing in privileged-access management
     - **Directory Access Protocol**
         - **LDAP (Lightweight Directory Access Protocol)**
             - **[OpenLDAP](https://www.openldap.org/)**: an open-source implementation of the Lightweight Directory Access Protocol
@@ -204,10 +201,8 @@
     - **[Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/)**: Microsoft’s cloud identity and access-management platform
     - **[NIST SP 800-63](https://pages.nist.gov/800-63-3/)**: NIST guidance covering digital identity, authentication, credentials, and federation
     - **[OpenNAC](https://doc-opennac.opencloudfactory.com/1.2.1/introduction/whatis/intro.html)**: an open-source network-access-control platform
-    - **[SailPoint](https://documentation.sailpoint.com/)**: an identity-governance platform for managing access, permissions, and identity lifecycles
     - **[Two-Factor Authentication for Apple ID](https://support.apple.com/en-us/102660)**: Apple guidance for enabling two-factor authentication on Apple accounts
 - **Asset Management**
-    - **[Axonius](https://www.axonius.com/)**: cybersecurity asset management and asset intelligence platform
     - **[CIS Asset Tracking Spreadsheet](https://www.cisecurity.org/insights/white-papers/cis-controls-inventory-tracking-spreadsheets)**: a spreadsheet for inventorying assets
     - **[Daniel Miessler’s Cybersecurity Resources](https://danielmiessler.com/blog/continuous-asset-management-security)**: tutorials for asset management security
     - **[Lansweeper](https://www.lansweeper.com/)**: an IT asset-discovery and inventory platform
@@ -215,7 +210,6 @@
     - **[Open-AudIT](https://www.open-audit.org/about.php)**: a network discovery and inventory-auditing platform
     - **[Snipe-IT](https://snipeitapp.com/)**: an open-source IT asset-management platform
     - **[Spiceworks](https://www.spiceworks.com/free-pc-network-inventory-software/)**: an IT inventory and asset-management platform
-    - **[Spirion](https://www.archtis.com/spirion-platform-overview/)**: a data-discovery and classification platform for locating sensitive information
     - **[State of Oregon Data Inventory Template](https://shorturl.at/MGJet)**: a template for documenting and managing an organization’s data inventory
 - **Business Continuity and Disaster Recovery (BCDR)**
     - **[Amanda Network Backup](https://www.amanda.org/)**: an open-source backup solution that uses a central server to back up multiple OS's to disks
@@ -228,24 +222,18 @@
     - **[No More Ransom](https://www.nomoreransom.org/)**: ransomware-prevention guidance, IR resources, and free decryption tools for supported ransomware variants
     - **[Redo Rescue](https://redorescue.com/)**: an open-source bootable backup and recovery environment used to create and restore complete system images
     - **[Syncthing](https://docs.syncthing.net/)**: a decentralized continuous file-synchronization tool
-- **Endpoint Management**
-    - **[Microsoft Configuration Manager (formerly SCCM)](https://learn.microsoft.com/en-us/intune/configmgr/)**: an enterprise platform for monitoring endpoint devices
-    - **[Microsoft Intune](https://learn.microsoft.com/en-us/intune/intune-service/)**: a cloud platform for managing devices, applications, and endpoint policies
 - **GRC (Governance, Risk, and Compliance)**
     - **[CCPA (California Consumer Privacy Act)](https://oag.ca.gov/privacy/ccpa)**: privacy law protecting California residents
     - **[CIS Controls](https://www.cisecurity.org/controls)**: best-practice security controls checklist
         - **[CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks)**: consensus-developed secure configuration guidelines for OS, apps, cloud, and network devices
         - **[CIS Build Kits](https://www.cisecurity.org/insights/blog/build-kits-speed-implementation-of-secure-configurations)**: automated config files, scripts, and GPOs
         - **[CIS InfoSec Policy Templates](https://www.cisecurity.org/controls/policy-templates)**: customizable policy templates that to help document security requirements
-        - **[CIS SecureSuite Membership](https://www.cisecurity.org/cis-securesuite)**: membership providing access to CIS security tools and resources
-        - **[CIS-CAT Pro](https://www.cisecurity.org/cybersecurity-tools/cis-cat-pro)**: automated assessment tool that scans systems and reports their compliance with CIS
     - **[CMMC (Cybersecurity Maturity Model Certification)](https://dodcio.defense.gov/CMMC/Resources-Documentation/)**: ensure defense contractors protect unclassified info
     - **[DISA STIGs](https://public.cyber.mil/stigs/downloads/)**: security configuration standards developed by the Defense Information Systems Agency DoD Sytems and tech
     - **[GDPR (General Data Protection Regulation)](https://gdpr-info.eu/)**: EU regulation on personal data protection
     - **[HIPAA (Health Insurance Portability and Accountability Act)](https://www.hhs.gov/hipaa/index.html)**: US law protecting health information
     - **[HITRUST CSF (Common Security Framework)](https://hitrustalliance.net/hitrust-framework)**: health data security
     - **[ISO/IEC 27001](https://www.iso.org/standard/27001)**: world's leading international standard for managing information security
-    - **[Microsoft Purview](https://www.microsoft.com/en-us/security/business/microsoft-purview)**: unified data security, governance, and compliance platform
     - **[NIST Cybersecurity Framework (CSF)](https://www.nist.gov/cyberframework)**: a framework for understanding and managing cybersecurity risk
     - **[PCI-DSS (Payment Card Industry Data Security Standard)](https://www.pcisecuritystandards.org/standards/pci-dss/)**: requirements for handling cardholder data
     - **[SOC (System and Organization Controls)](https://www.aicpa-cima.com/resources/)**: audit standard for service organizations
@@ -267,9 +255,7 @@
         - **[EICAR Anti-Malware Test File](https://www.eicar.org/download-anti-malware-testfile/)**: a harmless standardized file for testing anti-malware detection
         - **[Kaspersky](https://support.kaspersky.com/)**: a commercial antivirus and security-product suite
         - **[Malwarebytes](https://www.malwarebytes.com/)**: anti-malware software focused on modern threats
-        - **[McAfee](https://www.mcafee.com/)**: a provider of consumer antivirus and online-protection products
         - **[Microsoft Defender](https://learn.microsoft.com/en-us/defender-endpoint/)**: Microsoft’s endpoint-protection and threat-detection platform
-        - **[Norton](https://support.norton.com/)**: a provider of consumer antivirus and online-security products
     - **[Awesome Opt-Out Guide 2026](https://github.com/thumpersecure/opt-out-manual-2026)**: community GitHub repository compiling data broker opt-out procedures, privacy request templates
     - **Browsers**
         - **[Brave](https://support.brave.com/)**: a privacy-focused browser with built-in content blocking
@@ -293,7 +279,7 @@
         - **[Self-Destructing Cookies](https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/)**: Firefox extension that automatically deletes cookies when a tab is closed
         - **[Tor Browser](https://tb-manual.torproject.org/)**: a browser that routes traffic through the Tor network
         - **[Trace My IP](https://www.tracemyip.org/)**: IP address lookup and geolocation tool that reveals current IP, ISP, location
-        - **[TraceMyIP User Agent String Decoder](https://tools.tracemyip.org/user-agent-string-decoder/)**: decodes a user-agent string into browser
+        - **[TraceMyIP User Agent String Decoder](https://tools.tracemyip.org/user-agent-string-decoder/)**: decodes a user-agent string into browser, OS, and device details
         - **[UserAgentString.com](https://www.useragentstring.com/pages/useragentstring.php)**: database of known user agent strings for browsers, bots, and devices
         - **[WebRTC Leak Test](https://www.perfect-privacy.com/webrtc-leaktest/)**: tests whether WebRTC is exposing your real IP address even
         - **[What browser am I using.co](https://www.whatbrowseramiusing.co/)**: simple browser detection page that identifies your current browser name, version
@@ -328,9 +314,7 @@
         - **[Addy.io](https://addy.io/help/)**: an email-alias service formerly known as AnonAddy
         - **[Guerrilla Mail](https://www.guerrillamail.com/)**: a disposable email-address service
         - **[Mailfence](https://kb.mailfence.com/)**: an encrypted email and collaboration service
-        - **[Microsoft 365 Quarantine](https://learn.microsoft.com/en-us/defender-office-365/quarantine-about)**: isolates suspected spam, phishing, malware, etc.
         - **[NIST SP 800-177 Revision 1](https://csrc.nist.gov/pubs/sp/800/177/r1/final)**: NIST guidance for establishing trustworthy email systems
-        - **[Private-Mail](https://privatemail.com/)**: a privacy-focused encrypted email service
         - **[Proton Mail](https://proton.me/support/mail)**: an encrypted email service with end-to-end and zero-access encryption
         - **[Temp Mail](https://temp-mail.org/)**: a temporary inbox and disposable email service
         - **[Tuta](https://tuta.com/support)**: an encrypted email service formerly known as Tutanota
@@ -356,7 +340,6 @@
 - **Security Operations**
     - **[ANY.RUN](https://any.run/)**: an interactive sandbox for analyzing malware behavior
         - **[ANY.RUN Threat Intelligence](https://intelligence.any.run/)**: ANY.RUN’s lookup and feeds built from its sandbox analyses
-    - **[CrowdStrike Falcon](https://www.crowdstrike.com/en-us/platform/)**: a cloud-native endpoint-protection and threat-detection platform
     - **CTI (Cyber Threat Intelligence)**
         - **[AlienVault OTX](https://otx.alienvault.com/)**: crowd-sourced threat intelligence platform with 180K+ participants sharing 19M+ daily threats
         - **[APTnotes](https://github.com/aptnotes/data)**: repository of public documents, whitepapers, and articles about APT campaigns
@@ -368,7 +351,6 @@
         - **[Cymon Open Threat Intelligence](https://cymon.io/)**: largest open tracker of malware, phishing, botnets containing 6M+ malicious IPs
         - **[Elections Infrastructure Information Sharing and Analysis Center](https://www.cisecurity.org/ei-isac)**: cybersecurity support and threat sharing for elections
         - **[Global Terrorism Database](https://www.start.umd.edu/research-projects/global-terrorism-database-gtd)**: academic database of terrorist attacks maintained by START at University of Maryland
-        - **[Google Threat Intelligence](https://cloud.google.com/security/products/threat-intelligence)**: combines threat intelligence from Google, Mandiant, and VirusTotal
         - **[HGTech Hacker Chatter](https://thehgtech.com/hacker-chatter.html)**: a live feed of hacker-forum chatter about breaches and incidents
         - **[HGTech Ransomware Tracker](https://thehgtech.com/ransomware-tracker.html)**: a searchable tracker of ransomware groups and their victims
         - **[Homeland Security Information Network](https://www.dhs.gov/homeland-security-information-network-hsin)**: a secure platform for info sharing and collaboration
@@ -382,7 +364,6 @@
         - **[Maltiverse](https://maltiverse.com/)**: threat intelligence platform aggregating 100+ sources with real-time IOC scoring
         - **[Malware Information Sharing Platform](https://www.misp-project.org/)**: open-source platform for collecting, storing, and sharing cyber threat indicators
         - **[Malware Patrol](https://www.malwarepatrol.net/)**: threat intelligence feed service providing malware samples, URLs, domains, and IOC data
-        - **[Mandiant](https://cloud.google.com/security/mandiant)**: provides threat intelligence, incident response, and managed defense services
         - **[MITRE ATT&CK](https://attack.mitre.org/)**: a knowledge base describing adversary tactics and techniques
         - **[mlsecproject / combine](https://github.com/mlsecproject/combine)**: tool for gathering and normalizing threat intelligence feeds from public sources
         - **[Mr.Looquer IOC Feed](https://iocfeed.mrlooquer.com/)**: threat intelligence feed providing IOC data with IPv4/IPv6 dual stack support
@@ -391,7 +372,6 @@
         - **[ransomware.live](https://www.ransomware.live/)**: tracks ransomware groups, their victims, negotiations, and leak sites
         - **[REN-ISAC](https://www.ren-isac.net/)**: threat intelligence and incident response sharing for higher education and research institutions
         - **[REScure Cyber Threat Intelligence Project](https://rescure.me/)**: community-driven cyber threat intelligence project providing IOC feeds
-        - **[ReversingLabs Spectra Analyze](https://docs.reversinglabs.com/SpectraAnalyze/)**: a malware-analysis and threat-intelligence platform
         - **[SANS Internet Storm Center](https://isc.sans.edu/)**: a threat-monitoring and information-sharing service analyzing malicious internet activity
         - **[Scam Database](https://www.scamdb.net/)**: user-contributed database of scam reports searchable by phone, email, and website
         - **[START Consortium for the Study of Terrorism and Responses to Terrorism](https://www.start.umd.edu/)**: national Consortium on terrorism
@@ -410,7 +390,7 @@
     - **[MS/EI-ISAC Malicious Code Analysis Platform](https://www.cisecurity.org/services/malicious-code-analysis-platform)**: nonpublic sandbox for analyzing sus files
     - **[Zabbix](https://www.zabbix.com/)**: an open-source platform for monitoring infrastructure, networks, applications, and services
 - **Vulnerability Management**
-    - **[CVE]([https://www.cve.org/](https://www.cve.org/))**: the official catalog of publicly disclosed vulnerabilities and their CVE IDs
+    - **[CVE](https://www.cve.org/)**: the official catalog of publicly disclosed vulnerabilities and their CVE IDs
     - **[endoflife.date](https://endoflife.date/)**: a community-maintained resource tracking product support and end-of-life dates
     - **[Lynis](https://cisofy.com/lynis/)**: an open-source security-auditing and system-hardening tool
     - **[OpenSCAP](https://www.open-scap.org/)**: an open-source ecosystem for assessing and enforcing security baselines
@@ -449,27 +429,26 @@
     - **[detux Linux Sandbox](https://detux.org/)**: open-source multiplatform Linux sandbox for analyzing Linux malware
     - **[Ether](https://ether.gtisc.gatech.edu/web_unpack/)**: georgia Tech malware analysis framework using Intel VT hardware virtualization
     - **[Hybrid Analysis](https://hybrid-analysis.com/)**: free automated malware analysis service powered by CrowdStrike Falcon Sandbox
-    - **[ID Ransomware](https://id-ransomware.malwarehunterteam.com/)**: free ransomware identification tool that analyzes ransom notes and e
-    - **[MalwareBazaar](https://bazaar.abuse.ch/browse/)**: abuse.ch’s searchable repository of shared malware samples
-    - **[theZoo](https://github.com/ytisf/theZoo)**: a repository of live malware samples for research and analysis
-    - **[vx-underground](https://vx-underground.org/)**: a large public collection of malware samples, source code, and papers
-ncrypted file samples
+    - **[ID Ransomware](https://id-ransomware.malwarehunterteam.com/)**: free ransomware identification tool that analyzes ransom notes and encrypted file samples
     - **[Joe APK Analyzer](https://www.apk-analyzer.net/)**: part of Joe Sandbox suite; performs dynamic and static analysis of Android Application Packages
     - **[Joe File Analyzer](https://www.file-analyzer.net/)**: part of Joe Sandbox suite; performs hybrid code analysis of PE files on Windows
     - **[JoeSandbox Document Analyzer](https://www.joesandbox.com/)**: hosted automated malware analysis service that performs dynamic
     - **[Jotti's Malware Scanner](https://virusscan.jotti.org/en-US/scan-file)**: free multi-scanner malware analysis service that submits files
     - **[Koodous](https://koodous.com)**: collaborative platform for Android malware research and analysis
     - **[Malware Analysis Tools](https://malwareanalysis.tools/)**: curated resource and reference guide for malware analysis tools with recommendations
+    - **[MalwareBazaar](https://bazaar.abuse.ch/browse/)**: abuse.ch’s searchable repository of shared malware samples
     - **[Office Mal Scanner](https://www.reconstructer.org/)**: malicious Office document analysis tool for analyzing and reconstructing Office documents
     - **[OffVis](https://download.microsoft.com/download/1/2/7/127ba59a-4fe1-4acd-ba47-513ceef85a85/OffVis.zip)**: Microsoft Office Visualization Tool for analyzing Office binary files to identify exploits
     - **[OPSWAT Meta Defender](https://metadefender.opswat.com/#!/)**: multi-engine malware scanning service using 20+ antivirus engines
     - **[Origami Framework](https://code.google.com/archive/p/origami-pdf/)**: Ruby framework for parsing, analyzing, and forging PDF documents
     - **[PDF Tools](https://blog.didierstevens.com/programs/pdf-tools/)**: free suite of PDF analysis tools by Didier Stevens including pdfid and pdf-parser.py
     - **[Pikker.ee Cuckoo Sandbox](https://sandbox.pikker.ee/)**: public instance of Cuckoo Sandbox malware analysis system hosted in Estonia
+    - **[theZoo](https://github.com/ytisf/theZoo)**: a repository of live malware samples for research and analysis
     - **[TYLabs QuickSand Framework](https://scan.tylabs.com/)**: Python-based malware analysis framework for analyzing Office documents and PDFs
     - **[Uncover It](https://www.uncoverit.org/)**: static malware configuration extractor that quickly analyzes files without execution
     - **[Valkyrie File Analysis](https://consumer.valkyrie.comodo.com/)**: cloud-based verdict-driven malware analysis platform from Comodo
     - **[VX Vault](https://vxvault.net/ViriList.php)**: active collection of malware samples and related data shared among security researchers
+    - **[vx-underground](https://vx-underground.org/)**: a large public collection of malware samples, source code, and papers
 - **Memory Forensics**
     - **[Volatility 2](https://github.com/volatilityfoundation/volatility)**: a legacy Python framework for analyzing memory captures
     - **[Volatility 3](https://volatility3.readthedocs.io/en/latest/)**: the modern Volatility framework for memory forensics
@@ -483,7 +462,6 @@ ncrypted file samples
     - **[APKLeaks](https://github.com/dwisiswant0/apkleaks)**: open-source tool that scans APK files for hardcoded secrets, API endpoints
     - **[APKtool](https://apktool.org/)**: open-source tool for reverse engineering Android apps
     - **[BlueStacks 2](https://www.bluestacks.com/)**: free, lightweight Android emulator for desktop
-    - **[Charles Proxy](https://www.charlesproxy.com/)**: commercial HTTP/HTTPS proxy for traffic analysis
     - **[Facebook](https://www.facebook.com/)**: major social network with over 2 billion users
     - **[Flickr](https://www.flickr.com/)**: photo hosting and sharing platform with 200M+ photos
     - **[Frida](https://frida.re/)**: open-source dynamic instrumentation toolkit
@@ -542,10 +520,7 @@ ncrypted file samples
     - **Web-Server Log**
         - **[Parse a User Agent String](https://explore.whatismybrowser.com/useragents/parse/#parse-useragent)**: an online parser that identifies the browser, OS, and device in a user-agent string
 - **SIEM (Security Information and Event Management)**
-    - **[Datadog Cloud SIEM](https://docs.datadoghq.com/security/cloud_siem/)**: a cloud-native platform for detecting and investigating threats using security telemetry
     - **[Elastic Security](https://www.elastic.co/docs/solutions/security)**: Elastic’s SIEM, threat-detection, and security-investigation platform
-    - **[Google SecOps (formerly Chronicle)](https://docs.cloud.google.com/chronicle/docs/overview)**: Google’s cloud-native SIEM and SOAR platform
-    - **[Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/overview)**: Microsoft’s cloud-native SIEM and security orchestration platform
     - **[Splunk](https://docs.splunk.com/Documentation/Splunk/)**: a platform for searching, monitoring, and analyzing machine-generated data
 - **[`sort`](https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html)**: a command-line utility that sorts lines of text
 - **SQL (Structured Query Language)**
@@ -558,27 +533,19 @@ ncrypted file samples
 - **[A-Packets](https://apackets.com/)**: an online PCAP analyzer that visualizes protocols, hosts, and credentials in captures
 - **[Bettercap](https://www.bettercap.org/project/introduction/)**: a framework for network reconnaissance and traffic manipulation
 - **[CapAnalysis](https://www.capanalysis.net/ca/)**: a web-based PCAP visualizer for exploring large captures
-- **[Darktrace](https://www.darktrace.com/)**: an AI-driven security platform that detects anomalous behavior across networks and other environments
 - **DNS (Domain Name System)**
     - **[BIND](https://bind9.readthedocs.io/)**: the most widely deployed open-source DNS server software
-    - **[BlueCat Address Manager (formerly Proteus)](https://bluecatnetworks.com/)**: a centralized IP management platform for administering DNS, DHCP, and IP
     - **[OpenDNS](https://www.opendns.com/)**: a DNS service providing security filtering and customizable content controls
     - **[Pi-hole](https://docs.pi-hole.net/)**: a DNS-level ad and tracker blocking appliance
     - **[Quad9](https://quad9.net/)**: a privacy-focused public DNS service that blocks known malicious domains
 - **[DynamiteLab](https://lab.dynamite.ai/)**: a free online environment for analyzing PCAPs with Zeek and Suricata
 - **[Ettercap](https://www.ettercap-project.org/)**: a tool for analyzing and testing network communications
 - **Firewalls**
-    - **[AWS Network Firewall](https://docs.aws.amazon.com/network-firewall/latest/developerguide/what-is-aws-network-firewall.html)**: a managed network firewall for filtering and inspecting traffic within Amazon Virtual Private Clouds
-    - **[Azure Firewall](https://learn.microsoft.com/en-us/azure/firewall/overview)**: Microsoft Azure’s managed cloud firewall for controlling and inspecting traffic across Azure networks
-    - **[Palo Alto Networks Next-Generation Firewalls](https://docs.paloaltonetworks.com/pan-os)**: application-layer firewalls that identify and control traffic
-        - **[Panorama](https://docs.paloaltonetworks.com/panorama)**: Palo Alto Networks’ centralized platform for managing multiple firewalls and their security policies
     - **[pfSense](https://docs.netgate.com/pfsense/en/latest/)**: an open-source firewall and router platform based on FreeBSD
     - **[Windows Firewall](https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/windows-firewall/)**: a host-based firewall built into Windows that filters incoming and outgoing network traffic
 - **[Impacket](https://github.com/fortra/impacket)**: a Python collection for interacting with Windows network protocols
 - **IPS (Intrusion Prevention System)**
     - **[Snort](https://www.snort.org/)**: an intrusion detection and prevention system for analyzing network traffic
-- **ISP (Internet Service Providers)**
-    - **[Starlink](https://www.starlink.com/support)**: a satellite internet service provider
 - **[Malware-Traffic-Analysis.net](https://www.malware-traffic-analysis.net/index.html)**: training resource and PCAP repository providing network traffic captures
 - **[Ncat](https://nmap.org/ncat/guide/)**: Nmap’s modern Netcat for reading and writing data across network connections
 - **[Nethor](https://nethor.com/)**: a desktop suite of network analysis and diagnostic utilities
@@ -590,12 +557,10 @@ ncrypted file samples
     - **[IP Subnet Calculator](https://www.subnet-calculator.com/)**: calculates network ranges, masks, and host counts for IP subnets
 - **[`tcpdump`](https://www.tcpdump.org/manpages/tcpdump.1.html)**: a command-line packet capture utility
 - **VPN (Virtual Private Network)**
-    - **[Mullvad](https://mullvad.net/en/help)**: a privacy-focused VPN provider
     - **[Tailscale](https://tailscale.com/kb)**: a mesh VPN service that connects devices using WireGuard
     - **[WireGuard](https://www.wireguard.com/quickstart/)**: a modern, fast VPN protocol
 - **Wifi**
     - **[Aircrack-ng](https://www.aircrack-ng.org/documentation.html)**: a suite for assessing and monitoring wireless-network security
-    - **[HPE Aruba Networking](https://arubanetworking.hpe.com/techdocs/ArubaDocPortal/content/docportal.htm)**: a vendor of wireless access points, switches, gateways, and network-management products
     - **[Kismet](https://www.kismetwireless.net/docs/)**: a wireless-network detector, sniffer, and monitoring system
 - **[Wireshark](https://www.wireshark.org/docs/wsug_html_chunked/)**: a GUI packet analyzer for network troubleshooting
     - **[`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html)**: the command-line version of Wireshark
@@ -669,7 +634,6 @@ ncrypted file samples
     - **[LinkedIn](https://www.linkedin.com/)**: World's largest professional network with 900+ million members
     - **[LittleSis](https://littlesis.org/)**: free database mapping relationships between powerful people
     - **[OpenCorporates](https://opencorporates.com/)**: the world's largest open database of companies, covering 200+ jurisdictions
-    - **[Orbis Directory](https://orbisdirectory.bvdinfo.com/version-2016121/OrbisDirectory/Companies)**: bureau van Dijk's global company database covering 400+ million companies
     - **[Owler](https://www.owler.com/corp)**: competitive intelligence platform providing company profiles, revenue estimates, employee counts
     - **[Public Register Online](https://www.annualreportservice.com/)**: online directory for accessing annual reports and financial documents from companies
     - **[RBA - Business Information Resources](https://www.rba.co.uk/sources/)**: curated directory maintained by Researching Business Activities, linking to free
@@ -700,7 +664,6 @@ ncrypted file samples
     - **[Ancestry.com](https://www.ancestry.com/search/)**: World's largest genealogy platform with over 40 billion historical records
     - **[AnyWho](https://www.anywho.com/whitepages)**: free white pages directory providing people search by name, reverse phone lookup
     - **[FamilySearch.org](https://familysearch.org/search/)**: free genealogy platform operated by The Church of Jesus Christ of Latter-day Saints
-    - **[findmypast.com](https://www.findmypast.com/discover)**: UK-focused genealogy and historical records platform
     - **[IDCrawl](https://www.idcrawl.com/)**: free people search aggregator that finds social media profiles, photos, and public records
     - **[InfoFlow Public People Search In Chilean](https://infoflow.cloud/)**: Chilean public records for vehicle registrations, ID numbers, and companies
     - **[My Registry](https://www.myregistry.com/)**: universal gift registry platform allowing users to add gifts
@@ -713,7 +676,6 @@ ncrypted file samples
     - **[The Bump](https://registry.thebump.com/babyregistrysearch)**: baby registry finder from The Bump parenting platform
     - **[The Knot](https://www.theknot.com/registry/couplesearch)**: wedding registry search allowing lookup of couples' wedding registries by name
     - **[TruePeopleSearch](https://www.truepeoplesearch.com/)**: a free people-search site for names, phone numbers, and addresses
-    - **[usa-people-search.com](https://www.usa-people-search.com/)**: US people search and background check service accessing public records
     - **[Webmii](https://webmii.com/)**: free people search engine that calculates a web visibility score based on online presence
     - **[Yasni](https://www.yasni.com/)**: free people search engine allowing searches by name, location, profession, company, or skills
 - **Domain Intelligence**
@@ -744,7 +706,6 @@ ncrypted file samples
         - **[Deteque](https://www.deteque.com/)**: real-time IP, domain, and threat intelligence from Spamhaus and abuse.ch alliance
         - **[DNS Dumpster](https://dnsdumpster.com/)**: free domain research tool that discovers hosts and subdomains related to a domain
         - **[Mnemonic](https://passivedns.mnemonic.no/)**: Mnemonic's public PassiveDNS service providing historical and current DNS records collected
-    - **[SEMrush](https://www.semrush.com/)**: SEO intelligence platform for domain analytics, keyword intelligence, backlinks
     - **[SimilarWeb](https://www.similarweb.com/)**: digital intelligence platform for traffic estimates, referrals, and audience insights
     - **[Sitedossier](https://www.sitedossier.com/)**: domain dossier aggregator with WHOIS, DNS, and linked infrastructure context
     - **[Siteliner](https://www.siteliner.com/)**: website crawler that highlights duplicate content, broken links, and SEO quality issues
@@ -775,15 +736,12 @@ ncrypted file samples
     - **[Disposable Emails Registry](https://disposable-emails.github.io/)**: searchable registry of disposable email domains with bulk download support
     - **[Email Permutator](https://metricsparrow.com/toolkit/email-permutator/)**: OSINT tool that generates all possible email address combinations from a person's name
     - **[Email Reputation](https://emailrep.io/)**: tool that checks email reputation, risk scoring, and breach history
-    - **[Email to Address](https://www.melissa.com/)**: Melissa.com's data quality and verification service that validates
     - **[Epieos Email Tool](https://tools.epieos.com/email.php)**: freemium OSINT tool performing email reverse lookups
     - **[GHunt](https://github.com/mxrch/GHunt)**: offensive Google framework that investigates Google accounts using email addresses
     - **[Holehe](https://github.com/megadose/holehe)**: Python-based email enumeration tool that checks if an email is registered across 120+ websites
     - **[Hunter](https://hunter.io/)**: email finder and verifier that discovers business email addresses from company domains, names
     - **[Infoga](https://github.com/m4ll0k/infoga)**: Python-based email OSINT tool that gathers email account information
-    - **[MailboxValidator](https://www.mailboxvalidator.com/demo)**: email verification API that validates email deliverability, detects catch-all addresses
     - **[MailScrap](https://mailscrap.com/)**: email verification tool that connects to mail servers to verify mailbox existence
-    - **[OSINT Industries](https://www.osint.industries/)**: account linking service that extracts all registered accounts tied to an email or phone
     - **[Reacher Demo](https://reacher.email)**: hosted demo of the Reacher email verification API allowing free testing of email validation
     - **[Reacher Github](https://github.com/reacherhq/check-if-email-exists)**: open-source Rust-based email verification API
     - **[Read Notify](https://www.readnotify.com/)**: email tracking and read receipt service that monitors email opens and engagement, useful
@@ -799,7 +757,6 @@ ncrypted file samples
     - **[Snapper](https://github.com/dxa4481/Snapper)**: open-source Linux-based tool for automated batch website screenshotting and file capture
     - **[Timeline JS3](https://timeline.knightlab.com/)**: open-source JavaScript timeline tool by Knight Lab
     - **[Web Page Saver](https://www.magnetforensics.com/resources/web-page-saver/)**: browser extension for saving complete webpages as single HTML files for offline access
-    - **[ZeeMaps](https://www.zeemaps.com/)**: interactive map creation and sharing tool with unlimited markers, 3-level access control
 - **Geolocation**
     - **[AntennaSearch](https://www.antennasearch.com/)**: FCC-backed lookup for antenna structure and tower records used in RF and telecom investigations
     - **[Astrometry](https://nova.astrometry.net/)**: astrometry.net solves star-field images to estimate where and when a photo was taken
@@ -934,20 +891,15 @@ ncrypted file samples
     - **[Slash](https://github.com/redc86/slash)**: automated OSINT tool for username enumeration across 187+ social media platforms, forums
 - **[Overview](https://www.overviewdocs.com/)**: self-hosted document analysis and management platform
 - **Phone Number Lookup**
-    - **[Data24-7](https://www.data24-7.com/signup.php)**: commercial data enrichment provider supporting phone-based identity and risk intelligence lookups
     - **[Hiya (R$)](https://www.hiya.com/)**: caller-ID and spam-protection platform with reverse lookup capabilities and mobile integrations
-    - **[HLR Lookup Portal](https://www.hlr-lookups.com/en/start)**: HLR lookup service for telecom reachability, network, and carrier status checks
-    - **[Next Caller](https://nextcaller.com/)**: caller-identification and spam intelligence service for reverse lookup workflows
     - **[Numbering Plans](https://www.numberingplans.com/?page=analysis&sub=phonenr)**: international numbering reference for E.164 plans, carrier codes, and dialing metadata
     - **[Numberway](https://www.numberway.com/)**: reverse phone lookup resource used to resolve ownership and location context from a phone number
     - **[Numspy-Api](https://numspy.pythonanywhere.com/)**: API wrapper for Numspy-style phone intelligence queries and automation use cases
-    - **[OpenCNAM API](https://api.opencnam.com/v2/phone/+19073372323)**: CNAM lookup API for resolving caller-name metadata from North American numbers
     - **[Phone Validator](https://www.phonevalidator.com/index.aspx)**: number-validation utility focused on format, line-type, and carrier checks
     - **[Phonerator](https://www.martinvigo.com/phonerator/)**: phone number generation and testing utility for telephony research workflows
     - **[Reverse Genie](https://www.reversegenie.com/phone.php)**: reverse phone lookup service that returns publicly aggregated ownership and location hints
     - **[Slydial](https://www.slydial.com/)**: voicemail drop service that connects directly
     - **[True Caller](https://www.truecaller.com/)**: caller identification platform and mobile app for reverse lookup and spam-call context
-    - **[Twilio Lookup](https://www.twilio.com/lookup)**: twilio API endpoint for phone intelligence including line type, carrier, and validation data
     - **[Whitepages Reverse Phone](https://www.whitepages.com/reverse-phone)**: reverse phone lookup product from Whitepages for US-focused identity and contact attribution
 - **Piracy**
     - **[The Pirate Bay](https://en.wikipedia.org/wiki/The_Pirate_Bay)**: a popular torrent index site for sharing files
@@ -972,7 +924,6 @@ ncrypted file samples
     - **[GraveInfo](https://billiongraves.com/)**: cemetery records database with GPS-marked grave locations and gravestone photos
     - **[Influence Explorer](https://influenceexplorer.com/)**: campaign finance, lobbying, and political data aggregator
     - **[judyrecords](https://www.judyrecords.com/)**: free nationwide court case search engine with 760M+ US court cases
-    - **[Melissa Data - Property Viewer](https://melissa-data.com)**: commercial property lookup and real estate information provider with verified tax assessor data
     - **[Most Wanted Criminal Pages](https://www.fbi.gov/wanted/fugitives)**: FBI's official wanted fugitives database featuring the Ten Most Wanted list
     - **[Mugshots.com](https://mugshots.com)**: searchable mugshot database aggregating arrest records and booking photos
     - **[NACo County Explorer](https://explorer.naco.org/)**: interactive mapping tool with 1000+ demographic and economic indicators for all 3,069 US counties
@@ -980,7 +931,6 @@ ncrypted file samples
     - **[NC Salary DB](https://www.ncosc.gov/public-information/state-employee-salary-database)**: official North Carolina state employee salary database
     - **[Neighbor Report](https://neighbor.report/)**: neighborhood and property statistics including crime data, schools, and community information
     - **[Open-Data-Portal München (German)](https://opendata.muenchen.de/)**: city of Munich open data portal with 331+ datasets
-    - **[PACER](https://pacer.uscourts.gov/)**: public Access to Court Electronic Records
     - **[Political MoneyLine](https://www.opensecrets.org/)**: campaign finance and political money database aggregating federal election contributions
     - **[Redfin](https://redfin.com)**: real estate marketplace with comprehensive property history, MLS data, and market analytics
     - **[Regrid (US Only)](https://regrid.com)**: interactive property mapping and parcel data tool covering most US counties
@@ -1025,8 +975,8 @@ ncrypted file samples
     - **[Sucuri SiteCheck](https://sitecheck.sucuri.net/)**: free remote website scanner that checks for malware, security threats, blacklisting
     - **[ThreatMiner.org](https://www.threatminer.org/)**: non-profit threat intelligence portal providing IOC research
     - **[Trend Micro Site Safety Center](https://global.sitesafety.trendmicro.com/)**: checks website safety ratings from Trend Micro's sources
-    - **[URLhaus](https://urlhaus.abuse.ch/browse/)**: abuse.ch’s database of URLs used to distribute malware
     - **[URL Void](https://www.urlvoid.com/)**: free website reputation checker that scans URLs against 30+ blocklist engines
+    - **[URLhaus](https://urlhaus.abuse.ch/browse/)**: abuse.ch’s database of URLs used to distribute malware
     - **[UrlQuery.net](https://urlquery.net/)**: free online URL scanner that analyzes webpages for malware, suspicious elements
     - **[vURL Online](https://vurldissect.co.uk/)**: URL and domain dissection tool providing detailed reputation analysis and security assessment
     - **[WatchGuard ReputationAuthority](https://www.reputationauthority.org/)**: in-the-cloud reputation monitoring service analyzing URL and IP threat risk
@@ -1099,7 +1049,6 @@ ncrypted file samples
         - **[Badoo](https://badoo.com)**: global social dating platform with swipe-based matching, nearby discovery, and in-app messaging
         - **[BeautifulPeople.com](https://www.beautifulpeople.com/en-US)**: dating community with verification-oriented onboarding and profile access tied
         - **[Bumble](https://bumble.com/)**: swipe-based dating app with women-first messaging rules and location-based recommendations
-        - **[eHarmony](https://www.eharmony.com/)**: personality-based matchmaking platform focused on long-term relationships
         - **[Farmers Only](https://www.farmersonly.com/)**: niche dating service for rural communities including farmers and ranchers
         - **[Hinge](https://hinge.co/en-gb)**: relationship-oriented dating app focused on prompt-driven profiles and conversation-first matching
         - **[Meetup](https://www.meetup.com/)**: community event platform for discovering local groups and activities that can support social
@@ -1196,18 +1145,17 @@ ncrypted file samples
     - **[Word Reference](https://www.wordreference.com/)**: bilingual dictionary platform with conjugation tables, forum context, and language-pair references
 - **Transportation Tracking**
     - **[ADS-B Exchange](https://www.adsbexchange.com/)**: large community-driven unfiltered ADS-B flight tracking network with broad global aircraft
-    - **[ADS-B.NL](https://www.ads-b.nl/index.php?pageno=9999)**: netherlands-focused ADS-B tracking portalon military and regional aviation movements
+    - **[ADS-B.NL](https://www.ads-b.nl/index.php?pageno=9999)**: netherlands-focused ADS-B tracking portal focused on military and regional aviation movements
     - **[autoDNA VIN Lookup](https://www.autodna.com/)**: vehicle history lookup platform with records from European and North American markets
     - **[AutoRef (EU)](https://www.autoref.eu/en)**: European VIN and plate intelligence service with free and paid tiers
     - **[Carnet.ai](https://carnet.ai/)**: AI vehicle image recognition platform that identifies make/model/generation from submitted photos
-    - **[carVertical VIN Decoder](https://www.carvertical.com/vin-decoder)**: international VIN and registration decoder with vehicle history reporting
     - **[Deutsche Bahn (German)](https://data.deutschebahn.com/opendata)**: German rail open-data portal for station, network, timetable in real-time
     - **[FindByPlate](https://findbyplate.com/)**: US license plate lookup service for basic vehicle identification
     - **[Finnik (NL)](https://finnik.nl/en)**: Dutch license plate intelligence service using official RDW-linked records for vehicle profile
     - **[Flightradar24.com](https://www.flightradar24.com/)**: global real-time flight tracking platform built on ADS-B and radar feeds with airport
     - **[Global Fishing Watch](https://globalfishingwatch.org)**: nonprofit maritime transparency platform that maps global fishing activity
     - **[Have I Been Flocked?](https://haveibeenflocked.com/)**: checks Flock Safety audit logs to see if a license plate was searched
-    - **[MyAccident - traffic accident map](https://myaccident.org/)**: free database of redacted US traffic accident reports with craft records
+    - **[MyAccident - traffic accident map](https://myaccident.org/)**: free database of redacted US traffic accident reports with crash records
     - **[NHTSA Vehicle API](https://vpic.nhtsa.dot.gov/api/)**: official US government VIN decoder API with vehicle specification and manufacturer data
     - **[OpenAIP World Aeronautical Database](https://www.openaip.net/)**: community-maintained aeronautical dataset for airfields, airspace, navaids
     - **[OpenRailwayMap](https://www.openrailwaymap.org/)**: OpenStreetMap-based global railway map visualizing rail lines, infrastructure characteristics
@@ -1216,7 +1164,6 @@ ncrypted file samples
     - **[Ship AIS](https://shipais.uk/)**: UK-centered AIS ship tracker with live map views, movement details, and vessel identification data
     - **[Track-Trace](https://www.track-trace.com/)**: multi-carrier shipment tracking aggregator for parcel and freight status across global postal
     - **[Vessel Finder](https://www.vesselfinder.com/)**: global AIS vessel tracking service for ship positions, voyage progress
-    - **[Vessel Tracker](https://www.vesseltracker.com/)**: commercial maritime tracking platform combining AIS and satellite feeds
     - **[VinDecodr](https://vindecodr.com/)**: free VIN decoder for quick extraction of standard vehicle characteristics
     - **[World Aeronautical Database](https://worldaerodata.com/)**: reference database for airport, airline, and aircraft metadata
 - **[Wayback Machine](https://archive.org/web/)**: the Internet Archive’s searchable history of archived web pages
@@ -1224,13 +1171,11 @@ ncrypted file samples
     - **[Daily DNS Changes](https://dailychanges.domaintools.com/)**: DomainTools service monitoring DNS record changes
     - **[DNSstuff](https://www.dnsstuff.com/freetools)**: suite of free DNS and network tools providing lookups, DNS checks, and WHOIS information
     - **[Domain Dossier](https://centralops.net/co/DomainDossier.aspx)**: free web-based tool that aggregates WHOIS, DNS, and network information for domains
-    - **[Domaincrawler.com](https://domaincrawler.com/)**: enterprise-grade domain database covering 1.4+ billion registered and unregistered domains
     - **[domainIQ](https://www.domainiq.com/)**: comprehensive domain intelligence platform offering reverse lookups, ownership history
     - **[DomainTools Whois](https://whois.domaintools.com/)**: a WHOIS lookup service for domain registration and hosting details
     - **[easyWhois](https://www.easywhois.com/)**: free domain WHOIS lookup and DNS tools service
     - **[ICANN Lookup](https://lookup.icann.org/)**: ICANN’s official registration-data lookup for domains
     - **[IP2WHOIS](https://www.ip2whois.com)**: free WHOIS lookup service for domain names and IP addresses
-    - **[MarkMonitor Whois Search](https://domains.markmonitor.com/whois/)**: ICANN-accredited registrar and brand protection company offering WHOIS lookup
     - **[Netlas.io](https://app.netlas.io/whois_domains/)**: comprehensive internet-wide scanning and OSINT platform providing DNS, WHOIS, SSL
     - **[Robtex](https://robtex.com/)**: comprehensive free DNS lookup and network intelligence tool
     - **[SWITCH Internet Domains Whois (.ch)](https://www.nic.ch/whois/)**: official Swiss domain registry WHOIS lookup service operated by SWITCH for .ch
@@ -1293,7 +1238,6 @@ ncrypted file samples
         - **[Subgraph OS](https://subgraph.com/)**: adversary-resistant alpha-stage operating system featuring hardened kernel, application sandboxing
         - **SUSE Family**
             - **[openSUSE](https://doc.opensuse.org/)**: a community distribution available in rolling and stable editions
-            - **[SLES (SUSE Linux Enterprise Server)](https://documentation.suse.com/sles/)**: an enterprise-grade server operating system designed for mission-critical workloads
         - **[VMware Workstation Player](https://www.vmware.com/products/player/playerpro-evaluation.html)**: free lightweight desktop virtualization application
 - **Virtualization**
     - **Hypervisors**
@@ -1356,7 +1300,6 @@ ncrypted file samples
 - **[ALFA Wi-Fi Adapter](https://docs.alfa.com.tw/)**: an external wireless adapter commonly used for Wi-Fi monitoring and security testing
 - **[Bus Pirate Kit](https://docs.buspirate.com/)**: a hardware interface for communicating with and debugging electronic buses and chips
 - **[CatSniffer](https://github.com/ElectronicCats/CatSniffer)**: a wireless security tool for monitoring and analyzing IoT radio protocols
-- **[Cloud C²](https://documentation.hak5.org/cloud-c2/)**: a self-hosted server for remotely managing deployed Hak5 devices
 - **Embedded Systems**
     - **Firmware**
         - **[ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder/wiki)**: Wi-Fi and Bluetooth security-testing firmware for compatible ESP32 boards
@@ -1457,8 +1400,6 @@ ncrypted file samples
         - **[Kuna](https://kuna.noelo.org/)**: a Rust-based decompiler, derived from Ghidra, for fast binary decompilation and AI-assisted reverse engineering
         - **[PyLingual](https://pylingual.io/)**: an online decompiler for Python bytecode (.pyc) files
     - **[Ghidra](https://github.com/NationalSecurityAgency/ghidra)**: an open-source reverse-engineering suite developed by the NSA
-    - **[Hopper](https://www.hopperapp.com/)**: a commercial disassembler and decompiler primarily used for macOS, Linux, and iOS applications
-    - **[IDA Pro](https://docs.hex-rays.com/)**: a commercial disassembler and debugger for reverse engineering binaries
     - **[Operation Mango](https://www.usenix.org/conference/usenixsecurity24/presentation/gibbs)**: a static-analysis system for finding taint-style vulnerabilities in Linux-based firmware
     - **[radare2](https://book.rada.re/)**: an open-source framework for reverse engineering and binary analysis
     - **[REA (Reverse Engineer Anything)](https://github.com/morluto/rea)**: an AI-agent toolkit using CLI and MCP to analyze binaries, apps, and runtime behavior
@@ -1468,7 +1409,6 @@ ncrypted file samples
 
 ## Scanning and Reconnaissance
 - **ASM (Attack Surface Management)**
-    - **[Armada](https://risk3sixty.com/secure/attack-surface-management)**: risk3sixty’s offensive security and attack surface management platform
     - **[ImmuniWeb](https://www.immuniweb.com/)**: AI-powered application security platform for web penetration testing and vulnerability scanning
     - **[Sn1per](https://github.com/1N3/Sn1per)**: an automated reconnaissance and attack surface scanning framework
 - **Enumeration**
@@ -1506,7 +1446,6 @@ ncrypted file samples
         - **[ZoomEye](https://www.zoomeye.ai/)**: an internet asset search engine developed in China
     - **[ZMap](https://github.com/zmap/zmap)**: a high-speed scanner designed for internet-wide network surveys
 - **Network Scanning**
-    - **[BinaryEdge](https://www.binaryedge.io/)**: commercial security research platform with internet-wide scanning and module-based detection
     - **[Fing](https://www.fing.com/)**: a network scanner for discovering and identifying connected devices
     - **[gateway-finder](https://pentestmonkey.net/tools/gateway-finder)**: a Scapy script that finds LAN hosts that forward traffic to the internet
     - **[hidemy.io Port Scanner](https://hidemy.io/en/port-scanner/)**: an online scanner for checking open ports on a host
@@ -1563,7 +1502,6 @@ ncrypted file samples
 
 
 ## TODO
-* [HackTrix](https://hacktricks.wiki/en/network-services-pentesting/pentesting-web/web-api-pentesting.html)
 * [Shellphish Repositories](https://github.com/orgs/shellphish/repositories)
 * [The Hack Pack Resources](https://thehackpack.org/resources/intro/ )
 * [Awesome Security Newsletters](https://github.com/TalEliyahu/awesome-security-newsletters)
