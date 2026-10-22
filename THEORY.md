@@ -1,26 +1,3 @@
-<details>
-<summary>📖 Table of Contents</summary>
-<br />
-
-- [Artificial Intelligence](#artificial-intelligence)
-- [Blockchain](#blockchain)
-- [Cloud Security](#cloud-security)
-- [Cryptography](#cryptography)
-- [Defensive Security (Blue Team)](#defensive-security-blue-team)
-- [Forensics](#forensics)
-- [Log Analysis](#log-analysis)
-- [Network Traffic Analysis](#network-traffic-analysis)
-- [Offensive Security (Red Team)](#offensive-security-red-team)
-- [Open Source Intelligence (OSINT)](#open-source-intelligence-osint)
-- [Operating Systems](#operating-systems)
-- [Password Cracking](#password-cracking)
-- [Physical Security & Internet of Things (IoT)](#physical-security--internet-of-things-iot)
-- [PWN](#pwn)
-- [Scanning and Reconnaissance](#scanning-and-reconnaissance)
-- [Web Exploitation](#web-exploitation)
-
-</details>
-
 ## Artificial Intelligence
 - **Prompt Injection**: manipulating an AI system through crafted instructions that override or alter its intended behavior
 - **Jailbreak**: a prompt-injection technique designed to bypass an AI system’s safety restrictions
@@ -38,8 +15,10 @@
 - **Cryptocurrency Exchange Aggregator**: compares or routes trades through multiple cryptocurrency exchange services
 - **Cryptocurrency Wallet**: manages the cryptographic keys required to access and transact with cryptocurrency
 - **NFT (Non-Fungible Token)**: a unique blockchain token associated with a distinct digital or physical asset
+- **Smart Contract**: a program stored on a blockchain that runs automatically when its conditions are met
 
 ## Cloud Security
+- **CI/CD Security**: protecting build and deployment pipelines and their secrets from tampering
 - **Cloud Enumeration**: discovering an organization’s cloud accounts, storage buckets, and SaaS services
 - **Containerization**: packages applications and their dependencies into isolated, portable environments
     - **Container Image**: an immutable package containing an application, its dependencies, and its runtime configuration
@@ -69,6 +48,7 @@
                 - **Discoverable (Resident) Credential**: can be located by an authenticator without a supplied credential identifier
                     - **Passkey**: a discoverable FIDO credential designed for passwordless authentication
     - **Kerberos**: a ticket-based network authentication protocol that relies on a trusted third party
+    - **NTLM (NT LAN Manager)**: a legacy Windows challenge-response authentication protocol
     - **PIV (Personal Identity Verification)**: a federal smart-card standard for identity credentials and authentication
     - **SSH Key Authentication**: authenticates SSH connections using a public-and-private key pair
         - **TOFU (Trust on First Use)**: initially accepts an unknown host key and warns if that key later changes        
@@ -98,6 +78,8 @@
     - **Side-Channel Attack**: extracts secrets from implementation leakage such as timing or power consumption
     - **BULLRUN**: a reported NSA program intended to defeat or undermine encryption technologies
 - **Cryptographic Primitive**: a fundamental algorithm used to construct cryptographic systems
+    - **KDF (Key Derivation Function)**: derives secret keys from a password or other secret, often slowly to resist cracking
+    - **MAC (Message Authentication Code)**: a short tag that verifies a message’s integrity and authenticity using a shared key
     - **One-Way Function**: a function that is easy to compute but computationally difficult to reverse
         - **Trapdoor Function**: a one-way function that can be efficiently reversed using secret information
     - **Zero-Knowledge Proof (ZKP)**: proves that a statement is true without revealing the underlying secret
@@ -111,6 +93,7 @@
         - **TLS Certificate**: authenticates a network service and enables protected TLS communications
 - **PGP (Pretty Good Privacy)**: a system for encrypting and digitally signing data
     - **OpenPGP**: the interoperable standard for PGP-compatible encryption and digital signatures
+- **TLS (Transport Layer Security)**: a protocol that encrypts and authenticates network connections such as HTTPS
 - **ZTA (Zero Trust Architecture)**: a security architecture that grants no implicit trust and continually evaluates access decisions
 
 ## Defensive Security (Blue Team)
@@ -127,6 +110,7 @@
     - **MDM (Mobile Device Management)**: centrally manages mobile devices such as smartphones and tablets
     - **UEM (Unified Endpoint Management)**: centrally manages multiple endpoint classes through a unified platform
 - **GRC (Governance, Risk, and Compliance)**: coordinates organizational governance, risk management, and compliance activities
+    - **Threat Modeling**: identifying likely threats to a system and the controls that address them
 - **Incident Response**: prepares for, detects, contains, eradicates, and recovers from security incidents
     - **CSIRT (Computer Security Incident Response Team)**: a team responsible for coordinating and performing IR activities
     - **Security Case Study**: examines a real-world cyber attack, data breach, or defense implementation
@@ -257,6 +241,7 @@
 ## Offensive Security (Red Team)
 - **Bug Bounty Programs** reward ethical hackers who identify and responsibly disclose vulnerabilities
 - **Card Skimming**: stealing payment-card data using a hidden reader
+- **Defense Evasion**: techniques for avoiding detection by antivirus, EDR, and other security controls
 - **DNS Tunneling**: hiding command traffic or transferred data inside DNS queries
 - **DoS (Denial of Service):** makes a service unavailible
 - **DDoS (Distributed Denial-of-Service)**: overwhelming a service with traffic from multiple systems
@@ -264,7 +249,7 @@
     - **DNS Amplification**: abusing DNS servers to multiply denial-of-service traffic
 - **Evil Maid**: altering or compromising a device while it is unattended
 - **Hardware Backdoor**: using a hidden hardware mechanism to bypass normal security controls
-- **Living off the Land (LOTL)**: abusing legitimate built-in binaries, scripts, and drivers to carry out attacks
+- **Living off the Land (LOTL)**: abusing legitimate built-in binaries, scripts, and drivers to carry out attacks while evading detection
 - **Malware**: software designed to damage, disrupt, spy on, or exploit systems
     - **Adware**: software that displays unwanted advertisements and may track user activity
     - **Bloatware**: unnecessary preinstalled software that consumes system resources
@@ -281,10 +266,17 @@
         - **MalDoc**: a malicious document designed to execute code or deliver malware
         - **Remote Access Trojan (RAT)**: malware that gives an attacker remote control of a system
 - **MITM (Man-in-the-Middle Attack)**: secretly intercepting and possibly altering communication between parties
+- **Penetration Testing**: an authorized simulated attack to find and demonstrate exploitable weaknesses
 - **Pharming**: manipulating DNS or systems to redirect users to fraudulent websites
     - **DNS Hijacking**: altering DNS settings or records to redirect network traffic
+- **Post-Exploitation**: actions taken after initial access, such as stealing credentials, moving laterally, and collecting data
+    - **Credential Dumping**: extracting passwords, hashes, or tickets from a compromised system’s memory or files
+    - **Exfiltration**: transferring stolen data out of a target environment
+    - **Lateral Movement**: moving from one compromised system to others within a network
+    - **Pivoting**: using a compromised host to reach otherwise inaccessible networks, often by tunneling or port forwarding
 - **Privilege Escalation**: gaining higher permissions on a compromised system than were originally granted
 - **Reverse Shell**: a shell session in which the compromised target connects back to an attacker-controlled listener
+- **Sandbox Escape**: breaking out of a restricted environment such as a VM, container, kiosk, or language sandbox
 - **Social Engineering**: manipulating people into revealing information or performing unsafe actions
     - **Baiting**: offering something enticing to provoke an unsafe action
     - **ClickFix:** tricks users into executing malicious commands using fake CAPTCHAs, error messages, or troubleshooting alerts
@@ -454,6 +446,7 @@
 
 ## PWN
 - **ASLR (Address Space Layout Randomization)**: randomizes memory locations between executions
+    - **KASLR (Kernel ASLR)**: ASLR applied to the kernel’s memory layout
 - **Assembly**: low-level instructions executed by a processor
 - **Buffer**: a memory region used to temporarily store data
 - **BSS Section**: uninitialized global and static variables
@@ -462,6 +455,7 @@
 - **Concolic Execution**: combines concrete execution with symbolic analysis to discover new execution paths
 - **DEP (Data Execution Prevention)**: Windows protection preventing data memory from executing
 - **Dynamic Analysis (Binary Exploitation)**: examining a program while it executes
+    - **Anti-Debugging**: techniques software uses to detect or resist being debugged
     - **Binary Patching**: modifying machine code or data inside a compiled program
     - **Breakpoint**: a location where execution pauses for inspection
     - **Debugger**: pauses and inspects a program during execution
@@ -498,6 +492,7 @@
         - **Arbitrary Write**: writing data to an attacker-chosen memory address
         - **Information Leak**: exposing memory or data needed to bypass protections
     - **Instruction-Pointer Control**: controlling the address of the next executed instruction
+    - **Kernel Exploitation**: exploiting operating-system kernel vulnerabilities to gain the highest privileges
     - **Shellcode**: machine code delivered and executed as part of an exploit
     - **NOP Sled**: a sequence of no-operation instructions leading execution toward shellcode
     - **ret2win**: redirecting execution to an existing function that represents success
@@ -559,14 +554,28 @@
 
 ## Web Exploitation
 - **Broken Access Control**: improperly enforced permissions that allow users to access unauthorized data
+    - **Insecure Direct Object Reference (IDOR)**: accessing another user’s data by changing an identifier in a request
+- **Cache Poisoning**: tricking a cache into storing and serving a malicious response to other users
+- **Clickjacking**: tricking users into clicking hidden page elements layered beneath a decoy interface
+- **Command Injection**: injecting operating-system commands through application input
+- **Content Security Policy (CSP)**: a browser header that restricts which scripts and resources a page may load
+- **Cross-Origin Resource Sharing (CORS) Misconfiguration**: overly permissive cross-origin rules that let other sites read protected responses
+- **Cross-Site Request Forgery (CSRF)**: forcing a logged-in user’s browser to submit unwanted requests
 - **Cross-Site Scripting (XSS)**: injects malicious client-side scripts that execute in another user’s browser
+- **File Inclusion**: loading local or remote files through unsanitized input
+- **File Upload Vulnerability**: accepting uploaded files without proper validation, enabling malicious file execution
+- **HTTP Request Smuggling**: exploiting disagreements between servers about where an HTTP request ends
+- **Insecure Deserialization**: processing untrusted serialized data in a way that lets attackers run code or alter objects
 - **JSON Web Token (JWT):**  defines a compact and self-contained way to securely transmit info between parties as a JSON object
 - **Middleware**: software that connects applications, services, and underlying systems
+- **NoSQL Injection**: injecting operators into queries for NoSQL databases such as MongoDB
 - **Obfuscation**: disguises code, payloads, or requests to make them harder for users and security controls to understand or detect
+- **Open Redirect**: abusing a redirect parameter to send users to an attacker-controlled site
+- **Path Traversal**: reading files outside the intended directory using sequences such as ../
 - **Server-Side Request Forgery (SSRF)**: tricks a server into making requests to internal or external resources chosen by an attacker
+- **Server-Side Template Injection (SSTI)**: injecting template syntax that the server evaluates, often leading to code execution
 - **Session Hijacking**: taking over a user’s authenticated session by stealing or forging its session token
 - **SQL Injection (SQLi)**: injects malicious SQL through application inputs to manipulate queries or access a database
+- **Subdomain Takeover**: claiming a subdomain whose DNS record still points to a deprovisioned external service
 - **Web Shell**: a malicious script uploaded to a web server that lets an attacker run commands remotely
-
-<p align="right"><a href="#top">🔼 Back to top</a></p>
-</small>
+- **XML External Entity (XXE)**: abusing XML parsers that resolve external entities to read files or make requests
