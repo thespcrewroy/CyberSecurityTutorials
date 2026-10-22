@@ -88,7 +88,6 @@
 - **[AWS CLI](https://docs.aws.amazon.com/cli/)**: Amazon’s command-line tool for managing and enumerating AWS
 - **[Azure CLI](https://learn.microsoft.com/en-us/cli/azure/)**: Microsoft’s command-line tool for managing and enumerating Azure
 - **CI/CD Security**
-    - **[act](https://github.com/nektos/act)**: runs GitHub Actions workflows locally
     - **[Chain-bench](https://github.com/aquasecurity/chain-bench)**: audits software supply chains against the CIS benchmark
     - **[ggshield](https://github.com/GitGuardian/ggshield)**: GitGuardian’s CLI for catching secrets before they are committed
     - **[Nosey Parker](https://github.com/praetorian-inc/noseyparker)**: a fast scanner for secrets in text and Git history
@@ -125,11 +124,8 @@
 - **[Cloudflare](https://developers.cloudflare.com/fundamentals/security/)**: a cloud platform providing CDN, DNS, DDoS protection, and web security services
 - **Containerization**
     - **[Bottlerocket](https://bottlerocket.dev/)**: a minimal, security-focused Linux operating system built by AWS for running containers
-    - **Container Image**
-        - **[Dive](https://github.com/wagoodman/dive)**: a tool for inspecting container-image layers and identifying wasted space
     - **Container Orchestration**
         - **[Gatekeeper](https://github.com/open-policy-agent/gatekeeper)**: enforces Open Policy Agent policies as a Kubernetes admission controller
-        - **[K9s](https://github.com/derailed/k9s)**: a terminal UI for navigating and managing Kubernetes clusters
         - **[kube-hunter](https://github.com/aquasecurity/kube-hunter)**: hunts for security weaknesses in Kubernetes clusters
         - **[kubeaudit](https://github.com/Shopify/kubeaudit)**: audits Kubernetes clusters for common security issues
         - **[kubeletctl](https://github.com/cyberark/kubeletctl)**: a client for the kubelet API to find and exploit exposed kubelets
@@ -175,8 +171,6 @@
 - **[PowerZure](https://github.com/hausec/PowerZure)**: a PowerShell framework for assessing and exploiting Azure
 - **Secrets Management**
     - **[Google Cloud Secret Manager](https://cloud.google.com/secret-manager/docs)**: GCP’s service for storing API keys, passwords, and certificates
-- **Serverless Computing**
-    - **[LocalStack](https://github.com/localstack/localstack)**: emulates AWS services locally for testing
 - **[Stratus Red Team](https://github.com/Datadog/stratus-red-team)**: emulates cloud attack techniques for testing detections
 - **[TokenTactics](https://github.com/rvrsh3ll/TokenTactics)**: abuses Azure and Entra ID access and refresh tokens
 
