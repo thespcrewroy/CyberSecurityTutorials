@@ -180,6 +180,7 @@
     - **[LocalStack](https://github.com/localstack/localstack)**: emulates AWS services locally for testing
 - **[Stratus Red Team](https://github.com/Datadog/stratus-red-team)**: emulates cloud attack techniques for testing detections
 - **[TokenTactics](https://github.com/rvrsh3ll/TokenTactics)**: abuses Azure and Entra ID access and refresh tokens
+
 ## Cryptography
 - **Authentication**
     - **Kerberos**
@@ -1772,13 +1773,6 @@
 - **[WPScan](https://github.com/wpscanteam/wpscan)**: a security scanner designed for WordPress websites
 - **[ZAP (Zed Attack Proxy)](https://www.zaproxy.org/docs/)**: an open-source platform for testing web-application security
 
-
-## TODO
-* [GitHub Repo Watchlist](https://github.com/stars/thespcrewroy/lists/my-repo-watchlist)
-* Orrin Adotavi ADP Stack
-* [Student Discounts](https://docs.google.com/document/d/1uKuvSKlZcADBmoY-O5sF5rBQE6kMSPbRxr7UpVni1f8/edit?tab=t.5lo6aln59n65)
-* Take the finished list and add it to thehackpack website (make it in the style of [OSINT Framework](https://github.com/lockfale/osint-framework) and/or [HackTricks](https://github.com/HackTricks-wiki/hacktricks) or like the NASA Space Apps Challenge Vector Database). AI API will automatically find the correct tool you are looking for using the vector database
-* Friendly Hacker Resources aggregators still to mine: [Bellingcat Online Investigation Toolkit](https://bit.ly/bcattools), [Awesome OSINT](https://github.com/jivoi/awesome-osint), [Awesome Forensics](https://github.com/Cugu/awesome-forensics), [OSINT Dojo Resources](https://www.osintdojo.com/resources/), [Steganography Tool List](https://0xrick.github.io/lists/stego/), [Rumkin Cipher Tools](https://rumkin.com/tools/cipher/), [WebHackersWeapons](https://github.com/hahwul/WebHackersWeapons), [My Arsenal of AWS Security Tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools), [Awesome Electron.js Hacking](https://github.com/doyensec/awesome-electronjs-hacking), [Awesome Industrial Protocols](https://github.com/Orange-Cyberdefense/awesome-industrial-protocols), [Awesome Cloud Security](https://github.com/RyanJarv/awesome-cloud-sec), [Awesome Flipper Zero](https://github.com/djsime1/awesome-flipperzero), [Chateau Forge Toolbox](https://tools.chateauforge.com/dashboard)
 
 <p align="right"><a href="#top">🔼 Back to top</a></p>
 </small>
