@@ -197,6 +197,7 @@
             - **[OpenLDAP](https://www.openldap.org/)**: an open-source implementation of the Lightweight Directory Access Protocol
     - **[Google Authenticator](https://shorturl.at/CdUos)**: a mobile application that generates verification codes for two-factor authentication
     - **GPO (Group Policy Object)**
+        - **[Grouper2](https://github.com/l0ss/Grouper2)**: finds security-relevant misconfigurations in Active Directory Group Policy
         - **[Local Group Policy Editor](https://shorturl.at/NjQIl)**: a Microsoft utility for configuring local Group Policy settings
     - **[JumpCloud](https://support.jumpcloud.com/)**: a cloud platform for managing identities, devices, authentication, and access
     - **[Microsoft Authenticator](https://shorturl.at/9NEvE)**: a mobile application supporting multifactor and passwordless authentication
@@ -303,6 +304,7 @@
     - **Passwords**
         - **[CIS Password Policy Guide](https://www.cisecurity.org/insights/white-papers/cis-password-policy-guide)**: CIS guidance for managing enterprise password policies
         - **[Have I Been Pwned](https://haveibeenpwned.com/)**: a service for checking whether email addresses or passwords appear in known breaches
+        - **[lil-pwny](https://github.com/PaperMtn/lil-pwny)**: audits Active Directory passwords against Have I Been Pwned and custom lists
         - **Password Managers**
             - **[Bitwarden](https://bitwarden.com/help/)**: an open-source password manager supporting hosted and self-hosted vaults
             - **[Google Password Manager](https://support.google.com/accounts/answer/6208650)**: Google’s browser- and account-integrated credential manager
@@ -351,6 +353,7 @@
         - **Cyber Kill Chain**
             - **[Lockheed Martin Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)**: Lockheed Martin’s original description of the Cyber Kill Chain model
         - **[Cymon Open Threat Intelligence](https://cymon.io/)**: largest open tracker of malware, phishing, botnets containing 6M+ malicious IPs
+        - **[DeTTECT](https://github.com/rabobank-cdc/DeTTECT)**: maps detection and data-source coverage against MITRE ATT&CK
         - **[Elections Infrastructure Information Sharing and Analysis Center](https://www.cisecurity.org/ei-isac)**: cybersecurity support and threat sharing for elections
         - **[Global Terrorism Database](https://www.start.umd.edu/research-projects/global-terrorism-database-gtd)**: academic database of terrorist attacks maintained by START at University of Maryland
         - **[HGTech Hacker Chatter](https://thehgtech.com/hacker-chatter.html)**: a live feed of hacker-forum chatter about breaches and incidents
@@ -384,6 +387,8 @@
         - **[UN Security Council Consolidated List](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list)**: official UN Security Council list of designated individuals and entities
         - **[VirusTotal](https://docs.virustotal.com/)**: analyzes files, URLs, domains, and IP addresses for malicious activity
     - **[ENISA Incident Response Plan](https://www.enisa.europa.eu/topics/eu-incident-response-and-cyber-crisis-management)**: IR and resilience guidance from ENISA
+    - **Honeypot**
+        - **[endlessh](https://github.com/skeeto/endlessh)**: an SSH tarpit that traps scanners by sending an endless banner
     - **IDS/IPS (Intrusion Detection & Intrusion Prevention System)**
         - **[Snort](https://www.snort.org/)**: open-source network intrusion detection and prevention system
         - **[Suricata](https://docs.suricata.io/)**: an open-source intrusion-detection, intrusion-prevention, and network-monitoring engine
@@ -574,15 +579,21 @@
     - **[HackerOne](https://www.hackerone.com/)**: a bug bounty platform connecting ethical hackers with companies
     - **[Intigriti](https://www.intigriti.com/)**: a European bug bounty and pentest-as-a-service platform with a global researcher community
     - **[Open Bug Bounty](https://www.openbugbounty.org/)**: a platform for reporting web vulnerabilities through coordinated disclosure
+- **Defense Evasion**
+    - **[xencrypt](https://github.com/the-xentropy/xencrypt)**: encrypts PowerShell payloads to evade antivirus detection
 - **[Exploit Database](https://www.exploit-db.com/)**: an archive of public exploits and vulnerable software maintained by OffSec
     - **[SearchSploit](https://www.exploit-db.com/searchsploit)**: a command-line interface for searching the Exploit Database
 - **[fireELF](https://github.com/rek7/fireELF)**: a framework for executing fileless Linux payloads from memory
+- **[jackdaw](https://github.com/skelsec/jackdaw)**: collects Active Directory data and graphs attack paths
 - **Living off the Land (LOTL)**
     - **[GTFOBins](https://gtfobins.org/)**: Unix binaries that can be abused to bypass local security restrictions
     - **[LOLBAS](https://lolbas-project.github.io/)**: Windows binaries, scripts, and libraries that attackers can abuse
     - **[LOLDrivers](https://www.loldrivers.io/)**: a catalog of vulnerable and malicious Windows drivers
 - **[Metasploit Framework](https://docs.metasploit.com/)**: a platform for developing, testing, and executing exploits
 - **[NetExec](https://www.netexec.wiki/)**: a tool for assessing and automating attacks against network services
+- **Post-Exploitation**
+    - **Lateral Movement**
+        - **[PoisonHandler](https://github.com/Mr-Un1k0d3r/PoisonHandler)**: moves laterally by registering a malicious Windows protocol handler
 - **Privilege Escalation**
     - **[PEASS-ng (LinPEAS/WinPEAS)](https://github.com/peass-ng/PEASS-ng)**: scripts that enumerate Linux, Windows, and macOS hosts for privilege-escalation paths
     - **[unix-privesc-check](https://pentestmonkey.net/tools/audit/unix-privesc-check)**: a shell script that finds misconfigurations letting local users escalate privileges on Unix systems
@@ -688,6 +699,7 @@
     - **Certificate Transparency**
         - **[certgraph](https://github.com/lanrat/certgraph)**: CLI tool that crawls SSL certificates via Certificate Transparency logs
         - **[CertKit Transparency Log Search](https://www.certkit.io/tools/ct-logs/)**: fast Certificate Transparency log search tool using Clickhouse
+        - **[crt.sh](https://crt.sh/)**: a searchable index of Certificate Transparency logs for finding subdomains
         - **[Google's Certificate Transparency](https://www.certificate-transparency.org/known-logs)**: directory of all known Certificate Transparency logs monitored
         - **[Spyse](https://spyse.com/search/certificate)**: internet assets registry providing certificate search, domain intelligence
     - **[Change Detection](https://changedetection.io/)**: open-source change-monitoring system for tracking updates on websites over time
@@ -1308,6 +1320,8 @@
 - **Embedded Systems**
     - **Firmware**
         - **[ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder/wiki)**: Wi-Fi and Bluetooth security-testing firmware for compatible ESP32 boards
+        - **[FACT](https://github.com/fkie-cad/FACT_core)**: Firmware Analysis and Comparison Tool for automated firmware unpacking and analysis
+        - **[firmwalker](https://github.com/craigz28/firmwalker)**: searches extracted firmware file systems for credentials, keys, and config files
         - **[FreshTomato](https://wiki.freshtomato.org/)**: open-source replacement firmware for supported wireless routers
     - **GPIO Board**
         - **[Raspberry Pi](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html)**: a single-board computer with GPIO support for hardware and networking projects
@@ -1385,6 +1399,7 @@
         - **[OnlineGDB](https://www.onlinegdb.com/)**: an online compiler and debugger for C and C++
 - **Emulation**
     - **[AIM (Automatic Interrupt Modeling)](https://arxiv.org/abs/2312.01195)**: a system that automatically models interrupts for dynamic firmware analysis
+    - **[FIRMADYNE](https://github.com/firmadyne/firmadyne)**: automates emulation and dynamic analysis of Linux-based firmware
 - **Exploit**
     - **Race Condition**
         - **[SDRacer](https://arxiv.org/abs/2305.17869)**: a system for detecting, validating, and repairing race conditions in interrupt-driven embedded software
@@ -1418,6 +1433,7 @@
     - **[Sn1per](https://github.com/1N3/Sn1per)**: an automated reconnaissance and attack surface scanning framework
 - **Enumeration**
     - **DNS Enumeration**
+        - **[aiodnsbrute](https://github.com/blark/aiodnsbrute)**: brute-forces subdomains with fast asynchronous DNS queries
         - **[AltDNS](https://github.com/infosec-au/altdns)**: permutation-based DNS tool that generates and resolves alternative subdomains from known names
         - **[Amass](https://github.com/owasp-amass/amass)**: a tool for discovering subdomains and mapping external attack surfaces
         - **[Aquatone](https://github.com/michenriksen/aquatone)**: Go-based tool for domain reconnaissance that automates subdomain discovery, HTTP service scanning
@@ -1428,9 +1444,11 @@
         - **[Fierce Domain Scanner](https://github.com/davidpepper/fierce-domain-scanner)**: DNS reconnaissance tool focused on subdomain discovery and non-contiguous IP space mapping
         - **[FindSubDomains](https://findsubdomains.com/)**: free web-based automated subdomain discovery tool with filtering
         - **[gdns](https://github.com/hrbrmstr/gdns)**: Google DNS-focused command-line tool for DNS lookup and domain record exploration
+        - **[github-subdomains](https://github.com/gwen001/github-subdomains)**: finds subdomains mentioned in public GitHub code
         - **[Google Admin Toolbox Dig](https://toolbox.googleapps.com/apps/dig/)**: Google’s browser-based dig for querying DNS records
         - **[Knockpy](https://github.com/guelfoweb/knock)**: a Python tool for enumerating subdomains
         - **[Netcraft Search DNS](https://searchdns.netcraft.com/)**: Netcraft’s search for sites and subdomains matching a domain
+        - **[Nmmapper Subdomain Finder](https://www.nmmapper.com/sys/tools/subdomainfinder/)**: runs Sublist3r, Amass, and other subdomain finders from one web page
         - **[OWASP Maryam](https://github.com/saeeddhqan/Maryam)**: modular OWASP OSINT framework with footprinting and search modules for multi-source reconnaissance
         - **[PentestTools Subdomains](https://pentest-tools.com/information-gathering/find-subdomains-of-domain)**: web-based subdomain finder that enumerates subdomains for a given domain
         - **[Robtex DNS Lookup](https://www.robtex.com/dns-lookup/)**: a DNS lookup that maps related domains, IPs, and records
@@ -1446,14 +1464,17 @@
     - **[GreyNoise](https://docs.greynoise.io/)**: a threat-intelligence platform that identifies internet-wide scanning activity
     - **Internet Asset Search Engine**
         - **[Censys](https://censys.com/)**: an internet-wide search engine for hosts, services, and certificates
+        - **[FOFA](https://en.fofa.info/)**: a Chinese search engine for internet-exposed hosts, services, and devices
         - **[Insecam](https://en.wikipedia.org/wiki/Insecam)**: an index of publicly accessible and unsecured CCTV streams
         - **[Shodan](https://help.shodan.io/)**: a search engine for internet-connected devices and services
         - **[ZoomEye](https://www.zoomeye.ai/)**: an internet asset search engine developed in China
+    - **[Kamerka-GUI](https://github.com/woj-ciech/Kamerka-GUI)**: maps exposed ICS and IoT devices from internet scan data
     - **[ZMap](https://github.com/zmap/zmap)**: a high-speed scanner designed for internet-wide network surveys
 - **Network Scanning**
     - **[Fing](https://www.fing.com/)**: a network scanner for discovering and identifying connected devices
     - **[gateway-finder](https://pentestmonkey.net/tools/gateway-finder)**: a Scapy script that finds LAN hosts that forward traffic to the internet
     - **[hidemy.io Port Scanner](https://hidemy.io/en/port-scanner/)**: an online scanner for checking open ports on a host
+    - **[httprobe](https://github.com/tomnomnom/httprobe)**: checks a list of domains for live HTTP and HTTPS servers
     - **[Internet Census Search](https://www.exfiltrated.com/querystart.php)**: search interface for the Shodan-like internet census data and open services
     - **[Masscan](https://github.com/robertdavidgraham/masscan)**: ultra-fast TCP port scanner designed for scanning large IP ranges and entire networks
     - **[Nmap](https://nmap.org/book/man.html)**: a network scanner for discovering hosts, ports, services, and operating systems
@@ -1474,6 +1495,8 @@
     - **[Zone-H.org](https://zone-h.org/archive)**: archive of reported website defacements and related incident metadata maintained
 
 ## Web Exploitation
+- **Broken Access Control**
+    - **[Autorize](https://github.com/PortSwigger/autorize)**: a Burp extension that automatically tests requests for authorization bypasses
 - **[Burp Suite](https://portswigger.net/burp/documentation)**: a web-security testing platform for intercepting and modifying HTTP traffic
 - **[Chrome DevTools](https://developer.chrome.com/docs/devtools)**: built-in browser tools for inspecting HTML, network requests, and cookies
 - **Cross-Site Scripting (XSS)**
@@ -1483,6 +1506,8 @@
 - **[ffuf](https://github.com/ffuf/ffuf)**: a fast web fuzzer for discovering hidden files, directories, and parameters
 - **[Firefox DevTools](https://firefox-source-docs.mozilla.org/devtools-user/)**: Firefox’s built-in tools for inspecting pages, requests, and storage
 - **[Gobuster](https://github.com/OJ/gobuster)**: a tool for discovering web paths, DNS names, and virtual hosts
+- **[hakrawler](https://github.com/hakluke/hakrawler)**: a fast web crawler for discovering URLs and JavaScript files
+- **[JSFinder](https://github.com/Threezh1/JSFinder)**: extracts subdomains and URLs from a site’s JavaScript files
 - **[Netcraft Site Report](https://sitereport.netcraft.com/)**: reports a website’s hosting, technologies, and history
 - **Obfuscation**
     - **[DDecode - PHP Decoder](https://ddecode.com/phpdecoder/)**: online decoder for layered PHP obfuscation chains such as eval, base64, gzinflate
@@ -1495,6 +1520,7 @@
     - **[SpiderMonkey](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey)**: Mozilla JavaScript engine used by Firefox and available for standalone execution
 - **[OWASP Top 10](https://owasp.github.io/www-project-top-ten/)**: the ten most critical web application security risks
 - **[Postman](https://learning.postman.com/docs/)**: an API platform for creating, sending, and testing HTTP requests
+- **[postMessage-tracker](https://github.com/fransr/postMessage-tracker)**: a Chrome extension that logs postMessage listeners on a page
 - **SQL Injection (SQLi)**
     - **[sqlmap](https://sqlmap.org/)**: a tool for detecting and testing SQL-injection vulnerabilities
 - **[Wappalyzer](https://www.wappalyzer.com/)**: a browser extension that identifies the technologies a website uses
