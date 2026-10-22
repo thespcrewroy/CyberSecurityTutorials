@@ -559,7 +559,7 @@
 - **Clickjacking**: tricking users into clicking hidden page elements layered beneath a decoy interface
 - **Command Injection**: injecting operating-system commands through application input
 - **Content Security Policy (CSP)**: a browser header that restricts which scripts and resources a page may load
-- **Cross-Origin Resource Sharing (CORS) Misconfiguration**: overly permissive cross-origin rules that let other sites read protected responses
+- **Cross-Origin Resource Sharing (CORS) Misconfig**: overly permissive cross-origin rules that let other sites read protected responses
 - **Cross-Site Request Forgery (CSRF)**: forcing a logged-in user’s browser to submit unwanted requests
 - **Cross-Site Scripting (XSS)**: injects malicious client-side scripts that execute in another user’s browser
 - **File Inclusion**: loading local or remote files through unsanitized input
