@@ -20,10 +20,18 @@
 ## Cloud Security
 - **CI/CD Security**: protecting build and deployment pipelines and their secrets from tampering
 - **Cloud Enumeration**: discovering an organization’s cloud accounts, storage buckets, and SaaS services
+- **Cloud Service Model**: the division of responsibility between a cloud provider and its customer
+    - **IaaS (Infrastructure as a Service)**: rented virtual machines, storage, and networks that the customer manages
+    - **PaaS (Platform as a Service)**: a managed platform where customers deploy code without managing servers or operating systems
+    - **SaaS (Software as a Service)**: complete applications delivered over the internet and managed by the provider
 - **Containerization**: packages applications and their dependencies into isolated, portable environments
     - **Container Image**: an immutable package containing an application, its dependencies, and its runtime configuration
     - **Container Orchestration**: automates the deployment, scaling, networking, and management of containers
     - **Container Security**: protects container images, runtimes, registries, and orchestration environments from threats
+- **IaC (Infrastructure as Code)**: defining and provisioning infrastructure through configuration files such as Terraform or Ansible
+- **IAM (Identity and Access Management)**: the cloud policies, roles, and permissions that control who can do what
+- **IMDS (Instance Metadata Service)**: a cloud endpoint that gives instances their configuration and temporary credentials
+- **Serverless Computing**: running code as on-demand functions without managing servers
  
 ## Cryptography
 - **Alice and Bob**: placeholder names representing participants in cryptographic protocols
@@ -52,6 +60,7 @@
     - **PIV (Personal Identity Verification)**: a federal smart-card standard for identity credentials and authentication
     - **SSH Key Authentication**: authenticates SSH connections using a public-and-private key pair
         - **TOFU (Trust on First Use)**: initially accepts an unknown host key and warns if that key later changes        
+    - **SSO (Single Sign-On)**: lets one login through an identity provider such as Okta grant access to many services
 - **Authorization**: determines which resources or actions an identity is permitted to access
     - **Delegated Authorization**: allows one application to access resources on behalf of a user
         - **OAuth2 (Open Authorization 2.0)**: a framework for granting delegated access without sharing the user’s password
@@ -88,6 +97,7 @@
 - **Data-at-Rest Encryption**: protects stored information from unauthorized access
     - **FDE (Full-Disk Encryption)**: encrypts an entire storage device to protect its contents
 - **Encoding**: converts data into another representation for storage or transmission without providing secrecy
+- **HSM (Hardware Security Module)**: tamper-resistant hardware that generates, stores, and uses cryptographic keys
 - **PKI (Public Key Infrastructure)**: manages public keys, digital certificates, certificate authorities, and trust relationships
     - **Digital Certificate**: digitally binds an identity to a public key
         - **TLS Certificate**: authenticates a network service and enables protected TLS communications
@@ -559,7 +569,7 @@
 - **Clickjacking**: tricking users into clicking hidden page elements layered beneath a decoy interface
 - **Command Injection**: injecting operating-system commands through application input
 - **Content Security Policy (CSP)**: a browser header that restricts which scripts and resources a page may load
-- **Cross-Origin Resource Sharing (CORS) Misconfig**: overly permissive cross-origin rules that let other sites read protected responses
+- **Cross-Origin Resource Sharing (CORS) Misconfiguration**: overly permissive cross-origin rules that let other sites read protected responses
 - **Cross-Site Request Forgery (CSRF)**: forcing a logged-in user’s browser to submit unwanted requests
 - **Cross-Site Scripting (XSS)**: injects malicious client-side scripts that execute in another user’s browser
 - **File Inclusion**: loading local or remote files through unsanitized input
