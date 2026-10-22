@@ -122,6 +122,7 @@
 * [2 June] [OSDF Conference](https://www.osdfcon.org/): a conference focused on open-source digital forensics
 
 ## Newsletter
+* [Awesome Security Newsletters](https://github.com/TalEliyahu/awesome-security-newsletters): a curated list of cybersecurity newsletters by topic
 * [Brutalist Report](https://brutalist.report/): the day's headlines delivered to you without bullshit
 * [LakeraAI Blog](https://www.lakera.ai/blog): research blog goes into Indirect Prompt Injection with real attack scenarios
 
@@ -327,6 +328,7 @@
 - [PortSwigger SQL Injection Labs](https://portswigger.net/web-security/all-labs#sql-injection): free hands-on SQL injection labs from the Web Security Academy
 - [pwn.college](https://pwn.college/): a structured platform for learning binary exploitation and CTF skills
 - [Pwning OWASP Juice Shop](https://pwning.owasp-juice.shop/): the official companion guide and walkthrough for Juice Shop
+- [Randar Explanation](https://github.com/spawnmason/randar-explanation): a detailed write-up of the Randar exploit, which cracks Minecraft’s Java random-number generator to locate players
 - [Recover PEM Key](https://blog.cryptohack.org/twitter-secrets): a CryptoHack write-up on reconstructing an RSA private key from a partially redacted PEM file
 - [Red Team Notes (ired.team)](https://www.ired.team/): notes on red-team techniques, mostly for Windows and Active Directory
 - [Resources for Beginner Bug Bounty Hunters](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters): NahamSec’s curated starting guide for bug bounty hunting
