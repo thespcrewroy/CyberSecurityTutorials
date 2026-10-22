@@ -80,6 +80,10 @@ Tools without a free tier or free edition. Free and freemium tools live in TOOLS
 - **Wifi**
     - **[HPE Aruba Networking](https://arubanetworking.hpe.com/techdocs/ArubaDocPortal/content/docportal.htm)**: a vendor of wireless access points, switches, gateways, and network-management products
 
+## Offensive Security (Red Team)
+- **Post-Exploitation**
+    - **[Cobalt Strike](https://www.cobaltstrike.com/)**: a commercial adversary-simulation and command-and-control platform for red teams
+
 ## Open Source Intelligence (OSINT)
 - **Business Records**
     - **[Orbis Directory](https://orbisdirectory.bvdinfo.com/version-2016121/OrbisDirectory/Companies)**: bureau van Dijk's global company database covering 400+ million companies
