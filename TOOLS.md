@@ -84,13 +84,30 @@
     - **[OpenSea](https://opensea.io/)**: multi-chain NFT marketplace supporting 22+ blockchains
 
 ## Cloud Security
+- **[AADInternals](https://aadinternals.com/aadinternals/)**: a PowerShell toolkit for administering and attacking Entra ID and Microsoft 365
+- **CI/CD Security**
+    - **[act](https://github.com/nektos/act)**: runs GitHub Actions workflows locally
+    - **[Chain-bench](https://github.com/aquasecurity/chain-bench)**: audits software supply chains against the CIS benchmark
+    - **[ggshield](https://github.com/GitGuardian/ggshield)**: GitGuardian’s CLI for catching secrets before they are committed
+    - **[Nosey Parker](https://github.com/praetorian-inc/noseyparker)**: a fast scanner for secrets in text and Git history
+    - **[pwn_jenkins](https://github.com/gquere/pwn_jenkins)**: notes and scripts for attacking Jenkins servers
+    - **[TruffleHog](https://github.com/trufflesecurity/trufflehog)**: finds and verifies leaked secrets in code, repos, and cloud storage
 - **Cloud Enumeration**
     - **[AADInternals](https://github.com/Gerenios/AADInternals)**: PowerShell toolkit for Azure AD and Entra ID assessment, including tenant reconnaissance
     - **[AWSBucketDump](https://github.com/jordanpotti/AWSBucketDump)**: Python tool that enumerates AWS S3 buckets and optionally downloads accessible objects
+    - **[AzureHound](https://github.com/SpecterOps/AzureHound)**: collects Azure and Entra ID data for BloodHound
+    - **[Cartography](https://github.com/lyft/cartography)**: maps cloud infrastructure and relationships into a Neo4j graph
     - **[Checkov](https://github.com/bridgecrewio/checkov)**: infrastructure-as-code security scanner that checks Terraform, CloudFormation, Kubernetes
     - **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)**: policy-as-code engine for cloud governance and security
     - **[cloud_enum](https://github.com/initstring/cloud_enum)**: multi-cloud enumeration tool that looks for exposed AWS, Azure, and GCP storage assets
+    - **[CloudBrute](https://github.com/0xsha/CloudBrute)**: finds a company’s cloud storage and apps across providers
+    - **[CloudFox](https://github.com/BishopFox/cloudfox)**: finds exploitable attack paths in AWS and Azure environments
+    - **[cloudlist](https://github.com/projectdiscovery/cloudlist)**: lists assets across multiple cloud providers
+    - **[CloudMapper](https://github.com/duo-labs/cloudmapper)**: analyzes and visualizes AWS environments
     - **[CloudPEASS](https://github.com/peass-ng/CloudPEASS)**: finds permissions and privilege-escalation paths in AWS, Azure, and GCP
+    - **[CloudSploit](https://github.com/aquasecurity/cloudsploit)**: scans AWS, Azure, GCP, and OCI for security misconfigurations
+    - **[Cognito Scanner](https://github.com/padok-team/cognito-scanner)**: tests AWS Cognito user pools for misconfigurations
+    - **[GCP Scanner](https://github.com/google/gcp_scanner)**: Google’s tool for finding what a GCP credential can access
     - **[GCPBucketBrute](https://github.com/RhinoSecurityLabs/GCPBucketBrute)**: Google Cloud Storage bucket enumeration utility
     - **[goblob](https://github.com/Macmod/goblob)**: Go-based Azure blob storage enumeration utility designed
     - **[lazys3](https://github.com/nahamsec/lazys3)**: S3 bucket brute-forcing utility that generates candidate names from permutations
@@ -109,19 +126,61 @@
     - **Container Image**
         - **[Dive](https://github.com/wagoodman/dive)**: a tool for inspecting container-image layers and identifying wasted space
     - **Container Orchestration**
+        - **[Gatekeeper](https://github.com/open-policy-agent/gatekeeper)**: enforces Open Policy Agent policies as a Kubernetes admission controller
+        - **[K9s](https://github.com/derailed/k9s)**: a terminal UI for navigating and managing Kubernetes clusters
+        - **[kube-hunter](https://github.com/aquasecurity/kube-hunter)**: hunts for security weaknesses in Kubernetes clusters
+        - **[kubeaudit](https://github.com/Shopify/kubeaudit)**: audits Kubernetes clusters for common security issues
+        - **[kubeletctl](https://github.com/cyberark/kubeletctl)**: a client for the kubelet API to find and exploit exposed kubelets
+        - **[KubeLinter](https://github.com/stackrox/kube-linter)**: checks Kubernetes YAML and Helm charts for security issues
         - **[Kubernetes](https://kubernetes.io/docs/concepts/overview/)**: a platform that automates the deployment, scaling, and management of containerized applications
+        - **[Kubescape](https://github.com/kubescape/kubescape)**: scans Kubernetes clusters and manifests for misconfigurations
+        - **[kubesec](https://github.com/controlplaneio/kubesec)**: risk-scores Kubernetes resources
+        - **[KubiScan](https://github.com/cyberark/KubiScan)**: scans Kubernetes RBAC for risky permissions
+        - **[Kyverno](https://github.com/kyverno/kyverno)**: a policy engine for validating and enforcing Kubernetes resources
+        - **[Peirates](https://github.com/inguardians/peirates)**: a Kubernetes penetration-testing tool for privilege escalation
+        - **[Popeye](https://github.com/derailed/popeye)**: scans live Kubernetes clusters for misconfigurations
+        - **[rbac-police](https://github.com/PaloAltoNetworks/rbac-police)**: evaluates Kubernetes RBAC permissions with custom policies
     - **Container Security**
+        - **[amicontained](https://github.com/genuinetools/amicontained)**: shows what a container can do, including capabilities and namespaces
         - **[Docker Bench for Security](https://github.com/docker/docker-bench-security)**: a script that checks Docker hosts and containers against the CIS Docker Benchmark
+        - **[Falco](https://github.com/falcosecurity/falco)**: detects suspicious behavior in containers and hosts at runtime
         - **[Grype](https://oss.anchore.com/docs/guides/vulnerability/getting-started/)**: a vulnerability scanner for container images, filesystems, and software bills
         - **[kube-bench](https://github.com/aquasecurity/kube-bench)**: checks whether a Kubernetes deployment meets the CIS Kubernetes Benchmark
+        - **[Tetragon](https://github.com/cilium/tetragon)**: eBPF-based runtime security observability and enforcement
+        - **[Trivy](https://github.com/aquasecurity/trivy)**: scans containers, file systems, and IaC for vulnerabilities and misconfigurations
     - **[Docker](https://docs.docker.com/get-started/)**: a platform for building and running applications inside containers
+- **[FireProx](https://github.com/ustayready/fireprox)**: rotates source IPs through AWS API Gateway for each request
 - **[Google Security Command Center](https://cloud.google.com/security-command-center/docs/overview)**: Google Cloud’s platform for identifying vulnerabilities
+- **[GraphRunner](https://github.com/dafthack/GraphRunner)**: a post-exploitation toolset for Microsoft Graph and Entra ID
+- **IaC (Infrastructure as Code)**
+    - **[KICS](https://github.com/Checkmarx/kics)**: finds security flaws in IaC files such as Terraform, Kubernetes, and CloudFormation
+    - **[Terrascan](https://github.com/tenable/terrascan)**: scans infrastructure-as-code for security and compliance issues
+    - **[tfsec](https://github.com/aquasecurity/tfsec)**: a static analysis scanner for Terraform
+- **IAM (Identity and Access Management)**
+    - **[aws-vault](https://github.com/99designs/aws-vault)**: stores and uses AWS credentials securely from the command line
+    - **[Cloudsplaining](https://github.com/salesforce/cloudsplaining)**: flags least-privilege violations in AWS IAM policies
+    - **[enumerate-iam](https://github.com/andresriancho/enumerate-iam)**: brute-forces which AWS API calls a set of credentials can make
+    - **[GCP IAM Privilege Escalation](https://github.com/RhinoSecurityLabs/GCP-IAM-Privilege-Escalation)**: Rhino Security Labs’ scripts for escalating privileges in GCP
+    - **[Principal Mapper (PMapper)](https://github.com/nccgroup/PMapper)**: graphs AWS IAM principals to find privilege-escalation paths
+    - **[WeirdAAL](https://github.com/carnal0wnage/weirdAAL)**: the AWS Attack Library for enumerating and abusing AWS access
+- **[MFASweep](https://github.com/dafthack/MFASweep)**: checks which Microsoft services accept single-factor logins
+- **[MSOLSpray](https://github.com/dafthack/MSOLSpray)**: password-sprays Microsoft Online and Entra ID accounts
+- **[o365spray](https://github.com/0xZDH/o365spray)**: enumerates users and sprays passwords against Microsoft 365
 - **[Pacu](https://github.com/RhinoSecurityLabs/pacu)**: an open-source AWS exploitation framework for testing cloud environments
 
+- **[PowerZure](https://github.com/hausec/PowerZure)**: a PowerShell framework for assessing and exploiting Azure
+- **Serverless Computing**
+    - **[LocalStack](https://github.com/localstack/localstack)**: emulates AWS services locally for testing
+- **[Stratus Red Team](https://github.com/Datadog/stratus-red-team)**: emulates cloud attack techniques for testing detections
+- **[TokenTactics](https://github.com/rvrsh3ll/TokenTactics)**: abuses Azure and Entra ID access and refresh tokens
 ## Cryptography
 - **Authentication**
     - **Kerberos**
+        - **[Kekeo](https://github.com/gentilkiwi/kekeo)**: a toolkit for manipulating Kerberos tickets
+        - **[krbrelayx](https://github.com/dirkjanm/krbrelayx)**: Kerberos relaying and unconstrained-delegation abuse toolkit
         - **[MIT Kerberos](https://web.mit.edu/kerberos/)**: the reference open-source implementation of the Kerberos protocol
+        - **[Rubeus](https://github.com/GhostPack/Rubeus)**: a C# toolset for Kerberos interaction and abuse
+        - **[targetedKerberoast](https://github.com/ShutdownRepo/targetedKerberoast)**: Kerberoasts accounts by temporarily setting their SPNs
 - **Cipher**
     - **Classical Cipher**
         - **Substitution Cipher**
@@ -158,6 +217,8 @@
     - **[Cache Sleuth](https://www.cachesleuth.com/multidecoder/)**: a free collection of online tools and cipher solvers designed specifically for geocachers
     - **[Crypto Attacks](https://github.com/jvdsn/crypto-attacks)**: Python implementations of cryptographic attacks and utilities
     - **[dCode Cipher Identifier](https://www.dcode.fr/cipher-identifier)**: analyzes ciphertext to guess which cipher was used
+    - **[FeatherDuster](https://github.com/nccgroup/featherduster)**: a modular tool for automated cryptanalysis
+    - **[hash_extender](https://github.com/iagox86/hash_extender)**: performs hash length-extension attacks
     - **[iheartxor.py](https://hooked-on-mnemonics.blogspot.com/p/iheartxor.html)**: Python script for brute-forcing XOR-obfuscated strings within defined boundaries
     - **[NoMoreXOR.py](https://github.com/hiddenillusion/NoMoreXOR)**: Python utility for recovering long XOR keys using character frequency heuristics
     - **[unxor](https://github.com/tomchop/unxor)**: known-plaintext XOR analysis utility for deriving keystreams and recovering original content
@@ -372,6 +433,7 @@
         - **[MITRE ATT&CK](https://attack.mitre.org/)**: a knowledge base describing adversary tactics and techniques
         - **[mlsecproject / combine](https://github.com/mlsecproject/combine)**: tool for gathering and normalizing threat intelligence feeds from public sources
         - **[Mr.Looquer IOC Feed](https://iocfeed.mrlooquer.com/)**: threat intelligence feed providing IOC data with IPv4/IPv6 dual stack support
+        - **[phishing_catcher](https://github.com/x0rz/phishing_catcher)**: flags likely phishing domains from Certificate Transparency logs
         - **[Pulsedive](https://pulsedive.com/)**: free threat intelligence platform for enriching IPs, URLs, domains, and IOCs from OSINT feeds
         - **[RAND Terrorism Research](https://www.rand.org/topics/terrorism.html)**: RAND Corporation's collection of research and analysis on terrorism topics
         - **[ransomware.live](https://www.ransomware.live/)**: tracks ransomware groups, their victims, negotiations, and leak sites
@@ -389,6 +451,7 @@
     - **[ENISA Incident Response Plan](https://www.enisa.europa.eu/topics/eu-incident-response-and-cyber-crisis-management)**: IR and resilience guidance from ENISA
     - **Honeypot**
         - **[endlessh](https://github.com/skeeto/endlessh)**: an SSH tarpit that traps scanners by sending an endless banner
+        - **[sshesame](https://github.com/jaksi/sshesame)**: a fake SSH server that logs attacker activity
     - **IDS/IPS (Intrusion Detection & Intrusion Prevention System)**
         - **[Snort](https://www.snort.org/)**: open-source network intrusion detection and prevention system
         - **[Suricata](https://docs.suricata.io/)**: an open-source intrusion-detection, intrusion-prevention, and network-monitoring engine
@@ -417,12 +480,16 @@
     - **[Docker Explorer](https://github.com/google/docker-explorer)**: Google’s tool for forensically analyzing offline Docker file systems
     - **[Docker Forensics Toolkit](https://github.com/docker-forensics-toolkit/toolkit)**: extracts and interprets forensic artifacts from disk images of Docker hosts
     - **[DS_Store Parser](https://github.com/hanwenzhu/.DS_Store-parser)**: parses macOS .DS_Store files to reveal folder contents and metadata
+    - **[Eric Zimmerman’s Tools](https://github.com/EricZimmerman)**: Windows forensic parsers such as PECmd, AmcacheParser, and LECmd
     - **[Foremost](https://foremost.sourceforge.net/)**: recovers files using headers, footers, and internal data structures
     - **[FTK Imager](https://www.exterro.com/ftk-product-downloads/ftk-imager-version-4-7-1)**: a forensic tool for creating disk images
+    - **[libewf](https://github.com/libyal/libewf)**: a library and tools for Expert Witness (E01) forensic images
     - **[NIST SP 800-88](https://csrc.nist.gov/pubs/sp/800/88/r2/final)**: NIST guidance for sanitizing storage media
     - **[PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec)**: a file-carving tool that recovers lost files from disks, memory cards, and images
     - **[PowerForensics](https://github.com/Invoke-IR/PowerForensics)**: a PowerShell framework for live disk and NTFS file-system forensics
+    - **[RegRipper](https://github.com/keydet89/RegRipper3.0)**: extracts forensic artifacts from Windows registry hives
     - **[Siftgrab](https://github.com/dfir-scripts/siftgrab)**: scripts for mounting disk images and extracting Windows forensic artifacts
+    - **[SRUM-Dump](https://github.com/MarkBaggett/srum-dump)**: extracts application and network usage from the Windows SRUM database
     - **[The Sleuth Kit (TSK)](https://www.sleuthkit.org/sleuthkit/)**: command-line tools and libraries for analyzing disks and file systems
     - **[Wombat Forensics](https://github.com/pjrinaldi/wombatforensics)**: a GUI forensic tool for examining disk images and file systems
 - **Image Forensics**
@@ -434,6 +501,7 @@
     - **[Akana Android Malware](https://akana.mobiseclab.org/)**: online Android Interactive Analysis Environment with plugins
     - **[Browserling](https://www.browserling.com/)**: a remote sandboxed browser for safely opening suspicious links, including .onion sites
     - **[detux Linux Sandbox](https://detux.org/)**: open-source multiplatform Linux sandbox for analyzing Linux malware
+    - **[Didier Stevens Suite](https://github.com/DidierStevens/DidierStevensSuite)**: tools for analyzing malicious PDFs, Office documents, and other files
     - **[Ether](https://ether.gtisc.gatech.edu/web_unpack/)**: georgia Tech malware analysis framework using Intel VT hardware virtualization
     - **[Hybrid Analysis](https://hybrid-analysis.com/)**: free automated malware analysis service powered by CrowdStrike Falcon Sandbox
     - **[ID Ransomware](https://id-ransomware.malwarehunterteam.com/)**: free ransomware identification tool that analyzes ransom notes and encrypted file samples
@@ -457,6 +525,7 @@
     - **[VX Vault](https://vxvault.net/ViriList.php)**: active collection of malware samples and related data shared among security researchers
     - **[vx-underground](https://vx-underground.org/)**: a large public collection of malware samples, source code, and papers
 - **Memory Forensics**
+    - **[LiME](https://github.com/504ensicsLabs/LiME)**: a loadable kernel module for acquiring Linux and Android memory
     - **[Volatility 2](https://github.com/volatilityfoundation/volatility)**: a legacy Python framework for analyzing memory captures
     - **[Volatility 3](https://volatility3.readthedocs.io/en/latest/)**: the modern Volatility framework for memory forensics
 - **Metadata Analysis**
@@ -466,26 +535,42 @@
     - **[metadata2go](https://www.metadata2go.com/)**: an online tool for viewing metadata in images, documents, audio, and video
 - **Mobile Forensics**
     - **[Apk Online](https://apk.online/)**: browser-based tool for analyzing and downloading APK files
+    - **[apk-mitm](https://github.com/shroudedcode/apk-mitm)**: patches Android apps so their HTTPS traffic can be intercepted
     - **[APKLeaks](https://github.com/dwisiswant0/apkleaks)**: open-source tool that scans APK files for hardcoded secrets, API endpoints
     - **[APKtool](https://apktool.org/)**: open-source tool for reverse engineering Android apps
     - **[BlueStacks 2](https://www.bluestacks.com/)**: free, lightweight Android emulator for desktop
+    - **[Blutter](https://github.com/worawit/blutter)**: reverse engineers compiled Flutter apps
+    - **[drozer](https://github.com/ReversecLabs/drozer)**: a security testing framework for Android apps
     - **[Facebook](https://www.facebook.com/)**: major social network with over 2 billion users
     - **[Flickr](https://www.flickr.com/)**: photo hosting and sharing platform with 200M+ photos
     - **[Frida](https://frida.re/)**: open-source dynamic instrumentation toolkit
+    - **[frida-dexdump](https://github.com/hluwa/frida-dexdump)**: dumps DEX files from memory to unpack Android apps
     - **[Genymotion](https://www.genymotion.com/)**: cloud-based and desktop Android emulator platform for app testing and forensic analysis
+    - **[iLEAPP](https://github.com/abrignoni/iLEAPP)**: parses iOS logs, events, and app data for forensics
     - **[Instagram](https://www.instagram.com/)**: photo and video sharing platform with 2B+ users
+    - **[ipsw](https://github.com/blacktop/ipsw)**: an iOS/macOS research Swiss Army knife for firmware and binaries
     - **[JADX](https://github.com/skylot/jadx)**: open-source decompiler (47k+ GitHub stars) that converts DEX bytecode to Java source code
+    - **[KernelSU](https://github.com/tiann/KernelSU)**: a kernel-based root solution for Android
     - **[Kik](https://www.kik.com/)**: messaging app with 300M+ registered users
+    - **[libimobiledevice](https://github.com/libimobiledevice/libimobiledevice)**: a cross-platform library for communicating with iOS devices
     - **[LINE](https://line.me/)**: messaging app with 200M+ users, dominant in Asia
+    - **[LSPosed](https://github.com/LSPosed/LSPosed)**: an Android framework for hooking apps at runtime
     - **[Lynxio OSINT](https://lynxio.io/)**: mobile OSINT search tool for multi-identifier reconnaissance
+    - **[Magisk](https://github.com/topjohnwu/Magisk)**: a systemless rooting and modding suite for Android
+    - **[Medusa (Android)](https://github.com/Ch0pin/medusa)**: a binary instrumentation framework for Android based on Frida
     - **[Meerkat](https://meerkatapp.co/)**: live streaming social app
     - **[MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)**: open-source mobile security framework for static and dynamic analysis
     - **[Nox App Player](https://www.bignox.com/)**: free Android emulator with support for multiple Android versions and root access
+    - **[objection](https://github.com/sensepost/objection)**: a Frida-powered runtime exploration toolkit for mobile apps
     - **[OSINT Researcher](https://apps.apple.com/us/app/osint-researcher/id6747302251)**: iOS app for GitHub organization reconnaissance and open-source intelligence
     - **[Periscope](https://www.periscope.tv/)**: live video streaming app merged into Twitter
     - **[Pinterest](https://www.pinterest.com/)**: visual discovery platform with 460M+ users
+    - **[pymobiledevice3](https://github.com/doronz88/pymobiledevice3)**: a pure-Python implementation for working with iOS devices
+    - **[r2frida](https://github.com/nowsecure/r2frida)**: connects radare2 with Frida for runtime analysis
+    - **[reFlutter](https://github.com/Impact-I/reFlutter)**: a framework for reverse engineering Flutter apps
     - **[Riot.im - Communicate, your way](https://riot.im/)**: open-source Matrix client for decentralized messaging
     - **[Snapchat](https://www.snapchat.com/)**: ephemeral messaging app with 400M+ users
+    - **[SSL Kill Switch 2](https://github.com/nabla-c0d3/ssl-kill-switch2)**: disables TLS certificate validation in iOS apps
     - **[Twitter](https://www.twitter.com/)**: microblogging platform with 500M+ users
     - **[WhatsApp Messenger](https://www.whatsapp.com/)**: messaging platform with 2B+ users
     - **[Yik Yak](https://www.yikyak.com/)**: anonymous location-based social network
@@ -497,10 +582,12 @@
 - **Steganography**
     - **[Aperi'Solve](https://www.aperisolve.fr/)**: an online platform that performs multiple steganographic analyses on images
     - **[AudioStego](https://github.com/danielcardeenas/AudioStego)**: hides and extracts data inside audio files
+    - **[DeepSound](https://github.com/Jpinsoft/DeepSound)**: hides and extracts data in audio files
     - **[Digital Invisible Ink Toolkit](http://diit.sourceforge.net/)**: a Java tool for hiding and detecting data in images
     - **[Futureboy Decoder](https://futureboy.us/stegano/decinput.html)**: an online decoder for data hidden with Futureboy’s steganography encoder
     - **[Steg0saurus](https://lukeslytalker.pythonanywhere.com/)**: an online tool for hiding and revealing text in images
     - **[Steghide](https://steghide.sourceforge.net/)**: hides and extracts data within supported image and audio files
+    - **[stego-toolkit](https://github.com/DominicBreuker/stego-toolkit)**: a Docker image bundling common steganography tools
     - **[StegSeek](https://github.com/RickdeJager/stegseek)**: performs high-speed password recovery and extraction against Steghide files
     - **[StegSolve](https://github.com/zardus/ctf-tools/tree/master/stegsolve)**: a Java tool for examining image color channels and bit planes
     - **[WavSteg](https://github.com/samolds/wavsteg)**: hides and recovers data in the least significant bits of WAV audio files
@@ -539,6 +626,7 @@
 ## Network Traffic Analysis
 - **[A-Packets](https://apackets.com/)**: an online PCAP analyzer that visualizes protocols, hosts, and credentials in captures
 - **[Bettercap](https://www.bettercap.org/project/introduction/)**: a framework for network reconnaissance and traffic manipulation
+- **[BruteShark](https://github.com/odedshimon/BruteShark)**: extracts credentials, files, and sessions from PCAP files
 - **[CapAnalysis](https://www.capanalysis.net/ca/)**: a web-based PCAP visualizer for exploring large captures
 - **DNS (Domain Name System)**
     - **[BIND](https://bind9.readthedocs.io/)**: the most widely deployed open-source DNS server software
@@ -554,33 +642,68 @@
 - **IPS (Intrusion Prevention System)**
     - **[Snort](https://www.snort.org/)**: an intrusion detection and prevention system for analyzing network traffic
 - **[Malware-Traffic-Analysis.net](https://www.malware-traffic-analysis.net/index.html)**: training resource and PCAP repository providing network traffic captures
+- **[mitmproxy](https://github.com/mitmproxy/mitmproxy)**: an interactive proxy for intercepting and modifying HTTP and HTTPS traffic
 - **[Ncat](https://nmap.org/ncat/guide/)**: Nmap’s modern Netcat for reading and writing data across network connections
 - **[Nethor](https://nethor.com/)**: a desktop suite of network analysis and diagnostic utilities
 - **[NetworkMiner](https://www.netresec.com/?page=NetworkMiner)**: a packet analysis and network forensics tool
+- **[PCredz](https://github.com/lgandx/PCredz)**: extracts credentials and hashes from PCAPs or live interfaces
 - **Proxies**
     - **[FoxyProxy](https://getfoxyproxy.org/)**: a browser extension for quickly switching between proxy servers
+    - **[ProxyChains](https://github.com/haad/proxychains)**: forces any program’s connections through SOCKS or HTTP proxies
 - **[RANCID](https://shrubbery.net/rancid/index.html)**: automatically collects, stores, and tracks changes to router and switch configurations
+- **[RITA](https://github.com/activecm/rita)**: hunts for beaconing and C2 activity in Zeek network logs
+- **[Scapy](https://github.com/secdev/scapy)**: a Python library for crafting, sending, and analyzing packets
 - **Subnet (Sub Network)**
     - **[IP Subnet Calculator](https://www.subnet-calculator.com/)**: calculates network ranges, masks, and host counts for IP subnets
 - **[`tcpdump`](https://www.tcpdump.org/manpages/tcpdump.1.html)**: a command-line packet capture utility
+- **VoIP (Voice over Internet Protocol)**
+    - **SIP (Session Initiation Protocol)**
+        - **[SIPPTS](https://github.com/Pepelux/sippts)**: a set of tools for pentesting SIP servers
+        - **[SIPVicious](https://github.com/EnableSecurity/sipvicious)**: a suite for auditing SIP-based VoIP systems
+    - **[VoIP Hopper](https://github.com/hmgh0st/voiphopper)**: tests whether an attacker can hop into a voice VLAN
 - **VPN (Virtual Private Network)**
     - **[Tailscale](https://tailscale.com/kb)**: a mesh VPN service that connects devices using WireGuard
     - **[WireGuard](https://www.wireguard.com/quickstart/)**: a modern, fast VPN protocol
 - **Wifi**
     - **[Aircrack-ng](https://www.aircrack-ng.org/documentation.html)**: a suite for assessing and monitoring wireless-network security
+    - **[airgeddon](https://github.com/v1s1t0r1sh3r3/airgeddon)**: a menu-driven script for auditing wireless networks
+    - **[Bully](https://github.com/aanarchyy/bully)**: a WPS brute-force attack tool
+    - **[EAPHammer](https://github.com/s0lst1c3/eaphammer)**: a toolkit for evil-twin attacks against WPA2-Enterprise networks
+    - **[FragAttacks](https://github.com/vanhoefm/fragattacks)**: tests devices for Wi-Fi fragmentation and aggregation vulnerabilities
+    - **[hcxdumptool](https://github.com/ZerBea/hcxdumptool)**: captures Wi-Fi handshakes and PMKIDs for offline cracking
+    - **[hcxtools](https://github.com/ZerBea/hcxtools)**: converts captured Wi-Fi traffic into Hashcat and John formats
+    - **[hostapd-mana](https://github.com/sensepost/hostapd-mana)**: a modified hostapd for rogue access point attacks
+    - **[hostapd-WPE](https://github.com/OpenSecurityResearch/hostapd-wpe)**: a modified hostapd that captures WPA-Enterprise credentials
     - **[Kismet](https://www.kismetwireless.net/docs/)**: a wireless-network detector, sniffer, and monitoring system
+    - **[KRACK Attack Scripts](https://github.com/vanhoefm/krackattacks-scripts)**: tests clients and access points for key reinstallation vulnerabilities
+    - **[MDK4](https://github.com/aircrack-ng/mdk4)**: a Wi-Fi testing tool for deauthentication, beacon flooding, and other 802.11 attacks
+    - **[Nexmon](https://github.com/seemoo-lab/nexmon)**: patches Broadcom Wi-Fi firmware to enable monitor mode and injection
+    - **[nzyme](https://github.com/lennartkoopmann/nzyme)**: a wireless intrusion detection system for Wi-Fi networks
+    - **[Pixiewps](https://github.com/wiire-a/pixiewps)**: an offline WPS PIN brute-forcer using the Pixie Dust attack
+    - **[Reaver](https://github.com/t6x/reaver-wps-fork-t6x)**: brute-forces WPS PINs to recover WPA passphrases
+    - **[Wifiphisher](https://github.com/wifiphisher/wifiphisher)**: a rogue access point framework for Wi-Fi phishing and red-team engagements
+    - **[Wifite2](https://github.com/derv82/wifite2)**: automates WEP, WPA, and WPS wireless attacks
 - **[Wireshark](https://www.wireshark.org/docs/wsug_html_chunked/)**: a GUI packet analyzer for network troubleshooting
     - **[`tshark`](https://www.wireshark.org/docs/man-pages/tshark.html)**: the command-line version of Wireshark
 - **[Zeek](https://docs.zeek.org/en/master/)**: an open-source network security monitor that produces detailed traffic logs
 
 ## Offensive Security (Red Team)
 - **[BloodHound](https://github.com/SpecterOps/BloodHound)**: a tool for mapping attack paths in Active Directory environments
+- **[bloodyAD](https://github.com/CravateRouge/bloodyAD)**: an Active Directory privilege-escalation framework over LDAP
 - **Bug Bounty Programs**
     - **[HackerOne](https://www.hackerone.com/)**: a bug bounty platform connecting ethical hackers with companies
     - **[Intigriti](https://www.intigriti.com/)**: a European bug bounty and pentest-as-a-service platform with a global researcher community
     - **[Open Bug Bounty](https://www.openbugbounty.org/)**: a platform for reporting web vulnerabilities through coordinated disclosure
+- **[Certify](https://github.com/GhostPack/Certify)**: enumerates and abuses Active Directory Certificate Services
+- **[Certipy](https://github.com/ly4k/Certipy)**: a Python tool for enumerating and abusing AD Certificate Services
 - **Defense Evasion**
+    - **[Bashfuscator](https://github.com/Bashfuscator/Bashfuscator)**: obfuscates Bash commands and scripts
+    - **[DDexec](https://github.com/arget13/DDexec)**: runs binaries filelessly from memory on Linux
+    - **[Donut](https://github.com/TheWover/donut)**: turns .NET assemblies and executables into position-independent shellcode
     - **[xencrypt](https://github.com/the-xentropy/xencrypt)**: encrypts PowerShell payloads to evade antivirus detection
+- **DNS Tunneling**
+    - **[dnscat2](https://github.com/iagox86/dnscat2)**: a command-and-control channel tunneled over DNS
+    - **[iodine](https://github.com/yarrick/iodine)**: tunnels IPv4 traffic through DNS servers
 - **[Exploit Database](https://www.exploit-db.com/)**: an archive of public exploits and vulnerable software maintained by OffSec
     - **[SearchSploit](https://www.exploit-db.com/searchsploit)**: a command-line interface for searching the Exploit Database
 - **[fireELF](https://github.com/rek7/fireELF)**: a framework for executing fileless Linux payloads from memory
@@ -590,25 +713,63 @@
     - **[LOLBAS](https://lolbas-project.github.io/)**: Windows binaries, scripts, and libraries that attackers can abuse
     - **[LOLDrivers](https://www.loldrivers.io/)**: a catalog of vulnerable and malicious Windows drivers
 - **[Metasploit Framework](https://docs.metasploit.com/)**: a platform for developing, testing, and executing exploits
+- **[MSSqlPwner](https://github.com/ScorpionesLabs/MSSqlPwner)**: exploits and pivots through linked Microsoft SQL Servers
 - **[NetExec](https://www.netexec.wiki/)**: a tool for assessing and automating attacks against network services
+- **[Nishang](https://github.com/samratashok/nishang)**: PowerShell scripts for offensive security and post-exploitation
 - **Post-Exploitation**
+    - **[AdaptixC2](https://github.com/Adaptix-Framework/AdaptixC2)**: an extensible open-source command-and-control framework
+    - **Credential Dumping**
+        - **[Internal Monologue](https://github.com/eladshamir/Internal-Monologue)**: retrieves NTLM hashes without touching LSASS
+        - **[LaZagne](https://github.com/AlessandroZ/LaZagne)**: recovers passwords stored by browsers, mail clients, and other software
+        - **[Mimikatz](https://github.com/gentilkiwi/mimikatz)**: extracts passwords, hashes, and Kerberos tickets from Windows memory
+        - **[SharpDPAPI](https://github.com/GhostPack/SharpDPAPI)**: decrypts DPAPI-protected secrets such as saved credentials
+    - **[Empire](https://github.com/EmpireProject/Empire)**: a PowerShell and Python post-exploitation command-and-control framework
     - **Lateral Movement**
+        - **[Coercer](https://github.com/p0dalirius/Coercer)**: coerces Windows servers to authenticate to an attacker using many RPC methods
+        - **[Evil-WinRM](https://github.com/Hackplayers/evil-winrm)**: a WinRM shell built for pentesting Windows hosts
+        - **[Invoke-TheHash](https://github.com/Kevin-Robertson/Invoke-TheHash)**: PowerShell pass-the-hash over WMI and SMB
+        - **[PetitPotam](https://github.com/topotam/PetitPotam)**: coerces Windows hosts to authenticate via MS-EFSRPC
         - **[PoisonHandler](https://github.com/Mr-Un1k0d3r/PoisonHandler)**: moves laterally by registering a malicious Windows protocol handler
+    - **[Mythic](https://github.com/its-a-feature/Mythic)**: a collaborative, multi-platform command-and-control framework
+    - **[Penelope](https://github.com/brightio/penelope)**: an advanced shell handler that upgrades and manages reverse shells
+    - **Pivoting**
+        - **[frp](https://github.com/fatedier/frp)**: a fast reverse proxy for exposing internal services through NAT and firewalls
+        - **[Ligolo-ng](https://github.com/nicocha30/ligolo-ng)**: a tunneling tool that pivots through compromised hosts using a TUN interface
+        - **[ptunnel-ng](https://github.com/utoni/ptunnel-ng)**: tunnels TCP connections over ICMP echo packets
+        - **[wstunnel](https://github.com/erebe/wstunnel)**: tunnels traffic over WebSockets to bypass firewalls
+    - **[pwncat](https://github.com/calebstewart/pwncat)**: a post-exploitation platform with an enhanced reverse-shell handler
+    - **[reverse-ssh](https://github.com/Fahrj/reverse-ssh)**: a statically linked SSH server for reverse shells
+- **[PowerSploit](https://github.com/PowerShellMafia/PowerSploit)**: a PowerShell post-exploitation framework that includes PowerView
+- **[PowerUpSQL](https://github.com/NetSPI/PowerUpSQL)**: a PowerShell toolkit for attacking SQL Server
 - **Privilege Escalation**
+    - **[GodPotato](https://github.com/BeichenDream/GodPotato)**: a potato exploit for escalating service accounts to SYSTEM on modern Windows
+    - **[JuicyPotato](https://github.com/ohpe/juicy-potato)**: a classic potato exploit abusing DCOM for SYSTEM privileges
     - **[PEASS-ng (LinPEAS/WinPEAS)](https://github.com/peass-ng/PEASS-ng)**: scripts that enumerate Linux, Windows, and macOS hosts for privilege-escalation paths
+    - **[PrintSpoofer](https://github.com/itm4n/PrintSpoofer)**: escalates from service accounts to SYSTEM by abusing impersonation privileges
+    - **[pspy](https://github.com/DominicBreuker/pspy)**: monitors Linux processes and cron jobs without root
+    - **[UACME](https://github.com/hfiref0x/UACME)**: a collection of Windows UAC bypass methods
     - **[unix-privesc-check](https://pentestmonkey.net/tools/audit/unix-privesc-check)**: a shell script that finds misconfigurations letting local users escalate privileges on Unix systems
     - **[windows-privesc-check](https://pentestmonkey.net/tools/windows-privesc-check)**: a tool for finding Windows privilege-escalation weaknesses
 - **Reverse Shell**
     - **[php-reverse-shell](https://pentestmonkey.net/tools/web-shells/php-reverse-shell)**: a PHP script that opens an outbound shell connection from a web server to a listener
+- **[RustHound-CE](https://github.com/g0h4n/RustHound-CE)**: a cross-platform BloodHound CE data collector written in Rust
+- **Sandbox Escape**
+    - **[chw00t](https://github.com/earthquake/chw00t)**: a set of techniques for escaping chroot jails
+- **[SCCMHunter](https://github.com/garrettfoster13/sccmhunter)**: finds and abuses Microsoft SCCM deployments in Active Directory
 - **Social Engineering**
     - **Phishing**
         - **[Berkeley Phish Tank](https://security.berkeley.edu/phish-tank)**: a collection of real phishing examples and guidance from UC Berkeley
         - **[https://openphish.com/feed.txt](https://openphish.com/feed.txt)**: real-time phishing URL feed providing confirmed malicious phishing sites
+        - **[MailSniper](https://github.com/dafthack/MailSniper)**: searches Exchange mailboxes and sprays Outlook credentials
         - **[NIST You’ve Been Phished](https://www.nist.gov/video/youve-been-phished)**: an educational video explaining why users fall for phishing messages
         - **[PhishStats](https://phishstats.info/)**: phishing detection and analysis platform providing statistics on campaigns and domain intelligence
         - **[SecAI.ai](https://secai.ai/research)**: security research platform providing threat intelligence, vulnerability analysis
+        - **[Social-Engineer Toolkit (SET)](https://github.com/trustedsec/social-engineer-toolkit)**: a framework for phishing and other social-engineering attacks
     - **[Professor Messer Social Engineering Videos](https://www.professormesser.com/network-plus/n10-009/n10-009-video/social-engineering-n10-009/)**: free educational videos on social-engineering attacks
 - **Spoofing**
+    - **[Inveigh](https://github.com/Kevin-Robertson/Inveigh)**: a Windows LLMNR/NBNS/mDNS spoofer and relay tool
+    - **[mitm6](https://github.com/dirkjanm/mitm6)**: spoofs DHCPv6 and DNS to relay Windows authentication
+    - **[pretender](https://github.com/RedTeamPentesting/pretender)**: spoofs name resolution and DHCPv6 for man-in-the-middle relay attacks
     - **[Responder](https://github.com/lgandx/Responder)**: a tool for capturing authentication attempts through poisoned name-resolution responses
 - **Typosquatting (URL Hijacking)**
     - **[Catphish](https://github.com/ring0lab/catphish)**: red team tool for generating phishing domains using homoglyphs, punycode
@@ -809,6 +970,7 @@
     - **[Wayback Imagery](https://livingatlas.arcgis.com/wayback/)**: esri Wayback archive for reviewing previous versions of world imagery basemaps
     - **[What3Words](https://what3words.com/products/what3words-app)**: a geocoding system that identifies every 3-meter square with three words
     - **[WiGLE](https://www.wigle.net/)**: a crowdsourced map of wireless networks and their locations
+    - **[WiGLE WiFi Wardriving](https://github.com/wiglenet/wigle-wifi-wardriving)**: an Android app for logging Wi-Fi and cell networks with GPS locations
     - **[Yandex.Maps](https://yandex.com/maps/)**: regional mapping service with strong coverage in Russia and surrounding regions
 - **[Google Trends](https://www.google.com/trends)**: shows how search interest in a topic changes over time and by region
 - **[HealthMap](https://www.healthmap.org/)**: a map aggregating disease-outbreak reports from public sources
@@ -1048,6 +1210,7 @@
     - **[WhatsMyName Web](https://whatsmyname.app/)**: a browser-based interface for finding accounts associated with a username
     - **[Yandex](https://yandex.com/images/)**: a Russian search engine with image and web search features
 - **Search-Engine Dorking**
+    - **[GitDorker](https://github.com/obheda12/GitDorker)**: searches GitHub with dorks for leaked sensitive information
     - **Google Dorking (Google Hacking)**
         - **[Amazon Usernames](https://www.google.com/search?q=site:amazon.com+%3Cusername%3E)**: a manual search for public Amazon profiles
         - **[Dork Generator](https://dorkgenerator.pages.dev/)**: builds Google dork queries from simple inputs
@@ -1275,12 +1438,15 @@
 ## Password Cracking
 - **Brute-Force Attack**
     - **[Hydra](https://github.com/vanhauser-thc/thc-hydra)**: a tool for testing credentials against network authentication services
+    - **[Medusa (Foofus)](https://github.com/jmk-foofus/medusa)**: a fast, parallel login brute-forcer for network services
+    - **[Spray](https://github.com/Greenwolf/Spray)**: a password-spraying tool for AD, OWA, and other login portals
 - **Dictionary Attack**
     - **[CeWL](https://github.com/digininja/CeWL)**: a tool that generates custom wordlists from website content
     - **[Cupp](https://github.com/Mebus/cupp)**: Python utility that generates targeted password wordlists by profiling personal information
     - **[kkrypt0nn’s Wordlist Collection](https://github.com/kkrypt0nn/wordlists)**: a large collection of wordlists for passwords, usernames, and discovery
     - **[Mentalist](https://github.com/sc0tfree/mentalist)**: a graphical tool for building custom wordlists from base words and rules
     - **[OWASP D4N155](https://github.com/OWASP/D4N155)**: intelligent OSINT-based wordlist generator that analyzes website content and metadata
+    - **[PCFG Cracker](https://github.com/lakiw/pcfg_cracker)**: generates password guesses from probabilistic grammars
     - **[rockyou.txt](https://www.kali.org/tools/wordlists/)**: a famous password wordlist included with Kali’s default wordlists package
     - **[SecLists](https://github.com/danielmiessler/seclists)**: an installable Kali package containing password, username, discovery, and fuzzing lists
     - **[W Generator](https://app.wgen.io/)**: frontend-based wordlist generator for penetration testing
@@ -1295,6 +1461,7 @@
     - **SHA-256 (Secure Hash Algorithm 256-bit)**
         - **[`sha256sum`](https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html)**: a command-line utility that calculates and verifies SHA-256 file hashes
     - **[TunnelsUP Hash Analyzer](https://www.tunnelsup.com/hash-analyzer/)**: identifies the likely algorithm behind a hash
+- **[hate_crack](https://github.com/trustedsec/hate_crack)**: automates common Hashcat cracking methodologies
 - **[John the Ripper](https://www.openwall.com/john/doc/)**: a password-recovery tool that detects and cracks numerous hash formats
     - **[PDF2John](https://github.com/openwall/john/tree/bleeding-jumbo/run)**: a utility that extracts password hashes from encrypted PDF files for use with John the Ripper
 - **Mask Attack**
@@ -1322,7 +1489,10 @@
         - **[ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder/wiki)**: Wi-Fi and Bluetooth security-testing firmware for compatible ESP32 boards
         - **[FACT](https://github.com/fkie-cad/FACT_core)**: Firmware Analysis and Comparison Tool for automated firmware unpacking and analysis
         - **[firmwalker](https://github.com/craigz28/firmwalker)**: searches extracted firmware file systems for credentials, keys, and config files
+        - **[Firmware Analysis Toolkit](https://github.com/attify/firmware-analysis-toolkit)**: emulates firmware for dynamic analysis
+        - **[Firmware Mod Kit](https://github.com/rampageX/firmware-mod-kit)**: extracts and rebuilds Linux-based firmware images
         - **[FreshTomato](https://wiki.freshtomato.org/)**: open-source replacement firmware for supported wireless routers
+        - **[UEFITool](https://github.com/LongSoft/UEFITool)**: parses, extracts, and modifies UEFI firmware images
     - **GPIO Board**
         - **[Raspberry Pi](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html)**: a single-board computer with GPIO support for hardware and networking projects
     - **Microcontroller**
@@ -1340,6 +1510,7 @@
         - **[`ykman` (YubiKey Manager)](https://docs.yubico.com/software/yubikey/tools/ykman/)**: a command-line utility for configuring YubiKey applications such as OTP, FIDO, PIV, and OATH
 - **[HP EliteDesk 800 G2 SFF](https://shorturl.at/mWctg)**: i5-6500 @ 3.2GHz 8GB RAM 240GB SSD Linux Mint 22
 - **[HP ProDesk 600 G2 SFF](https://shorturl.at/Lb6w3)**: i5-6500 @ 3.2GHz 8GB RAM 240GB SSD Linux Mint 22
+- **[JTAGulator](https://github.com/grandideastudio/jtagulator)**: identifies JTAG and UART pins on circuit boards
 - **[LAN Turtle](https://documentation.hak5.org/lan-turtle/)**: a covert USB network adapter used for authorized remote access and network assessments
 - **Network Hardware**
     - **Network TAP (Test Access Point)**
@@ -1352,6 +1523,7 @@
         - **[RouterSploit](https://github.com/threat9/routersploit)**: a framework for testing routers and embedded devices for vulnerabilities
         - **[TP-Link](https://www.tp-link.com/us/support/)**: a manufacturer of consumer and business networking equipment
 - **[PayloadStudio](https://documentation.hak5.org/payload-studio/)**: a web IDE for writing and compiling Hak5 device payloads
+- **[PCILeech](https://github.com/ufrisk/pcileech)**: reads and writes target memory over PCIe DMA
 - **Physical Control**
     - **RFID (Radio-Frequency Identification)**
         - **[Chameleon Ultra](https://github.com/RfidResearchGroup/ChameleonUltra/wiki)**: an RFID and NFC research device for reading, emulating, and analyzing supported cards
@@ -1361,6 +1533,7 @@
             - **[PM3 BLE Module](https://proxmark.com/proxmark-3-hardware/proxmark-3-rdv4)**: a Bluetooth Low Energy expansion module for the Proxmark3 RDV4
             - **[PM3 HF Antenna Set](https://proxmark.com/proxmark-3-hardware/proxmark-3-rdv4)**: high-frequency antennas for Proxmark3 RFID testing
             - **[PM3 LF Antenna Set](https://proxmark.com/proxmark-3-hardware/proxmark-3-rdv4)**: low-frequency antennas for Proxmark3 RFID testing
+- **[PRET](https://github.com/RUB-NDS/PRET)**: the Printer Exploitation Toolkit for attacking network printers
 - **Programmable USB Device**
     - **[Bash Bunny](https://documentation.hak5.org/bash-bunny/)**: a USB attack platform that emulates keyboards, storage, and network adapters
     - **[FaceDancer21](https://facedancer.readthedocs.io/)**: a development board for emulating USB devices and testing USB hosts
@@ -1379,6 +1552,7 @@
 - **[Screen Crab](https://documentation.hak5.org/screen-crab/)**: an inline HDMI device that captures screenshots from a target display
 - **[Shark Jack](https://documentation.hak5.org/shark-jack/)**: a portable Ethernet attack tool for fast network reconnaissance
     - **[Shark Jack Display](https://documentation.hak5.org/shark-jack-display/)**: a Shark Jack variant with a built-in screen for viewing results
+- **[Sniffle](https://github.com/nccgroup/Sniffle)**: a Bluetooth 5 and 4.x LE sniffer for TI CC1352/CC26x2 hardware
 - **Surveillance System**
     - **CCTV (Closed-Circuit Television)**
         - **[Cameradar](https://github.com/Ullaakut/cameradar)**: a tool for discovering and assessing RTSP surveillance-camera systems
@@ -1404,31 +1578,46 @@
     - **Race Condition**
         - **[SDRacer](https://arxiv.org/abs/2305.17869)**: a system for detecting, validating, and repairing race conditions in interrupt-driven embedded software
 - **Exploit Development**
+    - **[mona.py](https://github.com/corelan/mona)**: an Immunity Debugger plugin that speeds up Windows exploit development
+    - **[one_gadget](https://github.com/david942j/one_gadget)**: finds single-gadget execve calls in libc
     - **[pwntools](https://docs.pwntools.com/)**: a Python framework for developing exploits and interacting with binaries
+    - **[ROPgadget](https://github.com/JonathanSalwan/ROPgadget)**: finds gadgets in binaries for building ROP chains
 - **Fuzzing**
+    - **[AFL++](https://github.com/AFLplusplus/AFLplusplus)**: a coverage-guided fuzzer and community fork of AFL
     - **[AidFuzzer](https://www.usenix.org/conference/usenixsecurity25/presentation/wang-jianqiang)**: an adaptive firmware fuzzer that models runtime states to trigger interrupts correctly
     - **[Fuzzware](https://github.com/fuzzware-fuzzer/fuzzware)**: a hardware-free platform for emulating and fuzzing embedded firmware
     - **[HD-Fuzz](https://www.sciencedirect.com/science/article/abs/pii/S1084804524000122)**: a hardware-dependency-aware firmware fuzzer using hybrid MMIO modeling
+    - **[Jackalope](https://github.com/googleprojectzero/Jackalope)**: Project Zero’s customizable black-box fuzzer
+    - **[syzkaller](https://github.com/google/syzkaller)**: an unsupervised coverage-guided kernel fuzzer
 - **Static Analysis (Reverse Engineering)**
     - **[Binary Ninja](https://docs.binary.ninja/)**: a commercial reverse-engineering platform for analyzing compiled binaries
         - **[Binary Ninja Cloud](https://cloud.binary.ninja/)**: a free browser-based version of Binary Ninja
     - **[BinSync](https://binsync.net/)**: an open-source Git-based collaboration framework for synchronizing RE analysis across multiple decompilers
     - **Decompiler**
+        - **[Bytecode Viewer](https://github.com/Konloch/bytecode-viewer)**: a Java and Android reverse-engineering suite with several decompilers
+        - **[CFR](https://github.com/leibnitz27/cfr)**: a Java decompiler that handles modern Java features
         - **[DecBench](https://decbench.com/)**: an open-source living benchmark for decompilers created by the Noelo Lab at UGA
         - **[Decompiler.com](https://www.decompiler.com/)**: an online decompiler for Java, Python, .NET, and other compiled code
+        - **[dnSpy](https://github.com/dnSpy/dnSpy)**: a .NET debugger and decompiler
         - **[Dogbolt](https://dogbolt.org/)**: a decompiler explorer that shows the output of many decompilers side by side
+        - **[ILSpy](https://github.com/icsharpcode/ILSpy)**: an open-source .NET decompiler
+        - **[JD-GUI](https://github.com/java-decompiler/jd-gui)**: a standalone graphical Java decompiler
         - **[Kuna](https://kuna.noelo.org/)**: a Rust-based decompiler, derived from Ghidra, for fast binary decompilation and AI-assisted reverse engineering
         - **[PyLingual](https://pylingual.io/)**: an online decompiler for Python bytecode (.pyc) files
     - **[Ghidra](https://github.com/NationalSecurityAgency/ghidra)**: an open-source reverse-engineering suite developed by the NSA
+    - **[GoReSym](https://github.com/mandiant/GoReSym)**: recovers symbols and metadata from Go binaries
+    - **[LIEF](https://github.com/lief-project/LIEF)**: a library for parsing and modifying ELF, PE, and Mach-O binaries
     - **[Operation Mango](https://www.usenix.org/conference/usenixsecurity24/presentation/gibbs)**: a static-analysis system for finding taint-style vulnerabilities in Linux-based firmware
     - **[radare2](https://book.rada.re/)**: an open-source framework for reverse engineering and binary analysis
     - **[REA (Reverse Engineer Anything)](https://github.com/morluto/rea)**: an AI-agent toolkit using CLI and MCP to analyze binaries, apps, and runtime behavior
 - **Symbolic Execution**
     - **[angr](https://docs.angr.io/)**: a Python framework for binary analysis and symbolic execution
     - **[FIE on Firmware](https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/davidson)**: a symbolic-execution platform for finding vulnerabilities in MSP430 firmware
+    - **[Z3](https://github.com/Z3Prover/z3)**: Microsoft’s SMT solver used for symbolic execution and constraint solving
 
 ## Scanning and Reconnaissance
 - **ASM (Attack Surface Management)**
+    - **[FavFreak](https://github.com/devanshbatham/FavFreak)**: groups hosts by favicon hash to find related infrastructure
     - **[ImmuniWeb](https://www.immuniweb.com/)**: AI-powered application security platform for web penetration testing and vulnerability scanning
     - **[Sn1per](https://github.com/1N3/Sn1per)**: an automated reconnaissance and attack surface scanning framework
 - **Enumeration**
@@ -1458,6 +1647,7 @@
         - **[XRay](https://github.com/evilsocket/xray)**: Go-based network reconnaissance tool that automates subdomain enumeration
     - **[Enum4linux-ng](https://github.com/cddmp/enum4linux-ng)**: a tool for enumerating information from Windows and Samba systems
     - **[ident-user-enum](https://pentestmonkey.net/tools/user-enumeration/ident-user-enum)**: queries the ident service to find which users own processes
+    - **[onesixtyone](https://github.com/trailofbits/onesixtyone)**: a fast SNMP community-string scanner
     - **[timing-attack-checker](https://pentestmonkey.net/tools/timing-attack-checker)**: checks whether a server responds more slowly to valid usernames
 - **[Hacker Target](https://hackertarget.com/)**: hosted online vulnerability scanners and network reconnaissance tools
 - **Internet-Wide Scanning**
@@ -1471,6 +1661,7 @@
     - **[Kamerka-GUI](https://github.com/woj-ciech/Kamerka-GUI)**: maps exposed ICS and IoT devices from internet scan data
     - **[ZMap](https://github.com/zmap/zmap)**: a high-speed scanner designed for internet-wide network surveys
 - **Network Scanning**
+    - **[arp-scan](https://github.com/royhills/arp-scan)**: discovers hosts on a local network using ARP requests
     - **[Fing](https://www.fing.com/)**: a network scanner for discovering and identifying connected devices
     - **[gateway-finder](https://pentestmonkey.net/tools/gateway-finder)**: a Scapy script that finds LAN hosts that forward traffic to the internet
     - **[hidemy.io Port Scanner](https://hidemy.io/en/port-scanner/)**: an online scanner for checking open ports on a host
@@ -1485,16 +1676,20 @@
     - **[Scanless](https://github.com/vesche/scanless)**: command-line tool for port scanning without leaving traces on target using third-party services
     - **[Scans.io](https://scans.io/)**: archive of internet-wide scan data including censys scans and other reconnaissance data
     - **[urlscan.io](https://urlscan.io/search/#*)**: website scanner analyzing URLs and domains for malicious content with infrastructure intelligence
+    - **[ZGrab2](https://github.com/zmap/zgrab2)**: a fast application-layer scanner for grabbing banners and handshakes
 - **Vulnerability Scanning**
     - **[Nikto](https://github.com/sullo/nikto)**: an open-source scanner for identifying web-server vulnerabilities and misconfigurations
+    - **[nmap-vulners](https://github.com/vulnersCom/nmap-vulners)**: an NSE script that looks up known CVEs for detected services
     - **[Nuclei](https://github.com/projectdiscovery/nuclei)**: a template-based scanner for detecting known vulnerabilities and exposures
     - **[RobotsDisallowed](https://github.com/danielmiessler/RobotsDisallowed)**: curated wordlist of top disallowed paths harvested from robots.txt files
+    - **[search_vulns](https://github.com/ra1nb0rn/search_vulns)**: searches known vulnerabilities and exploits for software products
     - **[SSL Labs Server Test](https://www.ssllabs.com/ssltest/)**: Qualys’ free test that grades a server’s TLS configuration
     - **[Tenable Nessus](https://docs.tenable.com/nessus/)**: a vulnerability scanner that identifies software flaws, exposed services, and misconfigs
     - **[Web Data Exposure Scanner](https://github.com/eduardoit/web-data-exposure-scanner)**: open-source scanner for detecting exposed web application data
     - **[Zone-H.org](https://zone-h.org/archive)**: archive of reported website defacements and related incident metadata maintained
 
 ## Web Exploitation
+- **[Badsecrets](https://github.com/blacklanternsecurity/badsecrets)**: detects known or weak secrets in web frameworks
 - **Broken Access Control**
     - **[Autorize](https://github.com/PortSwigger/autorize)**: a Burp extension that automatically tests requests for authorization bypasses
 - **[Burp Suite](https://portswigger.net/burp/documentation)**: a web-security testing platform for intercepting and modifying HTTP traffic
@@ -1503,11 +1698,28 @@
     - **[BeEF (Browser Exploitation Framework)](https://github.com/beefproject/beef)**: a framework for testing security weaknesses through web browsers
 - **[`curl`](https://curl.se/docs/manual.html)**: a command-line tool for transferring data and crafting HTTP requests
 - **[DirBuster](https://www.kali.org/tools/dirbuster/)**: OWASP’s Java GUI tool for brute-forcing web directories and files
+- **[droopescan](https://github.com/SamJoan/droopescan)**: a scanner for Drupal, Joomla, and other CMS sites
 - **[ffuf](https://github.com/ffuf/ffuf)**: a fast web fuzzer for discovering hidden files, directories, and parameters
+- **File Upload Vulnerability**
+    - **[Fuxploider](https://github.com/almandin/fuxploider)**: detects and exploits insecure file-upload forms
 - **[Firefox DevTools](https://firefox-source-docs.mozilla.org/devtools-user/)**: Firefox’s built-in tools for inspecting pages, requests, and storage
+- **[Flask-Unsign](https://github.com/Paradoxis/Flask-Unsign)**: decodes, brute-forces, and forges Flask session cookies
+- **[Gixy](https://github.com/yandex/gixy)**: analyzes nginx configurations for security issues
 - **[Gobuster](https://github.com/OJ/gobuster)**: a tool for discovering web paths, DNS names, and virtual hosts
 - **[hakrawler](https://github.com/hakluke/hakrawler)**: a fast web crawler for discovering URLs and JavaScript files
+- **HTTP Request Smuggling**
+    - **[HTTP Request Smuggler](https://github.com/PortSwigger/http-request-smuggler)**: a Burp extension for detecting and exploiting request smuggling
+    - **[http2smugl](https://github.com/neex/http2smugl)**: detects and exploits HTTP/2 request smuggling
+- **Insecure Deserialization**
+    - **[PHPGGC](https://github.com/ambionics/phpggc)**: generates PHP deserialization gadget-chain payloads
+    - **[ysoserial](https://github.com/frohoff/ysoserial)**: generates Java deserialization gadget-chain payloads
+    - **[ysoserial.net](https://github.com/pwntester/ysoserial.net)**: generates .NET deserialization payloads
 - **[JSFinder](https://github.com/Threezh1/JSFinder)**: extracts subdomains and URLs from a site’s JavaScript files
+- **JSON Web Token (JWT)**
+    - **[JWT Editor](https://github.com/PortSwigger/jwt-editor)**: a Burp extension for editing, signing, and attacking JWTs
+    - **[jwt_tool](https://github.com/ticarpi/jwt_tool)**: tests, tampers with, and cracks JSON Web Tokens
+- **[Katana](https://github.com/projectdiscovery/katana)**: a fast web crawler for discovering endpoints and JavaScript
+- **[Kiterunner](https://github.com/assetnote/kiterunner)**: discovers API routes using real-world API wordlists
 - **[Netcraft Site Report](https://sitereport.netcraft.com/)**: reports a website’s hosting, technologies, and history
 - **Obfuscation**
     - **[DDecode - PHP Decoder](https://ddecode.com/phpdecoder/)**: online decoder for layered PHP obfuscation chains such as eval, base64, gzinflate
@@ -1518,15 +1730,24 @@
     - **[JSFuck](https://jsfuck.com/)**: encodes JavaScript using only six different characters
     - **[Kahu Revelo](https://www.kahusecurity.com/tools/)**: Windows-focused JavaScript deobfuscation utility
     - **[SpiderMonkey](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey)**: Mozilla JavaScript engine used by Firefox and available for standalone execution
+- **Open Redirect**
+    - **[OpenRedireX](https://github.com/devanshbatham/OpenRedireX)**: a fuzzer for finding open redirects
 - **[OWASP Top 10](https://owasp.github.io/www-project-top-ten/)**: the ten most critical web application security risks
 - **[Postman](https://learning.postman.com/docs/)**: an API platform for creating, sending, and testing HTTP requests
 - **[postMessage-tracker](https://github.com/fransr/postMessage-tracker)**: a Chrome extension that logs postMessage listeners on a page
+- **[Regexploit](https://github.com/doyensec/regexploit)**: finds regular expressions vulnerable to ReDoS
+- **Session Hijacking**
+    - **[CursedChrome](https://github.com/mandatoryprogrammer/CursedChrome)**: turns a browser extension into a proxy for hijacking sessions
+- **[Shortscan](https://github.com/bitquark/shortscan)**: enumerates files using the IIS short-filename vulnerability
 - **SQL Injection (SQLi)**
     - **[sqlmap](https://sqlmap.org/)**: a tool for detecting and testing SQL-injection vulnerabilities
+- **Subdomain Takeover**
+    - **[Can I Take Over XYZ?](https://github.com/EdOverflow/can-i-take-over-xyz)**: a list of services and whether their dangling DNS records can be taken over
 - **[Wappalyzer](https://www.wappalyzer.com/)**: a browser extension that identifies the technologies a website uses
 - **Web Shell**
     - **[php-findsock-shell](https://pentestmonkey.net/tools/web-shells/php-findsock-shell)**: a PHP shell that reuses the web server’s own connection when firewalls block bind and reverse shells
     - **[Weevely](https://github.com/epinna/weevely3)**: a stealthy PHP web shell for post-exploitation on authorized targets
+- **[Wfuzz](https://github.com/xmendez/wfuzz)**: a flexible web application fuzzer
 - **[WhatWeb](https://github.com/urbanadventurer/WhatWeb)**: a tool for identifying technologies used by websites
 - **[WPScan](https://github.com/wpscanteam/wpscan)**: a security scanner designed for WordPress websites
 - **[ZAP (Zed Attack Proxy)](https://www.zaproxy.org/docs/)**: an open-source platform for testing web-application security
@@ -1541,7 +1762,7 @@
 * Orrin Adotavi ADP Stack
 * [Student Discounts](https://docs.google.com/document/d/1uKuvSKlZcADBmoY-O5sF5rBQE6kMSPbRxr7UpVni1f8/edit?tab=t.5lo6aln59n65)
 * Take the finished list and add it to thehackpack website (make it in the style of [OSINT Framework](https://github.com/lockfale/osint-framework) and/or [HackTricks](https://github.com/HackTricks-wiki/hacktricks) or like the NASA Space Apps Challenge Vector Database). AI API will automatically find the correct tool you are looking for using the vector database
-* Friendly Hacker Resources aggregators still to mine: [Bellingcat Online Investigation Toolkit](https://bit.ly/bcattools), [Awesome OSINT](https://github.com/jivoi/awesome-osint), [Awesome Forensics](https://github.com/Cugu/awesome-forensics), [OSINT Dojo Resources](https://www.osintdojo.com/resources/), [Steganography Tool List](https://0xrick.github.io/lists/stego/), [Rumkin Cipher Tools](https://rumkin.com/tools/cipher/)
+* Friendly Hacker Resources aggregators still to mine: [Bellingcat Online Investigation Toolkit](https://bit.ly/bcattools), [Awesome OSINT](https://github.com/jivoi/awesome-osint), [Awesome Forensics](https://github.com/Cugu/awesome-forensics), [OSINT Dojo Resources](https://www.osintdojo.com/resources/), [Steganography Tool List](https://0xrick.github.io/lists/stego/), [Rumkin Cipher Tools](https://rumkin.com/tools/cipher/), [WebHackersWeapons](https://github.com/hahwul/WebHackersWeapons), [My Arsenal of AWS Security Tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools), [Awesome Electron.js Hacking](https://github.com/doyensec/awesome-electronjs-hacking), [Awesome Industrial Protocols](https://github.com/Orange-Cyberdefense/awesome-industrial-protocols), [Awesome Cloud Security](https://github.com/RyanJarv/awesome-cloud-sec), [Awesome Flipper Zero](https://github.com/djsime1/awesome-flipperzero)
 
 <p align="right"><a href="#top">🔼 Back to top</a></p>
 </small>
