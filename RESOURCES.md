@@ -328,7 +328,7 @@
 - [PortSwigger SQL Injection Labs](https://portswigger.net/web-security/all-labs#sql-injection): free hands-on SQL injection labs from the Web Security Academy
 - [pwn.college](https://pwn.college/): a structured platform for learning binary exploitation and CTF skills
 - [Pwning OWASP Juice Shop](https://pwning.owasp-juice.shop/): the official companion guide and walkthrough for Juice Shop
-- [Randar Explanation](https://github.com/spawnmason/randar-explanation): a detailed write-up of the Randar exploit, which cracks Minecraft’s Java random-number generator to locate players
+- [Randar Explanation](https://github.com/spawnmason/randar-explanation): cracks Minecraft’s Java random-number generator to locate players
 - [Recover PEM Key](https://blog.cryptohack.org/twitter-secrets): a CryptoHack write-up on reconstructing an RSA private key from a partially redacted PEM file
 - [Red Team Notes (ired.team)](https://www.ired.team/): notes on red-team techniques, mostly for Windows and Active Directory
 - [Resources for Beginner Bug Bounty Hunters](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters): NahamSec’s curated starting guide for bug bounty hunting
