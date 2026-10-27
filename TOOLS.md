@@ -1620,7 +1620,7 @@
     - **[GoReSym](https://github.com/mandiant/GoReSym)**: recovers symbols and metadata from Go binaries
     - **[LIEF](https://github.com/lief-project/LIEF)**: a library for parsing and modifying ELF, PE, and Mach-O binaries
     - **[Operation Mango](https://www.usenix.org/conference/usenixsecurity24/presentation/gibbs)**: a static-analysis system for finding taint-style vulnerabilities in Linux-based firmware
-    - **[radare2](https://book.rada.re/)**: an open-source framework for reverse engineering and binary analysis
+    - **[radare2](https://rada.re/n/radare2.html)**: an open-source framework for reverse engineering and binary analysis
     - **[REA (Reverse Engineer Anything)](https://github.com/morluto/rea)**: an AI-agent toolkit using CLI and MCP to analyze binaries, apps, and runtime behavior
 - **Symbolic Execution**
     - **[angr](https://docs.angr.io/)**: a Python framework for binary analysis and symbolic execution
