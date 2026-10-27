@@ -7,6 +7,7 @@
     * CompTIA Security+
     * CompTIA CYSA+
 * CompTIA SecAI+
+* Splunk Certified Cybersecurity Defense Analyst  
 * Security Blue Team Blue Team Level 1 (BTL1)
 * Security Blue Team Blue Team Level 2 (BTL2)
 * Cisco Certified Network Associate (CCNA)
