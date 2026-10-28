@@ -1696,6 +1696,7 @@
     - **[Nuclei](https://github.com/projectdiscovery/nuclei)**: a template-based scanner for detecting known vulnerabilities and exposures
     - **[RobotsDisallowed](https://github.com/danielmiessler/RobotsDisallowed)**: curated wordlist of top disallowed paths harvested from robots.txt files
     - **[search_vulns](https://github.com/ra1nb0rn/search_vulns)**: searches known vulnerabilities and exploits for software products
+    - **[Semgrep](https://semgrep.dev/)**: advanced static analysis, supply-chain security, secrets detection, and remediation workflows
     - **[SSL Labs Server Test](https://www.ssllabs.com/ssltest/)**: Qualys’ free test that grades a server’s TLS configuration
     - **[Tenable Nessus](https://docs.tenable.com/nessus/)**: a vulnerability scanner that identifies software flaws, exposed services, and misconfigs
     - **[Web Data Exposure Scanner](https://github.com/eduardoit/web-data-exposure-scanner)**: open-source scanner for detecting exposed web application data
