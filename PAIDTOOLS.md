@@ -2,7 +2,9 @@
 <summary>📖 Table of Contents</summary>
 <br />
 
+- [Artificial Intelligence](#artificial-intelligence)
 - [Cloud Security](#cloud-security)
+- [Consulting](#consulting)
 - [Cryptography](#cryptography)
 - [Defensive Security (Blue Team)](#defensive-security-blue-team)
 - [Forensics](#forensics)
@@ -17,8 +19,12 @@
 
 </details>
 
+# Artificial Intelligence
+- **[Starseer](https://starseer.ai/home)**: providing model vulnerability scanning, runtime threat detection, and gateway policy enforcement
+
 ## Cloud Security
 - **[AWS Config](https://docs.aws.amazon.com/config/)**: records AWS resource configurations and checks them against rules
+- **[Bedrock Data](https://bedrockdata.ai/)**: a data security platform for discovering, classifying, and managing sensitive data exposure
 - **Containerization**
     - **Container Orchestration**
         - **[Red Hat OpenShift](https://docs.redhat.com/en/documentation/openshift_container_platform/4.20/html/overview/ocp-overview)**: an enterprise Kubernetes platform
@@ -26,6 +32,12 @@
 - **Secrets Management**
     - **[AWS Secrets Manager](https://docs.aws.amazon.com/secretsmanager/)**: stores and rotates AWS credentials and secrets
     - **[Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/)**: Azure’s service for storing secrets, keys, and certificates
+
+## Consulting
+- **[Blue Ridge Consultants](https://www.blueridge.cx/)**: an Atlassian consulting firm providing Jira, Confluence, and Bitbucket implementation
+- **[Cloud Security Alliance (CSA)](https://cloudsecurityalliance.org/)**: cloud security research, frameworks, professional training, certifications, and assurance programs
+- **[Raxis](https://www.raxis.com/)**: a cybersecurity consulting firm specializing in penetration testing, vulnerability assessments, and offensive security services
+- **[TrustedSec](https://trustedsec.com/)**: a cybersecurity consulting firm providing penetration testing, red team operations, incident response, and security assessments
 
 ## Cryptography
 - **Key Management**
@@ -36,6 +48,7 @@
 - **Access Control**
     - **[CyberArk](https://docs.cyberark.com/)**: an identity-security platform specializing in privileged-access management
     - **[SailPoint](https://documentation.sailpoint.com/)**: an identity-governance platform for managing access, permissions, and identity lifecycles
+    - **[ThreatLocker](https://www.threatlocker.com/)**: an endpoint security platform providing application allowlisting and least-privilege controls
 - **Asset Management**
     - **[Axonius](https://www.axonius.com/)**: cybersecurity asset management and asset intelligence platform
     - **[Spirion](https://www.archtis.com/spirion-platform-overview/)**: a data-discovery and classification platform for locating sensitive information
@@ -56,8 +69,10 @@
         - **[Private-Mail](https://privatemail.com/)**: a privacy-focused encrypted email service
 - **Security Operations**
     - **[Amazon GuardDuty](https://docs.aws.amazon.com/guardduty/)**: AWS’s threat detection service for accounts, workloads, and data
+    - **[Cotool](https://www.cotool.ai/):** AI-native security operations platform for automating investigation, detection, and response workflows
     - **[CrowdStrike Falcon](https://www.crowdstrike.com/en-us/platform/)**: a cloud-native endpoint-protection and threat-detection platform
     - **CTI (Cyber Threat Intelligence)**
+        - **[FlashPoint](https://flashpoint.io/)**: a threat intelligence platform for monitoring cybercriminal activity, external threats, and org risk
         - **[Google Threat Intelligence](https://cloud.google.com/security/products/threat-intelligence)**: combines threat intelligence from Google, Mandiant, and VirusTotal
         - **[Mandiant](https://cloud.google.com/security/mandiant)**: provides threat intelligence, incident response, and managed defense services
         - **[ReversingLabs Spectra Analyze](https://docs.reversinglabs.com/SpectraAnalyze/)**: a malware-analysis and threat-intelligence platform
