@@ -621,6 +621,7 @@
         - **[Parse a User Agent String](https://explore.whatismybrowser.com/useragents/parse/#parse-useragent)**: an online parser that identifies the browser, OS, and device in a user-agent string
 - **SIEM (Security Information and Event Management)**
     - **[Elastic Security](https://www.elastic.co/docs/solutions/security)**: Elastic’s SIEM, threat-detection, and security-investigation platform
+    - **[Security Onion](https://securityonionsolutions.com/)**: free security monitoring and threat-hunting platform for intrusion detection, network traffic analysis, etc.
     - **[Splunk](https://docs.splunk.com/Documentation/Splunk/)**: a platform for searching, monitoring, and analyzing machine-generated data
 - **[`sort`](https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html)**: a command-line utility that sorts lines of text
 - **SQL (Structured Query Language)**
