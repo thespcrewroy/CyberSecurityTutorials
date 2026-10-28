@@ -37,7 +37,7 @@
 - **[Blue Ridge Consultants](https://www.blueridge.cx/)**: an Atlassian consulting firm providing Jira, Confluence, and Bitbucket implementation
 - **[Cloud Security Alliance (CSA)](https://cloudsecurityalliance.org/)**: cloud security research, frameworks, professional training, certifications, and assurance programs
 - **[Raxis](https://www.raxis.com/)**: a cybersecurity consulting firm specializing in penetration testing, vulnerability assessments, and offensive security services
-- **[TrustedSec](https://trustedsec.com/)**: a cybersecurity consulting firm providing penetration testing, red team operations, incident response, and security assessments
+- **[TrustedSec](https://trustedsec.com/)**: providing penetration testing, red team operations, incident response, and security assessments
 
 ## Cryptography
 - **Key Management**
