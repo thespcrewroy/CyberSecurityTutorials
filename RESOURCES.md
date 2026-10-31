@@ -29,21 +29,21 @@
 - GIAC Security Essentials (GSEC)
 - GIAC Certified Incident Handler (GCIH)
 - GIAC Penetration Tester (GPEN)
-* GIAC Certified Forensics Examiner (GCFE)
-* ISAC Certified Information Security Manager (CISM)
-* ISAC Certified Infromation Systems Auditor (CISA)
+- GIAC Certified Forensics Examiner (GCFE)
+- ISAC Certified Information Security Manager (CISM)
+- ISAC Certified Infromation Systems Auditor (CISA)
 
 ## College Courses
-* Cyber Security (CSCI 4250)
-* Cryptology and Computational Number Theory (MATH 4450)
-* Data Security and Privacy (CSCI 4260)
-* Introduction to Computer Forensics (CSCI 4270)
-* Operating Systems (CSCI 4370)
-* Computer Networks (CSCI 4760)
-* Distributed Computing Systems (CSCI 4780)
+- Cyber Security (CSCI 4250)
+- Cryptology and Computational Number Theory (MATH 4450)
+- Data Security and Privacy (CSCI 4260)
+- Introduction to Computer Forensics (CSCI 4270)
+- Operating Systems (CSCI 4370)
+- Computer Networks (CSCI 4760)
+- Distributed Computing Systems (CSCI 4780)
 
 ## Communities
-* Discord Groups
+- Discord Groups
    - [Advanced Research in Exploitation and Security (ARES)](https://discord.gg/PUE97EffRU): a UGA research group focused on cybersecurity
    - BSides Atlanta: a community-driven conference for cybersecurity professionals and enthusiasts
    - [Atlanta Cyber Security Engineers](https://discord.gg/BPEyDucFcS): an Atlanta community for cybersecurity collaboration and networking
@@ -59,9 +59,9 @@
    - [Society for Cyber Security @ UGA](https://discord.gg/KrUR46NY6R): UGA’s student organization for cybersecurity education and networking
    - [TryHackMe](https://discord.gg/bsxn5cAymu): a community for learning cybersecurity through interactive labs
    - [Wild West Hackin' Fest](https://discord.gg/wwhf): a cybersecurity conference community focused on practical training
-* Meetup Groups
-    * [OWASP Atlanta Chapter](https://owasp.org/www-chapter-atlanta/): a local community focused on application security education and networking
-* [DC404 Atlanta Hacker Community](https://dc404.org/): an Atlanta community for hackers, security enthusiasts, and technology professionals.
+- Meetup Groups
+    - [OWASP Atlanta Chapter](https://owasp.org/www-chapter-atlanta/): a local community focused on application security education and networking
+- [DC404 Atlanta Hacker Community](https://dc404.org/): an Atlanta community for hackers, security enthusiasts, and technology professionals.
 
 ## Competitions
 - [4 June] [CyberForce Conquer the Hill: Reign](https://cyberforce.energy.gov/conquer-the-hill/reign-edition/): 3D dungeon crawler game where students solve escalating challenges
@@ -104,27 +104,26 @@
 - [No Fixed Deadline] [TheHackPack](https://thehackpack.org/compete): hosts separate competitions
 
 ## Conferences & Events
-* [2 September] [Blue Team Con](https://blueteamcon.com/): a conference dedicated to cybersecurity defense and blue-team professionals
-* [3 September] [BSides Orlando](https://bsidesorlando.org/): join us for a day of learning, networking, and fun 
-* [3 September] [SecureWorld Atalnta](https://events.secureworld.io/details/atlanta-ga-2026/): attend the region's top cybersecurity conference
-* [4 September] [National Cyber and AI Virtual Career Fair](https://www.caecommunity.org/national-cyber-and-ai-career-fair): nearly 500 CAE institutions invited
-* [4 September] [EDUCAUSE Cybersecurity and Privacy Professionals Conference](https://events.educause.edu/annual-conference): stay informed about the issues shaping higher ed
-* [1 October] [WWHF (Wild West Hackin’ Fest)](https://wildwesthackinfest.com/): a cybersecurity conference emphasizing practical training and hands-on learning
-* [1 October] [BSides Atlanta](https://ti.to/bsidesatl/2023): Atlanta’s community-driven conference for cybersecurity education and networking
-* [2 October] [Crowe National Case Competition](https://www.crowe.com/careers/students/case-competition): solve real-world problems while showcasing their skills
-* [3 October] [BSides Augusta](https://bsidesaugusta.org/events/): community-driven framework for building events for infosec members
-* [1 Febraury] [Insomni'hack](https://insomnihack.ch/): the largest cybersecurity events in Switzerland and neighboring Europe
-* [2 February] [Salesforce Future Tech Launchpad](https://info.codepath.org/futureforce-tech-launchpad): learn cybersecurity with Salesforce Pre-Internship Program
-* [2 March] [CyberBay Summit](https://cyberbay.org/summit/): for cybersecurity practitioner, researcher, leader, educator, or innovator with insights
-* [3 March] [BSides Alabama](https://bsidesrocketcity.org/): bridging the Gap from Student to Rocket Scientist
-* [1 August] [Black Hat Conference](https://www.blackhat.com/us-24/): a major cybersecurity conference featuring research, training, and security briefings
-* [1 August] [DEF CON](https://defcon.org/): one of the world’s largest hacker and cybersecurity conventions
-* [2 June] [OSDF Conference](https://www.osdfcon.org/): a conference focused on open-source digital forensics
+- [2 September] [Blue Team Con](https://blueteamcon.com/): a conference dedicated to cybersecurity defense and blue-team professionals
+- [3 September] [BSides Orlando](https://bsidesorlando.org/): join us for a day of learning, networking, and fun - [3 September] [SecureWorld Atalnta](https://events.secureworld.io/details/atlanta-ga-2026/): attend the region's top cybersecurity conference
+- [4 September] [National Cyber and AI Virtual Career Fair](https://www.caecommunity.org/national-cyber-and-ai-career-fair): nearly 500 CAE institutions invited
+- [4 September] [EDUCAUSE Cybersecurity and Privacy Professionals Conference](https://events.educause.edu/annual-conference): stay informed about the issues shaping higher ed
+- [1 October] [WWHF (Wild West Hackin’ Fest)](https://wildwesthackinfest.com/): a cybersecurity conference emphasizing practical training and hands-on learning
+- [1 October] [BSides Atlanta](https://ti.to/bsidesatl/2023): Atlanta’s community-driven conference for cybersecurity education and networking
+- [2 October] [Crowe National Case Competition](https://www.crowe.com/careers/students/case-competition): solve real-world problems while showcasing their skills
+- [3 October] [BSides Augusta](https://bsidesaugusta.org/events/): community-driven framework for building events for infosec members
+- [1 Febraury] [Insomni'hack](https://insomnihack.ch/): the largest cybersecurity events in Switzerland and neighboring Europe
+- [2 February] [Salesforce Future Tech Launchpad](https://info.codepath.org/futureforce-tech-launchpad): learn cybersecurity with Salesforce Pre-Internship Program
+- [2 March] [CyberBay Summit](https://cyberbay.org/summit/): for cybersecurity practitioner, researcher, leader, educator, or innovator with insights
+- [3 March] [BSides Alabama](https://bsidesrocketcity.org/): bridging the Gap from Student to Rocket Scientist
+- [1 August] [Black Hat Conference](https://www.blackhat.com/us-24/): a major cybersecurity conference featuring research, training, and security briefings
+- [1 August] [DEF CON](https://defcon.org/): one of the world’s largest hacker and cybersecurity conventions
+- [2 June] [OSDF Conference](https://www.osdfcon.org/): a conference focused on open-source digital forensics
 
 ## Newsletter
-* [Awesome Security Newsletters](https://github.com/TalEliyahu/awesome-security-newsletters): a curated list of cybersecurity newsletters by topic
-* [Brutalist Report](https://brutalist.report/): the day's headlines delivered to you without bullshit
-* [LakeraAI Blog](https://www.lakera.ai/blog): research blog goes into Indirect Prompt Injection with real attack scenarios
+- [Awesome Security Newsletters](https://github.com/TalEliyahu/awesome-security-newsletters): a curated list of cybersecurity newsletters by topic
+- [Brutalist Report](https://brutalist.report/): the day's headlines delivered to you without bullshit
+- [LakeraAI Blog](https://www.lakera.ai/blog): research blog goes into Indirect Prompt Injection with real attack scenarios
 
 ## Resources
 - [247CTF](https://247ctf.com/): an always-online CTF platform with challenges across categories
