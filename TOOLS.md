@@ -307,6 +307,9 @@
     - **[NIST Cybersecurity Framework (CSF)](https://www.nist.gov/cyberframework)**: a framework for understanding and managing cybersecurity risk
     - **[PCI-DSS (Payment Card Industry Data Security Standard)](https://www.pcisecuritystandards.org/standards/pci-dss/)**: requirements for handling cardholder data
     - **[SOC (System and Organization Controls)](https://www.aicpa-cima.com/resources/)**: audit standard for service organizations
+        - **[SOC 1](https://www.aicpa-cima.com/)**: assurance reports covering service organization controls relevant to customers' financial reporting
+        - **[SOC 2](https://www.aicpa-cima.com/)**: assurance reports evaluating controls related to security, availability, processing integrity, and confidentiality
+        - **[SOC 3](https://www.aicpa-cima.com/)**: general-use assurance reports summarizing controls under SOC2 criteria
     - **[SOX (Sarbanes-Oxley Act)](https://www.sec.gov/)**: U.S. federal law establishing financial reporting and internal control requirements for public companies
 - **Incident Response**
     - **[Carnegie Mellon Incident Response Plan](https://www.cmu.edu/iso/governance/procedures/IRPlan.html)**: an example university incident-response plan
