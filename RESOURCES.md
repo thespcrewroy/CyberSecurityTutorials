@@ -32,6 +32,16 @@
 - GIAC Certified Forensics Examiner (GCFE)
 - ISAC Certified Information Security Manager (CISM)
 - ISAC Certified Infromation Systems Auditor (CISA)
+- CSA Certificate of Cloud Security Knowledge (CCSK)
+- HITRUST Certified CSF Practitioner (CCSFP)
+- IAPP Artificial Intelligence Governance Professional (AIGP)
+- IAPP Certified Information Privacy Professional (CIPP)
+- ISACA Certified in Risk and Information Systems Control (CRISC)
+- CMMC Certified Assessor (CCA)
+- CMMC Certified Professional (CCP)
+- PCI SSC Qualified Security Assessor (QSA)
+- ISO/IEC 27001 Lead Auditor
+- ISO/IEC 42001 Lead Auditor
 
 ## College Courses
 - Cyber Security (CSCI 4250)
