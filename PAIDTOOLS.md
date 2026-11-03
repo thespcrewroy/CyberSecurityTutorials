@@ -25,6 +25,8 @@
 ## Cloud Security
 - **[AWS Config](https://docs.aws.amazon.com/config/)**: records AWS resource configurations and checks them against rules
 - **[Bedrock Data](https://bedrockdata.ai/)**: a data security platform for discovering, classifying, and managing sensitive data exposure
+- **CI/CD Security**
+    - **[JFrog AppTrust](https://jfrog.com/apptrust/)**: enforcing release policies, tracking artifact integrity, and collecting compliance evidence
 - **Containerization**
     - **Container Orchestration**
         - **[Red Hat OpenShift](https://docs.redhat.com/en/documentation/openshift_container_platform/4.20/html/overview/ocp-overview)**: an enterprise Kubernetes platform
