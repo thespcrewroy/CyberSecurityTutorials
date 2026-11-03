@@ -297,22 +297,22 @@
     - **[CRA (Cyber Resilience Act)](https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act)**: EU cybersecurity requirements for products with digital elements
     - **[DISA STIGs](https://public.cyber.mil/stigs/downloads/)**: security configuration standards developed by the Defense Information Systems Agency DoD Sytems and tech
     - **[DORA (Digital Operational Resilience Act)](https://eur-lex.europa.eu/eli/reg/2022/2554/oj)**: European Union regulation establishing requirements for ICT risk management
-    - **[FedRAMP (Federal Risk and Authorization Management Program)](https://www.fedramp.gov/)**: U.S. government program standardizing security assessments for cloud service
+    - **[FedRAMP (Federal Risk and Authorization Management Program)](https://www.fedramp.gov/)**: standardizing security assessments for cloud service
     - **[GDPR (General Data Protection Regulation)](https://gdpr-info.eu/)**: EU regulation on personal data protection
-    - **[GovRAMP (Government Risk and Authorization Management Program)](https://govramp.org/)**: security verification program for cloud service providers for state and local
+    - **[GovRAMP (Government Risk and Authorization Management Program)](https://govramp.org/)**: security verification program for cloud service providers
     - **[HIPAA (Health Insurance Portability and Accountability Act)](https://www.hhs.gov/hipaa/index.html)**: US law protecting health information
     - **[HITRUST CSF (Common Security Framework)](https://hitrustalliance.net/hitrust-framework)**: health data security
     - **[ISO/IEC 27001](https://www.iso.org/standard/27001)**: world's leading international standard for managing information security
     - **[ISO/IEC 27701](https://www.iso.org/standard/27701)**: international standard for establishing and maintaining a privacy information management system
     - **[ISO/IEC 42001](https://www.iso.org/standard/42001)**: international standard for managing AI governance, risks, and responsible AI use
     - **[NIST CSF (Cyber Security Framework)](https://www.nist.gov/cyberframework)**: a framework for understanding and managing cybersecurity risk
-    - **[NIST SSDF (Secure Software Development Framework)](https://csrc.nist.gov/Projects/ssdf)**: a framework for providing recommended practices for integrating security
+    - **[NIST SSDF (Secure Software Development Framework)](https://csrc.nist.gov/Projects/ssdf)**: providing recommended practices for integrating security
     - **[PCI-DSS (Payment Card Industry Data Security Standard)](https://www.pcisecuritystandards.org/standards/pci-dss/)**: requirements for handling cardholder data
     - **[SOC (System and Organization Controls)](https://www.aicpa-cima.com/resources/)**: audit standard for service organizations
         - **[SOC 1](https://www.aicpa-cima.com/)**: assurance reports covering service organization controls relevant to customers' financial reporting
         - **[SOC 2](https://www.aicpa-cima.com/)**: assurance reports evaluating controls related to security, availability, processing integrity, and confidentiality
         - **[SOC 3](https://www.aicpa-cima.com/)**: general-use assurance reports summarizing controls under SOC2 criteria
-    - **[SOX (Sarbanes-Oxley Act)](https://www.sec.gov/)**: U.S. federal law establishing financial reporting and internal control requirements for public companies
+    - **[SOX (Sarbanes-Oxley Act)](https://www.sec.gov/)**: establishing financial reporting and internal control requirements for public companies
 - **Incident Response**
     - **[Carnegie Mellon Incident Response Plan](https://www.cmu.edu/iso/governance/procedures/IRPlan.html)**: an example university incident-response plan
     - **CSIRT (Computer Security Incident Response Team)**
