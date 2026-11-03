@@ -294,6 +294,7 @@
         - **[CIS Build Kits](https://www.cisecurity.org/insights/blog/build-kits-speed-implementation-of-secure-configurations)**: automated config files, scripts, and GPOs
         - **[CIS InfoSec Policy Templates](https://www.cisecurity.org/controls/policy-templates)**: customizable policy templates that to help document security requirements
     - **[CMMC (Cybersecurity Maturity Model Certification)](https://dodcio.defense.gov/CMMC/Resources-Documentation/)**: ensure defense contractors protect unclassified info
+    - **[CRA (Cyber Resilience Act)](https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act)**: EU cybersecurity requirements for products with digital elements
     - **[DISA STIGs](https://public.cyber.mil/stigs/downloads/)**: security configuration standards developed by the Defense Information Systems Agency DoD Sytems and tech
     - **[DORA (Digital Operational Resilience Act)](https://eur-lex.europa.eu/eli/reg/2022/2554/oj)**: European Union regulation establishing requirements for ICT risk management
     - **[FedRAMP (Federal Risk and Authorization Management Program)](https://www.fedramp.gov/)**: U.S. government program standardizing security assessments for cloud service
@@ -304,7 +305,8 @@
     - **[ISO/IEC 27001](https://www.iso.org/standard/27001)**: world's leading international standard for managing information security
     - **[ISO/IEC 27701](https://www.iso.org/standard/27701)**: international standard for establishing and maintaining a privacy information management system
     - **[ISO/IEC 42001](https://www.iso.org/standard/42001)**: international standard for managing AI governance, risks, and responsible AI use
-    - **[NIST Cybersecurity Framework (CSF)](https://www.nist.gov/cyberframework)**: a framework for understanding and managing cybersecurity risk
+    - **[NIST CSF (Cyber Security Framework)](https://www.nist.gov/cyberframework)**: a framework for understanding and managing cybersecurity risk
+    - **[NIST SSDF (Secure Software Development Framework)](https://csrc.nist.gov/Projects/ssdf)**: a framework for providing recommended practices for integrating security
     - **[PCI-DSS (Payment Card Industry Data Security Standard)](https://www.pcisecuritystandards.org/standards/pci-dss/)**: requirements for handling cardholder data
     - **[SOC (System and Organization Controls)](https://www.aicpa-cima.com/resources/)**: audit standard for service organizations
         - **[SOC 1](https://www.aicpa-cima.com/)**: assurance reports covering service organization controls relevant to customers' financial reporting
