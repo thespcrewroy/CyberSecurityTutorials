@@ -89,7 +89,6 @@
 - **CI/CD Security**
     - **[Chain-bench](https://github.com/aquasecurity/chain-bench)**: audits software supply chains against the CIS benchmark
     - **[ggshield](https://github.com/GitGuardian/ggshield)**: GitGuardian’s CLI for catching secrets before they are committed
-    - **[JFrog AppTrust](https://jfrog.com/apptrust/)**: enforcing release policies, tracking artifact integrity, and collecting compliance evidence
     - **[Nosey Parker](https://github.com/praetorian-inc/noseyparker)**: a fast scanner for secrets in text and Git history
     - **[pwn_jenkins](https://github.com/gquere/pwn_jenkins)**: notes and scripts for attacking Jenkins servers
     - **[TruffleHog](https://github.com/trufflesecurity/trufflehog)**: finds and verifies leaked secrets in code, repos, and cloud storage
