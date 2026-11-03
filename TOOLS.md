@@ -33,6 +33,7 @@
 - **[GPTZero](https://gptzero.me/)**: AI text detection tool specifically designed to identify ChatGPT
 - **[Grammarly AI Detector](https://www.grammarly.com/ai-detector)**: Grammarly's AI content detection tool that identifies text likely generated
 - **[Hive AI Generated Content Detection](https://hivemoderation.com/ai-generated-content-detection)**: enterprise-grade AI content detection API from Hive Moderation
+- **[HoopAI](https://hoop.dev/)**: controlling agent access, enforcing policies, masking sensitive data, and recording auditable activity
 - **[Illuminarty](https://app.illuminarty.ai/)**: AI image detection tool that identifies AI-generated images and attempts to identify
 - **[LakeraAI](https://www.lakera.ai/)**: leading security platform to secure your AI future
 - **[Microsoft Copilot](https://copilot.microsoft.com/)**: Microsoft's AI assistant powered by GPT-4 with web search integration; useful
@@ -88,6 +89,7 @@
 - **CI/CD Security**
     - **[Chain-bench](https://github.com/aquasecurity/chain-bench)**: audits software supply chains against the CIS benchmark
     - **[ggshield](https://github.com/GitGuardian/ggshield)**: GitGuardian’s CLI for catching secrets before they are committed
+    - **[JFrog AppTrust](https://jfrog.com/apptrust/)**: enforcing release policies, tracking artifact integrity, and collecting compliance evidence
     - **[Nosey Parker](https://github.com/praetorian-inc/noseyparker)**: a fast scanner for secrets in text and Git history
     - **[pwn_jenkins](https://github.com/gquere/pwn_jenkins)**: notes and scripts for attacking Jenkins servers
     - **[TruffleHog](https://github.com/trufflesecurity/trufflehog)**: finds and verifies leaked secrets in code, repos, and cloud storage
