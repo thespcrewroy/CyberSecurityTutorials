@@ -503,6 +503,7 @@
         - **Arbitrary Read**: reading data from an attacker-chosen memory address
         - **Arbitrary Write**: writing data to an attacker-chosen memory address
         - **Information Leak**: exposing memory or data needed to bypass protections
+    - **Heap Spraying:** filling heap memory with malicious data to increase the likelihood of successful exploit
     - **Instruction-Pointer Control**: controlling the address of the next executed instruction
     - **Kernel Exploitation**: exploiting operating-system kernel vulnerabilities to gain the highest privileges
     - **Shellcode**: machine code delivered and executed as part of an exploit
