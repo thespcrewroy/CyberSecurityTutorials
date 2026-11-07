@@ -363,7 +363,14 @@
     - **World Geodetic System (WSG84)**: global datum used for GPS coordinates
 - **Image Analysis**: examining photos and videos to find their source, subjects, or location
 - **IP Intelligence**: researching an IP address’s owner, location, routing, and reputation
+    - **ASN (Autonomous System Number)**: a unique number identifying an autonomous system participating in internet routing
     - **BGP (Border Gateway Protocol)**: the routing protocol that exchanges reachability information between internet networks
+        - **BGP Peering**: a routing relationship in which autonomous systems exchange network reachability information
+        - **BGP Prefix**: an IP address block advertised through BGP as reachable via an autonomous system
+        - **Upstream Provider**: a network that provides another autonomous system with internet connectivity or transit
+    - **CIDR (Classless Inter-Domain Routing)**: notation for defining IP address blocks using a network prefix and prefix length
+    - **IPv6 Subnetting**: dividing 128-bit IPv6 address space into networks, where a prefix of length n contains 2^(128-n) addresses
+    - **RIR (Regional Internet Registry)**: an organization responsible for allocating and registering IP addresses and ASNs
 - **Lipreading**: interpreting speech by visually observing a speaker’s lip and facial movements
 - **Media Verification**: checking whether images, videos, and claims are authentic
 - **OSINT Automation**: frameworks that run many OSINT queries and modules automatically
