@@ -249,6 +249,8 @@
     - **OpenPGP**
         - **[GPA (GNU Privacy Assistant)](https://www.gnupg.org/software/gpa/)**: a graphical interface for managing OpenPGP keys
         - **[MIT PGP Key Server](https://pgp.mit.edu/)**: a public server for finding and submitting OpenPGP keys
+- **PKI (Public Key Infrastructure)**
+    - **[OpenSSL](https://docs.openssl.org/)**: a command-line cryptographic toolkit for inspecting X.509 certificates, certificate authorities, and certificate chains
 
 ## Defensive Security (Blue Team)
 - **Access Control**
