@@ -956,7 +956,7 @@
     - **[Timeline JS3](https://timeline.knightlab.com/)**: open-source JavaScript timeline tool by Knight Lab
     - **[Web Page Saver](https://www.magnetforensics.com/resources/web-page-saver/)**: browser extension for saving complete webpages as single HTML files for offline access
 - **Geolocation**
-- **[AntennaSearch](https://www.antennasearch.com/)**: FCC-backed lookup for antenna structure and tower records used in RF and telecom investigations
+    - **[AntennaSearch](https://www.antennasearch.com/)**: FCC-backed lookup for antenna structure and tower records used in RF and telecom investigations
     - **[Astrometry](https://nova.astrometry.net/)**: astrometry.net solves star-field images to estimate where and when a photo was taken
     - **[Baidu Maps](https://map.baidu.com/)**: major Chinese mapping platform with strong POI and routing coverage in mainland China
     - **[Batch Geocoding](https://www.doogal.co.uk/BatchGeocoding)**: bulk geocoding workflow that converts large address lists into latitude/longitude pairs
