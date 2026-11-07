@@ -956,7 +956,7 @@
     - **[Timeline JS3](https://timeline.knightlab.com/)**: open-source JavaScript timeline tool by Knight Lab
     - **[Web Page Saver](https://www.magnetforensics.com/resources/web-page-saver/)**: browser extension for saving complete webpages as single HTML files for offline access
 - **Geolocation**
-    - **[AntennaSearch](https://www.antennasearch.com/)**: FCC-backed lookup for antenna structure and tower records used in RF and telecom investigations
+- **[AntennaSearch](https://www.antennasearch.com/)**: FCC-backed lookup for antenna structure and tower records used in RF and telecom investigations
     - **[Astrometry](https://nova.astrometry.net/)**: astrometry.net solves star-field images to estimate where and when a photo was taken
     - **[Baidu Maps](https://map.baidu.com/)**: major Chinese mapping platform with strong POI and routing coverage in mainland China
     - **[Batch Geocoding](https://www.doogal.co.uk/BatchGeocoding)**: bulk geocoding workflow that converts large address lists into latitude/longitude pairs
@@ -964,6 +964,7 @@
     - **[beaconDB](https://beacondb.net/)**: open geolocation database for Wi-Fi/Bluetooth/cell beacons used in location inference
     - **[Bing Maps](https://www.bing.com/maps)**: Microsoft web mapping service with road, aerial, and route layers for location analysis
     - **[Corona](https://corona.cast.uark.edu/)**: access point for historical CORONA-era satellite imagery used in long-range change analysis
+    - **[dbfread](https://dbfread.readthedocs.io/)**: Python library for reading DBF attribute tables in geographic datasets
     - **[EarthExplorer](https://earthexplorer.usgs.gov/)**: USGS portal for Landsat, Sentinel, and other earth observation datasets
     - **[Flash Earth](https://zoom.earth/)**: Zoom Earth interface for rapidly reviewing weather and satellite imagery timelines
     - **[GeoSpy](https://geospy.ai/)**: an AI-powered tool for estimating the geographic location of photos
@@ -979,12 +980,14 @@
     - **[LandsatLook Viewer](https://landsatlook.usgs.gov/)**: USGS viewer for browsing Landsat scenes and multispectral imagery
     - **[MapQuest](https://www.mapquest.com/)**: web mapping and routing platform supporting multi-stop route planning
     - **[MarineTraffic](https://www.marinetraffic.com/)**: a live map tracking ship positions worldwide
+    - **[Michigan Water Well Viewer](https://www.michigan.gov/egle/maps-data/waterwellviewer)**: interactive map of Michigan water well locations and construction records
     - **[Naver (Korean)](https://map.naver.com/p/)**: korea-focused mapping platform with strong local POI and transit coverage
     - **[NEXRAD Data Inventory Search](https://www.ncdc.noaa.gov/nexradinv/)**: NOAA/NCDC index for searching archived NEXRAD radar datasets
     - **[OpenInfrastructureMap](https://openinframap.org/)**: OSM-derived map overlays for power, telecom, water, and industrial infrastructure
     - **[OpenSignal](https://www.opensignal.com/)**: crowdsourced mobile coverage and signal quality map from user telemetry
     - **[OpenStreetCam](https://kartaview.org/)**: KartaView crowdsourced street-level imagery platform for geospatial verification
     - **[OpenStreetMap](https://www.openstreetmap.org/)**: open-source global map edited by the community and widely reused in OSINT workflows
+    - **[QGIS](https://qgis.org/)**: open-source geographic information system for mapping, spatial analysis, and shapefile inspection
     - **[SkyFi.com - Satellite Open Data](https://app.skyfi.com/explore/open)**: satellite imagery marketplace and open-data discovery interface for earth observation assets
     - **[Travel by Drone](https://travelbydrone.com/)**: drone-route and aerial exploration resource useful for planning vantage-aware terrain review
     - **[US Nav Guide Zip Code Data](https://www.usnaviguide.com/)**: zip-code lookup resource for correlating US postal areas with map context
@@ -1107,41 +1110,45 @@
     - **[BIN Base](https://www.buybindatabase.binbase.com/)**: business Identification Number database for company registration lookups
     - **[Black Book Online - Criminal Search](https://www.blackbookonline.info/)**: free public records search portal covering 37,000+ types of records
     - **[BRB Public Records](https://www.brbpublications.com/)**: BRB Publications portal linking to public records sources across US
-    - **[CA Salary DB](https://transparentcalifornia.com/)**: comprehensive California government salary database covering state, local, schools, universities
-    - **[Caselaw Access Project](https://case.law/)**: harvard-hosted comprehensive free legal database with 6M+ court opinions
-    - **[CourtListener](https://courtlistener.com/)**: free legal research platform with millions of opinions, dockets, and RECAP data from US federal
+    - **[CA Salary DB](https://transparentcalifornia.com/)**: comprehensive government salary database covering state, local, schools, and universities
+    - **[Caselaw Access Project](https://case.law/)**: Harvard-hosted comprehensive free legal research database with 6M+ court opinions
+    - **[CourtListener](https://courtlistener.com/)**: free legal research platform with millions of opinions, dockets, and RECAP data from US federal courts
     - **[CrimeReports.com](https://crimereports.com)**: real-time crime reporting map aggregating incident data from law enforcement agencies
     - **[Docket Alarm](https://docketalarm.com)**: federal and state litigation docket tracking and analysis
     - **[Epstein Exposed](https://epsteinexposed.com/)**: comprehensive searchable database of Epstein case documents
-    - **[Every Politician](https://everypolitician.org/)**: open data project aggregating politician information globally
-    - **[Familywatchdog - Sex Offender Search](https://www.familywatchdog.us/)**: free sex offender registry aggregator combining data from all US state registries
-    - **[Find A Grave](https://www.findagrave.com/)**: largest online cemetery database with 615M+ grave records
+    - **[Every Politician](https://everypolitician.org/)**: global open data project aggregating information about politicians
+    - **[Familywatchdog - Sex Offender Search](https://www.familywatchdog.us/)**: free sex offender registry aggregator combining state registry data
+    - **[Find A Grave](https://www.findagrave.com/)**: searchable cemetery records with GPS-marked grave locations and gravestone photos
     - **[Free Law RECAP Archive](https://www.courtlistener.com/recap/)**: free archive of PACER documents crowdsourced by Free Law Project
-    - **[Google Patent Search](https://patents.google.com/)**: Google's searchable patent database covering US, EU, WIPO and other international patents
-    - **[Google Scholar Case Law](https://scholar.google.com/scholar_courts)**: Google's free legal research tool indexing millions of court opinions from US federal
-    - **[Gov Data Canada](https://open.canada.ca/data/en/dataset)**: government of Canada Open Data Portal
-    - **[GOVDATA](https://www.govdata.de/)**: official German government open data portal with 120K+ datasets
+    - **[Google Patent Search](https://patents.google.com/)**: searchable patent database covering US, EU, WIPO, and other patent offices
+    - **[Google Scholar Case Law](https://scholar.google.com/scholar_courts)**: free legal research database indexing US federal and state court opinions
+    - **[Gov Data Canada](https://open.canada.ca/data/en/dataset)**: official Canadian government open data portal
+    - **[GOVDATA](https://www.govdata.de/)**: official German government open data portal
     - **[GraveInfo](https://billiongraves.com/)**: cemetery records database with GPS-marked grave locations and gravestone photos
     - **[Influence Explorer](https://influenceexplorer.com/)**: campaign finance, lobbying, and political data aggregator
-    - **[judyrecords](https://www.judyrecords.com/)**: free nationwide court case search engine with 760M+ US court cases
-    - **[Most Wanted Criminal Pages](https://www.fbi.gov/wanted/fugitives)**: FBI's official wanted fugitives database featuring the Ten Most Wanted list
+    - **[judyrecords](https://www.judyrecords.com/)**: searchable nationwide court case database
+    - **[Michigan Historical Well Records](https://www.egle.state.mi.us/well-logs/)**: archived Michigan water well construction records from 1999 and earlier
+    - **[Michigan Wellogic](https://www.egle.state.mi.us/wellogic/Login.aspx)**: official Michigan database of water well depths, usage, status, and drilling records
+    - **[Michigan Wellogic County Downloads](https://www.michigan.gov/egle/maps-data/wellogic/water-wells)**: downloadable county-level groundwater records for bulk analysis
+    - **[Most Wanted Criminal Pages](https://www.fbi.gov/wanted/fugitives)**: FBI's official wanted fugitives database
     - **[Mugshots.com](https://mugshots.com)**: searchable mugshot database aggregating arrest records and booking photos
-    - **[NACo County Explorer](https://explorer.naco.org/)**: interactive mapping tool with 1000+ demographic and economic indicators for all 3,069 US counties
-    - **[National Sex Offender Search](https://www.nsopw.gov/)**: official National Sex Offender Public Website aggregating state registry data
+    - **[NACo County Explorer](https://explorer.naco.org/)**: interactive mapping tool with demographic and economic indicators for US counties
+    - **[National Sex Offender Search](https://www.nsopw.gov/)**: official US National Sex Offender Public Website aggregating state registry data
     - **[NC Salary DB](https://www.ncosc.gov/public-information/state-employee-salary-database)**: official North Carolina state employee salary database
     - **[Neighbor Report](https://neighbor.report/)**: neighborhood and property statistics including crime data, schools, and community information
-    - **[Open-Data-Portal München (German)](https://opendata.muenchen.de/)**: city of Munich open data portal with 331+ datasets
-    - **[Political MoneyLine](https://www.opensecrets.org/)**: campaign finance and political money database aggregating federal election contributions
-    - **[Redfin](https://redfin.com)**: real estate marketplace with comprehensive property history, MLS data, and market analytics
-    - **[Regrid (US Only)](https://regrid.com)**: interactive property mapping and parcel data tool covering most US counties
+    - **[Open-Data-Portal München (German)](https://opendata.muenchen.de/)**: Munich government open data portal
+    - **[Political MoneyLine](https://www.opensecrets.org/)**: campaign finance and lobbying research database
+    - **[Redfin](https://redfin.com)**: real estate marketplace with property history, MLS data, and market analytics
+    - **[Regrid (US Only)](https://regrid.com)**: interactive property mapping and parcel data covering most US counties
     - **[Searchable FCC ID Database](https://www.fcc.gov/oet/ea/fccid)**: official FCC database for electronic device certification
     - **[The Inmate Locator](https://www.bop.gov/inmateloc/)**: federal Bureau of Prisons official inmate search tool
-    - **[The World Bank Open Data Catalog](https://datacatalog.worldbank.org/)**: world Bank open development data portal with datasets on economics, demographics
-    - **[UniCourt](https://unicourt.com/)**: free nationwide litigation database and docket analyzer
-    - **[US Federal Election Commission](https://fec.gov/data)**: official Federal Election Commission data portal
-    - **[US Patent Office Search](https://www.uspto.gov/patents/search)**: official US Patent and Trademark Office searchable patent database
-    - **[VAT Research](https://www.belastingdienst.nl/)**: netherlands tax authorities (Belastingdienst) database
-    - **[World Legal Information Institute](https://worldlii.org)**: legal database aggregating laws, regulations, and court decisions from 140+ countries
+    - **[The World Bank Open Data Catalog](https://datacatalog.worldbank.org/)**: World Bank open development data portal
+    - **[UniCourt](https://unicourt.com/)**: nationwide litigation database and docket analyzer
+    - **[US Federal Election Commission](https://fec.gov/data)**: official Federal Election Commission campaign finance data portal
+    - **[US Patent Office Search](https://www.uspto.gov/patents/search)**: official US Patent and Trademark Office patent search
+    - **[USGS Water Resources](https://www.usgs.gov/mission-areas/water-resources)**: federal groundwater monitoring, hydrology, and water resources information
+    - **[VAT Research](https://www.belastingdienst.nl/)**: Netherlands tax authorities database
+    - **[World Legal Information Institute](https://worldlii.org)**: legal database aggregating laws, regulations, and court decisions from around the world
 - **Querying**
     - **[GitHub User](https://api.github.com/users/%3Cusername%3E/events/public)**: a manual query for a specific GitHub user’s public activity
     - **[Proton Mail Domains](https://api.protonmail.ch/pks/lookup?op=index&search=%3Cemail_address%3E)**: a manual query for Proton Mail addresses using a domain
