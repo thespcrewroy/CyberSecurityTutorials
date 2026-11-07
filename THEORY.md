@@ -101,7 +101,17 @@
 - **HSM (Hardware Security Module)**: tamper-resistant hardware that generates, stores, and uses cryptographic keys
 - **Key Management**: generating, storing, rotating, and controlling access to cryptographic keys
 - **PKI (Public Key Infrastructure)**: manages public keys, digital certificates, certificate authorities, and trust relationships
+    - **CA (Certificate Authority)**: a trusted entity that issues and digitally signs certificates
+    - **Certificate Chain of Trust**: a hierarchy of certificates connecting an end-entity certificate to a trusted root CA
+        - **Intermediate CA**: a certificate authority whose certificate is signed by another CA and which can issue additional certificates
+        - **Root CA**: a self-signed certificate authority that serves as a trust anchor
     - **Digital Certificate**: digitally binds an identity to a public key
+        - **Authority Information Access (AIA)**: a certificate extension identifying services related to the issuing certificate authority
+            - **CA Issuers URI**: a URL used to retrieve the issuing CA's certificate
+            - **OCSP (Online Certificate Status Protocol)**: a protocol for checking certificate revocation status
+        - **Issuer**: identifies the certificate authority that issued and signed the certificate
+        - **Subject**: identifies the entity to which the certificate was issued
+            - **Common Name (CN)**: a subject attribute containing a name associated with the certificate holder
         - **TLS Certificate**: authenticates a network service and enables protected TLS communications
 - **PGP (Pretty Good Privacy)**: a system for encrypting and digitally signing data
     - **OpenPGP**: the interoperable standard for PGP-compatible encryption and digital signatures
