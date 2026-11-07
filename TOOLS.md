@@ -1379,6 +1379,7 @@
     - **[World Aeronautical Database](https://worldaerodata.com/)**: reference database for airport, airline, and aircraft metadata
 - **[Wayback Machine](https://archive.org/web/)**: the Internet Archive’s searchable history of archived web pages
 - **WHOIS**
+    - **[ARIN RDAP](https://rdap.arin.net/registry/)**: registration data for IP networks, ASNs, organizations, abuse contacts, and registration dates 
     - **[Daily DNS Changes](https://dailychanges.domaintools.com/)**: DomainTools service monitoring DNS record changes
     - **[DNSstuff](https://www.dnsstuff.com/freetools)**: suite of free DNS and network tools providing lookups, DNS checks, and WHOIS information
     - **[Domain Dossier](https://centralops.net/co/DomainDossier.aspx)**: free web-based tool that aggregates WHOIS, DNS, and network information for domains
