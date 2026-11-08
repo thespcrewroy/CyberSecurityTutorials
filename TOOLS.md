@@ -1220,7 +1220,6 @@
     - **[Namechk](https://namechk.com/)**: a web tool for checking username and domain availability
     - **[Napalm FTP](https://www.searchftps.net/)**: FTP indexer and search engine with over 329 million files indexed across 1,200+ FTP servers
     - **[NerdyData](https://www.nerdydata.com/reports/new)**: source code search engine for website technology reconnaissance that indexes HTML, CSS
-    - **[NewsLookup](http://www.newslookup.com/)**: a news search engine that indexes sources by region and topic
     - **[Open Access Scholarly Journals](https://www.pagepress.org/)**: PAGEPress open-access publisher hosting peer-reviewed journals across biomedical, natural
     - **[Open Library](https://openlibrary.org/)**: internet Archive's open catalog of over 3 million books with borrowable digital editions
     - **[OpenDOAR](https://www.opendoar.org/search.php)**: global directory of open-access repositories with over 6,000 academic repositories
