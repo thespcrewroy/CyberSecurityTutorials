@@ -133,6 +133,7 @@
 ## Newsletter
 - [Awesome Security Newsletters](https://github.com/TalEliyahu/awesome-security-newsletters): a curated list of cybersecurity newsletters by topic
 - [Brutalist Report](https://brutalist.report/): the day's headlines delivered to you without bullshit
+- [Mozilla Bugzilla](https://bugzilla.mozilla.org/): Mozilla's issue-tracking platform for investigating publicly reported security vulnerabilities
 - [LakeraAI Blog](https://www.lakera.ai/blog): research blog goes into Indirect Prompt Injection with real attack scenarios
 
 ## Resources
