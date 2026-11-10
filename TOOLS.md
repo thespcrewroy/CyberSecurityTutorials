@@ -396,6 +396,7 @@
         - **[Mailfence](https://kb.mailfence.com/)**: an encrypted email and collaboration service
         - **[NIST SP 800-177 Revision 1](https://csrc.nist.gov/pubs/sp/800/177/r1/final)**: NIST guidance for establishing trustworthy email systems
         - **[Proton Mail](https://proton.me/support/mail)**: an encrypted email service with end-to-end and zero-access encryption
+        - **[Postfix](https://www.postfix.org/)**: an open-source mail transfer agent (MTA) for routing and delivering email using SMTP
         - **[Temp Mail](https://temp-mail.org/)**: a temporary inbox and disposable email service
         - **[Tuta](https://tuta.com/support)**: an encrypted email service formerly known as Tutanota
     - **Secure Search Engines**
