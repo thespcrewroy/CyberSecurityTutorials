@@ -115,7 +115,8 @@
 
 ## Conferences & Events
 - [2 September] [Blue Team Con](https://blueteamcon.com/): a conference dedicated to cybersecurity defense and blue-team professionals
-- [3 September] [BSides Orlando](https://bsidesorlando.org/): join us for a day of learning, networking, and fun - [3 September] [SecureWorld Atalnta](https://events.secureworld.io/details/atlanta-ga-2026/): attend the region's top cybersecurity conference
+- [3 September] [BSides Orlando](https://bsidesorlando.org/): join us for a day of learning, networking, and fun
+- [3 September] [SecureWorld Atalnta](https://events.secureworld.io/details/atlanta-ga-2026/): attend the region's top cybersecurity conference
 - [4 September] [National Cyber and AI Virtual Career Fair](https://www.caecommunity.org/national-cyber-and-ai-career-fair): nearly 500 CAE institutions invited
 - [4 September] [EDUCAUSE Cybersecurity and Privacy Professionals Conference](https://events.educause.edu/annual-conference): stay informed about the issues shaping higher ed
 - [1 October] [WWHF (Wild West Hackin’ Fest)](https://wildwesthackinfest.com/): a cybersecurity conference emphasizing practical training and hands-on learning
