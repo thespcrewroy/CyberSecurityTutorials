@@ -45,12 +45,12 @@
 
 ## College Courses
 - Cyber Security (CSCI 4250)
-- Cryptology and Computational Number Theory (MATH 4450)
 - Data Security and Privacy (CSCI 4260)
 - Introduction to Computer Forensics (CSCI 4270)
 - Operating Systems (CSCI 4370)
 - Computer Networks (CSCI 4760)
 - Distributed Computing Systems (CSCI 4780)
+- Cryptology and Computational Number Theory (MATH 4450)
 
 ## Communities
 - Discord Groups
