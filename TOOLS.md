@@ -713,6 +713,7 @@
 - **[BloodHound](https://github.com/SpecterOps/BloodHound)**: a tool for mapping attack paths in Active Directory environments
 - **[bloodyAD](https://github.com/CravateRouge/bloodyAD)**: an Active Directory privilege-escalation framework over LDAP
 - **Bug Bounty Programs**
+    - **[BugCrowd](https://www.bugcrowd.com/):** connects organizations with a global community of vetted ethical hackers
     - **[HackerOne](https://www.hackerone.com/)**: a bug bounty platform connecting ethical hackers with companies
     - **[Intigriti](https://www.intigriti.com/)**: a European bug bounty and pentest-as-a-service platform with a global researcher community
     - **[Open Bug Bounty](https://www.openbugbounty.org/)**: a platform for reporting web vulnerabilities through coordinated disclosure
