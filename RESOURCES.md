@@ -58,6 +58,7 @@
    - BSides Atlanta: a community-driven conference for cybersecurity professionals and enthusiasts
    - [Atlanta Cyber Security Engineers](https://discord.gg/BPEyDucFcS): an Atlanta community for cybersecurity collaboration and networking
    - CBC Community of Practice @ NSF: an NSF-supported community for cybersecurity education and collaboration
+   - [CCDC Southeast](https://discord.gg/3GP7DxHPv): regional qualifying event for the National Collegiate Cyber Defense Competition (NCCDC) 
    - CDCTF @ UAB: UAB’s capture-the-flag competition for practicing cybersecurity skills
    - [CSCI 4250: Cybersecurity](https://discord.gg/VCs8pW87Vy): a community for students enrolled in UGA’s cybersecurity course
    - NCAE Cyber Games: a collegiate competition featuring practical cybersecurity challenges
