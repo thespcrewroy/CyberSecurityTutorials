@@ -60,8 +60,8 @@
 - Distributed Computing Systems (CSCI 4780)
 - Zichen Gui Special Topics in Computing: Introduction to Cryptography (CSCI 4900)
 - Faculty Mentored Reseach in Computer Science (CSCI 4960R)
-- Cryptology and Computational Number Theory (MATH 4450)
 - Kyu Lee Software Security and Cyber Forensics (CSCI 8240)
+- Cryptology and Computational Number Theory (MATH 4450)
 - Cyber Threat Intelligence (MIST 5775)
 
 ## Communities
