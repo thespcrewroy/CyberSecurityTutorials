@@ -43,10 +43,9 @@
 - ISO/IEC 42001 Lead Auditor
 
 ## College Majors
+- Cyber Security: Masters
 - Computer Science: Cyber Security Emphasis
 - Management Information Systems: Information Security Emphasis
-
-## College Minors
 
 ## College Certificates
 - Cyber Security
