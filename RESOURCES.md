@@ -65,7 +65,7 @@
 - Cyber Threat Intelligence (MIST 5775)
 
 ## Communities
-- Discord Groups
+- Discord
    - [Advanced Research in Exploitation and Security (ARES)](https://discord.gg/PUE97EffRU): a UGA research group focused on cybersecurity
    - BSides Atlanta: a community-driven conference for cybersecurity professionals and enthusiasts
    - [Atlanta Cyber Security Engineers](https://discord.gg/BPEyDucFcS): an Atlanta community for cybersecurity collaboration and networking
@@ -82,7 +82,7 @@
    - [Society for Cyber Security @ UGA](https://discord.gg/KrUR46NY6R): UGA’s student organization for cybersecurity education and networking
    - [TryHackMe](https://discord.gg/bsxn5cAymu): a community for learning cybersecurity through interactive labs
    - [Wild West Hackin' Fest](https://discord.gg/wwhf): a cybersecurity conference community focused on practical training
-- Meetup Groups
+- Meetup
     - [OWASP Atlanta Chapter](https://owasp.org/www-chapter-atlanta/): a local community focused on application security education and networking
 - [DC404 Atlanta Hacker Community](https://dc404.org/): an Atlanta community for hackers, security enthusiasts, and technology professionals.
 
