@@ -61,7 +61,9 @@
 - Faculty Mentored Reseach in Computer Science (CSCI 4960R)
 - Kyu Lee Software Security and Cyber Forensics (CSCI 8240)
 - Cryptology and Computational Number Theory (MATH 4450)
+- Information Security Management (MIST 5770)
 - Cyber Threat Intelligence (MIST 5775)
+- Applied Information Security (MIST 5785)
 
 ## Communities
 - Discord
