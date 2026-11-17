@@ -47,6 +47,8 @@
 - Computer Science: Cyber Security Emphasis
 - Management Information Systems: Information Security Emphasis
 
+## College Minors
+
 ## College Certificates
 - Cyber Security
 
