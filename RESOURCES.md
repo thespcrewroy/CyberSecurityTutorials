@@ -43,6 +43,13 @@
 - ISO/IEC 27001 Lead Auditor
 - ISO/IEC 42001 Lead Auditor
 
+## College Majors
+- Computer Science: Cyber Security Emphasis
+- Management Information Systems: Information Security Emphasis
+
+## College Certificates
+- Cyber Security
+
 ## College Courses
 - Cyber Security (CSCI 4250)
 - Data Security and Privacy (CSCI 4260)
@@ -50,7 +57,11 @@
 - Operating Systems (CSCI 4370)
 - Computer Networks (CSCI 4760)
 - Distributed Computing Systems (CSCI 4780)
+- Zichen Gui Special Topics in Computing: Introduction to Cryptography (CSCI 4900)
+- Faculty Mentored Reseach in Computer Science (CSCI 4960R)
 - Cryptology and Computational Number Theory (MATH 4450)
+- Kyu Lee Software Security and Cyber Forensics (CSCI 8240)
+- Cyber Threat Intelligence (MIST 5775)
 
 ## Communities
 - Discord Groups
