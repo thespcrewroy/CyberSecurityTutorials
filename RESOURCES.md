@@ -6,7 +6,6 @@
 - CompTIA Security Analytics Professional (CSAP)
     - CompTIA Security+
     - CompTIA CYSA+
-- CompTIA SecAI+
 - AWS Certified Security – Specialty
 - Splunk Certified Cybersecurity Defense Analyst  
 - Security Blue Team Blue Team Level 1 (BTL1)
