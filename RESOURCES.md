@@ -255,7 +255,6 @@
 - [How to Use VirtualBox](https://www.nakivo.com/blog/use-virtualbox-quick-overview/): NAKIVO’s quick overview of VirtualBox
 - [How to Use Wireshark](https://www.comptia.org/content/articles/what-is-wireshark-and-how-to-use-it): CompTIA’s introduction to Wireshark
 - [how2heap](https://github.com/shellphish/how2heap): Shellphish’s collection of heap exploitation techniques with examples
-- [HTB Academy](https://academy.hackthebox.com/catalogue): Hack The Box’s guided course catalog, with a discounted student plan
 - [HTTPLeaks](https://github.com/cure53/HTTPLeaks): a test page listing every way a web page can leak HTTP requests
 - [Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1): a free course on how large language models work
 - [IAM Vulnerable](https://github.com/BishopFox/iam-vulnerable): a Terraform lab of AWS IAM privilege-escalation paths
@@ -267,7 +266,6 @@
 - [Intro to Assembly](https://csbygb.gitbook.io/pentips/binary-exploitation/assembly): an introduction to assembly for binary exploitation
 - [Intro to C](https://www.sans.org/webcasts/intro-c-windows-devs/): a SANS webcast introducing C programming
 - [Intro to KQL](https://academy.bluraven.io/intro-to-kql-for-security-analysis): a free Bluraven course on Kusto Query Language for security analysis
-- [Intro to Network Traffic Analysis](https://academy.hackthebox.com/course/preview/intro-to-network-traffic-analysis): Hack The Box Academy’s introductory module on traffic analysis
 - [Introduction to Ghidra](https://static.grumpycoder.net/pixel/docs/GhidraClass/Beginner/Introduction_to_Ghidra_Student_Guide_withNotes.html): the NSA’s Ghidra beginner class student guide
 - [IoTGoat](https://github.com/OWASP/IoTGoat): a deliberately insecure router firmware for practicing IoT exploitation
 - [ir0nstone Binary Exploitation Notes](https://ir0nstone.gitbook.io/notes): notes on stack, heap, and kernel exploitation
@@ -366,7 +364,6 @@
 - [TheHackPack](https://thehackpack.org/practice): UGA's premiere cyber security learning platform
 - [TraceLabs Search Party](https://www.tracelabs.org/initiatives/search-party): OSINT CTFs that gather leads for real missing-persons cases
 - [TryHackMe](https://tryhackme.com/): beginner-friendly cybersecurity lessons and hands-on labs
-- [TryHackMe Wireshark Module](https://tryhackme.com/module/wireshark): hands-on TryHackMe rooms for learning Wireshark
 - [tshark.dev](https://tshark.dev/): a guide to capturing and analyzing packets with tshark
 - [Ultimate Guide to Cookie Hijacking](https://www.thesslstore.com/blog/the-ultimate-guide-to-session-hijacking-aka-cookie-hijacking/): The SSL Store’s guide to how session and cookie hijacking work
 - [Ultimate Guide to Logging](https://www.loggly.com/ultimate-guide/analyzing-linux-logs/): Loggly’s guide to finding and analyzing Linux logs
