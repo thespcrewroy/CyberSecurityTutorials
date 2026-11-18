@@ -710,6 +710,7 @@
 - **[Zeek](https://docs.zeek.org/en/master/)**: an open-source network security monitor that produces detailed traffic logs
 
 ## Offensive Security (Red Team)
+- **[ARTEX](https://github.com/BaaRai/ARTEX)**: an AI-powered penetration-testing framework that uses multiple LLM agents
 - **[BloodHound](https://github.com/SpecterOps/BloodHound)**: a tool for mapping attack paths in Active Directory environments
 - **[bloodyAD](https://github.com/CravateRouge/bloodyAD)**: an Active Directory privilege-escalation framework over LDAP
 - **Bug Bounty Programs**
