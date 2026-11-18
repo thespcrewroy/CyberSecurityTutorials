@@ -1,10 +1,10 @@
 ## Certifications
-- MITx Cybersecurity for Critical Urban Infrastructure
-- TEEX Using the CCSMM to Develop a Cybersecurity Program
-- Google Cyber Security Certificate
+- ⭐️ MITx Cybersecurity for Critical Urban Infrastructure
+- ⭐️ TEEX Using the CCSMM to Develop a Cybersecurity Program
+- ⭐️ Google Cyber Security Certificate
 - CompTIA A+
 - CompTIA Security Analytics Professional (CSAP)
-    - CompTIA Security+
+    - ⭐️ CompTIA Security+
     - CompTIA CYSA+
 - AWS Certified Security – Specialty
 - Splunk Certified Cybersecurity Defense Analyst  
@@ -44,6 +44,7 @@
 
 ## College Majors
 - Cyber Security: Masters
+- Computer Science: Computer Systems Emphasis
 - Computer Science: Cyber Security Emphasis
 - Management Information Systems: Information Security Emphasis
 
