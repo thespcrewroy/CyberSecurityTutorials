@@ -54,8 +54,8 @@
 ## College Courses
 - Cyber Security (CSCI 4250)
 - Data Security and Privacy (CSCI 4260)
-- Introduction to Computer Forensics (CSCI 4270)
-- Operating Systems (CSCI 4370)
+- ⭐️ Introduction to Computer Forensics (CSCI 4270)
+- ⭐️ Operating Systems (CSCI 4370)
 - Computer Networks (CSCI 4760)
 - Distributed Computing Systems (CSCI 4780)
 - Zichen Gui Special Topics in Computing: Introduction to Cryptography (CSCI 4900)
