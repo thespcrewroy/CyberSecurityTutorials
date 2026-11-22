@@ -44,6 +44,7 @@
 
 ## College Majors
 - Cyber Security: Masters
+    - [Georgia Tech OMS Cybersecurity](https://pe.gatech.edu/degrees/cybersecurity): Georgia Tech's online master's in cybersecurity
 - Computer Science: Computer Systems Emphasis
 - Computer Science: Cyber Security Emphasis
 - Management Information Systems: Information Security Emphasis
@@ -145,6 +146,9 @@
 - [1 August] [Black Hat Conference](https://www.blackhat.com/us-24/): a major cybersecurity conference featuring research, training, and security briefings
 - [1 August] [DEF CON](https://defcon.org/): one of the world’s largest hacker and cybersecurity conventions
 - [2 June] [OSDF Conference](https://www.osdfcon.org/): a conference focused on open-source digital forensics
+
+## Examples
+- [Colonial Pipeline Ransomware Attack (CISA)](https://www.cisa.gov/node/18129): CISA's look back at the 2021 DarkSide attack and its lessons
 
 ## Newsletter
 - [Awesome Security Newsletters](https://github.com/TalEliyahu/awesome-security-newsletters): a curated list of cybersecurity newsletters by topic
@@ -350,6 +354,7 @@
 - [picoCTF](https://picoctf.org/): Carnegie Mellon’s free CTF for beginners, with a year-round practice gym
 - [picoPrimer](https://primer.picoctf.org/): introductory cybersecurity lessons supporting picoCTF challenges
 - [Plessas](https://plessas.net/online-training): expert-led OSINT training courses by the Plessas Experts Network
+- [Pluralsight](https://www.pluralsight.com/): tech courses with skill paths and certification prep roadmaps
 - [PortSwigger SQL Injection Labs](https://portswigger.net/web-security/all-labs#sql-injection): free hands-on SQL injection labs from the Web Security Academy
 - [pwn.college](https://pwn.college/): a structured platform for learning binary exploitation and CTF skills
 - [Pwning OWASP Juice Shop](https://pwning.owasp-juice.shop/): the official companion guide and walkthrough for Juice Shop
@@ -412,4 +417,5 @@
 - [IppSec](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA): detailed Hack The Box walkthroughs and penetration-testing tutorials
 - [John Hammond](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw): CTF walkthroughs, malware analysis, and cybersecurity tutorials
 - [LiveOverflow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w): binary exploitation, reverse engineering, and security research tutorials
+- [SomeOrdinaryGamers](https://www.youtube.com/@SomeOrdinaryGamers): Mutahar's videos on malware, hacks, and cybercrime stories
 - [Talking Sasquach](https://www.youtube.com/@TalkingSasquach/videos): hardware-hacking tutorials and security-device demonstrations

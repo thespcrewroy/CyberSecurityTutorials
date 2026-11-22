@@ -25,12 +25,13 @@
 ## Cloud Security
 - **[AWS Config](https://docs.aws.amazon.com/config/)**: records AWS resource configurations and checks them against rules
 - **[Bedrock Data](https://bedrockdata.ai/)**: a data security platform for discovering, classifying, and managing sensitive data exposure
-- **CI/CD Security**
-    - **[JFrog AppTrust](https://jfrog.com/apptrust/)**: enforcing release policies, tracking artifact integrity, and collecting compliance evidence
 - **Containerization**
     - **Container Orchestration**
         - **[Red Hat OpenShift](https://docs.redhat.com/en/documentation/openshift_container_platform/4.20/html/overview/ocp-overview)**: an enterprise Kubernetes platform
 - **[Cyera](https://www.cyera.com/platform)**: discovers, classifies, and protects sensitive data across cloud, SaaS, and hybrid environments
+- **DevSecOps**
+    - **CI/CD Security**
+        - **[JFrog AppTrust](https://jfrog.com/apptrust/)**: enforcing release policies, tracking artifact integrity, and collecting compliance evidence
 - **Secrets Management**
     - **[AWS Secrets Manager](https://docs.aws.amazon.com/secretsmanager/)**: stores and rotates AWS credentials and secrets
     - **[Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/)**: Azure’s service for storing secrets, keys, and certificates
@@ -78,6 +79,8 @@
         - **[Google Threat Intelligence](https://cloud.google.com/security/products/threat-intelligence)**: combines threat intelligence from Google, Mandiant, and VirusTotal
         - **[Mandiant](https://cloud.google.com/security/mandiant)**: provides threat intelligence, incident response, and managed defense services
         - **[ReversingLabs Spectra Analyze](https://docs.reversinglabs.com/SpectraAnalyze/)**: a malware-analysis and threat-intelligence platform
+- **Vulnerability Management**
+    - **[Qualys VMDR](https://docs.qualys.com/en/vm/latest/)**: Qualys' vulnerability management, detection, and response platform
 
 ## Forensics
 - **Mobile Forensics**

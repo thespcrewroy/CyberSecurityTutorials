@@ -86,12 +86,6 @@
 - **[AADInternals](https://aadinternals.com/aadinternals/)**: a PowerShell toolkit for administering and attacking Entra ID and Microsoft 365
 - **[AWS CLI](https://docs.aws.amazon.com/cli/)**: Amazon’s command-line tool for managing and enumerating AWS
 - **[Azure CLI](https://learn.microsoft.com/en-us/cli/azure/)**: Microsoft’s command-line tool for managing and enumerating Azure
-- **CI/CD Security**
-    - **[Chain-bench](https://github.com/aquasecurity/chain-bench)**: audits software supply chains against the CIS benchmark
-    - **[ggshield](https://github.com/GitGuardian/ggshield)**: GitGuardian’s CLI for catching secrets before they are committed
-    - **[Nosey Parker](https://github.com/praetorian-inc/noseyparker)**: a fast scanner for secrets in text and Git history
-    - **[pwn_jenkins](https://github.com/gquere/pwn_jenkins)**: notes and scripts for attacking Jenkins servers
-    - **[TruffleHog](https://github.com/trufflesecurity/trufflehog)**: finds and verifies leaked secrets in code, repos, and cloud storage
 - **Cloud Enumeration**
     - **[AADInternals](https://github.com/Gerenios/AADInternals)**: PowerShell toolkit for Azure AD and Entra ID assessment, including tenant reconnaissance
     - **[AWSBucketDump](https://github.com/jordanpotti/AWSBucketDump)**: Python tool that enumerates AWS S3 buckets and optionally downloads accessible objects
@@ -146,6 +140,13 @@
         - **[Tetragon](https://github.com/cilium/tetragon)**: eBPF-based runtime security observability and enforcement
         - **[Trivy](https://github.com/aquasecurity/trivy)**: scans containers, file systems, and IaC for vulnerabilities and misconfigurations
     - **[Docker](https://docs.docker.com/get-started/)**: a platform for building and running applications inside containers
+- **DevSecOps**
+    - **CI/CD Security**
+        - **[Chain-bench](https://github.com/aquasecurity/chain-bench)**: audits software supply chains against the CIS benchmark
+        - **[ggshield](https://github.com/GitGuardian/ggshield)**: GitGuardian’s CLI for catching secrets before they are committed
+        - **[Nosey Parker](https://github.com/praetorian-inc/noseyparker)**: a fast scanner for secrets in text and Git history
+        - **[pwn_jenkins](https://github.com/gquere/pwn_jenkins)**: notes and scripts for attacking Jenkins servers
+        - **[TruffleHog](https://github.com/trufflesecurity/trufflehog)**: finds and verifies leaked secrets in code, repos, and cloud storage
 - **[FireProx](https://github.com/ustayready/fireprox)**: rotates source IPs through AWS API Gateway for each request
 - **[Google Cloud CLI (gcloud)](https://cloud.google.com/sdk/gcloud)**: Google’s command-line tool for managing and enumerating GCP
 - **[Google Security Command Center](https://cloud.google.com/security-command-center/docs/overview)**: Google Cloud’s platform for identifying vulnerabilities
@@ -1607,6 +1608,7 @@
         - **[GDB (GNU Debugger)](https://sourceware.org/gdb/documentation/)**: a debugger for inspecting and controlling programs during execution
             - **[GEF](https://github.com/hugsy/gef)**: a GDB extension with exploit-development and reverse-engineering features
             - **[pwndbg](https://github.com/pwndbg/pwndbg)**: a GDB and LLDB plug-in that makes debugging suck less
+        - **[OllyDbg](https://www.ollydbg.de/)**: a free 32-bit assembler-level debugger for analyzing Windows binaries
         - **[OnlineGDB](https://www.onlinegdb.com/)**: an online compiler and debugger for C and C++
 - **Emulation**
     - **[AIM (Automatic Interrupt Modeling)](https://arxiv.org/abs/2312.01195)**: a system that automatically models interrupts for dynamic firmware analysis

@@ -18,7 +18,6 @@
 - **Smart Contract**: a program stored on a blockchain that runs automatically when its conditions are met
 
 ## Cloud Security
-- **CI/CD Security**: protecting build and deployment pipelines and their secrets from tampering
 - **Cloud Enumeration**: discovering an organization’s cloud accounts, storage buckets, and SaaS services
 - **Cloud Service Model**: the division of responsibility between a cloud provider and its customer
     - **IaaS (Infrastructure as a Service)**: rented virtual machines, storage, and networks that the customer manages
@@ -28,6 +27,9 @@
     - **Container Image**: an immutable package containing an application, its dependencies, and its runtime configuration
     - **Container Orchestration**: automates the deployment, scaling, networking, and management of containers
     - **Container Security**: protects container images, runtimes, registries, and orchestration environments from threats
+- **DevSecOps**: integrating security practices into every stage of the DevOps lifecycle
+    - **CI/CD Security**: protecting build and deployment pipelines and their secrets from tampering
+        - **RSPM (Repository Security Posture Management)**: secures source code repositories' settings, access, and secrets
 - **IaC (Infrastructure as Code)**: defining and provisioning infrastructure through configuration files such as Terraform or Ansible
 - **IAM (Identity and Access Management)**: the cloud policies, roles, and permissions that control who can do what
 - **IMDS (Instance Metadata Service)**: a cloud endpoint that gives instances their configuration and temporary credentials
@@ -97,6 +99,7 @@
     - **Checksum**: a value calculated from data to detect accidental corruption
 - **Data-at-Rest Encryption**: protects stored information from unauthorized access
     - **FDE (Full-Disk Encryption)**: encrypts an entire storage device to protect its contents
+- **Data-in-Transit Encryption**: protects information while it moves across networks, typically using TLS
 - **Encoding**: converts data into another representation for storage or transmission without providing secrecy
 - **HSM (Hardware Security Module)**: tamper-resistant hardware that generates, stores, and uses cryptographic keys
 - **Key Management**: generating, storing, rotating, and controlling access to cryptographic keys
@@ -133,6 +136,7 @@
     - **UEM (Unified Endpoint Management)**: centrally manages multiple endpoint classes through a unified platform
 - **GRC (Governance, Risk, and Compliance)**: coordinates organizational governance, risk management, and compliance activities
     - **Threat Modeling**: identifying likely threats to a system and the controls that address them
+    - **TPRM (Third-Party Risk Management)**: assessing and monitoring security risk from vendors, suppliers, and partners
 - **Incident Response**: prepares for, detects, contains, eradicates, and recovers from security incidents
     - **CSIRT (Computer Security Incident Response Team)**: a team responsible for coordinating and performing IR activities
     - **Security Case Study**: examines a real-world cyber attack, data breach, or defense implementation
@@ -171,8 +175,10 @@
     - **IDS/IPS (Intrusion Detection & Intrusion Prevention System):** passively monitors network traffic and generates alerts
     - **SOAR (Security Orchestration, Automation, and Response)**: coordinates security tools and automates investigation
     - **SOC (Security Operations Center)**: a centralized team or function that monitors, detects, and investigates,
+        - **Alert Triage**: reviewing, validating, and prioritizing security alerts to decide which need investigation
     - **Honeypot**: a decoy system or service designed to attract and observe attackers
 - **Vulnerability Management**: identifies, evaluates, prioritizes, and remediates security weaknesses
+    - **ASPM (Application Security Posture Management)**: correlates and prioritizes AppSec findings across an app's whole lifecycle
     - **Patch Management**: acquires, tests, deploys, and verifies software updates
         - **Server Patching**: applies updates to servers to remediate vulnerabilities, defects, and compatibility problems
 
