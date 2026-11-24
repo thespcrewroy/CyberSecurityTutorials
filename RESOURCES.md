@@ -7,6 +7,7 @@
     - ⭐️ CompTIA Security+
     - CompTIA CYSA+
 - AWS Certified Security – Specialty
+- Splunk Core Certified Power User
 - Splunk Certified Cybersecurity Defense Analyst  
 - Security Blue Team Blue Team Level 1 (BTL1)
 - Security Blue Team Blue Team Level 2 (BTL2)
