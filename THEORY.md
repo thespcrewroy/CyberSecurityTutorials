@@ -146,6 +146,7 @@
         - **Confidentiality**: ensures information is accessible only to authorized entities
         - **Integrity**: ensures information remains accurate, complete, and protected from unauthorized modification
         - **Availability**: ensures authorized entities can access information and systems when needed
+- **Input Validation**: checking that user input has the expected type, format, and range before using it
 - **Operational Security (OpSec)**: protects sensitive info getting to an adversary
     - **Adblock**: browser extensions that block ads and trackers
     - **Antivirus/Antimalware**: software that detects and removes malware
@@ -233,7 +234,7 @@
 - **ISP (Internet Service Providers)**: companies that provide internet connectivity
     - **Starlink**: satellite internet service provider
 - **LAN (Local Area Network)**: network connecting nearby devices
-- **Loopback:** virtual network interface that a computer uses to send network traffic to itself
+- **Loopback (Localhost):** virtual network interface that a computer uses to send network traffic to itself
 - **MAN (Metropolitan Area Network):** larger network that covers a town or an entire city
 - **MAC (Multimedia Access Control)**: likely meant MAC (Media Access Control) address
 - **Mirrors:** an exact copy of a file or website hosted on a traditional central server
