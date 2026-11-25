@@ -128,6 +128,7 @@
     - **Directory Access Protocol**: defines how applications query and modify directory information
         - **LDAP (Lightweight Directory Access Protocol)**: an open protocol for accessing and managing directory information
     - **GPO (Group Policy Object)**: a collection of Windows settings applied to users and computers in an Active Directory
+    - **Least Privilege**: giving each user, service, or agent only the permissions its job needs
     - **RBAC (Role-Based Access Control)**: assigns permissions to roles that are then assigned to users    
 - **Asset Management:** eal-time discovery, tracking, and protection of all hardware, software, and all asset classes in an organization
 - **Business Continuity and Disaster Recovery (BCDR):** helps companies stay open or fix problems fast when emergencies happen
@@ -448,6 +449,14 @@
     - **Keylogger Pico**: a compact device for capturing keyboard input during authorized testing
 - **Hardware Security Key**: a physical device used for secure authentication
 - **ICS (Industrial Control System)**: a system that monitors and controls industrial processes
+    - **Historian**: a database of time-stamped process data, like sensor readings, for trends and analysis
+    - **HMI (Human-Machine Interface)**: the screen or panel operators use to view and control a process
+    - **Industrial Protocol**: a protocol for reading and writing machine data in control systems
+        - **Modbus**: an older, widely used protocol for communication between controllers and devices
+        - **OPC UA (Open Platform Communications Unified Architecture)**: a modern protocol for machine data
+    - **OT (Operational Technology)**: systems that monitor and control physical processes, as opposed to IT
+    - **PLC (Programmable Logic Controller)**: a rugged industrial computer that runs real-time control logic
+        - **Safety Interlock**: automatic protection in the PLC that stops equipment when conditions are unsafe
     - **SCADA (Supervisory Control and Data Acquisition)**: an ICS architecture used to remotely control industrial operations
 - **Mouse Jiggler**: a USB device that simulates mouse activity to prevent a computer from becoming idle
 - **Multi-Boot USB**: a USB drive configured to boot multiple operating systems or recovery environments
