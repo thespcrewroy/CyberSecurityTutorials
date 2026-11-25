@@ -248,6 +248,7 @@
     - **Network Layer:** handles logical addressing and routes packets accross differnet networks
     - **Data Link Layer:** organizes bits into frames and uses MAC addresses for node-to-node transfer
     - **Physical Layer:** trasmits raw unstructured bitstreams accross physical cables or media
+- **Packet**: a single unit of data sent over a network, made of headers plus a payload
 - **Ports & Protocols**: endpoint numbers and rules for network services
 - **Proxies**: intermediary servers that relay network requests
 - **Segmentation:** splitting a large computer network into smaller isolated sub-networks
