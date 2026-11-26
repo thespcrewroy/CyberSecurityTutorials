@@ -263,6 +263,7 @@
 - **VoIP (Voice over Internet Protocol)**: transmits voice communications over IP networks
     - **SIP (Session Initiation Protocol)**: establishes, manages, and terminates voice or video sessions
 - **VPN (Virtual Private Network)**: secure tunnel for network communications
+    - **IPsec (Internet Protocol Security)**: a protocol suite that authenticates and encrypts IP packets, often for VPN tunnels
 - **WAN (Wide Area Network):** telecommunications network that extends over a large distance
 - **Wifi**: wireless local area networking technology
     - **PSK (Pre-Shared Key)**: shared secret used to secure Wi‑Fi

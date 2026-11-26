@@ -470,6 +470,7 @@
         - **[endlessh](https://github.com/skeeto/endlessh)**: an SSH tarpit that traps scanners by sending an endless banner
         - **[sshesame](https://github.com/jaksi/sshesame)**: a fake SSH server that logs attacker activity
     - **IDS/IPS (Intrusion Detection & Intrusion Prevention System)**
+        - **[Sguil](https://github.com/bammv/sguil)**: an analyst console for reviewing IDS alerts, session data, and packet captures
         - **[Snort](https://www.snort.org/)**: open-source network intrusion detection and prevention system
         - **[Suricata](https://docs.suricata.io/)**: an open-source intrusion-detection, intrusion-prevention, and network-monitoring engine
     - **[MS-ISAC](https://www.cisecurity.org/ms-isac)**: cybersecurity resources, threat intelligence, and incident-response support for SLTT governments
@@ -624,6 +625,7 @@
 - **[`cut`](https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html)**: a command-line utility that extracts selected fields or characters from each line
 - **[Datadog](https://docs.datadoghq.com/logs/)**: a cloud platform for monitoring logs, applications, infrastructure, and security events
 - **[ELK Stack](https://www.elastic.co/docs/get-started/the-stack)**: a collection of Elastic tools for ingesting, storing, searching, and visualizing log data
+    - **[Kibana](https://www.elastic.co/docs/explore-analyze)**: Elastic’s interface for searching, visualizing, and building dashboards on Elasticsearch data
 - **[EPOCH Converter](https://www.epochconverter.com/)**: converts Unix timestamps to and from human-readable dates
 - **[`grep` (Global Regular Expression Print)](https://www.gnu.org/software/grep/manual/grep.html)**: a command-line utility that searches text for matching patterns
 - **[JSON to CSV](https://csvjson.com/json2csv)**: converts JSON data into CSV for spreadsheet analysis
@@ -685,6 +687,8 @@
         - **[SIPVicious](https://github.com/EnableSecurity/sipvicious)**: a suite for auditing SIP-based VoIP systems
     - **[VoIP Hopper](https://github.com/hmgh0st/voiphopper)**: tests whether an attacker can hop into a voice VLAN
 - **VPN (Virtual Private Network)**
+    - **IPsec (Internet Protocol Security)**
+        - **[`setkey`](https://man.freebsd.org/cgi/man.cgi?query=setkey&sektion=8)**: a command-line utility for managing IPsec security associations and policies
     - **[Tailscale](https://tailscale.com/kb)**: a mesh VPN service that connects devices using WireGuard
     - **[WireGuard](https://www.wireguard.com/quickstart/)**: a modern, fast VPN protocol
 - **Wifi**
