@@ -310,6 +310,7 @@
     - **[ISO/IEC 27701](https://www.iso.org/standard/27701)**: international standard for establishing and maintaining a privacy information management system
     - **[ISO/IEC 42001](https://www.iso.org/standard/42001)**: international standard for managing AI governance, risks, and responsible AI use
     - **[NIST CSF (Cyber Security Framework)](https://www.nist.gov/cyberframework)**: a framework for understanding and managing cybersecurity risk
+    - **[NIST RMF (Risk Management Framework)](https://csrc.nist.gov/projects/risk-management/about-rmf)**: a seven-step SP 800-37 process for authorizing and monitoring systems
     - **[NIST SSDF (Secure Software Development Framework)](https://csrc.nist.gov/Projects/ssdf)**: providing recommended practices for integrating security
     - **[PCI-DSS (Payment Card Industry Data Security Standard)](https://www.pcisecuritystandards.org/standards/pci-dss/)**: requirements for handling cardholder data
     - **[SOC (System and Organization Controls)](https://www.aicpa-cima.com/resources/)**: audit standard for service organizations
