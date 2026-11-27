@@ -97,7 +97,6 @@
 - [4 August] [CSAW Embdedded Security Challenge (NYU) - Travel Required!](https://github.com/trustworthycomputing/csaw_esc_2026): global cyber competition
 - [1 September] [PwnSec](https://pwnsec.ctf.ae/): jeopardy-style CTF; ~registration remained available near the November 15 event
 - [2 September] [CSAW (NYU) - Travel Required!](https://csaw.io/): global cyber competition
-- [3 September] [Meta Flash CTF](https://app.metactf.com/): helps companies protect their employee and customer data cyber competition
 - [3 September] [Sunshine CTF (UCF)](https://sunshinectf.org/): welcomes both beginners and experienced players worldwide to solve security puzzles
 - [3 September] [Flare-On CTF Challenge](https://flare-on.com/): industry ctf thats made for benchmarking industry pros
 - [4 September] [CPTC (RIT) - Travel Required!](https://cp.tc/): collegiate penetration-testing competition
@@ -107,15 +106,16 @@
 - [2 October] [NCL CyberGames](https://nationalcyberleague.org/): collegiate individual and team cybersecurity competition
 - [2 October] [Meta Hacker Cup](https://www.facebook.com/codingcompetitions/hacker-cup): algorithmic programming competition
 - [4 October] [US Cyber Challenge](https://www.uscyberchallenge.org/): cybersecurity workforce-development program connected to CyberQuest
-- [4 October] [Meta Flash CTF](https://app.metactf.com/): helps companies protect their employee and customer data cyber competition
 - [2 November] [CyberForce Competition](https://cyberforce.energy.gov/cyberforce-competition/2026-competition/)
 - [3 November] [PatriotCTF (GMU)](https://competitivecyber.club/patriotctf/): beginner-friendly online CTF
 - [4 November] [tkCTF (GT) - Travel Required!](https://tc.gts3.org/cs6265/2024-fall/ctf.html): Georgia Tech binary-exploitation competition
 - [1 December] [0CTF](https://ctf.0ops.sjtu.cn/): advanced international CTF
+- [1 December] [TryHackMe - Advent of Code](https://tryhackme.com/adventofcyber26): hands-on beginner tasks with a holiday mystery storylin
 - [4 December] [ASISCTF](https://asisctf.com/): international jeopardy-style CTF
 - [2 January] [CCDC 0 - Travel Required!](https://www.nationalccdc.org/): collegiate network-defense competition
 - [2 January] [NSA Codebreaker Challenge](https://nsa-codebreaker.org/home): realistic NSA cybersecurity challenge
 - [3 January] [CyberQuest](https://uscc.cyberquests.org/): online cybersecurity challenge
+- [3 January] [MITRE eCTF](https://ectf.mitre.org/): two-phase CTF competition with attack and defense components
 - [4 January] [Real World CTF](https://realworldctf.com/): all challenges are built on the top of real world applications
 - [4 January] [NCAE CyberGames](https://www.ncaecybergames.org/): beginner-friendly collegiate competition
 - [1 February] [InsomniHack](https://insomnihack.ch/): Swiss on-site CTF
